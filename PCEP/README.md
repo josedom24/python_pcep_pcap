@@ -102,10 +102,48 @@
 
 4. Módulo 4: Funciones, Tuplas, Diccionarios y Procesamiento de Datos
     * Sección 1: Funciones
+        * Vídeo 1: Introducción a las funciones (1,2,3)
+        * Vídeo 2: Tu primera función (4,5)
+        * Vídeo 3: Resumen y cuestionario de la sección (6,7)
     * Sección 2: Cómo las funciones se comunican con su entorno
+        * Vídeo 1: Funciones parametrizadas (1)
+        * Vídeo 2: Paso de parámetros posicionales (2)
+        * Vídeo 3: Paso de parámetros por palabra clave (3,4)
+        * Vídeo 4: Parámetros predefinidos (5)
+        * Vídeo 5: Resumen y cuestionario de la sección (6,7)
     * Sección 3: Devolviendo el resultado de una función
+        * Vídeo 1: Efectos y resultados de una función (1,2)
+        * Vídeo 2: Listas y funciones (3)
+        * Vídeo 3: LAB: Un año bisiesto: escribiendo tus propias funciones (4)
+        * Vídeo 4: LAB: Cuántos días: escribiendo y usando tus propias funciones (5)
+        * Vídeo 5: LAB: Día del año: escribiendo y usando tus propias funciones (6)
+        * Vídeo 6: LAB: Números primos - cómo encontrarlos (7)
+        * Vídeo 7: LAB: Conversión del consumo de combustible (8)
+        * Vídeo 8: Resumen y cuestionario de la sección (9,10)
     * Sección 4: Ámbito de variables en Python
+        * Vídeo 1: Ámbito de variables y funciones (1)
+        * Vídeo 2: La palabra clave global (2,3)
+        * Vídeo 3: Resumen y cuestionario de la sección (4,5)    
     * Sección 5: Creación de funciones multiparámetro
+        * Vídeo 1: Ejemplos de funciones: Cálculo del IMC (1)
+        * Vídeo 2: Ejemplos de funciones: Triángulos (2)
+        * Vídeo 3: Ejemplos de funciones: Factoriales (3)
+        * Vídeo 4: Ejemplos de funciones: Números Fibonacci (4)
+        * Vídeo 5: Recursividad (5)
+        * Vídeo 6: Resumen y cuestionario de la sección (6,7)
     * Sección 6: Tuplas y diccionarios
+        * Vídeo 1: Tipos de secuencia y mutabilidad (1)
+        * Vídeo 2: Tuplas (2)
+        * Vídeo 3: Diccionarios (3)
+        * Vídeo 4: Métodos  y funciones de diccionarios (4)
+        * Vídeo 5: Trabajando con tuplas y diccionarios (5)
+        * Vídeo 6: Resumen y cuestionario de la sección (6,7)
     * Sección 7: Excepciones
+        * Vídeo 1: Errores en la programación (1,2)
+        * Vídeo 2: Excepciones en Python (3)
+        * Vídeo 3: Capturar más de una excepción (4,5,6)
+        * Vídeo 4: Pruebas de ejecución (8,9,10,12)
+        * Vídeo 5: Depuración de programas (11)
+        * Vídeo 6: Pruebas unitarias (13)
+        * Vídeo 7: Resumen y cuestionario de la sección (14,15)
     * Sección 8: Prueba del Módulo
