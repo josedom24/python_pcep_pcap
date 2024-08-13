@@ -2,14 +2,12 @@
 
 
 1. Módulo 1: Introducción a Python y a la programación de computadoras
-
     * Sección 1: Introducción a la programación
     * Sección 2: Introducción a Python
     * Sección 3: Descarga e instalación de Python
     * Sección 4: Prueba del Módulo
 
 2. Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-
     * Sección 1: El Programa "¡Hola, Mundo!"
         * Vídeo 1: La función print() (1-5, 6)
         * Vídeo 2: LAB: Trabajando con la función print() (5) 
@@ -50,7 +48,6 @@
     * Sección 7: Prueba del Módulo
 
 3. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-
     * Sección 1: Toma de decisiones en Python
         * Vídeo 1: Operador de igualdad (1-3)
         * Vídeo 2: Operadores lógicos (4,5)
@@ -61,7 +58,6 @@
         * Vídeo 7: LAB: Fundamentos de la sentencia if-else (11)
         * Vídeo 8: LAB: Fundamentos de la sentencia if-elif-else (12)
         * Vídeo 9: Resumen y cuestionario de la sección (13,14)
-        
     * Sección 2: Bucles en Python
         * Vídeo 1: Bucle while (1,2,3)
         * Vídeo 2: LAB: Adivina el número secreto (4)
@@ -75,19 +71,36 @@
         * Vídeo 10: LAB: Fundamentos del bucle while (14)
         * Vídeo 11: LAB: La hipótesis de Collatz (15)
         * Vídeo 12: Resumen y cuestionario de la sección (16,17)
-    
     * Sección 3: Operaciones lógicas y de bits en Python
         * Vídeo 1: Expresiones lógicas (1,2,3)
         * Vídeo 2: Operadores bit a bit (4,5,6)
-        * Vídeo 3: Resumen y cuestionario de la sección (7,8)
+        * Vídeo 3: Resumen y cuestionario de la sección (7,8) 
     * Sección 4: Listas
+        * Vídeo 1: Listas. Operaciones básicas (1-5)
+        * Vídeo 2: LAB: Los fundamentos de las listas (6)
+        * Vídeo 3: Introducción a los métodos. Añadir elementos a las listas (7,8)
+        * Vídeo 4: Uso de listas (9,10)
+        * Vídeo 5: LAB: Los fundamentos de las listas: los Beatles (11)
+        * Vídeo 6: Resumen y cuestionario de la sección (12,13)
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
+        * Vídeo 1: Ordenación de una lista por el algoritmo burbuja (1,2)
+        * Vídeo 2: Ordenación de una lista por el algoritmo burbuja, versión interactiva  (3)
+        * Vídeo 3: Resumen y cuestionario de la sección (4,5)
     * Sección 6: Operaciones con listas
+        * Vídeo 1: La listas son mutables (1)
+        * Vídeo 2: Rebanadas de listas (2,3)
+        * Vídeo 3: Operadores de pertenencia (4)
+        * Vídeo 4: Programas de ejemplo (5)
+        * Vídeo 5: LAB: Operaciones con listas: conceptos básicos (6)
+        * Vídeo 6: Resumen y cuestionario de la sección (7,8)
     * Sección 7: Listas en aplicaciones avanzadas
+        * Vídeo 1: Listas dentro de listas (1)
+        * Vídeo 2: Arreglos de dos dimensiones (2)
+        * Vídeo 3: Arreglos multidimensionales (3)
+        * Vídeo 4: Resumen y cuestionario de la sección (4)
     * Sección 8: Prueba del Módulo
 
 4. Módulo 4: Funciones, Tuplas, Diccionarios y Procesamiento de Datos
-
     * Sección 1: Funciones
     * Sección 2: Cómo las funciones se comunican con su entorno
     * Sección 3: Devolviendo el resultado de una función
