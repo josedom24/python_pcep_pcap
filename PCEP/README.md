@@ -52,8 +52,34 @@
 3. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
 
     * Sección 1: Toma de decisiones en Python
+        * Vídeo 1: Operador de igualdad (1-3)
+        * Vídeo 2: Operadores lógicos (4,5)
+        * Vídeo 3: LAB: Variables ‒ Preguntas y Respuestas (6)
+        * Vídeo 4: Condiciones y ejecución condicional (7,8)
+        * Vídeo 5: Introducción a los bucles (9)
+        * Vídeo 6: LAB: Operadores de comparación y ejecución condicional (10)
+        * Vídeo 7: LAB: Fundamentos de la sentencia if-else (11)
+        * Vídeo 8: LAB: Fundamentos de la sentencia if-elif-else (12)
+        * Vídeo 9: Resumen y cuestionario de la sección (13,14)
+        
     * Sección 2: Bucles en Python
+        * Vídeo 1: Bucle while (1,2,3)
+        * Vídeo 2: LAB: Adivina el número secreto (4)
+        * Vídeo 3: Bucle for (5,6)
+        * Vídeo 4: LAB: Fundamentos del bucle for – contando lentamente (mississippily) (7)
+        * Vídeo 5: Las sentencias break y continue (8)
+        * Vídeo 6: LAB: La sentencia break - atrapado en un bucle (9)
+        * Vídeo 7: LAB: La sentencia continue – el Feo Devorador de Vocales (10)
+        * Vídeo 8: LAB: La sentencia continue – el Lindo Devorador de Vocales (11)
+        * Vídeo 9: El bloque else en la instrucción while y for (12,13)
+        * Vídeo 10: LAB: Fundamentos del bucle while (14)
+        * Vídeo 11: LAB: La hipótesis de Collatz (15)
+        * Vídeo 12: Resumen y cuestionario de la sección (16,17)
+    
     * Sección 3: Operaciones lógicas y de bits en Python
+        * Vídeo 1: Expresiones lógicas (1,2,3)
+        * Vídeo 2: Operadores bit a bit (4,5,6)
+        * Vídeo 3: Resumen y cuestionario de la sección (7,8)
     * Sección 4: Listas
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
     * Sección 6: Operaciones con listas
