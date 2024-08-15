@@ -94,21 +94,47 @@
         * Vídeo 6: LAB - Colas alias FIFO (Parte 2)
         * Vídeo 7: Resumen y cuestionario de la sección 
     * Sección 3: POO: Propiedades
-        * Vídeo 1:  
-    * Sección 4: POO: Métodos
         * Vídeo 1: Variables de instancia
         * Vídeo 2: Variables de clase
         * Vídeo 3: Comprobando la existencia de un atributo
         * Vídeo 4: Resumen y cuestionario de la sección
+    * Sección 4: POO: Métodos
+        * Vídeo 1: Introducción a los métodos
+        * Vídeo 2: Propiedades y métodos predefinidos
+        * Vídeo 3: Trabajando con clases
+        * Vídeo 4: LAB - La clase Timer
+        * Vídeo 5: LAB - Días de la semana
+        * Vídeo 6: LAB - Puntos en un plano
+        * Vídeo 7: LAB - Tríangulo
+        * Vídeo 8: Resumen y cuestionario de la sección
     * Sección 5: Fundamentos de la POO: Herencia
-        * Vídeo 1: 
+        * Vídeo 1: Introducción a la herencia de clases
+        * Vídeo 2: Comprobación de la relación entre clases (2,3,4)
+        * Vídeo 3: Cómo Python encuentra propiedades y métodos
+        * Vídeo 4: Cómo construir una jerarquía de clases
+        * Vídeo 5: Herencia simple us herencia múltiple
+        * Vídeo 6: Ejemplos de herencia múltiple
+        * Vídeo 7: Resumen y cuestionario de la sección
     * Sección 6: Más sobre excepciones
-        * Vídeo 1: 
+        * Vídeo 1: Más acerca de excepciones
+        * Vídeo 2: Las excepciones son clases
+        * Vídeo 3: Anatomía detallada de las excepciones
+        * Vídeo 4: Cómo crear tu propia excepción
+        * Vídeo 5: Resumen y cuestionario de la sección
     * Sección 7: Prueba del Módulo
 
 5. Módulo 4: Misceláneos
     * Sección 1: Generadores, iteradores y cierres
-        * Vídeo 1: Archivos (flujos de archivos, procesamiento de archivos, diagnóstico de problemas de flujo)
+        * Vídeo 1: Generadores: donde encontrarlos
+        * Vídeo 2: La sentencia yield
+        * Vídeo 3: Cómo construir un generador
+        * Vídeo 4: Más acerca de listas por comprensión
+        * Vídeo 5: La función lambda
+        * Vídeo 6: ¿Cómo usar lambdas y para qué?
+        * Vídeo 7: Lambdas y la función map()
+        * Vídeo 8: Lambdas y la función filter()
+        * Vídeo 9: Una breve explicación de cierres
+        * Vídeo 10: Resumen y cuestionario de la sección
     * Sección 2: Archivos (flujos de archivos, procesamiento de archivos, diagnóstico de problemas de flujo)
         * Vídeo 1: 
     * Sección 3: Trabajando con archivos reales
