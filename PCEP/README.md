@@ -6,13 +6,13 @@
 1. Introducción al curso **Fundamentos de Python 1**
 2. Módulo 1: Introducción a Python y a la programación de computadoras
     * Sección 1: Introducción a la programación
-        * Vídeo 1: Programas de ordenador
-        * Vídeo 2: Lenguajes de programación
-        * Vídeo 3: Compilación us interpretación
+        * [Programas de ordenador](modulo1/seccion1/clase1.md)
+        * [Lenguajes de programación](modulo1/seccion1/clase2.md)
+        * [Compilación us interpretación](modulo1/seccion1/clase3.md)
     * Sección 2: Introducción a Python
-        * Vídeo 1: Introducción a Python
-        * Vídeo 2: ¿Por qué usar Python?
-        * Vídeo 3: Implementaciones de Python
+        * [Introducción a Python](modulo1/seccion2/clase1.md)
+        * [¿Por qué usar Python?](modulo1/seccion2/clase2.md)
+        * [Implementaciones de Python](modulo1/seccion2/clase3.md)
     * Sección 3: Descarga e instalación de Python
         * Vídeo 1: Instalación de Python
         * Vídeo 2: Herramientas para programar en Python
