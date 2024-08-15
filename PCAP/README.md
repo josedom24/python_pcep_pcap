@@ -30,7 +30,7 @@
         * Vídeo 5: Resumen y cuestionario de la sección (8,9)
     * Sección 5: Prueba del Módulo  
 3. Módulo 2: Cadenas, Métodos de Cadenas y Listas. Excepciones.
-    * Sección 1: Caracteres y Cadenas versus las Computadoras
+    * Sección 1: Caracteres y Cadenas versus los ordenadores
         * Vídeo 1: Los caracteres en los ordenadores (1)
         * Vídeo 2: Codificación de caracteres (2,3)
         * Vídeo 3: Resumen y cuestionario de la sección (4,5)

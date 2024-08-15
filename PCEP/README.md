@@ -4,7 +4,7 @@
 
 
 1. Introducción al curso **Fundamentos de Python 1**
-2. Módulo 1: Introducción a Python y a la programación de computadoras
+2. Módulo 1: Introducción a Python y a la programación de ordenadores
     * Sección 1: Introducción a la programación
         * [Programas de ordenador](modulo1/seccion1/clase1.md)
         * [Lenguajes de programación](modulo1/seccion1/clase2.md)

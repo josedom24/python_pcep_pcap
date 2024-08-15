@@ -1,4 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de computadoras
+# Módulo 1: Introducción a Python y a la programación de ordenadores
 ## Sección 1: Introducción a la programación
 ## Clase: Lenguajes de programación
 
@@ -33,6 +33,6 @@ Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los s
     * Están diseñados para que las personas escriban y entiendan los programas de un modo mucho más fácil que los lenguajes máquina. 
     * Un programa escrito en un lenguaje de alto nivel es independiente del tipo de ordenador (no depende del tipo de hardware).
     * Los programas escritos en lenguajes de alto nivel son portables o transportables, lo que significa la posibilidad de poder ser ejecutados con poca o ninguna modificación en diferentes tipos de ordenadores.
-    * Un programa escrito en un lenguaje de programación de alto nivel se denomina **código fuente** (en contraste con el código máquina ejecutado por las computadoras). Del mismo modo, el archivo que contiene el código fuente se denomina **archivo fuente**.
+    * Un programa escrito en un lenguaje de programación de alto nivel se denomina **código fuente** (en contraste con el código máquina ejecutado por los ordenadores). Del mismo modo, el archivo que contiene el código fuente se denomina **archivo fuente**.
     * Python es un lenguaje de programación de alto nivel.
 

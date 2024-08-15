@@ -1,4 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de computadoras
+# Módulo 1: Introducción a Python y a la programación de ordenadores
 ## Sección 1: Introducción a la programación
 ## Clase: Compilación us interpretación
 
@@ -47,7 +47,7 @@
 **Interpretación**
 * Ventajas:
     * Puedes ejecutar el código en cuanto lo completes; no hay fases adicionales de traducción.
-    * El código se almacena utilizando el lenguaje de programación, no el de la máquina; esto significa que puede ejecutarse en computadoras que utilizan diferentes lenguajes máquina; no se compila el código por separado para cada arquitectura diferente.
+    * El código se almacena utilizando el lenguaje de programación, no el de la máquina; esto significa que puede ejecutarse en ordenadores que utilizan diferentes lenguajes máquina; no se compila el código por separado para cada arquitectura diferente.
 * Desventajas:
     * No esperes que la interpretación incremente tu código a alta velocidad: tu código compartirá la potencia de la computadora con el intérprete, por lo que no puede ser realmente rápido.
     * Tanto tú como el usuario final deben tener el intérprete para ejecutar el código.
