@@ -21,4 +21,20 @@
 * Además de Python 2 y Python 3, hay más de una versión de cada uno.
 * Siguiendo la [Página wiki de Python](https://wiki.python.org/moin/PythonImplementations), una implementación de Python se refiere a "un programa o entorno que brinda soporte para la ejecución de programas escritos en el lenguaje Python, representado por la Implementación de Referencia de CPython.".
 * **CPython**:
-    * 
+    *  Mantenido desde la **PSF ([Python Software Foundation](https://www.python.org/psf-landing/))**, una comunidad que tiene como objetivo desarrollar, mejorar, expandir y popularizar Python y su entorno. 
+    * Se suele llamar Python canónico. 
+    * También se consideran Pythons de referencia, ya que cualquier otra implementación del lenguaje debe seguir todos los estándares establecidos por el PSF.
+    * Guido van Rossum utilizó el lenguaje de programación "C" para implementar la primera versión de su lenguaje y esta decisión aún está vigente. Todos los Pythons que provienen del PSF están escritos en el lenguaje "C". Existen muchas razones para este enfoque. Una de ellas (probablemente la más importante) es que gracias a ello, Python puede ser portado y migrado fácilmente a todas las plataformas con la capacidad de compilar y ejecutar programas en lenguaje "C" (virtualmente todas las plataformas tienen esta característica, lo que abre mucha expansión y oportunidades para Python).
+* **Cython**:
+    * Cython es una implementación más eficiente qye CPython.
+    * Los cálculos matemáticos grandes y complejos pueden ser fácilmente codificados en Python (mucho más fácil que en "C" o en cualquier otro lenguaje tradicional), pero la ejecución del código resultante puede requerir mucho tiempo.
+    * En esta implementación, el código Python se traduce a lenguaje "C", que se ejecuta más rápido que Python puro.
+* **Jython**:
+    * "J" es de "Java". Esta implementación de Python está escrito en Java en lugar de C. 
+    * Esto es útil, por ejemplo, si desarrollas sistemas grandes y complejos escritos completamente en Java y deseas agregarles cierta flexibilidad de Python.
+    * Jython puede comunicarse con la infraestructura Java existente de manera más efectiva. Es por esto que algunos proyectos lo encuentran útil y necesario.
+    * Nota: la implementación actual de Jython sigue los estándares de Python 2. Hasta ahora, no hay Jython conforme a Python 3.
+* **PyPy y RPython**:
+    *  Python dentro de un Python. Esta implementación es un entorno de Python escrito en un lenguaje similar a Python llamado RPython (Restricted Python). En realidad es un subconjunto de Python.
+    * El código fuente de PyPy no se interpreta, sino que se traduce al lenguaje de programación C y luego se ejecuta por separado.
+    * Esto es útil porque si deseas probar cualquier característica nueva que pueda ser o no introducida en la implementación de Python, es más fácil verificarla con PyPy que con CPython. Esta es la razón por la que PyPy es más una herramienta para las personas que desarrollan Python que para el resto de los usuarios.
