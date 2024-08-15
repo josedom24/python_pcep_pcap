@@ -11,7 +11,8 @@
         * Vídeo 3: Compilación us interpretación
     * Sección 2: Introducción a Python
         * Vídeo 1: Introducción a Python
-        * Vídeo 2: Implementaciones de Python
+        * Vídeo 2: ¿Por qué usar Python?
+        * Vídeo 3: Implementaciones de Python
     * Sección 3: Descarga e instalación de Python
         * Vídeo 1: Instalación de Python
         * Vídeo 2: Herramientas para programar en Python
