@@ -52,7 +52,7 @@
     * No esperes que la interpretación incremente tu código a alta velocidad: tu código compartirá la potencia de la computadora con el intérprete, por lo que no puede ser realmente rápido.
     * Tanto tú como el usuario final deben tener el intérprete para ejecutar el código.
 
-**Qué significa todo esto para ti?**
+### Qué significa todo esto para ti?
 
 * **Python es un lenguaje interpretado**. Esto significa que hereda todas las ventajas y desventajas descritas. Por supuesto, agrega algunas de sus características únicas a ambos conjuntos.
 * Si deseas programar en Python, necesitarás el **intérprete de Python**. No podrás ejecutar tu código sin él. Afortunadamente, Python es gratis. Esta es una de sus ventajas más importantes.
