@@ -17,6 +17,7 @@
         * Vídeo 1: Instalación de Python
         * Vídeo 2: Herramientas para programar en Python
         * Vídeo 3: Nuestro primer programa en Python
+        * Vídeo 4: Cómo estropear y arreglar tu código
     * Sección 4: Prueba del Módulo
     
 3. Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
