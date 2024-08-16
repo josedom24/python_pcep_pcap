@@ -14,10 +14,10 @@
         * [¿Por qué usar Python?](modulo1/seccion2/clase2.md)
         * [Implementaciones de Python](modulo1/seccion2/clase3.md)
     * Sección 3: Descarga e instalación de Python
-        * Vídeo 1: Instalación de Python
-        * Vídeo 2: Herramientas para programar en Python
-        * Vídeo 3: Nuestro primer programa en Python
-        * Vídeo 4: Cómo estropear y arreglar tu código
+        * [Instalación de Python](modulo1/seccion3/clase1.md)
+        * [Herramientas para programar en Python](modulo1/seccion3/clase2.md)
+        * [Nuestro primer programa en Python](modulo1/seccion3/clase3.md)
+        * [Cómo estropear y arreglar tu código](modulo1/seccion3/clase4.md)
     * Sección 4: Prueba del Módulo
     
 3. Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
