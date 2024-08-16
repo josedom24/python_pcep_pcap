@@ -19,7 +19,7 @@
         * [Nuestro primer programa en Python](modulo1/seccion3/clase3.md)
         * [Cómo estropear y arreglar tu código](modulo1/seccion3/clase4.md)
     * Sección 4: Prueba del Módulo
-    
+        * [Prueba del Módulo](modulo1/seccion4/test.md)
 3. Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
     * Sección 1: El Programa "¡Hola, Mundo!"
         * Vídeo 1: La función print() (1-5, 6)
