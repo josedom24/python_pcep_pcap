@@ -18,4 +18,4 @@ python3
 
 Y debe aparecer algo así:
 
-![python3](/img/python1.png)
+![python3](img/python1.png)
