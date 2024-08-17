@@ -35,3 +35,14 @@ print("¡Hola, Mundo!")
 3. **Python deja el código por un momento** y salta dentro de la función que se desea invocar; por lo tanto, también toma los argumentos y los pasa a la función.
 4. La función **ejecuta el código**, provoca el efecto deseado (si lo hubiera), evalúa el (los) resultado(s) deseado(s) y termina la tarea.
 5. Python regresa al código (al lugar inmediatamente después de la invocación) y reanuda su ejecución.
+
+### Resumen
+
+1. ¿Cuál es el efecto que causa la función `print()`?
+    * Toma los argumentos (puede aceptar más de un argumento y también puede aceptar menos de un argumento).
+    * Los convierte en un formato legible para el ser humano si es necesario (como puedes sospechar, las cadenas no requieren esta acción, ya que la cadena ya es legible).
+    * Envía los datos resultantes al dispositivo de salida (generalmente la consola); en otras palabras, cualquier cosa que se ponga en la función de `print()` aparecerá en la pantalla.
+2. ¿Qué argumentos espera `print()`?
+    Cualquiera. Te mostraremos pronto que `print()` puede operar con prácticamente todos los tipos de datos ofrecidos por Python. Cadenas, números, caracteres, valores lógicos, objetos: cualquiera de estos se puede pasar con éxito a `print()`
+3. ¿Qué valor evalúa la función `print()`?
+    Ninguno. Su efecto es suficiente. `print()` no devuelve nada.
