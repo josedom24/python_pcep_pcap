@@ -43,6 +43,8 @@ print("¡Hola, Mundo!")
     * Los convierte en un formato legible para el ser humano si es necesario (como puedes sospechar, las cadenas no requieren esta acción, ya que la cadena ya es legible).
     * Envía los datos resultantes al dispositivo de salida (generalmente la consola); en otras palabras, cualquier cosa que se ponga en la función de `print()` aparecerá en la pantalla.
 2. ¿Qué argumentos espera `print()`?
+    
     Cualquiera. Te mostraremos pronto que `print()` puede operar con prácticamente todos los tipos de datos ofrecidos por Python. Cadenas, números, caracteres, valores lógicos, objetos: cualquiera de estos se puede pasar con éxito a `print()`
 3. ¿Qué valor evalúa la función `print()`?
+    
     Ninguno. Su efecto es suficiente. `print()` no devuelve nada.
