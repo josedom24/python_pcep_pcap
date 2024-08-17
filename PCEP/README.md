@@ -22,13 +22,13 @@
         * [Prueba del Módulo](modulo1/seccion4/test.md)
 3. Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
     * Sección 1: El Programa "¡Hola, Mundo!"
-        * Vídeo 1: La función print()
-        * Vídeo 2: Invocación de funciones
-        * Vídeo 3: LAB - Trabajando con la función print() (5) 
-        * Vídeo 4: Los argumentos en las funciones (7-11)
-        * Vídeo 5: LAB - La función print() y sus argumentos (12)
-        * Vídeo 6: LAB - Dando forma a la salida (13)
-        * Vídeo 7: Resumen y cuestionario de la sección (14,15)
+        * [La función print()](modulo2/seccion1/clase1.md)
+        * [Invocación de funciones](modulo2/seccion1/clase2.md)
+        * [LAB - Trabajando con la función print()]()
+        * [Los argumentos en las funciones (7-11)]()
+        * [LAB - La función print() y sus argumentos (12)]()
+        * [LAB - Dando forma a la salida (13)]()
+        * [Resumen y cuestionario de la sección (14,15)]()
     * Sección 2: Literales de Python
         * Vídeo 1: Literales y tipos de datos (1)
         * Vídeo 2: Enteros (2)
