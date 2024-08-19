@@ -31,13 +31,13 @@
         * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion1/clase8.md)
     * Sección 2: Literales de Python
-        * Vídeo 1: Literales y tipos de datos (1)
-        * Vídeo 2: Enteros (2)
-        * Vídeo 3: Flotantes (3)
-        * Vídeo 4: Cadenas (4)
-        * Vídeo 5: valores Booleanos (5) 
-        * Vídeo 6: LABORATORIO - Literales de Python - Cadenas (6)
-        * Vídeo 7: Resumen y cuestionario de la sección (7,8)
+        * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
+        * Enteros
+        * Flotantes
+        * Cadenas
+        * valores Booleanos 
+        * LABORATORIO - Literales de Python - Cadenas
+        * Resumen y cuestionario de la sección
     * Sección 3: Operadores - herramientas de manipulación de datos
         * Vídeo 1: Operadores básicos (1,2)
         * Vídeo 2: Prioridades de operadores (3)
