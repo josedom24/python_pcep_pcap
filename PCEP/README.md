@@ -27,7 +27,7 @@
         * [LABORATORIO - Trabajando con la función print()](modulo2/seccion1/clase3.md)
         * [Instrucciones](modulo2/seccion1/clase4.md)
         * [Más sobre argumentos en funciones](modulo2/seccion1/clase5.md)
-        * [LABORATORIO - La función print() y sus argumentos]()
+        * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
         * [LABORATORIO - Dando forma a la salida]()
         * [Resumen y cuestionario de la sección (14,15)]()
     * Sección 2: Literales de Python
