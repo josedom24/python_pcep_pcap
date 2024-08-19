@@ -28,8 +28,8 @@
         * [Instrucciones](modulo2/seccion1/clase4.md)
         * [Más sobre argumentos en funciones](modulo2/seccion1/clase5.md)
         * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
-        * [LABORATORIO - Dando forma a la salida]()
-        * [Resumen y cuestionario de la sección (14,15)]()
+        * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
+        * [Resumen y cuestionario de la sección](modulo2/seccion1/clase8.md)
     * Sección 2: Literales de Python
         * Vídeo 1: Literales y tipos de datos (1)
         * Vídeo 2: Enteros (2)
