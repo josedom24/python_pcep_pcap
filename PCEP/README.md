@@ -25,7 +25,8 @@
         * [La función print()](modulo2/seccion1/clase1.md)
         * [Invocación de funciones](modulo2/seccion1/clase2.md)
         * [LABORATORIO - Trabajando con la función print()](modulo2/seccion1/clase3.md)
-        * [Instrucciones]()
+        * [Instrucciones](modulo2/seccion1/clase4.md)
+        * [Más sobre argumentos en funciones]
         * [LABORATORIO - La función print() y sus argumentos (12)]()
         * [LABORATORIO - Dando forma a la salida (13)]()
         * [Resumen y cuestionario de la sección (14,15)]()
