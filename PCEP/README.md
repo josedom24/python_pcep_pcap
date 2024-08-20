@@ -33,7 +33,7 @@
     * Sección 2: Literales de Python
         * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
         * [Enteros](modulo2/seccion2/clase2.md)
-        * Flotantes
+        * [Flotantes](modulo2/seccion2/clase3.md)
         * Cadenas
         * valores Booleanos 
         * LABORATORIO - Literales de Python - Cadenas
