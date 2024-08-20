@@ -37,7 +37,7 @@
         * [Cadenas](modulo2/seccion2/clase4.md)
         * [Valores Booleanos](modulo2/seccion2/clase5.md)
         * [LABORATORIO - Literales de Python - Cadenas](modulo2/seccion2/clase6.md)
-        * Resumen y cuestionario de la sección
+        * [Resumen y cuestionario de la sección](modulo2/seccion2/clase7.md)
     * Sección 3: Operadores - herramientas de manipulación de datos
         * Vídeo 1: Operadores básicos (1,2)
         * Vídeo 2: Prioridades de operadores (3)
