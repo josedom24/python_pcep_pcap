@@ -35,7 +35,7 @@
         * [Enteros](modulo2/seccion2/clase2.md)
         * [Flotantes](modulo2/seccion2/clase3.md)
         * [Cadenas](modulo2/seccion2/clase4.md)
-        * valores Booleanos 
+        * [Valores Booleanos](modulo2/seccion2/clase5.md)
         * LABORATORIO - Literales de Python - Cadenas
         * Resumen y cuestionario de la sección
     * Sección 3: Operadores - herramientas de manipulación de datos
