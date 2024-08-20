@@ -12,7 +12,7 @@ Muy fácil
 
 ### Objetivos
 
-* Familiarizarse con la función de print() y sus capacidades de formato.
+* Familiarizarse con la función de `print()` y sus capacidades de formato.
 * Experimentar con el código de Python.
 
 ### Escenario

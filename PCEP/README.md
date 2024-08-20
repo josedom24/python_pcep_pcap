@@ -36,7 +36,7 @@
         * [Flotantes](modulo2/seccion2/clase3.md)
         * [Cadenas](modulo2/seccion2/clase4.md)
         * [Valores Booleanos](modulo2/seccion2/clase5.md)
-        * LABORATORIO - Literales de Python - Cadenas
+        * [LABORATORIO - Literales de Python - Cadenas](modulo2/seccion2/clase6.md)
         * Resumen y cuestionario de la sección
     * Sección 3: Operadores - herramientas de manipulación de datos
         * Vídeo 1: Operadores básicos (1,2)
