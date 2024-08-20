@@ -40,7 +40,7 @@ Por otro lado, no solo el punto hace que un número sea flotante. Se puede utili
 
 Por ejemplo, la velocidad de la luz, expresada en metros por segundo. Escrita directamente se vería de la siguiente manera: `300000000`.
 
-Para evitar escribir tantos ceros, los libros de texto emplean la forma abreviada, la cual probablemente hayas visto: 3 x 10^8^. Se lee de la siguiente manera: tres por diez elevado a la octava potencia.
+Para evitar escribir tantos ceros, los libros de texto emplean la forma abreviada, la cual probablemente hayas visto: 3 x 10<sup>8</sup>. Se lee de la siguiente manera: tres por diez elevado a la octava potencia.
 
 En Python, el mismo número se puede representar con `3E8`. La letra `E` (también se puede utilizar la letra minúscula `e` - proviene de la palabra exponente) la cual significa por diez a la n potencia.
 
@@ -53,7 +53,7 @@ Nota:
 
 Veamos ahora como almacenar números que son muy pequeños (en el sentido de que están muy cerca del cero).
 
-Una constante de física denominada "La Constante de Planck" (denotada como h), de acuerdo con los libros de texto, tiene un valor de: 6.62607 x 10^-34^.
+Una constante de física denominada "La Constante de Planck" (denotada como h), de acuerdo con los libros de texto, tiene un valor de: 6.62607 x 10<sup>-34</sup>.
 
 Si se quisiera utilizar en un programa, se debería escribir de la siguiente manera: `6.62607E-34`
 
