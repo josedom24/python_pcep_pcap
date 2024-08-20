@@ -1,35 +1,52 @@
 # Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
 ## Sección 2: Literales de Python 
-## Clase: Literales y tipos de datos
+## Clase: Enteros
 
-### Literales, los datos en si mismos
+### Literales enteros
 
-Un literal se refiere a datos cuyos valores están determinados por el literal mismo. Los literales nos permiten representar valores.
+Los ordenadores guardan y operan con los números utilizando el sistema binario. Internamente todos los números se representan, se guardan y se operan utilizando 0 y 1.
 
-Por ejemplo, `123`. ¿Puedes adivinar qué valor representa? Claro que puedes: es *ciento veintitrés*.
-Otro ejemplo, `c`. ¿Representa algún valor? Tal vez. Puede ser el símbolo de la velocidad de la luz, por ejemplo. También puede representar la constante de integración. Incluso la longitud de una hipotenusa en el Teorema de Pitágoras. Existen muchas posibilidades. No se puede elegir el valor correcto sin algo de conocimiento adicional.
+No exploraremos las complejidades de los sistemas numéricos posicionales, pero se puede afirmar que todos los números manejados por los ordenadores son de dos tipos:
 
-Y esta es la pista: `123` es un literal, y `c` no lo es.
+* **Enteros**, es decir, aquellos que no tienen una parte fraccionaria.
+* Y números **punto-flotantes** (o simplemente **flotantes** o **reales**), los cuales contienen (o son capaces de contener) una parte fraccionaría.
 
-Se utilizan literales para codificar datos y ponerlos dentro del código. 
+Esta definición no es tan precisa, pero es suficiente por ahora. La distinción es muy importante, y la frontera entre estos dos tipos de números es muy estricta. Ambos tipos difieren significativamente en como son almacenados internamente en el ordenador y en el rango de valores que aceptan.
 
-Veamos el siguiente ejemplo:
+La característica del valor numérico que determina el tipo, rango y aplicación se denomina el **tipo**.
+
+Si se codifica un literal y se coloca dentro del código de Python, la forma del literal determina la representación (tipo) que Python utilizará para almacenarlo en la memoria.
+
+Por ahora, dejemos los números flotantes a un lado (regresaremos a ellos pronto) y analicemos como es que Python reconoce un número entero.
+
+Python entiende que un número es entero como un conjunto de dígitos sin ningún otro signo diferente a un número. Si queremos representar el número *once millones ciento once mil ciento once*, para Python la forma correcta sería `11111111`. Nosotros podríamos representarlos cómo: `11,111,111`, o así: `11.111.111`, incluso de esta manera: `11 111 111`, pero todas estas formas serían erróneas para Python.
+
+Es claro que la separación hace que sea más fácil de leer, especialmente cuando el número tiene demasiados dígitos. Sin embargo, Python no acepta estas cosas. Está prohibido. ¿Qué es lo que Python permite? El uso de guion bajo en los literales numéricos.
+
+Por lo tanto, el número se puede escribir ya sea así: `11111111`, o como sigue: `11_111_111`. Está última forma se puede hacer desde la versión 2.6 de Python para mejorar la legibilidad.
+
+¿Cómo se codifican los números negativos en Python? Como normalmente se hace, agregando un signo de menos. Se puede escribir: `-11111111`, o `-11_111_111`.
+
+Los números positivos no requieren un signo positivo antepuesto, pero es permitido, si se desea hacer. Las siguientes líneas describen el mismo número: `+11111111` y `11111111`.
+
+### Enteros: números octales y hexadecimales
+
+Existen dos convenciones adicionales en Python que no son conocidas en el mundo de las matemáticas. El primero nos permite utilizar un número en su representación octal (para le representación de los números se utilizan 8 dígitos del 0 al 7).
+
+Si un número entero esta precedido por un código `0O` o `0o` (cero-o), el número será tratado como un valor octal. Esto significa que el número debe contener dígitos en el rango del [0..7] únicamente.
+
+`0o123` es un número octal con un valor (decimal) igual a 83.
+
+La función `print()` realiza la conversión automáticamente. Intenta esto:
 
 ```
-print("2")
-print(2)
+print(0o123) 
 ```
 
-La segunda instrucción parece ser errónea debido a la falta visible de comillas. Intenta ejecutarlo. Si todo salió bien, ahora deberías de ver dos líneas idénticas. ¿Qué paso? ¿Qué significa?
+La segunda convención nos permite utilizar números en hexadecimal (para le representación de los números se utilizan 16 dígitos del 0 al F). Dichos números deben ser precedidos por el prefijo `0x` o `0X` (cero-x).
 
-Nos encontramos con dos tipos diferentes de literales:
+`0x123` es un número hexadecimal con un valor (decimal) igual a 291. La función `print()` puede manejar estos valores también. Intenta esto:
 
-* Una **cadena**, la cual ya conoces.
-* Y un **número entero**.
-
-La función `print()` los muestra exactamente de la misma manera. Sin embargo, internamente, aunque en la memoria del ordenador sólo se pueden guardar datos binarios (formados por 0 y 1), el carácter "2" de la cadena se guardara con su código binario correspondiente, el número entero 2, se guardará de forma binaria.
-
-En resumen, los valores que podemos representar con literales pueden ser de diferentes tipos:
-
-* **Literales numéricos**: Que nos permiten representar números enteros y fraccionarios (reales).
-* **Literales cadenas**: Nos permiten representar cadenas de caracteres. Para delimitar las cadenas podemos usar el carácter ' o el carácter ". 
+```
+print(0x123)
+```
