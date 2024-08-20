@@ -32,7 +32,7 @@
         * [Resumen y cuestionario de la sección](modulo2/seccion1/clase8.md)
     * Sección 2: Literales de Python
         * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
-        * Enteros
+        * [Enteros](modulo2/seccion2/clase2.md)
         * Flotantes
         * Cadenas
         * valores Booleanos 
