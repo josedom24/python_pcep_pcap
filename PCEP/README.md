@@ -34,7 +34,7 @@
         * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
         * [Enteros](modulo2/seccion2/clase2.md)
         * [Flotantes](modulo2/seccion2/clase3.md)
-        * Cadenas
+        * [Cadenas](modulo2/seccion2/clase4.md)
         * valores Booleanos 
         * LABORATORIO - Literales de Python - Cadenas
         * Resumen y cuestionario de la sección
