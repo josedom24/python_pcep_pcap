@@ -38,10 +38,10 @@
         * [Valores Booleanos](modulo2/seccion2/clase5.md)
         * [LABORATORIO - Literales de Python - Cadenas](modulo2/seccion2/clase6.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion2/clase7.md)
-    * Sección 3: Operadores - herramientas de manipulación de datos
-        * Vídeo 1: Operadores básicos (1,2)
-        * Vídeo 2: Prioridades de operadores (3)
-        * Vídeo 3: Resumen y cuestionario de la sección (4,5)
+    * Sección 3: Operadores, herramientas de manipulación de datos
+        * Operadores básicos (1,2)
+        * Prioridades de operadores (3)
+        * Resumen y cuestionario de la sección (4,5)
     * Sección 4: Variables
         * Vídeo 1: Trabajando con variables (1-6, 8)
         * Vídeo 2: LABORATORIO - Variables (7)
