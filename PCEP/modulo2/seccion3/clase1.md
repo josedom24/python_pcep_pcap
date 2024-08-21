@@ -1,6 +1,6 @@
 # Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
 ## Sección 3: Operadores, herramientas de manipulación de datos 
-## Clase: Operadores básicos
+## Clase: Introducción a los operadores y expresiones
 
 ### Python como una calculadora
 
@@ -35,31 +35,3 @@ El orden en el que aparecen no es por casualidad. Hablaremos más de ello cuando
 
 Recuerda: **Cuando los datos y operadores se unen**, forman juntos **expresiones**. **La expresión más sencilla es el literal**.
 
-### Exponenciación
-
-Un signo de `**` (doble asterisco) es un operador de **exponenciación (potencia)**. El argumento a la izquierda es la base, el de la derecha, el exponente.
-
-Las matemáticas clásicas prefieren una notación con superíndices, como el siguiente: 2<sup>3</sup>. Los editores de texto puros no aceptan esa notación, por lo tanto Python utiliza `**` en lugar de la notación matemática, por ejemplo, `2 ** 3`. Por ejemplo:
-
-```
-print(2 ** 3)
-print(2 ** 3.)
-print(2. ** 3)
-print(2. ** 3.)
-```
-
-Nota: En los ejemplos, los dobles asteriscos están rodeados de espacios, no es obligatorio hacerlo pero hace que el código sea mas legible.
-
-Los ejemplos muestran una característica importante de los operadores numéricos de Python.
-
-Ejecuta el código y observa cuidadosamente los resultados que arroja. ¿Puedes observar algo?
-
-Recuerda: Es posible formular las siguientes reglas con base en los resultados:
-
-* Cuando la base y el exponente son enteros, el resultado es entero también.
-* Cuando al menos, la base o el exponente es flotante, el resultado también es flotante.
-
-
-
-
-    

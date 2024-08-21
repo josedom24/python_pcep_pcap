@@ -39,7 +39,8 @@
         * [LABORATORIO - Literales de Python - Cadenas](modulo2/seccion2/clase6.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion2/clase7.md)
     * Sección 3: Operadores, herramientas de manipulación de datos
-        * [Operadores básicos](modulo2/seccion3/clase1.md)
+        * [Introducción a los operadores y expresiones](modulo2/seccion3/clase1.md)
+        * [Operadores básicos](modulo2/seccion3/clase2.md)
         * Prioridades de operadores (3)
         * Resumen y cuestionario de la sección (4,5)
     * Sección 4: Variables
