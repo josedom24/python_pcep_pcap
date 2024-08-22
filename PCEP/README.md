@@ -30,7 +30,7 @@
         * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
         * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion1/clase8.md)
-    * Sección 2: Literales de Python
+    * Sección 2: L ̣iterales de Python
         * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
         * [Enteros](modulo2/seccion2/clase2.md)
         * [Flotantes](modulo2/seccion2/clase3.md)
@@ -47,7 +47,7 @@
         * [Introducción a las variables](modulo2/seccion4/clase1.md)
         * [Trabajando con variables](modulo2/seccion4/clase2.md)
         * [LABORATORIO - Variables](modulo2/seccion4/clase3.md)
-        * LABORATORIO - Variables: un convertidor simple
+        * [LABORATORIO - Variables: un convertidor simple](modulo2/seccion4/clase4.md)
         * LABORATORIO - Operadores y expresiones
         * Resumen y cuestionario de la sección
     * Sección 5: Comentarios
