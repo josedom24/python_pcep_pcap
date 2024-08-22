@@ -43,16 +43,16 @@
 
 2. ¿Cuáles de los siguientes nombres de variables son ilegales en Python?
 
-```
-my_var
-m
-101
-averylongvariablename
-m101
-m 101
-Del
-del
-```
+    ```
+    my_var
+    m
+    101
+    averylongvariablename
+    m101
+    m 101
+    Del
+    del
+    ```
 
 3. ¿Cuál es el resultado del siguiente fragmento de código?
 
@@ -103,7 +103,7 @@ del
     ```
     1.0
     ```
-    
+
     Explicación:
 
     ```
