@@ -49,7 +49,7 @@
         * [LABORATORIO - Variables](modulo2/seccion4/clase3.md)
         * [LABORATORIO - Variables: un convertidor simple](modulo2/seccion4/clase4.md)
         * [LABORATORIO - Operadores y expresiones](modulo2/seccion4/clase5.md)
-        * Resumen y cuestionario de la sección
+        *[ Resumen y cuestionario de la sección](modulo2/seccion4/clase6.md)
     * Sección 5: Comentarios
         * Vídeo 1: Comentarios (1,2)
         * Vídeo 2: LABORATORIO - Comentarios (3)
