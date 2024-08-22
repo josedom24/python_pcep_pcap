@@ -44,11 +44,12 @@
         * [Prioridad de operadores](modulo2/seccion3/clase3.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion3/clase4.md)
     * Sección 4: Variables
-        * Vídeo 1: Trabajando con variables (1-6, 8)
-        * Vídeo 2: LABORATORIO - Variables (7)
-        * Vídeo 3: LABORATORIO - Variables: un convertidor simple (9)
-        * Vídeo 4: LABORATORIO - Operadores y expresiones (10)
-        * Vídeo 5: Resumen y cuestionario de la sección (11,12)
+        * [Introducción a las variables](modulo2/seccion4/clase1.md)
+        * [Trabajando con variables](modulo2/seccion4/clase2.md)
+        * LABORATORIO - Variables (7)
+        * LABORATORIO - Variables: un convertidor simple (9)
+        * LABORATORIO - Operadores y expresiones (10)
+        * Resumen y cuestionario de la sección (11,12)
     * Sección 5: Comentarios
         * Vídeo 1: Comentarios (1,2)
         * Vídeo 2: LABORATORIO - Comentarios (3)
