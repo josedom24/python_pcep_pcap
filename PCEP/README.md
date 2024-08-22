@@ -30,7 +30,7 @@
         * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
         * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion1/clase8.md)
-    * Sección 2: L ̣iterales de Python
+    * Sección 2: Literales de Python
         * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
         * [Enteros](modulo2/seccion2/clase2.md)
         * [Flotantes](modulo2/seccion2/clase3.md)
