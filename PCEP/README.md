@@ -46,10 +46,10 @@
     * Sección 4: Variables
         * [Introducción a las variables](modulo2/seccion4/clase1.md)
         * [Trabajando con variables](modulo2/seccion4/clase2.md)
-        * LABORATORIO - Variables (7)
-        * LABORATORIO - Variables: un convertidor simple (9)
-        * LABORATORIO - Operadores y expresiones (10)
-        * Resumen y cuestionario de la sección (11,12)
+        * [LABORATORIO - Variables](modulo2/seccion4/clase3.md)
+        * LABORATORIO - Variables: un convertidor simple
+        * LABORATORIO - Operadores y expresiones
+        * Resumen y cuestionario de la sección
     * Sección 5: Comentarios
         * Vídeo 1: Comentarios (1,2)
         * Vídeo 2: LABORATORIO - Comentarios (3)
