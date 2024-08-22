@@ -41,7 +41,7 @@
     * Sección 3: Operadores, herramientas de manipulación de datos
         * [Introducción a los operadores y expresiones](modulo2/seccion3/clase1.md)
         * [Operadores básicos](modulo2/seccion3/clase2.md)
-        * Prioridades de operadores y su asociatividad (3)
+        * Prioridad de operadores
         * Resumen y cuestionario de la sección (4,5)
     * Sección 4: Variables
         * Vídeo 1: Trabajando con variables (1-6, 8)
