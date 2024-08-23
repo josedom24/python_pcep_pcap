@@ -51,9 +51,9 @@
         * [LABORATORIO - Operadores y expresiones](modulo2/seccion4/clase5.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion4/clase6.md)
     * Sección 5: Comentarios
-        * Vídeo 1: Comentarios (1,2)
-        * Vídeo 2: LABORATORIO - Comentarios (3)
-        * Vídeo 3: Resumen y cuestionario de la sección (4,5)
+        * [Comentarios](modulo2/seccion5/clase1.md)
+        * LABORATORIO - Comentarios (3)
+        * Resumen y cuestionario de la sección (4,5)
     * Sección 6: Interacción con el usuario
         * Vídeo 1: La función input () (1,2,3,4)
         * Vídeo 2: Conversión de tipos (5,6)
