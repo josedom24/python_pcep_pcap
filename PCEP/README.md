@@ -52,8 +52,8 @@
         * [Resumen y cuestionario de la sección](modulo2/seccion4/clase6.md)
     * Sección 5: Comentarios
         * [Comentarios](modulo2/seccion5/clase1.md)
-        * LABORATORIO - Comentarios (3)
-        * Resumen y cuestionario de la sección (4,5)
+        * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
+        * [Resumen y cuestionario de la sección](modulo2/seccion5/clase3.md)
     * Sección 6: Interacción con el usuario
         * Vídeo 1: La función input () (1,2,3,4)
         * Vídeo 2: Conversión de tipos (5,6)
