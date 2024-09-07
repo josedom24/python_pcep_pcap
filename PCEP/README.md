@@ -63,7 +63,7 @@
         * [LABORATORIO - Operadores y expresiones (2ª parte)](modulo2/seccion6/clase6.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion6/clase7.md)
     * Sección 7: Prueba del Módulo
-
+        * [Prueba del Módulo](modulo2/seccion7/test.md)
 4. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
     * Sección 1: Toma de decisiones en Python
         * Vídeo 1: Operador de igualdad (1-3)
