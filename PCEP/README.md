@@ -55,13 +55,13 @@
         * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
         * [Resumen y cuestionario de la sección](modulo2/seccion5/clase3.md)
     * Sección 6: Interacción con el usuario
-        * Vídeo 1: La función input () (1,2,3,4)
-        * Vídeo 2: Conversión de tipos (5,6)
-        * Vídeo 3: Operadores de cadena (7,8)
-        * Vídeo 4: LABORATORIO - Entradas y salidas simples (9)
-        * Vídeo 5: LABORATORIO - Operadores y expresiones (10)
-        * Vídeo 6: LABORATORIO - LABORATORIO   Operadores y expresiones (2ª parte) (11)
-        * Vídeo 7: Resumen y cuestionario de la sección (12,13)
+        * [La función input()](modulo2/seccion6/clase1.md)
+        * Conversión de tipos (5,6)
+        * Operadores de cadena (7,8)
+        * LABORATORIO - Entradas y salidas simples (9)
+        * LABORATORIO - Operadores y expresiones (10)
+        * LABORATORIO - LABORATORIO   Operadores y expresiones (2ª parte) (11)
+        * Resumen y cuestionario de la sección (12,13)
     * Sección 7: Prueba del Módulo
 
 4. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
