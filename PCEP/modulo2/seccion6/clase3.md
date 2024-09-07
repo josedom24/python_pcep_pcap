@@ -61,3 +61,23 @@ print("+" + 10 * "-" + "+")
 ```
 
 Nota como se ha utilizado el paréntesis en la segunda línea de código. ¡Intenta practicar para crear otras figuras o tus propias obras de arte!.
+
+### Conversión de tipos de datos: str()
+
+A estas alturas ya sabes como emplear las funciones `int()` y `float()` para convertir una cadena a un número.
+
+Este tipo de conversión no es en un solo sentido. También se puede convertir un numero a una cadena, con la función `str()`.
+
+```
+str(número)
+```
+
+Podemos volver al ejemplo del cálculo de la hipotenusa en el triángulo rectángulo. Veamos una nueva versión:
+
+```
+leg_a = float(input("Inserta la longitud del primer cateto: "))
+leg_b = float(input("Inserta la longitud del segundo cateto: "))
+print("La longitud de la hipotenusa es " + str((leg_a**2 + leg_b**2) ** .5))
+```
+
+Se ha modificado un poco para mostrar cómo es que la función `str()` trabaja. Gracias a esto y al uso del operador de concatenación, podemos pasar el resultado entero a la función `print()` como una sola cadena, sin utilizar las comas.

@@ -58,10 +58,10 @@
         * [La función input()](modulo2/seccion6/clase1.md)
         * [Conversión de datos (casting)](modulo2/seccion6/clase2.md)
         * [Operadores de cadena](modulo2/seccion6/clase3.md)
-        * LABORATORIO - Entradas y salidas simples (9)
-        * LABORATORIO - Operadores y expresiones (10)
-        * LABORATORIO - LABORATORIO   Operadores y expresiones (2ª parte) (11)
-        * Resumen y cuestionario de la sección (12,13)
+        * LABORATORIO - Entradas y salidas simples
+        * LABORATORIO - Operadores y expresiones
+        * LABORATORIO - LABORATORIO   Operadores y expresiones (2ª parte)
+        * Resumen y cuestionario de la sección
     * Sección 7: Prueba del Módulo
 
 4. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
