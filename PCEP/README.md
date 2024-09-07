@@ -58,9 +58,9 @@
         * [La función input()](modulo2/seccion6/clase1.md)
         * [Conversión de datos (casting)](modulo2/seccion6/clase2.md)
         * [Operadores de cadena](modulo2/seccion6/clase3.md)
-        * LABORATORIO - Entradas y salidas simples
-        * LABORATORIO - Operadores y expresiones
-        * LABORATORIO - LABORATORIO   Operadores y expresiones (2ª parte)
+        * [LABORATORIO - Entradas y salidas simples](modulo2/seccion6/clase4.md)
+        * [LABORATORIO - Operadores y expresiones](modulo2/seccion6/clase5.md)
+        * [LABORATORIO - Operadores y expresiones (2ª parte)](modulo2/seccion6/clase6.md)
         * Resumen y cuestionario de la sección
     * Sección 7: Prueba del Módulo
 
