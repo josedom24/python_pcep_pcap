@@ -61,7 +61,7 @@
         * [LABORATORIO - Entradas y salidas simples](modulo2/seccion6/clase4.md)
         * [LABORATORIO - Operadores y expresiones](modulo2/seccion6/clase5.md)
         * [LABORATORIO - Operadores y expresiones (2ª parte)](modulo2/seccion6/clase6.md)
-        * Resumen y cuestionario de la sección
+        * [Resumen y cuestionario de la sección](modulo2/seccion6/clase7.md)
     * Sección 7: Prueba del Módulo
 
 4. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
