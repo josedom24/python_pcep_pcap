@@ -56,8 +56,8 @@
         * [Resumen y cuestionario de la sección](modulo2/seccion5/clase3.md)
     * Sección 6: Interacción con el usuario
         * [La función input()](modulo2/seccion6/clase1.md)
-        * Conversión de tipos (5,6)
-        * Operadores de cadena (7,8)
+        * [Conversión de datos (casting)](modulo2/seccion6/clase2.md)
+        * Operadores de cadena
         * LABORATORIO - Entradas y salidas simples (9)
         * LABORATORIO - Operadores y expresiones (10)
         * LABORATORIO - LABORATORIO   Operadores y expresiones (2ª parte) (11)
