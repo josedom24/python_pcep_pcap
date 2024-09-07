@@ -19,7 +19,7 @@
 
 ### Cuestionario de sección
 
-1.  ¿Cuál es el resultado del siguiente fragmento?
+1. ¿Cuál es el resultado del siguiente fragmento?
 
 ```
 # print("Cadena #1")
