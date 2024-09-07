@@ -32,10 +32,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
 
 3. El valor veinte punto doce por diez elevado a la potencia de ocho debe escribirse como:
 
-    * 20.12E8.0
-    * 20.12*10^8
-    * 20.12E8
-    * 20E12.8
+    * `20.12E8.0`
+    * `20.12*10^8`
+    * `20.12E8`
+    * `20E12.8`
 
 4. El prefijo `0o` significa que el número que le sigue se denota como:
 
@@ -102,10 +102,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(x, y)
     ```
 
-    * 1 2
-    * 1 1
-    * 2 2
-    * 2 1
+    * `1 2`
+    * `1 1`
+    * `2 2`
+    * `2 1`
 
 12. ¿Cuál es el resultado del siguiente fragmento si el usuario ingresa dos líneas que contienen 2 y 4 respectivamente?
 
@@ -115,10 +115,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(x + y)
     ```
 
-    * 4
-    * 24
-    * 2
-    * 6
+    * `4`
+    * `24`
+    * `2`
+    * `6`
 
 13. ¿Cuál es el resultado del siguiente fragmento de código si el usuario ingresa dos líneas que contienen 2 y 4 respectivamente?
 
@@ -133,9 +133,9 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     ```
 
     * El código causará un error de ejecución.
-    * 2.0
-    * 8.0
-    * 4.0
+    * `2.0`
+    * `8.0`
+    * `4.0`
 
 14. ¿Cuál es el resultado del siguiente fragmento si el usuario ingresa dos líneas que contienen 2 y 4 respectivamente?
 
@@ -149,10 +149,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(y)
     ```
 
-    * 4.0
+    * `4.0`
     * El código causará un error de ejecución.
-    * 8.0
-    * 2.0
+    *`8.0`
+    *`2.0`
 
 15. ¿Cuál es el resultado del siguiente fragmento si el usuario ingresa dos líneas que contienen 11 y 4 respectivamente?
 
@@ -167,10 +167,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(y)
     ```
 
-    * 1
-    * 2
-    * 3
-    * 4
+    * `1`
+    * `2`
+    * `3`
+    * `4`
 
 16. ¿Cuál es el resultado del siguiente fragmento si el usuario ingresa dos líneas que contienen 3 y 6 respectivamente?
 
@@ -181,10 +181,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(x * y)
     ```
 
-    * 36
-    * 18
-    * 666
-    * 333333
+    * `36`
+    * `18`
+    * `666`
+    * `333333`
 
 17. ¿Cuál es el resultado del siguiente fragmento?
 
@@ -205,9 +205,9 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(Y)
     ```
 
-    * 17.0
-    * 25.
-    * 17
+    * `17.0`
+    * `25.`
+    * `17`
     * El fragmento provocará un error de ejecución.
 
 19. ¿Cuál es el resultado del siguiente fragmento?
@@ -217,10 +217,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(x) 
     ```
 
-    * 17.5
-    * 17
-    * 8.5
-    * 8
+    * `17.5`
+    * `17`
+    * `8.5`
+    * `8`
 
 20. ¿Cuál es el resultado del siguiente fragmento si el usuario ingresa dos líneas que contienen 2 y 4 respectivamente?
 
@@ -231,7 +231,7 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     print(x + y) 
     ```
 
-    * 4
-    * 24
-    * 2
-    * 6
+    * `4`
+    * `24`
+    * `2`
+    * `6`
