@@ -67,7 +67,7 @@
 4. Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
     * Sección 1: Toma de decisiones en Python
         * [Operadores de comparación](modulo3/seccion1/clase1.md)
-        * LABORATORIO ‒ Preguntas y Respuestas (6)
+        * [LABORATORIO ‒ Preguntas y Respuestas](modulo3/seccion1/clase2.md)
         * Condiciones y ejecución condicional (7,8)
         * Introducción a los bucles (9)
         * LABORATORIO - Operadores de comparación y ejecución condicional (10)
