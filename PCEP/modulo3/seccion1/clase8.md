@@ -113,26 +113,129 @@
 
  ### Cuestionario de sección
 
-1. ¿Cuál es la salida del siguiente código?
+1. ¿Cuál es la salida del siguiente fragmento de código?
 
 ```
-x = int(input("Ingresa un número: ")) # El usuario ingresa un 2 
-print(x * "5")
+x = 5
+y = 10
+z = 8
+
+print(x > y)
+print(y > z)
 ```
 
-2. ¿Cuál es la salida esperada del siguiente código?
+2. ¿Cuál es la salida del siguiente fragmento de código?
 
 ```
-x = input("Ingresa un número: ") # El usuario ingresa un 2 
-print(type(x))
+x, y, z = 5, 10, 8
+
+print(x > z)
+print((y - 5) == x)
+```
+
+3. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+x, y, z = 5, 10, 8
+x, y, z = z, y, x
+
+print(x > z)
+print((y - 5) == x)
+```
+
+4. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+x = 10
+
+if x == 10:
+    print(x == 10)
+if x > 5:
+    print(x > 5)
+if x < 10:
+    print(x < 10)
+else:
+    print("else")
+```
+
+5. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+x = "1"
+
+if x == 1:
+    print("uno")
+elif x == "1":
+    if int(x) > 1:
+        print("dos")
+    elif int(x) < 1:
+        print("tres")
+    else:
+        print("cuatro")
+if int(x) == 1:
+    print("cinco")
+else:
+    print("seis")
+```
+
+6. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+x = 1
+y = 1.0
+z = "1"
+
+if x == y:
+    print("uno")
+if y == int(z):
+    print("dos")
+elif x == y:
+    print("tres")
+else:
+    print("cuatro")
 ```
 
 ### Solución cuestionario
 
 1. Pregunta 1:
 
-`55`
+```
+False
+True
+```
 
 2. Pregunta 2:
 
-`<class 'str'>`
+```
+False
+True
+```
+
+3. Pregunta 3:
+
+```
+True
+False
+```
+
+4. Pregunta 4:
+
+```
+True
+True
+else
+```
+
+5. Pregunta 5:
+
+```
+cuatro
+cinco
+```
+
+6. Pregunta 6:
+
+```
+uno
+dos
+```
