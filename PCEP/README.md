@@ -68,7 +68,8 @@
     * Sección 1: Toma de decisiones en Python
         * [Operadores de comparación](modulo3/seccion1/clase1.md)
         * [LABORATORIO ‒ Preguntas y Respuestas](modulo3/seccion1/clase2.md)
-        * Condiciones y ejecución condicional (7,8)
+        * [Condiciones y ejecución condicional](modulo3/seccion1/clase3.md)
+        * Ejemplos de estructuras condicionales
         * Introducción a los bucles (9)
         * LABORATORIO - Operadores de comparación y ejecución condicional (10)
         * LABORATORIO - Fundamentos de la sentencia if-else (11)
