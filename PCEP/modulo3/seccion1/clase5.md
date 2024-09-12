@@ -33,14 +33,12 @@ Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un ESPATIFIL
 
 ### Datos de Prueba
 
-Entrada de muestra: `espatifilo`
-Resultado esperado: `No, ¡quiero un gran ESPATIFILIO!`
-
-Entrada de ejemplo: `pelargonio`
-Resultado esperado: `!ESPATIFILIO!, ¡No pelargonio!`
-
-Entrada de muestra: `ESPATIFILIO`
-Resultado esperado: `Si, ¡El ESPATIFILIO es la mejor planta de todos los tiempos! `
+* Entrada de muestra: `espatifilo`
+    * Resultado esperado: `No, ¡quiero un gran ESPATIFILIO!`
+* Entrada de ejemplo: `pelargonio`
+    * Resultado esperado: `!ESPATIFILIO!, ¡No pelargonio!`
+* Entrada de muestra: `ESPATIFILIO`
+    * Resultado esperado: `Si, ¡El ESPATIFILIO es la mejor planta de todos los tiempos! `
 
 ### Solución
 
