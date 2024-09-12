@@ -106,3 +106,97 @@ La ejecución de if-else es la siguiente:
 * Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la sentencia condicional llega a su fin.
 
 
+### La sentencia if-else: más sobre ejecución condicional
+
+Al utilizar esta forma de sentencia condicional, podemos describir nuestros planes de la siguiente manera:
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+else:
+    go_to_a_theater()
+have_lunch()
+```
+
+Si el clima es bueno, saldremos a caminar. De lo contrario, iremos al cine. No importa si el clima es bueno o malo, almorzaremos después (después de la caminata o después de ir al cine).
+
+Todo lo que hemos dicho sobre la sangría funciona de la misma manera dentro de la rama else :
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+    have_fun()
+else:
+    go_to_a_theater()
+    enjoy_the_movie()
+have_lunch()
+```
+
+### Sentencias if-else anidadas
+
+Ahora, analicemos dos casos especiales de la sentencia condicional.
+
+Primero, considera el caso donde la instrucción colocada después del if es otro if.
+
+El ejemplo podría ser el siguiente: 
+
+Si hay buen clima, saldremos a caminar. Si encontramos un buen restaurante, almorzaremos allí. De lo contrario, vamos a comer un sandwich. Si hay mal clima, iremos al cine. Si no hay boletos, iremos de compras al centro comercial más cercano.
+
+Escribamos lo mismo en Python. Considera cuidadosamente el código siguiente:
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+    if nice_restaurant_is_found:
+        have_lunch()
+    else:
+        eat_a_sandwich()
+else:
+    if tickets_are_available:
+        go_to_the_theater()
+    else:
+        go_shopping()
+```
+
+Aquí hay dos puntos importantes:
+
+* Este uso de la sentencia if se conoce como **anidamiento**; recuerda que cada `else` se refiere al `if` que se encuentra en el mismo nivel de sangría; se necesita saber esto para determinar cómo se relacionan los `if` y los `else`.
+* Considera como la sangría mejora la legibilidad y hace que el código sea más fácil de entender y rastrear.
+
+## La sentencia elif
+
+El segundo caso especial presenta otra nueva palabra clave de Python: **elif**. Como probablemente sospechas, es una forma más corta de else-if.
+
+`elif` se usa para verificar más de una condición, y para detener cuando se encuentra la primera sentencia verdadera.
+
+Nuestro siguiente ejemplo se parece a la anidación, pero las similitudes son muy leves. Nuevamente, cambiaremos nuestros planes y los expresaremos de la siguiente manera: si hay buen clima, saldremos a caminar, de lo contrario, si obtenemos entradas, iremos al cine, de lo contrario, si hay mesas libres en el restaurante, vamos a almorzar; si todo falla, regresaremos a casa y jugaremos ajedrez.
+
+¿Has notado cuantas veces hemos usado la palabra de lo contrario? Esta es la etapa en la que la palabra clave reservada `elif` desempeña su función.
+
+Escribamos el mismo escenario empleando Python:
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+elif tickets_are_available:
+    go_to_the_theater()
+elif table_is_available:
+    go_for_lunch()
+else:
+    play_chess_at_home()
+```
+
+La forma de ensamblar las siguientes sentencias `if-elif-else` a veces se denomina **cascada**.
+
+Observa de nuevo como la sangría mejora la legibilidad del código.
+
+Se debe prestar atención adicional a este caso:
+
+* No debes usar `else` sin un `if` precedente.
+* `else` siempre es la última rama de la cascada, independientemente de si has usado `elif` o no.
+* `else` es una parte opcional de la cascada, y puede omitirse.
+* Si hay una rama `else` en la cascada, solo se ejecuta una de todas las ramas.
+* Si no hay una rama `else`, es posible que no se ejecute ninguna de las opciones disponibles.
+
+
+
