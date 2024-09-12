@@ -17,16 +17,18 @@
 
 2. Cuando deseas ejecutar algún código solo si se cumple una determinada condición, puedes usar una sentencia condicional:
 
-    Una única sentencia if, por ejemplo:
+    * Una única sentencia `if`, por ejemplo:
 
+    ```
     x = 10
 
     if x == 10: # condición
         print("x es igual a 10")  # Ejecutado si la condición es Verdadera.
+    ```
 
+    * Una serie de sentencias `if`, por ejemplo:
 
-    Una serie de sentencias if, por ejemplo:
-
+    ```
     x = 10
 
     if x > 5: # primera condición
@@ -37,15 +39,13 @@
 
     if x == 10: # tercera condición
         print("x is equal to 10")  # Ejecutado si la tercera condición es Verdadera.
-        
+    ```        
 
-    Cada sentencia if se prueba por separado.
+    Cada sentencia `if` se prueba por separado.
 
+    * Una sentencia de `if-else`, por ejemplo:
 
-
-
-    Una sentencia de if-else, por ejemplo:
-
+    ```
     x = 10
 
     if x < 10:  # Condición
@@ -53,10 +53,11 @@
 
     else:
         print("x es mayor o igual a 10")  # Ejecutado si la condición es Falsa.
+    ```
 
+    * Una serie de sentencias `if` seguidas de un else, por ejemplo:
 
-    Una serie de sentencias if seguidas de un else, por ejemplo:
-
+    ```
     x = 10
 
     if x > 5:  # True
@@ -67,16 +68,16 @@
 
     if x > 10:  # False
         print("x > 10")
-
     else:
         print("se ejecutará el else")
+    ```
 
+    Cada `if` se prueba por separado. El cuerpo de `else` se ejecuta si el último `if` es `False`.
+    
+    * La sentencia `if-elif-else`, por ejemplo:
 
-    Cada if se prueba por separado. El cuerpo de else se ejecuta si el último if es False.
-    La sentencia if-elif-else, por ejemplo:
-
+    ```
     x = 10
-
     if x == 10:  # True
         print("x == 10")
 
@@ -91,13 +92,14 @@
 
     else:
         print("else no será ejecutado")
+    ```
 
+    Si la condición para `if` es `False`, el programa verifica las condiciones de los bloques `elif` posteriores: el primer `elif` que sea `True` es el que se ejecuta. Si todas las condiciones son `False`, se ejecutará el bloque `else`.
+    
+    * Sentencias condicionales anidadas, ejemplo:
 
-    Si la condición para if es False, el programa verifica las condiciones de los bloques elif posteriores: el primer elif que sea True es el que se ejecuta. Si todas las condiciones son False, se ejecutará el bloque else.
-    Sentencias condicionales anidadas, ejemplo:
-
+    ```
     x = 10
-
     if x > 5:  # True
         if x == 6:  # False
             print("anidado: x == 6")
@@ -107,7 +109,7 @@
             print("anidado: else")
     else:
         print("else")
-
+    ```
 
  ### Cuestionario de sección
 
