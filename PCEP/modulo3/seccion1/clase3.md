@@ -48,3 +48,61 @@ if the_weather_is_good:
 have_lunch()
 ```
 
+
+### Ejecución condicional: la sentencia if
+
+Empecemos con ejemplo: si un determinado desarrollador de Python sin dormir se queda dormido cuando cuenta 120 ovejas, y el procedimiento de inducción del sueño se puede implementar como una función especial llamada `sleep_and_dream()`, el código toma la siguiente forma:
+
+```
+if sheep_counter >= 120: # #evalúa una expresión condicional
+    sleep_and_dream() #se ejecuta si la expresión condicional es True
+```
+
+El programa anterior lo podemos leer: si `sheep_counter` es mayor o igual que 120, entonces duerme y sueña (es decir, ejecuta la función `sleep_and_dream`).
+
+Hemos dicho que las sentencias condicionales deben tener sangría. Esto crea una estructura muy legible, demostrando claramente todas las rutas de ejecución posibles en el código.
+
+Analiza el siguiente código:
+
+```
+if sheep_counter >= 120:
+    make_a_bed()
+    take_a_shower()
+    sleep_and_dream()
+feed_the_sheepdogs()
+```
+
+Como puedes ver, *hacer la cama*, *ducharse* y *dormir y soñar* se ejecutan condicionalmente, cuando `sheep_counter` alcanza el límite deseado.
+
+*Alimentar a los perros*, sin embargo, siempre se hace (es decir, la función `feed_the_sheepdogs()` no tiene sangría y no pertenece al bloque if, lo que significa que siempre se ejecuta).
+
+A continuación vamos a discutir otra variante de la sentencia condicional, que también permite realizar una acción adicional cuando no se cumple la condición.
+
+### Ejecución condicional: la sentencia if-else
+
+Veamos un ejemplo:
+
+* Comenzamos con una frase simple que decía: **Si el clima es bueno, saldremos a caminar**.
+* No hemos dicho nada sobre lo que sucederá si el clima es malo. Solo sabemos que no saldremos a caminar, pero no sabemos que podríamos hacer. Es posible que también queramos planificar algo en caso de mal tiempo.
+* Podemos decir, por ejemplo: **Si el clima es bueno, saldremos a caminar, de lo contrario, iremos al cine.**
+* Ahora sabemos lo que haremos si se cumplen las condiciones, y sabemos lo que haremos si no todo sale como queremos. En otras palabras, tenemos un "Plan B".
+
+Python nos permite expresar dichos planes alternativos. Esto se hace con una segunda forma, ligeramente mas compleja, de la sentencia condicional, la sentencia `if-else`:
+
+```
+if true_or_false_condition:
+    perform_if_condition_true
+else:
+    perform_if_condition_false
+```
+
+Por lo tanto, hay una nueva palabra clave reservada: **else**.
+
+La parte del código que comienza con `else` dice que hacer si no se cumple la condición especificada por el `if` (observa los dos puntos después de la palabra).
+
+La ejecución de if-else es la siguiente:
+
+* Si la condición se evalúa como `True`, la instrucción `perform_if_condition_true` se ejecuta, y la sentencia condicional llega a su fin.
+* Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la sentencia condicional llega a su fin.
+
+
