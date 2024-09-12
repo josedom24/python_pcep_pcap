@@ -71,7 +71,7 @@
         * [Condiciones y ejecución condicional](modulo3/seccion1/clase3.md)
         * [Ejemplos de estructuras condicionales](modulo3/seccion1/clase4.md)
         * [LABORATORIO - Operadores de comparación y ejecución condicional](modulo3/seccion1/clase5.md)
-        * LABORATORIO - Fundamentos de la sentencia if-else
+        * [LABORATORIO - Fundamentos de la sentencia if-else](modulo3/seccion1/clase6.md)
         * LABORATORIO - Fundamentos de la sentencia if-elif-else
         * Resumen y cuestionario de la sección
     * Sección 2: Bucles en Python
