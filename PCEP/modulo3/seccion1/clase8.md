@@ -9,12 +9,8 @@
 |Operador |	Descripción |Ejemplo|
 |----------|----------|----------|
 |== 	|Devuelve si los valores de los operandos son iguales, y False de lo contrario.| x == y  # False <br> x == z  # True|
+|!= 	|Devuelve True si los valores de los operandos no son iguales, y False de lo contrario.|x != y  # True <br> x != z  # False|
 
-
-
-!= 	Devuelve True si los valores de los operandos no son iguales, y False de lo contrario. 	
-x != y  # True
-x != z  # False
 
 > 	Devuelve True si el valor del operando izquierdo es mayor que el valor del operando derecho, y False de lo contrario. 	
 x > y  # False
