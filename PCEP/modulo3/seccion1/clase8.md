@@ -8,7 +8,7 @@
 
 |Operador |	Descripción |Ejemplo|
 |----------|----------|----------|
-|== 	|Devuelve si los valores de los operandos son iguales, y False de lo contrario.| x == y  # False x == z  # True|
+|== 	|Devuelve si los valores de los operandos son iguales, y False de lo contrario.| x == y  # False <br> x == z  # True|
 
 
 
