@@ -75,18 +75,18 @@
         * [LABORATORIO - Fundamentos de la sentencia if-elif-else](modulo3/seccion1/clase7.md)
         * Resumen y cuestionario de la sección
     * Sección 2: Bucles en Python
-        * Bucle while (1,2,3)
-        * LABORATORIO - Adivina el número secreto (4)
-        * Bucle for (5,6)
-        * LABORATORIO - Fundamentos del bucle for – contando lentamente (mississippily) (7)
-        * Las sentencias break y continue (8)
-        * LABORATORIO - La sentencia break - atrapado en un bucle (9)
-        * LABORATORIO - La sentencia continue – el Feo Devorador de Vocales (10)
-        * LABORATORIO - La sentencia continue – el Lindo Devorador de Vocales (11)
-        * El bloque else en la instrucción while y for (12,13)
-        * LABORATORIO - Fundamentos del bucle while (14)
-        * LABORATORIO - La hipótesis de Collatz (15)
-        * Resumen y cuestionario de la sección (16,17)
+        * Bucle while
+        * LABORATORIO - Adivina el número secreto
+        * Bucle for
+        * LABORATORIO - Fundamentos del bucle for – contando lentamente (mississippily)
+        * Las sentencias break y continue
+        * LABORATORIO - La sentencia break - atrapado en un bucle
+        * LABORATORIO - La sentencia continue – el Feo Devorador de Vocales
+        * LABORATORIO - La sentencia continue – el Lindo Devorador de Vocales
+        * El bloque else en la instrucción while y for
+        * LABORATORIO - Fundamentos del bucle while
+        * LABORATORIO - La hipótesis de Collatz
+        * Resumen y cuestionario de la sección
     * Sección 3: Operaciones lógicas y de bits en Python
         * Expresiones lógicas (1,2,3)
         * Operadores bit a bit (4,5,6)
