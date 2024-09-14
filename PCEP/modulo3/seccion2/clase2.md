@@ -19,60 +19,34 @@ Familiarizar al estudiante con:
 
 ### Escenario
 
-Como seguramente sabrás, debido a algunas razones astronómicas, los años pueden ser bisiesto o común. Los primeros tienen una duración de 366 días, mientras que los últimos tienen una duración de 365 días.
-
-Desde la introducción del calendario Gregoriano (en 1582), se utiliza la siguiente regla para determinar el tipo de año:
-
-* Si el número del año no es divisible entre cuatro, es un año común.
-* De lo contrario, si el número del año no es divisible entre 100, es un año bisiesto.
-* De lo contrario, si el número del año no es divisible entre 400, es un año común.
-* De lo contrario, es un año bisiesto.
-
-Observa el código en el editor: solo lee un número de año y debe completarse con las instrucciones que implementan la prueba que acabamos de describir:
+Un mago junior ha elegido un número secreto. Lo ha escondido en una variable llamada `secret_number`. Quiere que todos los que ejecutan su programa jueguen el juego **Adivina el número secreto**, y adivina qué número ha elegido para ellos. ¡Quiénes no adivinen el número quedarán atrapados en un bucle sin fin para siempre! Desafortunadamente, él no sabe cómo completar el código.
 
 ```
-year = int(input("Introduce un año:"))
+secret_number = 777
 
-#
-# Escribe tu código aquí.
-#	
-```
-
-El código debe mostrar uno de los dos mensajes posibles, que son *Año Bisiesto* o Año Común, según el valor ingresado.
-
-Sería bueno verificar si el año ingresado cae en la era Gregoriana y emitir una advertencia de lo contrario: No dentro del período del calendario Gregoriano. Consejo: utiliza los operadores `!=` y `%`.
-
-Prueba tu código con los datos que hemos proporcionado.
-
-### Datos de Prueba
-
-* Entrada de muestra: `2000`
-    * Resultado esperado: `Año Bisiesto`
-* Entrada de muestra: `2015`
-    * Resultado esperado: `Año Común`
-* Entrada de muestra: `1999`
-    * Resultado esperado: `Año Común`
-* Entrada de muestra: `1996`
-    * Resultado esperado: `Año Bisiesto`
-* Entrada de muestra: `1580`
-    * Resultado esperado: `No esta dentro del período del calendario Gregoriano`
-
-### Solución
+print(
+"""
++==================================+
+| ¡Bienvenido a mi juego, muggle! |
+| Introduce un número entero |
+| y adivina qué número he |
+| elegido para ti. |
+| Entonces, |
+| ¿Cuál es el número secreto? |
++==================================+
+""")
 
 ```
-iyear = int(input("Introduce un año: "))
 
-if year < 1582:
-	print("No esta dentro del período del calendario Gregoriano")
-else:
-	if year % 4 != 0:
-		print("Año Común")
-	elif year % 100 != 0:
-		print("Año Bisiesto")
-	elif year % 400 != 0:
-		print("Año Común")
-	else:
-		print("Año Bisiesto")
+Tu tarea es ayudar al mago a completar el código en el editor de tal manera que el código:
 
-```
+* Pedirá al usuario que ingrese un número entero.
+* Utilizará un bucle `while`.
+* Comprobará si el número ingresado por el usuario es el mismo que el número escogido por el mago. Si el número elegido por el usuario es diferente al número secreto del mago, el usuario debería ver el mensaje `"¡Ja, ja! ¡Estás atrapado en mi bucle!"` y se le solicitará que ingrese un número nuevamente. Si el número ingresado por el usuario coincide con el número escogido por el mago, el número debe imprimirse en la pantalla, y el mago debe decir las siguientes palabras: `"¡Bien hecho, muggle! Eres libre ahora"`.
+
+¡El mago está contando contigo! No lo decepciones.
+
+Información adicional: Observa la función `print()`. La forma en que lo hemos utilizado aquí se llama impresión multilínea. Puede utilizar **comillas triples** para imprimir cadenas en varias líneas para facilitar la lectura del texto o crear un diseño especial basado en texto. Experimenta con ello.
+
+    
 

@@ -76,8 +76,8 @@
         * [Resumen y cuestionario de la sección](modulo3/seccion1/clase8.md)
     * Sección 2: Bucles en Python
         * [Bucle while](modulo3/seccion2/clase1.md)
-        * LABORATORIO - Adivina el número secreto
-        * Bucle for
+        * [LABORATORIO - Adivina el número secreto](modulo3/seccion2/clase2.md)
+        * [Bucle for](modulo3/seccion2/clase3.md)
         * LABORATORIO - Fundamentos del bucle for – contando lentamente (mississippily)
         * Las sentencias break y continue
         * LABORATORIO - La sentencia break - atrapado en un bucle
