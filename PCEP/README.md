@@ -78,8 +78,8 @@
         * [Bucle while](modulo3/seccion2/clase1.md)
         * [LABORATORIO - Adivina el número secreto](modulo3/seccion2/clase2.md)
         * [Bucle for](modulo3/seccion2/clase3.md)
-        * LABORATORIO - Fundamentos del bucle for: contador
-        * Las sentencias break y continue
+        * [LABORATORIO - Fundamentos del bucle for: contador](modulo3/seccion2/clase4.md)
+        * [Las sentencias break y continue](modulo3/seccion2/clase5.md)
         * LABORATORIO - La sentencia break - atrapado en un bucle
         * LABORATORIO - La sentencia continue – el Feo Devorador de Vocales
         * LABORATORIO - La sentencia continue – el Lindo Devorador de Vocales
