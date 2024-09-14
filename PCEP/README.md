@@ -73,9 +73,9 @@
         * [LABORATORIO - Operadores de comparación y ejecución condicional](modulo3/seccion1/clase5.md)
         * [LABORATORIO - Fundamentos de la sentencia if-else](modulo3/seccion1/clase6.md)
         * [LABORATORIO - Fundamentos de la sentencia if-elif-else](modulo3/seccion1/clase7.md)
-        * Resumen y cuestionario de la sección
+        * [Resumen y cuestionario de la sección](modulo3/seccion1/clase8.md)
     * Sección 2: Bucles en Python
-        * Bucle while
+        * [Bucle while](modulo3/seccion2/clase1.md)
         * LABORATORIO - Adivina el número secreto
         * Bucle for
         * LABORATORIO - Fundamentos del bucle for – contando lentamente (mississippily)
