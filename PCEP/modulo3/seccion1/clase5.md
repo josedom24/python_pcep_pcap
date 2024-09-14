@@ -20,7 +20,7 @@ Fácil
 
 [Espatifilo](https://upload.wikimedia.org/wikipedia/commons/b/bd/Spathiphyllum_cochlearispathum_RTBG.jpg), más comúnmente conocida como la planta de cuna de Moisés o flor de la paz, es una de las plantas para interiores más populares que filtra las toxinas dañinas del aire. Algunas de las toxinas que neutraliza incluyen benceno, formaldehído y amoníaco.
 
-Imagina que tu programa de computadora ama estas plantas. Cada vez que recibe una entrada en forma de la palabra Espatifilo, grita involuntariamente a la consola la siguiente cadena: **"¡Espatifilo es la mejor planta de todas!"**
+Imagina que tu programa de ordenador ama estas plantas. Cada vez que recibe una entrada en forma de la palabra Espatifilo, grita involuntariamente a la consola la siguiente cadena: **"¡Espatifilo es la mejor planta de todas!"**
 
 Escribe un programa que utilice el concepto de ejecución condicional, tome una cadena como entrada y que:
 

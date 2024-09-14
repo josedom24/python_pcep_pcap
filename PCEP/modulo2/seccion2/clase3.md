@@ -8,7 +8,7 @@ Ahora es tiempo de hablar acerca de otro tipo, el cual esta designado para repre
 
 Son números que tienen (o pueden tener) una parte fraccionaria después del punto decimal, y aunque esta definición es muy pobre, es suficiente para lo que se desea discutir.
 
-Cuando se usan términos como dos y medio o menos cero punto cuatro, pensamos en números que la computadora considera como números punto-flotante:
+Cuando se usan términos como dos y medio o menos cero punto cuatro, pensamos en números que el ordenador considera como números punto-flotante:
 
 ```
 2.5

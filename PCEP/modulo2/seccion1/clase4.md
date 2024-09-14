@@ -4,7 +4,7 @@
 
 ### Un programa está formado por instrucciones
 
-Ya has visto un programa de computadora que contiene una invocación de función. La invocación de una función es uno de los muchos tipos posibles de **instrucciones** de Python.
+Ya has visto un programa de ordenador que contiene una invocación de función. La invocación de una función es uno de los muchos tipos posibles de **instrucciones** de Python.
 
 Python requiere que no haya más de una instrucción por línea. Una línea puede estar vacía (por ejemplo, puede no contener ninguna instrucción) pero no debe contener dos, tres o más instrucciones. Esto está estrictamente prohibido.
 

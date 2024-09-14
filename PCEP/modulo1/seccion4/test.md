@@ -19,8 +19,8 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay diez preguntas en 
 
     * Un lenguaje de programación de alto nivel que consta de listas de instrucciones que los humanos pueden leer y comprender.
     * Un lenguaje de programación de bajo nivel que consta de dígitos hexadecimales que forman instrucciones de lenguaje de alto nivel.
-    * Un lenguaje de programación de bajo nivel que consiste en dígitos/bits binarios que la computadora lee y entiende
-    * Un lenguaje de programación de nivel medio que consiste en el código ensamblador diseñado para el procesador de la computadora.
+    * Un lenguaje de programación de bajo nivel que consiste en dígitos/bits binarios que el ordenador lee y entiende
+    * Un lenguaje de programación de nivel medio que consiste en el código ensamblador diseñado para el procesador del ordenador.
 
 2. ¿Cuáles son los cuatro elementos fundamentales que componen un lenguaje?
 

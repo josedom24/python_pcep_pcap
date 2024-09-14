@@ -16,5 +16,5 @@
         * Que muestre el resultado (que representa la velocidad promedio) en un formato legible.
 
 * Estas cuatro simples acciones forman un **programa**. 
-* Por supuesto, estos pasos no están formalizados y están muy lejos de lo que el ordenador pueda entenderlos, pero son lo suficientemente buenos para ser traducidos a un *idioma* que la computadora pueda aceptar.
+* Por supuesto, estos pasos no están formalizados y están muy lejos de lo que el ordenador pueda entenderlos, pero son lo suficientemente buenos para ser traducidos a un *idioma* que el ordenador pueda aceptar.
 * Este *idioma* es lo que denominamos **lenguaje de programación**.

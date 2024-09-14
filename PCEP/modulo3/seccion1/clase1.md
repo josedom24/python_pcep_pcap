@@ -119,7 +119,7 @@ current_velocity_mph ≤ 85  # Menor o igual que
 
 ### Haciendo uso de las respuestas
 
-¿Qué puedes hacer con la respuesta (es decir, el resultado de una operación de comparación) que se obtiene de la computadora?
+¿Qué puedes hacer con la respuesta (es decir, el resultado de una operación de comparación) que se obtiene del ordenador?
 
 1. Puedes memorizarlo (almacenarlo en una variable) y utilizarlo más tarde. ¿Cómo haces eso? Bueno, utilizarías una variable arbitraria como esta:
 
