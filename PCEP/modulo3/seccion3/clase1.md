@@ -120,19 +120,18 @@ Operaciones bit a bit (`&`, `|`, y `^`)
 
 |Argumento A |Argumento B |`A & B` |`A \| B` |`A ^ B` |
 -------------|------------|--------|--------|--------|
-
-
-
-
 |0           |0           |	0      |0       | 0      |
 |0           |1           |	0      |1       | 1      |
 |1           |0           |	0      |1       | 1      |
 |1           |1           |	1      |1       | 0      |
 
 
-Operaciones bit a bit (~) Argumento 	~ Argumento
-0 	1
-1 	0
+Operaciones bit a bit (`~`) 
+
+|Argumento |~ Argumento|
+-----------|-----------|
+|0 |	1 |
+|1 |	0 |
 
 Hagámoslo más fácil:
 
