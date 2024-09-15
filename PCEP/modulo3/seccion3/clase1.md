@@ -101,7 +101,7 @@ i = 1
 j = not not i
 ```
 
-### Operadadores bit a bit
+### Operadores bit a bit
 
 Sin embargo, hay cuatro operadores que le permiten manipular bits de datos individuales. Se denominan **operadores bit a bit**.
 
@@ -118,12 +118,12 @@ Aquí están todos ellos:
 Operaciones bit a bit (`&`, `|`, y `^`)
 
 
-|Argumento A|Argumento B|`A & B`|`A | B`|`A ^ B`|
-|-----------|-----------|-------|-------|-------|
-|0          |0          |	0   |	0   | 0     |
-|0          |1          |	0   |	1   | 1     |
-|1          |0          |	0   |	1   | 1     |
-|1          |1          |	1   |	1   | 0     |
+|Argumento A |Argumento B |`A & B` |`A | B` |`A ^ B` |
+|------------|------------|--------|--------|--------|
+|0           |0           |	0      |0       | 0      |
+|0           |1           |	0      |1       | 1      |
+|1           |0           |	0      |1       | 1      |
+|1           |1           |	1      |1       | 0      |
 
 
 Operaciones bit a bit (~) Argumento 	~ Argumento
