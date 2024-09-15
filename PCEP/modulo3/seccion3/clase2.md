@@ -47,3 +47,77 @@ La diferencia en el funcionamiento de los operadores lógicos y de bits es impor
 Los operadores bit a bit son más estrictos: tratan con cada bit por separado. Si asumimos que la variable entera ocupa 64 bits (lo que es común en los sistemas informáticos modernos), puede imaginar la operación a nivel de bits como una evaluación de 64 veces del operador lógico para cada par de bits de los argumentos. Su analogía es obviamente imperfecta, ya que en el mundo real todas estas 64 operaciones se realizan al mismo tiempo (simultáneamente).
 
 
+### Operaciones lógicas frente a operaciones de bit: continuación
+
+Ahora te mostraremos un ejemplo de la diferencia entre las operaciones lógicas y de bit. Supongamos que se han realizado las siguientes asignaciones:
+
+```
+i = 15
+j = 22
+```
+
+Si asumimos que los enteros se almacenan con 32 bits, los valores binarios de las dos variables será la siguiente:
+
+```
+i: 00000000000000000000000000001111
+j: 00000000000000000000000000010110
+```
+
+Se ejecuta la asignación:
+
+```
+log = i and j
+```
+
+* Estamos realizando una una conjunción lógica.  
+* Ambas variables `i` y `j` no son ceros, por lo que se considerará que representan a `True`. 
+* Al consultar la tabla de verdad para el operador `and`, podemos ver que el resultado será `True`. * * No se realizan otras operaciones.
+
+Por lo tanto el resultado será que la variable `log` es igual a `True`.
+
+
+Ahora estudiemos la operación a nivel de bits:
+
+```
+bit = i & j
+```
+
+El operador `&` operará con cada par de bits correspondientes por separado, produciendo los valores de los bits relevantes del resultado. Por lo tanto, el resultado será el siguiente:
+
+```
+i	00000000000000000000000000001111
+j	00000000000000000000000000010110
+bit = i & j	00000000000000000000000000000110
+```
+
+Estos bits corresponden al valor entero de seis.
+
+
+Veamos ahora los operadores de negación. Primero el lógico:
+
+```
+logneg = not i
+```
+
+La variable `logneg` se establecerá en `False`: no es necesario hacer nada más.
+
+La negación a nivel de bits es así:
+
+```
+bitneg = ~i
+```
+
+Puede ser un poco sorprendente: el valor de la variable `bitneg` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar el sistema de números binarios y las reglas que rigen los números de complemento de dos.
+
+```
+i	00000000000000000000000000001111
+bitneg = ~i	11111111111111111111111111110000
+```
+
+Cada uno de estos operadores de dos argumentos se puede utilizar en forma abreviada. Estos son los ejemplos de sus notaciones equivalentes:
+
+```
+x = x & y	x &= y
+x = x | y	x |= y
+x = x ^ y	x ^= y
+```
