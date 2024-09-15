@@ -34,7 +34,7 @@ Escribe un programa que lea un número natural y ejecute los pasos anteriores si
 
 Sugerencia: la parte más importante del problema es como transformar la idea de Collatz en un bucle while, esta es la clave del éxito.
 
-### ### Datos de Prueba
+### Datos de Prueba
 
 * Entrada de muestra: 15
 * Salida esperada:
