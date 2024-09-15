@@ -118,7 +118,7 @@ Aquí están todos ellos:
 Operaciones bit a bit (`&`, `|`, y `^`)
 
 
-|Argumento A |Argumento B |`A & B` |`A | B` |`A ^ B` |
+|Argumento A |Argumento B |`A & B` |`A  B` |`A ^ B` |
 -------------|------------|--------|--------|--------|
 
 
