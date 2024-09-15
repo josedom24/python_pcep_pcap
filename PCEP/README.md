@@ -86,7 +86,7 @@
         * [El bloque else en la instrucción while y for](modulo3/seccion2/clase9.md)
         * [LABORATORIO - Fundamentos del bucle while](modulo3/seccion2/clase10.md)
         * [LABORATORIO - La hipótesis de Collatz](modulo3/seccion2/clase11.md)
-        * Resumen y cuestionario de la sección
+        * [Resumen y cuestionario de la sección](modulo3/seccion2/clase12.md)
     * Sección 3: Operaciones lógicas y de bits en Python
         * Expresiones lógicas (1,2,3)
         * Operadores bit a bit (4,5,6)
