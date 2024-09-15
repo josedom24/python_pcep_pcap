@@ -88,7 +88,7 @@
         * [LABORATORIO - La hipótesis de Collatz](modulo3/seccion2/clase11.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion2/clase12.md)
     * Sección 3: Operaciones lógicas y de bits en Python
-        * Expresiones lógicas (1,2,3)
+        * [Expresiones lógicas](modulo3/seccion3/clase1.md)
         * Operadores bit a bit (4,5,6)
         * Resumen y cuestionario de la sección (7,8) 
     * Sección 4: Listas
