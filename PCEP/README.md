@@ -80,9 +80,9 @@
         * [Bucle for](modulo3/seccion2/clase3.md)
         * [LABORATORIO - Fundamentos del bucle for: contador](modulo3/seccion2/clase4.md)
         * [Las sentencias break y continue](modulo3/seccion2/clase5.md)
-        * LABORATORIO - La sentencia break - atrapado en un bucle
-        * LABORATORIO - La sentencia continue – el Feo Devorador de Vocales
-        * LABORATORIO - La sentencia continue – el Lindo Devorador de Vocales
+        * [LABORATORIO - La sentencia break - atrapado en un bucle](modulo3/seccion2/clase6.md)
+        * [LABORATORIO - La sentencia continue – el Feo Devorador de Vocales](modulo3/seccion2/clase7.md)
+        * [LABORATORIO - La sentencia continue – el Bonito Devorador de Vocales](modulo3/seccion2/clase8.md)
         * El bloque else en la instrucción while y for
         * LABORATORIO - Fundamentos del bucle while
         * LABORATORIO - La hipótesis de Collatz
