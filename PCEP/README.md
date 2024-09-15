@@ -83,7 +83,7 @@
         * [LABORATORIO - La sentencia break - atrapado en un bucle](modulo3/seccion2/clase6.md)
         * [LABORATORIO - La sentencia continue – el Feo Devorador de Vocales](modulo3/seccion2/clase7.md)
         * [LABORATORIO - La sentencia continue – el Bonito Devorador de Vocales](modulo3/seccion2/clase8.md)
-        * El bloque else en la instrucción while y for
+        * [El bloque else en la instrucción while y for](modulo3/seccion2/clase9.md)
         * LABORATORIO - Fundamentos del bucle while
         * LABORATORIO - La hipótesis de Collatz
         * Resumen y cuestionario de la sección
