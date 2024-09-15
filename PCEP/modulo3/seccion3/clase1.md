@@ -28,12 +28,12 @@ El resultado proporcionado por el operador `and` se puede determinar sobre la ba
 
 Si consideramos la conjunción de `A and B`, el conjunto de valores posibles de argumentos y los valores correspondientes de conjunción se ve de la siguiente manera:
 
-|Argumento A |	Argumento B |	A and B
-----------------------------------------
-| False |False    |False
-| False |True 	|False
-| True 	|False 	    |False
-| True 	|True 	    |true
+|Argumento A |	Argumento B |	A and B |
+--------|---------|---------------------|
+| False |False    |False                |
+| False |True 	|False                  |
+| True 	|False 	    |False              |
+| True 	|True 	    |True               |
 
 or
 
