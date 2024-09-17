@@ -93,8 +93,8 @@
         * [Uso de los operadores bit a bit](modulo3/seccion3/clase3.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion3/clase4.md)
     * Sección 4: Listas
-        * Introducciión a las listas
-        * Operaciones básicas sobre las listas
+        * [Introducción a las listas](modulo3/seccion4/clase1.md)
+        * [Operaciones básicas sobre las listas](modulo3/seccion4/clase2.md)
         * LABORATORIO - Los fundamentos de las listas
         * Introducción a los métodos. Añadir elementos a las listas
         * Uso de listas

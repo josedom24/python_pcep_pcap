@@ -22,6 +22,12 @@ Como probablemente hayas notado antes, Python decora la salida de una manera que
 [111, 1, 7, 2, 1]
 ```
 
+Tenemos que tener en cuanta que los índices negativos son válidos, vemos distintos ejemplos:
+
+* Un elemento con un índice igual a -1 es el último en la lista: `print(numeros[-1])`
+* Del mismo modo, el elemento con un índice igual a -2 es el penúltimo en la lista: `print(numeros[-2])`.
+* Así sucesivamente.
+
 ### La función len()
 
 La longitud de una lista puede variar durante la ejecución. Se pueden agregar nuevos elementos a la lista, mientras que otros pueden eliminarse de ella. Esto significa que la lista es una **estructura dinámica**.
