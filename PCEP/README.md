@@ -93,12 +93,13 @@
         * [Uso de los operadores bit a bit](modulo3/seccion3/clase3.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion3/clase4.md)
     * Sección 4: Listas
-        * Listas. Operaciones básicas (1-5)
-        * LABORATORIO - Los fundamentos de las listas (6)
-        * Introducción a los métodos. Añadir elementos a las listas (7,8)
-        * Uso de listas (9,10)
-        * LABORATORIO - Los fundamentos de las listas: los Beatles (11)
-        * Resumen y cuestionario de la sección (12,13)
+        * Introducciión a las listas
+        * Operaciones básicas sobre las listas
+        * LABORATORIO - Los fundamentos de las listas
+        * Introducción a los métodos. Añadir elementos a las listas
+        * Uso de listas
+        * LABORATORIO - Los fundamentos de las listas: los Beatles
+        * Resumen y cuestionario de la sección
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
         * Ordenación de una lista por el algoritmo burbuja (1,2)
         * Ordenación de una lista por el algoritmo burbuja, versión interactiva  (3)
