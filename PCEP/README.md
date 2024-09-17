@@ -95,7 +95,7 @@
     * Sección 4: Listas
         * [Introducción a las listas](modulo3/seccion4/clase1.md)
         * [Operaciones básicas sobre las listas](modulo3/seccion4/clase2.md)
-        * LABORATORIO - Los fundamentos de las listas
+        * [LABORATORIO - Los fundamentos de las listas](modulo3/seccion4/clase3.md)
         * Introducción a los métodos. Añadir elementos a las listas
         * Uso de listas
         * LABORATORIO - Los fundamentos de las listas: los Beatles
