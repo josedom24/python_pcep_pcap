@@ -90,7 +90,8 @@
     * Sección 3: Operaciones lógicas y de bits en Python
         * [Expresiones lógicas](modulo3/seccion3/clase1.md)
         * [Operadores bit a bit](modulo3/seccion3/clase2.md)
-        * Resumen y cuestionario de la sección (7,8) 
+        * [Uso de los operadores bit a bit](modulo3/seccion3/clase3.md)
+        * [Resumen y cuestionario de la sección](modulo3/seccion3/clase4.md)
     * Sección 4: Listas
         * Listas. Operaciones básicas (1-5)
         * LABORATORIO - Los fundamentos de las listas (6)
