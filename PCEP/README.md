@@ -96,8 +96,8 @@
         * [Introducción a las listas](modulo3/seccion4/clase1.md)
         * [Operaciones básicas sobre las listas](modulo3/seccion4/clase2.md)
         * [LABORATORIO - Los fundamentos de las listas](modulo3/seccion4/clase3.md)
-        * Introducción a los métodos. Añadir elementos a las listas
-        * Uso de listas
+        * [Introducción a los métodos. Añadir elementos a las listas](modulo3/seccion4/clase4.md)
+        * Recorrido de listas
         * LABORATORIO - Los fundamentos de las listas: los Beatles
         * Resumen y cuestionario de la sección
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
