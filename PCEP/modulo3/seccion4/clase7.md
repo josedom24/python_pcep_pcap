@@ -14,8 +14,8 @@ Fácil
 
 Familiarizar al estudiante con:
 
-    * Crear y modificar listas simples.
-    * Utilizar métodos para modificar listas.
+* Crear y modificar listas simples.
+* Utilizar métodos para modificar listas.
 
 ### Escenario
 

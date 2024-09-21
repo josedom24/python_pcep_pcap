@@ -109,9 +109,9 @@
         * [La listas son mutables](modulo3/seccion6/clase1.md)
         * [Operación de rebanada de listas](modulo3/seccion6/clase2.md)
         * [Operadores de pertenencia](modulo3/seccion6/clase3.md)
-        * Programas de ejemploo
-        * LABORATORIO - Operaciones con listas: conceptos básicos
-        * Resumen y cuestionario de la sección
+        * [Programas de ejemplo de uso de listas](modulo3/seccion6/clase4.md)
+        * [LABORATORIO - Operaciones con listas: conceptos básicos](modulo3/seccion6/clase5.md)
+        * [Resumen y cuestionario de la sección](modulo3/seccion6/clase7.md)
     * Sección 7: Listas en aplicaciones avanzadas
         * Listas dentro de listas (1)
         * Arreglos de dos dimensiones (2)
