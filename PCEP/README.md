@@ -99,7 +99,7 @@
         * [Introducción a los métodos. Añadir elementos a las listas](modulo3/seccion4/clase4.md)
         * [Recorrido de listas](modulo3/seccion4/clase5.md)
         * [Ejemplo de recorrido de listas](modulo3/seccion4/clase6.md)
-        * LABORATORIO - Los fundamentos de las listas: los Beatles
+        * [LABORATORIO - Los fundamentos de las listas: los Beatles](modulo3/seccion4/clase7.md)
         * Resumen y cuestionario de la sección
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
         * Ordenación de una lista por el algoritmo burbuja (1,2)
