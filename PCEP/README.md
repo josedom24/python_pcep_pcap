@@ -100,7 +100,7 @@
         * [Recorrido de listas](modulo3/seccion4/clase5.md)
         * [Ejemplo de recorrido de listas](modulo3/seccion4/clase6.md)
         * [LABORATORIO - Los fundamentos de las listas: los Beatles](modulo3/seccion4/clase7.md)
-        * Resumen y cuestionario de la sección
+        * [Resumen y cuestionario de la sección](modulo3/seccion4/clase8.md)
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
         * Ordenación de una lista por el algoritmo burbuja (1,2)
         * Ordenación de una lista por el algoritmo burbuja, versión interactiva  (3)
