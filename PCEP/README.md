@@ -113,10 +113,10 @@
         * [LABORATORIO - Operaciones con listas: conceptos básicos](modulo3/seccion6/clase5.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion6/clase7.md)
     * Sección 7: Listas en aplicaciones avanzadas
-        * Listas dentro de listas (1)
-        * Arreglos de dos dimensiones (2)
-        * Arreglos multidimensionales (3)
-        * Resumen y cuestionario de la sección (4)
+        * Compresión de listas
+        * Arreglos de dos dimensiones
+        * Arreglos multidimensionales
+        * Resumen y cuestionario de la sección
     * Sección 8: Prueba del Módulo
 
 5. Módulo 4: Funciones, Tuplas, Diccionarios y Procesamiento de Datos
