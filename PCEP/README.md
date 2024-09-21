@@ -127,7 +127,7 @@
     * Sección 2: Cómo las funciones se comunican con su entorno
         * Funciones parametrizadas (1)
         * Paso de parámetros posicionales (2)
-        * Paso de parámetros por paLABORATORIOra clave (3,4)
+        * Paso de parámetros por para clave (3,4)
         * Parámetros predefinidos (5)
         * Resumen y cuestionario de la sección (6,7)
     * Sección 3: Devolviendo el resultado de una función
