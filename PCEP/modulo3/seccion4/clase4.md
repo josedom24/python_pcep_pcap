@@ -25,7 +25,7 @@
 
 ## Agregando elementos a una lista: append() e insert()
 
-Un nuevo elemento puede ser añadido al final de la lista existente ejecuntado:
+Un nuevo elemento puede ser añadido al final de la lista existente ejecutando:
 
 ```
 list.append(value)
