@@ -88,3 +88,11 @@ Como puedes observar los métodos de las listas, cambian los elementos de la pro
 ```
 my_list.sort(reverse=True)
 ```
+
+Aunque no es una ordenación, también tenemos a nuestra disposición el método `reverse()` que invierte los elementos de la lista: el primero será el último, el segundo el penúltimo, a así sucesivamente:
+
+```
+my_list = [8, 10, 6, 2, 4]
+my_list.reverse()
+print(my_list)
+```
