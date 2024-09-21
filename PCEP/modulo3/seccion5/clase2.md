@@ -48,3 +48,43 @@ while swapped:
 
 print(my_list)
 ```
+
+### Versión interactiva del programa
+
+Mostramos a continuación una versión completa del programa donde de forma interactiva el usuario indica el número y elementos de la lista:
+
+```
+my_list = []
+swapped = True
+num = int(input("¿Cuántos elementos deseas ordenar?: "))
+
+for i in range(num):
+    val = float(input("Ingresa un elemento de la lista: "))
+    my_list.append(val)
+
+while swapped:
+    swapped = False
+    for i in range(len(my_list) - 1):
+        if my_list[i] > my_list[i + 1]:
+            swapped = True
+            my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
+
+print("\nOrdenada:")
+print(my_list)
+```
+
+### Ordenación de listas usando el método sort()
+
+Hemos explicado este sistema de ordenación para que nos sirva de ejemplo para trabajar con la manipulación de los elementos de las listas, el intercambio de variables y los bucles anidados. Sin embargo las listas de Python nos ofrecen un método que nos permite ordenar la lista. Este método se llama `sort()` y lo utilizamos de la siguiente manera:
+
+```
+my_list = [8, 10, 6, 2, 4]
+my_list.sort()
+print(my_list)
+```
+
+Como puedes observar los métodos de las listas, cambian los elementos de la propia lista. Profundizaremos en esta propiedad en las siguientes secciones. Para terminar, si queremos ordenar de forma descendente ejecutaremos:
+
+```
+my_list.sort(reverse=True)
+```
