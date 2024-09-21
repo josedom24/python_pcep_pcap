@@ -102,7 +102,8 @@
         * [LABORATORIO - Los fundamentos de las listas: los Beatles](modulo3/seccion4/clase7.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion4/clase8.md)
     * Sección 5: Ordenando listas simples: el ordenamiento de burbuja
-        * Ordenación de una lista por el algoritmo burbuja (1,2)
+        * Ordenación de una lista por el algoritmo burbuja
+        * El ordenamiento burbuja en Python
         * Ordenación de una lista por el algoritmo burbuja, versión interactiva  (3)
         * Resumen y cuestionario de la sección (4,5)
     * Sección 6: Operaciones con listas
