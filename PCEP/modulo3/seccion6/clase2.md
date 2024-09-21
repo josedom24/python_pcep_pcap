@@ -4,7 +4,6 @@
 
 ### Rebanadas (slice) de listas
 
-
 Una **rebanada** es una operación que podemos realizar sobre una lista que nos permite **hacer una copia nueva de una lista, o partes de una lista**. En realidad, copia el contenido de la lista, no el nombre de la lista.
 
 Por lo la forma más fácil de copiar una lista en otra sería:

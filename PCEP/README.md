@@ -106,12 +106,12 @@
         * [El ordenamiento burbuja en Python](modulo3/seccion5/clase2.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion5/clase3.md)
     * Sección 6: Operaciones con listas
-        * La listas son mutables
-        * Operación de rebanada de listas
-        * Operadores de pertenencia
-        * Programas de ejemplo (5)
-        * LABORATORIO - Operaciones con listas: conceptos básicos (6)
-        * Resumen y cuestionario de la sección (7,8)
+        * [La listas son mutables](modulo3/seccion6/clase1.md)
+        * [Operación de rebanada de listas](modulo3/seccion6/clase2.md)
+        * [Operadores de pertenencia](modulo3/seccion6/clase3.md)
+        * Programas de ejemploo
+        * LABORATORIO - Operaciones con listas: conceptos básicos
+        * Resumen y cuestionario de la sección
     * Sección 7: Listas en aplicaciones avanzadas
         * Listas dentro de listas (1)
         * Arreglos de dos dimensiones (2)
