@@ -126,7 +126,7 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
 9. ¿Cuál es la salida del siguiente fragmento de código?
 
     ```
-     a = 1
+    a = 1
     b = 0
     c = a & b
     d = a | b
@@ -178,11 +178,11 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
 
 13. Después de la ejecución del siguiente fragmento de código, la suma de todos los elementos `vals` será igual a:
 
-```
-vals = [0, 1, 2]
-vals.insert(0, 1)
-del vals[1] 
-```
+    ```
+    vals = [0, 1, 2]
+    vals.insert(0, 1)
+    del vals[1] 
+    ```
 
     * 2
     * 5
@@ -197,7 +197,7 @@ del vals[1]
     del vals[1:2] 
     ```
 
-    [ ] `nums` es replicada y asignada a `vals`
+    [ x ] `nums` es replicada y asignada a `vals`
     [ ] `nums` y `vals` son de la misma longitud
     [ ] `nums` es más larga que `vals`
     [ ] `nums` y `vals` se refieren a la misma lista
