@@ -116,7 +116,7 @@
         * [Compresión de listas](modulo3/seccion7/clase1.md)
         * [Arreglos de dos dimensiones](modulo3/seccion7/clase2.md)
         * [Ejemplo con arreglo de dos dimensiones](modulo3/seccion7/clase3.md)
-        * Arreglos multidimensionales
+        * [Arreglos multidimensionales](modulo3/seccion7/clase4.md)
         * Resumen y cuestionario de la sección
     * Sección 8: Prueba del Módulo
 
