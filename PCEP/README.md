@@ -113,8 +113,9 @@
         * [LABORATORIO - Operaciones con listas: conceptos básicos](modulo3/seccion6/clase5.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion6/clase7.md)
     * Sección 7: Listas multidimensionales
-        * Compresión de listas
-        * Arreglos de dos dimensiones
+        * [Compresión de listas](modulo3/seccion76/clase1.md)
+        * [Arreglos de dos dimensiones](modulo3/seccion6/clase2.md)
+        * Ejemplo con arreglo de dos dimensiones
         * Arreglos multidimensionales
         * Resumen y cuestionario de la sección
     * Sección 8: Prueba del Módulo
