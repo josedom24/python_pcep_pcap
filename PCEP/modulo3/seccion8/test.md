@@ -188,7 +188,8 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     * 5
     * 4
     * 3
-
+    
+ [!IMPORTANT]
 14. Observa el código, y selecciona las sentencias verdaderas: (Selecciona dos respuestas)
 
     ```
