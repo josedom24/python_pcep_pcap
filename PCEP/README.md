@@ -112,7 +112,7 @@
         * [Programas de ejemplo de uso de listas](modulo3/seccion6/clase4.md)
         * [LABORATORIO - Operaciones con listas: conceptos básicos](modulo3/seccion6/clase5.md)
         * [Resumen y cuestionario de la sección](modulo3/seccion6/clase7.md)
-    * Sección 7: Listas en aplicaciones avanzadas
+    * Sección 7: Listas multidimensionales
         * Compresión de listas
         * Arreglos de dos dimensiones
         * Arreglos multidimensionales
@@ -126,7 +126,7 @@
         * Resumen y cuestionario de la sección (6,7)
     * Sección 2: Cómo las funciones se comunican con su entorno
         * Funciones parametrizadas (1)
-        * Paso de parámetros posicionales (2)
+9        * Paso de parámetros posicionales (2)
         * Paso de parámetros por para clave (3,4)
         * Parámetros predefinidos (5)
         * Resumen y cuestionario de la sección (6,7)
