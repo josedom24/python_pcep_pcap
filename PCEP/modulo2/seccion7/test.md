@@ -60,10 +60,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
 
 7. ¿Cuáles de las siguientes afirmaciones son verdaderas?  (Selecciona dos respuestas)
 
-    * El operador `**` utiliza el enlazado del lado derecho.
-    * La suma precede a la multiplicación.
-    * El resultado del operador `/` es siempre un valor entero.
-    * El argumento a la derecha del operador `%` no puede ser cero.
+    * [ ] El operador `**` utiliza el enlazado del lado derecho.
+    * [ ] La suma precede a la multiplicación.
+    * [ ] El resultado del operador `/` es siempre un valor entero.
+    * [ ] El argumento a la derecha del operador `%` no puede ser cero.
 
 8. El enlazado del lado izquierdo determina el resultado de la siguiente expresión:
 
@@ -79,10 +79,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
 
 9. Cuáles de los siguientes nombres de variables son ilegales?  (Selecciona dos respuestas)
 
-    * TRUE
-    * true
-    * True
-    * and
+    * [ ] TRUE
+    * [ ] true
+    * [ ] True
+    * [ ] and
 
 10. La función `print()` puede imprimir:
 
