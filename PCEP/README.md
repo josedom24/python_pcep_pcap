@@ -117,7 +117,7 @@
         * [Arreglos de dos dimensiones](modulo3/seccion7/clase2.md)
         * [Ejemplo con arreglo de dos dimensiones](modulo3/seccion7/clase3.md)
         * [Arreglos multidimensionales](modulo3/seccion7/clase4.md)
-        * Resumen y cuestionario de la sección
+        * [Resumen de la sección](modulo3/seccion7/clase5.md)
      * Sección 8: Prueba del Módulo
         * [Prueba del Módulo](modulo3/seccion8/test.md)
 

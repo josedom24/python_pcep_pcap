@@ -1,5 +1,5 @@
 # Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 6: Operaciones con listas
+## Sección 7: Listas multidimensionales
 ## Clase: Arreglos de dos dimensiones
 
 ### Listas dentro de listas
@@ -54,7 +54,7 @@ tabla[2][0] = 0 # Modificamos el elemento guardado en la tercera fila y primera 
 
 ### Recorrido de arreglos bidimensionales
 
-Para recorres todos los elementos de un arreglo bidimensional, necesitamos posicionarnos en cada una de las filas y posteriormente en cada una de las columnas para indexar el elemento que queremos mostrar, operar o modificar. 
+Para recorrer todos los elementos de un arreglo bidimensional, necesitamos posicionarnos en cada una de las filas y posteriormente en cada una de las columnas para indexar el elemento que queremos mostrar, operar o modificar. 
 
 Para realizar este recorrido necesitamos dos bucles anidados, el primero nos permite recorrer las filas y el segundo cada elemento de esa fila. Si queremos imprimir la tabla que hemos declarado:
 
