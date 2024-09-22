@@ -1,44 +1,79 @@
 # Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 6: Operaciones con listas
-## Clase: Las listas son mutables
+## Sección 7: Listas multidimensionales
+## Clase: Compresión de listas
 
-### Las listas son mutables
+### Declaración de listas
 
-Como hemos indicado en clases anteriores el tipo de datos lista es una **clase**, cada vez que creamos una variable de la clase lista estamos creando un **objeto** que además de guardar un conjunto de datos, posee un conjunto de **métodos** que nos permiten trabajar con la lista.
+Para declarar o crear una lista tenemos varias alternativas:
 
-## ¿Qué significa que las listas son mutables?
+1. En la declaración de la variable indicando los elementos que forman parte de la lista. Por ejemplo:
 
-Los elementos de las listas se pueden modificar:
+    ```
+    my_list = [1, 2, 3, 4, 5]
+    ```
+
+2. Partir de la declaración de una lista e ir añadiendo elementos a la lista. Veamos algunos ejemplos:
+
+    ```
+    my_list = [ ]
+    my_list.append(1)
+    my_list.append(2)
+    my_list.append(3)
+    my_list.append(4)
+    my_list.append(5)
+    ```
+
+    También podemos automatizar esta acción usando un bucle `for`:
+
+    ```
+    my_list = [ ]
+    for i in range(1,6):
+        my_list.append(i)
+    ```
+
+    Podríamos usar una estructura condicional para añadir a la lista los elementos que nos interesa. Por ejemplo añadir a la lista sólo los números pares:
+
+    ```
+    my_list = [ ]
+    for i in range(1,6):
+        if i % 2 == 0:
+            my_list.append(i)
+    ```
+3. Usando **compresión de listas**.
+
+### Compresión de listas
+
+La compresión de lista nos permite crear una lista y añadirle elementos. La lista se crea en tiempo de ejecución, y no se declara de forma estática.
+
+La sintaxis de una compresión de lista es la siguiente:
 
 ```
-lista1 = [1,2,3]
-lista1[2]=4
-print(lista1) #	[1, 2, 4]
-del lista1[2]
-print(lista1) # [1, 2]
+[expression for element in list if conditional]
 ```
 
-Esto también ocurre cuando usamos los métodos, es decir, los métodos de las listas modifican el contenido de la lista, por ejemplo si usamos el método `append()` para añadir un elemento a la lista:
+* Esto crea una nueva lista cuyos elementos se calcularan a partir de la expresión `expression`.
+* La nueva lista tendrá, de principio, tantos elementos como la lista `list` y la variable `element` se podrá usar en la expresión `expression`.
+* La parte de la estructura condicional es optativa, pero si aparece la condición se deberá cumplir para que se procese el elemento.
 
-```
-lista1.append(3)
-print(lista1) # [1, 2, 3]
-```
+Veamos algunos ejemplos:
 
-Como vemos la lista `lista1` se ha modificado.
+1. Creamos una lista con 5 cadenas:
 
-### ¿Cómo se copian las listas?
+    ```
+    lista = ["Hola" for i in range(5)]
+    ```
+2. Creamos una lista con los 5 primeros números:
 
-Para copiar una lista en otra no podemos utilizar el operador de asignación:
+    ```
+    lista = [i for i in range(1,6)]
+    ```
 
-```
-lista1 = [1,2,3]
-lista2 = lista1
-lista1[1] = 10
-print(lista2) # [1, 10, 3]
-```
+3. Creamos una lista con los cuadrados de los cinco primeros números:
 
-El operador de asignación no crea una nueva lista, sino que nombra con dos nombres distintos a la misma lista. No se guardan dos listas distintas en memoria, sino que la lista esta guardada en memoria pero se puede referenciar con dos nombres.
-
-En la siguiente clase veremos la solución a cómo poder copiar listas de manera adecuada.
-
+    ```
+    lista = [i ** 2 for i in range(1,6)]
+    ```
+4. Creamos una lista con los números pares de los 10 primeros números:
+    ```
+    lista = [i for i in range(1,11) if i % 2 == 0]
+    ```
