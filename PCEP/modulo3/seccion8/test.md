@@ -243,7 +243,7 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     * [1, 2, 3, 1, 2, 3]
     * [1, 2, 3, 3, 2, 1]
 
-18 .¿Cuántos elementos contiene la lista `my_list`?
+18. ¿Cuántos elementos contiene la lista `my_list`?
 
     ```
     my_list = [i for i in range(-1, 2)]
