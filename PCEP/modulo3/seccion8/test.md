@@ -188,8 +188,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     * 5
     * 4
     * 3
-    
- [!IMPORTANT]
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
 14. Observa el código, y selecciona las sentencias verdaderas: (Selecciona dos respuestas)
 
     ```
