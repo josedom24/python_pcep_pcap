@@ -118,7 +118,8 @@
         * [Ejemplo con arreglo de dos dimensiones](modulo3/seccion7/clase3.md)
         * [Arreglos multidimensionales](modulo3/seccion7/clase4.md)
         * Resumen y cuestionario de la sección
-    * Sección 8: Prueba del Módulo
+     * Sección 8: Prueba del Módulo
+        * [Prueba del Módulo](modulo3/seccion8/test.md)
 
 5. Módulo 4: Funciones, Tuplas, Diccionarios y Procesamiento de Datos
     * Sección 1: Funciones
