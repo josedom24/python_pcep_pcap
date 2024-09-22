@@ -189,9 +189,6 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     * 4
     * 3
 
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
 14. Observa el código, y selecciona las sentencias verdaderas: (Selecciona dos respuestas)
 
     ```
@@ -200,10 +197,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     del vals[1:2] 
     ```
 
-    [ x ] `nums` es replicada y asignada a `vals`
-    [ ] `nums` y `vals` son de la misma longitud
-    [ ] `nums` es más larga que `vals`
-    [ ] `nums` y `vals` se refieren a la misma lista
+    * [ ] `nums` es replicada y asignada a `vals`
+    * [ ] `nums` y `vals` son de la misma longitud
+    * [ ] `nums` es más larga que `vals`
+    * [ ] `nums` y `vals` se refieren a la misma lista
 
 15. ¿Cuáles de los siguientes enunciados son verdaderos? (Selecciona dos respuestas)
 
@@ -212,10 +209,10 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     vals = nums[-1:-2] 
     ```
 
-    [ ] `nums` y `vals` son de la misma longitud
-    [ ] `nums` y `vals` son dos listas diferentes
-    [ ] `vals` es más larga que `nums`
-    [ ] `nums` es más larga que `vals`
+    * [ ] `nums` y `vals` son de la misma longitud
+    * [ ] `nums` y `vals` son dos listas diferentes
+    * [ ] `vals` es más larga que `nums`
+    * [ ] `nums` es más larga que `vals`
 
 16. ¿Cuál es la salida del siguiente fragmento de código?
 
