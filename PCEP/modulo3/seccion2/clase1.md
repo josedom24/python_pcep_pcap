@@ -60,7 +60,7 @@ NOTA: Si deseas ver cómo se comporta un bucle infinito, inicia IDLE, crea un nu
 
 ## Ejemplo: Encontrar el número más grande
 
-Volvamos a ver el ejemplo que estudiamos en la sección anterior: Hay que buscar el número más grande de los que vamos introducción, para terminar introducimos el número -1. Analiza el programa cuidadosamente. Localiza donde comienza el bucle  y descubre como se sale del cuerpo del bucle:
+Volvamos a ver el ejemplo que estudiamos un apartado anterior: Hay que buscar el número más grande de los que vamos introducción, para terminar introducimos el número -1. Analiza el programa cuidadosamente. Localiza donde comienza el bucle  y descubre como se sale del cuerpo del bucle:
 
 ```
 # Almacena el actual número más grande aquí.

@@ -1,8 +1,6 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 4: Variable 
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. Una **variable** es una ubicación nombrada reservada para almacenar valores en la memoria. Una variable es creada o inicializada automáticamente cuando se le asigna un valor por primera vez. 
 
@@ -31,7 +29,7 @@
     print("Agente " + var)
     ```
 
-## Cuestionario de sección
+## Cuestionario
 
 1. ¿Cuál es el resultado del siguiente fragmento de código?
 

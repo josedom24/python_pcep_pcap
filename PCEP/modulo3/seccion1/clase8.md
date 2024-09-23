@@ -1,8 +1,6 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 6: Interacción con el usuario
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. Los operadores de comparación (o también denominados operadores relacionales) se utilizan para comparar valores. La siguiente tabla ilustra cómo funcionan los operadores de comparación, asumiendo que `x=0`, `y=1` y `z=0`:
 
@@ -111,7 +109,7 @@
         print("else")
     ```
 
- ## Cuestionario de sección
+ ## Cuestionario
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 

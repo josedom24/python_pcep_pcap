@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 4: Variable 
-## Clase: LABORATORIO - Variables
+# LABORATORIO - Variables
 
 ## Tiempo Estimado
 

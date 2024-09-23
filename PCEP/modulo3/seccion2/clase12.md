@@ -1,8 +1,6 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 2: Bucles en Python
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. Existen dos tipos de bucles en Python: `while` y `for`:
 
@@ -91,7 +89,7 @@ for i in range(6, 1, -2):
     print(i, end=" ")  # Salidas: 6, 4, 2
 ```
 
-## Cuestionario de sección
+## Cuestionario
 
 1. Crea un bucle `for` que cuente de 0 a 10, e imprima números impares en la pantalla. Usa el esqueleto de abajo: 
 

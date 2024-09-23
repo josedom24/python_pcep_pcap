@@ -1,8 +1,6 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 6: Interacción con el usuario
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. La función `print()` envía datos a la consola, mientras que la función `input()` obtiene datos de la consola.
 2. La función `input()` viene con un parámetro inicial: un mensaje de tipo cadena para el usuario. Permite escribir un mensaje antes de la entrada del usuario, por ejemplo:
@@ -46,7 +44,7 @@
     print(my_input * 3) # Salida esperada: holaholahola
     ```
 
- ## Cuestionario de sección
+ ## Cuestionario
 
 1. ¿Cuál es la salida del siguiente código?
 

@@ -1,8 +1,6 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 3: Operadores, herramientas de manipulación de datos 
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. Una **expresión** es una combinación de valores (o variables, operadores, llamadas a funciones, aprenderás de ello pronto) las cuales son evaluadas y dan como resultado un valor, por ejemplo, `1 + 2`.
 
@@ -23,7 +21,7 @@
 
 8. Los operadores de exponenciación utilizan asociatividad a la derecha, por ejemplo, `2 ** 2 ** 3 = 256`. Los demás suelen usar asociatividad a la izquierda.
 
-## Cuestionario de sección
+## Cuestionario
 
 1. ¿Cuál es la salida del siguiente fragmento de código? 
 

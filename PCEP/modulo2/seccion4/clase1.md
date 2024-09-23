@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 4: Variable 
-## Clase: Introducción a las variables
+# Introducción a las variables
 
 ## ¿Qué son las Variables?
 
