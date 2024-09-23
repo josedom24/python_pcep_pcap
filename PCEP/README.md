@@ -3,33 +3,35 @@
 
 
 
-1. Introducción al curso **Fundamentos de Python 1**
-2. Módulo 1: Introducción a Python y a la programación de ordenadores
-    * Sección 1: Introducción a la programación
-        * [Programas de ordenador](modulo1/seccion1/clase1.md)
-        * [Lenguajes de programación](modulo1/seccion1/clase2.md)
-        * [Compilación us interpretación](modulo1/seccion1/clase3.md)
-    * Sección 2: Introducción a Python
-        * [Introducción a Python](modulo1/seccion2/clase1.md)
-        * [¿Por qué usar Python?](modulo1/seccion2/clase2.md)
-        * [Implementaciones de Python](modulo1/seccion2/clase3.md)
-    * Sección 3: Descarga e instalación de Python
-        * [Instalación de Python](modulo1/seccion3/clase1.md)
-        * [Herramientas para programar en Python](modulo1/seccion3/clase2.md)
-        * [Nuestro primer programa en Python](modulo1/seccion3/clase3.md)
-        * [Cómo estropear y arreglar tu código](modulo1/seccion3/clase4.md)
-    * Sección 4: Prueba del Módulo
-        * [Prueba del Módulo](modulo1/seccion4/test.md)
+
+1. Introducción a Python y a la programación de ordenadores
+    * [Programas de ordenador](modulo1/seccion1/clase1.md)
+    * [Lenguajes de programación](modulo1/seccion1/clase2.md)
+    * [Compilación us interpretación](modulo1/seccion1/clase3.md)
+    * [Introducción a Python](modulo1/seccion2/clase1.md)
+    * [¿Por qué usar Python?](modulo1/seccion2/clase2.md)
+    * [Implementaciones de Python](modulo1/seccion2/clase3.md)
+    * [Instalación de Python](modulo1/seccion3/clase1.md)
+    * [Herramientas para programar en Python](modulo1/seccion3/clase2.md)
+    * [Nuestro primer programa en Python](modulo1/seccion3/clase3.md)
+    * [Cómo estropear y arreglar tu código](modulo1/seccion3/clase4.md)
+    * Test intermedio: comprueba lo que has aprendido
+    * [Prueba intermedia](modulo1/seccion4/test.md)
+2. Nuestro primer programa
+    * [La función print()](modulo2/seccion1/clase1.md)
+    * [Invocación de funciones](modulo2/seccion1/clase2.md)
+    * [LABORATORIO - Trabajando con la función print()](modulo2/seccion1/clase3.md)
+    * [Instrucciones](modulo2/seccion1/clase4.md)
+    * [Más sobre argumentos en funciones](modulo2/seccion1/clase5.md)
+    * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
+    * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
+    * [Resumen y cuestionario](modulo2/seccion1/clase8.md)
+3. Literales y tipos de datoos
+    
+        
 3. Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
     * Sección 1: El Programa "¡Hola, Mundo!"
-        * [La función print()](modulo2/seccion1/clase1.md)
-        * [Invocación de funciones](modulo2/seccion1/clase2.md)
-        * [LABORATORIO - Trabajando con la función print()](modulo2/seccion1/clase3.md)
-        * [Instrucciones](modulo2/seccion1/clase4.md)
-        * [Más sobre argumentos en funciones](modulo2/seccion1/clase5.md)
-        * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
-        * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
-        * [Resumen y cuestionario de la sección](modulo2/seccion1/clase8.md)
+       
     * Sección 2: Literales de Python
         * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
         * [Enteros](modulo2/seccion2/clase2.md)
