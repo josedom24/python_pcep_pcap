@@ -100,7 +100,7 @@ Por lo tanto, hay una nueva palabra clave reservada: **else**.
 
 La parte del código que comienza con `else` dice que hacer si no se cumple la condición especificada por el `if` (observa los dos puntos después de la palabra).
 
-La ejecución de if-else es la siguiente:
+La ejecución de `if-else` es la siguiente:
 
 * Si la condición se evalúa como `True`, la instrucción `perform_if_condition_true` se ejecuta, y la sentencia condicional llega a su fin.
 * Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la sentencia condicional llega a su fin.
