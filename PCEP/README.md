@@ -121,11 +121,11 @@
      * Sección 8: Prueba del Módulo
         * [Prueba del Módulo](modulo3/seccion8/test.md)
 
-5. Módulo 4: Funciones, Tuplas, Diccionarios y Procesamiento de Datos
+5. Módulo 4: Funciones, Tuplas, Diccionarios, Excepciones y Procesamiento de Datos
     * Sección 1: Funciones
-        * Introducción a las funciones (1,2,3)
-        * Tu primera función (4,5)
-        * Resumen y cuestionario de la sección (6,7)
+        * [Introducción a las funciones](modulo4/seccion1/clase1.md)
+        * Tu primera función
+        * Resumen y cuestionario de la sección
     * Sección 2: Cómo las funciones se comunican con su entorno
         * Funciones parametrizadas (1)
 9        * Paso de parámetros posicionales (2)
