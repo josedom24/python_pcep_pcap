@@ -124,7 +124,7 @@
 5. Módulo 4: Funciones, Tuplas, Diccionarios, Excepciones y Procesamiento de Datos
     * Sección 1: Funciones
         * [Introducción a las funciones](modulo4/seccion1/clase1.md)
-        * Tu primera función
+        * [Tu primera función](modulo4/seccion1/clase2.md)
         * Resumen y cuestionario de la sección
     * Sección 2: Cómo las funciones se comunican con su entorno
         * Funciones parametrizadas (1)
