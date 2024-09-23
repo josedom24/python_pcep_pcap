@@ -1,6 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 3: Descarga e instalación de Python
-## Clase: Nuestro primer programa en Python
+# Nuestro primer programa en Python
 
 ## Cómo escribir y ejecutar tu primer programa
 

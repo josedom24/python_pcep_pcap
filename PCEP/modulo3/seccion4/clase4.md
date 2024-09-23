@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 4: Listas
-## Clase: Introducción a los métodos. Añadir elementos a las listas
+# Introducción a los métodos. Añadir elementos a las listas
 
 ## Funciones frente a métodos
 

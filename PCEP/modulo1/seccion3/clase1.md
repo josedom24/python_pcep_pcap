@@ -1,6 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 3: Descarga e instalación de Python
-## Clase: Instalación de Python
+# Instalación de Python
 
 ## Comienza tu viaje con Python
 

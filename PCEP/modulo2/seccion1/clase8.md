@@ -1,8 +1,6 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 1: El Programa "¡Hola, Mundo!"
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. La función `print()` es una función integrada: imprime/envía un mensaje específico a la pantalla/ventana de consola.
 
@@ -22,7 +20,7 @@
 
 9. Los parámetros `end` y `sep` se pueden usar para dar formato la salida de la función `print()`. El parámetro `sep` especifica el separador entre los argumentos emitidos. Por ejemplo, `print("H", "E", "L", "L", "O", sep="-")`, mientras que el parámetro `end` especifica que imprimir al final de la declaración de impresión.
 
-## Cuestionario de sección
+## Cuestionario
 
 1. ¿Cuál es la salida del siguiente programa?
 

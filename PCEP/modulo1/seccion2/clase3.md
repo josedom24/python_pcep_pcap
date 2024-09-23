@@ -1,6 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 2: Introducción a Python
-## Clase: Implementaciones de Python
+# Implementaciones de Python
 
 ## Existe más de un Python
 

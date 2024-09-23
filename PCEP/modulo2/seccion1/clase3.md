@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 1: El Programa "¡Hola, Mundo!"
-## Clase: LABORATORIO - Trabajando con la función print()
+# LABORATORIO - Trabajando con la función print()
 
 ## Tiempo Estimado
 

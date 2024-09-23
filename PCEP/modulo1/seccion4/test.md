@@ -1,17 +1,6 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 4: Prueba del Módulo
+# Prueba intermedia
 
-
-## Resumen del módulo
-
-Aquí hay un breve resumen de los objetivos cubiertos y con los que te has familiarizado en el Módulo 1:
-
-* Los fundamentos de la programación de ordenadores, es decir, cómo funciona el ordenador, cómo se ejecuta el programa, cómo se define y construye el lenguaje de programación.
-* La diferencia entre compilación e interpretación.
-* La información básica sobre Python y cómo se posiciona entre otros lenguajes de programación, y qué distingue a sus diferentes versiones.
-* Los recursos de estudio y los diferentes tipos de interfaces que utilizarás en el curso.
-
-## Cuestionario módulo 1
+## Cuestionario
 
 La siguiente prueba se basa en lo que acabas de aprender. Hay diez preguntas en total y debes obtener al menos un 70 % para aprobar.
 

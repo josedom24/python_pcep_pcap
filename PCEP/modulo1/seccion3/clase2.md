@@ -1,6 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 3: Descarga e instalación de Python
-## Clase: Herramientas para programar en Python
+# Herramientas para programar en Python
 
 ## Comenzando tu trabajo con Python
 

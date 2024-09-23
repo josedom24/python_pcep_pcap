@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 4: Listas
-## Clase: Operaciones básicas sobre las listas
+# Operaciones básicas sobre las listas
 
 ## Accediendo al contenido de la lista
 

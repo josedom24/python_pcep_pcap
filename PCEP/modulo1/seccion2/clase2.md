@@ -1,6 +1,4 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 2: Introducción a Python
-## Clase: ¿Por qué usar Python?
+# ¿Por qué usar Python?
 
 ## ¿Qué hace que Python sea tan especial?
 
