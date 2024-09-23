@@ -1,13 +1,11 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 2: Introducción a Python
-## Clase: Introducción a Python
+# Introducción a Python
 
-### Python - una herramienta, no un reptil
+## Python - una herramienta, no un reptil
 
 * Python es un lenguaje de programación de alto nivel, interpretado, orientado a objetos y de uso generalizado con semántica dinámica, que se utiliza para la programación de propósito general.
 * El nombre no proviene de un tipo de serpiente, proviene de una vieja serie de comedia de la BBC llamada **Monty Python's Flying Circus**.
 
-### ¿Quién creó Python? 
+## ¿Quién creó Python? 
 
 * Python es el trabajo de una persona. Por lo general, los grandes lenguajes de programación son desarrollados y publicados por grandes compañías que emplean a muchos profesionales.
 * No existen muchos lenguajes de programación cuyos autores sean conocidos por su nombre. 
@@ -15,13 +13,13 @@
 * Por supuesto, Guido van Rossum no desarrolló y evolucionó todos los componentes de Python.
 * La velocidad con la que Python se ha extendido por todo el mundo es el resultado del trabajo continuo de miles de (muy a menudo anónimos) programadores, testers, usuarios, ...
 
-### Un proyecto de programación por pasatiempo
+## Un proyecto de programación por pasatiempo
 
 Las circunstancias en las que se creó Python son un poco desconcertantes. Según Guido van Rossum:
 
 > En Diciembre de 1989, estaba buscando un proyecto de programación de "pasatiempo" que me mantendría ocupado durante la semana de Navidad. Mi oficina (...) estaría cerrada, pero tenía un ordenador en casa y no mucho más en mis manos. Decidí escribir un intérprete para el nuevo lenguaje de scripting en el que había estado pensando últimamente: un descendiente de ABC que atraería a los hackers de Unix/C. Elegí Python como el título de trabajo para el proyecto, estando en un estado de ánimo ligeramente irreverente (y un gran fanático de Monty Python's Flying Circus). Guido van Rossum
 
-### Los objetivos de Python
+## Los objetivos de Python
 
 * En 1999, Guido van Rossum definió sus objetivos para Python:
     * Un **lenguaje fácil e intuitivo** tan poderoso como los de los principales competidores.

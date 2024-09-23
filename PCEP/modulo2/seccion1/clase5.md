@@ -2,7 +2,7 @@
 ## Sección 1: El Programa "¡Hola, Mundo!"
 ## Clase: Más sobre argumentos en funciones
 
-### Usando múltiples argumentos
+## Usando múltiples argumentos
 
 Hasta ahora hemos probado el comportamiento de la función `print()` sin argumentos y con un argumento. También vale la pena intentar alimentar a la función `print()` con más de un argumento.
 
@@ -31,7 +31,7 @@ Dos conclusiones emergen de este ejemplo:
 * La función `print()` invocada con más de un argumento los muestra todos en una sola línea.
 * La función `print()` pone un espacio entre los argumentos de salida por iniciativa propia.
 
-### Argumentos posicionales
+## Argumentos posicionales
 
 Escribe el siguiente programa:
 
@@ -44,7 +44,7 @@ La forma en que estamos pasando los argumentos a la función `print()` es la má
 
 Ejecuta el código y comprueba si el resultado coincide con tus predicciones.
 
-### Argumentos de palabra clave
+## Argumentos de palabra clave
 
 Python ofrece otro mecanismo para el paso de argumentos: **argumentos de palabras clave**. El nombre proviene del hecho de que el significado de estos argumentos se toma no de su ubicación (posición) sino de la palabra especial (palabra clave) utilizada para identificarlos.
 

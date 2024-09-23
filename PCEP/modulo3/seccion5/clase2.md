@@ -2,7 +2,7 @@
 ## Sección 5: Ordenando listas simples: el ordenamiento de burbuja
 ## Clase: El ordenamiento burbuja en Python
 
-### El ordenamiento burbuja en Python
+## El ordenamiento burbuja en Python
 
 ¿Cuántos pases necesitamos para ordenar la lista completa? La naturaleza de este problema nos obliga a usar dos bucles:
 
@@ -49,7 +49,7 @@ while swapped:
 print(my_list)
 ```
 
-### Versión interactiva del programa
+## Versión interactiva del programa
 
 Mostramos a continuación una versión completa del programa donde de forma interactiva el usuario indica el número y elementos de la lista:
 
@@ -73,7 +73,7 @@ print("\nOrdenada:")
 print(my_list)
 ```
 
-### Ordenación de listas usando el método sort()
+## Ordenación de listas usando el método sort()
 
 Hemos explicado este sistema de ordenación para que nos sirva de ejemplo para trabajar con la manipulación de los elementos de las listas, el intercambio de variables y los bucles anidados. Sin embargo las listas de Python nos ofrecen un método que nos permite ordenar la lista. Este método se llama `sort()` y lo utilizamos de la siguiente manera:
 

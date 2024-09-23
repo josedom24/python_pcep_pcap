@@ -2,7 +2,7 @@
 ## Sección 4: Listas
 ## Clase: Recorrido de listas
 
-### Recorriendo la lista con un bucle for
+## Recorriendo la lista con un bucle for
 
 El bucle for nos permite posicionarnos en todos los elementos de una lista de forma consecutiva, es lo que llamamos **recorrido de listas**.
 

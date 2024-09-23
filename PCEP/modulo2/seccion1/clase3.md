@@ -2,20 +2,20 @@
 ## Sección 1: El Programa "¡Hola, Mundo!"
 ## Clase: LABORATORIO - Trabajando con la función print()
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5-10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Muy fácil
 
-### Objetivos
+## Objetivos
 
 * Familiarizarse con la función `print()` y sus capacidades de formato.
 * Experimentar con el código de Python.
 
-### Escenario
+## Escenario
 
 El comando `print()`, el cual es una de las directivas más sencillas de Python, simplemente imprime una línea de texto en la pantalla.
 

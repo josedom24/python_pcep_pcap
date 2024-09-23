@@ -2,7 +2,7 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. Los operadores de comparación (o también denominados operadores relacionales) se utilizan para comparar valores. La siguiente tabla ilustra cómo funcionan los operadores de comparación, asumiendo que `x=0`, `y=1` y `z=0`:
 
@@ -111,7 +111,7 @@
         print("else")
     ```
 
- ### Cuestionario de sección
+ ## Cuestionario de sección
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
@@ -195,7 +195,7 @@ else:
     print("cuatro")
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

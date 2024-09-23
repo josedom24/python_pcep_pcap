@@ -2,7 +2,7 @@
 ## Sección 3: Operaciones lógicas y de bits en Python 
 ## Clase: Expresiones lógicas
 
-### Operadores lógicos
+## Operadores lógicos
 
 ¿Te has dado cuenta de que las condiciones que hemos usado hasta ahora han sido muy simples, por no decir, bastante primitivas? Las condiciones que utilizamos en la vida real son mucho más complejas. Veamos este enunciado:
 
@@ -16,7 +16,7 @@ La aparición de la palabra `or` (o) significa que la compra depende de al menos
 
 Está claro que Python debe tener operadores para construir conjunciones y disyunciones. Sin ellos, el poder expresivo del lenguaje se debilitaría sustancialmente. Se llaman **operadores lógicos**.
 
-### and
+## and
 
 Un operador de conjunción lógica en Python es la palabra `and`. Es un operador binario con una prioridad inferior a la expresada por los operadores de comparación. Nos permite codificar condiciones complejas sin el uso de paréntesis como este:
 
@@ -35,7 +35,7 @@ Si consideramos la conjunción de `A and B`, el conjunto de valores posibles de 
 | True 	     |False         |False      |
 | True 	     |True 	        |True       |
 
-### or
+## or
 
 Un operador de disyunción es la palabra `or`. Es un operador binario con una prioridad más baja que `and`. Su tabla de verdad es la siguiente:
 
@@ -46,7 +46,7 @@ Un operador de disyunción es la palabra `or`. Es un operador binario con una pr
 | True 	     |False         |True       |
 | True 	     |True 	        |True       |
 
-### not
+## not
 
 Además, hay otro operador que se puede aplicar para condiciones de construcción. Es un operador unario que realiza una negación lógica. Su funcionamiento es simple: convierte la verdad en falso y lo falso en verdad
 
@@ -59,7 +59,7 @@ Este operador se escribe como la palabra `not`, y su prioridad es muy alta: igua
 | True 	     |False          |
 
 
-### Expresiones lógicas
+## Expresiones lógicas
 
 Creemos una variable llamada `var` y le damos el valor 1. Las siguientes condiciones son equivalentes a pares:
 
@@ -90,7 +90,7 @@ Observa como se han utilizado los paréntesis para codificar las expresiones: la
 
 Deberíamos agregar que ninguno de estos operadores de dos argumentos se pueden usar en la forma abreviada conocida como `op=`. Vale la pena recordar esta excepción.
 
-### Valores lógicos frente a bits individuales
+## Valores lógicos frente a bits individuales
 
 Los operadores lógicos toman sus argumentos como un todo, independientemente de cuantos bits contengan. Los operadores solo conocen el valor: cero (cuando todos los bits se restablecen) significa `False`; no cero (cuando se establece al menos un bit) significa `True`.
 

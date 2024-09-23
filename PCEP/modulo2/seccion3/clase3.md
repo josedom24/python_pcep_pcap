@@ -2,7 +2,7 @@
 ## Sección 3: Operadores, herramientas de manipulación de datos 
 ## Clase: Prioridad de operadores
 
-### Operadores y sus prioridades
+## Operadores y sus prioridades
 
 Hasta ahora, se ha tratado cada operador como si no tuviera relación con los otros. Obviamente, dicha situación tan simple e ideal es muy rara en la programación real. Lo normal es encontrar en una expresión varios operadores, por ejemplo:
 
@@ -18,7 +18,7 @@ Python define la jerarquía de todos los operadores, y asume que los operadores 
 
 Entonces, si se sabe que la `*` tiene una mayor prioridad que la `+`, el resultado final debe de ser obvio.
 
-### Asociatividad de operadores
+## Asociatividad de operadores
 
 Nota: En el curso oficial traducido al Español se ha traducido la palabra inglesa *binding* como *enlace*. La traducción más correcta sería *asociatividad*.
 
@@ -37,7 +37,7 @@ Existen dos posibles maneras de evaluar la expresión:
 
 Ejecuta el ejemplo y observa lo que se obtiene. El resultado debe ser 1. El operador tiene una asociatividad a la izquierda. Pero hay una excepción interesante.
 
-### La asociatividad de la potencia
+## La asociatividad de la potencia
 
 Repite el experimento, pero ahora con potencias. Por ejemplo:
 
@@ -53,7 +53,7 @@ Los dos posibles resultados son:
 
 Ejecuta el código, ¿Qué es lo que observas? El resultado muestra claramente que el operador de exponenciación utiliza **asociatividad a la derecha**.
 
-### Lista de prioridades
+## Lista de prioridades
 
 Como eres nuevo a los operadores de Python, no se presenta por ahora una lista completa de las prioridades de los operadores. En lugar de ello, se mostrarán solo algunos, y se irán expandiendo conforme se vayan introduciendo operadores nuevos. Tabla de prioridades:
 
@@ -72,7 +72,7 @@ print(2 * 3 % 5)
 
 Ambos operadores (`*` y `%`) tienen la misma prioridad, el resultado solo se puede obtener conociendo el sentido del asociatividad. ¿Cuál será el resultado?: **1**.
 
-### Operadores y paréntesis
+## Operadores y paréntesis
 
 Por supuesto, se permite hacer uso de paréntesis, lo cual cambiará el orden natural del cálculo de la operación.
 

@@ -2,15 +2,15 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - Fundamentos del bucle while
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 20 - 30 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Medio
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 * Encontrar la implementación adecuada de reglas definidas verbalmente.
 * Reflejar situaciones de la vida real en código de computadora.
 
-### Escenario
+## Escenario
 
 Escucha esta historia: Un niño y su padre, un programador de ordenadores, juegan con bloques de madera. Están construyendo una pirámide.
 
@@ -44,7 +44,7 @@ Nota: La altura se mide por el número de capas completas: si los constructores 
 
 Prueba tu código con los datos que hemos proporcionado.
 
-### Datos de Prueba
+## Datos de Prueba
 
 * Entrada de muestra: 6
     * Salida esperada: La altura de la pirámide es: 3

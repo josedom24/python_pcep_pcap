@@ -2,7 +2,7 @@
 ## Sección 3: Descarga e instalación de Python
 ## Clase: Cómo estropear y arreglar tu código
 
-### Cómo estropear y arreglar tu código
+## Cómo estropear y arreglar tu código
 
 Ahora ejecuta IDLE nuevamente.
 

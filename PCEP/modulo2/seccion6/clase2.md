@@ -2,7 +2,7 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: Conversión de datos (casting)
 
-### Conversión de datos (casting)
+## Conversión de datos (casting)
 
 Python ofrece dos simples funciones para convertir a un tipo de dato y resolver este problema, aquí están: `int()` y `float()`.
 
@@ -28,7 +28,7 @@ Intenta ejecutar el código modificado. No olvides introducir un número valido.
 * Ahora se puede hacer la operación matemática sin problemas. 
 * Y finalmente se muestra el resultado con la función `print()`.
 
-### Más acerca de la función input() y conversión de tipos
+## Más acerca de la función input() y conversión de tipos
 
 Trabajar con la funciones `input()`, `int()` y `float()` se nos abre muchas nuevas posibilidades. 
 

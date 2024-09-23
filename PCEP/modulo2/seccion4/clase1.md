@@ -2,7 +2,7 @@
 ## Sección 4: Variable 
 ## Clase: Introducción a las variables
 
-### ¿Qué son las Variables?
+## ¿Qué son las Variables?
 
 Hemos estudiado que Python nos permita codificar literales, las cuales contengan valores numéricos y cadenas. Además, se pueden hacer operaciones aritméticas con estos números: sumar, restar, etc. Esto se hará una infinidad de veces en un programa.
 
@@ -26,7 +26,7 @@ Comencemos con lo relacionado al nombre de la variable:
     * Las mayúsculas y minúsculas se tratan de forma distinta (un poco diferente que en el mundo real - Alicia y ALICIA son el mismo nombre, pero en Python son dos nombres de variable distintos, subsecuentemente, son dos variables diferentes).
     * El nombre de las variables no pueden ser igual a alguna de las palabras reservadas de Python (se explicará más de esto pronto).
 
-### Nombres correctos e incorrectos de variables
+## Nombres correctos e incorrectos de variables
 
 Nota que la misma restricción aplica a los nombres de funciones.
 
@@ -56,7 +56,7 @@ Nota: PEP 8 -- Style Guide for Python Code recomienda la siguiente convención d
 * Los nombres de las funciones siguen la misma convención que los nombres de las variables (por ejemplo: `fun`, `mi_función`).
 * También es posible usar letras mixtas (por ejemplo: `miVariable`), pero solo en contextos donde ese ya es el estilo predominante, para mantener la compatibilidad retroactiva con la convención adoptada.
 
-### Palabras Clave
+## Palabras Clave
 
 Observa las palabras que juegan un papel muy importante en cada programa de Python.
 

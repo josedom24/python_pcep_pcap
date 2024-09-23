@@ -2,7 +2,7 @@
 ## Sección 3: Descarga e instalación de Python
 ## Clase: Nuestro primer programa en Python
 
-### Cómo escribir y ejecutar tu primer programa
+## Cómo escribir y ejecutar tu primer programa
 
 Ahora es el momento de escribir y ejecutar tu primer programa en Python 3. Por ahora, será muy simple.
 

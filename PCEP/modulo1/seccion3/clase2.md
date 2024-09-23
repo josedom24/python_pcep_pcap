@@ -2,7 +2,7 @@
 ## Sección 3: Descarga e instalación de Python
 ## Clase: Herramientas para programar en Python
 
-### Comenzando tu trabajo con Python
+## Comenzando tu trabajo con Python
 
 Ahora que tienes Python3 instalado, es hora de verificar si funciona y de utilizarlo por primera vez.
 
@@ -12,7 +12,7 @@ Para comenzar tu trabajo, necesitas las siguientes herramientas:
 * Una **consola** en la que puedas ejecutar tu código recién escrito.
 * Una herramienta llamada **depurador**, capaz de ejecutar tu código paso a paso y te permite inspeccionarlo en cada momento de su ejecución.
 
-### IDLE
+## IDLE
 
 Además de sus muchos componentes útiles, la instalación estándar de Python 3 contiene una aplicación muy simple pero extremadamente útil llamada **IDLE**.
 

@@ -2,7 +2,7 @@
 ## Sección 5: Comentarios 
 ## Clase: Comentarios
 
-### Poner comentarios en el código: ¿por qué, cuándo y dónde?
+## Poner comentarios en el código: ¿por qué, cuándo y dónde?
 
 Quizá en algún momento será necesario poner algunas palabras en el código dirigidas no a Python, sino a las personas quienes estén leyendo el código con el fin de explicarles como es que funciona, o tal vez especificar el significado de las variables, también para documentar quien es el autor del programa y en que fecha fue escrito.
 

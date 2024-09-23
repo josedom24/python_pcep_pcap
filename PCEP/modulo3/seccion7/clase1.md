@@ -2,7 +2,7 @@
 ## Sección 7: Listas multidimensionales
 ## Clase: Compresión de listas
 
-### Declaración de listas
+## Declaración de listas
 
 Para declarar o crear una lista tenemos varias alternativas:
 
@@ -41,7 +41,7 @@ Para declarar o crear una lista tenemos varias alternativas:
     ```
 3. Usando **compresión de listas**.
 
-### Compresión de listas
+## Compresión de listas
 
 La compresión de lista nos permite crear una lista y añadirle elementos. La lista se crea en tiempo de ejecución, y no se declara de forma estática.
 

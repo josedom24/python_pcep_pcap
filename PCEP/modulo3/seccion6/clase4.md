@@ -2,7 +2,7 @@
 ## Sección 6: Operaciones con listas
 ## Clase: Programas de ejemplo de uso de listas
 
-### Ejemplo 1
+## Ejemplo 1
 
 En este ejemplo vamos a realizar un programa que encuentre el valor mayor de una lista.
 
@@ -38,7 +38,7 @@ print(largest)
 * La lógica del programa es similar a la de la versión anterior, pero ahora la variable `i`no es un índice, es el valor de los distintos elementos de la lista en cada iteración del bucle.
 * Observa como usando la rebanada recorremos sólo desde el segundo elemento de la lista.
 
-### Ejemplo 2
+## Ejemplo 2
 
 Vamos a realizar un programa que encuentre lam posición de un elemento dentro de una lista. 
 
@@ -87,7 +87,7 @@ else:
 * A principios se inicializa a 0, indicando que estamos en el primer elemento.
 * Y cada vez que no encontremos el número buscado la incrementaremos para apuntar que estamos posicionados en el siguiente elemento.
 
-### Ejemplo 3
+## Ejemplo 3
 
 En este ejemplo, vamos a suponer que has elegido los siguientes números en la lotería: 3, 7, 11, 42, 34, 49. Los números que han salido sorteados son: 5, 11, 9, 42, 3, 49. ¿Cuántos números has acertado?
 

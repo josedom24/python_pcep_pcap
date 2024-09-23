@@ -2,7 +2,7 @@
 ## Sección 1: Toma de decisiones en Python
 ## Clase: Condiciones y ejecución condicional
 
-### Condiciones y ejecución condicional
+## Condiciones y ejecución condicional
 
 Ya sabes como hacer preguntas a Python, pero aún no sabes como hacer un uso razonable de las respuestas. Se debe tener un mecanismo que le permita hacer algo si se cumple una condición, y no hacerlo si no se cumple.
 
@@ -49,7 +49,7 @@ have_lunch()
 ```
 
 
-### Ejecución condicional: la sentencia if
+## Ejecución condicional: la sentencia if
 
 Empecemos con ejemplo: si un determinado desarrollador de Python sin dormir se queda dormido cuando cuenta 120 ovejas, y el procedimiento de inducción del sueño se puede implementar como una función especial llamada `sleep_and_dream()`, el código toma la siguiente forma:
 
@@ -78,7 +78,7 @@ Como puedes ver, *hacer la cama*, *ducharse* y *dormir y soñar* se ejecutan con
 
 A continuación vamos a discutir otra variante de la sentencia condicional, que también permite realizar una acción adicional cuando no se cumple la condición.
 
-### Ejecución condicional: la sentencia if-else
+## Ejecución condicional: la sentencia if-else
 
 Veamos un ejemplo:
 
@@ -106,7 +106,7 @@ La ejecución de `if-else` es la siguiente:
 * Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la sentencia condicional llega a su fin.
 
 
-### La sentencia if-else: más sobre ejecución condicional
+## La sentencia if-else: más sobre ejecución condicional
 
 Al utilizar esta forma de sentencia condicional, podemos describir nuestros planes de la siguiente manera:
 
@@ -132,7 +132,7 @@ else:
 have_lunch()
 ```
 
-### Sentencias if-else anidadas
+## Sentencias if-else anidadas
 
 Ahora, analicemos dos casos especiales de la sentencia condicional.
 

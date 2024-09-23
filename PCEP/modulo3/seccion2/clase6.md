@@ -2,22 +2,22 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - La sentencia break - atrapado en un bucle
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Utilizar la instrucción `break` en los bucles.
 * Reflejar situaciones de la vida real en un programa de ordenador.
 
-### Escenario
+## Escenario
 
 La instrucción `break` nos permite salir/terminar un bucle.
 

@@ -2,7 +2,7 @@
 ## Sección 3: Operaciones lógicas y de bits en Python 
 ## Clase: Uso de los operadores bit a bit
 
-### Resumen de sección
+## Resumen de sección
 
 1. Python es compatible con los siguientes operadores lógicos:
 
@@ -24,7 +24,7 @@
     * `>>` hace un **desplazamiento bit a bit a la derecha**, por ejemplo, `y >> 1 = 8` (`0000 1000` en binario).
     * `<<` hace un **desplazamiento bit a bit a la izquierda**, por ejemplo, `y << 3 = -16` (`1000 0000` en binario). El número negativo -16 se representa como complemento a dos, puedes leer más acerca de la operación [Complemento a dos](https://es.wikipedia.org/wiki/Complemento_a_dos).
 
-### Cuestionario de sección
+## Cuestionario de sección
 
 1. ¿Cuál es el resultado del siguiente fragmento de código?
 
@@ -52,7 +52,7 @@ f = x << 2
 print(a, b, c, d, e, f) 
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

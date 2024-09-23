@@ -2,21 +2,21 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: LABORATORIO - Operadores y expresiones (2ª parte)
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 15 - 20 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
  
 * Mejorar la habilidad de implementar números, operadores y operaciones aritméticas en Python.
 * Utilizar la función `print()` y sus capacidades de formato.
 * Aprender a expresar fenómenos del día a día en términos de un lenguaje de programación.
 
-### Escenario
+## Escenario
 
 La tarea es preparar un código simple para evaluar o encontrar el tiempo final de un periodo de tiempo dado, expresándolo en horas y minutos. Las horas van de 0 a 23 y los minutos de 0 a 59. El resultado debe ser mostrado en la consola.
 
@@ -34,7 +34,7 @@ dura = int(input("Duración del evento (minutos): "))
 # Escribe tu código aquí.
 ```
 
-### Datos de Prueba
+## Datos de Prueba
 
 Entrada de muestra:
 
@@ -66,7 +66,7 @@ Entrada de muestra:
 
 Salida esperada: `1:0`
 
-### Solución
+## Solución
 
 ```
 hour = int(input("Hora de inicio (horas): "))

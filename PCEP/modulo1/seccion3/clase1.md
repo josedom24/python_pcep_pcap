@@ -2,11 +2,11 @@
 ## Sección 3: Descarga e instalación de Python
 ## Clase: Instalación de Python
 
-### Comienza tu viaje con Python
+## Comienza tu viaje con Python
 
 Existen varias formas de obtener tu propia copia de Python 3, dependiendo del sistema operativo que utilices.
 
-#### Linux
+### Linux
 
 Es probable que los usuarios de Linux tengan Python ya instalado. Esto es debido, que muchas de la utilidades y comandos que utilizamos en Linux están escritas con Python.
 
@@ -20,11 +20,11 @@ Y debe aparecer algo así:
 
 ![python3](img/python1.png)
 
-#### Windows / MacOS
+### Windows / MacOS
 
 Todos los usuarios que no sean de Linux pueden descargar una copia en [https://www.python.org/downloads/](https://www.python.org/downloads/).
 
-### Cómo descargar, instalar y configurar Python
+## Cómo descargar, instalar y configurar Python
 
 * Debido a que el navegador le dice al sitio web al que se ingresó, el sistema operativo que se utiliza, el único paso que se debe seguir es hacer clic en la versión de Python que se desea.
 * En este caso, selecciona Python 3. El sitio siempre te ofrece la última versión.

@@ -2,7 +2,7 @@
 ## Sección 7: Listas multidimensionales
 ## Clase: Resumen de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. La comprensión de listas te permite crear nuevas listas a partir de las existentes de una manera concisa y elegante. La sintaxis de una comprensión de lista es la siguiente:
 

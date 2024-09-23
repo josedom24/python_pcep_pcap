@@ -1,8 +1,6 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 1: Introducción a la programación
-## Clase: Compilación us interpretación
+# Compilación us interpretación
 
-### Compilación vs. Interpretación
+## Compilación vs. Interpretación
 
 * Cuando queremos que un ordenador realice un proceso complejo, escribiremos un programa en un lenguaje de programación de alto nivel.
 * El programa debe ser correcto en diferentes niveles:
@@ -24,7 +22,7 @@
         * El programa que realiza la interpretación se denomina **interprete**.
         * En el ordenador donde se ejecute el programa necesitamos tener un interprete.
 
-### ¿Qué hace el intérprete?
+## ¿Qué hace el intérprete?
 
 1. Tenemos el programa (código fuente) escrito es un archivo fuente de **texto plano**.
 2. El interprete traducirá y ejecutará el programa línea por línea.
@@ -33,7 +31,7 @@
 
 * ¿Cuál es mejor? ¿El modelo de "compilación" o el modelo de "interpretación"?
 
-### Compilación vs. Interpretación – Ventajas y Desventajas
+## Compilación vs. Interpretación – Ventajas y Desventajas
 
 **Compilación**:
 * Ventajas:
@@ -52,7 +50,7 @@
     * No esperes que la interpretación incremente tu código a alta velocidad: tu código compartirá la potencia del ordenador con el intérprete, por lo que no puede ser realmente rápido.
     * Tanto tú como el usuario final deben tener el intérprete para ejecutar el código.
 
-### Qué significa todo esto para ti?
+## Qué significa todo esto para ti?
 
 * **Python es un lenguaje interpretado**. Esto significa que hereda todas las ventajas y desventajas descritas. Por supuesto, agrega algunas de sus características únicas a ambos conjuntos.
 * Si deseas programar en Python, necesitarás el **intérprete de Python**. No podrás ejecutar tu código sin él. Afortunadamente, Python es gratis. Esta es una de sus ventajas más importantes.

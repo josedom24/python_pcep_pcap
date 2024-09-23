@@ -2,7 +2,7 @@
 ## Sección 3: Operadores, herramientas de manipulación de datos 
 ## Clase: Introducción a los operadores y expresiones
 
-### Python como una calculadora
+## Python como una calculadora
 
 Ahora, se va a mostrar un nuevo lado de la función `print()`. Ya se sabe que la función es capaz de mostrar los valores de los literales que le son pasados por los argumentos.
 
@@ -16,7 +16,7 @@ print(2+2)
 
 Sin tomar esto con mucha seriedad, has descubierto que Python puede ser utilizado como una calculadora. Tomando esto más seriamente, nos estamos adentrado en el terreno de los **operadores y expresiones**.
 
-### Los operadores básicos
+## Los operadores básicos
 
 Un **operador** es un símbolo del lenguaje de programación, el cual es capaz de realizar operaciones con los valores.
 

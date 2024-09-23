@@ -2,7 +2,7 @@
 ## Sección 2: Literales de Python 
 ## Clase: Cadenas
 
-### Literales cadenas
+## Literales cadenas
 
 Las cadenas se emplean cuando se requiere procesar texto (como nombres de cualquier tipo, direcciones, novelas, etc.), no números.
 
@@ -32,7 +32,7 @@ Este ejemplo funcionará también:
 print('Me gusta "Monty Python"')
 ```
 
-### Codificando Cadenas
+## Codificando Cadenas
 
 Ahora, la siguiente pregunta es: ¿Cómo se puede insertar un apóstrofe (comilla simple) en una cadena la cual está limitada por dos apóstrofes?
 

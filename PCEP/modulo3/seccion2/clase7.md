@@ -2,22 +2,22 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - La sentencia continue – el Feo Devorador de Vocales
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 - 15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Utilizar la instrucción `continue` en los bucles.
 * Reflejar situaciones de la vida real en un programa de ordenador.
 
-### Escenario
+## Escenario
 
 La sentencia `continue` se usa para omitir el bloque actual y avanzar a la siguiente iteración, sin ejecutar las sentencias dentro del bucle. Se puede usar tanto con `while` y `for`.
 
@@ -46,7 +46,7 @@ for letter in user_word:
     # Completa el cuerpo del bucle for.
 ```
 
-### Datos de Prueba
+## Datos de Prueba
 
 * Entrada de muestra: `Gregory`
     *Salida esperada:

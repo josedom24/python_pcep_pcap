@@ -2,7 +2,7 @@
 ## Sección 6: Operaciones con listas
 ## Clase: Operación de rebanada de de listas
 
-### Rebanadas (slice) de listas
+## Rebanadas (slice) de listas
 
 Una **rebanada** es una operación que podemos realizar sobre una lista que nos permite **hacer una copia nueva de una lista, o partes de una lista**. En realidad, copia el contenido de la lista, no el nombre de la lista.
 
@@ -42,7 +42,7 @@ La lista `new_list` contendrá `start - end` (3 - 1 = 2) elementos y son los
 
 La salida del fragmento es: [8, 6]
 
-### Rebanadas con índices negativos
+## Rebanadas con índices negativos
 
 Como hemos indicado también podemos usar índices negativos:
 
@@ -64,7 +64,7 @@ print(new_list)
 
 En este ejemplo la salida es: `[ ]`.
 
-### Más detalles sobre las rebanadas
+## Más detalles sobre las rebanadas
 
 Si omites el índice `start` en tu rebanada, se supone que deseas obtener un segmento que comienza en el elemento con índice 0.
 

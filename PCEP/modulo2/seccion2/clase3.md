@@ -2,7 +2,7 @@
 ## Sección 2: Literales de Python 
 ## Clase: Flotantes
 
-### Literales flotantes
+## Literales flotantes
 
 Ahora es tiempo de hablar acerca de otro tipo, el cual esta designado para representar y almacenar los números que (como lo diría un matemático) tienen una parte decimal no vacía.
 
@@ -23,7 +23,7 @@ En Python para dividir la parte entera y decimal se utiliza el punto. Ejemplos:
     * El valor `0.5` se puede escribir como `.5`.
     * El valor `5.0` puede ser escrito como: `5.`
 
-### Enteros frente a Flotantes
+## Enteros frente a Flotantes
 
 El **punto** decimal es esencialmente importante para reconocer números punto-flotantes en Python.
 
@@ -49,7 +49,7 @@ Nota:
 * El exponente (el valor después de la `E`) debe ser un valor entero.
 * La base (el valor antes de la `E`) puede o no ser un valor entero.
 
-### Codificando Flotantes
+## Codificando Flotantes
 
 Veamos ahora como almacenar números que son muy pequeños (en el sentido de que están muy cerca del cero).
 

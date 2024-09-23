@@ -2,15 +2,15 @@
 ## Sección 6: Operaciones con listas
 ## Clase: LABORATORIO - Operaciones con listas: conceptos básicos
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 - 15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 * Utilizar operadores `in` y `not in`.
 
 
-### Escenario
+## Escenario
 
 Tenemos una lista con números enteros. Algunos de estos números pueden estar repetidos, pero no queremos ninguna repetición Queremos que las repeticiones sean eliminados.
 

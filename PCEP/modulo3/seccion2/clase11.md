@@ -2,22 +2,22 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - La hipótesis de Collatz
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 20 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Medio
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Utilizar el bucle `while`.
 * Convertir bucles definidos verbalmente en código real de Python.
 
-### Escenario
+## Escenario
 
 En 1937, un matemático alemán llamado Lothar Collatz formuló una hipótesis intrigante (aún no se ha comprobado) que se puede describir de la siguiente manera:
 
@@ -34,7 +34,7 @@ Escribe un programa que lea un número natural y ejecute los pasos anteriores si
 
 Sugerencia: la parte más importante del problema es como transformar la idea de Collatz en un bucle while, esta es la clave del éxito.
 
-### Datos de Prueba
+## Datos de Prueba
 
 * Entrada de muestra: 15
 * Salida esperada:

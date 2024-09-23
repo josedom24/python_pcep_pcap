@@ -2,21 +2,21 @@
 ## Sección 1: Toma de decisiones en Python
 ## Clase: LABORATORIO - Operadores de comparación y ejecución condicional
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5 - 10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con la función `input()`.
 * Familiarizarse con los operadores de comparación en Python.
 * Familiarizarse con el concepto de ejecución condicional.
 
-### Escenario
+## Escenario
 
 [Espatifilo](https://upload.wikimedia.org/wikipedia/commons/b/bd/Spathiphyllum_cochlearispathum_RTBG.jpg), más comúnmente conocida como la planta de cuna de Moisés o flor de la paz, es una de las plantas para interiores más populares que filtra las toxinas dañinas del aire. Algunas de las toxinas que neutraliza incluyen benceno, formaldehído y amoníaco.
 
@@ -31,7 +31,7 @@ Escribe un programa que utilice el concepto de ejecución condicional, tome una 
 
 Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un ESPATIFILIO también!
 
-### Datos de Prueba
+## Datos de Prueba
 
 * Entrada de muestra: `espatifilo`
     * Resultado esperado: `No, ¡quiero un gran ESPATIFILIO!`
@@ -40,7 +40,7 @@ Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un ESPATIFIL
 * Entrada de muestra: `ESPATIFILIO`
     * Resultado esperado: `Si, ¡El ESPATIFILIO es la mejor planta de todos los tiempos! `
 
-### Solución
+## Solución
 
 ```
 name = input("Introduce el nombre de la flor: ")

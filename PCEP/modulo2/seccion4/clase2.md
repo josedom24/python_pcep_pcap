@@ -2,7 +2,7 @@
 ## Sección 4: Variable 
 ## Clase: Trabajando con variables
 
-### Creando variables
+## Creando variables
 
 ¿Qué se puede poner dentro de una variable?: Cualquier valor. Se puede utilizar una variable para almacenar cualquier tipo de los valores que ya se han mencionado, y muchos mas de los cuales aun no se han explicado.
 
@@ -28,7 +28,7 @@ Consiste de dos simples instrucciones:
 
 Nota: `print()` tiene una función más: nos permite imprimir el valor de la variable. ¿Puedes predecir cuál será la salida (resultado) del código?: **1**.
 
-### Utilizando variables
+## Utilizando variables
 
 Se tiene permitido utilizar cuantas declaraciones de variables sean necesarias para lograr el objetivo del programa, por ejemplo:
 
@@ -60,7 +60,7 @@ print("Versión de Python: " + var)
 
 ¿Puedes predecir la salida del fragmento de código?: **Versión de Python: 3.8.5**.
 
-### Asignar un valor nuevo a una variable ya existente
+## Asignar un valor nuevo a una variable ya existente
 
 ¿Cómo se le asigna un valor nuevo a una variable que ya ha sido creada? De la misma manera. Solo se necesita el **signo de igual**.
 
@@ -101,7 +101,7 @@ print(var)
 
 Resultado: **500**, ¿Porque? Bueno, primero, la variable `var` es creada y se le asigna el valor de 100. Después, a la misma variable se le asigna un nuevo valor: el resultado de sumarle 200 a 300, lo cual es 500.
 
-### Resolviendo problemas matemáticos simples
+## Resolviendo problemas matemáticos simples
 
 Ahora deberías de ser capaz de construir un programa el cual resuelva problemas matemáticos sencillos como el Teorema de Pitágoras: El cuadrado de la hipotenusa es igual a la suma de los cuadrados de los dos catetos.
 
@@ -124,7 +124,7 @@ y
 
 ¿Puedes predecir la salida del código?: **c = 5.0**
 
-### Operadores Abreviados
+## Operadores Abreviados
 
 Es tiempo de explicar el siguiente conjunto de operadores que harán la vida del programador/desarrollador más fácil.
 

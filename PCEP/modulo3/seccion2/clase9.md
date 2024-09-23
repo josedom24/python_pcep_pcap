@@ -2,7 +2,7 @@
 ## Sección 2: Bucles en Python
 ## Clase: El bloque else en la instrucción while y for
 
-### El bucle while y la rama else
+## El bucle while y la rama else
 
 Ambos bucles `while` y `for`, tienen una característica interesante (y rara vez se usa). veamos el siguiente ejemplo:
 
@@ -33,7 +33,7 @@ else:
 
 La condición que se evalúa en el bucle `while` es `False` al principio. ¿Se ejecuta la rama `else`? Ejecuta y prueba el programa, y verifica si se ha ejecutado o no la rama `else`.
 
-### El bucle for y la rama else
+## El bucle for y la rama else
 
 Los bucles `for` se comportan de manera un poco diferente. Veamos un ejemplo:
 

@@ -2,7 +2,7 @@
 ## Sección 4: Listas
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. La lista es un **tipo de dato en Python** (que más adelante llamaremos **clase**) que se utiliza para almacenar múltiples objetos. Es una colección ordenada y mutable de elementos separados por comas entre corchetes, por ejemplo:
 
@@ -73,7 +73,7 @@ del my_list[2]
 print(len(my_list))  # salida 4
 ```
 
-### Cuestionario de sección
+## Cuestionario de sección
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
@@ -116,7 +116,7 @@ print(lst[1])
 print(len(lst))
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

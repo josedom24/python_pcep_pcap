@@ -2,7 +2,7 @@
 ## Sección 5: Ordenando listas simples: el ordenamiento de burbuja
 ##  Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. Si tienes una lista `list_1`, y realizas la siguiente asignación: `list_2 = list_1` esto no hace una copia de la lista `list_1`, pero hace que las variables `list_1` y `list_2` apunten a la misma lista en la memoria. Por ejemplo:
 
@@ -64,7 +64,7 @@ print("C" not in my_list)  # salida: True
 print(2 not in my_list)  # salida: False
 ```
 
-### Cuestionario de sección
+## Cuestionario de sección
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
@@ -129,7 +129,7 @@ print(3 ??? my_list)  # salida True
 print(False ??? my_list)  # salida False
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

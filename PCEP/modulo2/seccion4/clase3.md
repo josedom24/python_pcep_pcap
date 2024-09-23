@@ -2,20 +2,20 @@
 ## Sección 4: Variable 
 ## Clase: LABORATORIO - Variables
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con el concepto de almacenar y trabajar con diferentes tipos de datos en Python.
 * Experimentar con el código en Python.
 
-### Escenario
+## Escenario
 
 A continuación una historia:
 
@@ -30,7 +30,7 @@ Tu tarea es:
 * Imprime el valor almacenado en `total_manzanas` en la consola.
 * Experimenta con tu código: crea nuevas variables, asigna diferentes valores a ellas, y realiza varias operaciones aritméticas con ellas (por ejemplo, `+`, `-`, `*`, `/`, `//`, etc.). Intenta poner una cadena con un entero juntos en la misma línea, por ejemplo, `"Número Total de Manzanas:"` y `total_manzanas`.
 
-### Resultado Esperado
+## Resultado Esperado
 
 ```
 juan = 3

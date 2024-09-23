@@ -2,7 +2,7 @@
 ## Sección 1: Toma de decisiones en Python
 ## Clase: Operadores de comparación
 
-### Preguntas y respuestas
+## Preguntas y respuestas
 
 La mayoría de los programas que hacemos **hacen preguntas**. El programa se puede comportar de manera distinta según los datos de entrada recibidos. 
 
@@ -15,7 +15,7 @@ Nunca obtendrás una respuesta como: *Déjame pensar...*,* no lo sé*, o *probab
 
 Para hacer preguntas, Python utiliza un conjunto de operadores, que llamamos operadores lógicos o de comparación:
 
-### Comparación: operador de igualdad
+## Comparación: operador de igualdad
 
 Pregunta: ¿Son dos valores iguales?
 
@@ -81,7 +81,7 @@ Ejercicios de comparación:
 
     * Solución: La salida será: `True False`.
     
-### Comparación: operador de desigualdad
+## Comparación: operador de desigualdad
 
 El operador `!=` (no es igual a) también compara los valores de dos operandos. Aquí está la diferencia: si son iguales, el resultado de la comparación es `False`. Si no son iguales, el resultado de la comparación es `True`.
 
@@ -97,7 +97,7 @@ Ahora echa un vistazo a la comparación de desigualdad a continuación: ¿Puedes
 
 Ejecuta el código y comprueba si tenías razón.
 
-### Comparación: mayor que y mayor que o igual
+## Comparación: mayor que y mayor que o igual
 
 También se puede hacer una pregunta de comparación usando el operador `>` (mayor que) o el operador `>=` (mayor o igual que). Ambos operadores **son binarios, asociativos a la izquierda y su prioridad es mayor que la mostrada por `==` y `!=`**.
 
@@ -106,7 +106,7 @@ También se puede hacer una pregunta de comparación usando el operador `>` (may
 
 `True` lo confirma; `False` lo niega.
 
-### Comparación: menor que y menor que o igual
+## Comparación: menor que y menor que o igual
 
 De manera similar a lo visto anteriormente, podemos usar el operador `<`(menor que) y el operador `<=` (menor o igual que).
 
@@ -117,7 +117,7 @@ current_velocity_mph < 85  # Menor que
 current_velocity_mph ≤ 85  # Menor o igual que
 ```
 
-### Haciendo uso de las respuestas
+## Haciendo uso de las respuestas
 
 ¿Qué puedes hacer con la respuesta (es decir, el resultado de una operación de comparación) que se obtiene del ordenador?
 

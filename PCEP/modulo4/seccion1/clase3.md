@@ -2,5 +2,5 @@
 ## Sección 1: Funciones
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 

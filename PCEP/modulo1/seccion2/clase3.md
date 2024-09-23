@@ -2,7 +2,7 @@
 ## Sección 2: Introducción a Python
 ## Clase: Implementaciones de Python
 
-### Existe más de un Python
+## Existe más de un Python
 
 * Existen dos tipos principales de Python, llamados Python 2 y Python 3.
 * Python 2 es una versión anterior del Python original. Su desarrollo no se continúa, aunque eso no significa que no haya actualizaciones. 
@@ -16,7 +16,7 @@
 * Todos los ejemplos de código que encontrarás durante el curso se han probado con Python 3.4, Python 3.6, Python 3.7, Python 3.8 y Python 3.9.
 * Actualmente (Septiembre de 2024) la última versión de Python es la 3.12.
 
-### Implementaciones de Python
+## Implementaciones de Python
 
 * Además de Python 2 y Python 3, hay más de una versión de cada uno.
 * Siguiendo la [Página wiki de Python](https://wiki.python.org/moin/PythonImplementations), una implementación de Python se refiere a "un programa o entorno que brinda soporte para la ejecución de programas escritos en el lenguaje Python, representado por la Implementación de Referencia de CPython.".

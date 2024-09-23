@@ -2,7 +2,7 @@
 ## Sección 2: Bucles en Python
 ## Clase: Bucle for
 
-### Bucles en tu código con for
+## Bucles en tu código con for
 
 Otro tipo de bucle disponible en Python nos permite indicar la cantidad de iteraciones que va a dar nuestro bucle, en vez de verificar las condiciones.
 
@@ -65,7 +65,7 @@ Nota: la función `range()` solo acepta enteros como argumentos y genera secuenc
 * El primer valor mostrado es 2 (tomado del primer argumento de `range()`).
 * El último es 7 (aunque el segundo argumento de `range()` es 8).
 
-### Más sobre el bucle for y la función range() con tres argumentos
+## Más sobre el bucle for y la función range() con tres argumentos
 
 La función `range()` también puede aceptar tres argumentos. Veamos el siguiente ejemplo:
 
@@ -123,7 +123,7 @@ for i in range(3, 1, -1):
     print("El valor de i es actualmente", i)
 ```
 
-### Ejemplo: Cálculo de la potencia
+## Ejemplo: Cálculo de la potencia
 
 Echemos un vistazo a un programa corto cuya tarea es escribir algunas de las primeras potencias de dos:
 

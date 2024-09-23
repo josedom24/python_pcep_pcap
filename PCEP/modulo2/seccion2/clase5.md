@@ -2,7 +2,7 @@
 ## Sección 2: Literales de Python 
 ## Clase: Valores Booleanos
 
-### Valores Booleanos
+## Valores Booleanos
 
 Para concluir con los literales de Python, existen dos más.
 

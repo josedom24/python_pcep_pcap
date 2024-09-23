@@ -2,20 +2,20 @@
 ## Sección 1: El Programa "¡Hola, Mundo!"
 ## Clase: LABORATORIO - La función print() y sus argumentos
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5-10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Muy fácil
 
-### Objetivos
+## Objetivos
 
 * Familiarizarse con la función de `print()` y sus capacidades de formato.
 * Experimentar con el código de Python.
 
-### Escenario
+## Escenario
 
 En el siguiente programa:
 
@@ -28,13 +28,13 @@ Modifica la primera línea de código, utilizando las palabras clave `sep` y `en
 
 No cambies nada en la segunda invocación de print().
 
-### Salida Esperada
+## Salida Esperada
 
 ```
 Fundamentos***Programación***en...Python
 ```
 
-### Solución
+## Solución
 
 ```
 print("Programming","Essentials","in", sep="***", end="...")

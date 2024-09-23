@@ -1,8 +1,6 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 1: Introducción a la programación
-## Clase: Programas de ordenador
+# Programas de ordenador
 
-### ¿Cómo funciona un programa de ordenador?
+## ¿Cómo funciona un programa de ordenador?
 
 * Un **programa** hace que un ordenador sea usable.
 * Un ordenador, sin **programa** no puede realizar ninguna operación, no sirve para nada.

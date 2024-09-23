@@ -2,7 +2,7 @@
 ## Sección 2: Literales de Python 
 ## Clase: Enteros
 
-### Literales enteros
+## Literales enteros
 
 Los ordenadores guardan y operan con los números utilizando el sistema binario. Internamente todos los números se representan, se guardan y se operan utilizando 0 y 1.
 
@@ -29,7 +29,7 @@ Por lo tanto, el número se puede escribir ya sea así: `11111111`, o como sigue
 
 Los números positivos no requieren un signo positivo antepuesto, pero es permitido, si se desea hacer. Las siguientes líneas describen el mismo número: `+11111111` y `11111111`.
 
-### Enteros: números octales y hexadecimales
+## Enteros: números octales y hexadecimales
 
 Existen dos convenciones adicionales en Python que no son conocidas en el mundo de las matemáticas. El primero nos permite utilizar un número en su representación octal (para le representación de los números se utilizan 8 dígitos del 0 al 7).
 

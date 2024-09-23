@@ -2,7 +2,7 @@
 ## Sección 6: Operaciones con listas
 ## Clase: Operadores de pertenencia
 
-### Los operadores in y not in
+## Los operadores in y not in
 
 Python ofrece dos operadores muy poderosos, capaces de comprobar si un elemento pertenece a una lista.
 

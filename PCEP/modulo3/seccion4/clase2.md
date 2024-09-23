@@ -2,7 +2,7 @@
 ## Sección 4: Listas
 ## Clase: Operaciones básicas sobre las listas
 
-### Accediendo al contenido de la lista
+## Accediendo al contenido de la lista
 
 Como hemos visto anteriormente, la **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
 
@@ -28,7 +28,7 @@ Tenemos que tener en cuanta que los índices negativos son válidos, vemos disti
 * Del mismo modo, el elemento con un índice igual a -2 es el penúltimo en la lista: `print(numeros[-2])`.
 * Así sucesivamente.
 
-### La función len()
+## La función len()
 
 La longitud de una lista puede variar durante la ejecución. Se pueden agregar nuevos elementos a la lista, mientras que otros pueden eliminarse de ella. Esto significa que la lista es una **estructura dinámica**.
 
@@ -36,7 +36,7 @@ La función `len()` (su nombre proviene de length - longitud) nos devuelve la lo
 
 La función toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente dentro de la lista (en otras palabras, la longitud de la lista).
 
-### Eliminando elementos de una lista
+## Eliminando elementos de una lista
 
 Cualquier elemento de la lista puede ser eliminado en cualquier momento, esto se hace con una instrucción llamada `del` (eliminar). Nota: es una instrucción, no una función.
 
@@ -63,7 +63,7 @@ Traceback (most recent call last):
 IndexError: list assignment index out of range
 ```
 
-### Ejemplo
+## Ejemplo
 
 Veamos un ejemplo de todo lo aprendido hasta ahora:
 

@@ -2,22 +2,22 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - Fundamentos del bucle for: contador
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Muy fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Utilizar el bucle `for`.
 * Reflejar situaciones de la vida real en un programa de ordenador.
 
-### Escenario
+## Escenario
 
 ¿Sabes lo que es Mississippi? Bueno, es el nombre de uno de los estados y ríos en los Estados Unidos. El río Mississippi tiene aproximadamente 2,340 millas de largo, lo que lo convierte en el segundo río más largo de los Estados Unidos (el más largo es el río Missouri). ¡Es tan largo que una sola gota de agua necesita 90 días para recorrer toda su longitud!
 
@@ -45,7 +45,7 @@ En el códigoo anterior hay dos elementos que todavía no hemos explicado: la se
 
 Por el momento, nos gustaría que supieras que hemos importado el módulo `time` y hemos utilizado el método `sleep()` para suspender la ejecución de cada función posterior de `print()` dentro del bucle `for` durante un segundo, de modo que el mensaje enviado a la consola se parezca a un conteo real. No te preocupes, pronto aprenderás más sobre módulos y métodos.
 
-### Salida esperada
+## Salida esperada
 
 ```
 1 Mississippi

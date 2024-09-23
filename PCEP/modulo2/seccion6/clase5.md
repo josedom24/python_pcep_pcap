@@ -2,20 +2,20 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: LABORATORIO - Operadores y expresiones
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 20 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Intermedio
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con los conceptos de números, operadores y expresiones aritméticas en Python.
 * Comprender la precedencia y asociatividad de los operadores de Python, así como el correcto uso de los paréntesis.
 
-### Escenario
+## Escenario
 
 La tarea es completar el código para poder evaluar la siguiente expresión: 
 
@@ -33,7 +33,7 @@ x = float(input("Ingresa el valor para x: "))
 print("y =", y)
 ```
 
-### Datos de Prueba
+## Datos de Prueba
 
 Entrada de muestra: `1`
 Salida esperada: `y = 0.6000000000000001`
@@ -47,7 +47,7 @@ Salida esperada: `y = 0.009999000199950014`
 Entrada de muestra: `-5`
 Salida esperada: `y = -0.19258202567760344`
 
-### Solución
+## Solución
 
 ```
 x = float(input("Ingresa el valor para x: "))

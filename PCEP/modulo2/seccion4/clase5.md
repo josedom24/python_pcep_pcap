@@ -2,21 +2,21 @@
 ## Sección 4: Variable 
 ## Clase: LABORATORIO - Operadores y expresiones
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 - 15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con los conceptos de números, operadores y operaciones aritméticas en Python.
 * Realizar cálculos básicos.
 
 
-### Escenario
+## Escenario
 
 Observa el código del siguiente programa. 
 
@@ -37,14 +37,14 @@ Recuerda que la notación algebraica clásica omite el operador de multiplicaci�
 
 Mantén tu código limpio y legible, y pruébalo utilizando los datos que han sido proporcionados. No te desanimes por no lograrlo en el primer intento. Se persistente y curioso. 
 
-### Datos de Prueba
+## Datos de Prueba
 
 ```
 x = 0
 x = 1
 x = -1
 ```
-### Salida Esperada
+## Salida Esperada
 ```
 y = -1.0
 y = 3.0

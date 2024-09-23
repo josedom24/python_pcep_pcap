@@ -2,7 +2,7 @@
 ## Sección 7: Listas multidimensionales
 ## Clase: Ejemplo con arreglo de dos dimensiones
 
-### Ejemplo estación meteorológica
+## Ejemplo estación meteorológica
 
 Imagina que desarrollas un programa para una estación meteorológica automática. El dispositivo registra la temperatura del aire cada hora y lo hace durante todo el mes. Esto te da un total de 24 × 31 = 744 valores. Intentemos diseñar una lista capaz de almacenar todos estos resultados. 
 
@@ -34,7 +34,7 @@ for dia in range(num_filas):
 print(temperaturas)
 ```
 
-### Ejercicio 1: Calcular la temperatura media mensual del mediodía
+## Ejercicio 1: Calcular la temperatura media mensual del mediodía
 
 Creamos un programa para determinar la temperatura promedio mensual del mediodía. Suma las 31 lecturas registradas al mediodía y divida la suma por 31. 
 
@@ -69,7 +69,7 @@ print("Temperatura promedio al mediodía:", media)
 * La temperatura al mediodía está guardada en la posición 11 de la fila (`temp_en_dia`) donde se guardan las temperaturas de cada hora.
 * La variable `total` es una cumulador que nos permitirá ir sumando las temperaturas.
 
-### Ejercicio 2: Calcular la temperatura más alta del mes
+## Ejercicio 2: Calcular la temperatura más alta del mes
 
 Vamos a escribir un programa que calcule la temperatura más alta. Veamos el código:
 
@@ -101,7 +101,7 @@ print("La temperatura más alta fue:", temp_mas_alta)
 * La variable `temp` itera a través de todas las mediciones tomadas en un día.
 * La variable `temp_mas_alta` nos permite guardar las temperaturas que vamos recorriendo más altas. Lo inicializamos a un número muy pequeño.
 
-### Ejercicio 3: Calcular los días en que las temperatura al mediodía fue menor que 20 ºC
+## Ejercicio 3: Calcular los días en que las temperatura al mediodía fue menor que 20 ºC
 
 vcamos a realizar un programa que calcule la cantidad de días en que las temperatura al mediodía fue menor que 20 ºC. Veamos el código:
 
@@ -134,7 +134,7 @@ print(dias_calurosos, "fueron los días calurosos.")
 
 * En este programa usamos la variable `dias_calurosos` como contador para que nos cuente la cantidad de días que cumplen la condición.
 
-### Introducción a los arreglos multidimensionales
+## Introducción a los arreglos multidimensionales
 
 ¿Cómo cambiaría nuestra estructura donde guardamos las temperaturas, si quisiéramos guardar las temperaturas de cada mes del año?
 

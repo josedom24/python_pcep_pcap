@@ -2,20 +2,20 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: LABORATORIO - Entradas y salidas simples
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5 - 10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con la entrada y salida de datos en Python.
 * Evaluar expresiones simples.
 
-### Escenario
+## Escenario
 
 ```
 # ingresa un valor flotante para la variable a aquí

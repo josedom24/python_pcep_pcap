@@ -2,7 +2,7 @@
 ## Sección 4: Listas
 ## Clase: Introducción a las listas
 
-### ¿Por qué necesitamos listas?
+## ¿Por qué necesitamos listas?
 
 Puede suceder que tengas que leer, almacenar, procesar y, finalmente, imprimir docenas, quizás cientos, tal vez incluso miles de números. ¿Entonces qué? ¿Necesitas crear una variable separada para cada valor? ¿Tendrás que pasar largas horas escribiendo sentencias como la que se muestra a continuación?
 
@@ -45,7 +45,7 @@ Algunas consideraciones:
 * En Python el primer elemento ocupa la posición 0. En nuestro ejemplo el valor `10` ocupa la posición `0`, y el último elemento, el número `1` tendrá la posición `4`.
 * Nuestra lista es una colección de elementos, pero cada elemento es un escalar. 
 
-### Indexando Listas
+## Indexando Listas
 
 La **indexación** nos permite obtener o cambiar el valor de un determinado elemento de una lista. Por ejemplo:
 

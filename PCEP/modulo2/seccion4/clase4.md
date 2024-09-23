@@ -2,21 +2,21 @@
 ## Sección 4: Variable 
 ## Clase: LABORATORIO - Variables: un convertidor simple
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con el concepto de variables y trabajar con ellas.
 * Realizar operaciones básicas y conversiones.
 * Experimentar con el código de Python.
 
-### Escenario
+## Escenario
 
 Millas y kilómetros son unidades de longitud o distancia.
 
@@ -44,7 +44,7 @@ print(kilometers, "kilómetros son", round(kilometers_to_miles, 2), "millas")
 
 Experimenta, saca tus propias conclusiones, y aprende. Sé curioso.
 
-### Resultado Esperado
+## Resultado Esperado
 
 ```
 7.38 millas son 11.88 kilómetros

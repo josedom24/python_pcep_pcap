@@ -2,22 +2,22 @@
 ## Sección 1: Toma de decisiones en Python
 ## Clase: LABORATORIO - Fundamentos de la sentencia if-else
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 - 15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil/Medio
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Utilizar la sentencia if-else para ramificar la ruta de control.
 * Construir un programa completo que resuelva problemas simples de la vida real.
 
-### Escenario
+## Escenario
 
 Érase una vez una tierra de leche y miel, habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto, su felicidad tenía límites. El impuesto más importante, denominado *Impuesto Personal de Ingresos* (IPI, para abreviar) tenía que pagarse una vez al año y se evaluó utilizando la siguiente regla:
 
@@ -44,7 +44,7 @@ Nota: Este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto ca
 
 Prueba tu código con los datos que hemos proporcionado. 
 
-### Datos de Prueba
+## Datos de Prueba
 
 * Entrada de muestra: 10000
     * Resultado esperado: El impuesto es: 1244.0 euros
@@ -55,7 +55,7 @@ Prueba tu código con los datos que hemos proporcionado.
 * Entrada de muestra: -100
     * Resultado esperado: El impuesto es: 0.0 euros 
 
-### Solución
+## Solución
 
 ```
 income = float(input("Introduce el ingreso anual: "))

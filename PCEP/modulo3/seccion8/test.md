@@ -2,7 +2,7 @@
 ## Sección 8: Prueba del Módulo
 
 
-### Resumen del módulo
+## Resumen del módulo
 
 Aquí hay un breve resumen de los objetivos que has cubierto y con los que te has familiarizado en el Módulo 3:
 
@@ -12,7 +12,7 @@ Aquí hay un breve resumen de los objetivos que has cubierto y con los que te ha
 * El concepto de listas y procesamiento de listas, incluyendo la iteración proporcionada por el bucle `for`, y las rebanadas;
 * La idea de los arreglos multidimensionales.
 
-### Cuestionario módulo 3
+## Cuestionario módulo 3
 
 La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en total y debes obtener al menos un 70 % para aprobar.
 

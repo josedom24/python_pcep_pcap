@@ -2,7 +2,7 @@
 ## Sección 2: Bucles en Python
 ## Clase: Las sentencias break y continue
 
-### Las sentencias break y continue
+## Las sentencias break y continue
 
 Hasta ahora, hemos tratado el cuerpo del bucle como una secuencia indivisible e inseparable de instrucciones que se realizan completamente en cada giro del bucle. Sin embargo, como desarrollador, podrías enfrentar las siguientes opciones:
 
@@ -41,7 +41,7 @@ for i in range(1, 6):
 print("Fuera del bucle.")
 ```
 
-### Las sentencias break y continue: más ejemplos
+## Las sentencias break y continue: más ejemplos
 
 Regresemos a nuestro programa que reconoce el más grande entre los números ingresados. Vamos a crear nuevas versiones del programa usando la instrucción `break` y `continue`.
 

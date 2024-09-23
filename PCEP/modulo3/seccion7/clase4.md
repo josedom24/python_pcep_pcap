@@ -2,7 +2,7 @@
 ## Sección 7: Listas multidimensionales
 ## Clase: Arreglos multidimensionales
 
-### Arreglos tridimensionales
+## Arreglos tridimensionales
 
 Para crear un arreglo de tres dimensiones en Python, los elementos de una lista serán listas, que a su vez tendrán como elementos otras listas. Si continuamos con la misma estructura tendríamos arreglos de diferentes dimensiones.
 
@@ -11,7 +11,7 @@ Veamos un ejemplo de un arreglo tridimensional: imagina un hotel que consta de t
 1. El tipo de elementos del arreglo sería un valor nooleano (`True`/`False`).
 2. Necesitamos un arreglo de 3 dimensiones, para guardar la información de las 20 habitaciones de cada piso de cada edificio.
 
-### Declaración de arreglos trimidencionales
+## Declaración de arreglos trimidencionales
 
 Podríamos inicializar el arreglo durante su declaración, pero en este ejemplo habría que escribie mucha información,. Es más fácil usar compresión de listas:
 
@@ -24,7 +24,7 @@ habitaciones = [[[False for r in range(20)] for f in range(15)] for t in range(3
 * El tercero (0 a 19) selecciona el número de habitación. 
 * Todas las habitaciones están inicialmente desocupadas.
 
-### Indexación de arreglos bidimensionales
+## Indexación de arreglos bidimensionales
 
 Para acceder a un elemento de un arreglo de tres dimensiones habrá que indicar 3 índices. Por ejemplo para reservar una habitación en  el segundo edificio, en el décimo piso, habitación 14:
 
@@ -64,7 +64,7 @@ print("Hay disponibles",disponibilidad,"habitaciones en el piso 15 del edificio 
 
 La variable `disponibilidad` contiene 0 si todas las habitaciones están ocupadas, o en dado caso el número de habitaciones disponibles.
 
-### Recorrido de arreglos tridimensioonales
+## Recorrido de arreglos tridimensioonales
 
 Para recorrer todos los elementos de un arreglo tridimensional, necesitamos tres bucles anidados. En el caso de ejemplod el hotel.
 

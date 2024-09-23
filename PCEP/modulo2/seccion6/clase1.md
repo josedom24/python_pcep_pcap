@@ -2,7 +2,7 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: La función input()
 
-### La función input()
+## La función input()
 
 Vamos a introducir una nueva función, que parece opuesta a la función `pint()`. ¿Por qué?
 
@@ -26,7 +26,7 @@ print("Mmm...", anything, "...¿en serio?")
 
 Intenta ejecutar el código y permite que la función te muestre lo que puede hacer.
 
-### La función input() con un argumento
+## La función input() con un argumento
 
 La función `input()` puede hacer algo más: puede mostrar un mensaje al usuario sin la ayuda de la función `print()`.
 
@@ -43,7 +43,7 @@ print("Mmm...", anything, "...¿En serio?")
 
 Esta variante de la invocación de la función `input()` simplifica el código y lo hace más claro.
 
-### El resultado de la función input()
+## El resultado de la función input()
 
 Se ha dicho antes, pero hay que decirlo sin ambigüedades una vez más: el resultado de la función `input()` **es una cadena**.
 
@@ -57,7 +57,7 @@ something = anything ** 2.0
 print(anything, "al cuadrado es", something)
 ```
 
-### La función input() - operaciones prohibidas
+## La función input() - operaciones prohibidas
 
 Si ejecutamos el programa anterior, insertaremos un número y, ¿qué es lo que ocurre?. Python debió haberte dado la siguiente salida:
 

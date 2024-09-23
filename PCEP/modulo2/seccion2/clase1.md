@@ -2,7 +2,7 @@
 ## Sección 2: Literales de Python 
 ## Clase: Literales y tipos de datos
 
-### Literales, los datos en si mismos
+## Literales, los datos en si mismos
 
 Un literal se refiere a datos cuyos valores están determinados por el literal mismo. Los literales nos permiten representar valores.
 

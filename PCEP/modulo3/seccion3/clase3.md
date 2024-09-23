@@ -2,7 +2,7 @@
 ## Sección 3: Operaciones lógicas y de bits en Python 
 ## Clase: Resumen y cuestionario de la sección
 
-### ¿Cómo tratamos los bits individuales?
+## ¿Cómo tratamos los bits individuales?
 
 Ahora te mostraremos para que puedes usar los operadores de bit a bit. Imagina que eres un desarrollador obligado a escribir una arte importante de un sistema operativo. Se te ha dicho que puedes usar una variable asignada de la siguiente forma:
 
@@ -95,7 +95,7 @@ Es posible que tengas que hacer frente a las siguientes tareas:
     flag_register ^= the_mask
     ```
 
-### Desplazamiento izquierdo binario y desplazamiento derecho binario
+## Desplazamiento izquierdo binario y desplazamiento derecho binario
 
 Python ofrece otra operación relacionada con los bits individuales: **shifting (desplazamiento)**. Esto se aplica solo a los valores de número entero, y no debe usar flotantes como argumentos para ello.
 

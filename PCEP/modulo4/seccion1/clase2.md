@@ -2,7 +2,7 @@
 ## Sección 1: Funciones
 ## Clase: Tu primera función
 
-### Tu primera función
+## Tu primera función
 
 Tenemos el siguiente código de un programa:
 
@@ -28,7 +28,7 @@ Parece evidente que necesitamos alguna forma de reutilizar el código que estamo
 
 La solución sería codificar el código repetido en una **función** que pudiéramos utilizar tantas veces como necesitáramos.
 
-### Definición de funciones
+## Definición de funciones
 
 Para crear una función es necesario **definirla** de la siguiente manera:
 
@@ -71,7 +71,7 @@ Cosas a tener en cuenta:
 * Debemos definir la función antes de usarla.
 * Una instrucción con el nombre de la función la invoca, ejecutando las instrucciones del cuerpo de la función.
 
-### Funcionamiento de las funciones
+## Funcionamiento de las funciones
 
 ![ ](img/funcion.png)
 

@@ -2,7 +2,7 @@
 ## Sección 4: Listas
 ## Clase: Ejemplo de recorrido de listas
 
-### Intercambio de variables
+## Intercambio de variables
 
 El problema que vamos a resolver es el siguiente: ¿Cómo se pueden intercambiar los valores de dos variables?
 
@@ -36,7 +36,7 @@ variable_2 = 2
 variable_1, variable_2 = variable_2, variable_1
 ```
 
-### Intercambio de los elementos de una lista
+## Intercambio de los elementos de una lista
 
 Vamos a utilizar lo visto en el punto anterior para resolver el siguiente problema: queremos invertir el orden de una lista. Es decir, por ejemplo en una lista de 5 elementos, que remos intercambiar el primer elemento por el último y el segundo por el cuarto.
 

@@ -2,15 +2,15 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - La sentencia continue – el Bonito Devorador de Vocales
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5 - 10 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 * Modificar y actualizar el código existente.
 * Reflejar situaciones de la vida real en un programa de ordenador.
 
-### Escenario
+## Escenario
 
 Tu tarea aquí es aún más especial que antes: ¡Debes rediseñar el devorador de vocales (feo) del laboratorio anterior y crear un mejor devorador de vocales (bonito) mejorado! Escribe un programa que use:
 
@@ -52,7 +52,7 @@ Hemos creado `word_without_vowels` y le hemos asignado una cadena vacía. Utiliz
 
 Prueba tu programa con los datos que le proporcionamos.
 
-### Datos de Prueba
+## Datos de Prueba
 
 * Entrada de muestra: `Gregory`
     * Salida esperada: ``GRGRY`

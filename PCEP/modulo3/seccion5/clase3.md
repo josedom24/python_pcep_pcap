@@ -2,7 +2,7 @@
 ## Sección 5: Ordenando listas simples: el ordenamiento de burbuja
 ##  Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. HHemos estudiado el **algoritmo de ordenación de listas burbuja** y hemos visto la necesidad de usar **anidación de bucles** para ordenar una lista usando este algoritmo.
 2. Puedes usar el método sort() para ordenar los elementos de una lista, por ejemplo:
@@ -23,7 +23,7 @@ lst.reverse()
 print(lst)  # salida: [4, 2, 1, 3, 5]
 ```
 
-### Cuestionario de sección
+## Cuestionario de sección
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
@@ -61,7 +61,7 @@ lst.reverse()
 print(lst)
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

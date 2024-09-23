@@ -2,7 +2,7 @@
 ## Sección 6: Operaciones con listas
 ## Clase: Las listas son mutables
 
-### Las listas son mutables
+## Las listas son mutables
 
 Como hemos indicado en clases anteriores el tipo de datos lista es una **clase**, cada vez que creamos una variable de la clase lista estamos creando un **objeto** que además de guardar un conjunto de datos, posee un conjunto de **métodos** que nos permiten trabajar con la lista.
 
@@ -27,7 +27,7 @@ print(lista1) # [1, 2, 3]
 
 Como vemos la lista `lista1` se ha modificado.
 
-### ¿Cómo se copian las listas?
+## ¿Cómo se copian las listas?
 
 Para copiar una lista en otra no podemos utilizar el operador de asignación:
 

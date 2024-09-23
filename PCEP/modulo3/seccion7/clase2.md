@@ -2,7 +2,7 @@
 ## Sección 7: Listas multidimensionales
 ## Clase: Arreglos de dos dimensiones
 
-### Listas dentro de listas
+## Listas dentro de listas
 
 En muchas ocasiones los datos que queremos guardar en nuestro programa tienen la forma de una tabla, es decir, los datos estñ´an distribuido por filas y columnas.
 
@@ -12,7 +12,7 @@ Para guardar está información en Python utilizaremos listas. Como hemos estudi
 
 A esta estructura la podemos nombrar como **arays o arreglos bidimensiones, o tablas o matriz**.
 
-### Declaración de arreglos bidimensionales
+## Declaración de arreglos bidimensionales
 
 Como vimos anteriormente para las listas tenemos varios formas de inicializar un arreglo bidimensional. Para realizar estos ejemplos vamos a crear una tabla de 3 filas y tres columnas con los 9 primeros números. Veamos las distintas alternativas:
 
@@ -36,7 +36,7 @@ Como vimos anteriormente para las listas tenemos varios formas de inicializar un
     ```
     tabla = [[fila * 3 + columna + 1 for columna in range(3)] for fila in range(3)]
     ```
-### Indexación de arreglos bidimensionales
+## Indexación de arreglos bidimensionales
 
 Para acceder a un elemento de un arreglo bidimensional tendremos que indicar la fila y la columna en la que se encuentra. Por supuesto la primera fila y la primera columna estarán en la posición. De esta manera:
 
@@ -52,7 +52,7 @@ Evidentemente también podemos cambiar el valor de un determinado elemento:
 tabla[2][0] = 0 # Modificamos el elemento guardado en la tercera fila y primera columna.
 ```
 
-### Recorrido de arreglos bidimensionales
+## Recorrido de arreglos bidimensionales
 
 Para recorrer todos los elementos de un arreglo bidimensional, necesitamos posicionarnos en cada una de las filas y posteriormente en cada una de las columnas para indexar el elemento que queremos mostrar, operar o modificar. 
 

@@ -2,15 +2,15 @@
 ## Sección 5: Comentarios
 ## Clase: LABORATORIO - Comentarios
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Muy fácil
 
-### Objetivos
+## Objetivos
  
 * Familiarizarse con el concepto de comentarios en Python.
 * Utilizar y no utilizar los comentarios.
@@ -18,7 +18,7 @@ Muy fácil
 * Experimentar con el código de Python.
 
 
-### Escenario
+## Escenario
 
 El código en el editor contiene comentarios. Intenta mejorarlo: agrega o quita comentarios donde consideres que sea apropiado (en ocasiones el remover un comentario lo hace mas legible), además, cambia el nombre de las variables donde consideres que esto mejorará la comprensión del código.
 

@@ -2,7 +2,7 @@
 ## Sección 3: Operadores, herramientas de manipulación de datos 
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. Una **expresión** es una combinación de valores (o variables, operadores, llamadas a funciones, aprenderás de ello pronto) las cuales son evaluadas y dan como resultado un valor, por ejemplo, `1 + 2`.
 
@@ -43,7 +43,7 @@
     print((2 % -4), (2 % 4), (2 ** 3 ** 2))
     ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

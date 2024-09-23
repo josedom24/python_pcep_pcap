@@ -2,7 +2,7 @@
 ## Sección 1: El Programa "¡Hola, Mundo!"
 ## Clase: Instrucciones
 
-### Un programa está formado por instrucciones
+## Un programa está formado por instrucciones
 
 Ya has visto un programa de ordenador que contiene una invocación de función. La invocación de una función es uno de los muchos tipos posibles de **instrucciones** de Python.
 
@@ -33,7 +33,7 @@ print("Vino la lluvia y se la llevó.")
 Ejecuta el código. ¿Qué sucede?
 Como puedes ver, la invocación vacía de `print()` no está tan vacía como podrías haber esperado - genera una línea vacía o (esta interpretación también es correcta) genera una nueva línea.
 
-### Caracteres de escape y nueva línea en Python
+## Caracteres de escape y nueva línea en Python
 
 Hemos modificado el código de nuevo. Hay dos cambios muy sutiles: hemos insertado un par extraño de caracteres dentro del texto. Se ven así: `\n`.
 

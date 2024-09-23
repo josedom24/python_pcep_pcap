@@ -2,13 +2,13 @@
 ## Sección 1: Toma de decisiones en Python
 ## Clase: Ejemplos de estructuras condicionales
 
-### Analizando ejemplos de código
+## Analizando ejemplos de código
 
 Ahora te mostraremos algunos programas simples pero completos. No los explicaremos a detalle, porque consideramos que los comentarios (y los nombres de las variables) dentro del código son guías suficientes.
 
 Todos los programas resuelven el mismo problema: encuentran el número mayor de una serie de números y lo imprimen.
 
-### Ejemplo 1:
+## Ejemplo 1:
 
 Comenzaremos con el caso más simple: ¿Cómo identificar el mayor de los dos números?
 
@@ -29,7 +29,7 @@ print("El número más grande es:", larger_number)
 
 El fragmento de código anterior debe estar claro: lee dos valores enteros, los compara y encuentra cuál es el más grande.
 
-### Ejemplo 2:
+## Ejemplo 2:
 
 Ahora vamos a mostrarte un hecho intrigante. Python tiene una característica interesante, mira el código a continuación:
 
@@ -52,7 +52,7 @@ Sin embargo, este estilo puede ser engañoso, y no lo vamos a usar en nuestros p
 
 No hay otras diferencias en el código.
 
-### Ejemplo 3:
+## Ejemplo 3:
 
 Es hora de complicar el código: encontremos el mayor de los tres números. ¿Se ampliará el código? Un poco.
 
@@ -87,7 +87,7 @@ print("El número más grande es:", largest_number)
 
 Este método es significativamente más simple que tratar de encontrar el número más grande comparando todos los pares de números posibles (es decir, el primero con el segundo, el segundo con el tercero y el tercero con el primero). Intenta reconstruir el código por ti mismo.
 
-### Pseudocódigo e introducción a los bucles (ciclos)
+## Pseudocódigo e introducción a los bucles (ciclos)
 
 Ahora deberías poder escribir un programa que encuentre el mayor de cuatro, cinco, seis o incluso diez números. Ya conoces el esquema, por lo que ampliar el tamaño del problema no será particularmente complejo.
 
@@ -122,7 +122,7 @@ Cuando se llega a la línea 5 se vuelve a ejecutar desde la la línea 2, se real
 
 ¿Puedes usar una estructura similar en un programa escrito en Python? Si, si puedes, lo estudiaremos más adelante.
 
-### Información Adicional
+## Información Adicional
 
 Python a menudo viene con muchas funciones integradas que harán el trabajo por ti. Por ejemplo, para encontrar el número más grande de todos, puede usar una función incorporada de Python llamada `max()`. Puedes usarlo con múltiples argumentos. Analiza el código de abajo:
 

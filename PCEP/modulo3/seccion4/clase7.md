@@ -2,22 +2,22 @@
 ## Sección 4: Listas
 ## Clase: LABORATORIO - Los fundamentos de las listas: los Beatles
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 10 - 15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Crear y modificar listas simples.
 * Utilizar métodos para modificar listas.
 
-### Escenario
+## Escenario
 
 Los Beatles fueron uno de los grupos de música más populares de la década de 1960 y la banda más vendida en la historia. Algunas personas los consideran el acto más influyente de la era del rock. De hecho, se incluyeron en la compilación de la revista Time de las 100 personas más influyentes del siglo XX.
 

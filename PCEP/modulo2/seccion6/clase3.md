@@ -2,12 +2,12 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: Operadores de cadena
 
-### Introducción a los operadores de cadenas
+## Introducción a los operadores de cadenas
 
 * Los operadores aritméticos `+` y `*`, nos permiten sumar y multiplicar cuando trabajamos con números.
 * A continuación veremos, que esos mismos signos: `+` y `*` nos permiten realizar operaciones sobre cadenas de textos.
 
-### Concatenación
+## Concatenación
 
 El signo de `+`, al ser aplicado a dos cadenas, se convierte en un **operador de concatenación**:
 
@@ -32,7 +32,7 @@ print("\nTu nombre es " + fnam + " " + lnam + ".")
 
 Nota: El utilizar `+` para concatenar cadenas te permite construir la salida de una manera más precisa, en comparación de utilizar únicamente la función `print()`, aún cuando se enriquezca con los argumentos `end=` y `sep=`.
 
-### Replicación
+## Replicación
 
 El signo de `*` (asterisco), cuando es aplicado a una cadena y a un número (o a un número y cadena) se convierte en un operador de replicación.
 
@@ -62,7 +62,7 @@ print("+" + 10 * "-" + "+")
 
 Nota como se ha utilizado el paréntesis en la segunda línea de código. ¡Intenta practicar para crear otras figuras o tus propias obras de arte!.
 
-### Conversión de tipos de datos: str()
+## Conversión de tipos de datos: str()
 
 A estas alturas ya sabes como emplear las funciones `int()` y `float()` para convertir una cadena a un número.
 

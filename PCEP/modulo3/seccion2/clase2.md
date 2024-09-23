@@ -2,22 +2,22 @@
 ## Sección 2: Bucles en Python
 ## Clase: LABORATORIO - Adivina el número secreto
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
 * Utilizar el bucle `while`.
 * Reflejar situaciones de la vida real en un programa de ordenador.
 
-### Escenario
+## Escenario
 
 Un mago junior ha elegido un número secreto. Lo ha escondido en una variable llamada `secret_number`. Quiere que todos los que ejecutan su programa jueguen el juego **Adivina el número secreto**, y adivina qué número ha elegido para ellos. ¡Quiénes no adivinen el número quedarán atrapados en un bucle sin fin para siempre! Desafortunadamente, él no sabe cómo completar el código.
 

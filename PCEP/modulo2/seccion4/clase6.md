@@ -2,7 +2,7 @@
 ## Sección 4: Variable 
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. Una **variable** es una ubicación nombrada reservada para almacenar valores en la memoria. Una variable es creada o inicializada automáticamente cuando se le asigna un valor por primera vez. 
 
@@ -71,7 +71,7 @@
     print(a)
     ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

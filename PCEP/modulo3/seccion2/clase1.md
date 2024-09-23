@@ -2,7 +2,7 @@
 ## Sección 2: Bucles en Python
 ## Clase: Bucle while
 
-### Bucles (ciclos) en el código con while
+## Bucles (ciclos) en el código con while
 
 ¿Estás de acuerdo con la sentencia presentada a continuación?
 
@@ -41,7 +41,7 @@ Ahora, es importante recordar que:
 * Si la condición es `False` tan pronto como se compruebe por primera vez, el cuerpo **no se ejecuta ni una sola vez** (ten en cuenta la analogía de no tener que hacer nada si no hay nada que hacer).
 * El cuerpo debe poder **cambiar el valor de la condición**, porque si la condición es `True` al principio, el cuerpo podría funcionar continuamente hasta el infinito. Observa que hacer una cosa generalmente disminuye la cantidad de cosas por hacer.
 
-### Un bucle infinito
+## Un bucle infinito
 
 Un **bucle infinito**, también denominado bucle sin fin, es una secuencia de instrucciones en un programa que se repite indefinidamente (bucle sin fin).
 
@@ -58,7 +58,7 @@ NOTA: Si deseas ver cómo se comporta un bucle infinito, inicia IDLE, crea un nu
 
 
 
-### Ejemplo: Encontrar el número más grande
+## Ejemplo: Encontrar el número más grande
 
 Volvamos a ver el ejemplo que estudiamos en la sección anterior: Hay que buscar el número más grande de los que vamos introducción, para terminar introducimos el número -1. Analiza el programa cuidadosamente. Localiza donde comienza el bucle  y descubre como se sale del cuerpo del bucle:
 
@@ -84,7 +84,7 @@ print("El número más grande es:", largest_number)
 
 Comprueba como funciona este programa utilizando un bucle `while`.
 
-### Otro ejemplo de bucle while
+## Otro ejemplo de bucle while
 
 Veamos otro ejemplo utilizando el bucle `while`. Sigue los comentarios para descubrir la idea y la solución.
 

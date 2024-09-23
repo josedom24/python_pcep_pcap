@@ -2,7 +2,7 @@
 ## Sección 7: Prueba del Módulo
 
 
-### Resumen del módulo
+## Resumen del módulo
 
 Aquí hay un breve resumen de los objetivos que has cubierto y con los que te has familiarizado en el Módulo 2:
 
@@ -12,7 +12,7 @@ Aquí hay un breve resumen de los objetivos que has cubierto y con los que te ha
 * Cómo realizar operaciones básicas de entrada y salida.
 
 
-### Cuestionario módulo 2
+## Cuestionario módulo 2
 
 La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en total y debes obtener al menos un 70 % para aprobar.
 

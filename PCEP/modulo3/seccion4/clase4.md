@@ -2,7 +2,7 @@
 ## Sección 4: Listas
 ## Clase: Introducción a los métodos. Añadir elementos a las listas
 
-### Funciones frente a métodos
+## Funciones frente a métodos
 
 * Un **método** es un tipo específico de **función**: funciona como una función pero actúa y se utiliza de forma distinta.
 * Las funciones son independiente de los datos. 
@@ -73,7 +73,7 @@ numeros.insert(1, 333)
 
 Imprime el contenido de la lista final en la pantalla y ve que sucede. El fragmento de código sobre el fragmento de código inserta 333 en la lista, por lo que es el segundo elemento. El segundo elemento anterior se convierte en el tercero, el tercero en el cuarto, y así sucesivamente.
 
-## Agregando elementos a una lista vacia
+## Agregando elementos a una lista vacía
 
 Podemos declarar una lista vacía, sin ningún elemento. Para realiza dicha declaración podemos declarar una lista de la siguiente forma:
 

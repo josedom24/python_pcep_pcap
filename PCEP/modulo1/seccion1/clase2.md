@@ -1,8 +1,6 @@
-# Módulo 1: Introducción a Python y a la programación de ordenadores
-## Sección 1: Introducción a la programación
-## Clase: Lenguajes de programación
+# Lenguajes de programación
 
-### Lenguajes naturales vs lenguajes de programación
+## Lenguajes naturales vs lenguajes de programación
 
 * Un lenguaje es un medio (y una herramienta) para expresar y registrar pensamientos.
 * Ejemplos: lenguaje corporal (no utiliza palabras), nuestra lengua materna,...
@@ -13,7 +11,7 @@
 * En el extremo opuesto del lenguaje máquina, tenemos el **lenguaje natural**, que es el que las personas utilizamos para comunicarnos, el número de palabras y combinaciones que podemos realizar es mucho más grande y complejo.
 * El Ordenador no entiende el lenguaje natural.
 
-### ¿Qué compone a un lenguaje?
+## ¿Qué compone a un lenguaje?
 
 Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los siguientes elementos:
 
@@ -22,7 +20,7 @@ Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los s
 * Una **sintaxis**: conjunto de reglas (formales o informales, escritas o interpretadas intuitivamente) utilizadas para precisar si una determinada cadena de palabras forma una oración válida.
 * Una **semántica**: Conjunto de reglas que determinan si una frase tiene sentido.
 
-### Lenguaje máquina vs. lenguaje de alto nivel
+## Lenguaje máquina vs. lenguaje de alto nivel
 
 * Podemos usar el **lenguaje máquina** para comunicarnos directamente con el ordenador.
 * Pero, el **lenguaje máquina** está muy lejos del **lenguaje natural**, y tanto su léxico, como su sintaxis y semántica es complicada para el ser humano.

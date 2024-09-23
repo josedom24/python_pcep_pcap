@@ -2,7 +2,7 @@
 ## Sección 3: Operadores, herramientas de manipulación de datos 
 ## Clase: Operadores básicos
 
-### Exponenciación
+## Exponenciación
 
 Un signo de `**` (doble asterisco) es un operador de **exponenciación (potencia)**. El argumento a la izquierda es la base, el de la derecha, el exponente.
 
@@ -26,7 +26,7 @@ Recuerda: Es posible formular las siguientes reglas con base en los resultados:
 * Cuando la base y el exponente son enteros, el resultado es entero también.
 * Cuando al menos, la base o el exponente es flotante, el resultado también es flotante.
 
-### Multiplicación
+## Multiplicación
 
 Un símbolo de `*` (asterisco) es un operador de **multiplicación**.
 
@@ -39,7 +39,7 @@ print(2. * 3)
 print(2. * 3.)
 ```
 
-### División
+## División
 
 Un símbolo de `/` (diagonal) es un operador de **división**.
 
@@ -60,7 +60,7 @@ El resultado producido por el operador de división siempre es flotante, sin imp
 
 ¿Esto ocasiona un problema? Sí, en ocasiones se podrá necesitar que el resultado de una división sea entero, no flotante.
 
-### División entera
+## División entera
 
 Un símbolo de `//` (doble diagonal) es un operador de **división entera**. Difiere del operador estándar `/` en dos detalles:
 
@@ -106,7 +106,7 @@ El resultado es un par de **dos** negativos. El resultado real (no redondeado) e
 
 NOTA: La division entera también se le suele llamar en inglés **floor division**.
 
-### Residuo (Módulo)
+## Residuo (Módulo)
 
 El siguiente operador es uno muy peculiar, porque no tiene un equivalente dentro de los operadores aritméticos tradicionales.
 
@@ -136,7 +136,7 @@ print(12 % 4.5)
 
 ¿Cuál es el resultado?: `3.0` - no `3` (la regla aun funciona: `12 // 4.5` da `2.0`; `2.0 * 4.5` da `9.0`; `12 - 9.0` da `3.0`)
 
-### Como no dividir
+## Como no dividir
 
 Como probablemente sabes, **la división entre cero no funciona**. Nos da un error.
 
@@ -146,7 +146,7 @@ No intentes:
 * Realizar una división entera entre cero.
 * Encontrar el residuo de una división entre cero.
 
-### Suma
+## Suma
 
 El símbolo del operador de **suma** es el `+` (signo de más), el cual esta completamente alineado a los estándares matemáticos.
 
@@ -159,7 +159,7 @@ print(-4. + 8)
 
 El resultado no debe de sorprenderte. Ejecuta el código y revisa los resultados.
 
-### El operador de resta, operadores unarios y binarios
+## El operador de resta, operadores unarios y binarios
 
 El símbolo del operador de **resta** es obviamente `-` (el signo de menos), sin embargo debes notar que este operador tiene otra función: **puede cambiar el signo de un número**.
 

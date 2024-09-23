@@ -2,7 +2,7 @@
 ## Sección 1: El Programa "¡Hola, Mundo!"
 ## Clase: La función print()
 
-### Tu primer programa
+## Tu primer programa
 
 Vamos a escribir nuestro primer programa muy sencillo.
 
@@ -23,7 +23,7 @@ Este programa esta compuesto por una instrucción con los siguientes elementos:
 * Otra comilla;
 * Un paréntesis de cierre.
 
-### La función print()
+## La función print()
 
 La palabra `print` es un nombre de una **función**. Eso no significa que dondequiera que aparezca esta palabra, será siempre el nombre de una función. El significado de la palabra proviene del contexto en el cual se haya utilizado la palabra.
 

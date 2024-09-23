@@ -2,7 +2,7 @@
 ## Sección 2: Literales de Python 
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. Los **literales** son notaciones para representar valores fijos en el código. Python tiene varios tipos de literales, es decir, un literal puede ser un número por ejemplo, `123`, o una cadena, por ejemplo, `"Yo soy un literal."`.
 
@@ -19,7 +19,7 @@ Los sistemas de numeración Octales y Hexadecimales son similares pues emplean 8
 
 7. Extra. Existe un literal especial más utilizado en Python: el literal `None`. Este literal es llamado un objeto de `NoneType`, y puede ser utilizado para representar la ausencia de un valor. Pronto se hablará más acerca de ello.
 
-### Cuestionario de sección
+## Cuestionario de sección
 
 1. ¿Qué tipos de literales son los siguientes dos ejemplos?
 
@@ -39,7 +39,7 @@ Los sistemas de numeración Octales y Hexadecimales son similares pues emplean 8
 1011
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 

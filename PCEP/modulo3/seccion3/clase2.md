@@ -2,7 +2,7 @@
 ## Sección 3: Operaciones lógicas y de bits en Python 
 ## Clase: Operadores bit a bit
 
-### Operadores bit a bit
+## Operadores bit a bit
 
 Sin embargo, hay cuatro operadores que le permiten manipular bits de datos individuales. Se denominan **operadores bit a bit**.
 
@@ -47,7 +47,7 @@ La diferencia en el funcionamiento de los operadores lógicos y de bits es impor
 Los operadores bit a bit son más estrictos: tratan con cada bit por separado. Si asumimos que la variable entera ocupa 64 bits (lo que es común en los sistemas informáticos modernos), puede imaginar la operación a nivel de bits como una evaluación de 64 veces del operador lógico para cada par de bits de los argumentos. Su analogía es obviamente imperfecta, ya que en el mundo real todas estas 64 operaciones se realizan al mismo tiempo (simultáneamente).
 
 
-### Operaciones lógicas frente a operaciones de bit: continuación
+## Operaciones lógicas frente a operaciones de bit: continuación
 
 Ahora te mostraremos un ejemplo de la diferencia entre las operaciones lógicas y de bit. Supongamos que se han realizado las siguientes asignaciones:
 

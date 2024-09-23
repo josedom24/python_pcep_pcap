@@ -2,15 +2,15 @@
 ## Sección 4: Listas
 ## Clase: LABORATORIO - Los fundamentos de las listas
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Muy fácil
 
-### Objetivos
+## Objetivos
 
 Familiarizar al estudiante con:
 
@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 * Crear y modificar listas.
 
 
-### Escenario
+## Escenario
 
 Había una vez un sombrero. El sombrero no contenía conejo, sino una lista de cinco números: 1, 2, 3, 4 y 5.
 

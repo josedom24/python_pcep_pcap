@@ -2,21 +2,21 @@
 ## Sección 1: El Programa "¡Hola, Mundo!"
 ## Clase: LABORATORIO - Dando forma a la salida
 
-### Tiempo Estimado
+## Tiempo Estimado
 
 5-15 minutos
 
-### Nivel de Dificultad
+## Nivel de Dificultad
 
 Fácil
 
-### Objetivos
+## Objetivos
 
 * Experimentar con el código Python existente.
 * Descubrir y solucionar errores básicos de sintaxis.
 * Familiarizarse con la función `print()` y sus capacidades de formato.
 
-### Escenario
+## Escenario
 
 Con el siguiente programa:
 
@@ -43,13 +43,13 @@ Intenta:
 * Cambia cualquiera de las palabras print en otra cosa (por ejemplo de minúscula a mayúscula, Print) - ¿Qué sucede ahora?
 * Reemplaza algunas de las comillas por apóstrofes; observa lo que pasa detenidamente.
 
-### Salida Esperada
+## Salida Esperada
 
 ```
 Fundamentos***Programación***en...Python
 ```
 
-### Solución
+## Solución
 
 ```
 # Sample Solution

@@ -2,7 +2,7 @@
 ## Sección 6: Interacción con el usuario
 ## Clase: Resumen y cuestionario de la sección
 
-### Resumen de sección
+## Resumen de sección
 
 1. La función `print()` envía datos a la consola, mientras que la función `input()` obtiene datos de la consola.
 2. La función `input()` viene con un parámetro inicial: un mensaje de tipo cadena para el usuario. Permite escribir un mensaje antes de la entrada del usuario, por ejemplo:
@@ -46,7 +46,7 @@
     print(my_input * 3) # Salida esperada: holaholahola
     ```
 
- ### Cuestionario de sección
+ ## Cuestionario de sección
 
 1. ¿Cuál es la salida del siguiente código?
 
@@ -62,7 +62,7 @@ x = input("Ingresa un número: ") # El usuario ingresa un 2
 print(type(x))
 ```
 
-### Solución cuestionario
+## Solución cuestionario
 
 1. Pregunta 1:
 
