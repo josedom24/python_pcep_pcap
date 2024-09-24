@@ -1,8 +1,6 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 7: Listas multidimensionales
-## Clase: Resumen de la sección
+# Resumen
 
-## Resumen de sección
+## Resumen
 
 1. La comprensión de listas te permite crear nuevas listas a partir de las existentes de una manera concisa y elegante. La sintaxis de una comprensión de lista es la siguiente:
 

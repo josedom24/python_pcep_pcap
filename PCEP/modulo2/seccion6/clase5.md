@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 6: Interacción con el usuario
-## Clase: LABORATORIO - Operadores y expresiones
+# LABORATORIO - Operadores y expresiones
 
 ## Tiempo Estimado
 

@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 5: Comentarios 
-## Clase: Comentarios
+# Comentarios
 
 ## Poner comentarios en el código: ¿por qué, cuándo y dónde?
 

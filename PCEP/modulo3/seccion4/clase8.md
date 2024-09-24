@@ -1,8 +1,6 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 4: Listas
-## Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. La lista es un **tipo de dato en Python** (que más adelante llamaremos **clase**) que se utiliza para almacenar múltiples objetos. Es una colección ordenada y mutable de elementos separados por comas entre corchetes, por ejemplo:
 
@@ -73,7 +71,7 @@ del my_list[2]
 print(len(my_list))  # salida 4
 ```
 
-## Cuestionario de sección
+## Cuestionario
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 

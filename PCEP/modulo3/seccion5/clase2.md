@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 5: Ordenando listas simples: el ordenamiento de burbuja
-## Clase: El ordenamiento burbuja en Python
+# El ordenamiento burbuja en Python
 
 ## El ordenamiento burbuja en Python
 

@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 4: Listas
-## Clase: Ejemplo de recorrido de listas
+# Ejemplo de recorrido de listas
 
 ## Intercambio de variables
 

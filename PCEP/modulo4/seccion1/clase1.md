@@ -1,6 +1,4 @@
-# Módulo 4: Funciones, Tuplas, Diccionarios, Excepciones y Procesamiento de Datos
-## Sección 1: Funciones
-## Clase: Introducción a las funciones
+# Introducción a las funciones
 
 ## ¿Por qué necesitamos las funciones?
 

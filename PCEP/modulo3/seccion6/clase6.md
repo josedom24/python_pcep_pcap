@@ -1,8 +1,6 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 5: Ordenando listas simples: el ordenamiento de burbuja
-##  Clase: Resumen y cuestionario de la sección
+# Resumen y cuestionario
 
-## Resumen de sección
+## Resumen
 
 1. Si tienes una lista `list_1`, y realizas la siguiente asignación: `list_2 = list_1` esto no hace una copia de la lista `list_1`, pero hace que las variables `list_1` y `list_2` apunten a la misma lista en la memoria. Por ejemplo:
 
@@ -64,7 +62,7 @@ print("C" not in my_list)  # salida: True
 print(2 not in my_list)  # salida: False
 ```
 
-## Cuestionario de sección
+## Cuestionario
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 

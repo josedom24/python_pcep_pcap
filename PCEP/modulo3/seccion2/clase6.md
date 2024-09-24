@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 2: Bucles en Python
-## Clase: LABORATORIO - La sentencia break - atrapado en un bucle
+# LABORATORIO - La sentencia break - atrapado en un bucle
 
 ## Tiempo Estimado
 

@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 3: Operaciones lógicas y de bits en Python 
-## Clase: Expresiones lógicas
+# Expresiones lógicas
 
 ## Operadores lógicos
 

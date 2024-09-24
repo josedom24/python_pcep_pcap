@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 2: Bucles en Python
-## Clase: El bloque else en la instrucción while y for
+# El bloque else en la instrucción while y for
 
 ## El bucle while y la rama else
 

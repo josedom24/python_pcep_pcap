@@ -1,18 +1,6 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 7: Prueba del Módulo
+# Prueba intermedia
 
-
-## Resumen del módulo
-
-Aquí hay un breve resumen de los objetivos que has cubierto y con los que te has familiarizado en el Módulo 2:
-
-* Cómo escribir y ejecutar programas simples en Python;
-* Qué son los literales, operadores y expresiones en Python;
-* Qué son las variables y cuáles son las reglas que las gobiernan;
-* Cómo realizar operaciones básicas de entrada y salida.
-
-
-## Cuestionario módulo 2
+## Cuestionario
 
 La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en total y debes obtener al menos un 70 % para aprobar.
 

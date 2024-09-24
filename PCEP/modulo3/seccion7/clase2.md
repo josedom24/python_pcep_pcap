@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 7: Listas multidimensionales
-## Clase: Arreglos de dos dimensiones
+# Arreglos de dos dimensiones
 
 ## Listas dentro de listas
 

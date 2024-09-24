@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 6: Operaciones con listas
-## Clase: Operación de rebanada de de listas
+# Operación de rebanada de de listas
 
 ## Rebanadas (slice) de listas
 

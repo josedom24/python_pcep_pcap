@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 6: Interacción con el usuario
-## Clase: Operadores de cadena
+# Operadores de cadena
 
 ## Introducción a los operadores de cadenas
 

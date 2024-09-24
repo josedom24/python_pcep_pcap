@@ -1,6 +1,4 @@
-# Módulo 2: Tipos de datos, variables, operaciones básicas de entrada y salida, operadores básicos 
-## Sección 5: Comentarios
-## Clase: LABORATORIO - Comentarios
+# LABORATORIO - Comentarios
 
 ## Tiempo Estimado
 

@@ -1,18 +1,6 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 8: Prueba del Módulo
+# Prueba intermedia
 
-
-## Resumen del módulo
-
-Aquí hay un breve resumen de los objetivos que has cubierto y con los que te has familiarizado en el Módulo 3:
-
-* Valores booleanos para comparar diferentes valores y controlar las rutas de ejecución usando las instrucciones `if` y `if-else`;
-* La utilización de bucles (`while` y `for`) y cómo controlar su comportamiento utilizando las instrucciones `break` y `continue`;
-* La diferencia entre operaciones lógicas y bit a bit;
-* El concepto de listas y procesamiento de listas, incluyendo la iteración proporcionada por el bucle `for`, y las rebanadas;
-* La idea de los arreglos multidimensionales.
-
-## Cuestionario módulo 3
+## Cuestionario
 
 La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en total y debes obtener al menos un 70 % para aprobar.
 

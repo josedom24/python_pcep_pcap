@@ -1,6 +1,4 @@
-# Módulo 3: Valores booleanos, ejecución condicional, bucles, listas y su procesamiento, operadores lógicos y de bit a bit
-## Sección 5: Ordenando listas simples: el ordenamiento de burbuja
-## Clase: Ordenación de una lista por el algoritmo burbuja
+# Ordenación de una lista por el algoritmo burbuja
 
 ## Ordenamiento de burbuja
 
