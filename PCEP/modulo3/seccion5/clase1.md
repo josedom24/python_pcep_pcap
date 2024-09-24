@@ -2,7 +2,7 @@
 
 ## Ordenamiento de burbuja
 
-Hemos aprendido a acceder y modificar los elementos de una lista. En esta sección vamos a aprender a ordenar las listas. Existen muchos algoritmos de ordenación, unos más simples y otros más complejos. en este apartado vamos a mostrar un algoritmo simple y fácil de entender para ordenar listas, sin embargo hay que indicar que no es muy eficiente para listas con muchos elementos.
+Hemos aprendido a acceder y modificar los elementos de una lista. En este apartado vamos a aprender a ordenar las listas. Existen muchos algoritmos de ordenación, unos más simples y otros más complejos. en este apartado vamos a mostrar un algoritmo simple y fácil de entender para ordenar listas, sin embargo hay que indicar que no es muy eficiente para listas con muchos elementos.
 
 Una lista se puede ordenar de dos maneras:
 
