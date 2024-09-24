@@ -2,7 +2,7 @@
 ## Curso de preparación para el examen PCEP – Certified Entry-Level Python Programmer
 
 1. Introducción a Python y a la programación de ordenadores
-    * [Programas de ordenador](modulo1/seccion1/clase1.md)
+    * [Introducción a la programación](modulo1/seccion1/clase1.md)
     * [Lenguajes de programación](modulo1/seccion1/clase2.md)
     * [Compilación us interpretación](modulo1/seccion1/clase3.md)
     * [Introducción a Python](modulo1/seccion2/clase1.md)
