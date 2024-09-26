@@ -7,10 +7,7 @@
     * [Introducción a Python](unidad1/clase3.md)
     * [Instalación de Python](minidad1/clase4.md)
     * [Escribir y ejecutar programas python](unidad1/clase5.md)
-
-    
-    * [Nuestro primer programa en Python](modulo1/seccion3/clase3.md)
-    * [Cómo estropear y arreglar tu código](modulo1/seccion3/clase4.md)
+    * [Nuestro primer programa en Python](unidad1/clase6.md)
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](modulo1/seccion4/test.md)
 2. Nuestro primer programa
