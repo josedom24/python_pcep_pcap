@@ -69,7 +69,7 @@
     * [LABORATORIO - Fundamentos del bucle while](modulo3/seccion2/clase10.md)
     * [LABORATORIO - La hipótesis de Collatz](modulo3/seccion2/clase11.md)
     * [Resumen y cuestionario](modulo3/seccion2/clase12.md)
-10 .Operaciones lógicas y de bits en Python
+10. Operaciones lógicas y de bits en Python
     * [Expresiones lógicas](modulo3/seccion3/clase1.md)
     * [Operadores bit a bit](modulo3/seccion3/clase2.md)
     * [Uso de los operadores bit a bit](modulo3/seccion3/clase3.md)
