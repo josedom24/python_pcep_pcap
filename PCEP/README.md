@@ -4,16 +4,11 @@
 1. Introducción a Python y a la programación de ordenadores
     * [Introducción a la programación y a los lenguajes de programación](unidad1/clase1.md)
     * [Compilación us interpretación](unidad1/clase2.md)
+    * [Introducción a Python](unidad1/clase3.md)
+    * [Instalación de Python](minidad1/clase4.md)
+
     
-
-
-
-    
-    * [Introducción a Python](modulo1/seccion2/clase1.md)
-    * [¿Por qué usar Python?](modulo1/seccion2/clase2.md)
-    * [Implementaciones de Python](modulo1/seccion2/clase3.md)
-    * [Instalación de Python](modulo1/seccion3/clase1.md)
-    * [Herramientas para programar en Python](modulo1/seccion3/clase2.md)
+    * [Escribir y ejecutar programas python](modulo1/seccion3/clase2.md)
     * [Nuestro primer programa en Python](modulo1/seccion3/clase3.md)
     * [Cómo estropear y arreglar tu código](modulo1/seccion3/clase4.md)
     * Test intermedio: comprueba lo que has aprendido
