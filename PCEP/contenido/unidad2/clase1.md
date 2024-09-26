@@ -34,7 +34,7 @@ Además, muchas de las funciones de Python pueden hacer las dos cosas anteriores
 
 ¿Dónde pueden estar definidas las funciones?
 
-* **Pueden estar definidas en Python por defecto**. La función `print` es una de este tipo. Esta función está integrada con Python. Son conocidas también como funciones predefinidas, y la podemos usar cuando queramos.
+* **Pueden estar definidas en Python por defecto**. La función `print` es una de este tipo. Esta función está integrada con Python. Son conocidas también como funciones predefinidas, y la podemos usar cuando queramos. Python 3.7.1 viene con 69 funciones incorporadas. Puedes encontrar su lista completa en orden alfabético en [Python Standard Library](https://docs.python.org/3.7/library/functions.html).
 * **Pueden provenir de uno o varios de los módulos de Python** llamados complementos o librerías; algunos de los módulos vienen con Python, otros pueden requerir una instalación por separado. Para utilizar estas funciones hay que indicar la librería donde se encuentran.
 * **Puedes escribirlas tú mismo**, colocando tantas funciones como desees y necesites dentro de tu programa para hacerlo más simple, claro y elegante.
 
