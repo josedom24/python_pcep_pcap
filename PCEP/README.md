@@ -19,11 +19,9 @@
     * [LABORATORIO - Dando forma a la salida](contenido/unidad2/clase6.md)
 3. Literales y tipos de datos
     * [Literales y tipos de datos](contenido/unidad3/clase1.md)
-    * [Enteros](contenido/unidad3/clase2.md)
-    * [Flotantes](contenido/unidad3/clase3.md)
-    * [Cadenas](contenido/unidad3/clase4.md)
-    * [Valores Booleanos](contenido/unidad3/clase5.md)
-    * [LABORATORIO - Literales de Python - Cadenas](contenido/unidad3/clase6.md)
+    * [Literales numéricos](contenido/unidad3/clase2.md)
+    * [Literales cadenas de caracteres y booleanos](contenido/unidad3/clase3.md)
+    * [LABORATORIO - Literales de Python - Cadenas](contenido/unidad3/clase4.md)
     * [Resumen y cuestionario](contenido/unidad3/clase7.md)
 4. Operadores básicos
     * [Introducción a los operadores y expresiones](modulo2/seccion3/clase1.md)
