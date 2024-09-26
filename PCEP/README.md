@@ -8,8 +8,8 @@
     * [Instalación de Python](minidad1/clase4.md)
     * [Escribir y ejecutar programas python](unidad1/clase5.md)
     * [Nuestro primer programa en Python](unidad1/clase6.md)
-    * Test intermedio: comprueba lo que has aprendido
-    * [Prueba intermedia](modulo1/seccion4/test.md)
+    * [Test intermedio: comprueba lo que has aprendido](unidad1/test.md)
+    * [Prueba intermedia](unidad1/prueba.md)
 2. Nuestro primer programa
     * [La función print()](modulo2/seccion1/clase1.md)
     * [Invocación de funciones](modulo2/seccion1/clase2.md)

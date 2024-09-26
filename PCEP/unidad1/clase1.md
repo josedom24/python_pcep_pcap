@@ -28,7 +28,7 @@
 
 * El **lenguaje máquina** es un lenguaje de programación que directamente entiende el ordenador, ya que sus instrucciones son cadenas binarias (secuencias de ceros y unos) que especifican una operación y las posiciones (dirección) de memoria implicadas en la operación.
 * Este lenguaje es muy rudimentario y solemos llamarlo **código máquina**.
-* Cada tipo de procesador (arquitectura) tiene un **conjunto de instrucciones** muy básicas que sabe ejecutar.
+* Cada tipo de procesador (arquitectura) tiene un conjunto de instrucciones muy básicas que sabe ejecutar. A este conjunto completo de comandos conocidos se llama **lista de instrucciones**.
 
 ## ¿Qué compone a un lenguaje?
 
