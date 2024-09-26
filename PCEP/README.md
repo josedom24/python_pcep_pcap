@@ -22,12 +22,10 @@
     * [Literales numéricos](contenido/unidad3/clase2.md)
     * [Literales cadenas de caracteres y booleanos](contenido/unidad3/clase3.md)
     * [LABORATORIO - Literales de Python - Cadenas](contenido/unidad3/clase4.md)
-    * [Resumen y cuestionario](contenido/unidad3/clase7.md)
 4. Operadores básicos
-    * [Introducción a los operadores y expresiones](modulo2/seccion3/clase1.md)
-    * [Operadores básicos](modulo2/seccion3/clase2.md)
-    * [Prioridad de operadores](modulo2/seccion3/clase3.md)
-    * [Resumen y cuestionario](modulo2/seccion3/clase4.md)
+    * [Introducción a los operadores y expresiones](contenido/unidad4/clase1.md)
+    * [Operadores básicos](contenido/unidad4/clase2.md)
+    * [Prioridad de operadores](contenido/unidad4/clase3.md)
 5. Variables
     * [Introducción a las variables](modulo2/seccion4/clase1.md)
     * [Trabajando con variables](modulo2/seccion4/clase2.md)
