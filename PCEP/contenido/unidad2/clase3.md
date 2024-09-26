@@ -1,4 +1,4 @@
-# Las instrucciones de nuestro programa
+# Ejecución secuencial de instrucciones
 
 ## Un programa está formado por instrucciones
 
