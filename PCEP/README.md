@@ -11,14 +11,15 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad1/test.md)
     * [Prueba intermedia](contenido/unidad1/prueba.md)
 2. Nuestro primer programa
-    * [La función print()](modulo2/seccion1/clase1.md)
-    * [Invocación de funciones](modulo2/seccion1/clase2.md)
-    * [LABORATORIO - Trabajando con la función print()](modulo2/seccion1/clase3.md)
-    * [Instrucciones](modulo2/seccion1/clase4.md)
-    * [Más sobre argumentos en funciones](modulo2/seccion1/clase5.md)
-    * [LABORATORIO - La función print() y sus argumentos](modulo2/seccion1/clase6.md)
-    * [LABORATORIO - Dando forma a la salida](modulo2/seccion1/clase7.md)
-    * [Resumen y cuestionario](modulo2/seccion1/clase8.md)
+    * [Introducción a las funciones](contenido/unidad2/clase1.md)
+    * [LABORATORIO - Trabajando con la función print()](contenido/unidad2/clase2.md)
+
+    
+    * [Instrucciones](contenido/unidad2/clase4.md)
+    * [Más sobre argumentos en funciones](contenido/unidad2/clase5.md)
+    * [LABORATORIO - La función print() y sus argumentos](contenido/unidad2/clase6.md)
+    * [LABORATORIO - Dando forma a la salida](contenido/unidad2/clase7.md)
+    * [Resumen y cuestionario](contenido/unidad2/clase8.md)
 3. Literales y tipos de datos
     * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
     * [Enteros](modulo2/seccion2/clase2.md)
