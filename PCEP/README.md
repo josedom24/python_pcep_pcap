@@ -13,13 +13,10 @@
 2. Nuestro primer programa
     * [Introducción a las funciones](contenido/unidad2/clase1.md)
     * [LABORATORIO - Trabajando con la función print()](contenido/unidad2/clase2.md)
-
-    
-    * [Instrucciones](contenido/unidad2/clase4.md)
-    * [Más sobre argumentos en funciones](contenido/unidad2/clase5.md)
-    * [LABORATORIO - La función print() y sus argumentos](contenido/unidad2/clase6.md)
-    * [LABORATORIO - Dando forma a la salida](contenido/unidad2/clase7.md)
-    * [Resumen y cuestionario](contenido/unidad2/clase8.md)
+    * [Ejecución secuencial de instrucciones](contenido/unidad2/clase3.md)
+    * [Más argumentos de la función print()](contenido/unidad2/clase4.md)
+    * [LABORATORIO - La función print() y sus argumentos](contenido/unidad2/clase5.md)
+    * [LABORATORIO - Dando forma a la salida](contenido/unidad2/clase6.md)
 3. Literales y tipos de datos
     * [Literales y tipos de datos](modulo2/seccion2/clase1.md)
     * [Enteros](modulo2/seccion2/clase2.md)
