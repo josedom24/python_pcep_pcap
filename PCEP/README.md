@@ -40,6 +40,7 @@
     * [La función input()](contenido/unidad7/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad7/clase2.md)
     * [Operadores de cadena](contenido/unidad7/clase3.md)
+    
     * [LABORATORIO - Entradas y salidas simples](contenido/unidad7/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/unidad7/clase5.md)
     * [LABORATORIO - Operadores y expresiones (2ª parte)](contenido/unidad7/clase6.md)
