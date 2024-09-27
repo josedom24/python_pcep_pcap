@@ -42,7 +42,6 @@
     * [LABORATORIO - Entradas y salidas simples](contenido/unidad7/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/unidad7/clase5.md)
     * [LABORATORIO - Operadores y expresiones (2ª parte)](contenido/unidad7/clase6.md)
-    * [Resumen y cuestionario](modulo2/seccion6/clase7.md)
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](modulo2/seccion7/test.md)
 8. Estructura alternativa
