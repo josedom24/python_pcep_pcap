@@ -36,12 +36,12 @@
     * [Comentarios](contendio/unidad6/clase1.md)
     * [LABORATORIO - Comentarios](contendio/unidad6/clase2.md)
 7. Entrada y salida básica
-    * [La función input()](modulo2/seccion6/clase1.md)
-    * [Conversión de datos (casting)](modulo2/seccion6/clase2.md)
-    * [Operadores de cadena](modulo2/seccion6/clase3.md)
-    * [LABORATORIO - Entradas y salidas simples](modulo2/seccion6/clase4.md)
-    * [LABORATORIO - Operadores y expresiones](modulo2/seccion6/clase5.md)
-    * [LABORATORIO - Operadores y expresiones (2ª parte)](modulo2/seccion6/clase6.md)
+    * [Entrada de datos](contenido/unidad7/clase1.md)
+    * [Conversión de datos (casting)](contenido/unidad7/clase2.md)
+    * [Operadores de cadena](contenido/unidad7/clase3.md)
+    * [LABORATORIO - Entradas y salidas simples](contenido/unidad7/clase4.md)
+    * [LABORATORIO - Operadores y expresiones](contenido/unidad7/clase5.md)
+    * [LABORATORIO - Operadores y expresiones (2ª parte)](contenido/unidad7/clase6.md)
     * [Resumen y cuestionario](modulo2/seccion6/clase7.md)
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](modulo2/seccion7/test.md)
