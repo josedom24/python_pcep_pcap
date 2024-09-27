@@ -33,8 +33,9 @@
     * [LABORATORIO - Variables: un convertidor simple](contenido/unidad5/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/unidad5/clase5.md)
 6. Comentarios
-    * [Comentarios](contendio/unidad6/clase1.md)
-    * [LABORATORIO - Comentarios](contendio/unidad6/clase2.md)
+    * [Comentarios](modulo2/seccion5/clase1.md)
+    * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
+    * [Resumen y cuestionario](modulo2/seccion5/clase3.md)
 7. Entrada y salida básica
     * [Entrada de datos](contenido/unidad7/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad7/clase2.md)
