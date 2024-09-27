@@ -27,12 +27,11 @@
     * [Operadores básicos](contenido/unidad4/clase2.md)
     * [Prioridad de operadores](contenido/unidad4/clase3.md)
 5. Variables
-    * [Introducción a las variables](modulo2/seccion4/clase1.md)
-    * [Trabajando con variables](modulo2/seccion4/clase2.md)
-    * [LABORATORIO - Variables](modulo2/seccion4/clase3.md)
-    * [LABORATORIO - Variables: un convertidor simple](modulo2/seccion4/clase4.md)
-    * [LABORATORIO - Operadores y expresiones](modulo2/seccion4/clase5.md)
-    * [Resumen y cuestionario](modulo2/seccion4/clase6.md)
+    * [Introducción a las variables](contenido/unidad5/clase1.md)
+    * [Trabajando con variables](contenido/unidad5/clase2.md)
+    * [LABORATORIO - Variables](contenido/unidad5/clase3.md)
+    * [LABORATORIO - Variables: un convertidor simple](contenido/unidad5/clase4.md)
+    * [LABORATORIO - Operadores y expresiones](contenido/unidad5/clase5.md)
 6. Comentarios
     * [Comentarios](modulo2/seccion5/clase1.md)
     * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
