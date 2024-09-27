@@ -37,7 +37,7 @@
     * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
     * [Resumen y cuestionario](modulo2/seccion5/clase3.md)
 7. Entrada y salida básica
-    * [Entrada de datos](contenido/unidad7/clase1.md)
+    * [La función input()](contenido/unidad7/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad7/clase2.md)
     * [Operadores de cadena](contenido/unidad7/clase3.md)
     * [LABORATORIO - Entradas y salidas simples](contenido/unidad7/clase4.md)
