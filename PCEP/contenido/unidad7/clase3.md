@@ -79,3 +79,29 @@ print("La longitud de la hipotenusa es " + str((leg_a**2 + leg_b**2) ** .5))
 ```
 
 Se ha modificado un poco para mostrar cómo es que la función `str()` trabaja. Gracias a esto y al uso del operador de concatenación, podemos pasar el resultado entero a la función `print()` como una sola cadena, sin utilizar las comas.
+
+## Cuestionario
+
+1. ¿Cuál es la salida del siguiente código?
+
+```
+x = int(input("Ingresa un número: ")) # El usuario ingresa un 2 
+print(x * "5")
+```
+
+2. ¿Cuál es la salida esperada del siguiente código?
+
+```
+x = input("Ingresa un número: ") # El usuario ingresa un 2 
+print(type(x))
+```
+
+## Solución cuestionario
+
+1. Pregunta 1:
+
+`55`
+
+2. Pregunta 2:
+
+`<class 'str'>`
