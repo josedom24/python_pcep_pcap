@@ -49,7 +49,7 @@
 8. Estructura alternativa
     * [Operadores lógicos o de comparación](cpntenido/unidad8/clase1.md)
     * [LABORATORIO ‒ Preguntas y Respuestas](cpntenido/unidad8/clase2.md)
-    * [Condiciones y ejecución condicional](cpntenido/unidad8/clase3.md)
+    * [Estructuras alternativas](cpntenido/unidad8/clase3.md)
     * [Ejemplos de estructuras condicionales](cpntenido/unidad8/clase4.md)
     * [LABORATORIO - Operadores de comparación y ejecución condicional](cpntenido/unidad8/clase5.md)
     * [LABORATORIO - Fundamentos de la sentencia if-else](cpntenido/unidad8/clase6.md)
