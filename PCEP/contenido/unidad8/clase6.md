@@ -17,7 +17,7 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Érase una vez una tierra de leche y miel, habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto, su felicidad tenía límites. El impuesto más importante, denominado *Impuesto Personal de Ingresos* (IPI, para abreviar) tenía que pagarse una vez al año y se evaluó utilizando la siguiente regla:
+Érase una vez una tierra de leche y miel, habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto, su felicidad tenía límites. El impuesto más importante, denominado *Impuesto Personal de Ingresos* (IPI, para abreviar) tenía que pagarse una vez al año y se calculó utilizando la siguiente regla:
 
 * Si el ingreso del ciudadano no era superior a 85.528 euros, el impuesto era igual al 18% del ingreso menos 556 euros y 2 céntimos (esta fue la llamada exención fiscal).
 * Si el ingreso era superior a esta cantidad, el impuesto era igual a 14.839 euros y 2 céntimos, más el 32% del excedente sobre 85.528 euros.
@@ -53,20 +53,4 @@ Prueba tu código con los datos que hemos proporcionado.
 * Entrada de muestra: -100
     * Resultado esperado: El impuesto es: 0.0 euros 
 
-## Solución
-
-```
-income = float(input("Introduce el ingreso anual: "))
-
-if income < 85528:
-	tax = income * 0.18 - 556.02
-else:
-	tax = (income - 85528) * 0.32 + 14839.02
-
-if tax < 0.0:
-	tax = 0.0
-
-tax = round(tax, 0)
-print("El impuesto es:", tax, "euros")
-```
 

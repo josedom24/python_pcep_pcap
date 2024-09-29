@@ -10,7 +10,7 @@ Intermedio
 
 ## Objetivos
  
-* PPrácticas la construcción de programas a partir de los problemas que tenemos que resolver.
+* Practicar la construcción de programas a partir de los problemas que tenemos que resolver.
 
 ## Escenario
 

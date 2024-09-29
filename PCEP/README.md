@@ -40,7 +40,6 @@
     * [La función input()](contenido/unidad7/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad7/clase2.md)
     * [Operadores de cadena](contenido/unidad7/clase3.md)
-    
     * [LABORATORIO - Entradas y salidas simples](contenido/unidad7/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/unidad7/clase5.md)
     * [LABORATORIO - Operadores y expresiones (2ª parte)](contenido/unidad7/clase6.md)
@@ -55,7 +54,7 @@
     * [LABORATORIO - Operadores de comparación y ejecución condicional](contenido/unidad8/clase5.md)
     * [LABORATORIO - Fundamentos de la sentencia if-else](contenido/unidad8/clase6.md)
     * [LABORATORIO - Fundamentos de la sentencia if-elif-else](contenido/unidad8/clase7.md)
-    * [Resumen y cuestionario](contenido/unidad8/clase8.md)
+    * [LABORATORIO - Ejercicios estructura secuencial](contenido/unidad8/clase8.md)
 9. Estructura repetitiva
     * [Bucle while](modulo3/seccion2/clase1.md)
     * [LABORATORIO - Adivina el número secreto](modulo3/seccion2/clase2.md)
