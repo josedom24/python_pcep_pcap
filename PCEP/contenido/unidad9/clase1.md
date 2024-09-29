@@ -1,43 +1,33 @@
 # Bucle while
 
-## Estructura repetitiva while
+## Estructura repetitiva while 
 
-¿Estás de acuerdo con la sentencia presentada a continuación?
 
-```
-mientras haya algo que hacer
-    hazlo
-```
 
-Toma en cuenta que este registro también declara que, si no hay nada que hacer, nada ocurrirá.
-
-En general, en Python, un **bucle** se puede representar de la siguiente manera:
+Las estructuras repetitivas o bucles nos permiten repetir un conjunto de instrucciones. En concreto el bucle `while` permite repetir un conjunto de instrucciones mientras se cumpla una condición. En lenguaje natural sería parecida a esta sentencia:
 
 ```
-while conditional_expression:
-    instruction
+mientras ocurra algo
+    haz una tarea
+    haz otra tarea
+    ...
 ```
 
-Aunque es parecido sintacticamente a la estructura alternativa con `if`: sólo cambia la palabrá `if` por `while`), la diferencia semántica es más importante: cuando se cumple la condición, `if` realiza sus sentencias sólo una vez; `while` repite la ejecución siempre que la condición se evalúe como `True`.
+Hay que tener en cuenta que si no *ocurre nada* no se realiza ninguna tarea.
 
-Observa el algoritmo a continuación:
+La instrucción `while` ejecuta una secuencia de instrucciones mientras una condición sea verdadera.
 
 ```
-while conditional_expression:
-    instruction_one
-    instruction_two
-    instruction_three
-    :
-    :
-    instruction_n
+while <condición>:
+    <instrucciones>
 ```
 
-Ahora, es importante recordar que:
-
-* Si deseas ejecutar más de una sentencia dentro de un `while`, debes (como con `if`) poner **sangría** a todas las instrucciones de la misma manera.
-* Una instrucción o conjunto de instrucciones ejecutadas dentro del `while` se llama el **cuerpo del bucle**.
-* Si la condición es `False` tan pronto como se compruebe por primera vez, el cuerpo **no se ejecuta ni una sola vez** (ten en cuenta la analogía de no tener que hacer nada si no hay nada que hacer).
-* El cuerpo debe poder **cambiar el valor de la condición**, porque si la condición es `True` al principio, el cuerpo podría funcionar continuamente hasta el infinito. Observa que hacer una cosa generalmente disminuye la cantidad de cosas por hacer.
+* Una instrucción o conjunto de instrucciones ejecutadas dentro del `while` se llama el **cuerpo del ciclo o bucle**.
+* Al ejecutarse esta instrucción, la condición es evaluada. Si la condición resulta verdadera, se ejecuta una vez la secuencia de instrucciones que forman el cuerpo del ciclo. Al finalizar la ejecución del cuerpo del ciclo se vuelve a evaluar la condición y, si es verdadera, la ejecución se repite. Estos pasos se repiten mientras la condición sea verdadera.
+* Se puede dar la circunstancia que las instrucciones del bucle **no se ejecuten nunca**, si al evaluar por primera vez la condición resulta ser falsa.
+* Si la condición siempre es verdadera, al ejecutar esta instrucción se produce un **ciclo infinito**. A fin de evitarlo, las instrucciones del cuerpo del ciclo deben contener alguna instrucción que **modifique la o las variables involucradas en la condición**, de modo que ésta sea falsificada en algún momento y así finalice la ejecución del ciclo.
+* Es es parecido  a la estructura alternativa con `if`: sólo cambia la palabra `if` por `while`, pero el comportamiento es totalmente diferente: cuando se cumple la condición, `if` realiza sus sentencias sólo una vez; `while` repite la ejecución siempre que la condición se evalúe como `True`.
+* Las instrucciones del cuerpo del bucle hay que indicarlas con una **sangría**.
 
 ## Un bucle infinito
 
@@ -51,10 +41,6 @@ while True:
 ```
 
 Este bucle imprimirá infinitamente `"Estoy atrapado dentro de un bucle"`. En la pantalla.
-
-NOTA: Si deseas ver cómo se comporta un bucle infinito, inicia IDLE, crea un nuevo archivo, copia y pega el código anterior, guarda tu archivo y ejecuta el programa. Lo que verás es la secuencia interminable de cadenas impresas de *"Estoy atrapado dentro de un bucle".* en la ventana de la consola de Python. Para finalizar tu programa, simplemente presiona **Ctrl-C**. Esto provocará la excepción *KeyboardInterrupt* y permitirá que tu programa salga del bucle. Hablaremos de ello más adelante en el curso.
-
-
 
 ## Ejemplo: Encontrar el número más grande
 
@@ -78,19 +64,13 @@ while number != -1:
 
 # Imprime el número más grande
 print("El número más grande es:", largest_number)
-``
-
-Comprueba como funciona este programa utilizando un bucle `while`.
+```
 
 ## Otro ejemplo de bucle while
 
-Veamos otro ejemplo utilizando el bucle `while`. Sigue los comentarios para descubrir la idea y la solución.
+Veamos otro ejemplo utilizando el bucle `while`. Programa que lee una secuencia de números y cuenta cuántos números son pares y cuántos son impares. El programa termina cuando se ingresa un cero.
 
 ```
-# Un programa que lee una secuencia de números
-# y cuenta cuántos números son pares y cuántos son impares.
-# El programa termina cuando se ingresa un cero.
-
 odd_numbers = 0
 even_numbers = 0
 
@@ -124,7 +104,7 @@ De la misma manera, la condición que verifica si un número es impar también p
 * `if number % 2 == 1:` 
 * `if number % 2:`
 
-En el programa anterior, la **condición de salida del bucle** es que introduzcamos un número determinado, en este caso el -1. En el siguiente ejemplo vamos a usar una variable `counter` para salir del bucle, de tal manera que el bucle haga 5 iteraciones.
+En el programa anterior, la **condición de salida del bucle** es que introduzcamos un número determinado, en este caso el 0. En el siguiente ejemplo vamos a usar una variable `counter` para salir del bucle, de tal manera que el bucle haga 5 iteraciones.
 
 Observa el fragmento de código a continuación:
 
@@ -136,7 +116,7 @@ while counter != 0:
 print("Fuera del bucle.", counter)
 ```
 
-Este código está destinado a imprimir la cadena `"Dentro del bucle."` y el valor almacenado en la variable counter durante un bucle dado exactamente cinco veces. Una vez que la condición se haya cumplido (la variable counter ha alcanzado 0), se sale del bucle y aparece el mensaje `"Fuera del bucle".` así como también el valor almacenado en counter se imprime.
+Este código está destinado a imprimir la cadena `"Dentro del bucle."` y el valor almacenado en la variable `counter` durante un bucle dado exactamente cinco veces. Una vez que la condición se haya cumplido (la variable `counter` ha alcanzado 0), se sale del bucle y aparece el mensaje `"Fuera del bucle".` así como también el valor almacenado en `counter` se imprime.
 
 De forma más compacta, podríamos escribir el mismo programa de la siguiente forma, modificando la condición del bucle. ¿Puedes ver la diferencia?:
 
@@ -147,8 +127,5 @@ while counter:
     counter -= 1
 print("Fuera del bucle.", counter)
 ```
-
 ¿Es más compacto que antes? Un poco. ¿Es más legible? Eso es discutible.
-
-No te sientas obligado a codificar tus programas de una manera que siempre sea la más corta y la más compacta. La legibilidad puede ser un factor más importante. Mantén tu código listo para un nuevo programador. 
 
