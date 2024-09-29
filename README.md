@@ -1,11 +1,5 @@
 # Python PCEP y PCAP
 
-## Cursos PCEP
-
-* [Python Essentials 1](https://edube.org/study/pe1)
-* [Fundamentos de Python 1](https://skillsforall.com/es/course/python-essentials-1?courseLang=es-XL&utm_source=netacad.com&utm_medium=referral&utm_campaign=python-ess-1-es&userlogin=0)
-
-## Cursos PCAP
-
-* [Python Essentials - Part 2 (Intermediate)](https://edube.org/study/pe2)
-* [Fundamentos de Python 2](https://skillsforall.com/es/course/python-essentials-2?courseLang=es-XL)
+* Fundamentos de Python 1
+    * [Curso de preparación para el examen PCEP – Certified Entry-Level Python Programmer](https://github.com/josedom24/python_pcep_pcap/tree/main/PCEP)
+    * [Ejercicios](https://github.com/josedom24/ejercicios_python_pcep)
