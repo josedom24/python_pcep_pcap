@@ -104,41 +104,34 @@
 15. Introducción a las funciones
     * [Introducción a las funciones](modulo4/seccion1/clase1.md)
     * [Tu primera función](modulo4/seccion1/clase2.md)
-    * Resumen y cuestionario
-16. Funciones con argumentos
-    * Funciones parametrizadas (1)
-    * Paso de parámetros posicionales (2)
-    * Paso de parámetros por para clave (3,4)
-    * Parámetros predefinidos (5)
-    * Resumen y cuestionario (6,7)
-17. Devolución de información en las funciones
-    * Efectos y resultados de una función (1,2)
-    * Listas y funciones (3)
+    * Funciones parametrizadas
+    * Paso de parámetros posicionales 
+    * Paso de parámetros por para clave
+    * Parámetros predefinidos
+    * Efectos y resultados de una función
+    * Listas y funciones
     * LABORATORIO - Un año bisiesto: escribiendo tus propias funciones (4)
     * LABORATORIO - Cuántos días: escribiendo y usando tus propias funciones (5)
     * LABORATORIO - Día del año: escribiendo y usando tus propias funciones (6)
     * LABORATORIO - Números primos - cómo encontrarlos (7)
     * LABORATORIO - Conversión del consumo de combustible (8)
-    * Resumen y cuestionario (9,10)
-18. Ámbito de variables en Python
     * Ámbito de variables y funciones (1)
-    * La paLABORATORIOra clave global (2,3)
-    * Resumen y cuestionario (4,5)    
-19. Ejemplo de funciones
+    * La palabra reservada global (2,3)
+16. Ejemplo de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
     * Ejemplos de funciones: Triángulos (2)
     * Ejemplos de funciones: Factoriales (3)
     * Ejemplos de funciones: Números Fibonacci (4)
     * Recursividad (5)
     * Resumen y cuestionario (6,7)
-20. Tuplas y diccionarios
+17. Tuplas y diccionarios
     * Tipos de secuencia y mutabilidad (1)
     * Tuplas (2)
     * Diccionarios (3)
     * Métodos  y funciones de diccionarios (4)
     * Trabajando con tuplas y diccionarios (5)
     * Resumen y cuestionario (6,7)
-21. Excepciones
+18. Excepciones
     * Errores en la programación (1,2)
     * Excepciones en Python (3)
     * Capturar más de una excepción (4,5,6)
@@ -148,6 +141,6 @@
     * Resumen y cuestionario (14,15)
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
-22. Examen final de curso
+19. Examen final de curso
     * Proyecto Final
     * Prueba Final
