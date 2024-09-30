@@ -2,7 +2,7 @@
 
 ## Tiempo Estimado
 
-10 minutos
+15 minutos
 
 ## Nivel de Dificultad
 
