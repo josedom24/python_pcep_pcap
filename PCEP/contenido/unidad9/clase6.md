@@ -1,4 +1,4 @@
-# LABORATORIO - La sentencia break - atrapado en un bucle
+# LABORATORIO - La instrucción break
 
 ## Tiempo Estimado
 
@@ -21,4 +21,7 @@ La instrucción `break` nos permite salir/terminar un bucle.
 
 Diseña un programa que use un bucle `while` y le pida continuamente al usuario que ingrese una palabra a menos que ingrese `"chupacabra"` como la palabra de salida secreta, en cuyo caso el mensaje `"¡Has dejado el bucle con éxito"`. Debe imprimirse en la pantalla y el bucle debe terminar.
 
-No imprimas ninguna de las palabras ingresadas por el usuario. Utiliza el concepto de ejecución condicional y la sentencia `break`. 
+Vamos a construir dos versiones del programa:
+
+* Versión 1: Utiliza el concepto de ejecución condicional y la sentencia `break`. En este caso el bucle no evaluará ninguna condición, es decir, será un bucle infinito.
+* Versión 2: Realmente no es necesario usar la instrucción `break`. Diseña una solución donde no se use `break` y el bucle `while` controle la condición de salida.
