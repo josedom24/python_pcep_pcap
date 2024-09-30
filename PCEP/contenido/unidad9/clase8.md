@@ -1,8 +1,8 @@
-# El bloque else en la instrucción while y for
+# El bloque else en las instrucciones while y for
 
 ## El bucle while y la rama else
 
-Ambos bucles `while` y `for`, tienen una característica interesante (y rara vez se usa). veamos el siguiente ejemplo:
+Ambos bucles `while` y `for`, tienen una característica interesante (y rara vez se usa). Veamos el siguiente ejemplo:
 
 ```
 i = 1
@@ -43,8 +43,7 @@ else:
 ```
 
 * En este caso la rama `else` se ejecuta siempre al final de la ejecución del bucle.
-La salida puede ser un poco sorprendente.
-* La variable `i` conserva su último valor.
+* La salida puede ser un poco sorprendente: la variable `i` conserva su último valor.
 
 
 ¿Qué ocurre si el bucle `for` no se ejecuta`? Vamos a modificar el código para evitar la ejecución del bucle:
