@@ -54,7 +54,7 @@
     * [LABORATORIO - Operadores de comparación y ejecución condicional](contenido/unidad8/clase5.md)
     * [LABORATORIO - Fundamentos de la sentencia if-else](contenido/unidad8/clase6.md)
     * [LABORATORIO - Fundamentos de la sentencia if-elif-else](contenido/unidad8/clase7.md)
-    * [LABORATORIO - Ejercicios estructura secuencial](contenido/unidad8/clase8.md)
+    * [LABORATORIO - Ejercicios estructura alternativa](contenido/unidad8/clase8.md)
 9. Estructura repetitiva
     * [Bucle while](contenido/unidad9/clase1.md)
     * [LABORATORIO - Adivina el número secreto](contenido/unidad9/clase2.md)
@@ -66,7 +66,7 @@
     * [El bloque else en las instrucciones while y for](contenido/unidad9/clase8.md)
     * [LABORATORIO - Fundamentos del bucle while](contenido/unidad9/clase9.md)
     * [LABORATORIO - La hipótesis de Collatz](contenido/unidad9/clase10.md)
-    * Resumen y cuestionario
+    * [LABORATORIO - Ejercicios estructura repetitiva](contenido/unidad8/clase11.md)
 10. Operaciones lógicas y de bits en Python
     * [Expresiones lógicas](modulo3/seccion3/clase1.md)
     * [Operadores bit a bit](modulo3/seccion3/clase2.md)
