@@ -63,10 +63,10 @@
     * [Las instrucciones break y continue](contenido/unidad9/clase5.md)
     * [LABORATORIO - La instrucción break](contenido/unidad9/clase6.md)
     * [LABORATORIO - La instrucción continue](contenido/unidad9/clase7.md)
-    * [El bloque else en las instrucciones while y for](contenido/unidad9/clase9.md)
-    * [LABORATORIO - Fundamentos del bucle while](contenido/unidad9/clase10.md)
-    * [LABORATORIO - La hipótesis de Collatz](contenido/unidad9/clase11.md)
-    * [Resumen y cuestionario](contenido/unidad9/clase12.md)
+    * [El bloque else en las instrucciones while y for](contenido/unidad9/clase8.md)
+    * [LABORATORIO - Fundamentos del bucle while](contenido/unidad9/clase9.md)
+    * [LABORATORIO - La hipótesis de Collatz](contenido/unidad9/clase10.md)
+    * Resumen y cuestionario
 10. Operaciones lógicas y de bits en Python
     * [Expresiones lógicas](modulo3/seccion3/clase1.md)
     * [Operadores bit a bit](modulo3/seccion3/clase2.md)
