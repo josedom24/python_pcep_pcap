@@ -71,7 +71,7 @@
     * [Expresiones lógicas](contenido/modulo10/clase1.md)
     * [Operadores bit a bit](contenido/modulo10/clase2.md)
     * [Uso de los operadores bit a bit](contenido/modulo10/clase3.md)
-11. Introducción a las Listas
+11. Introducción a las listas
     * [Introducción a las listas](modulo3/seccion4/clase1.md)
     * [Operaciones básicas sobre las listas](modulo3/seccion4/clase2.md)
     * [LABORATORIO - Los fundamentos de las listas](modulo3/seccion4/clase3.md)
