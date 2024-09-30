@@ -68,10 +68,9 @@
     * [LABORATORIO - La hipótesis de Collatz](contenido/unidad9/clase10.md)
     * [LABORATORIO - Ejercicios estructura repetitiva](contenido/unidad8/clase11.md)
 10. Operaciones lógicas y de bits en Python
-    * [Expresiones lógicas](modulo3/seccion3/clase1.md)
-    * [Operadores bit a bit](modulo3/seccion3/clase2.md)
-    * [Uso de los operadores bit a bit](modulo3/seccion3/clase3.md)
-    * [Resumen y cuestionario](modulo3/seccion3/clase4.md)
+    * [Expresiones lógicas](contenido/modulo10/clase1.md)
+    * [Operadores bit a bit](contenido/modulo10/clase2.md)
+    * [Uso de los operadores bit a bit](contenido/modulo10/clase3.md)
 11. Introducción a las Listas
     * [Introducción a las listas](modulo3/seccion4/clase1.md)
     * [Operaciones básicas sobre las listas](modulo3/seccion4/clase2.md)
