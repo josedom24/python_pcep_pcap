@@ -14,7 +14,7 @@ while i < 100:
 ```
 
 Pero en este caso, que **sabemos de antemano cuantas vueltas tiene que dar el bucle** podemos usar la instrucción `for`.
-En realidad, el bucle `for` está diseñado para realizar tareas más complicadas: puede recorrer tipos de datos complejos como las secuencias. Te mostraremos como hacerlo pronto, pero ahora presentaremos una variante más sencilla de su aplicación.
+En realidad, el bucle `for` está diseñado para realizar tareas más complicadas: puede recorrer tipos de datos complejos como las secuencias (por ejemplo, una lista, un diccionario, una tupla o un conjunto; pronto aprenderás sobre ellos) u otros objetos que son iterables (por ejemplo, cadenas). Te mostraremos como hacerlo pronto, pero ahora presentaremos una variante más sencilla de su aplicación.
 
 Echa un vistazo al fragmento:
 
