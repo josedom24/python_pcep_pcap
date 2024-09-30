@@ -79,26 +79,24 @@
     * [Recorrido de listas](contenido/unidad11/clase5.md)
     * [Ejemplo de recorrido de listas](contenido/unidad11/clase6.md)
     * [LABORATORIO - Los fundamentos de las listas: los Beatles](contenido/unidad11/clase7.md)
-12. Ordenando listas simples: el ordenamiento de burbuja
-    * [Ordenación de una lista por el algoritmo burbuja](modulo3/seccion5/clase1.md)
-    * [El ordenamiento burbuja en Python](modulo3/seccion5/clase2.md)
-    * [Resumen y cuestionario](modulo3/seccion5/clase3.md)
-13. Operaciones con listas
+12. Operaciones con listas
     * [La listas son mutables](modulo3/seccion6/clase1.md)
     * [Operación de rebanada de listas](modulo3/seccion6/clase2.md)
     * [Operadores de pertenencia](modulo3/seccion6/clase3.md)
     * [Programas de ejemplo de uso de listas](modulo3/seccion6/clase4.md)
     * [LABORATORIO - Operaciones con listas: conceptos básicos](modulo3/seccion6/clase5.md)
     * [Resumen y cuestionario](modulo3/seccion6/clase7.md)
-14. Listas multidimensionales
+    * [Ordenación de una lista por el algoritmo burbuja](modulo3/seccion5/clase1.md)
+    * [El ordenamiento burbuja en Python](modulo3/seccion5/clase2.md)
+13. Listas multidimensionales
     * [Compresión de listas](modulo3/seccion7/clase1.md)
-    * [Arreglos de dos dimensiones](modulo3/seccion7/clase2.md)
-    * [Ejemplo con arreglo de dos dimensiones](modulo3/seccion7/clase3.md)
-    * [Arreglos multidimensionales](modulo3/seccion7/clase4.md)
+    * [Listas de dos dimensiones](modulo3/seccion7/clase2.md)
+    * [Ejemplo de lista de dos dimensiones](modulo3/seccion7/clase3.md)
+    * [Listas multidimensionales](modulo3/seccion7/clase4.md)
     * [Resumen](modulo3/seccion7/clase5.md)
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](modulo3/seccion8/test.md)
-15. Introducción a las funciones
+14. Introducción a las funciones
     * [Introducción a las funciones](modulo4/seccion1/clase1.md)
     * [Tu primera función](modulo4/seccion1/clase2.md)
     * Funciones parametrizadas
@@ -114,21 +112,21 @@
     * LABORATORIO - Conversión del consumo de combustible (8)
     * Ámbito de variables y funciones (1)
     * La palabra reservada global (2,3)
-16. Ejemplo de funciones
+15. Ejemplo de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
     * Ejemplos de funciones: Triángulos (2)
     * Ejemplos de funciones: Factoriales (3)
     * Ejemplos de funciones: Números Fibonacci (4)
     * Recursividad (5)
     * Resumen y cuestionario (6,7)
-17. Tuplas y diccionarios
+16. Tuplas y diccionarios
     * Tipos de secuencia y mutabilidad (1)
     * Tuplas (2)
     * Diccionarios (3)
     * Métodos  y funciones de diccionarios (4)
     * Trabajando con tuplas y diccionarios (5)
     * Resumen y cuestionario (6,7)
-18. Excepciones
+17. Excepciones
     * Errores en la programación (1,2)
     * Excepciones en Python (3)
     * Capturar más de una excepción (4,5,6)
@@ -138,6 +136,6 @@
     * Resumen y cuestionario (14,15)
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
-19. Examen final de curso
+18. Examen final de curso
     * Proyecto Final
     * Prueba Final
