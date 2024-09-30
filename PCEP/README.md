@@ -101,7 +101,7 @@
     * [Resumen](modulo3/seccion7/clase5.md)
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](modulo3/seccion8/test.md)
-15. Introducción a als funciones
+15. Introducción a las funciones
     * [Introducción a las funciones](modulo4/seccion1/clase1.md)
     * [Tu primera función](modulo4/seccion1/clase2.md)
     * Resumen y cuestionario
