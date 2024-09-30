@@ -29,13 +29,14 @@ La figura ilustra la regla utilizada por los constructores:
 Tu tarea es escribir un programa que lea la cantidad de bloques que tienen los constructores, y generar la altura de la pirámide que se puede construir utilizando estos bloques. Puedes usar esta plantilla:
 
 ```
-blocks = int(input("Ingresa el número de bloques: "))
+altura = 0
+bloques = int(input("Ingresa el número de bloques: "))
 
 #
 # Escribe tu código aquí.
 #	
 
-print("La altura de la pirámide:", height)
+print("La altura de la pirámide:", altura)
 ```
 
 Nota: La altura se mide por el número de capas completas: si los constructores no tienen la cantidad suficiente de bloques y no pueden completar la siguiente capa, terminan su trabajo inmediatamente.
