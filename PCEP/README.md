@@ -60,7 +60,7 @@
     * [LABORATORIO - Adivina el número secreto](modulo3/seccion2/clase2.md)
     * [Bucle for](modulo3/seccion2/clase3.md)
     * [LABORATORIO - Fundamentos del bucle for: contador](modulo3/seccion2/clase4.md)
-    * [Las sentencias break y continue](modulo3/seccion2/clase5.md)
+    * [Las instrucciones break y continue](modulo3/seccion2/clase5.md)
     * [LABORATORIO - La sentencia break - atrapado en un bucle](modulo3/seccion2/clase6.md)
     * [LABORATORIO - La sentencia continue – el Feo Devorador de Vocales](modulo3/seccion2/clase7.md)
     * [LABORATORIO - La sentencia continue – el Bonito Devorador de Vocales](modulo3/seccion2/clase8.md)
