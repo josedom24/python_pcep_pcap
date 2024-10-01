@@ -93,8 +93,8 @@
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](contenido/unidad12/prueba.md)
 13. Introducción a las funciones
-    * [Introducción a las funciones](modulo4/seccion1/clase1.md)
-    * [Tu primera función](modulo4/seccion1/clase2.md)
+    * [Introducción a las funciones](contenido/unidad13/clase1.md)
+    * [Tu primera función](contenido/unidad13/clase2.md)
     * Funciones parametrizadas
     * Paso de parámetros posicionales 
     * Paso de parámetros por para clave
