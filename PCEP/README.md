@@ -17,8 +17,6 @@
     * [Más argumentos de la función print()](contenido/unidad02/clase4.md)
     * [LABORATORIO - La función print() y sus argumentos](contenido/unidad02/clase5.md)
     * [LABORATORIO - Dando forma a la salida](contenido/unidad02/clase6.md)
-    * [Comentarios](contenido/unidad02/clase7.md)
-    * [LABORATORIO - Comentarios](contenido/unidad02/clase8.md)
 3. Literales y tipos de datos
     * [Literales y tipos de datos](contenido/unidad03/clase1.md)
     * [Literales numéricos](contenido/unidad03/clase2.md)
@@ -34,6 +32,9 @@
     * [LABORATORIO - Variables](contenido/unidad05/clase3.md)
     * [LABORATORIO - Variables: un convertidor simple](contenido/unidad05/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/unidad05/clase5.md)
+    * [LABORATORIO - Operadores y expresiones (2ª parte)](contenido/unidad05/clase6.md)
+    * [Comentarios](contenido/unidad05/clase7.md)
+    * [LABORATORIO - Comentarios](contenido/unidad05/clase8.md)
 6. Entrada y salida básica
     * [La función input()](contenido/unidad07/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad07/clase2.md)
