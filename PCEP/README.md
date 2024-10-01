@@ -35,7 +35,6 @@
 6. Comentarios
     * [Comentarios](modulo2/seccion5/clase1.md)
     * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
-    * [Resumen y cuestionario](modulo2/seccion5/clase3.md)
 7. Entrada y salida básica
     * [La función input()](contenido/unidad07/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad07/clase2.md)
