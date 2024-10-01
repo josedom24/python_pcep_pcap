@@ -1,4 +1,0 @@
-# Resumen y cuestionario
-
-## Resumen
-
