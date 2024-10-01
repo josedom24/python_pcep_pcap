@@ -1,71 +1,42 @@
-# Comentarios
+# LABORATORIO - Comentarios
 
-## Poner comentarios en el código: ¿por qué, cuándo y dónde?
+## Tiempo Estimado
 
-Quizá en algún momento será necesario poner algunas palabras en el código dirigidas no a Python, sino a las personas quienes estén leyendo el código con el fin de explicarles como es que funciona, o tal vez especificar el significado de las variables, también para documentar quien es el autor del programa y en que fecha fue escrito.
+5 minutos
 
-Un texto insertado en el programa el cual es, omitido en la ejecución, es denominado **un comentario**.
+## Nivel de Dificultad
 
-¿Cómo se colocan este tipo de comentarios en el código fuente? Tiene que ser hecho de cierta manera para que Python no intente interpretarlo como parte del código.
+Muy fácil
 
-Cuando Python se encuentra con un comentario en el programa, el comentario es completamente transparente, desde el punto de vista de Python, el comentario es solo un espacio vacío, sin importar que tan largo sea.
-
-En Python, un comentario es un texto que comienza con el símbolo `#` y se extiende hasta el final de la línea.
-
-Si se desea colocar un comentario que abarca varias líneas, se debe colocar este símbolo en cada línea.
-
-Justo como el siguiente código:
-
-```
-# Esta programa calcula la hipotenusa (c)
-# a y b son las longitudes de los catetos
-a = 3.0
-b = 4.0
-c = (a ** 2 + b ** 2) ** 0.5  # se utiliza ** en lugar de la raíz cuadrada.
-print("c =", c)
-```
-
-Es muy conveniente comentar el código, pero además otra forma de hacer que el código sea entendible es elegir buenos nombres a las variables y a las funciones.
-
-Por ejemplo, si una variable determinada esta diseñada para almacenar el área de un cuadrado, el nombre `area_cuadrado` será muchísimo mejor que `tia_juana`.
-
-Los comentarios pueden ser útiles en otro aspecto, se pueden utilizar para marcar un fragmento de código que actualmente no se necesita. Observa el siguiente ejemplo, sí se descomenta la línea resaltada, esto afectara la salida o resultado del código:
-
-```
-# Este es un programa de prueba.
-x = 1
-y = 2
-# y = y + x
-print(x + y)
-```
-
-Esto es frecuentemente realizado cuando se esta probando un programa, con el fin de aislar un fragmento de código donde posiblemente se encuentra un error.
-
-## Cuestionario
-
-1. ¿Cuál es el resultado del siguiente fragmento?
-
-```
-# print("Cadena #1")
-print("Cadena #2") 
-```
-
-2. ¿Qué pasará cuando se ejecute el siguiente código?
-
-```
- #Este es
-un comentario
-multilínea.#
+## Objetivos
  
-print("¡Hola!") 
+* Familiarizarse con el concepto de comentarios en Python.
+* Utilizar y no utilizar los comentarios.
+* Reemplazar los comentarios con código.
+* Experimentar con el código de Python.
+
+
+## Escenario
+
+El código en el editor contiene comentarios. Intenta mejorarlo: agrega o quita comentarios donde consideres que sea apropiado (en ocasiones el remover un comentario lo hace mas legible), además, cambia el nombre de las variables donde consideres que esto mejorará la comprensión del código.
+
+```
+# este programa calcula los segundos en cierto número de horas determinadas 
+# este programa fue escrito hace dos días
+
+a = 2 # número de horas
+seconds = 3600 # número de segundos en una hora
+
+print("Horas: ", a) #imprime el numero de horas
+print("Segundos en Horas: ", a * seconds) # se imprime el numero de segundos en determinado numero de horas
+
+#aquí también se debe de imprimir un "Adiós", pero el programador no tuvo tiempo de escribirlo
+#este el es fin del programa que calcula el numero de segundos en 2 horas
 ```
 
-## Solución cuestionario
+**NOTA**: Los comentarios son muy importantes. No solo hacen que el programa sea más fácil de entender, pero también sirven para deshabilitar aquellas partes de código que no son necesarias (por ejemplo, cuando se necesita probar cierta parte del código, e ignorar el resto). Los buenos programadores describen cada parte importante del código, y dan nombres significativos a variables, debido a que en ocasiones es mucho más sencillo dejar el comentario dentro del código mismo.
 
-1. Pregunta 1:
+Es bueno utilizar nombres de variables legibles, y en ocasiones es mejor dividir el código en partes con nombres (por ejemplo en funciones). En algunas situaciones, es una buena idea escribir los pasos de como se realizaron los cálculos de una forma sencilla y clara.
 
-`Cadena #2`
+Una cosa más: puede ocurrir que un comentario contenga una pieza de información incorrecta o errónea, nunca se debe de hacer eso a propósito.
 
-2. Pregunta 2:
-
-`SyntaxError: invalid syntax`
