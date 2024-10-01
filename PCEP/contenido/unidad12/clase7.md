@@ -92,3 +92,62 @@ my_list = [8, 10, 6, 2, 4]
 my_list.reverse()
 print(my_list)
 ```
+
+## Cuestionario
+
+1. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+lst = ["D", "F", "A", "Z"]
+lst.sort()
+
+print(lst)
+```
+
+2. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+a = 3
+b = 1
+c = 2
+
+lst = [a, c, b]
+lst.sort()
+
+print(lst)
+```
+
+3. ¿Cuál es la salida del siguiente fragmento de código?
+
+```
+a = "A"
+b = "B"
+c = "C"
+d = " "
+
+lst = [a, b, c, d]
+lst.reverse()
+
+print(lst)
+```
+
+## Solución cuestionario
+
+1. Pregunta 1:
+
+```
+['A', 'D', 'F', 'Z']
+```
+
+2. Pregunta 2:
+
+```
+[1, 2, 3]
+```
+
+3. Pregunta 3:
+
+```
+[' ', 'C', 'B', 'A']
+```
+
