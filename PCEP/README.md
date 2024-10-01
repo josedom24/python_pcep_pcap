@@ -86,13 +86,12 @@
     * [Ordenación de una lista por el algoritmo burbuja](contenido/unidad11/clase6.md)
     * [El ordenamiento burbuja en Python](contenido/unidad11/clase7.md)
 12. Listas multidimensionales
-    * [Compresión de listas](modulo3/seccion7/clase1.md)
-    * [Listas de dos dimensiones](modulo3/seccion7/clase2.md)
-    * [Ejemplo de lista de dos dimensiones](modulo3/seccion7/clase3.md)
-    * [Listas multidimensionales](modulo3/seccion7/clase4.md)
-    * [Resumen](modulo3/seccion7/clase5.md)
+    * [Compresión de listas](contenido/unidad12/clase1.md)
+    * [Listas de dos dimensiones](contenido/unidad12/clase2.md)
+    * [Ejemplo con listas de dos dimensiones](contenido/unidad12/clase3.md)
+    * [Listas multidimensionales](contenido/unidad12/clase4.md)
     * Test intermedio: comprueba lo que has aprendido
-    * [Prueba intermedia](modulo3/seccion8/test.md)
+    * [Prueba intermedia](contenido/unidad12/prueba.md)
 13. Introducción a las funciones
     * [Introducción a las funciones](modulo4/seccion1/clase1.md)
     * [Tu primera función](modulo4/seccion1/clase2.md)

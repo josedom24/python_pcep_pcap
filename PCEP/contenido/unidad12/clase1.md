@@ -10,7 +10,7 @@ Para declarar o crear una lista tenemos varias alternativas:
     my_list = [1, 2, 3, 4, 5]
     ```
 
-2. Partir de la declaración de una lista e ir añadiendo elementos a la lista. Veamos algunos ejemplos:
+2. Partir de la declaración de una lista vacía e ir añadiendo elementos a la lista. Veamos algunos ejemplos:
 
     ```
     my_list = [ ]

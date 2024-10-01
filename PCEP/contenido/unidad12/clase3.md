@@ -1,15 +1,15 @@
-# Ejemplo con arreglo de dos dimensiones
+# Ejemplo con listas de dos dimensiones
 
 ## Ejemplo estación meteorológica
 
 Imagina que desarrollas un programa para una estación meteorológica automática. El dispositivo registra la temperatura del aire cada hora y lo hace durante todo el mes. Esto te da un total de 24 × 31 = 744 valores. Intentemos diseñar una lista capaz de almacenar todos estos resultados. 
 
 1. Decidimos que para guardar la temperatura vamos a usar un número flotante.
-2. Vamos a usar un arreglo bidimensional para guardar la información.
+2. Vamos a usar una lista bidimensional para guardar la información.
 3. Decidimos que en cada fila guardaremos las temperaturas de cada hora, es decir tendrá 24 elementos.
-4. El arreglo tendrá 31 filas, ya que cada fila se asignará a un día del mes, es decir el areglo tendrá una dimensión de 24 x 31.
+4. La lista tendrá 31 filas, ya que cada fila se asignará a un día del mes, es decir la lista tendrá una dimensión de 24 x 31.
 
-Si queremos crear el arreglo y lo inicializamos a 0, sería de la siguiente manera:
+Si queremos crear la lista e inicializarla a 0, sería de la siguiente manera:
 
 ```
 temperaturas = [[0.0 for h in range(24)] for d in range(31)]
@@ -132,14 +132,14 @@ print(dias_calurosos, "fueron los días calurosos.")
 
 * En este programa usamos la variable `dias_calurosos` como contador para que nos cuente la cantidad de días que cumplen la condición.
 
-## Introducción a los arreglos multidimensionales
+## Introducción a las listas multidimensionales
 
 ¿Cómo cambiaría nuestra estructura donde guardamos las temperaturas, si quisiéramos guardar las temperaturas de cada mes del año?
 
-En ese caso, necesitaríamos un arreglo de 3 dimensiones: una para guardar las temperaturas cada hora, otra para guardar los días y otra para guardar los meses.
+En ese caso, necesitaríamos una lista de 3 dimensiones: una para guardar las temperaturas cada hora, otra para guardar los días y otra para guardar los meses.
 
-Gráficamente sería un cubo (3 dimensiones) donde el arreglo bidimensional que hemos utilizado se repetiría 12 veces.
+Gráficamente sería un cubo (3 dimensiones) donde ela lista bidimensional que hemos utilizado se repetiría 12 veces.
 
 ¿Y si además, quisiéramos guardar la información de cada año?
 
-En el próximo apartado estudiaremos los arreglos multidimensionales.
+En el próximo apartado estudiaremos las listas multidimensionales.
