@@ -1,4 +1,1 @@
-# Resumen y cuestionario
-
-## Resumen
-
+# Funciones parametrizadas
