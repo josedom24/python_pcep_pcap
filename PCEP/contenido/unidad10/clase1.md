@@ -1,101 +1,76 @@
-# Expresiones lógicas
+# Introducción a las listas
 
-## Operadores lógicos
+## ¿Por qué necesitamos listas?
 
-¿Te has dado cuenta de que las condiciones que hemos usado hasta ahora han sido muy simples, por no decir, bastante primitivas? Las condiciones que utilizamos en la vida real son mucho más complejas. Veamos este enunciado:
-
-*Si tenemos tiempo libre, y el clima es bueno, saldremos a caminar.*
-
-Hemos utilizado la conjunción `and` (y), lo que significa que salir a caminar depende del cumplimiento simultáneo de estas dos condiciones. En el lenguaje de la lógica, tal conexión de condiciones se denomina **conjunción**. Veamos otro ejemplo:
-
-*Si tu estás en el centro comercial o yo estoy en el centro comercial, uno de nosotros le comprará un regalo a mamá.*
-
-La aparición de la palabra `or` (o) significa que la compra depende de al menos una de estas condiciones. En lógica, este compuesto se llama una **disyunción**.
-
-Está claro que Python debe tener operadores para construir conjunciones y disyunciones. Sin ellos, el poder expresivo del lenguaje se debilitaría sustancialmente. Se llaman **operadores lógicos**.
-
-## and
-
-Un operador de conjunción lógica en Python es la palabra `and`. Es un operador binario con una prioridad inferior a la expresada por los operadores de comparación. Nos permite codificar condiciones complejas sin el uso de paréntesis como este:
+Puede suceder que tengas que leer, almacenar, procesar y, finalmente, imprimir docenas, quizás cientos, tal vez incluso miles de números. ¿Entonces qué? ¿Necesitas crear una variable separada para cada valor? ¿Tendrás que pasar largas horas escribiendo sentencias como la que se muestra a continuación?
 
 ```
-counter > 0 and value == 100
+var1 = int(input())
+var2 = int(input())
+var3 = int(input())
+var4 = int(input())
+var5 = int(input())
+var6 = int(input())
+...
 ```
 
-El resultado proporcionado por el operador `and` se puede determinar sobre la base de la tabla de verdad.
+Algunos puntos que debemos recordar:
 
-Si consideramos la conjunción de `A and B`, el conjunto de valores posibles de argumentos y los valores correspondientes de conjunción se ve de la siguiente manera:
+* Hasta ahora, has aprendido como declarar variables que pueden almacenar exactamente **un valor dado a la vez**. 
+* Tales variables a veces se denominan **escalares** por analogía con las matemáticas.
+* Es deseable poder declarar que nos permita guardar **más de un valor**.
+* A este tipo de datos la denominamos **secuencias**.
+* Por ejemplo, un tipo de datos secuencia en Python son las **listas**. En una variable de tipo lista puedo guardar más de un dato.
 
-|Argumento A |	Argumento B |	A and B |
--------------|--------------|-----------|
-| False      |False         |False      |
-| False      |True 	        |False      |
-| True 	     |False         |False      |
-| True 	     |True 	        |True       |
+Veamos un ejemplo de un problema en que se necesita procesar varios números:
 
-## or
+Escribe un programa que:
 
-Un operador de disyunción es la palabra `or`. Es un operador binario con una prioridad más baja que `and`. Su tabla de verdad es la siguiente:
+* Lea cinco números.
+* Los imprima en orden desde el más pequeño hasta el más grande (Este tipo de procesamiento se denomina ordenamiento).
 
-|Argumento A |	Argumento B |	A and B |
--------------|--------------|-----------|
-| False      |False         |False      |
-| False      |True 	        |True       |
-| True 	     |False         |True       |
-| True 	     |True 	        |True       |
-
-## not
-
-Además, hay otro operador que se puede aplicar para condiciones de construcción. Es un operador unario que realiza una negación lógica. Su funcionamiento es simple: convierte la verdad en falso y lo falso en verdad
-
-Este operador se escribe como la palabra `not`, y su prioridad es muy alta: igual que el unario `+` y `-`. Su tabla de verdad es simple:
-
-
-|Argumento   |	not Argumento|
--------------|---------------|
-| False      |True           |
-| True 	     |False          |
-
-
-## Expresiones lógicas
-
-Creemos una variable llamada `var` y le damos el valor 1. Las siguientes condiciones son equivalentes a pares:
+Vamos a crear una variable llamada `numeros`; se le asigna no solo un número, sino que se llena con una lista que consta de cinco valores (nota: la lista comienza con un corchete abierto y termina con un corchete cerrado; el espacio entre los corchetes es llenado con cinco números separados por comas).
 
 ```
-# Ejemplo 1:
-print(var > 0)
-print(not (var <= 0))
-
-
-# Ejemplo 2:
-print(var != 0)
-print(not (var == 0))
+numeros = [10, 5, 7, 2, 1]
 ```
 
-Puedes estar familiarizado con las leyes de De Morgan. Dicen que:
+Algunas consideraciones:
 
-* La negación de una conjunción es la separación de las negaciones.
-* La negación de una disyunción es la conjunción de las negaciones.
+* Podemos decir que `numeros` es una lista que consta de cinco valores, todos ellos `numeros`. 
+* La variable `numeros` es una lista de longitud igual a cinco (ya que contiene cinco elementos).
+* Los elementos dentro de una lista pueden tener diferentes tipos. Algunos de ellos pueden ser enteros, otros son flotantes y otros pueden ser listas.
+* En Python el primer elemento ocupa la posición 0. En nuestro ejemplo el valor `10` ocupa la posición `0`, y el último elemento, el número `1` tendrá la posición `4`.
+* Nuestra lista es una colección de elementos, pero cada elemento es un escalar. 
 
-Escribamos lo mismo usando Python:
+## Indexando Listas
 
-```
-not (p and q) == (not p) or (not q)
-not (p or q) == (not p) and (not q)
-```
+La **indexación** nos permite obtener o cambiar el valor de un determinado elemento de una lista. Por ejemplo:
 
-Observa como se han utilizado los paréntesis para codificar las expresiones: las colocamos allí para mejorar la legibilidad.
+* Vamos a asignar un nuevo valor de 111 al primer elemento en la lista. Lo hacemos de esta manera:
 
-Deberíamos agregar que ninguno de estos operadores de dos argumentos se pueden usar en la forma abreviada conocida como `op=`. Vale la pena recordar esta excepción.
+    ```
+    numeros = [10, 5, 7, 2, 1]
+    print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
 
-## Valores lógicos frente a bits individuales
+    numeros[0] = 111
+    print("Nuevo contenido de la lista: ", numeros)  # Contenido de la lista actual.
+    ```
 
-Los operadores lógicos toman sus argumentos como un todo, independientemente de cuantos bits contengan. Los operadores solo conocen el valor: cero (cuando todos los bits se restablecen) significa `False`; no cero (cuando se establece al menos un bit) significa `True`.
+* Y ahora queremos copiar el valor del quinto elemento al segundo elemento. 
 
-El resultado de sus operaciones es uno de estos valores: `False` o `True`. Esto significa que este fragmento de código asignará el valor `True` a la variable `j` si `i` no es cero; de lo contrario, será `False`.
+    ```
+    numeros = [10, 5, 7, 2, 1]
+    print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
 
-```
-i = 1
-j = not not i
-```
+    numeros[0] = 111
+    print("\nPrevio contenido de la lista:", numeros)  # Imprimiendo contenido de la lista anterior.
+
+    numeros[1] = numeros[4]  # Copiando el valor del quinto elemento al segundo elemento.
+    print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
+    ```
+
+Para indexar un elemento de la lista indicamos la posición del elemento (**índice**) dentro de los corchetes.
+
+Nota: todos los índices utilizados hasta ahora son literales. Sus valores se fijan en el tiempo de ejecución, pero cualquier expresión también puede ser un índice. Esto abre muchas posibilidades.
 

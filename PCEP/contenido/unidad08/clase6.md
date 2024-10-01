@@ -1,56 +1,27 @@
-# LABORATORIO - Fundamentos de la sentencia if-else
+# LABORATORIO - La instrucción break
 
 ## Tiempo Estimado
 
-10 - 15 minutos
+15 minutos
 
 ## Nivel de Dificultad
 
-Fácil/Medio
+Fácil
 
 ## Objetivos
 
 Familiarizar al estudiante con:
 
-* Utilizar la sentencia if-else para ramificar la ruta de control.
-* Construir un programa completo que resuelva problemas simples de la vida real.
+* Utilizar la instrucción `break` en los bucles.
+* Reflejar situaciones de la vida real en un programa de ordenador.
 
 ## Escenario
 
-Érase una vez una tierra de leche y miel, habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto, su felicidad tenía límites. El impuesto más importante, denominado *Impuesto Personal de Ingresos* (IPI, para abreviar) tenía que pagarse una vez al año y se calculó utilizando la siguiente regla:
+La instrucción `break` nos permite salir/terminar un bucle.
 
-* Si el ingreso del ciudadano no era superior a 85.528 euros, el impuesto era igual al 18% del ingreso menos 556 euros y 2 céntimos (esta fue la llamada exención fiscal).
-* Si el ingreso era superior a esta cantidad, el impuesto era igual a 14.839 euros y 2 céntimos, más el 32% del excedente sobre 85.528 euros.
+Diseña un programa que use un bucle `while` y le pida continuamente al usuario que ingrese una palabra a menos que ingrese `"chupacabra"` como la palabra de salida secreta, en cuyo caso el mensaje `"¡Has dejado el bucle con éxito"`. Debe imprimirse en la pantalla y el bucle debe terminar.
 
-Tu tarea es escribir una calculadora de impuestos.
+Vamos a construir dos versiones del programa:
 
-* Debe aceptar un valor de punto flotante: el ingreso.
-* A continuación, debe imprimir el impuesto calculado, redondeado a euros totales. Hay una función llamada `round()` que hará el redondeo por ti, la encontrarás en el código que puedes usar de plantilla:
-
-```
-income = float(input("Introduce el ingreso anual:"))
-
-#
-# Escribe tu código aquí.
-#
-
-tax = round(tax, 0)
-print("El impuesto es:", tax, "euros")
-```
-
-Nota: Este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto calculado es menor que cero, solo significa que no hay impuesto (el impuesto es igual a cero). Ten esto en cuenta durante tus cálculos.
-
-Prueba tu código con los datos que hemos proporcionado. 
-
-## Datos de Prueba
-
-* Entrada de muestra: 10000
-    * Resultado esperado: El impuesto es: 1244.0 euros
-* Entrada de muestra: 100000
-    * Resultado esperado: El impuesto es: 19470.0 euros
-* Entrada de muestra: 1000
-    * Resultado esperado: El impuesto es: 0.0 euros
-* Entrada de muestra: -100
-    * Resultado esperado: El impuesto es: 0.0 euros 
-
-
+* Versión 1: Utiliza el concepto de ejecución condicional y la sentencia `break`. En este caso el bucle no evaluará ninguna condición, es decir, será un bucle infinito.
+* Versión 2: Realmente no es necesario usar la instrucción `break`. Diseña una solución donde no se use `break` y el bucle `while` controle la condición de salida.

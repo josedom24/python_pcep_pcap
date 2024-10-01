@@ -1,124 +1,117 @@
-# Operación de rebanada de listas
+# Arreglos de dos dimensiones
 
-## Rebanadas (slice) de listas
+## Listas dentro de listas
 
-Una **rebanada** es una operación que podemos realizar sobre una lista que nos permite **hacer una copia nueva de una lista, o partes de una lista**. En realidad, copia el contenido de la lista, no el nombre de la lista.
+En muchas ocasiones los datos que queremos guardar en nuestro programa tienen la forma de una tabla, es decir, los datos estñ´an distribuido por filas y columnas.
 
-Por lo la forma más fácil de copiar una lista en otra sería:
+Por ejemplo, si queremos representar en una variable un tablero de ajedrez para guardar las posiciones de las piezas, tendremos que buscar una estructura que nos permita guardar la información estructura en filas y columnas. Un tablero de ajedrez tiene ocho filas y ochos columnas
 
-```
-lista1 = [1,2,3]
-lista2=lista1[:]
-lista1[1] = 10
-print(lista2) # [1, 2, 3]
-```
+Para guardar está información en Python utilizaremos listas. Como hemos estudiado una lista puede guardar elementos de cualquier tipo de datos, por lo tanto si tengo una lista cuyo elementos son listas estaría guardando los datos en una tabla. Por ejemplo para guardar el tablero de ajedrez tendríamos una lista con 8 elementos, y cada uno de estos elementos serían listas, que representan las filas. Cada lista que representa las filas tendría 8 elementos que representan las columnas.
 
-Con la expresión `[:]` estamos realizando una rebanada que produce una lista completamente nueva.
+A esta estructura la podemos nombrar como **arays o arreglos bidimensiones, o tablas o matriz**.
 
-También podemos crear nuevas sublistas de la lista, es decir partes de la lista, para ello de forma general podemos usar la siguiente sintaxis:
+## Declaración de arreglos bidimensionales
 
-```
-my_list[start:end]
-```
+Como vimos anteriormente para las listas tenemos varios formas de inicializar un arreglo bidimensional. Para realizar estos ejemplos vamos a crear una tabla de 3 filas y tres columnas con los 9 primeros números. Veamos las distintas alternativas:
 
-* `start` es el índice del primer elemento **incluido en la rebanada**.
-* `end` es el índice del primer elemento **no incluido en la rebanada**.
+1. En la declaración de la variable, por ejemplo:
 
-Es decir, crearemos una nueva lista que contendrán los elementos de la lista original desde el elemento en la posición indicada por `start` hasta el elemento en la posición `end - 1`.
+    ```
+    tabla = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+    ```
 
-Es posible utilizar valores negativos tanto para el inicio como para el fin(al igual que en la indexación).
+2. Usando compresión de listas:
 
-Veamos un ejemplo:
+    ```
+    tabla = [ ]
+    tabla.append([i for i in range(1,4)])
+    tabla.append([i for i in range(4,7)])
+    tabla.append([i for i in range(7,10)])
+    ```
 
-```
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[1:3]
-print(new_list)
-```
+    Como vemos vamos añadiendo a una lista vacía distintos elementos que son listas que hemos creado con compresión de listas. El problema es que si tiene muchos filas, tenemos que incluir muchas instrucciones con el método `append()`. Para solucionarlo podemos realizar una compresión de lista más compleja donde la expresión es una compresión de lista:
 
-La lista `new_list` contendrá `start - end` (3 - 1 = 2) elementos y son los que tienen índices iguales a 1 y 2 (pero no 3).
+    ```
+    tabla = [[fila * 3 + columna + 1 for columna in range(3)] for fila in range(3)]
+    ```
+## Indexación de arreglos bidimensionales
 
-La salida del fragmento es: [8, 6]
-
-## Rebanadas con índices negativos
-
-Como hemos indicado también podemos usar índices negativos:
+Para acceder a un elemento de un arreglo bidimensional tendremos que indicar la fila y la columna en la que se encuentra. Por supuesto la primera fila y la primera columna estarán en la posición. De esta manera:
 
 ```
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[1:-1]
-print(new_list)
+print(tabla[0][0]) # Imprime el elemento que está en la primera fila y primera columna.
+print(tabla[1][2]) # Imprime el elemento que está en la segunda fila y tercera columna.
+print(tabla[2][2]) # Imprime el elemento que está en la tercera fila y tercera columna.
 ```
 
-El resultado de este ejemplo sería `[8, 6, 4]`.
-
-Hay que tener en cuenta que el índice indicado por `start` debe corresponder a un elemento que está colocado antes que el elemento especificado con el índice `end`, por lo tanto es posible que si esto no se cumple se creen listas vacías:
+Evidentemente también podemos cambiar el valor de un determinado elemento:
 
 ```
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[-1:1]
-print(new_list)
+tabla[2][0] = 0 # Modificamos el elemento guardado en la tercera fila y primera columna.
 ```
 
-En este ejemplo la salida es: `[ ]`.
+## Recorrido de arreglos bidimensionales
 
-## Más detalles sobre las rebanadas
+Para recorrer todos los elementos de un arreglo bidimensional, necesitamos posicionarnos en cada una de las filas y posteriormente en cada una de las columnas para indexar el elemento que queremos mostrar, operar o modificar. 
 
-Si omites el índice `start` en tu rebanada, se supone que deseas obtener un segmento que comienza en el elemento con índice 0.
-
-Veamos un ejemplo:
-```
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[:3]
-print(new_list)
-```
-
-Es por esto que su salida es: [10, 8, 6].
-
-Del mismo modo, si omites el índice `end` en tu rebanada, se supone que deseas que el segmento termine en el elemento con el índice `len(my_list)`, es decir hasta el último elemento:
+Para realizar este recorrido necesitamos dos bucles anidados, el primero nos permite recorrer las filas y el segundo cada elemento de esa fila. Si queremos imprimir la tabla que hemos declarado:
 
 ```
-my_list = [10, 8, 6, 4, 2]
-new_list = my_list[3:]
-print(new_list)
+tabla = [[1, 2, 3],[4, 5, 6],[7, 8, 9]]
+for fila in tabla:
+    for elemento in fila:
+         print(elemento," ",end="")
+    print()
 ```
+Fíjate que hemos ejecutado una instrucción `print()` que añade un salto de línea cada vez que terminamos de imprimir una fila.
 
-En este caso la salida es: [4, 2].
-
-## Rebanadas junto a la instrucción del
-
-La instrucción `del` puede eliminar más de un elemento de la lista a la vez usando rebanadas. Veamos algunos ejemplos:
-
-```
-my_list = [10, 8, 6, 4, 2]
-del my_list[1:3]
-print(my_list)
-```
-En este caso, la rebanada ¡no produce ninguna lista nueva. El efecto es la eliminación de la lista de los elementos que había seleccionado la rebanada, es decir la salida del programa sería: `[10, 4, 2]`.
-
-Vemos otros ejemplo. Podemos eliminar todos los elementos de la lista de la siguiente manera:
+También podríamos usar índices para recorrer una lista. De esta forma podríamos inicializar los valores de un arreglo bidimensioonal de forma interactiva. Vemos el ejemplo:
 
 ```
-my_list = [10, 8, 6, 4, 2]
-del my_list[:]
-print(my_list)
+tabla = []
+num_filas=3
+num_columnas=3
+for f in range(num_filas):
+    new_fila = []
+    for c in range(num_columnas):
+        print("Introduce el elemento que estará en la psoición ",f,"-",c,":")
+        elemento = int(input())
+        new_fila.append(elemento)
+    tabla.append(new_fila)
+print(tabla)
 ```
 
-La salida del programa sería `[ ]`.
+* Creamos dos variables: `num_filas` y `num_columnas` para guardar el número de filas y números de columnas. Nos servirán para recorrer la tabla.
+* Además cada vez que empezamos añadir una nueva fila, inicalizamos la variable temporal `new_fila` donde guardaremos los elementos de una fila.
+* Cuando se termina de rellenar los elementos de una fila, esa lista se añade al arreglo y se vuelve a inicializar a lista vacía.
 
-Este último ejemplo es distinto a usar la instrucción `del` con la el nombre de la lista:
+## Ejemplo tablero de ajedrez
 
-```
-my_list = [10, 8, 6, 4, 2]
-del my_list
-print(my_list)
-```
-
-En este caso, la instrucción `del` eliminará la lista, no su contenido y la instrucción `print()` provocará un error de ejecución:
+Vamos a crear una arreglo bidimensional que representa un tablero de ajedrez. Cada elemento será una cadena que indica la pieza que está colocada o si está libre. Veamos el ejemplo:
 
 ```
-Traceback (most recent call last):
-  File "main.py", line 3, in <module>
-    print(my_list)
-NameError: name 'my_list' is not defined
+EMPTY = "-"
+PAWN = "PEON"
+ROOK = "TORRE"
+KNIGHT = "CABALLO"
+board = []
+
+for i in range(8):
+    row = [EMPTY for i in range(8)]
+    board.append(row)
+
+board[0][0] = ROOK
+board[0][7] = ROOK
+board[7][0] = ROOK
+board[7][7] = ROOK
+board[4][2] = KNIGHT
+board[3][4] = PAWN
+
+print(board)
+
+for fila in board:
+    for elemento in fila:
+         print(elemento," ",end="")
+    print()
 ```
+

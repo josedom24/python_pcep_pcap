@@ -1,68 +1,153 @@
-# Entrada de datos
+# Operadores lógicos o de comparación
 
-## La función input()
+## Preguntas y respuestas
 
-Vamos a introducir una nueva función, que parece opuesta a la función `pint()`. ¿Por qué?
+La mayoría de los programas que hacemos **hacen preguntas**. El programa se puede comportar de manera distinta según los datos de entrada recibidos. 
 
-* Como hemos estudiado, `print()` envía datos a la consola.
-* Nuestra nueva función obtiene datos de ella.
+Afortunadamente, los ordenadores solo conocen dos tipos de respuestas:
 
-La función se llama `input()`, y es capaz de leer datos que fueron introducidos por el usuario y pasar esos datos al programa en ejecución. Por lo tanto, esta función devuelve datos que vamos a utilizar en nuestro programa, consiguiendo que el programa pueda manipular los datos, haciendo que el código sea verdaderamente interactivo.
+* **Si, es cierto.**
+* **No, es falso.**
 
-La mayoría de los programas leen y procesan datos. Veamos un ejemplo:
+Nunca obtendrás una respuesta como: *Déjame pensar...*,* no lo sé*, o *probablemente sí, pero no lo sé con seguridad*.
 
-```
-print("Dime algo...")
-anything = input()
-print("Mmm...", anything, "...¿en serio?")
-```
+Para hacer preguntas, Python utiliza un conjunto de operadores, que llamamos **operadores lógicos o de comparación**.
 
-* El programa **solicita al usuario que inserte algún dato** desde la consola, normalmente el teclado.
-* La función `input()` es invocada sin argumentos (es la manera mas sencilla de utilizar la función); la función **pondrá la consola en modo de entrada**; aparecerá un cursor que parpadea, y podrás introducir datos con el teclado, al terminar presiona la **tecla Enter**; todos los datos introducidos serán **enviados al programa** a través del resultado de la función.
-* El resultado debe ser asignado a una variable; esto es crucial, si no se hace los datos introducidos se perderán.
-* Después se utiliza la función `print()` para mostrar los datos que se obtuvieron, con algunas observaciones adicionales.
+## Comparación: operador de igualdad
 
-## La función input() con un argumento
+Pregunta: ¿Son dos valores iguales?
 
-La función `input()` puede hacer algo más: puede mostrar un mensaje al usuario sin la ayuda de la función `print()`.
+Para hacer esta pregunta, se utiliza el operador `==`. Hay que distinguir lo siguiente:
 
-Se ha modificado el ejemplo un poco, observa el código:
+* `=` es un **operador de asignación**, por ejemplo, `a = b` asigna a la variable `a` el valor de `b`.
+* `==` es un **operador lógico o de comparación**: ¿Son estos valores iguales? así que `a == b` compara `a` y `b`.
+
+Es un operador binario que necesita dos argumentos y verifica si son iguales.Si son iguales, el resultado de la comparación es `True`. Si no son iguales, el resultado de la comparación es `False`.
+
+Ejemplo: ¿Cuál es el resultado de esta operación?
 
 ```
-anything = input("Dime algo...")
-print("Mmm...", anything, "...¿En serio?")
+var == 0
 ```
 
-* La función `input()` se llama con un argumento, que es una cadena con un mensaje.
-* El mensaje será mostrado en consola antes de que el usuario tenga oportunidad de escribir algo.
-* Después de esto `input()` hará su trabajo.
+* Ten en cuenta que no podemos encontrar la respuesta si no sabemos qué valor está almacenado actualmente en la variable `var`.
+* Si la variable se ha cambiado muchas veces durante la ejecución del programa, o si se ingresa su valor inicial desde la consola, Python solo puede responder a esta pregunta en el **tiempo de ejecución del programa**.
 
-Esta variante de la invocación de la función `input()` simplifica el código y lo hace más claro.
+Otro ejemplo, imagina a un programador que sufre de insomnio, y tiene que contar las ovejas negras y blancas, debe comprobar cuando hay exactamente el doble de ovejas negras que de las blancas.
 
-## El resultado de la función input()
-
-El resultado de la función `input()` **es una cadena**.
-
-Una cadena que contiene todos los caracteres que el usuario introduce desde el teclado. No es un entero ni un flotante.
-
-Esto significa que **no se debe utilizar como un argumento para operaciones matemáticas**, por ejemplo, no se pueden utilizar estos datos para elevarlos al cuadrado, para dividirlos entre algo o por algo.
+La pregunta será la siguiente:
 
 ```
-anything = input("Inserta un número: ")
-something = anything ** 2.0
-print(anything, "al cuadrado es", something)
+black_sheep == 2 * white_sheep
 ```
 
-## Entrada errónea de datos
-
-Si ejecutamos el programa anterior, insertaremos un número y, ¿qué es lo que ocurre?. Python debió haberte dado la siguiente salida:
+Debido a la baja prioridad del operador ==, la pregunta será tratada como la siguiente:
 
 ```
-Traceback (most recent call last):
-File ".main.py", line 4, in <module>
-something = anything ** 2.0
-TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'float'
+black_sheep == (2 * white_sheep)
 ```
 
-La última línea lo explica todo, se intentó aplicar el operador `**` a `str` (una cadena) y a un `float` (valor flotante). Esto está prohibido. 
+Ejercicios de comparación:
 
+1. ¿Cuál es el resultado de la siguiente comparación?
+
+    `2 == 2`
+
+    * Solución: `True`, por supuesto, 2 es igual a 2. 
+
+2. ¿Cuál es el resultado de la siguiente comparación?
+
+    `2 == 2.`
+
+    * Solución: Esta pregunta no es tan fácil como la primera. Por suerte, Python es capaz de convertir el valor entero en su equivalente real, y en consecuencia, la respuesta es `True`.
+
+3. ¿Cuál es el resultado de la siguiente comparación?
+
+    `1 == 2`
+
+    * Solución: Esto debería ser fácil. La respuesta es `False`.
+
+4. ¿Puedes adivinar la salida del código a continuación?
+
+    ```
+    var = 0   # asignando 0 a var
+    print(var == 0)
+    
+    var = 1  # asignando 1 a var
+    print(var == 0)
+    ```
+
+    * Solución: La salida será: `True False`.
+    
+## Comparación: operador de desigualdad
+
+El operador `!=` (no es igual a) también compara los valores de dos operandos. Aquí está la diferencia: si son iguales, el resultado de la comparación es `False`. Si no son iguales, el resultado de la comparación es `True`.
+
+Ahora echa un vistazo a la comparación de desigualdad a continuación: ¿Puedes adivinar el resultado de esta operación?
+
+    ```
+    var = 0 # asignando 0 a var
+    print(var != 0)
+
+    var = 1 # asignando 1 a var
+    print(var != 0)
+    ```
+
+Ejecuta el código y comprueba si tenías razón.
+
+## Comparación: mayor que y mayor que o igual
+
+También se puede hacer una pregunta de comparación usando el operador `>` (mayor que) o el operador `>=` (mayor o igual que). Ambos operadores **son binarios, asociativos a la izquierda y su prioridad es mayor que la mostrada por `==` y `!=`**.
+
+* Si deseas saber si hay más ovejas negras que blancas, puedes escribirlo de la siguiente manera: `black_sheep > white_sheep`.
+* Si queremos saber si tenemos que usar un gorro o no, nos hacemos la siguiente pregunta: `centigrade_outside ≥ 0.0`.
+
+`True` lo confirma; `False` lo niega.
+
+## Comparación: menor que y menor que o igual
+
+De manera similar a lo visto anteriormente, podemos usar el operador `<`(menor que) y el operador `<=` (menor o igual que).
+
+Observa este ejemplo simple:
+
+```
+current_velocity_mph < 85  # Menor que
+current_velocity_mph ≤ 85  # Menor o igual que
+```
+
+## Haciendo uso de las respuestas
+
+¿Qué puedes hacer con la respuesta (es decir, el resultado de una operación de comparación) que se obtiene del ordenador?
+
+1. Puedes memorizarlo (almacenarlo en una variable) y utilizarlo más tarde. ¿Cómo haces eso? Bueno, utilizarías una variable arbitraria como esta:
+
+    ```
+    answer = number_of_lions >= number_of_lionesses
+    ```
+
+    La Variables `answer` es de **tipo lógica o booleana**, y contiene dos posible valores: o `True` o `False`.
+
+2. Es más conveniente y mucho más común utilizar la respuesta que obtengas para tomar una decisión sobre el futuro del programa. Para ello, necesitamos una instrucción especial que estudiaremos a continuación.
+
+
+Vamos actualizar la **tabla de prioridades** de operadores:
+
+1. `+`,`-` (unarios)
+2. `**`
+3. `*`,`/`,`//`,`%`
+4. `+`,`-` (binarios)
+5. `<`, `<=`, `>`, `>=` 	
+6. `==`, `!=`
+
+## Resumen
+
+La siguiente tabla ilustra cómo funcionan los operadores de comparación, asumiendo que `x=0`, `y=1` y `z=0`:
+
+|Operador |	Descripción |Ejemplo|
+|----------|----------|----------|
+|== 	|Devuelve si los valores de los operandos son iguales, y False de lo contrario.| x == y  # False <br> x == z  # True|
+|!= 	|Devuelve True si los valores de los operandos no son iguales, y False de lo contrario.|x != y  # True <br> x != z  # False|
+|> 	    |Devuelve True si el valor del operando izquierdo es mayor que el valor del operando derecho, y False de lo contrario.|x > y  # False <br> y > z  # True|
+|< 	    | Devuelve True si el valor del operando izquierdo es menor que el valor del operando derecho, y False de lo contrario.| x < y  # True <br> y < z  # False |
+|≥ 	    | Devuelve True si el valor del operando izquierdo es mayor o igual al valor del operando derecho, y False de lo contrario.| x >= y  # False <br> x >= z  # True <br> y >= z  # True|
+|≤ 	    | Devuelve True si el valor del operando izquierdo es menor o igual al valor del operando derecho, y False de lo contrario. | x <= y  # True <br> x <= z  # True <br> y <= z  # False |

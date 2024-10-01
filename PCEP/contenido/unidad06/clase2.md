@@ -1,42 +1,54 @@
-# LABORATORIO - Comentarios
-
-## Tiempo Estimado
-
-5 minutos
-
-## Nivel de Dificultad
-
-Muy fácil
-
-## Objetivos
- 
-* Familiarizarse con el concepto de comentarios en Python.
-* Utilizar y no utilizar los comentarios.
-* Reemplazar los comentarios con código.
-* Experimentar con el código de Python.
+# Conversión de datos (casting)
 
 
-## Escenario
+Python ofrece dos funciones para convertir a un tipo de dato y resolver este problema, aquí están: `int()` y `float()`.
 
-El código en el editor contiene comentarios. Intenta mejorarlo: agrega o quita comentarios donde consideres que sea apropiado (en ocasiones el remover un comentario lo hace mas legible), además, cambia el nombre de las variables donde consideres que esto mejorará la comprensión del código.
+Sus nombres indican cual es su función:
+
+* La función `int()` toma un argumento (por ejemplo, una cadena: *int(string)*) e intenta convertirlo a un valor entero; si llegase a fallar, el programa entero fallará también (existe una manera de solucionar esto, se explicará mas adelante).
+* La función `float()` toma un argumento (por ejemplo, una cadena: *float(string)*) e intenta convertirlo a flotante.
+
+Esto es muy simple y muy efectivo. Sin embargo, estas funciones se pueden invocar directamente pasando el resultado de la función `input()` directamente. No hay necesidad de emplear variables como almacenamiento intermedio.
+
+Veamos un ejemplo:
 
 ```
-# este programa calcula los segundos en cierto número de horas determinadas 
-# este programa fue escrito hace dos días
-
-a = 2 # número de horas
-seconds = 3600 # número de segundos en una hora
-
-print("Horas: ", a) #imprime el numero de horas
-print("Segundos en Horas: ", a * seconds) # se imprime el numero de segundos en determinado numero de horas
-
-#aquí también se debe de imprimir un "Adiós", pero el programador no tuvo tiempo de escribirlo
-#este el es fin del programa que calcula el numero de segundos en 2 horas
+anything = float(input("Inserta un número: "))
+something = anything ** 2.0
+print(anything, "al cuadrado es", something)
 ```
 
-**NOTA**: Los comentarios son muy importantes. No solo hacen que el programa sea más fácil de entender, pero también sirven para deshabilitar aquellas partes de código que no son necesarias (por ejemplo, cuando se necesita probar cierta parte del código, e ignorar el resto). Los buenos programadores describen cada parte importante del código, y dan nombres significativos a variables, debido a que en ocasiones es mucho más sencillo dejar el comentario dentro del código mismo.
+* En este caso el valor leído por la función `input()` (una cadena), se convierte a un valor numérico flotante con la función `float()`
+* En la variable `something` se guarda un número y es de tipo `float`. 
+* Ahora se puede hacer la operación matemática sin problemas. 
+* Y finalmente se muestra el resultado con la función `print()`.
 
-Es bueno utilizar nombres de variables legibles, y en ocasiones es mejor dividir el código en partes con nombres (por ejemplo en funciones). En algunas situaciones, es una buena idea escribir los pasos de como se realizaron los cálculos de una forma sencilla y clara.
+## Posibilidades que nos ofrece la conversión de tipos
 
-Una cosa más: puede ocurrir que un comentario contenga una pieza de información incorrecta o errónea, nunca se debe de hacer eso a propósito.
+Trabajar con la funciones `input()`, `int()` y `float()` se nos abre muchas nuevas posibilidades. 
 
+Podremos escribir programas que lean de la consola, tanto cadenas de texto como números, que podremos procesar y operar.
+
+En este momento, los programas que podemos escribir serán muy básicos ya que no podrán tomar decisiones, y consecuentemente no son capaces de reaccionar acorde a cada situación.
+
+Veamos otros ejemplo. El siguiente ejemplo hace referencia al programa anterior que calcula la longitud de la hipotenusa. Vamos a reescribirlo, para que pueda leer las longitudes de los catetos desde la consola:
+
+```
+leg_a = float(input("Inserta la longitud del primer cateto: "))
+leg_b = float(input("Inserta la longitud del segundo cateto: "))
+hypo = (leg_a**2 + leg_b**2) ** .5
+print("La longitud de la hipotenusa es:", hypo)
+```
+
+* El programa pide que el usuario introduzca dos números flotantes, correspondientes a la longitud de los catetos.
+* Y calcula la hipotenusa e imprime el resultado.
+
+Veamos a una segunda versión de este programa. Observa, que la variable `hypo` se usa con un solo propósito: guardar el valor calculado para posteriormente imprimirlo en pantalla.
+
+Debido a que la función `print()` acepta uel paso de varios argumentos, se puede **quitar la variable del código**:
+
+```
+leg_a = float(input("Inserta la longitud del primer cateto: "))
+leg_b = float(input("Inserta la longitud del segundo cateto: "))
+print("La longitud de la hipotenusa es: ", (leg_a**2 + leg_b**2) ** .5)
+```

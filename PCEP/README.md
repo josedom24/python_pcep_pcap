@@ -17,6 +17,8 @@
     * [Más argumentos de la función print()](contenido/unidad02/clase4.md)
     * [LABORATORIO - La función print() y sus argumentos](contenido/unidad02/clase5.md)
     * [LABORATORIO - Dando forma a la salida](contenido/unidad02/clase6.md)
+    * [Comentarios](contenido/unidad02/clase7.md)
+    * [LABORATORIO - Comentarios](contenido/unidad02/clase8.md)
 3. Literales y tipos de datos
     * [Literales y tipos de datos](contenido/unidad03/clase1.md)
     * [Literales numéricos](contenido/unidad03/clase2.md)
@@ -32,10 +34,7 @@
     * [LABORATORIO - Variables](contenido/unidad05/clase3.md)
     * [LABORATORIO - Variables: un convertidor simple](contenido/unidad05/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/unidad05/clase5.md)
-6. Comentarios
-    * [Comentarios](modulo2/seccion5/clase1.md)
-    * [LABORATORIO - Comentarios](modulo2/seccion5/clase2.md)
-7. Entrada y salida básica
+6. Entrada y salida básica
     * [La función input()](contenido/unidad07/clase1.md)
     * [Conversión de datos (casting)](contenido/unidad07/clase2.md)
     * [Operadores de cadena](contenido/unidad07/clase3.md)
@@ -45,7 +44,7 @@
     * [LABORATORIO - Ejercicios estructura secuencial](contenido/unidad07/clase7.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad07/test.md)
     * [Prueba intermedia](contenido/unidad07/prueba.md)
-8. Estructura alternativa
+7. Estructura alternativa
     * [Operadores lógicos o de comparación](contenido/unidad08/clase1.md)
     * [LABORATORIO ‒ Preguntas y Respuestas](contenido/unidad08/clase2.md)
     * [Estructuras alternativas](contenido/unidad08/clase3.md)
@@ -54,7 +53,7 @@
     * [LABORATORIO - Fundamentos de la sentencia if-else](contenido/unidad08/clase6.md)
     * [LABORATORIO - Fundamentos de la sentencia if-elif-else](contenido/unidad08/clase7.md)
     * [LABORATORIO - Ejercicios estructura alternativa](contenido/unidad08/clase8.md)
-9. Estructura repetitiva
+8. Estructura repetitiva
     * [Bucle while](contenido/unidad09/clase1.md)
     * [LABORATORIO - Adivina el número secreto](contenido/unidad09/clase2.md)
     * [Bucle for](contenido/unidad09/clase3.md)
@@ -66,11 +65,11 @@
     * [LABORATORIO - Fundamentos del bucle while](contenido/unidad09/clase9.md)
     * [LABORATORIO - La hipótesis de Collatz](contenido/unidad09/clase10.md)
     * [LABORATORIO - Ejercicios estructura repetitiva](contenido/unidad09/clase11.md)
-10. Operaciones lógicas y de bits en Python
+9. Operaciones lógicas y de bits en Python
     * [Expresiones lógicas](contenido/unidad10/clase1.md)
     * [Operadores bit a bit](contenido/unidad10/clase2.md)
     * [Uso de los operadores bit a bit](contenido/unidad10/clase3.md)
-11. Introducción a las listas
+10. Introducción a las listas
     * [Introducción a las listas](contenido/unidad11/clase1.md)
     * [Operaciones básicas sobre las listas](contenido/unidad11/clase2.md)
     * [LABORATORIO - Los fundamentos de las listas](contenido/unidad11/clase3.md)
@@ -78,7 +77,7 @@
     * [Recorrido de listas](contenido/unidad11/clase5.md)
     * [Ejemplo de recorrido de listas](contenido/unidad11/clase6.md)
     * [LABORATORIO - Los fundamentos de las listas: los Beatles](contenido/unidad11/clase7.md)
-12. Operaciones con listas
+11. Operaciones con listas
     * [La listas son mutables](contenido/unidad12/clase1.md)
     * [Operación de rebanada de listas](contenido/unidad12/clase2.md)
     * [Operadores de pertenencia](contenido/unidad12/clase3.md)
@@ -86,7 +85,7 @@
     * [LABORATORIO - Operaciones con listas: conceptos básicos](contenido/unidad12/clase5.md)
     * [Ordenación de una lista por el algoritmo burbuja](contenido/unidad12/clase6.md)
     * [El ordenamiento burbuja en Python](contenido/unidad12/clase7.md)
-13. Listas multidimensionales
+12. Listas multidimensionales
     * [Compresión de listas](modulo3/seccion7/clase1.md)
     * [Listas de dos dimensiones](modulo3/seccion7/clase2.md)
     * [Ejemplo de lista de dos dimensiones](modulo3/seccion7/clase3.md)
@@ -94,7 +93,7 @@
     * [Resumen](modulo3/seccion7/clase5.md)
     * Test intermedio: comprueba lo que has aprendido
     * [Prueba intermedia](modulo3/seccion8/test.md)
-14. Introducción a las funciones
+13. Introducción a las funciones
     * [Introducción a las funciones](modulo4/seccion1/clase1.md)
     * [Tu primera función](modulo4/seccion1/clase2.md)
     * Funciones parametrizadas
@@ -110,21 +109,21 @@
     * LABORATORIO - Conversión del consumo de combustible (8)
     * Ámbito de variables y funciones (1)
     * La palabra reservada global (2,3)
-15. Ejemplo de funciones
+14. Ejemplo de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
     * Ejemplos de funciones: Triángulos (2)
     * Ejemplos de funciones: Factoriales (3)
     * Ejemplos de funciones: Números Fibonacci (4)
     * Recursividad (5)
     * Resumen y cuestionario (6,7)
-16. Tuplas y diccionarios
+15. Tuplas y diccionarios
     * Tipos de secuencia y mutabilidad (1)
     * Tuplas (2)
     * Diccionarios (3)
     * Métodos  y funciones de diccionarios (4)
     * Trabajando con tuplas y diccionarios (5)
     * Resumen y cuestionario (6,7)
-17. Excepciones
+16. Excepciones
     * Errores en la programación (1,2)
     * Excepciones en Python (3)
     * Capturar más de una excepción (4,5,6)
@@ -134,6 +133,6 @@
     * Resumen y cuestionario (14,15)
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
-18. Examen final de curso
+17. Examen final de curso
     * Proyecto Final
     * Prueba Final

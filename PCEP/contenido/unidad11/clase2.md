@@ -1,84 +1,124 @@
-# Operaciones básicas sobre las listas
+# Operación de rebanada de listas
 
-## Accediendo al contenido de la lista
+## Rebanadas (slice) de listas
 
-Como hemos visto anteriormente, la **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
+Una **rebanada** es una operación que podemos realizar sobre una lista que nos permite **hacer una copia nueva de una lista, o partes de una lista**. En realidad, copia el contenido de la lista, no el nombre de la lista.
 
-```
-print(numeros[0]) # Accediendo al primer elemento de la lista.
-```
-
-También podemos imprimir la lista completa utilizando la función `print()`:
+Por lo la forma más fácil de copiar una lista en otra sería:
 
 ```
-print(numeros)  # Imprimiendo la lista completa.
+lista1 = [1,2,3]
+lista2=lista1[:]
+lista1[1] = 10
+print(lista2) # [1, 2, 3]
 ```
 
-Como probablemente hayas notado antes, Python decora la salida de una manera que sugiere que todos los valores presentados forman una lista. La salida del fragmento de ejemplo anterior se ve así:
+Con la expresión `[:]` estamos realizando una rebanada que produce una lista completamente nueva.
+
+También podemos crear nuevas sublistas de la lista, es decir partes de la lista, para ello de forma general podemos usar la siguiente sintaxis:
 
 ```
-[111, 1, 7, 2, 1]
+my_list[start:end]
 ```
 
-Tenemos que tener en cuanta que los índices negativos son válidos, vemos distintos ejemplos:
+* `start` es el índice del primer elemento **incluido en la rebanada**.
+* `end` es el índice del primer elemento **no incluido en la rebanada**.
 
-* Un elemento con un índice igual a -1 es el último en la lista: `print(numeros[-1])`
-* Del mismo modo, el elemento con un índice igual a -2 es el penúltimo en la lista: `print(numeros[-2])`.
-* Así sucesivamente.
+Es decir, crearemos una nueva lista que contendrán los elementos de la lista original desde el elemento en la posición indicada por `start` hasta el elemento en la posición `end - 1`.
 
-## La función len()
+Es posible utilizar valores negativos tanto para el inicio como para el fin(al igual que en la indexación).
 
-La longitud de una lista puede variar durante la ejecución. Se pueden agregar nuevos elementos a la lista, mientras que otros pueden eliminarse de ella. Esto significa que la lista es una **estructura dinámica**.
-
-La función `len()` (su nombre proviene de length - longitud) nos devuelve la longitud de la lista, la cantidad de elementos que almacena.
-
-La función toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente dentro de la lista (en otras palabras, la longitud de la lista).
-
-## Eliminando elementos de una lista
-
-Cualquier elemento de la lista puede ser eliminado en cualquier momento, esto se hace con una instrucción llamada `del` (eliminar). Nota: es una instrucción, no una función.
-
-Para su utilización indexamos el elemento que queremos eliminar:
+Veamos un ejemplo:
 
 ```
-del numeros[1]
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:3]
+print(new_list)
 ```
 
-La ejecución de esta instrucción hace que **la longitud de la lista se reducirá en uno**.
+La lista `new_list` contendrá `start - end` (3 - 1 = 2) elementos y son los que tienen índices iguales a 1 y 2 (pero no 3).
 
-En general si intentamos indexar un elemento que no existe nos devolverá un error, en este caso como hemos borrado un elemento, el elemento que está en la posición 4, no existe:
+La salida del fragmento es: [8, 6]
+
+## Rebanadas con índices negativos
+
+Como hemos indicado también podemos usar índices negativos:
 
 ```
-print(numeros[4])
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[1:-1]
+print(new_list)
+```
+
+El resultado de este ejemplo sería `[8, 6, 4]`.
+
+Hay que tener en cuenta que el índice indicado por `start` debe corresponder a un elemento que está colocado antes que el elemento especificado con el índice `end`, por lo tanto es posible que si esto no se cumple se creen listas vacías:
+
+```
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[-1:1]
+print(new_list)
+```
+
+En este ejemplo la salida es: `[ ]`.
+
+## Más detalles sobre las rebanadas
+
+Si omites el índice `start` en tu rebanada, se supone que deseas obtener un segmento que comienza en el elemento con índice 0.
+
+Veamos un ejemplo:
+```
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[:3]
+print(new_list)
+```
+
+Es por esto que su salida es: [10, 8, 6].
+
+Del mismo modo, si omites el índice `end` en tu rebanada, se supone que deseas que el segmento termine en el elemento con el índice `len(my_list)`, es decir hasta el último elemento:
+
+```
+my_list = [10, 8, 6, 4, 2]
+new_list = my_list[3:]
+print(new_list)
+```
+
+En este caso la salida es: [4, 2].
+
+## Rebanadas junto a la instrucción del
+
+La instrucción `del` puede eliminar más de un elemento de la lista a la vez usando rebanadas. Veamos algunos ejemplos:
+
+```
+my_list = [10, 8, 6, 4, 2]
+del my_list[1:3]
+print(my_list)
+```
+En este caso, la rebanada ¡no produce ninguna lista nueva. El efecto es la eliminación de la lista de los elementos que había seleccionado la rebanada, es decir la salida del programa sería: `[10, 4, 2]`.
+
+Vemos otros ejemplo. Podemos eliminar todos los elementos de la lista de la siguiente manera:
+
+```
+my_list = [10, 8, 6, 4, 2]
+del my_list[:]
+print(my_list)
+```
+
+La salida del programa sería `[ ]`.
+
+Este último ejemplo es distinto a usar la instrucción `del` con la el nombre de la lista:
+
+```
+my_list = [10, 8, 6, 4, 2]
+del my_list
+print(my_list)
+```
+
+En este caso, la instrucción `del` eliminará la lista, no su contenido y la instrucción `print()` provocará un error de ejecución:
+
+```
 Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list index out of range
-
-numbers[4] = 1
-numeros[4]=1
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-IndexError: list assignment index out of range
+  File "main.py", line 3, in <module>
+    print(my_list)
+NameError: name 'my_list' is not defined
 ```
-
-## Ejemplo
-
-Veamos un ejemplo de todo lo aprendido hasta ahora:
-
-```
-numeros = [10, 5, 7, 2, 1]
-print("Contenido de la lista original:", numeros) # Imprimiendo el contenido de la lista original.
-
-numeros[0] = 111
-print("\nContenido de la lista con cambio:", numeros) # Imprimiendo contenido de la lista con 111.
-
-numeros[1] = numeros[4] # Copiando el valor del quinto elemento al segundo elemento.
-print("Contenido de la lista con intercambio:", numeros) # Imprimiendo contenido de la lista con intercambio.
-
-print("\nLongitud de la lista:", len(numeros)) # Imprimiendo la longitud de la lista.
-
-del numeros[1]  # Eliminando el segundo elemento de la lista.
-print("Longitud de la nueva lista:", len(numeros))  # Imprimiendo nueva longitud de la lista.
-print("\nNuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
-```
-

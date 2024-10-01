@@ -1,48 +1,121 @@
-# LABORATORIO - Adivina el número secreto
+# Operadores bit a bit
 
-## Tiempo Estimado
+## Operadores bit a bit
 
-15 minutos
+Sin embargo, hay cuatro operadores que te permiten manipular bits de de forma individual. Se denominan **operadores bit a bit**.
 
-## Nivel de Dificultad
+Cubren todas las operaciones que mencionamos anteriormente en el contexto lógico, y un operador adicional. Este es el operador **xor** (significa o exclusivo), y se denota como `^` (signo de intercalación).
 
-Fácil
+Aquí están todos ellos:
 
-## Objetivos
+* `&` (ampersand): conjunción a nivel de bits.
+* `|` (barra vertical): disyunción a nivel de bits.
+* `~` (tilde): negación a nivel de bits.
+* `^` (signo de intercalación): o exclusivo a nivel de bits (xor).
 
-Familiarizar al estudiante con:
 
-* Utilizar el bucle `while`.
-* Reflejar situaciones de la vida real en un programa de ordenador.
+Operaciones bit a bit (`&`, `|`, y `^`)
 
-## Escenario
 
-Un mago junior ha elegido un número secreto. Lo ha escondido en una variable llamada `numero_secreto`. Quiere que todos los que ejecutan su programa jueguen el juego **Adivina el número secreto**, y adivina qué número ha elegido para ellos. ¡Quiénes no adivinen el número quedarán atrapados en un bucle sin fin para siempre! Desafortunadamente, él no sabe cómo completar el código.
+|Argumento A |Argumento B |`A & B` |`A \| B` |`A ^ B` |
+-------------|------------|--------|--------|--------|
+|0           |0           |	0      |0       | 0      |
+|0           |1           |	0      |1       | 1      |
+|1           |0           |	0      |1       | 1      |
+|1           |1           |	1      |1       | 0      |
+
+
+Operaciones bit a bit (`~`) 
+
+|Argumento |~ Argumento|
+-----------|-----------|
+|0 |	1 |
+|1 |	0 |
+
+Hagámoslo más fácil:
+
+* `&`: requieres exactamente dos unos para proporcionar 1 como resultado.
+* `|`: requiere al menos un 1 para proporcionar 1 como resultado.
+* `^`: requiere exactamente un 1 para proporcionar 1 como resultado.
+
+Agreguemos un comentario importante: los argumentos de estos operadores deben ser enteros. No debemos usar flotantes aquí.
+
+La diferencia en el funcionamiento de los operadores lógicos y de bits es importante: los operadores lógicos no operan directamente con los bits de sus argumentos. Solo les interesa el valor entero final.
+
+Los operadores bit a bit son más estrictos: tratan con cada bit por separado. Si asumimos que la variable entera ocupa 64 bits (lo que es común en los sistemas informáticos modernos), puede imaginar la operación a nivel de bits como una evaluación de 64 veces del operador lógico para cada par de bits de los argumentos. Su analogía es obviamente imperfecta, ya que en el mundo real todas estas 64 operaciones se realizan al mismo tiempo (simultáneamente).
+
+
+## Operaciones lógicas frente a operaciones de bit: continuación
+
+Ahora te mostraremos un ejemplo de la diferencia entre las operaciones lógicas y de bit. Supongamos que se han realizado las siguientes asignaciones:
 
 ```
-numero_secreto = 777
-
-print(
-"""
-+==================================+
-| ¡Bienvenido a mi juego, muggle!  |
-| Introduce un número entero       |
-| y adivina qué número he          |
-| elegido para ti.                 |
-| Entonces,                        |
-| ¿Cuál es el número secreto?      |
-+==================================+
-""")
-
+i = 15
+j = 22
 ```
 
-Tu tarea es ayudar al mago a completar el código en el editor de tal manera que el código:
+Si asumimos que los enteros se almacenan con 32 bits, los valores binarios de las dos variables será la siguiente:
 
-* Pedirá al usuario que ingrese un número entero.
-* Utilizará un bucle `while`.
-* Comprobará si el número ingresado por el usuario es el mismo que el número escogido por el mago. Si el número elegido por el usuario es diferente al número secreto del mago, el usuario debería ver el mensaje `"¡Ja, ja! ¡Estás atrapado en mi bucle!"` y se le solicitará que ingrese un número nuevamente. Si el número ingresado por el usuario coincide con el número escogido por el mago, el número debe imprimirse en la pantalla, y el mago debe decir las siguientes palabras: `"¡Bien hecho, muggle! Eres libre ahora"`.
+```
+i: 00000000000000000000000000001111
+j: 00000000000000000000000000010110
+```
 
-Información adicional: Observa la función `print()`. La forma en que lo hemos utilizado aquí se llama impresión multilínea. Puede utilizar **comillas triples** para imprimir cadenas en varias líneas para facilitar la lectura del texto o crear un diseño especial basado en texto. Experimenta con ello.
+Se ejecuta la asignación:
 
-    
+```
+log = i and j
+```
 
+* Estamos realizando una una conjunción lógica.  
+* Ambas variables `i` y `j` no son ceros, por lo que se considerará que representan a `True`. 
+* Al consultar la tabla de verdad para el operador `and`, podemos ver que el resultado será `True`. * * No se realizan otras operaciones.
+
+Por lo tanto el resultado será que la variable `log` es igual a `True`.
+
+
+Ahora estudiemos la operación a nivel de bits:
+
+```
+bit = i & j
+```
+
+El operador `&` operará con cada par de bits correspondientes por separado, produciendo los valores de los bits relevantes del resultado. Por lo tanto, el resultado será el siguiente:
+
+```
+i	00000000000000000000000000001111
+j	00000000000000000000000000010110
+bit = i & j	00000000000000000000000000000110
+```
+
+Estos bits corresponden al valor entero de seis.
+
+
+Veamos ahora los operadores de negación. Primero el lógico:
+
+```
+logneg = not i
+```
+
+La variable `logneg` se establecerá en `False`: no es necesario hacer nada más.
+
+La negación a nivel de bits es así:
+
+```
+bitneg = ~i
+```
+
+Puede ser un poco sorprendente: el valor de la variable `bitneg` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar el sistema de números binarios y las reglas que rigen los números de complemento de dos.
+
+```
+i	00000000000000000000000000001111
+bitneg = ~i	11111111111111111111111111110000
+```
+
+Cada uno de estos operadores de dos argumentos se puede utilizar en forma abreviada. Estos son los ejemplos de sus notaciones equivalentes:
+
+```
+x = x & y	x &= y
+x = x | y	x |= y
+x = x ^ y	x ^= y
+```

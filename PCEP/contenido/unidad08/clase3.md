@@ -1,227 +1,134 @@
-# Estructuras alternativas
+# Bucle for
 
-## Condiciones y ejecución condicional
+## Estructura repetitiva for
 
-Ya sabes como hacer preguntas a Python, pero aún no sabes como hacer un uso razonable de las respuestas. Se debe tener un mecanismo que le permita hacer algo si se cumple una condición, y no hacerlo si no se cumple.
+Otro tipo de bucle disponible en Python nos permite indicar la cantidad de iteraciones que va a dar nuestro bucle, en vez de verificar las condiciones.
 
-Es como en la vida real: haces ciertas cosas o no cuando se cumple una condición específica, por ejemplo, sales a caminar si el clima es bueno, o te quedas en casa si está húmedo y frío.
-
-Para tomar tales decisiones, Python ofrece una instrucción especial. Debido a su naturaleza y su aplicación, se denomina **estructura alternativa o condicional**.
-
-Existen varias variantes de la misma. Comenzaremos con la más simple, aumentando la dificultad lentamente.
-
-## La instrucción if
-
-La primera forma de una sentencia condicional, que puede ver a continuación, está escrita de manera muy informal pero figurada:
-```
-if true_or_not:
-    do_this_if_true
-```
-
-Esta sentencia condicional consta de los siguientes elementos, estrictamente necesarios en este orden:
-
-* La palabra clave reservada `if`.
-* Uno o más espacios en blanco.
-* Una expresión condicional (una pregunta o una respuesta) cuyo valor se interpretar únicamente en términos de `True`  y `False` .
-* Unos dos puntos seguido de una nueva línea.
-* Una instrucción con **sangría** o un conjunto de instrucciones (se requiere absolutamente al menos una instrucción); la sangría se puede lograr de dos maneras: 
-    * insertando un número particular de espacios (la recomendación es usar cuatro espacios de sangría), 
-    * o usando el tabulador; 
-    * nota: si hay mas de una instrucción en la parte con sangría, la sangría debe ser la misma en todas las líneas; aunque puede parecer lo mismo si se mezclan tabuladores con espacios, es importante que todas las sangrías sean exactamente iguales Python 3 no permite mezclar espacios y tabuladores para la sangría.
-
-¿Cómo funciona esta sentencia?
-
-* Si la expresión *true_or_not* representa la verdad (es decir, su valor es `True`), las sentencias con sangría se ejecutarán.
-* Si la expresión *true_or_not* no representa la verdad (es decir, su valor es `False`), las sentencias con sangría se omitirán , y la siguiente instrucción ejecutada será la siguiente al nivel de la sangría original.
-
-### Ejemplo 1
-
-Ejemplo, si en la vida real podemos expresar la siguiente frase:
-
-*Si el clima es bueno, saldremos a caminar después, almorzaremos*.
-
-Como puedes ver, almorzar no es una actividad condicional y no depende del clima.
-
-Podríamos indicarlo en un programa asumiendo que tenemos las funciones sin parámetros `go_for_a_walk()` y `have_lunch()`, de la siguiente manera:
+Imagina que el cuerpo de un bucle debe ejecutarse exactamente cien veces. Si deseas utilizar el bucle `while` para hacerlo, puede tener este aspecto:
 
 ```
-if the_weather_is_good:
-    go_for_a_walk()
-have_lunch()
+i = 0
+while i < 100:
+    # do_something()
+    i += 1
 ```
 
-### Ejemplo 2
+Pero en este caso, que **sabemos de antemano cuantas vueltas tiene que dar el bucle** podemos usar la instrucción `for`.
+En realidad, el bucle `for` está diseñado para realizar tareas más complicadas: puede recorrer tipos de datos complejos como las secuencias (por ejemplo, una lista, un diccionario, una tupla o un conjunto; pronto aprenderás sobre ellos) u otros objetos que son iterables (por ejemplo, cadenas). Te mostraremos como hacerlo pronto, pero ahora presentaremos una variante más sencilla de su aplicación.
 
-Si un determinado desarrollador de Python sin dormir se queda dormido cuando cuenta 120 ovejas, y el procedimiento de inducción del sueño se puede implementar como una función especial llamada `sleep_and_dream()`, el código toma la siguiente forma:
-
-```
-if sheep_counter >= 120: # #evalúa una expresión condicional
-    sleep_and_dream() #se ejecuta si la expresión condicional es True
-```
-
-El programa anterior lo podemos leer: si `sheep_counter` es mayor o igual que 120, entonces duerme y sueña (es decir, ejecuta la función `sleep_and_dream`).
-
-Hemos dicho que las sentencias condicionales deben tener sangría. Esto crea una estructura muy legible, demostrando claramente todas las rutas de ejecución posibles en el código.
-
-Analiza el siguiente código:
+Echa un vistazo al fragmento:
 
 ```
-if sheep_counter >= 120:
-    make_a_bed()
-    take_a_shower()
-    sleep_and_dream()
-feed_the_sheepdogs()
+for i in range(100):
+    # do_something()
+    pass
 ```
 
-Como puedes ver, *hacer la cama*, *ducharse* y *dormir y soñar* se ejecutan condicionalmente, cuando `sheep_counter` alcanza el límite deseado.
+Existen algunos elementos nuevos. Déjanos contarte sobre ellos:
 
-*Alimentar a los perros*, sin embargo, siempre se hace (es decir, la función `feed_the_sheepdogs()` no tiene sangría y no pertenece al bloque if, lo que significa que siempre se ejecuta).
+* La palabra reservada `for` abre el bucle for. No existe ninguna condición, no tienes que pensar en las condiciones, ya que se verifican internamente, sin ninguna intervención.
+* Cualquier **variable** después de la palabra reservada `for` es la **variable de control del bucle**; cuenta los giros del bucle y lo hace automáticamente.
+* La palabra reservada `in` introduce un elemento de sintaxis que describe el **rango de valores posibles** que se asignan a la variable de control.
+* La función `range()` es responsable de generar todos los valores deseados de la variable de control; en nuestro ejemplo, la función creará  el conjunto : 0, 1, 2 .. 97, 98, 99; La función `range()` comienza su trabajo desde 0 y lo finaliza en un **numero anterior** al indicado como argumento.
+* Nota la palabra clave `pass` dentro del cuerpo del bucle, no hace nada en absoluto; es una instrucción vacía: la colocamos aquí porque la sintaxis del bucle `for` exige al menos una instrucción dentro del cuerpo.
 
-A continuación vamos a discutir otra variante de la sentencia condicional, que también permite realizar una acción adicional cuando no se cumple la condición.
-
-### Ejercicio 3
-
-Ejecuta el siguiente programa y comprueba el resultado con varios datos de entrada:
-
-```
-edad = int(input("Dime tu edad:"))
-if edad >= 18:
-    print("Eres mayor de edad")
-print("Programa terminado")
-```
-
-## La instrucción if-else
-
-### Ejemplo 1
-
-Veamos un ejemplo:
-
-* Comenzamos con una frase simple que decía: **Si el clima es bueno, saldremos a caminar**.
-* No hemos dicho nada sobre lo que sucederá si el clima es malo. Solo sabemos que no saldremos a caminar, pero no sabemos que podríamos hacer. Es posible que también queramos planificar algo en caso de mal tiempo.
-* Podemos decir, por ejemplo: **Si el clima es bueno, saldremos a caminar, de lo contrario, iremos al cine.**
-* Ahora sabemos lo que haremos si se cumplen las condiciones, y sabemos lo que haremos si no todo sale como queremos. En otras palabras, tenemos un "Plan B".
-
-Python nos permite expresar dichos planes alternativos. Esto se hace con una segunda forma, ligeramente mas compleja, de la sentencia condicional, la sentencia `if-else`:
+Veamos otro ejemplo. Echa un vistazo al fragmento de abajo. ¿Puedes predecir su salida?
 
 ```
-if true_or_false_condition:
-    perform_if_condition_true
-else:
-    perform_if_condition_false
+for i in range(10):
+    print("El valor de i es actualmente", i)
 ```
 
-Por lo tanto, hay una nueva palabra clave reservada: **else**.
+* El bucle se ha ejecutado diez veces (es el argumento de la función `range()`).
+* El valor de la última variable de control es 9 (no 10, ya que comienza desde 0, no desde 1).
 
-La parte del código que comienza con `else` dice que hacer si no se cumple la condición especificada por el `if` (observa los dos puntos después de la palabra).
-
-La ejecución de `if-else` es la siguiente:
-
-* Si la condición se evalúa como `True`, la instrucción `perform_if_condition_true` se ejecuta, y la sentencia condicional llega a su fin.
-* Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la sentencia condicional llega a su fin.
-
-### Ejemplo 2
-
-Al utilizar esta forma de sentencia condicional, podemos describir nuestros planes de la siguiente manera:
+La invocación de la función `range()` puede estar equipada con dos argumentos, no solo uno:
 
 ```
-if the_weather_is_good:
-    go_for_a_walk()
-else:
-    go_to_a_theater()
-have_lunch()
+for i in range(2, 8):
+    print("El valor de i es actualmente", i)
 ```
 
-Si el clima es bueno, saldremos a caminar. De lo contrario, iremos al cine. No importa si el clima es bueno o malo, almorzaremos después (después de la caminata o después de ir al cine).
+En este caso:
 
-Todo lo que hemos dicho sobre la sangría funciona de la misma manera dentro de la rama else :
+* El primer argumento determina el valor inicial (primero) de la variable de control.
+* El último argumento muestra el primer valor que no se asignará a la variable de control.
 
-```
-if the_weather_is_good:
-    go_for_a_walk()
-    have_fun()
-else:
-    go_to_a_theater()
-    enjoy_the_movie()
-have_lunch()
-```
+Nota: la función `range()` solo acepta enteros como argumentos y genera secuencias de enteros.
 
-### Ejemplo 3
+¿Puedes adivinar la salida del programa? Ejecútalo para comprobar si ahora también estabas en lo cierto.
 
-Un ejemplo final:
+* El primer valor mostrado es 2 (tomado del primer argumento de `range()`).
+* El último es 7 (aunque el segundo argumento de `range()` es 8).
+
+## Más sobre el bucle for y la función range() con tres argumentos
+
+La función `range()` también puede aceptar tres argumentos. Veamos el siguiente ejemplo:
 
 ```
-edad = int(input("Dime tu edad:"))
-if edad >= 18:
-    print("Eres mayor de edad")
-else:
-    print("Eres menor de edad")
-print("Programa terminado")
+for i in range(2, 8, 3):
+    print("El valor de i es actualmente", i)
 ```
 
-## Instrucciones if-else anidadas
+El tercer argumento es un **incremento**: es un valor agregado para controlar la variable en cada giro del bucle (como puedes sospechar, el valor predeterminado del incremento es 1).
 
-Ahora, analicemos dos casos especiales de la sentencia condicional.
+¿Puedes decirnos cuántas líneas aparecerán en la consola y qué valores contendrán?
 
-Primero, considera el caso donde la instrucción colocada después del if es otro if.
+Ejecuta el programa para averiguar si tenías razón.
 
-El ejemplo podría ser el siguiente: 
-
-Si hay buen clima, saldremos a caminar. Si encontramos un buen restaurante, almorzaremos allí. De lo contrario, vamos a comer un sandwich. Si hay mal clima, iremos al cine. Si no hay boletos, iremos de compras al centro comercial más cercano.
-
-Escribamos lo mismo en Python. Considera cuidadosamente el código siguiente:
+Deberías poder ver las siguientes líneas en la ventana de la consola:
 
 ```
-if the_weather_is_good:
-    go_for_a_walk()
-    if nice_restaurant_is_found:
-        have_lunch()
-    else:
-        eat_a_sandwich()
-else:
-    if tickets_are_available:
-        go_to_the_theater()
-    else:
-        go_shopping()
+El valor de i es actualmente 2
+El valor de i es actualmente 5
 ```
 
-Aquí hay dos puntos importantes:
+¿Sabes por qué?:
 
-* Este uso de la sentencia if se conoce como **anidamiento**; recuerda que cada `else` se refiere al `if` que se encuentra en el mismo nivel de sangría; se necesita saber esto para determinar cómo se relacionan los `if` y los `else`.
-* Considera como la sangría mejora la legibilidad y hace que el código sea más fácil de entender y rastrear.
+* El primer argumento pasado a la función `range()` nos dice cual es el número de inicio de la secuencia (por lo tanto, 2 en la salida). 
+* El segundo argumento le dice a la función dónde detener la secuencia (la función genera números hasta el número indicado por el segundo argumento, pero no lo incluye). 
+* Finalmente, el tercer argumento indica el incremento, que en realidad significa la diferencia entre cada número en la secuencia de números generados por la función.
 
-## La instrucción elif
+En nuestro caso:
 
-El segundo caso especial presenta otra nueva palabra clave de Python: **elif**. Como probablemente sospechas, es una forma más corta de `else-if`.
+1. **2** (número inicial)
+2. **5** (2 incremento por 3 es igual a 5 - el número está dentro del rango de 2 a 8)
+3. **8** (5 incremento por 3 es igual a 8 - el número no está dentro del rango de 2 a 8, porque el parámetro de parada no está incluido en la secuencia de números generados por la función).
 
-`elif` se usa para verificar más de una condición, y para detener cuando se encuentra la primera sentencia verdadera.
-
-Nuestro siguiente ejemplo se parece a la anidación, pero las similitudes son muy leves. Nuevamente, cambiaremos nuestros planes y los expresaremos de la siguiente manera: si hay buen clima, saldremos a caminar, de lo contrario, si obtenemos entradas, iremos al cine, de lo contrario, si hay mesas libres en el restaurante, vamos a almorzar; si todo falla, regresaremos a casa y jugaremos ajedrez.
-
-¿Has notado cuantas veces hemos usado la palabra de lo contrario? Esta es la etapa en la que la palabra clave reservada `elif` desempeña su función.
-
-Escribamos el mismo escenario empleando Python:
+Nota: si el conjunto generado por la función `range()` está vacío, el bucle no ejecutará su cuerpo en absoluto. Al igual que aquí, no habrá salida:
 
 ```
-if the_weather_is_good:
-    go_for_a_walk()
-elif tickets_are_available:
-    go_to_the_theater()
-elif table_is_available:
-    go_for_lunch()
-else:
-    play_chess_at_home()
+for i in range(1, 1):
+    print("El valor de i es actualmente", i)
 ```
 
-La forma de ensamblar las siguientes sentencias `if-elif-else` a veces se denomina **cascada**.
-Observa de nuevo como la sangría mejora la legibilidad del código.
+Nota: Si sólo usamos dos argumentos en la función `range()` (valor inicial y valor final), el conjunto generado por `range()` debe ordenarse en un orden ascendente. No hay forma de forzar el `range()` para crear un conjunto en una forma diferente. Esto significa que el segundo argumento de `range()` debe ser mayor que el primero.
 
-Se debe prestar atención adicional a este caso:
+En este ejemplo, veremos que no hay ninguna salida:
 
-* No debes usar `else` sin un `if` precedente.
-* `else` siempre es la última rama de la cascada, independientemente de si has usado `elif` o no.
-* `else` es una parte opcional de la cascada, y puede omitirse.
-* Si hay una rama `else` en la cascada, solo se ejecuta una de todas las ramas.
-* Si no hay una rama `else`, es posible que no se ejecute ninguna de las opciones disponibles.
+```
+for i in range(3, 1):
+    print("El valor de i es actualmente", i)
+```
 
+Si queremos tener un orden descendente, tenemos que usar el tercer argumento de la función `range()` y utilizar un incremento negativo. Prueba el siguiente código:
 
+```
+for i in range(3, 1, -1):
+    print("El valor de i es actualmente", i)
+```
 
+## Ejemplo: Cálculo de la potencia
+
+Echemos un vistazo a un programa corto cuya tarea es escribir algunas de las primeras potencias de dos:
+
+```
+power = 1
+for expo in range(16):
+    print("2 a la potencia de", expo, "es", power)
+    power *= 2
+```
+
+* La variable `expo` se utiliza como una variable de control para el bucle e indica el valor actual del exponente. 
+* La propia exponenciación se sustituye multiplicando por dos. 
+* Dado que 2<sup>0</sup> es igual a 1, después 2 × 1 es igual a 2<sup>1</sup>, 2 × 2<sup>1</sup> es igual a 2<sup>2</sup>, y así sucesivamente. 

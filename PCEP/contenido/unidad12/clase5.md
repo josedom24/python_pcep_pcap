@@ -1,38 +1,64 @@
-# LABORATORIO - Operaciones con listas: conceptos básicos
+# Resumen
 
-## Tiempo Estimado
+## Resumen
 
-10 - 15 minutos
-
-## Nivel de Dificultad
-
-Fácil
-
-## Objetivos
-
-Familiarizar al estudiante con:
-
-* Indexación de listas.
-* Utilizar operadores `in` y `not in`.
-
-
-## Escenario
-
-Tenemos una lista con números enteros. Algunos de estos números pueden estar repetidos, pero no queremos ninguna repetición Queremos que las repeticiones sean eliminados.
-
-Tu tarea es escribir un programa que elimine todas las repeticiones de números de la lista. El objetivo es tener una lista en la que todos los números aparezcan no más de una vez.
-
-Nota: Asume que la lista original está ya dentro del código, no tienes que introducirla desde el teclado. Por supuesto, puedes mejorar el código y agregar una parte que pueda llevar a cabo una conversación con el usuario y obtener todos los datos.
-
-Sugerencia: Te recomendamos que crees una nueva lista como área de trabajo temporal, no necesitas actualizar la lista actual.
-
-Puedes usar la siguiente plantilla para realizar el programa:
+1. La comprensión de listas te permite crear nuevas listas a partir de las existentes de una manera concisa y elegante. La sintaxis de una comprensión de lista es la siguiente:
 
 ```
-my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
-#
-# Escribe tu código aquí.
-#
-print("La lista con elementos únicos:")
-print(my_list)
+[expression for element in list if conditional]
+```
+
+    El cual es un equivalente del siguiente código:
+    
+    ```
+    for element in list:
+        if conditional:
+            expression
+    ```
+
+    Este es un ejemplo de una comprensión de lista: el código siguiente crea una lista de cinco elementos con los primeros cinco números naturales elevados a la potencia de 3:
+
+    ```
+    cubed = [num ** 3 for num in range(5)]
+    print(cubed)  # outputs: [0, 1, 8, 27, 64]
+    ```
+
+2. Puedes usar listas anidadas en Python para crear matrices (es decir, listas bidimensionales). Por ejemplo:
+Tabla - arreglo bidimensional
+
+```
+#  Una tabla de cuatro columnas y cuatro filas: un arreglo bidimensional (4x4)
+
+table = [[":(", ":)", ":(", ":)"],
+         [":)", ":(", ":)", ":)"],
+         [":(", ":)", ":)", ":("],
+         [":)", ":)", ":)", ":("]]
+
+print(table)
+print(table[0][0])  # outputs: ':('
+print(table[0][3])  # outputs: ':)'
+```
+
+
+3. Puedes anidar tantas listas en las listas como desee y, por lo tanto, crear listas n-dimensionales, por ejemplo, arreglos de tres, cuatro o incluso sesenta y cuatro dimensiones. Por ejemplo:
+Cubo - un arreglo tridimensional
+
+```
+# Cubo - un arreglo tridimensional (3x3x3)
+
+cube = [[[':(', 'x', 'x'],
+         [':)', 'x', 'x'],
+         [':(', 'x', 'x']],
+
+        [[':)', 'x', 'x'],
+         [':(', 'x', 'x'],
+         [':)', 'x', 'x']],
+
+        [[':(', 'x', 'x'],
+         [':)', 'x', 'x'],
+         [':)', 'x', 'x']]]
+
+print(cube)
+print(cube[0][0][0])  # outputs: ':('
+print(cube[2][2][0])  # outputs: ':)'
 ```

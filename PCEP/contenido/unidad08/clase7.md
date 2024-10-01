@@ -1,4 +1,4 @@
-# LABORATORIO - Fundamentos de la sentencia if-elif-else
+# LABORATORIO - La instrucción continue
 
 ## Tiempo Estimado
 
@@ -6,72 +6,102 @@
 
 ## Nivel de Dificultad
 
-Fácil/Medio
+Fácil
 
 ## Objetivos
 
 Familiarizar al estudiante con:
 
-* Utilizar la sentencia `if-elif-else`.
-* Encontrar la implementación adecuada de las reglas definidas verbalmente.
-* Emplear el código de prueba empleando entradas y salidas de muestra.
+* Utilizar la instrucción `continue` en los bucles.
+* Reflejar situaciones de la vida real en un programa de ordenador.
 
 ## Escenario
 
-Como seguramente sabrás, debido a algunas razones astronómicas, una año puede ser bisiesto o común. Los primeros tienen una duración de 366 días, mientras que los últimos tienen una duración de 365 días.
+La sentencia `continue` se usa para omitir el bloque actual y avanzar a la siguiente iteración, sin ejecutar las sentencias dentro del bucle. Se puede usar tanto con `while` y `for`.
 
-Desde la introducción del calendario Gregoriano (en 1582), se utiliza la siguiente regla para determinar el tipo de año:
+Tu tarea aquí es muy especial: ¡Debes diseñar un devorador de vocales! Escribe un programa que use:
 
-* Si el número del año no es divisible entre cuatro, es un año común.
-* De lo contrario, si el número del año no es divisible entre 100, es un año bisiesto.
-* De lo contrario, si el número del año no es divisible entre 400, es un año común.
-* De lo contrario, es un año bisiesto.
+* Un bucle `for`.
+* El concepto de ejecución condicional (`if-elif-else`).
+* La sentencia `continue`.
 
-Observa el código en el editor: solo lee un número de año y debe completarse con las instrucciones que implementan la prueba que acabamos de describir:
+Tu programa debe:
+
+* Pedir al usuario que ingrese una palabra.
+* Utiliza `palabra_usuario = palabra_usuario.upper()` para convertir la palabra ingresada por el usuario a mayúsculas; hablaremos sobre los llamados métodos de cadena y el método `upper()` muy pronto, no te preocupes.
+* Utiliza la ejecución condicional y la instrucción `continue` para "comer" las vocales `A , E , I , O , U` de la palabra ingresada.
+* Imprime las letras no consumidas en la pantalla, cada una de ellas en una línea separada.
+
+Prueba tu programa con los datos que le proporcionamos.
+
+Puedes usar esta plantilla:
 
 ```
-year = int(input("Introduce un año:"))
+# Indicar al usuario que ingrese una palabra
+# y asignarlo a la variable palabra_usuario.
 
-#
-# Escribe tu código aquí.
-#	
+for letra in palabra_usuario:
+    # Completa el cuerpo del bucle for.
 ```
-
-El código debe mostrar uno de los dos mensajes posibles, que son *Año Bisiesto* o *Año Común*, según el valor ingresado.
-
-Sería bueno verificar si el año ingresado cae en la era Gregoriana y emitir una advertencia de lo contrario: No dentro del período del calendario Gregoriano. Consejo: utiliza los operadores `!=` y `%`.
-
-Prueba tu código con los datos que hemos proporcionado.
 
 ## Datos de Prueba
 
-* Entrada de muestra: `2000`
-    * Resultado esperado: `Año Bisiesto`
-* Entrada de muestra: `2015`
-    * Resultado esperado: `Año Común`
-* Entrada de muestra: `1999`
-    * Resultado esperado: `Año Común`
-* Entrada de muestra: `1996`
-    * Resultado esperado: `Año Bisiesto`
-* Entrada de muestra: `1580`
-    * Resultado esperado: `No esta dentro del período del calendario Gregoriano`
+* Entrada de muestra: `Gregory`
+    *Salida esperada:
 
-## Solución
+    ```
+    G
+    R
+    G
+    R
+    Y
+    ```
+
+* Entrada de muestra: `abstemious`
+    * Salida esperada:
+    
+    ```
+    B
+    S
+    T
+    M
+    S
+    ```
+
+* Entrada de muestra: `IOUEA`
+    * Salida esperada:
+
+
+## Mejora
+
+Vamos a mejorar el *Devorados de voacles*. Modifica el programa anterior para que no vaya escribiendo cada letra, sino que las asigne a la variable `palabra_sin_vocales` e imprime la variable en la pantalla.
+
+Utiliza esta plantilla para empezar:
 
 ```
-iyear = int(input("Introduce un año: "))
+palabra_sin_vocales = ""
 
-if year < 1582:
-	print("No esta dentro del período del calendario Gregoriano")
-else:
-	if year % 4 != 0:
-		print("Año Común")
-	elif year % 100 != 0:
-		print("Año Bisiesto")
-	elif year % 400 != 0:
-		print("Año Común")
-	else:
-		print("Año Bisiesto")
+# Indicar al usuario que ingrese una palabra
+# y asignarla a la variable user_word.
 
+
+for letter in user_word:
+   # Completa el cuerpo del bucle.
+
+# Imprimir la palabra asignada a palabra_sin_vocales.
 ```
 
+Hemos creado `palabra_sin_vocales` y le hemos asignado una cadena vacía. Utiliza la operación de concatenación para pedirle a Python que añada las letras seleccionadas a dicha variable durante los siguientes giros de bucle.
+
+Prueba tu programa con los datos que le proporcionamos.
+
+## Datos de Prueba
+
+* Entrada de muestra: `Gregory`
+    * Salida esperada: `GRGRY`
+
+* Entrada de muestra: `abstemious`
+    * Salida esperada: `BSTMS`
+
+* Entrada de muestra: `IOUEA`
+    * Salida esperada: 

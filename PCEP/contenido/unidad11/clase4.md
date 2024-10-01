@@ -1,105 +1,106 @@
-# Introducción a los métodos. Añadir elementos a las listas
+# Programas de ejemplo de uso de listas
 
-## Funciones frente a métodos
+## Ejemplo 1
 
-* Un **método** es un tipo específico de **función**: funciona como una función pero actúa y se utiliza de forma distinta.
-* Las funciones son independiente de los datos. 
-* Los métodos están relacionados con determinados tipos de datos (que llamaremos **clases**) y cuando los usamos cambian el estado de dato con el que esta relacionado.
-* Podemos crear variables (que llamaremos **objetos**) a partir de algunos tipos de datos (que llamaremos **clases**) que además de guardar información, pueden ejecutar determinadas funciones (que llamaremos **métodos**) que actuarán sobre los datos guardados.
-* Profundizaremos en todos estos conceptos cuando estudiemos la **Programación Orientada a Objetos**.
-* De los tipos de datos que hemos estudiado hasta ahora, las cadenas (String) y las listas (List) son clases por lo que pueden ejecutar métodos.
-* En general, una invocación de función típica puede tener este aspecto:
-    ```
-    result = function(arg)
-    ```
-    La función toma un argumento, hace algo y devuelve un resultado.
-* Una invocación de un método típico usualmente se ve así:
-    ```
-    result = data.method(arg)
-    ```
-    El nombre del método está precedido por el nombre de la variable (**objeto**) que posee el método, separado por punto.
-* El método se comportará como una función: puede devolver algún resultado, pero puede hacer algo más: puede cambiar el estado interno de los datos a partir de los cuales se ha invocado.
-* Las listas poseen un conjunto de métodos que pueden cambiar el estado de una lista, por ejemplo para añadir elementos a una lista utilizaremos un método.
-
-## Agregando elementos a una lista: append() e insert()
-
-Un nuevo elemento puede ser añadido al final de la lista existente ejecutando:
+En este ejemplo vamos a realizar un programa que encuentre el valor mayor de una lista.
 
 ```
-list.append(value)
+my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+largest = my_list[0]
+
+for i in range(1, len(my_list)):
+    if my_list[i] > largest:
+        largest = my_list[i]
+print(largest)
 ```
+* En esta primera versión usamos la indexación para recorrer los elementos de la lista.
+* Suponemos que el número más grande, que guardamos en la variable `largest` es el primero.
+* Recorremos desde el segundo elemento hasta el último.
+* Si un elemento es mayor que el que tenemos guardado en la variables `largest` actualizamos el valor de esta variable porque hemos encontrado uno más grande.
+* Al final del recorrido en la variable `largest` tendremos el mayor número.
 
-Dicha operación se realiza mediante un método llamado `append()`. Toma el valor de su argumento y lo coloca al final de la lista que posee el método. La longitud de la lista aumenta en uno.
-
-El método `insert()` es un poco más inteligente: puede agregar un nuevo elemento en cualquier lugar de la lista, no solo al final:
-
-```
-list.insert(location, value)
-```
-
-Toma dos argumentos:
-
-* El primero muestra la ubicación requerida del elemento a insertar. Nota: todos los elementos existentes que ocupan ubicaciones a la derecha del nuevo elemento (incluido el que está en la posición indicada) se desplazan a la derecha, para hacer espacio para el nuevo elemento.
-* El segundo es el elemento a insertar.
-
-Veamos un ejemplo:
+Vamos a realizar ahora la versión 2. Como hicimos en un ejemplo anterior, podríamos hacer el mismo programa usando el recorrido de listas con el bucle for:
 
 ```
-numeros = [111, 7, 2, 1]
-print(len(numeros))
-print(numeros)
+my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
+largest = my_list[0]
 
-###
-
-numeros.append(4)
-
-print(len(numeros))
-print(numeros)
-
-###
-
-numeros.insert(0, 222)
-print(len(numeros))
-print(numeros)
+for i in my_list[1:]:
+    if i > largest:
+        largest = i
+print(largest)
 ```
 
-Agrega el siguiente fragmento después de la última línea de código en el editor:
+* La lógica del programa es similar a la de la versión anterior, pero ahora la variable `i`no es un índice, es el valor de los distintos elementos de la lista en cada iteración del bucle.
+* Observa como usando la rebanada recorremos sólo desde el segundo elemento de la lista.
+
+## Ejemplo 2
+
+Vamos a realizar un programa que encuentre lam posición de un elemento dentro de una lista. 
 
 ```
-numeros.insert(1, 333)
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+to_find = 5
+found = False
+
+for i in range(len(my_list)):
+    found = my_list[i] == to_find
+    if found:
+        break
+
+if found:
+    print("Elemento encontrado en el índice", i)
+else:
+    print("ausente")
 ```
 
-Imprime el contenido de la lista final en la pantalla y ve que sucede. El fragmento de código sobre el fragmento de código inserta 333 en la lista, por lo que es el segundo elemento. El segundo elemento anterior se convierte en el tercero, el tercero en el cuarto, y así sucesivamente.
+* El valor buscado se almacena en la variable `to_find`.
+* El estado actual de la búsqueda se almacena en la variable `found` (`True/False`). 
+* La variable `found` es un indicador que a principio inicializamos a `False` indicando que no se ha encontrado. 
+* Si se encuentra se pone a `True` y se sale del bucle usando el `break`.
 
-## Agregando elementos a una lista vacía
-
-Podemos declarar una lista vacía, sin ningún elemento. Para realiza dicha declaración podemos declarar una lista de la siguiente forma:
-
-```
-my_list = []
-```
-
-Posteriormente le podemos agregar nuevos elementos.
-
-Veamos en ejemplo:
+Si usamos el recorrido de listas con el bucle for, tendremos el siguiente programa:
 
 ```
-my_list = [] # Creando una lista vacía.
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+to_find = 5
+found = False
+indice = 0
+for i in my_list:
+    found = i == to_find
+    if found:
+        break
+    indice+=1
 
-for i in range(5):
-    my_list.append(i + 1)
-
-print(my_list)
+if found:
+    print("Elemento encontrado en el índice", indice)
+else:
+    print("ausente")
 ```
 
-Comprueba que el siguiente código noos devuelve el mismo resultado:
+* En esta versión necesitamos otra variable `indice` que es un contador que me permite contar la posición (el índice).
+* A principios se inicializa a 0, indicando que estamos en el primer elemento.
+* Y cada vez que no encontremos el número buscado la incrementaremos para apuntar que estamos posicionados en el siguiente elemento.
 
+## Ejemplo 3
+
+En este ejemplo, vamos a suponer que has elegido los siguientes números en la lotería: 3, 7, 11, 42, 34, 49. Los números que han salido sorteados son: 5, 11, 9, 42, 3, 49. ¿Cuántos números has acertado?
+
+El programa sería el siguiente:
 
 ```
-my_list = []  # Creando una lista vacía.
+loteria = [5, 11, 9, 42, 3, 49]
+tus_numeros = [3, 7, 11, 42, 34, 49]
+hits = 0
 
-for i in range(5):
-    my_list.insert(0, i + 1)
+for number in tus_numeros:
+    if number in loteria:
+        hits += 1
 
-print(my_list)
+print(hits)
 ```
+
+* La lista `loteria` almacena todos los números que han salido en la lotería.
+* La lista `tus_numeros` almacena los números con que se juega.
+* La variable `hits` cuenta tus aciertos.
+

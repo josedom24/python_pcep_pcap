@@ -1,121 +1,84 @@
-# Operadores bit a bit
+# Operaciones básicas sobre las listas
 
-## Operadores bit a bit
+## Accediendo al contenido de la lista
 
-Sin embargo, hay cuatro operadores que te permiten manipular bits de de forma individual. Se denominan **operadores bit a bit**.
-
-Cubren todas las operaciones que mencionamos anteriormente en el contexto lógico, y un operador adicional. Este es el operador **xor** (significa o exclusivo), y se denota como `^` (signo de intercalación).
-
-Aquí están todos ellos:
-
-* `&` (ampersand): conjunción a nivel de bits.
-* `|` (barra vertical): disyunción a nivel de bits.
-* `~` (tilde): negación a nivel de bits.
-* `^` (signo de intercalación): o exclusivo a nivel de bits (xor).
-
-
-Operaciones bit a bit (`&`, `|`, y `^`)
-
-
-|Argumento A |Argumento B |`A & B` |`A \| B` |`A ^ B` |
--------------|------------|--------|--------|--------|
-|0           |0           |	0      |0       | 0      |
-|0           |1           |	0      |1       | 1      |
-|1           |0           |	0      |1       | 1      |
-|1           |1           |	1      |1       | 0      |
-
-
-Operaciones bit a bit (`~`) 
-
-|Argumento |~ Argumento|
------------|-----------|
-|0 |	1 |
-|1 |	0 |
-
-Hagámoslo más fácil:
-
-* `&`: requieres exactamente dos unos para proporcionar 1 como resultado.
-* `|`: requiere al menos un 1 para proporcionar 1 como resultado.
-* `^`: requiere exactamente un 1 para proporcionar 1 como resultado.
-
-Agreguemos un comentario importante: los argumentos de estos operadores deben ser enteros. No debemos usar flotantes aquí.
-
-La diferencia en el funcionamiento de los operadores lógicos y de bits es importante: los operadores lógicos no operan directamente con los bits de sus argumentos. Solo les interesa el valor entero final.
-
-Los operadores bit a bit son más estrictos: tratan con cada bit por separado. Si asumimos que la variable entera ocupa 64 bits (lo que es común en los sistemas informáticos modernos), puede imaginar la operación a nivel de bits como una evaluación de 64 veces del operador lógico para cada par de bits de los argumentos. Su analogía es obviamente imperfecta, ya que en el mundo real todas estas 64 operaciones se realizan al mismo tiempo (simultáneamente).
-
-
-## Operaciones lógicas frente a operaciones de bit: continuación
-
-Ahora te mostraremos un ejemplo de la diferencia entre las operaciones lógicas y de bit. Supongamos que se han realizado las siguientes asignaciones:
+Como hemos visto anteriormente, la **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
 
 ```
-i = 15
-j = 22
+print(numeros[0]) # Accediendo al primer elemento de la lista.
 ```
 
-Si asumimos que los enteros se almacenan con 32 bits, los valores binarios de las dos variables será la siguiente:
+También podemos imprimir la lista completa utilizando la función `print()`:
 
 ```
-i: 00000000000000000000000000001111
-j: 00000000000000000000000000010110
+print(numeros)  # Imprimiendo la lista completa.
 ```
 
-Se ejecuta la asignación:
+Como probablemente hayas notado antes, Python decora la salida de una manera que sugiere que todos los valores presentados forman una lista. La salida del fragmento de ejemplo anterior se ve así:
 
 ```
-log = i and j
+[111, 1, 7, 2, 1]
 ```
 
-* Estamos realizando una una conjunción lógica.  
-* Ambas variables `i` y `j` no son ceros, por lo que se considerará que representan a `True`. 
-* Al consultar la tabla de verdad para el operador `and`, podemos ver que el resultado será `True`. * * No se realizan otras operaciones.
+Tenemos que tener en cuanta que los índices negativos son válidos, vemos distintos ejemplos:
 
-Por lo tanto el resultado será que la variable `log` es igual a `True`.
+* Un elemento con un índice igual a -1 es el último en la lista: `print(numeros[-1])`
+* Del mismo modo, el elemento con un índice igual a -2 es el penúltimo en la lista: `print(numeros[-2])`.
+* Así sucesivamente.
 
+## La función len()
 
-Ahora estudiemos la operación a nivel de bits:
+La longitud de una lista puede variar durante la ejecución. Se pueden agregar nuevos elementos a la lista, mientras que otros pueden eliminarse de ella. Esto significa que la lista es una **estructura dinámica**.
 
-```
-bit = i & j
-```
+La función `len()` (su nombre proviene de length - longitud) nos devuelve la longitud de la lista, la cantidad de elementos que almacena.
 
-El operador `&` operará con cada par de bits correspondientes por separado, produciendo los valores de los bits relevantes del resultado. Por lo tanto, el resultado será el siguiente:
+La función toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente dentro de la lista (en otras palabras, la longitud de la lista).
 
-```
-i	00000000000000000000000000001111
-j	00000000000000000000000000010110
-bit = i & j	00000000000000000000000000000110
-```
+## Eliminando elementos de una lista
 
-Estos bits corresponden al valor entero de seis.
+Cualquier elemento de la lista puede ser eliminado en cualquier momento, esto se hace con una instrucción llamada `del` (eliminar). Nota: es una instrucción, no una función.
 
-
-Veamos ahora los operadores de negación. Primero el lógico:
+Para su utilización indexamos el elemento que queremos eliminar:
 
 ```
-logneg = not i
+del numeros[1]
 ```
 
-La variable `logneg` se establecerá en `False`: no es necesario hacer nada más.
+La ejecución de esta instrucción hace que **la longitud de la lista se reducirá en uno**.
 
-La negación a nivel de bits es así:
-
-```
-bitneg = ~i
-```
-
-Puede ser un poco sorprendente: el valor de la variable `bitneg` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar el sistema de números binarios y las reglas que rigen los números de complemento de dos.
+En general si intentamos indexar un elemento que no existe nos devolverá un error, en este caso como hemos borrado un elemento, el elemento que está en la posición 4, no existe:
 
 ```
-i	00000000000000000000000000001111
-bitneg = ~i	11111111111111111111111111110000
+print(numeros[4])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list index out of range
+
+numbers[4] = 1
+numeros[4]=1
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: list assignment index out of range
 ```
 
-Cada uno de estos operadores de dos argumentos se puede utilizar en forma abreviada. Estos son los ejemplos de sus notaciones equivalentes:
+## Ejemplo
+
+Veamos un ejemplo de todo lo aprendido hasta ahora:
 
 ```
-x = x & y	x &= y
-x = x | y	x |= y
-x = x ^ y	x ^= y
+numeros = [10, 5, 7, 2, 1]
+print("Contenido de la lista original:", numeros) # Imprimiendo el contenido de la lista original.
+
+numeros[0] = 111
+print("\nContenido de la lista con cambio:", numeros) # Imprimiendo contenido de la lista con 111.
+
+numeros[1] = numeros[4] # Copiando el valor del quinto elemento al segundo elemento.
+print("Contenido de la lista con intercambio:", numeros) # Imprimiendo contenido de la lista con intercambio.
+
+print("\nLongitud de la lista:", len(numeros)) # Imprimiendo la longitud de la lista.
+
+del numeros[1]  # Eliminando el segundo elemento de la lista.
+print("Longitud de la nueva lista:", len(numeros))  # Imprimiendo nueva longitud de la lista.
+print("\nNuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
 ```
+

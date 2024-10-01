@@ -1,71 +1,68 @@
-# Comentarios
+# Entrada de datos
 
-## Poner comentarios en el código: ¿por qué, cuándo y dónde?
+## La función input()
 
-Quizá en algún momento será necesario poner algunas palabras en el código dirigidas no a Python, sino a las personas quienes estén leyendo el código con el fin de explicarles como es que funciona, o tal vez especificar el significado de las variables, también para documentar quien es el autor del programa y en que fecha fue escrito.
+Vamos a introducir una nueva función, que parece opuesta a la función `pint()`. ¿Por qué?
 
-Un texto insertado en el programa el cual es, omitido en la ejecución, es denominado **un comentario**.
+* Como hemos estudiado, `print()` envía datos a la consola.
+* Nuestra nueva función obtiene datos de ella.
 
-¿Cómo se colocan este tipo de comentarios en el código fuente? Tiene que ser hecho de cierta manera para que Python no intente interpretarlo como parte del código.
+La función se llama `input()`, y es capaz de leer datos que fueron introducidos por el usuario y pasar esos datos al programa en ejecución. Por lo tanto, esta función devuelve datos que vamos a utilizar en nuestro programa, consiguiendo que el programa pueda manipular los datos, haciendo que el código sea verdaderamente interactivo.
 
-Cuando Python se encuentra con un comentario en el programa, el comentario es completamente transparente, desde el punto de vista de Python, el comentario es solo un espacio vacío, sin importar que tan largo sea.
-
-En Python, un comentario es un texto que comienza con el símbolo `#` y se extiende hasta el final de la línea.
-
-Si se desea colocar un comentario que abarca varias líneas, se debe colocar este símbolo en cada línea.
-
-Justo como el siguiente código:
+La mayoría de los programas leen y procesan datos. Veamos un ejemplo:
 
 ```
-# Esta programa calcula la hipotenusa (c)
-# a y b son las longitudes de los catetos
-a = 3.0
-b = 4.0
-c = (a ** 2 + b ** 2) ** 0.5  # se utiliza ** en lugar de la raíz cuadrada.
-print("c =", c)
+print("Dime algo...")
+anything = input()
+print("Mmm...", anything, "...¿en serio?")
 ```
 
-Es muy conveniente comentar el código, pero además otra forma de hacer que el código sea entendible es elegir buenos nombres a las variables y a las funciones.
+* El programa **solicita al usuario que inserte algún dato** desde la consola, normalmente el teclado.
+* La función `input()` es invocada sin argumentos (es la manera mas sencilla de utilizar la función); la función **pondrá la consola en modo de entrada**; aparecerá un cursor que parpadea, y podrás introducir datos con el teclado, al terminar presiona la **tecla Enter**; todos los datos introducidos serán **enviados al programa** a través del resultado de la función.
+* El resultado debe ser asignado a una variable; esto es crucial, si no se hace los datos introducidos se perderán.
+* Después se utiliza la función `print()` para mostrar los datos que se obtuvieron, con algunas observaciones adicionales.
 
-Por ejemplo, si una variable determinada esta diseñada para almacenar el área de un cuadrado, el nombre `area_cuadrado` será muchísimo mejor que `tia_juana`.
+## La función input() con un argumento
 
-Los comentarios pueden ser útiles en otro aspecto, se pueden utilizar para marcar un fragmento de código que actualmente no se necesita. Observa el siguiente ejemplo, sí se descomenta la línea resaltada, esto afectara la salida o resultado del código:
+La función `input()` puede hacer algo más: puede mostrar un mensaje al usuario sin la ayuda de la función `print()`.
 
-```
-# Este es un programa de prueba.
-x = 1
-y = 2
-# y = y + x
-print(x + y)
-```
-
-Esto es frecuentemente realizado cuando se esta probando un programa, con el fin de aislar un fragmento de código donde posiblemente se encuentra un error.
-
-## Cuestionario
-
-1. ¿Cuál es el resultado del siguiente fragmento?
+Se ha modificado el ejemplo un poco, observa el código:
 
 ```
-# print("Cadena #1")
-print("Cadena #2") 
+anything = input("Dime algo...")
+print("Mmm...", anything, "...¿En serio?")
 ```
 
-2. ¿Qué pasará cuando se ejecute el siguiente código?
+* La función `input()` se llama con un argumento, que es una cadena con un mensaje.
+* El mensaje será mostrado en consola antes de que el usuario tenga oportunidad de escribir algo.
+* Después de esto `input()` hará su trabajo.
+
+Esta variante de la invocación de la función `input()` simplifica el código y lo hace más claro.
+
+## El resultado de la función input()
+
+El resultado de la función `input()` **es una cadena**.
+
+Una cadena que contiene todos los caracteres que el usuario introduce desde el teclado. No es un entero ni un flotante.
+
+Esto significa que **no se debe utilizar como un argumento para operaciones matemáticas**, por ejemplo, no se pueden utilizar estos datos para elevarlos al cuadrado, para dividirlos entre algo o por algo.
 
 ```
- #Este es
-un comentario
-multilínea.#
- 
-print("¡Hola!") 
+anything = input("Inserta un número: ")
+something = anything ** 2.0
+print(anything, "al cuadrado es", something)
 ```
 
-## Solución cuestionario
+## Entrada errónea de datos
 
-1. Pregunta 1:
+Si ejecutamos el programa anterior, insertaremos un número y, ¿qué es lo que ocurre?. Python debió haberte dado la siguiente salida:
 
-`Cadena #2`
+```
+Traceback (most recent call last):
+File ".main.py", line 4, in <module>
+something = anything ** 2.0
+TypeError: unsupported operand type(s) for ** or pow(): 'str' and 'float'
+```
 
-2. Pregunta 2:
+La última línea lo explica todo, se intentó aplicar el operador `**` a `str` (una cadena) y a un `float` (valor flotante). Esto está prohibido. 
 
-`SyntaxError: invalid syntax`

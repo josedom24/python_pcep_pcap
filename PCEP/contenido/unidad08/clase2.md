@@ -1,44 +1,48 @@
-# LABORATORIO - Preguntas y Respuestas
+# LABORATORIO - Adivina el número secreto
 
 ## Tiempo Estimado
 
-5 minutos
+15 minutos
 
 ## Nivel de Dificultad
 
-Muy fácil
+Fácil
 
 ## Objetivos
- 
-* Familiarizarse con la función `input()`.
-* Familiarizarse con los operadores de comparación en Python.
 
+Familiarizar al estudiante con:
+
+* Utilizar el bucle `while`.
+* Reflejar situaciones de la vida real en un programa de ordenador.
 
 ## Escenario
 
-Usando uno de los operadores de comparación en Python, escribe un programa simple de dos líneas que tome el parámetro `n` como entrada, que es un entero, e imprime `False` si `n` es menor que 100, y `True` si `n` es mayor o igual que 100.
+Un mago junior ha elegido un número secreto. Lo ha escondido en una variable llamada `numero_secreto`. Quiere que todos los que ejecutan su programa jueguen el juego **Adivina el número secreto**, y adivina qué número ha elegido para ellos. ¡Quiénes no adivinen el número quedarán atrapados en un bucle sin fin para siempre! Desafortunadamente, él no sabe cómo completar el código.
 
-No debes crear ningún bloque `if` (hablaremos de ellos muy pronto). Prueba tu código usando los datos que te proporcionamos.
+```
+numero_secreto = 777
 
-## Datos de Prueba
+print(
+"""
++==================================+
+| ¡Bienvenido a mi juego, muggle!  |
+| Introduce un número entero       |
+| y adivina qué número he          |
+| elegido para ti.                 |
+| Entonces,                        |
+| ¿Cuál es el número secreto?      |
++==================================+
+""")
 
-Ejemplo de entrada: `55`
-Resultado esperado: `False`
+```
 
-Ejemplo de entrada: `99`
-Resultado esperado: `False`
+Tu tarea es ayudar al mago a completar el código en el editor de tal manera que el código:
 
-Ejemplo de entrada: `100`
-Resultado esperado: `True`
+* Pedirá al usuario que ingrese un número entero.
+* Utilizará un bucle `while`.
+* Comprobará si el número ingresado por el usuario es el mismo que el número escogido por el mago. Si el número elegido por el usuario es diferente al número secreto del mago, el usuario debería ver el mensaje `"¡Ja, ja! ¡Estás atrapado en mi bucle!"` y se le solicitará que ingrese un número nuevamente. Si el número ingresado por el usuario coincide con el número escogido por el mago, el número debe imprimirse en la pantalla, y el mago debe decir las siguientes palabras: `"¡Bien hecho, muggle! Eres libre ahora"`.
 
-Ejemplo de entrada: `101`
-Resultado esperado: `True`
+Información adicional: Observa la función `print()`. La forma en que lo hemos utilizado aquí se llama impresión multilínea. Puede utilizar **comillas triples** para imprimir cadenas en varias líneas para facilitar la lectura del texto o crear un diseño especial basado en texto. Experimenta con ello.
 
-Ejemplo de entrada: `-5`
-Resultado esperado: `False`
-
-Ejemplo de entrada: `+123`
-Resultado esperado: `True`
-
-
+    
 

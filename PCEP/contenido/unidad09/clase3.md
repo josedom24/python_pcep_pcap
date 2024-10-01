@@ -1,134 +1,200 @@
-# Bucle for
+# Uso de los operadores bit a bit
 
-## Estructura repetitiva for
+## ¿Cómo tratamos los bits individuales?
 
-Otro tipo de bucle disponible en Python nos permite indicar la cantidad de iteraciones que va a dar nuestro bucle, en vez de verificar las condiciones.
-
-Imagina que el cuerpo de un bucle debe ejecutarse exactamente cien veces. Si deseas utilizar el bucle `while` para hacerlo, puede tener este aspecto:
+Ahora te mostraremos para que puedes usar los operadores de bit a bit. Imagina que eres un desarrollador obligado a escribir una arte importante de un sistema operativo. Se te ha dicho que puedes usar una variable asignada de la siguiente forma:
 
 ```
-i = 0
-while i < 100:
-    # do_something()
-    i += 1
+flag_register = 0x1234
 ```
 
-Pero en este caso, que **sabemos de antemano cuantas vueltas tiene que dar el bucle** podemos usar la instrucción `for`.
-En realidad, el bucle `for` está diseñado para realizar tareas más complicadas: puede recorrer tipos de datos complejos como las secuencias (por ejemplo, una lista, un diccionario, una tupla o un conjunto; pronto aprenderás sobre ellos) u otros objetos que son iterables (por ejemplo, cadenas). Te mostraremos como hacerlo pronto, pero ahora presentaremos una variante más sencilla de su aplicación.
-
-Echa un vistazo al fragmento:
+La variable almacena la información sobre varios aspectos de la configuración del sistema. Cada bit de la variable almacena un valor de **si/no**. También se te ha dicho que solo uno de estos bits es tuyo, el tercero (recuerda que los bits se numeran desde cero y el número de bits cero es el más bajo, mientras que el más alto es el número 31). Los bits restantes no pueden cambiar, porque están destinados a almacenar otros datos. Aquí está tu bit marcado con la letra x:
 
 ```
-for i in range(100):
-    # do_something()
-    pass
+flag_register = 0000000000000000000000000000x000
 ```
 
-Existen algunos elementos nuevos. Déjanos contarte sobre ellos:
+Es posible que tengas que hacer frente a las siguientes tareas:
 
-* La palabra reservada `for` abre el bucle for. No existe ninguna condición, no tienes que pensar en las condiciones, ya que se verifican internamente, sin ninguna intervención.
-* Cualquier **variable** después de la palabra reservada `for` es la **variable de control del bucle**; cuenta los giros del bucle y lo hace automáticamente.
-* La palabra reservada `in` introduce un elemento de sintaxis que describe el **rango de valores posibles** que se asignan a la variable de control.
-* La función `range()` es responsable de generar todos los valores deseados de la variable de control; en nuestro ejemplo, la función creará  el conjunto : 0, 1, 2 .. 97, 98, 99; La función `range()` comienza su trabajo desde 0 y lo finaliza en un **numero anterior** al indicado como argumento.
-* Nota la palabra clave `pass` dentro del cuerpo del bucle, no hace nada en absoluto; es una instrucción vacía: la colocamos aquí porque la sintaxis del bucle `for` exige al menos una instrucción dentro del cuerpo.
+1. **Comprobar el estado de tu bit**: deseas averiguar el valor de tu bit; comparar la variable completa con cero no hará nada, porque los bits restantes pueden tener valores completamente impredecibles, pero puedes usar la siguiente propiedad de conjunción:
 
-Veamos otro ejemplo. Echa un vistazo al fragmento de abajo. ¿Puedes predecir su salida?
+    ```
+    x & 1 = x
+    x & 0 = 0
+    ```
 
-```
-for i in range(10):
-    print("El valor de i es actualmente", i)
-```
+    Si aplicas la operación `&` a la variable `flagRegister` junto con la siguiente secuencia de bits:
 
-* El bucle se ha ejecutado diez veces (es el argumento de la función `range()`).
-* El valor de la última variable de control es 9 (no 10, ya que comienza desde 0, no desde 1).
+    ```
+    00000000000000000000000000001000
+    ```
 
-La invocación de la función `range()` puede estar equipada con dos argumentos, no solo uno:
+    Hemos colocado un bit 1 en la posición de tu bit, como resultado, obtendrás una de las siguientes cadenas de bits:
 
-```
-for i in range(2, 8):
-    print("El valor de i es actualmente", i)
-```
+    * `00000000000000000000000000001000` si tu bit se estableció en 1
+    * `00000000000000000000000000000000` si tu bit es 0
 
-En este caso:
+    Dicha secuencia de ceros y unos, cuya tarea es tomar el valor o cambiar los bits seleccionados, se denomina **máscara de bits**.
 
-* El primer argumento determina el valor inicial (primero) de la variable de control.
-* El último argumento muestra el primer valor que no se asignará a la variable de control.
+    Construyamos una máscara de bits para detectar el estado de tus bits. Debería apuntar a el tercer bit. Ese bit tiene el peso de 2<pre>3</pre>=8. Se podría crear una máscara adecuada mediante la siguiente asignación:
 
-Nota: la función `range()` solo acepta enteros como argumentos y genera secuencias de enteros.
+    ```
+    the_mask = 8
+    ```
 
-¿Puedes adivinar la salida del programa? Ejecútalo para comprobar si ahora también estabas en lo cierto.
+    Podemos tener el siguiente código para comprobar si tu bit es un 1 o un 0:
 
-* El primer valor mostrado es 2 (tomado del primer argumento de `range()`).
-* El último es 7 (aunque el segundo argumento de `range()` es 8).
+    ```
+    if flag_register & the_mask:
+        # Mi bit se estableció en 1.
+    else:
+        # Mi bit se restableció a 0.
+    ```
 
-## Más sobre el bucle for y la función range() con tres argumentos
+2. **Reinicia tu bit**: asigna un cero al bit, mientras que todos los otros bits deben permanecer sin cambios; usemos la misma propiedad de la conjunción que antes, pero usemos una máscara ligeramente diferente, exactamente como se muestra a continuación:
 
-La función `range()` también puede aceptar tres argumentos. Veamos el siguiente ejemplo:
+    ```
+    11111111111111111111111111110111
+    ```
 
-```
-for i in range(2, 8, 3):
-    print("El valor de i es actualmente", i)
-```
+    Tenga en cuenta que la máscara se creó como resultado de la negación de todos los bits de la variable `the_mask`. Restablecer el bit es simple (una de las dos siguientes instrucciones):
 
-El tercer argumento es un **incremento**: es un valor agregado para controlar la variable en cada giro del bucle (como puedes sospechar, el valor predeterminado del incremento es 1).
+    ```
+    flag_register = flag_register & ~the_mask
+    flag_register &= ~the_mask
+    ```
 
-¿Puedes decirnos cuántas líneas aparecerán en la consola y qué valores contendrán?
 
-Ejecuta el programa para averiguar si tenías razón.
+3. **Establece tu bit**: asigna un 1 a tu bit, mientras que todos los bits restantes deben permanecer sin cambios; usa la siguiente propiedad de disyunción:
 
-Deberías poder ver las siguientes líneas en la ventana de la consola:
+    ```
+    x | 1 = 1
+    x | 0 = x
+    ```
 
-```
-El valor de i es actualmente 2
-El valor de i es actualmente 5
-```
+    Ya estás listo para configurar su bit con una de las siguientes instrucciones:
 
-¿Sabes por qué?:
+    ```
+    flag_register = flag_register | the_mask
+    flag_register |= the_mask
+    ```
 
-* El primer argumento pasado a la función `range()` nos dice cual es el número de inicio de la secuencia (por lo tanto, 2 en la salida). 
-* El segundo argumento le dice a la función dónde detener la secuencia (la función genera números hasta el número indicado por el segundo argumento, pero no lo incluye). 
-* Finalmente, el tercer argumento indica el incremento, que en realidad significa la diferencia entre cada número en la secuencia de números generados por la función.
+4. **Niega tu bit**: reemplaza un 1 con un 0 y un 0 con un 1. Puedes utilizar una propiedad interesante del operador `xor`:
 
-En nuestro caso:
+    ```
+    x ^ 1 = ~x
+    x ^ 0 = x
+    ```
 
-1. **2** (número inicial)
-2. **5** (2 incremento por 3 es igual a 5 - el número está dentro del rango de 2 a 8)
-3. **8** (5 incremento por 3 es igual a 8 - el número no está dentro del rango de 2 a 8, porque el parámetro de parada no está incluido en la secuencia de números generados por la función).
+    Niega tu bit con las siguientes instrucciones:
 
-Nota: si el conjunto generado por la función `range()` está vacío, el bucle no ejecutará su cuerpo en absoluto. Al igual que aquí, no habrá salida:
+    ```
+    flag_register = flag_register ^ the_mask
+    flag_register ^= the_mask
+    ```
 
-```
-for i in range(1, 1):
-    print("El valor de i es actualmente", i)
-```
+## Desplazamiento izquierdo binario y desplazamiento derecho binario
 
-Nota: Si sólo usamos dos argumentos en la función `range()` (valor inicial y valor final), el conjunto generado por `range()` debe ordenarse en un orden ascendente. No hay forma de forzar el `range()` para crear un conjunto en una forma diferente. Esto significa que el segundo argumento de `range()` debe ser mayor que el primero.
+Python ofrece otra operación relacionada con los bits individuales: **shifting (desplazamiento)**. Esto se aplica solo a los valores de número entero, y no debe usar flotantes como argumentos para ello.
 
-En este ejemplo, veremos que no hay ninguna salida:
-
-```
-for i in range(3, 1):
-    print("El valor de i es actualmente", i)
-```
-
-Si queremos tener un orden descendente, tenemos que usar el tercer argumento de la función `range()` y utilizar un incremento negativo. Prueba el siguiente código:
+Ya aplicas esta operación muy a menudo y muy inconscientemente. ¿Cómo multiplicas cualquier número por diez? Echa un vistazo:
 
 ```
-for i in range(3, 1, -1):
-    print("El valor de i es actualmente", i)
+12345 × 10 = 123450
 ```
 
-## Ejemplo: Cálculo de la potencia
+Como puede ver, multiplicar por diez es de hecho un desplazamiento de todos los dígitos a la izquierda y llenar el vacío resultante con cero.
 
-Echemos un vistazo a un programa corto cuya tarea es escribir algunas de las primeras potencias de dos:
+¿División entre diez? Echa un vistazo:
 
 ```
-power = 1
-for expo in range(16):
-    print("2 a la potencia de", expo, "es", power)
-    power *= 2
+12340 ÷ 10 = 1234
 ```
 
-* La variable `expo` se utiliza como una variable de control para el bucle e indica el valor actual del exponente. 
-* La propia exponenciación se sustituye multiplicando por dos. 
-* Dado que 2<sup>0</sup> es igual a 1, después 2 × 1 es igual a 2<sup>1</sup>, 2 × 2<sup>1</sup> es igual a 2<sup>2</sup>, y así sucesivamente. 
+Dividir entre diez no es más que desplazar los dígitos a la derecha.
+
+El ordenador realiza el mismo tipo de operación, pero con una diferencia: como dos es la base para los números binarios (no 10):
+
+* **desplazar un valor un bit a la izquierda** corresponde a **multiplicarlo por dos**. 
+* **desplazar un bit a la derecha** es como **dividir entre dos**.
+
+Los operadores de cambio en Python son un par de dígrafos: `<<` y `>>`, sugiriendo claramente en qué dirección actuará el cambio.
+
+```
+value << bits
+value >> bits
+```
+
+* El argumento izquierdo de estos operadores es un valor entero cuyos bits se desplazan. 
+* Esto demuestra que esta operación ciertamente no es conmutativa-
+* La prioridad de estos operadores es muy alta. 
+
+Veamos un ejemplo:
+
+```
+var = 17
+var_right = var >> 1
+var_left = var << 2
+print(var, var_left, var_right)
+```
+
+La invocación final de `print()` produce el siguiente resultado: `17 68 8`.
+* `17 >> 1 → 17 // 2` (17 dividido entre 2 a la potencia de 1 = 8): desplazarse hacia la derecha en un bit equivale a la división entera entre dos.
+* `17 << 2 → 17 * 4` (17 multiplicado por 2 a la potencia de 2 = 68): desplazarse hacia la izquierda dos bits es lo mismo que multiplicar números enteros por cuatro.
+
+
+Veamos la tabla de prioridades actualizada , que contiene todos los operadores presentados hasta ahora:
+
+
+1. `+`,`-` (unarios)
+2. `**`
+3. `*`,`/`,`//`,`%`
+4. `+`,`-` (binarios)
+5. `<<`, `>>`
+6. `<`, `<=`, `>`, `>=` 	
+7. `==`, `!=`
+8. `&` 	
+9. `|` 	
+10. `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `^=`, `|=`, `>>=`, `<<=`
+
+## Cuestionario
+
+1. ¿Cuál es el resultado del siguiente fragmento de código?
+
+```
+x = 1
+y = 0
+ 
+z = ((x == y) and (x == y)) or not(x == y)
+print(not(z)) 
+```
+
+2. ¿Cuál es el resultado del siguiente fragmento de código?
+
+``` 
+x = 4
+y = 1
+ 
+a = x & y
+b = x | y
+c = ~x  # ¡difícil!
+d = x ^ 5
+e = x >> 2
+f = x << 2
+ 
+print(a, b, c, d, e, f) 
+```
+
+## Solución cuestionario
+
+1. Pregunta 1:
+
+```
+False
+```
+
+2. Pregunta 2:
+
+```
+0 5 -5 1 1 16
+```

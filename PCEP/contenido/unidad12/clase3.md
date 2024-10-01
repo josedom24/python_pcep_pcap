@@ -1,139 +1,145 @@
-# Operadores de pertenencia
+# Ejemplo con arreglo de dos dimensiones
 
-## Los operadores in y not in
+## Ejemplo estación meteorológica
 
-Python ofrece dos operadores muy poderosos, capaces de comprobar si un elemento pertenece a una lista.
+Imagina que desarrollas un programa para una estación meteorológica automática. El dispositivo registra la temperatura del aire cada hora y lo hace durante todo el mes. Esto te da un total de 24 × 31 = 744 valores. Intentemos diseñar una lista capaz de almacenar todos estos resultados. 
 
-Estos operadores son:
+1. Decidimos que para guardar la temperatura vamos a usar un número flotante.
+2. Vamos a usar un arreglo bidimensional para guardar la información.
+3. Decidimos que en cada fila guardaremos las temperaturas de cada hora, es decir tendrá 24 elementos.
+4. El arreglo tendrá 31 filas, ya que cada fila se asignará a un día del mes, es decir el areglo tendrá una dimensión de 24 x 31.
 
-```
-elem in my_list
-elem not in my_list
-```
-
-* El primero de ellos (**in**) verifica si un elemento dado (el argumento izquierdo) está actualmente almacenado en algún lugar dentro de la lista (el argumento derecho), devuelve `True` en este caso.
-* El segundo (**not in**) comprueba si un elemento dado (el argumento izquierdo) está ausente en una lista, devuelve `True` en este caso.
-
-Veamos un ejemplo:
+Si queremos crear el arreglo y lo inicializamos a 0, sería de la siguiente manera:
 
 ```
-my_list = [0, 3, 12, 8, 2]
-
-print(5 in my_list)
-print(5 not in my_list)
-print(12 in my_list)
+temperaturas = [[0.0 for h in range(24)] for d in range(31)]
 ```
 
-En el siguiente ejemplo, pedimos al usuario que introduzca un número y nos informa si el número está dentro de la lista:
+Vamos suponer que la matriz se actualiza automáticamente utilizando agentes de hardware especiales. Nosotros vamos a simular ese comportamiento actualizando la matriz con temperaturas aleatorias (no es muy real pero nos vale!!!).
 
 ```
-my_list = [0, 3, 12, 8, 2]
-numero = int(input("Introduce un número:"))
-if numero in my_list:
-    print ("El número está dentro de la lista")
-else:
-    print ("El número no está dentro de la lista")
+import random
+
+num_filas = 31
+num_columnas = 24
+temperaturas = [[0.0 for h in range(24)] for d in range(31)]
+
+# Actualizamos las temperaturas, con valores aleatorios.
+
+for dia in range(num_filas):
+    for hora in range(num_columnas):
+        temperaturas[dia][hora] = round(random.uniform(0, 40), 1)
+print(temperaturas)
 ```
 
-## Cuestionario
+## Ejercicio 1: Calcular la temperatura media mensual del mediodía
 
-1. ¿Cuál es la salida del siguiente fragmento de código?
+Creamos un programa para determinar la temperatura promedio mensual del mediodía. Suma las 31 lecturas registradas al mediodía y divida la suma por 31. 
 
-```
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
-
-del list_1[0]
-del list_2[0]
-
-print(list_3)
-```
-
-2. ¿Cuál es la salida del siguiente fragmento de código?
+El programa sería el siguiente:
 
 ```
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
+import random
 
-del list_1[0]
-del list_2
+num_filas = 31
+num_columnas = 24
+temperaturas = [[0.0 for h in range(24)] for d in range(31)]
 
-print(list_3)
+# Actualizamos las temperaturas, con valores aleatorios.
+
+for dia in range(num_filas):
+    for hora in range(num_columnas):
+        temperaturas[dia][hora] = round(random.uniform(0, 40), 1)
+
+# Calculamos la temperatura media del mes al mediodía
+
+total = 0.0
+
+for temp_en_dia in temperaturas:
+    total += temp_en_dia[11]
+
+media = total / 31
+
+print("Temperatura promedio al mediodía:", media)
 ```
 
-3. ¿Cuál es la salida del siguiente fragmento de código?
+* La variable `temp_en_dia` utilizada por el bucle `for` no es un escalar: cada paso a través de la matriz `temperaturas` lo asigna a la siguiente fila de la matriz.
+* La temperatura al mediodía está guardada en la posición 11 de la fila (`temp_en_dia`) donde se guardan las temperaturas de cada hora.
+* La variable `total` es una cumulador que nos permitirá ir sumando las temperaturas.
+
+## Ejercicio 2: Calcular la temperatura más alta del mes
+
+Vamos a escribir un programa que calcule la temperatura más alta. Veamos el código:
 
 ```
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
+import random
 
-del list_1[0]
-del list_2[:]
+num_filas = 31
+num_columnas = 24
+temperaturas = [[0.0 for h in range(24)] for d in range(31)]
 
-print(list_3)
+# Actualizamos las temperaturas, con valores aleatorios.
+
+for dia in range(num_filas):
+    for hora in range(num_columnas):
+        temperaturas[dia][hora] = round(random.uniform(0, 40), 1)
+
+# Calculamos la temperatura más alta
+temp_mas_alta = -100.0
+
+for temp_en_dia in temperaturas:
+    for temp in temp_en_dia:
+        if temp > temp_mas_alta:
+            temp_mas_alta = temp
+
+print("La temperatura más alta fue:", temp_mas_alta)
 ```
 
-4. ¿Cuál es la salida del siguiente fragmento de código?
+* La variable `temp_en_dia` itera en todas las filas de la matriz `temperaturas`.
+* La variable `temp` itera a través de todas las mediciones tomadas en un día.
+* La variable `temp_mas_alta` nos permite guardar las temperaturas que vamos recorriendo más altas. Lo inicializamos a un número muy pequeño.
+
+## Ejercicio 3: Calcular los días en que las temperatura al mediodía fue menor que 20 ºC
+
+vcamos a realizar un programa que calcule la cantidad de días en que las temperatura al mediodía fue menor que 20 ºC. Veamos el código:
 
 ```
-list_1 = ["A", "B", "C"]
-list_2 = list_1[:]
-list_3 = list_2[:]
+import random
 
-del list_1[0]
-del list_2[0]
+num_filas = 31
+num_columnas = 24
+temperaturas = [[0.0 for h in range(24)] for d in range(31)]
 
-print(list_3)
+# Actualizamos las temperaturas, con valores aleatorios.
+
+for dia in range(num_filas):
+    for hora in range(num_columnas):
+        temperaturas[dia][hora] = round(random.uniform(0, 40), 1)
+
+# Calculamos la cantidad de días en que las temperatura al mediodía fue menor que 20 ºC.
+
+
+dias_calurosos = 0
+
+temp_mas_alta = -100.0
+
+for temp_en_dia in temperaturas:
+    if temp_en_dia[11]>20:
+        dias_calurosos += 1
+        
+print(dias_calurosos, "fueron los días calurosos.")
 ```
 
-5. Inserta `in` o `not in` en lugar de `???` para que el código genere el resultado esperado.
+* En este programa usamos la variable `dias_calurosos` como contador para que nos cuente la cantidad de días que cumplen la condición.
 
-```
-my_list = [1, 2, "in", True, "ABC"]
+## Introducción a los arreglos multidimensionales
 
-print(1 ??? my_list)  # salida True
-print("A" ??? my_list)  # salida True
-print(3 ??? my_list)  # salida True
-print(False ??? my_list)  # salida False
-```
+¿Cómo cambiaría nuestra estructura donde guardamos las temperaturas, si quisiéramos guardar las temperaturas de cada mes del año?
 
-## Solución cuestionario
+En ese caso, necesitaríamos un arreglo de 3 dimensiones: una para guardar las temperaturas cada hora, otra para guardar los días y otra para guardar los meses.
 
-1. Pregunta 1:
+Gráficamente sería un cubo (3 dimensiones) donde el arreglo bidimensional que hemos utilizado se repetiría 12 veces.
 
-```
-['C']
-```
+¿Y si además, quisiéramos guardar la información de cada año?
 
-2. Pregunta 2:
-
-```
-['B', 'C']
-```
-
-3. Pregunta 3:
-
-```
-[ ]
-```
-
-4. Pregunta 4:
-
-```
-['A', 'B', 'C']
-```
-
-
-5. Pregunta 5:
-
-```
-my_list = [1, 2, "in", True, "ABC"]
-
-print(1 in my_list)  # salida True
-print("A" not in my_list)  # salida True
-print(3 not in my_list)  # salida True
-print(False in my_list)  # salida False
-```
+En el próximo apartado estudiaremos los arreglos multidimensionales.

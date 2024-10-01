@@ -1,54 +1,44 @@
-# Conversión de datos (casting)
+# LABORATORIO - Preguntas y Respuestas
+
+## Tiempo Estimado
+
+5 minutos
+
+## Nivel de Dificultad
+
+Muy fácil
+
+## Objetivos
+ 
+* Familiarizarse con la función `input()`.
+* Familiarizarse con los operadores de comparación en Python.
 
 
-Python ofrece dos funciones para convertir a un tipo de dato y resolver este problema, aquí están: `int()` y `float()`.
+## Escenario
 
-Sus nombres indican cual es su función:
+Usando uno de los operadores de comparación en Python, escribe un programa simple de dos líneas que tome el parámetro `n` como entrada, que es un entero, e imprime `False` si `n` es menor que 100, y `True` si `n` es mayor o igual que 100.
 
-* La función `int()` toma un argumento (por ejemplo, una cadena: *int(string)*) e intenta convertirlo a un valor entero; si llegase a fallar, el programa entero fallará también (existe una manera de solucionar esto, se explicará mas adelante).
-* La función `float()` toma un argumento (por ejemplo, una cadena: *float(string)*) e intenta convertirlo a flotante.
+No debes crear ningún bloque `if` (hablaremos de ellos muy pronto). Prueba tu código usando los datos que te proporcionamos.
 
-Esto es muy simple y muy efectivo. Sin embargo, estas funciones se pueden invocar directamente pasando el resultado de la función `input()` directamente. No hay necesidad de emplear variables como almacenamiento intermedio.
+## Datos de Prueba
 
-Veamos un ejemplo:
+Ejemplo de entrada: `55`
+Resultado esperado: `False`
 
-```
-anything = float(input("Inserta un número: "))
-something = anything ** 2.0
-print(anything, "al cuadrado es", something)
-```
+Ejemplo de entrada: `99`
+Resultado esperado: `False`
 
-* En este caso el valor leído por la función `input()` (una cadena), se convierte a un valor numérico flotante con la función `float()`
-* En la variable `something` se guarda un número y es de tipo `float`. 
-* Ahora se puede hacer la operación matemática sin problemas. 
-* Y finalmente se muestra el resultado con la función `print()`.
+Ejemplo de entrada: `100`
+Resultado esperado: `True`
 
-## Posibilidades que nos ofrece la conversión de tipos
+Ejemplo de entrada: `101`
+Resultado esperado: `True`
 
-Trabajar con la funciones `input()`, `int()` y `float()` se nos abre muchas nuevas posibilidades. 
+Ejemplo de entrada: `-5`
+Resultado esperado: `False`
 
-Podremos escribir programas que lean de la consola, tanto cadenas de texto como números, que podremos procesar y operar.
+Ejemplo de entrada: `+123`
+Resultado esperado: `True`
 
-En este momento, los programas que podemos escribir serán muy básicos ya que no podrán tomar decisiones, y consecuentemente no son capaces de reaccionar acorde a cada situación.
 
-Veamos otros ejemplo. El siguiente ejemplo hace referencia al programa anterior que calcula la longitud de la hipotenusa. Vamos a reescribirlo, para que pueda leer las longitudes de los catetos desde la consola:
 
-```
-leg_a = float(input("Inserta la longitud del primer cateto: "))
-leg_b = float(input("Inserta la longitud del segundo cateto: "))
-hypo = (leg_a**2 + leg_b**2) ** .5
-print("La longitud de la hipotenusa es:", hypo)
-```
-
-* El programa pide que el usuario introduzca dos números flotantes, correspondientes a la longitud de los catetos.
-* Y calcula la hipotenusa e imprime el resultado.
-
-Veamos a una segunda versión de este programa. Observa, que la variable `hypo` se usa con un solo propósito: guardar el valor calculado para posteriormente imprimirlo en pantalla.
-
-Debido a que la función `print()` acepta uel paso de varios argumentos, se puede **quitar la variable del código**:
-
-```
-leg_a = float(input("Inserta la longitud del primer cateto: "))
-leg_b = float(input("Inserta la longitud del segundo cateto: "))
-print("La longitud de la hipotenusa es: ", (leg_a**2 + leg_b**2) ** .5)
-```

@@ -1,71 +1,76 @@
-# Ejemplo de recorrido de listas
+# Ordenación de una lista por el algoritmo burbuja
 
-## Intercambio de variables
+## Ordenamiento de burbuja
 
-El problema que vamos a resolver es el siguiente: ¿Cómo se pueden intercambiar los valores de dos variables?
+Hemos aprendido a acceder y modificar los elementos de una lista. En este apartado vamos a aprender a ordenar las listas. Existen muchos algoritmos de ordenación, unos más simples y otros más complejos. En este apartado vamos a mostrar un algoritmo simple y fácil de entender para ordenar listas, sin embargo hay que indicar que no es muy eficiente para listas con muchos elementos.
 
-Echa un vistazo al fragmento:
+Una lista se puede ordenar de dos maneras:
 
-```
-variable_1 = 1
-variable_2 = 2
+* **Ascendente**: si en cada par de elementos adyacentes, el primer elemento no es mayor que el segundo.
+* **Descendente**: si en cada par de elementos adyacentes, el primer elemento no es menor que el segundo.
 
-variable_2 = variable_1
-variable_1 = variable_2
-```
+En las siguientes secciones, ordenaremos la lista en orden ascendente, de modo que los números se ordenen de menor a mayor.
 
-Esto es incorrecto, porque perderemos el valor almacenado en `variable_2`. Necesitamos una tercera variable que sirva como almacenamiento auxiliar. El código sería de esta manera:
+Aquí está la lista:
 
 ```
-variable_1 = 1
-variable_2 = 2
-
-auxiliary = variable_1
-variable_1 = variable_2
-variable_2 = auxiliary
+[8, 10, 6, 2, 4]
 ```
 
-Pero Python nos permite una solución que funciona también y es muy clara:
+El algoritmo será el siguiente:
 
-```
-variable_1 = 1
-variable_2 = 2
+1. Tomaremos el primer y el segundo elemento y los compararemos.
+2. Si determinamos que están en el orden incorrecto (es decir, el primero es mayor que el segundo), los intercambiaremos.
+3. Si su orden es válido, no haremos nada. 
+4. A continuación tomamos el segundo y tercer elemento y volvemos a repetir los pasos.
+5. Hay que repetir los pasos con cada par de elementos adyacentes.
 
-variable_1, variable_2 = variable_2, variable_1
-```
+En nuestro ejemplo:
 
-## Intercambio de los elementos de una lista
+1. El primer y segundo elemento están en el orden correcto, ya que 8 es menor que 10.
+2. El segundo y tercer elemento están desordenados, los intercambiamos:
+    ```
+    [8, 6, 10, 2, 4]
+    ```
+3. El elemento tercero y cuarto también están en orden incorrectos, hay que intercambiarlos:
+    ```
+    [8, 6, 2, 10, 4]
+    ```
+4. El cuarto y quinto elemento también están desordenados, lo volvemos a intercambiar:
+    ```
+    [8, 6, 2, 4, 10]
+    ```
 
-Vamos a utilizar lo visto en el punto anterior para resolver el siguiente problema: queremos invertir el orden de una lista. Es decir, por ejemplo en una lista de 5 elementos, que remos intercambiar el primer elemento por el último y el segundo por el cuarto.
+En esta primera pasada, nos hemos asegurado que el elemento mayor, en nuestro caso 10, se ha posicionado de manera adecuada en el último lugar de la lista. Podemos imaginarnos que el número como una **burbuja** que ha ido desde fondo hasta la superficie en una copa de champán. El método de clasificación deriva su nombre de la misma observación: se denomina **ordenamiento de burbuja**.
 
-Usando lo aprendido en el aparatado anterior, el código sería:
+Ya que el último elemento de la lista ya se ha determinado, ahora tenemos que ordenar los cuatro primeros elementos, repitiendo el proceso de comparación entre adyacentes con los cuatro primeros elementos.
 
-```
-my_list = [10, 1, 8, 3, 5]
+Comenzamos el segundo ciclo:
 
-my_list[0], my_list[4] = my_list[4], my_list[0]
-my_list[1], my_list[3] = my_list[3], my_list[1]
+1. El primer y segundo elemento están desordenados, lo intercambiamos:
+    ```
+    [6, 8, 2, 4, 10]
+    ```
+2. El segundo y tercer elemento también están desordenados, volvemos a intercambiar:
+    ```
+    [6, 2, 8, 4, 10]
+    ```
+3. Por último, el tercer y cuarto están desordenados y volvemos a intercambiar:
+    ```
+    [6, 2, 4, 8, 10]
+    ```
 
-print(my_list)
-```
+El número 8 ha llegado a su lugar y volvemos a repetir el algoritmos con los tres primeros elementos:
 
-Pero, y si tuviéramos una lista con muchos elementos?. ¿Sería esta solución válida?. Podríamos utilizar el bucle for para recorrer la lista e ir haciendo los intercambios, el código quedaría:
+1. El primer y segundo elemento están desordenados, lo intercambiamos.
+    ```
+    [2, 6, 4, 8, 10]
+    ```
+2. También intercambiamos el segundo y tercero, ya que están desordenados:
+    ```
+    [2, 4, 6, 8, 10]
+    ```
+La lista ya está ordenada, hemos terminado nuestro algoritmo. Si continuara sin estar ordenada, tendríamos que repetir el algoritmo para ordenar los dos primeros elementos.
 
-```
-my_list = [10, 1, 8, 3, 5]
-length = len(my_list)
-
-for i in range(length // 2):
-    my_list[i], my_list[length - i - 1] = my_list[length - i - 1], my_list[i]
-
-print(my_list)
-```
-
-* Hemos asignado la variable `length` a la longitud de la lista actual (esto hace que nuestro código sea un poco más claro y más corto).
-* Hemos preparado el bucle for para que se ejecute su cuerpo `length // 2` veces (esto funciona bien para listas con longitudes pares e impares, porque cuando la lista contiene un número impar de elementos, el del medio permanece intacto).
-* Hemos intercambiado el elemento `i` (desde el principio de la lista) por el que tiene un índice igual a `length-i-1` (desde el final de la lista); en nuestro ejemplo:
-    * En la primera iteración: `i = 0` y `length-i-1 = 4`.
-    * En la segunda iteración: `i = 1` y `length-i-1 = 3`. 
-
-    
+Como puedes ver, la esencia de este algoritmo es simple: **comparamos los elementos adyacentes y, al intercambiar algunos de ellos, logramos nuestro objetivo**.
 

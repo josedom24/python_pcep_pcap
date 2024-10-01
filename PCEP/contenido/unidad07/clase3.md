@@ -1,107 +1,227 @@
-# Operadores de cadena
+# Estructuras alternativas
 
-## Introducción a los operadores de cadenas
+## Condiciones y ejecución condicional
 
-* Los operadores aritméticos `+` y `*`, nos permiten sumar y multiplicar cuando trabajamos con números.
-* A continuación veremos, que esos mismos signos: `+` y `*` nos permiten realizar operaciones sobre cadenas de textos.
+Ya sabes como hacer preguntas a Python, pero aún no sabes como hacer un uso razonable de las respuestas. Se debe tener un mecanismo que le permita hacer algo si se cumple una condición, y no hacerlo si no se cumple.
 
-## Concatenación
+Es como en la vida real: haces ciertas cosas o no cuando se cumple una condición específica, por ejemplo, sales a caminar si el clima es bueno, o te quedas en casa si está húmedo y frío.
 
-El signo de `+`, al ser aplicado a dos cadenas, se convierte en un **operador de concatenación**:
+Para tomar tales decisiones, Python ofrece una instrucción especial. Debido a su naturaleza y su aplicación, se denomina **estructura alternativa o condicional**.
 
+Existen varias variantes de la misma. Comenzaremos con la más simple, aumentando la dificultad lentamente.
+
+## La instrucción if
+
+La primera forma de una sentencia condicional, que puede ver a continuación, está escrita de manera muy informal pero figurada:
 ```
-string + string
-```
-
-Simplemente **concatena** (junta) dos cadenas en una. Por supuesto, puede ser utilizado más de una vez en una misma expresión, e irá uniendo las cadenas indicadas de izquierda a derecha.
-
-En contraste con el operador aritmético, **el operador de concatenación no es conmutativo**, por ejemplo, `"ab" + "ba"` no es lo mismo que `"ba" + "ab"`.
-
-No olvides, si se desea que el signo `+` sea un concatenador, no un sumador, solo se debe asegurar que ambos argumentos sean cadenas.
-
-Veamos un ejemplo. Este es un programa sencillo que muestra como funciona el signo `+` como concatenador:
-
-```
-fnam = input("¿Me puedes dar tu nombre por favor? ")
-lnam = input("¿Me puedes dar tu apellido por favor? ")
-print("Gracias.")
-print("\nTu nombre es " + fnam + " " + lnam + ".")
+if true_or_not:
+    do_this_if_true
 ```
 
-Nota: El utilizar `+` para concatenar cadenas te permite construir la salida de una manera más precisa, en comparación de utilizar únicamente la función `print()`, aún cuando se enriquezca con los argumentos `end=` y `sep=`.
+Esta sentencia condicional consta de los siguientes elementos, estrictamente necesarios en este orden:
 
-## Replicación
+* La palabra clave reservada `if`.
+* Uno o más espacios en blanco.
+* Una expresión condicional (una pregunta o una respuesta) cuyo valor se interpretar únicamente en términos de `True`  y `False` .
+* Unos dos puntos seguido de una nueva línea.
+* Una instrucción con **sangría** o un conjunto de instrucciones (se requiere absolutamente al menos una instrucción); la sangría se puede lograr de dos maneras: 
+    * insertando un número particular de espacios (la recomendación es usar cuatro espacios de sangría), 
+    * o usando el tabulador; 
+    * nota: si hay mas de una instrucción en la parte con sangría, la sangría debe ser la misma en todas las líneas; aunque puede parecer lo mismo si se mezclan tabuladores con espacios, es importante que todas las sangrías sean exactamente iguales Python 3 no permite mezclar espacios y tabuladores para la sangría.
 
-El signo de `*` (asterisco), cuando es aplicado a una cadena y a un número (o a un número y cadena) se convierte en un operador de replicación.
+¿Cómo funciona esta sentencia?
 
-```
-string * number
-number * string
-```
+* Si la expresión *true_or_not* representa la verdad (es decir, su valor es `True`), las sentencias con sangría se ejecutarán.
+* Si la expresión *true_or_not* no representa la verdad (es decir, su valor es `False`), las sentencias con sangría se omitirán , y la siguiente instrucción ejecutada será la siguiente al nivel de la sangría original.
 
-Replica la cadena el numero de veces indicado por el número.
+### Ejemplo 1
 
-Por ejemplo:
+Ejemplo, si en la vida real podemos expresar la siguiente frase:
 
-* `"James" * 3` produce `"JamesJamesJames"`
-* `3 * "an"` produce `"ananan"`
-* `5 * "2"` (o `"2" * 5`) produce `"22222"` (no 10) 
+*Si el clima es bueno, saldremos a caminar después, almorzaremos*.
 
+Como puedes ver, almorzar no es una actividad condicional y no depende del clima.
 
-Hay que tener en cuenta, que **un número menor o igual que cero produce una cadena vacía**.
-
-Este sencillo programa "dibuja" un rectángulo, haciendo uso los operadores `+` y `*`:
-
-```
-print("+" + 10 * "-" + "+")
-print(("|" + " " * 10 + "|\n") * 5, end="")
-print("+" + 10 * "-" + "+")
-```
-
-Nota como se ha utilizado el paréntesis en la segunda línea de código. ¡Intenta practicar para crear otras figuras o tus propias obras de arte!.
-
-## Conversión de tipos de datos: str()
-
-A estas alturas ya sabes como emplear las funciones `int()` y `float()` para convertir una cadena a un número.
-
-Este tipo de conversión no es en un solo sentido. También se puede convertir un numero a una cadena, con la función `str()`.
+Podríamos indicarlo en un programa asumiendo que tenemos las funciones sin parámetros `go_for_a_walk()` y `have_lunch()`, de la siguiente manera:
 
 ```
-str(número)
+if the_weather_is_good:
+    go_for_a_walk()
+have_lunch()
 ```
 
-Podemos volver al ejemplo del cálculo de la hipotenusa en el triángulo rectángulo. Veamos una nueva versión:
+### Ejemplo 2
+
+Si un determinado desarrollador de Python sin dormir se queda dormido cuando cuenta 120 ovejas, y el procedimiento de inducción del sueño se puede implementar como una función especial llamada `sleep_and_dream()`, el código toma la siguiente forma:
 
 ```
-leg_a = float(input("Inserta la longitud del primer cateto: "))
-leg_b = float(input("Inserta la longitud del segundo cateto: "))
-print("La longitud de la hipotenusa es " + str((leg_a**2 + leg_b**2) ** .5))
+if sheep_counter >= 120: # #evalúa una expresión condicional
+    sleep_and_dream() #se ejecuta si la expresión condicional es True
 ```
 
-Se ha modificado un poco para mostrar cómo es que la función `str()` trabaja. Gracias a esto y al uso del operador de concatenación, podemos pasar el resultado entero a la función `print()` como una sola cadena, sin utilizar las comas.
+El programa anterior lo podemos leer: si `sheep_counter` es mayor o igual que 120, entonces duerme y sueña (es decir, ejecuta la función `sleep_and_dream`).
 
-## Cuestionario
+Hemos dicho que las sentencias condicionales deben tener sangría. Esto crea una estructura muy legible, demostrando claramente todas las rutas de ejecución posibles en el código.
 
-1. ¿Cuál es la salida del siguiente código?
-
-```
-x = int(input("Ingresa un número: ")) # El usuario ingresa un 2 
-print(x * "5")
-```
-
-2. ¿Cuál es la salida esperada del siguiente código?
+Analiza el siguiente código:
 
 ```
-x = input("Ingresa un número: ") # El usuario ingresa un 2 
-print(type(x))
+if sheep_counter >= 120:
+    make_a_bed()
+    take_a_shower()
+    sleep_and_dream()
+feed_the_sheepdogs()
 ```
 
-## Solución cuestionario
+Como puedes ver, *hacer la cama*, *ducharse* y *dormir y soñar* se ejecutan condicionalmente, cuando `sheep_counter` alcanza el límite deseado.
 
-1. Pregunta 1:
+*Alimentar a los perros*, sin embargo, siempre se hace (es decir, la función `feed_the_sheepdogs()` no tiene sangría y no pertenece al bloque if, lo que significa que siempre se ejecuta).
 
-`55`
+A continuación vamos a discutir otra variante de la sentencia condicional, que también permite realizar una acción adicional cuando no se cumple la condición.
 
-2. Pregunta 2:
+### Ejercicio 3
 
-`<class 'str'>`
+Ejecuta el siguiente programa y comprueba el resultado con varios datos de entrada:
+
+```
+edad = int(input("Dime tu edad:"))
+if edad >= 18:
+    print("Eres mayor de edad")
+print("Programa terminado")
+```
+
+## La instrucción if-else
+
+### Ejemplo 1
+
+Veamos un ejemplo:
+
+* Comenzamos con una frase simple que decía: **Si el clima es bueno, saldremos a caminar**.
+* No hemos dicho nada sobre lo que sucederá si el clima es malo. Solo sabemos que no saldremos a caminar, pero no sabemos que podríamos hacer. Es posible que también queramos planificar algo en caso de mal tiempo.
+* Podemos decir, por ejemplo: **Si el clima es bueno, saldremos a caminar, de lo contrario, iremos al cine.**
+* Ahora sabemos lo que haremos si se cumplen las condiciones, y sabemos lo que haremos si no todo sale como queremos. En otras palabras, tenemos un "Plan B".
+
+Python nos permite expresar dichos planes alternativos. Esto se hace con una segunda forma, ligeramente mas compleja, de la sentencia condicional, la sentencia `if-else`:
+
+```
+if true_or_false_condition:
+    perform_if_condition_true
+else:
+    perform_if_condition_false
+```
+
+Por lo tanto, hay una nueva palabra clave reservada: **else**.
+
+La parte del código que comienza con `else` dice que hacer si no se cumple la condición especificada por el `if` (observa los dos puntos después de la palabra).
+
+La ejecución de `if-else` es la siguiente:
+
+* Si la condición se evalúa como `True`, la instrucción `perform_if_condition_true` se ejecuta, y la sentencia condicional llega a su fin.
+* Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la sentencia condicional llega a su fin.
+
+### Ejemplo 2
+
+Al utilizar esta forma de sentencia condicional, podemos describir nuestros planes de la siguiente manera:
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+else:
+    go_to_a_theater()
+have_lunch()
+```
+
+Si el clima es bueno, saldremos a caminar. De lo contrario, iremos al cine. No importa si el clima es bueno o malo, almorzaremos después (después de la caminata o después de ir al cine).
+
+Todo lo que hemos dicho sobre la sangría funciona de la misma manera dentro de la rama else :
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+    have_fun()
+else:
+    go_to_a_theater()
+    enjoy_the_movie()
+have_lunch()
+```
+
+### Ejemplo 3
+
+Un ejemplo final:
+
+```
+edad = int(input("Dime tu edad:"))
+if edad >= 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+print("Programa terminado")
+```
+
+## Instrucciones if-else anidadas
+
+Ahora, analicemos dos casos especiales de la sentencia condicional.
+
+Primero, considera el caso donde la instrucción colocada después del if es otro if.
+
+El ejemplo podría ser el siguiente: 
+
+Si hay buen clima, saldremos a caminar. Si encontramos un buen restaurante, almorzaremos allí. De lo contrario, vamos a comer un sandwich. Si hay mal clima, iremos al cine. Si no hay boletos, iremos de compras al centro comercial más cercano.
+
+Escribamos lo mismo en Python. Considera cuidadosamente el código siguiente:
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+    if nice_restaurant_is_found:
+        have_lunch()
+    else:
+        eat_a_sandwich()
+else:
+    if tickets_are_available:
+        go_to_the_theater()
+    else:
+        go_shopping()
+```
+
+Aquí hay dos puntos importantes:
+
+* Este uso de la sentencia if se conoce como **anidamiento**; recuerda que cada `else` se refiere al `if` que se encuentra en el mismo nivel de sangría; se necesita saber esto para determinar cómo se relacionan los `if` y los `else`.
+* Considera como la sangría mejora la legibilidad y hace que el código sea más fácil de entender y rastrear.
+
+## La instrucción elif
+
+El segundo caso especial presenta otra nueva palabra clave de Python: **elif**. Como probablemente sospechas, es una forma más corta de `else-if`.
+
+`elif` se usa para verificar más de una condición, y para detener cuando se encuentra la primera sentencia verdadera.
+
+Nuestro siguiente ejemplo se parece a la anidación, pero las similitudes son muy leves. Nuevamente, cambiaremos nuestros planes y los expresaremos de la siguiente manera: si hay buen clima, saldremos a caminar, de lo contrario, si obtenemos entradas, iremos al cine, de lo contrario, si hay mesas libres en el restaurante, vamos a almorzar; si todo falla, regresaremos a casa y jugaremos ajedrez.
+
+¿Has notado cuantas veces hemos usado la palabra de lo contrario? Esta es la etapa en la que la palabra clave reservada `elif` desempeña su función.
+
+Escribamos el mismo escenario empleando Python:
+
+```
+if the_weather_is_good:
+    go_for_a_walk()
+elif tickets_are_available:
+    go_to_the_theater()
+elif table_is_available:
+    go_for_lunch()
+else:
+    play_chess_at_home()
+```
+
+La forma de ensamblar las siguientes sentencias `if-elif-else` a veces se denomina **cascada**.
+Observa de nuevo como la sangría mejora la legibilidad del código.
+
+Se debe prestar atención adicional a este caso:
+
+* No debes usar `else` sin un `if` precedente.
+* `else` siempre es la última rama de la cascada, independientemente de si has usado `elif` o no.
+* `else` es una parte opcional de la cascada, y puede omitirse.
+* Si hay una rama `else` en la cascada, solo se ejecuta una de todas las ramas.
+* Si no hay una rama `else`, es posible que no se ejecute ninguna de las opciones disponibles.
+
+
+

@@ -1,153 +1,131 @@
-# Operadores lógicos o de comparación
+# Bucle while
 
-## Preguntas y respuestas
+## Estructura repetitiva while 
 
-La mayoría de los programas que hacemos **hacen preguntas**. El programa se puede comportar de manera distinta según los datos de entrada recibidos. 
 
-Afortunadamente, los ordenadores solo conocen dos tipos de respuestas:
 
-* **Si, es cierto.**
-* **No, es falso.**
-
-Nunca obtendrás una respuesta como: *Déjame pensar...*,* no lo sé*, o *probablemente sí, pero no lo sé con seguridad*.
-
-Para hacer preguntas, Python utiliza un conjunto de operadores, que llamamos **operadores lógicos o de comparación**.
-
-## Comparación: operador de igualdad
-
-Pregunta: ¿Son dos valores iguales?
-
-Para hacer esta pregunta, se utiliza el operador `==`. Hay que distinguir lo siguiente:
-
-* `=` es un **operador de asignación**, por ejemplo, `a = b` asigna a la variable `a` el valor de `b`.
-* `==` es un **operador lógico o de comparación**: ¿Son estos valores iguales? así que `a == b` compara `a` y `b`.
-
-Es un operador binario que necesita dos argumentos y verifica si son iguales.Si son iguales, el resultado de la comparación es `True`. Si no son iguales, el resultado de la comparación es `False`.
-
-Ejemplo: ¿Cuál es el resultado de esta operación?
+Las estructuras repetitivas o bucles nos permiten repetir un conjunto de instrucciones. En concreto el bucle `while` permite repetir un conjunto de instrucciones mientras se cumpla una condición. En lenguaje natural sería parecida a esta sentencia:
 
 ```
-var == 0
+mientras ocurra algo
+    haz una tarea
+    haz otra tarea
+    ...
 ```
 
-* Ten en cuenta que no podemos encontrar la respuesta si no sabemos qué valor está almacenado actualmente en la variable `var`.
-* Si la variable se ha cambiado muchas veces durante la ejecución del programa, o si se ingresa su valor inicial desde la consola, Python solo puede responder a esta pregunta en el **tiempo de ejecución del programa**.
+Hay que tener en cuenta que si no *ocurre nada* no se realiza ninguna tarea.
 
-Otro ejemplo, imagina a un programador que sufre de insomnio, y tiene que contar las ovejas negras y blancas, debe comprobar cuando hay exactamente el doble de ovejas negras que de las blancas.
-
-La pregunta será la siguiente:
+La instrucción `while` ejecuta una secuencia de instrucciones mientras una condición sea verdadera.
 
 ```
-black_sheep == 2 * white_sheep
+while <condición>:
+    <instrucciones>
 ```
 
-Debido a la baja prioridad del operador ==, la pregunta será tratada como la siguiente:
+* Una instrucción o conjunto de instrucciones ejecutadas dentro del `while` se llama el **cuerpo del ciclo o bucle**.
+* Al ejecutarse esta instrucción, la condición es evaluada. Si la condición resulta verdadera, se ejecuta una vez la secuencia de instrucciones que forman el cuerpo del ciclo. Al finalizar la ejecución del cuerpo del ciclo se vuelve a evaluar la condición y, si es verdadera, la ejecución se repite. Estos pasos se repiten mientras la condición sea verdadera.
+* Se puede dar la circunstancia que las instrucciones del bucle **no se ejecuten nunca**, si al evaluar por primera vez la condición resulta ser falsa.
+* Si la condición siempre es verdadera, al ejecutar esta instrucción se produce un **ciclo infinito**. A fin de evitarlo, las instrucciones del cuerpo del ciclo deben contener alguna instrucción que **modifique la o las variables involucradas en la condición**, de modo que ésta sea falsificada en algún momento y así finalice la ejecución del ciclo.
+* Es es parecido  a la estructura alternativa con `if`: sólo cambia la palabra `if` por `while`, pero el comportamiento es totalmente diferente: cuando se cumple la condición, `if` realiza sus sentencias sólo una vez; `while` repite la ejecución siempre que la condición se evalúe como `True`.
+* Las instrucciones del cuerpo del bucle hay que indicarlas con una **sangría**.
+
+## Un bucle infinito
+
+Un **bucle infinito**, también denominado bucle sin fin, es una secuencia de instrucciones en un programa que se repite indefinidamente (bucle sin fin).
+
+Este es un ejemplo de un bucle que no puede finalizar su ejecución:
 
 ```
-black_sheep == (2 * white_sheep)
+while True:
+    print("Estoy atrapado dentro de un bucle.")
 ```
 
-Ejercicios de comparación:
+Este bucle imprimirá infinitamente `"Estoy atrapado dentro de un bucle"`. En la pantalla.
 
-1. ¿Cuál es el resultado de la siguiente comparación?
+## Ejemplo: Encontrar el número más grande
 
-    `2 == 2`
-
-    * Solución: `True`, por supuesto, 2 es igual a 2. 
-
-2. ¿Cuál es el resultado de la siguiente comparación?
-
-    `2 == 2.`
-
-    * Solución: Esta pregunta no es tan fácil como la primera. Por suerte, Python es capaz de convertir el valor entero en su equivalente real, y en consecuencia, la respuesta es `True`.
-
-3. ¿Cuál es el resultado de la siguiente comparación?
-
-    `1 == 2`
-
-    * Solución: Esto debería ser fácil. La respuesta es `False`.
-
-4. ¿Puedes adivinar la salida del código a continuación?
-
-    ```
-    var = 0   # asignando 0 a var
-    print(var == 0)
-    
-    var = 1  # asignando 1 a var
-    print(var == 0)
-    ```
-
-    * Solución: La salida será: `True False`.
-    
-## Comparación: operador de desigualdad
-
-El operador `!=` (no es igual a) también compara los valores de dos operandos. Aquí está la diferencia: si son iguales, el resultado de la comparación es `False`. Si no son iguales, el resultado de la comparación es `True`.
-
-Ahora echa un vistazo a la comparación de desigualdad a continuación: ¿Puedes adivinar el resultado de esta operación?
-
-    ```
-    var = 0 # asignando 0 a var
-    print(var != 0)
-
-    var = 1 # asignando 1 a var
-    print(var != 0)
-    ```
-
-Ejecuta el código y comprueba si tenías razón.
-
-## Comparación: mayor que y mayor que o igual
-
-También se puede hacer una pregunta de comparación usando el operador `>` (mayor que) o el operador `>=` (mayor o igual que). Ambos operadores **son binarios, asociativos a la izquierda y su prioridad es mayor que la mostrada por `==` y `!=`**.
-
-* Si deseas saber si hay más ovejas negras que blancas, puedes escribirlo de la siguiente manera: `black_sheep > white_sheep`.
-* Si queremos saber si tenemos que usar un gorro o no, nos hacemos la siguiente pregunta: `centigrade_outside ≥ 0.0`.
-
-`True` lo confirma; `False` lo niega.
-
-## Comparación: menor que y menor que o igual
-
-De manera similar a lo visto anteriormente, podemos usar el operador `<`(menor que) y el operador `<=` (menor o igual que).
-
-Observa este ejemplo simple:
+Volvamos a ver el ejemplo que estudiamos un apartado anterior: Hay que buscar el número más grande de los que vamos introducción, para terminar introducimos el número -1. Analiza el programa cuidadosamente. Localiza donde comienza el bucle  y descubre como se sale del cuerpo del bucle:
 
 ```
-current_velocity_mph < 85  # Menor que
-current_velocity_mph ≤ 85  # Menor o igual que
+# Almacena el actual número más grande aquí.
+largest_number = -999999999
+
+# Ingresa el primer valor.
+number = int(input("Introduce un número o escribe -1 para detener: "))
+
+# Si el número no es igual a -1, continuaremos
+while number != -1:
+    # ¿Es el número más grande que el valor de largest_number?
+    if number > largest_number:
+        # Sí si, se actualiza largest_number.
+        largest_number = number
+    # Ingresa el siguiente número.
+    number = int(input("Introduce un número o escribe -1 para detener: "))
+
+# Imprime el número más grande
+print("El número más grande es:", largest_number)
 ```
 
-## Haciendo uso de las respuestas
+## Otro ejemplo de bucle while
 
-¿Qué puedes hacer con la respuesta (es decir, el resultado de una operación de comparación) que se obtiene del ordenador?
+Veamos otro ejemplo utilizando el bucle `while`. Programa que lee una secuencia de números y cuenta cuántos números son pares y cuántos son impares. El programa termina cuando se ingresa un cero.
 
-1. Puedes memorizarlo (almacenarlo en una variable) y utilizarlo más tarde. ¿Cómo haces eso? Bueno, utilizarías una variable arbitraria como esta:
+```
+odd_numbers = 0
+even_numbers = 0
 
-    ```
-    answer = number_of_lions >= number_of_lionesses
-    ```
+# Lee el primer número.
+number = int(input("Introduce un número o escribe 0 para detener: "))
 
-    La Variables `answer` es de **tipo lógica o booleana**, y contiene dos posible valores: o `True` o `False`.
+# 0 termina la ejecución.
+while number != 0:
+    # Verificar si el número es impar.
+    if number % 2 == 1:
+        # Incrementar el contador de números impares odd_numbers.
+        odd_numbers += 1
+    else:
+        # Incrementar el contador de números pares even_numbers.
+        even_numbers += 1
+    # Leer el siguiente número.
+    number = int(input("Introduce un número o escribe 0 para detener: "))
 
-2. Es más conveniente y mucho más común utilizar la respuesta que obtengas para tomar una decisión sobre el futuro del programa. Para ello, necesitamos una instrucción especial que estudiaremos a continuación.
+# Imprimir resultados.
+print("Cuenta de números impares:", odd_numbers)
+print("Cuenta de números pares:", even_numbers)
+```
 
+Ciertas expresiones se pueden simplificar sin cambiar el comportamiento del programa. Intenta recordar cómo Python interpreta la verdad de una condición y ten en cuenta que estas dos formas son equivalentes: 
 
-Vamos actualizar la **tabla de prioridades** de operadores:
+* `while number != 0:` 
+* `while number:`.
 
-1. `+`,`-` (unarios)
-2. `**`
-3. `*`,`/`,`//`,`%`
-4. `+`,`-` (binarios)
-5. `<`, `<=`, `>`, `>=` 	
-6. `==`, `!=`
+De la misma manera, la condición que verifica si un número es impar también puede codificarse en estas formas equivalentes:
 
-## Resumen
+* `if number % 2 == 1:` 
+* `if number % 2:`
 
-La siguiente tabla ilustra cómo funcionan los operadores de comparación, asumiendo que `x=0`, `y=1` y `z=0`:
+En el programa anterior, la **condición de salida del bucle** es que introduzcamos un número determinado, en este caso el 0. En el siguiente ejemplo vamos a usar una variable `counter` para salir del bucle, de tal manera que el bucle haga 5 iteraciones.
 
-|Operador |	Descripción |Ejemplo|
-|----------|----------|----------|
-|== 	|Devuelve si los valores de los operandos son iguales, y False de lo contrario.| x == y  # False <br> x == z  # True|
-|!= 	|Devuelve True si los valores de los operandos no son iguales, y False de lo contrario.|x != y  # True <br> x != z  # False|
-|> 	    |Devuelve True si el valor del operando izquierdo es mayor que el valor del operando derecho, y False de lo contrario.|x > y  # False <br> y > z  # True|
-|< 	    | Devuelve True si el valor del operando izquierdo es menor que el valor del operando derecho, y False de lo contrario.| x < y  # True <br> y < z  # False |
-|≥ 	    | Devuelve True si el valor del operando izquierdo es mayor o igual al valor del operando derecho, y False de lo contrario.| x >= y  # False <br> x >= z  # True <br> y >= z  # True|
-|≤ 	    | Devuelve True si el valor del operando izquierdo es menor o igual al valor del operando derecho, y False de lo contrario. | x <= y  # True <br> x <= z  # True <br> y <= z  # False |
+Observa el fragmento de código a continuación:
+
+```
+counter = 5
+while counter != 0:
+    print("Dentro del bucle.", counter)
+    counter -= 1
+print("Fuera del bucle.", counter)
+```
+
+Este código está destinado a imprimir la cadena `"Dentro del bucle."` y el valor almacenado en la variable `counter` durante un bucle dado exactamente cinco veces. Una vez que la condición se haya cumplido (la variable `counter` ha alcanzado 0), se sale del bucle y aparece el mensaje `"Fuera del bucle".` así como también el valor almacenado en `counter` se imprime.
+
+De forma más compacta, podríamos escribir el mismo programa de la siguiente forma, modificando la condición del bucle. ¿Puedes ver la diferencia?:
+
+```
+counter = 5
+while counter:
+    print("Dentro del bucle.", counter)
+    counter -= 1
+print("Fuera del bucle.", counter)
+```
+¿Es más compacto que antes? Un poco. ¿Es más legible? Eso es discutible.
+

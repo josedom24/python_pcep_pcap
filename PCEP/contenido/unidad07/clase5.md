@@ -1,46 +1,41 @@
-# LABORATORIO - Operadores y expresiones
+# LABORATORIO - Operadores de comparación y ejecución condicional
 
 ## Tiempo Estimado
 
-20 minutos
+5 - 10 minutos
 
 ## Nivel de Dificultad
 
-Intermedio
+Fácil
 
 ## Objetivos
  
-* Familiarizarse con los conceptos de números, operadores y expresiones aritméticas en Python.
-* Comprender la precedencia y asociatividad de los operadores de Python, así como el correcto uso de los paréntesis.
+* Familiarizarse con la función `input()`.
+* Familiarizarse con los operadores de comparación en Python.
+* Familiarizarse con el concepto de ejecución condicional.
 
 ## Escenario
 
-La tarea es completar el código para poder evaluar la siguiente expresión: 
+[Espatifilo](https://upload.wikimedia.org/wikipedia/commons/b/bd/Spathiphyllum_cochlearispathum_RTBG.jpg), más comúnmente conocida como la planta de cuna de Moisés o flor de la paz, es una de las plantas para interiores más populares que filtra las toxinas dañinas del aire. Algunas de las toxinas que neutraliza incluyen benceno, formaldehído y amoníaco.
 
-![operación](img/operacion.png)
+Imagina que tu programa de ordenador ama estas plantas. Cada vez que recibe una entrada en forma de la palabra Espatifilo, grita involuntariamente a la consola la siguiente cadena: **"¡Espatifilo es la mejor planta de todas!"**
 
-El resultado debe de ser asignado a `y`. Se cauteloso, observa los operadores y priorízalos. Utiliza cuantos paréntesis sean necesarios.
+Escribe un programa que utilice el concepto de ejecución condicional, tome una cadena como entrada y que:
 
-Puedes utilizar variables adicionales para acortar la expresión (sin embargo, no es muy necesario). Prueba tu código cuidadosamente.
+* Imprima el enunciado **"Si, ¡El ESPATIFILIO! es la mejor planta de todos los tiempos!"** en la pantalla si la cadena ingresada es "ESPATIFILIO".
+* Imprima **"No, ¡quiero un gran ESPATIFILIO!"** si la cadena ingresada es "espatifilo".
+* Imprima **"¡ESPATIFILIO!, ¡No [entrada]!"** de lo contrario. Nota: [entrada] es la cadena que se toma como entrada.
 
-```
-x = float(input("Ingresa el valor para x: "))
 
-# Escribe tu código aquí.
-
-print("y =", y)
-```
+Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un ESPATIFILIO también!
 
 ## Datos de Prueba
 
-Entrada de muestra: `1`
-Salida esperada: `y = 0.6000000000000001`
+* Entrada de muestra: `espatifilo`
+    * Resultado esperado: `No, ¡quiero un gran ESPATIFILIO!`
+* Entrada de ejemplo: `pelargonio`
+    * Resultado esperado: `!ESPATIFILIO!, ¡No pelargonio!`
+* Entrada de muestra: `ESPATIFILIO`
+    * Resultado esperado: `Si, ¡El ESPATIFILIO es la mejor planta de todos los tiempos! `
 
-Entrada de muestra: `10`
-Salida esperada: `y = 0.09901951266867294`
 
-Entrada de muestra: `100`
-Salida esperada: `y = 0.009999000199950014`
-
-Entrada de muestra: `-5`
-Salida esperada: `y = -0.19258202567760344`

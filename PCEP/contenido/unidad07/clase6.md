@@ -1,67 +1,56 @@
-# LABORATORIO - Operadores y expresiones (2ª parte)
+# LABORATORIO - Fundamentos de la sentencia if-else
 
 ## Tiempo Estimado
 
-15 - 20 minutos
+10 - 15 minutos
 
 ## Nivel de Dificultad
 
-Fácil
+Fácil/Medio
 
 ## Objetivos
- 
-* Mejorar la habilidad de implementar números, operadores y operaciones aritméticas en Python.
-* Utilizar la función `print()` y sus capacidades de formato.
-* Aprender a expresar fenómenos del día a día en términos de un lenguaje de programación.
+
+Familiarizar al estudiante con:
+
+* Utilizar la sentencia if-else para ramificar la ruta de control.
+* Construir un programa completo que resuelva problemas simples de la vida real.
 
 ## Escenario
 
-La tarea es preparar un código simple para evaluar o encontrar el tiempo final de un periodo de tiempo dado, expresándolo en horas y minutos. Las horas van de 0 a 23 y los minutos de 0 a 59. El resultado debe ser mostrado en la consola.
+Érase una vez una tierra de leche y miel, habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto, su felicidad tenía límites. El impuesto más importante, denominado *Impuesto Personal de Ingresos* (IPI, para abreviar) tenía que pagarse una vez al año y se calculó utilizando la siguiente regla:
 
-Por ejemplo, si el evento comienza a las 12:17 y dura 59 minutos, terminará a las 13:16.
+* Si el ingreso del ciudadano no era superior a 85.528 euros, el impuesto era igual al 18% del ingreso menos 556 euros y 2 céntimos (esta fue la llamada exención fiscal).
+* Si el ingreso era superior a esta cantidad, el impuesto era igual a 14.839 euros y 2 céntimos, más el 32% del excedente sobre 85.528 euros.
 
-No te preocupes si tu código no es perfecto, está bien si acepta una hora invalida, lo más importante es que el código produzca una salida correcta acorde a la entrada dada.
+Tu tarea es escribir una calculadora de impuestos.
 
-Prueba el código cuidadosamente. Pista: utilizar el operador `%` puede ser clave para el éxito.
+* Debe aceptar un valor de punto flotante: el ingreso.
+* A continuación, debe imprimir el impuesto calculado, redondeado a euros totales. Hay una función llamada `round()` que hará el redondeo por ti, la encontrarás en el código que puedes usar de plantilla:
 
 ```
-hour = int(input("Hora de inicio (horas): "))
-mins = int(input("Minuto de inicio (minutos): "))
-dura = int(input("Duración del evento (minutos): "))
+income = float(input("Introduce el ingreso anual:"))
 
+#
 # Escribe tu código aquí.
+#
+
+tax = round(tax, 0)
+print("El impuesto es:", tax, "euros")
 ```
+
+Nota: Este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto calculado es menor que cero, solo significa que no hay impuesto (el impuesto es igual a cero). Ten esto en cuenta durante tus cálculos.
+
+Prueba tu código con los datos que hemos proporcionado. 
 
 ## Datos de Prueba
 
-Entrada de muestra:
-
-```
-12
-17
-59
-```
-
-Salida esperada: `13:16`
-
-Entrada de muestra:
-
-```
-23
-58
-642
-```
-
-Salida esperada: `10:40`
-
-Entrada de muestra:
-
-```
-0
-1
-2939
-```
-
-Salida esperada: `1:0`
+* Entrada de muestra: 10000
+    * Resultado esperado: El impuesto es: 1244.0 euros
+* Entrada de muestra: 100000
+    * Resultado esperado: El impuesto es: 19470.0 euros
+* Entrada de muestra: 1000
+    * Resultado esperado: El impuesto es: 0.0 euros
+* Entrada de muestra: -100
+    * Resultado esperado: El impuesto es: 0.0 euros 
 
 
