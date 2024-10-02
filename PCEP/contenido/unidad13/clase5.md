@@ -93,3 +93,56 @@ El programa produce el siguiente resultado:
 'Modo aburrimiento' ON.
 Esta lección es aburrida...
 ```
+
+## El valor None
+
+El valor `None` no representa ningún valor, en realidad lo podríamos traducir como **ningún valor**. Por lo tanto, no debe usarse dentro de ninguna expresión.
+
+Por ejemplo, un fragmento de código como el siguiente:
+
+```
+print(None + 2)
+```
+
+Causará un error de tiempo de ejecución: `TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'`.
+
+Solo existen dos tipos de circunstancias en las que `None` se puede usar de manera segura:
+
+* Cuando se le asigna a una variable (o se devuelve como el resultado de una función).
+* Cuando se compara con una variable para diagnosticar su estado interno.
+
+Ejemplo:
+
+```
+value = None
+if value is None:
+    print("Lo siento, no contienes ningún valor")
+```
+
+No olvides esto: **si una función no devuelve un cierto valor utilizando una cláusula de expresión `return`, se asume que devuelve implícitamente `None`**.
+
+Vamos a probarlo:
+
+```
+def strange_function(n):
+    if(n % 2 == 0):
+        return True
+```
+
+Es obvio que la función `strangeFunction` retorna `True` cuando su argumento es par.
+
+¿Qué es lo que retorna de otra manera?
+
+Podemos usar el siguiente código para verificarlo:
+```
+print(strange_function(2))
+print(strange_function(1))
+```
+La salida será:
+
+```
+True
+None
+```
+
+Si la función sólo provoca un efecto y no devuelve ningún valor, el valor que devuelve es `None`. Sin embargo, si la función debe devolver un valor y en alguna circunstancia devuelve `None` puede significar que la función tiene algún error interno.
