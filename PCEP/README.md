@@ -100,7 +100,7 @@
     * [Efectos y resultados de una función](contenido/unidad13/clase5.md)
     * [Listas y funciones](contenido/unidad13/clase6.md)
     * [LABORATORIO - Año bisiesto](contenido/unidad13/clase7.md)
-    * LABORATORIO - Cuántos días
+    * [LABORATORIO - Cuántos días](contenido/unidad13/clase8.md)
     * LABORATORIO - Día del año
     * LABORATORIO - Números primos
     * LABORATORIO - Conversión del consumo de combustible
