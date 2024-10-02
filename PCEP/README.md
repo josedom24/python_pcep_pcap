@@ -99,10 +99,10 @@
     * [Paso de parámetros](contenido/unidad13/clase4.md)
     * [Efectos y resultados de una función](contenido/unidad13/clase5.md)
     * [Listas y funciones](contenido/unidad13/clase6.md)
-    * LABORATORIO - Año bisiesto
-    * LABORATORIO - Cuántos días: escribiendo y usando tus propias funciones
-    * LABORATORIO - Día del año: escribiendo y usando tus propias funciones
-    * LABORATORIO - Números primos - cómo encontrarlos
+    * [LABORATORIO - Año bisiesto](contenido/unidad13/clase7.md)
+    * LABORATORIO - Cuántos días
+    * LABORATORIO - Día del año
+    * LABORATORIO - Números primos
     * LABORATORIO - Conversión del consumo de combustible
     * Ámbito de variables y funciones
     * La palabra reservada global
