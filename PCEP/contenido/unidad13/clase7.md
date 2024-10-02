@@ -30,7 +30,7 @@ Recuerda que desde se introdujo se utiliza la siguiente regla para determinar el
 Puedes utilizar la siguiente plantilla:
 
 ```
-def is_year_leap(year):
+def año_bisiesto(año):
 #
 # Escribe tu código aquí.
 #
@@ -40,7 +40,7 @@ test_results = [False, True, True, False]
 for i in range(len(test_data)):
 	yr = test_data[i]
 	print(yr,"->",end="")
-	result = is_year_leap(yr)
+	result = año_bisiesto(yr)
 	if result == test_results[i]:
 		print("OK")
 	else:
