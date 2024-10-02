@@ -95,10 +95,8 @@
 13. Introducción a las funciones
     * [Introducción a las funciones](contenido/unidad13/clase1.md)
     * [Tu primera función](contenido/unidad13/clase2.md)
-    * Funciones parametrizadas
-    * Paso de parámetros posicionales 
-    * Paso de parámetros por para clave
-    * Parámetros predefinidos
+    * [Funciones parametrizadas](contenido/unidad13/clase3.md)
+    * [Paso de parámetros](contenido/unidad13/clase4.md)
     * Efectos y resultados de una función
     * Listas y funciones
     * LABORATORIO - Un año bisiesto: escribiendo tus propias funciones (4)
