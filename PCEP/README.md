@@ -108,7 +108,7 @@
     * LABORATORIO - Conversión del consumo de combustible (8)
     * Ámbito de variables y funciones (1)
     * La palabra reservada global (2,3)
-14. Ejemplo de funciones
+14. Ejemplos de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
     * Ejemplos de funciones: Triángulos (2)
     * Ejemplos de funciones: Factoriales (3)
