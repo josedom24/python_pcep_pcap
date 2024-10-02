@@ -97,7 +97,7 @@
     * [Tu primera función](contenido/unidad13/clase2.md)
     * [Funciones parametrizadas](contenido/unidad13/clase3.md)
     * [Paso de parámetros](contenido/unidad13/clase4.md)
-    * Efectos y resultados de una función
+    * [Efectos y resultados de una función](contenido/unidad13/clase5.md)
     * Listas y funciones
     * LABORATORIO - Un año bisiesto: escribiendo tus propias funciones (4)
     * LABORATORIO - Cuántos días: escribiendo y usando tus propias funciones (5)
