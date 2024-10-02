@@ -56,22 +56,3 @@ Prueba tu código con los datos que hemos proporcionado.
 * Entrada de muestra: `1580`
     * Resultado esperado: `No esta dentro del período del calendario Gregoriano`
 
-## Solución
-
-```
-iyear = int(input("Introduce un año: "))
-
-if year < 1582:
-	print("No esta dentro del período del calendario Gregoriano")
-else:
-	if year % 4 != 0:
-		print("Año Común")
-	elif year % 100 != 0:
-		print("Año Bisiesto")
-	elif year % 400 != 0:
-		print("Año Común")
-	else:
-		print("Año Bisiesto")
-
-```
-

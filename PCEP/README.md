@@ -99,13 +99,13 @@
     * [Paso de parámetros](contenido/unidad13/clase4.md)
     * [Efectos y resultados de una función](contenido/unidad13/clase5.md)
     * [Listas y funciones](contenido/unidad13/clase6.md)
-    * LABORATORIO - Un año bisiesto: escribiendo tus propias funciones (4)
-    * LABORATORIO - Cuántos días: escribiendo y usando tus propias funciones (5)
-    * LABORATORIO - Día del año: escribiendo y usando tus propias funciones (6)
-    * LABORATORIO - Números primos - cómo encontrarlos (7)
-    * LABORATORIO - Conversión del consumo de combustible (8)
-    * Ámbito de variables y funciones (1)
-    * La palabra reservada global (2,3)
+    * LABORATORIO - Año bisiesto
+    * LABORATORIO - Cuántos días: escribiendo y usando tus propias funciones
+    * LABORATORIO - Día del año: escribiendo y usando tus propias funciones
+    * LABORATORIO - Números primos - cómo encontrarlos
+    * LABORATORIO - Conversión del consumo de combustible
+    * Ámbito de variables y funciones
+    * La palabra reservada global
 14. Ejemplos de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
     * Ejemplos de funciones: Triángulos (2)
