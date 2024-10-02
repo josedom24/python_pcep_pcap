@@ -126,7 +126,16 @@ presentacion(nombre="Enrique")
 
 Con ambas instrucciones la salida será `Hola, mi nombre es Enrique González`.
 
-Para terminar, indicar que podemos usar valores predefinidos para cualquiera de los parámetros:
+Hay que indicar que **después de un parámetro con un valor predefinido, no podemos poner un parámetro sin valor predefinido, es decir la siguiente declaración daría un error:
+
+```
+def presentacion(nombre="Jose", apellido):
+    print("Hola, mi nombre es", nombre, apellido)
+```
+
+El error sería: `SyntaxError: non-default argument follows default argument`.
+
+Para terminar, indicar que podemos usar valores predefinidos para cualquiera de los parámetros.
 
 ```
 def presentacion(nombre="Juan", apellido="González"):
@@ -147,3 +156,56 @@ presentacion(last_name="Rodríguez")
 ```
 
 La salida es: `Hola, mi nombre es Juan Rodríguez`.
+
+
+## Cuestionario
+
+1. ¿Cuál es la salida del siguiente código?
+
+```
+def intro(a="James Bond", b="Bond"):
+    print("Mi nombre es", b + ".", a + ".")
+
+intro()
+```
+2. ¿Cuál es la salida del siguiente código?
+```
+def intro(a="James Bond", b="Bond"):
+    print("Mi nombre es", b + ".", a + ".")
+
+intro(b="Sergio López")
+```
+3. ¿Cuál es la salida del siguiente fragmento de código?
+```
+def intro(a, b="Bond"):
+    print("Mi nombre es", b + ".", a + ".")
+
+intro("Susan")
+```
+4. ¿Cuál es la salida del siguiente código?
+```
+def add_numbers(a, b=2, c):
+    print(a + b + c)
+
+add_numbers(a=1, c=3)
+```
+
+## Solución cuestionario
+
+1. Pregunta 1
+
+`Mi nombre es Bond. James Bond.`
+
+2. Pregunta 2
+
+`Mi nombre es Sergio López. James Bond`
+
+3. Pregunta 3
+
+`Mi nombre es Bond. Susan.`
+
+4. Pregunta 4
+
+`SyntaxError - a non-default argument (c) follows a default argument (b=2)`
+
+
