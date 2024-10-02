@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" version="24.7.16">
+  <diagram name="Página-1" id="qJkqUwkTHo6sz2fAtJzV">
+    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PJ3GJsrvu3Tdc1vJ4jPy-1" value="&lt;div style=&quot;color: #000000;background-color: #ffffff;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 18px;line-height: 24px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;def numero():&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;    return 5&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ3GJsrvu3Tdc1vJ4jPy-2" value="&lt;div style=&quot;color: #000000;background-color: #ffffff;font-family: &#39;Droid Sans Mono&#39;, &#39;monospace&#39;, monospace;font-weight: normal;font-size: 18px;line-height: 24px;white-space: pre;&quot; align=&quot;left&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #000000;&quot;&gt;...&lt;br&gt;&lt;/span&gt;&lt;/div&gt;x = numero()&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="270" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ3GJsrvu3Tdc1vJ4jPy-3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;edgeStyle=elbowEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="290" as="sourcePoint" />
+            <mxPoint x="499" y="177" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ3GJsrvu3Tdc1vJ4jPy-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;INVOCACIÓN&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="555" y="150" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PJ3GJsrvu3Tdc1vJ4jPy-7" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=3;edgeStyle=elbowEdgeStyle;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="220" as="sourcePoint" />
+            <mxPoint x="250" y="310" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PJ3GJsrvu3Tdc1vJ4jPy-8" value="&lt;div&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;REGRESA LA EJECUCIÓN&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DEVOLVIENDO UN VALOR&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="250" width="170" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
