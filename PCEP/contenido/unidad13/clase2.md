@@ -100,6 +100,42 @@ Esto implica lo siguiente:
     mensaje()
     ```
 
-
 El asignar un valor al nombre `mensaje` se convierte en un entero, ya no es una función. Este programa nos daría une error: `TypeError: 'int' object is not callable`.
 
+## Cuestionario
+
+1. La función `input()` es un ejemplo de:
+
+    * a) Una función definida por el usuario.
+    * b) Una función integrada.
+
+2. ¿Qué es lo que ocurre cuando se invoca una función antes de ser definida? Ejemplo:
+
+    ```
+    hi()
+
+    def hi():
+        print("¡Hola!")
+    ```
+3. ¿Qué es lo que ocurrirá cuando se ejecute el siguiente código?
+
+    ```
+    def hi():
+        print("hola")
+
+    hi(5)
+    ```
+
+## Solución cuestionario
+
+1. Pregunta 1
+
+    b) Una función integrada.
+
+2. Pregunta 2
+
+    Se genera una excepción (la excepción `NameError`)
+
+3. Pregunta 3
+
+    Se genera una excepción (la excepción `TypeError`): la función `hi()` no toma argumentos 
