@@ -8,6 +8,7 @@ La serie de Fibonacci es una secuencia de números enteros los cuales siguen una
 
 Aquí están algunos de los primeros números en la serie Fibonacci:
 
+```
 fib_1 = 1
 fib_2 = 1
 fib_3 = 1 + 1 = 2
@@ -15,6 +16,7 @@ fib_4 = 1 + 2 = 3
 fib_5 = 2 + 3 = 5
 fib_6 = 3 + 5 = 8
 fib_7 = 5 + 8 = 13
+```
 
 Vamos a crear una función para calcular la serie de Fibonacci hasta el número recibido como parámetro:
 

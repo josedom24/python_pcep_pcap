@@ -2,6 +2,7 @@
 
 La siguiente función a definir calcula factoriales. ¿Recuerdas cómo se calcula un factorial?
 
+```
 0! = 1 
 1! = 1
 2! = 1 * 2
@@ -9,6 +10,7 @@ La siguiente función a definir calcula factoriales. ¿Recuerdas cómo se calcul
 4! = 1 * 2 * 3 * 4
 ...
 n! = 1 * 2 ** 3 * 4 * ... * n-1 * n
+```
 
 Se expresa con un signo de exclamación, y es igual al producto de todos los números naturales previos al número dado.
 
