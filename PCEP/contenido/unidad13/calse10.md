@@ -1,68 +1,57 @@
-# LABORATORIO - Conversión del consumo de combustible
+# LABORATORIO - Números primos
 
 ## Tiempo Estimado
 
-10 - 15 minutos
+15 - 20 minutos
 
 ## Nivel de Dificultad
 
-Fácil
+Medio
 
 ## Objetivos
 
+* Familiarizar al estudiante con nociones y algoritmos clásicos.
 * Mejorar las habilidades del estudiante para definir y emplear funciones.
 
 ## Escenario
 
-El consumo de combustible de un automóvil se puede expresar de muchas maneras diferentes. Por ejemplo, en Europa, se muestra como la cantidad de combustible consumido por cada 100 kilómetros.
+Un número natural es primo si es mayor que 1 y no tiene divisores más que 1 y si mismo.
 
-En los EE. UU., se muestra como la cantidad de millas recorridas por un automóvil con un galón de combustible.
+* Por ejemplo, 8 no es un número primo, ya que puedes dividirlo entre 2 y 4,
+* Por otra parte, 7 es un número primo, ya que no podemos encontrar ningún divisor para el, que no sea 1 y el mismo.
 
-Tu tarea es escribir un par de funciones que conviertan l/100km a mpg (milas por galón), y viceversa.
+Tu tarea es escribir una función que verifique si un número es primo o no.
 
-Las funciones:
+La función:
 
-    Se llaman liters_100km_to_miles_gallon y miles_gallon_to_liters_100km respectivamente.
-    Toman un argumento (el valor correspondiente a sus nombres).
+* Se llama `es_primo`.
+* Toma un argumento (el valor a verificar).
+* Devuelve `True` si el argumento es un número primo, y `False` de lo contrario.
 
-Complementa el código en el editor.
+Sugerencia: intenta dividir el argumento por todos los valores posteriores (comenzando desde 2) y verifica el resto: si es cero, tu número no puede ser un número primo; analiza cuidadosamente cuándo deberías detener el proceso.
+
+Si necesitas conocer la raíz cuadrada de cualquier valor, puedes utilizar el operador **. Recuerda: la raíz cuadrada de `x` es lo mismo que x<sup>0.5</sup>.
+
+Puedes usar esta plantilla:
+
+```
+def es_primo(num):
+#
+# Escribe tu código aquí.
+#
+
+for i in range(1, 20):
+	if es_primo(i + 1):
+			print(i + 1, end=" ")
+print()
+```
 
 Ejecuta tu código y verifica si tu salida es la misma que la nuestra.
 
-Aquí hay información para ayudarte:
-
-    1 milla = 1609.344 metros.
-    1 galón = 3.785411784 litros. 
+## Datos de prueba
 
 Salida esperada:
 
-60.31143162393162
-31.36194444444444
-23.52145833333333
-3.9007393587617467
-7.490910297239916
-10.009131205673757
+`2 3 5 7 11 13 17 19`
 
-    Sandbox
-
-Code
-def liters_100km_to_miles_gallon(liters):
-#
-# Escribe tu código aquí.
-#
-
-def miles_gallon_to_liters_100km(miles):
-#
-# Escribe tu código aquí.
-#
-
-print(liters_100km_to_miles_gallon(3.9))
-print(liters_100km_to_miles_gallon(7.5))
-print(liters_100km_to_miles_gallon(10.))
-print(miles_gallon_to_liters_100km(60.3))
-print(miles_gallon_to_liters_100km(31.4))
-print(miles_gallon_to_liters_100km(23.5))
-
-    Console
-
-Prev
+    
