@@ -108,8 +108,8 @@
     * [La palabra reservada global](contenido/unidad13/clase13.md)
 14. Ejemplos de funciones
     * [Ejemplo 1: Cálculo del IMC](contenido/unidad14/clase1.md)
-    * Ejemplo 2: Triángulos
-    * Ejemplo 3: Factoriales
+    * [Ejemplo 2: Triángulos](contenido/unidad14/clase2.md)
+    * [Ejemplo 3: Factoriales](contenido/unidad14/clase3.md)
     * Ejemplo 4: Números Fibonacci
     * Ejemplo 5: Recursividad
 15. Tuplas y diccionarios
