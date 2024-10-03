@@ -105,7 +105,7 @@
     * [LABORATORIO - Números primos](contenido/unidad13/clase10.md)
     * [LABORATORIO - Conversión del consumo de combustible](contenido/unidad13/clase11.md)
     * [Ámbito de variables y funciones](contenido/unidad13/clase12.md)
-    * La palabra reservada global
+    * [La palabra reservada global](contenido/unidad13/clase13.md)
 14. Ejemplos de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
     * Ejemplos de funciones: Triángulos (2)
