@@ -113,20 +113,18 @@
     * [Ejemplo 4: Números Fibonacci](contenido/unidad14/clase4.md)
     * [Ejemplo 5: Recursividad](contenido/unidad14/clase5.md)
 15. Tuplas y diccionarios
-    * Tipos de secuencia y mutabilidad (1)
-    * Tuplas (2)
-    * Diccionarios (3)
-    * Métodos  y funciones de diccionarios (4)
-    * Trabajando con tuplas y diccionarios (5)
-    * Resumen y cuestionario (6,7)
+    * Tipos de datos secuencias y mutabilidad
+    * Tuplas
+    * Diccionarios
+    * Métodos  y funciones de diccionarios
+    * Trabajando con tuplas y diccionarios
 16. Excepciones
-    * Errores en la programación (1,2)
-    * Excepciones en Python (3)
-    * Capturar más de una excepción (4,5,6)
-    * Pruebas de ejecución (8,9,10,12)
-    * Depuración de programas (11)
-    * Pruebas unitarias (13)
-    * Resumen y cuestionario (14,15)
+    * Errores en la programación
+    * Excepciones en Python
+    * Capturar más de una excepción
+    * Pruebas de ejecución
+    * Depuración de programas
+    * Pruebas unitarias
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
 17. Examen final de curso
