@@ -104,7 +104,7 @@
     * [LABORATORIO - Día del año](contenido/unidad13/clase9.md)
     * [LABORATORIO - Números primos](contenido/unidad13/clase10.md)
     * [LABORATORIO - Conversión del consumo de combustible](contenido/unidad13/clase11.md)
-    * Ámbito de variables y funciones
+    * [Ámbito de variables y funciones](contenido/unidad13/clase12.md)
     * La palabra reservada global
 14. Ejemplos de funciones
     * Ejemplos de funciones: Cálculo del IMC (1)
