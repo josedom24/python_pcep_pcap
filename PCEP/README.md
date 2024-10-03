@@ -110,7 +110,7 @@
     * [Ejemplo 1: Cálculo del IMC](contenido/unidad14/clase1.md)
     * [Ejemplo 2: Triángulos](contenido/unidad14/clase2.md)
     * [Ejemplo 3: Factoriales](contenido/unidad14/clase3.md)
-    * Ejemplo 4: Números Fibonacci
+    * [Ejemplo 4: Números Fibonacci](contenido/unidad14/clase4.md)
     * Ejemplo 5: Recursividad
 15. Tuplas y diccionarios
     * Tipos de secuencia y mutabilidad (1)
