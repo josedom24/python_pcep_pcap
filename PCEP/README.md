@@ -101,9 +101,9 @@
     * [Listas y funciones](contenido/unidad13/clase6.md)
     * [LABORATORIO - Año bisiesto](contenido/unidad13/clase7.md)
     * [LABORATORIO - Cuántos días](contenido/unidad13/clase8.md)
-    * LABORATORIO - Día del año
-    * LABORATORIO - Números primos
-    * LABORATORIO - Conversión del consumo de combustible
+    * [LABORATORIO - Día del año](contenido/unidad13/clase9.md)
+    * [LABORATORIO - Números primos](contenido/unidad13/clase10.md)
+    * [LABORATORIO - Conversión del consumo de combustible](contenido/unidad13/clase11.md)
     * Ámbito de variables y funciones
     * La palabra reservada global
 14. Ejemplos de funciones
