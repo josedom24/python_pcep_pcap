@@ -24,7 +24,7 @@ Tu tarea es escribir una función que verifique si un número es primo o no.
 
 La función:
 
-* Se llama es_primo.
+* Se llama `es_primo`.
 * Toma un argumento (el valor a verificar).
 * Devuelve `True` si el argumento es un número primo, y `False` de lo contrario.
 

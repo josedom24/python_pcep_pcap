@@ -107,12 +107,11 @@
     * [Ámbito de variables y funciones](contenido/unidad13/clase12.md)
     * [La palabra reservada global](contenido/unidad13/clase13.md)
 14. Ejemplos de funciones
-    * Ejemplos de funciones: Cálculo del IMC (1)
-    * Ejemplos de funciones: Triángulos (2)
-    * Ejemplos de funciones: Factoriales (3)
-    * Ejemplos de funciones: Números Fibonacci (4)
-    * Recursividad (5)
-    * Resumen y cuestionario (6,7)
+    * Ejemplo 1: Cálculo del IMC
+    * Ejemplo 2: Triángulos
+    * Ejemplo 3: Factoriales
+    * Ejemplo 4: Números Fibonacci
+    * Ejemplo 5: Recursividad
 15. Tuplas y diccionarios
     * Tipos de secuencia y mutabilidad (1)
     * Tuplas (2)
