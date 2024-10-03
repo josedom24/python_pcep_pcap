@@ -107,7 +107,7 @@
     * [Ámbito de variables y funciones](contenido/unidad13/clase12.md)
     * [La palabra reservada global](contenido/unidad13/clase13.md)
 14. Ejemplos de funciones
-    * Ejemplo 1: Cálculo del IMC
+    * [Ejemplo 1: Cálculo del IMC](contenido/unidad14/clase1.md)
     * Ejemplo 2: Triángulos
     * Ejemplo 3: Factoriales
     * Ejemplo 4: Números Fibonacci
