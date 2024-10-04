@@ -13,7 +13,7 @@
         * Qué divide el valor anterior por el segundo y almacenar el resultado en la memoria;
         * Que muestre el resultado (que representa la velocidad promedio) en un formato legible.
 
-* Estos pasos forman el **algoritmo** para resolver el **problema**, el **algoritmo** lo tendremos que traducir a un lenguaje que entienda el ordenador y crear un **programa**, para ello utilizamos distintos lenguajes a los que llamamos **lenguaje de programación**.
+* Estos pasos forman el **algoritmo** para resolver el **problema**, el **algoritmo** lo tendremos que traducir a un lenguaje que entienda el ordenador y crear un **programa**, para ello utilizamos distintos lenguajes a los que llamamos **lenguajes de programación**.
 
 ## Lenguajes naturales vs lenguajes de programación
 
