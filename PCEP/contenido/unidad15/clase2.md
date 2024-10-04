@@ -34,6 +34,27 @@ one_element_tuple_1 = (1, )
 one_element_tuple_2 = 1.,
 ```
 
+También se puede crear una tupla utilizando la función integrada de Python `tuple()`. Esto es particularmente útil cuando se desea convertir una secuencia (por ejemplo, una lista, rango, cadena, etcétera) en una tupla:
+
+```
+my_tuple = tuple((1, 2, "cadena"))
+print(my_tuple)
+
+my_list = [2, 4, 6]
+print(my_list)    # salida: [2, 4, 6]
+print(type(my_list))    # salida: <class 'list'>
+tup = tuple(my_list)
+print(tup)    # salida: (2, 4, 6)
+print(type(tup))    # salida: <class 'tuple'>
+```
+
+De la misma manera, cuando se desea convertir un iterable en una lista, se puede emplear la función integrada de Python denominada `list()`:
+```
+tup = 1, 2, 3, 
+my_list = list(tup)
+print(type(my_list))    # salida: <class 'list'>
+```
+
 ## ¿Cómo utilizar un tupla?
 
 Si deseas leer los elementos de una tupla, lo puedes hacer de la misma manera que se hace con las listas. Ejemplo:

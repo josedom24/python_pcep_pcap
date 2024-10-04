@@ -29,6 +29,8 @@ Escribe un programa que:
 * Lea cinco números.
 * Los imprima en orden desde el más pequeño hasta el más grande (Este tipo de procesamiento se denomina ordenamiento).
 
+## Crear listas
+
 Vamos a crear una variable llamada `numeros`; se le asigna no solo un número, sino que se llena con una lista que consta de cinco valores (nota: la lista comienza con un corchete abierto y termina con un corchete cerrado; el espacio entre los corchetes es llenado con cinco números separados por comas).
 
 ```
