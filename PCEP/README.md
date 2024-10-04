@@ -127,4 +127,4 @@
     * [Prueba intermedia](contenido/unidad16/prueba.md)
 17. Examen final de curso
     * [Proyecto Final: Juego de tres en raya](contenido/unidad17/proyecto.md)
-    * Prueba Final
+    * [Prueba Final](contenido/unidad17/prueba.md)
