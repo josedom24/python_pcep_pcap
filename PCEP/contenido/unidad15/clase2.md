@@ -125,3 +125,10 @@ print(t1, t2, t3)
 Estamos intercambiando los valores almacenados en estas tuplas. `t1` se convierte en `t2`, `t2` se convierte en `t3`, y `t3` se convierte en `t1`.
 
 Además hay que indicar que los elementos de una tupla pueden ser variables o expresiones, no solo literales. 
+
+Finalmente indicar que el método `count()` nos devuelve la cantidad de apariciones de un elemento en la tupla:
+
+```
+my_tuple = (1, 10, 10, 100)
+print(my_tuple.count(10))
+```

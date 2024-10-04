@@ -104,4 +104,26 @@ print(dictionary)    # salida: {'gato': 'cat', 'perro': 'dog'}
 
 En versiones anteriores de Python, por ejemplo, antes de la 3.6.7, el método popitem() elimina un elemento al azar del diccionario.
 
-  
+## Copiar diccionarios
+
+Para copiar un diccionario, emplea el método `copy()`:
+```
+pol_esp_dictionary = {
+    "zamek" : "castillo",
+    "woda"  : "agua",
+    "gleba" : "tierra"
+    }
+
+copy_dictionary = pol_esp_dictionary.copy()
+```
+
+## El método clear()
+
+El método `clear()` elimina todos los pares de clave-valor de un diccionario:
+
+```
+dictionary = {"gato" : "cat", "perro" : "dog", "caballo" : "horse"}
+
+dictionary.clear()
+print(dictionary)
+```

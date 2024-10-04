@@ -30,6 +30,16 @@ print(empty_dictionary)
 * El diccionario entero se puede imprimir con una invocación a la función `print()`. 
 * Al imprimir el diccionario puede que el orden de los pares sa distinto al de su asignación. Hay que recordar que los diccionarios no son listas, no guardan el orden de sus datos, el orden no tiene significado.
 
+## Conversión a diccionarios
+
+Si tenemos una lista o una tupla cuyos elementos son listas y tuplas de dos elementos, se pueden convertir a un diccionario con la función `dict()`, el primer elemento se considera clave y el segundo valor. Veamos un ejemplo:
+
+```
+tuple = (("uno", "1º"),("dos","2º"),("tres","3º"))
+dictionary = dict(tuple)
+print(dictionary)
+```
+
 ## ¿Cómo utilizar un diccionario?
 
 Si deseas obtener cualquiera de los valores, debes de proporcionar una clave válida:
