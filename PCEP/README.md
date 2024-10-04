@@ -113,8 +113,8 @@
     * [Ejemplo 4: Números Fibonacci](contenido/unidad14/clase4.md)
     * [Ejemplo 5: Recursividad](contenido/unidad14/clase5.md)
 15. Tuplas y diccionarios
-    * Tipos de datos secuencias y mutabilidad
-    * Tuplas
+    * [Tipos de datos secuencias y mutabilidad](contenido/unidad15/clase1.md)
+    * [Tuplas](contenido/unidad15/clase2.md)
     * Diccionarios
     * Métodos  y funciones de diccionarios
     * Trabajando con tuplas y diccionarios
