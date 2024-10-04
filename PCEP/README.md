@@ -116,8 +116,8 @@
     * [Tipos de datos secuencias y mutabilidad](contenido/unidad15/clase1.md)
     * [Tuplas](contenido/unidad15/clase2.md)
     * [Diccionarios](contenido/unidad15/clase3.md)
-    * [Métodos  y funciones de diccionarios](contenido/unidad15/clase4.md)
-    * Trabajando con tuplas y diccionarios
+    * [Métodos de diccionarios](contenido/unidad15/clase4.md)
+    * Ejemplo con tuplas y diccionarios
 16. Excepciones
     * Errores en la programación
     * Excepciones en Python
