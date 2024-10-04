@@ -126,5 +126,5 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad16/test.md)
     * [Prueba intermedia](contenido/unidad16/prueba.md)
 17. Examen final de curso
-    * Proyecto Final
+    * [Proyecto Final: Juego de tres en raya](contenido/unidad17/proyecto.md)
     * Prueba Final
