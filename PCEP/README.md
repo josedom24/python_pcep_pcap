@@ -115,8 +115,8 @@
 15. Tuplas y diccionarios
     * [Tipos de datos secuencias y mutabilidad](contenido/unidad15/clase1.md)
     * [Tuplas](contenido/unidad15/clase2.md)
-    * Diccionarios
-    * Métodos  y funciones de diccionarios
+    * [Diccionarios](contenido/unidad15/clase3.md)
+    * [Métodos  y funciones de diccionarios](contenido/unidad15/clase4.md)
     * Trabajando con tuplas y diccionarios
 16. Excepciones
     * Errores en la programación
