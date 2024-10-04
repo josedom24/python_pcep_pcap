@@ -121,9 +121,10 @@
 16. Excepciones
     * [Errores en la programación](contenido/unidad16/clase1.md)
     * [Excepciones en Python](contenido/unidad16/clase2.md)
-    * Pruebas de ejecución
-    * Test intermedio: comprueba lo que has aprendido
-    * Prueba intermedia
+    * [Pruebas de ejecución](contenido/unidad16/clase3.md)
+    * Ejemplo de depuración de código
+    * [Test intermedio: comprueba lo que has aprendido](contenido/unidad16/test.md)
+    * [Prueba intermedia](contenido/unidad16/prueba.md)
 17. Examen final de curso
     * Proyecto Final
     * Prueba Final
