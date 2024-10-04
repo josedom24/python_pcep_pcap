@@ -12,6 +12,18 @@ Tenemos dos fuente de errores principalmente:
 Por defecto estos tipos de errores producen que el programa termine mostrando un mensaje de error no muy claro para el usuario, aprenderemos a gestionar estos errores para que el usuario tenga una mejor experiencia.
 * **El código es incorrecto**: Los errores de programación se revela cuando ocurre un comportamiento no deseado del programa debido a errores que se cometieron cuando se estaba escribiendo el código. Este tipo de error se denomina comúnmente **"bug"** (bicho en inglés).
 
+## Errores en Python
+
+En Python, existe una distinción entre dos tipos de errores:
+
+* **Errores de sintaxis**, que ocurren cuando el analizador encuentra una sentencia de código que no es correcta. Por ejemplo:
+
+    ```
+    print("Hola, ¡Mundo!)
+    ```
+    Provoca en error de tipo: `SyntaxError: EOL while scanning string literal`.
+* **Excepciones**, ocurren incluso cuando el código es correcto sintácticamente.una sentencia o expresión es sintácticamente correcta. Estos son los errores que se detectan durante la ejecución, cuando tu código da como resultado un error que no es incondicionalmente fatal.
+
 ## Errores de datos
 
 Escribamos un fragmento de código extremadamente trivial: leerá un número natural (un entero no negativo) e imprimirá su inverso. De esta forma, 2 se convertirá en 0.5 (1/2) y 4 en 0.25 (1/4). Aquí está el programa:
