@@ -60,7 +60,7 @@ except ZeroDivisionError:
 * Sólo se va a ejecutar el `except` de la primera excepción que se produzca. Los demás bloques `excepts` no se ejecutarán.
 * Podemos poner tantos bloques `excepts` como sean necesarios.
 
-## El bloque excpet por defecto
+## El bloque except por defecto
 
 En el ejemplo anterior hemos localizado dos posibles excepciones: `ValueError` y `ZeroDivisionError`, pero no podemos estar totalmente seguros que se pueda producir otra excepción. 
 
@@ -94,3 +94,25 @@ except:
     short_list.depend(3)
     ```
 * **SyntaxError**: Este tipo de error se producen cuando un error sintáctico o gramatical. No se suele manejar porque el programa no funciona con este tipo de errores.
+
+## Cuestionario
+
+1. ¿Cuál es la salida del siguiente programa si el usuario ingresa un 0?
+```
+try:
+    value = int(input("Ingresa un número entero: "))
+    print(value/value)
+except ValueError:
+    print("Entrada incorrecta...")
+except ZeroDivisionError:
+    print("Entrada errónea...")
+except:
+    print("¡Buuuu!")
+```
+
+## Solución cuestionario
+
+1. Pregunta 1
+
+El programa dará como salida: `Entrada errónea...`.
+
