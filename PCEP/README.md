@@ -122,8 +122,6 @@
     * [Errores en la programación](contenido/unidad16/clase1.md)
     * [Excepciones en Python](contenido/unidad16/clase2.md)
     * Pruebas de ejecución
-    * Depuración de programas
-    * Pruebas unitarias
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
 17. Examen final de curso
