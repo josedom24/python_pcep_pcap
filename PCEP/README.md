@@ -119,7 +119,7 @@
     * [Métodos de diccionarios](contenido/unidad15/clase4.md)
     * [Ejemplo con tuplas y diccionarios](contenido/unidad15/clase5.md)
 16. Excepciones
-    * Errores en la programación
+    * [Errores en la programación](contenido/unidad16/clase1.md)
     * Excepciones en Python
     * Capturar más de una excepción
     * Pruebas de ejecución
