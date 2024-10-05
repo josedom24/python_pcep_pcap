@@ -1,13 +1,13 @@
-# Compilación us interpretación
+# Compilación y interpretación
 
 ## Escribir un programa
 
 * Cuando queremos que un ordenador realice un proceso complejo, escribiremos un programa en un lenguaje de programación de alto nivel.
 * El programa debe ser correcto en diferentes niveles:
-    * **Alfabéticamente**: un programa debe estar escrito en un alfabeto reconocible, por ejemplo, Python se escribe en alfabeto latino.
-    * **Léxicamente**: cada lenguaje de programación tiene su diccionario. Afortunadamente es mucho más simple y pequeño que el diccionario de cualquier idioma natural.
-    * **Sintácticamente**: cada lenguaje tiene sus reglas y hay que obedecerlas.
-    * **Semánticamente**:  el programa tiene que tener sentido.
+  * **Alfabéticamente**: un programa debe estar escrito en un alfabeto reconocible, por ejemplo, Python se escribe en alfabeto latino.
+  * **Léxicamente**: cada lenguaje de programación tiene su diccionario. Afortunadamente es mucho más simple y pequeño que el diccionario de cualquier idioma natural.
+  * **Sintácticamente**: cada lenguaje tiene sus reglas y hay que obedecerlas.
+  * **Semánticamente**:  el programa tiene que tener sentido.
 * Al escribir el programa se pueden producir **errores** en cada uno de estos cuatro aspectos.
 * Una vez escrito el programa sin errores, necesitamos **traducir** nuestro programa a código máquina. Afortunadamente, la traducción la puede hacer un programa de ordenador (**traductor**), lo que hace que todo el proceso sea rápido y eficiente. 
 
@@ -35,7 +35,7 @@
 
 * ¿Cuál es mejor? ¿El modelo de "compilación" o el modelo de "interpretación"?
 
-## Compilación vs. Interpretación – Ventajas y Desventajas
+## Compilación e Interpretación – Ventajas y Desventajas
 
 **Compilación**:
 * Ventajas:

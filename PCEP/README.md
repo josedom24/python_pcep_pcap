@@ -3,7 +3,7 @@
 
 1. Introducción a Python y a la programación de ordenadores
     * [Introducción a la programación y a los lenguajes de programación](contenido/unidad01/clase1.md)
-    * [Compilación us interpretación](contenido/unidad01/clase2.md)
+    * [Compilación e interpretación](contenido/unidad01/clase2.md)
     * [Introducción a Python](contenido/unidad01/clase3.md)
     * [Instalación de Python](contenido/unidad01/clase4.md)
     * [Escribir y ejecutar programas Python](contenido/unidad01/clase5.md)
