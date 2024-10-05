@@ -3,7 +3,7 @@
 
 La **recursividad** es una técnica donde una función se llama a si misma.
 
-Tanto el factorial como la serie Fibonacci, son las mejores opciones para ilustrar est técnica,.
+Tanto el factorial como la serie Fibonacci, son las mejores opciones para ilustrar esta técnica,.
 
 ## Cálculo de la serie de Fibonacci de forma recursiva
 

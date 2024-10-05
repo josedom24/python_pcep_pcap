@@ -137,5 +137,5 @@ Lo probaremos con un triángulo rectángulo la mitad de un cuadrado y con un lad
 
 Es extraño pero el código produce la siguiente salida: `0.49999999999999983`.
 
-Esto es debido a cálculo de valores de punto flotantes, que en ocasiones no nos permite reprentar todos los números y nos da un número muy cercano a la respuesta correcta.
+Esto es debido a cálculo de valores de punto flotantes, que en ocasiones no nos permite representar todos los números y nos da un número muy cercano a la respuesta correcta.
 
