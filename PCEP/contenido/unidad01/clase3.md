@@ -44,8 +44,8 @@
 * Lo vemos todos los días y en casi todas partes. 
 * **Servicios de Internet**: motores de búsqueda, almacenamiento en la nube y herramientas, redes sociales, etc. 
 * Muchas **herramientas de desarrollo** se implementan en Python. Cada vez se escriben más aplicaciones de uso diario en Python.
-* Ciencia de datos y análisis
-* Inteligencia artificial y machine learning
+* Ciencia de datos y análisis.
+* Inteligencia artificial y machine learning.
  
 
 ## Cuando no usar Python
