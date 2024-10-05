@@ -38,6 +38,7 @@
 ## Compilación e Interpretación – Ventajas y Desventajas
 
 **Compilación**:
+
 * Ventajas:
     * La ejecución del código traducido suele ser más rápida.
     * Solo el programador debe tener el compilador; el usuario final puede usar el programa sin él.
