@@ -98,7 +98,7 @@ print(6. // 4)
 
 El **resultado de la división entera siempre se redondea al valor entero inferior mas cercano del resultado de la división no redondeada**. Esto es muy importante: **el redondeo siempre va hacia abajo.**
 
-Veamos otr ejemplo:
+Veamos otro ejemplo:
 
 ```
 print(-6 / 4)
