@@ -119,7 +119,7 @@
     * [Diccionarios](contenido/unidad15/clase3.md)
     * [Métodos de diccionarios](contenido/unidad15/clase4.md)
     * [Ejemplo con tuplas y diccionarios](contenido/unidad15/clase5.md)
-    * LABORATORIO - Ejercicios con diccionarios
+    * [LABORATORIO - Ejercicios con diccionarios](contenido/unidad15/clase6.md)
 16. Excepciones
     * [Errores en la programación](contenido/unidad16/clase1.md)
     * [Excepciones en Python](contenido/unidad16/clase2.md)
