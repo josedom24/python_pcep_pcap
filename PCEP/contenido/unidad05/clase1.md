@@ -18,9 +18,9 @@ Comencemos con lo relacionado al nombre de la variable:
 * Las variables no aparecen en un programa automáticamente. Como desarrollador, tu debes decidir cuantas variables deseas utilizar en tu programa.
 * También las debes de nombrarlas.
 * Si se desea nombrar una variable, se deben seguir las siguientes reglas:
-    * El nombre de la variable debe de estar compuesto por MAYÚSCULAS, minúsculas, dígitos, y el carácter `_` (guion bajo).
+    * El nombre de la variable debe de estar compuesto por MAYÚSCULAS, minúsculas, dígitos, y el carácter `_` (guión bajo).
     * El nombre de la variable debe comenzar con una letra.
-    * El carácter guion bajo es considerado una letra.
+    * El carácter guión bajo es considerado una letra.
     * Las mayúsculas y minúsculas se tratan de forma distinta `Alicia` y `ALICIA` son dos variables distintas).
     * El nombre de las variables no pueden ser igual a alguna de las palabras reservadas de Python.
 
