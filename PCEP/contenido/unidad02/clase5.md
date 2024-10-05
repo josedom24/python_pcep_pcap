@@ -32,9 +32,3 @@ No cambies nada en la segunda invocación de print().
 Fundamentos***Programación***en...Python
 ```
 
-## Solución
-
-```
-print("Programming","Essentials","in", sep="***", end="...")
-print("Python")
-```

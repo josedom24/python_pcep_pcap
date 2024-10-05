@@ -29,7 +29,7 @@ print("  *   *")
 print("  *****")
 ```
 
-Recomendamos que juegues con el código que hemos escrito para ti y que realices algunas correcciones (quizás incluso destructivas). Siéntete libre de modificar cualquier parte del código, pero hay una condición: aprende de tus errores y saca tus propias conclusiones.
+Realiza correcciones (quizás incluso destructivas). Siéntete libre de modificar cualquier parte del código, pero hay una condición: aprende de tus errores y saca tus propias conclusiones.
 
 Intenta:
 
@@ -40,70 +40,3 @@ Intenta:
 * Haz lo mismo con algunos de los paréntesis.
 * Cambia cualquiera de las palabras print en otra cosa (por ejemplo de minúscula a mayúscula, Print) - ¿Qué sucede ahora?
 * Reemplaza algunas de las comillas por apóstrofes; observa lo que pasa detenidamente.
-
-## Salida Esperada
-
-```
-Fundamentos***Programación***en...Python
-```
-
-## Solución
-
-```
-# Sample Solution
-
-###################
-print("original version:")
-###################
-print("    *")
-print("   * *")
-print("  *   *")
-print(" *     *")
-print("***   ***")
-print("  *   *")
-print("  *   *")
-print("  *****")
-###################
-print("with fewer 'print()' invocations:")
-###################
-print("    *\n   * *\n  *   *\n *     *\n***   ***")
-print("  *   *\n  *   *\n  *****")
-###################
-print("higher:")
-###################
-print("        *")
-print("       * *")
-print("      *   *")
-print("     *     *")
-print("    *       *")
-print("   *         *")
-print("  *           *")
-print(" *             *")
-print("******     ******")
-print("     *     *")
-print("     *     *")
-print("     *     *")
-print("     *     *")
-print("     *     *")
-print("     *     *")
-print("     *******")
-###################
-print("doubled:")
-###################
-print("        *        "*2)
-print("       * *       "*2)
-print("      *   *      "*2)
-print("     *     *     "*2)
-print("    *       *    "*2)
-print("   *         *   "*2)
-print("  *           *  "*2)
-print(" *             * "*2)
-print("******     ******"*2)
-print("     *     *     "*2)
-print("     *     *     "*2)
-print("     *     *     "*2)
-print("     *     *     "*2)
-print("     *     *     "*2)
-print("     *     *     "*2)
-print("     *******     "*2)
-```
