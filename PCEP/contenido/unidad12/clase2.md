@@ -65,7 +65,7 @@ for fila in tabla:
 ```
 Fíjate que hemos ejecutado una instrucción `print()` que añade un salto de línea cada vez que terminamos de imprimir una fila.
 
-También podríamos usar índices para recorrer una lista. De esta forma podríamos inicializar los valores de una lista bidimensioonal de forma interactiva. Vemos el ejemplo:
+También podríamos usar índices para recorrer una lista. De esta forma podríamos inicializar los valores de una lista bidimensional de forma interactiva. Vemos el ejemplo:
 
 ```
 tabla = []

@@ -59,9 +59,9 @@ print("Hay disponibles",disponibilidad,"habitaciones en el piso 15 del edificio 
 
 La variable `disponibilidad` contiene 0 si todas las habitaciones están ocupadas, o en dado caso el número de habitaciones disponibles.
 
-## Recorrido de listas tridimensioonales
+## Recorrido de listas tridimensionales
 
-Para recorrer todos los elementos de una lista tridimensional, necesitamos tres bucles anidados. En el caso de ejemplod el hotel.
+Para recorrer todos los elementos de una lista tridimensional, necesitamos tres bucles anidados. En el caso del ejemplo del hotel.
 
 ```
 habitaciones = [[[False for r in range(20)] for f in range(15)] for t in range(3)]

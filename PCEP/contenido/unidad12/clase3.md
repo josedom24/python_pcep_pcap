@@ -101,7 +101,7 @@ print("La temperatura más alta fue:", temp_mas_alta)
 
 ## Ejercicio 3: Calcular los días en que las temperatura al mediodía fue menor que 20 ºC
 
-vcamos a realizar un programa que calcule la cantidad de días en que las temperatura al mediodía fue menor que 20 ºC. Veamos el código:
+Vamos a realizar un programa que calcule la cantidad de días en que las temperatura al mediodía fue menor que 20 ºC. Veamos el código:
 
 ```
 import random
@@ -138,7 +138,7 @@ print(dias_calurosos, "fueron los días calurosos.")
 
 En ese caso, necesitaríamos una lista de 3 dimensiones: una para guardar las temperaturas cada hora, otra para guardar los días y otra para guardar los meses.
 
-Gráficamente sería un cubo (3 dimensiones) donde ela lista bidimensional que hemos utilizado se repetiría 12 veces.
+Gráficamente sería un cubo (3 dimensiones) donde la lista bidimensional que hemos utilizado se repetiría 12 veces.
 
 ¿Y si además, quisiéramos guardar la información de cada año?
 
