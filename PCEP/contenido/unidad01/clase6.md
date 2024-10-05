@@ -4,7 +4,7 @@
 
 Ahora es el momento de escribir y ejecutar tu primer programa en Python3. Por ahora, será muy simple.
 
-1. El primer paso es crear un nuevo archivo fuente y llenarlo con el código. Haz clic en *File* en el menú del IDLE y selecciona *New File*.
+1. El primer paso es crear un nuevo archivo fuente para escribir el código fuente. Haz clic en *File* en el menú del IDLE y selecciona *New File*.
 
     ![python3](img/python4.png)
 
