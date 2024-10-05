@@ -2,7 +2,7 @@
 
 ## Programas de ordenador
 
-* Un **programa** hace que un ordenador sea usable. Un ordenador, sin **programa** no puede realizar ninguna operación, no sirve para nada.
+* Un **programa** hace que podamos usar un ordenador. Un ordenador, sin **programa** no puede realizar ninguna operación, no sirve para nada.
 * Para que un ordenador realice un proceso, se le debe suministrar en primer lugar un **algoritmo** adecuado, que llamamos programa.
 * En realidad, un ordenador sólo puede realizar operaciones básicas con números (sumas, restas,...). Estas operaciones la realiza de manera muy rápida y con la posibilidad de repetirlas tanta veces como haga falta.
 
