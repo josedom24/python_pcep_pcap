@@ -45,7 +45,7 @@ print("La longitud de la hipotenusa es:", hypo)
 
 Veamos a una segunda versión de este programa. Observa, que la variable `hypo` se usa con un solo propósito: guardar el valor calculado para posteriormente imprimirlo en pantalla.
 
-Debido a que la función `print()` acepta uel paso de varios argumentos, se puede **quitar la variable del código**:
+Debido a que la función `print()` acepta el paso de varios argumentos, se puede **quitar la variable del código**:
 
 ```
 leg_a = float(input("Inserta la longitud del primer cateto: "))

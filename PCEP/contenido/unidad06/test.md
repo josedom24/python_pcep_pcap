@@ -17,7 +17,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en to
 3. La diferencia importante entre los números enteros y los números flotantes es que:
 
     * Los enteros no pueden ser literales mientras los flotantes si.
-    * Mo pueden ser utilizados simultáneamente.
+    * No pueden ser utilizados simultáneamente.
     * Se almacenan de manera diferente en la memoria de la computadora.
 
 4. El prefijo 0x significa que el número que le precede es:
@@ -28,7 +28,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en to
 
 5. El operador //:
 
-    * Mo existe.
+    * No existe.
     * Realiza una división entera.
     * Realiza una división regular.
 
