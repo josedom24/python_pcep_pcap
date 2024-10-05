@@ -71,7 +71,7 @@ Volvemos a iniciar la depuración y nos desplazamos a la instrucción con el Bre
 
 ![debug](img/debug08.png)
 
-Vemos el valor de todas las variables, y ahora, como hemos indicado anteriormente, si elegimos la opción *Step* veríamos cómo se ejecuta paso a paso las instrucciones del cuerpo de la función, y si elegimos la opción *Over* se ejcutaría esta instrucción y pasaría a la siguiente.
+Vemos el valor de todas las variables, y ahora, como hemos indicado anteriormente, si elegimos la opción *Step* veríamos cómo se ejecuta paso a paso las instrucciones del cuerpo de la función, y si elegimos la opción *Over* se ejecutaría esta instrucción y pasaría a la siguiente.
 
 Por último indicar que si estás ejecutando paso a paso instrucciones del cuerpo de un función, puedes elegir la opción *Out* para salir de la función y seguir ejecutando la siguiente instrucción.
 

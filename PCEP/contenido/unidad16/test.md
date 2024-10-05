@@ -1,6 +1,6 @@
 # Test intermedio
 
-El siguiente test se basa en lo que acabas de aprender. Hay code preguntas en total y debes obtener al menos un 70 % para aprobar.
+El siguiente test se basa en lo que acabas de aprender. Hay doce preguntas en total y debes obtener al menos un 70 % para aprobar.
 
 1. La definición de una función comienza con la palabra reservada:
 
@@ -41,7 +41,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay code preguntas en to
 7. Una variable definida fuera de una función: 
 
     * Puede ser accedida libremente desde dentro de la función
-    * Puede sere leída pero no sobrescrita (se requiere algo más para poder realizar esto)
+    * Puede ser leída pero no sobrescrita (se requiere algo más para poder realizar esto)
     * No puede ser accedida desde dentro de una función
 
 8. Si una lista es pasada como argumento a una función, el eliminar cualquiera de sus elementos dentro de la función empleado la instrucción `del`:

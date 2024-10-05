@@ -206,7 +206,7 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 22 preguntas en to
     * `def fun(a=b=0):`
     * `def fun(a=0, b=0):`
 
-15. Selecciona las sentencia true sobre el bloque try-except en relación con el siguiente ejemplo. (Selecciona dos respuestas).
+15. Selecciona las sentencia verdadera sobre el bloque `try-except` en relación con el siguiente ejemplo. (Selecciona dos respuestas).
 
     ```
     try:

@@ -13,7 +13,7 @@ except:
 
 Tenemos dos bloques:
 
-* **try**: este es el lugar donde se coloca el código que se sospecha que puede causar un error o excepción. Se puede decidir que hay que iran las instrucciones que pueden potenciar generar una excepción.
+* **try**: este es el lugar donde se coloca el código que se sospecha que puede causar un error o excepción. Se puede decidir que hay que irán las instrucciones que pueden potenciar generar una excepción.
 * **except**: esta parte fue diseñada para manejar la excepción. Estas instrucciones se ejecutan cuando se produce la excepción, podremos hacer varias cosas: mostrar un mensaje de error, cambiar el valor de una variable,...  Lo importante es que el programa no se detiene.
 
 Como puedes ver, este enfoque acepta errores (los trata como una parte normal de la vida del programa) en lugar de intensificar los esfuerzos para evitarlos por completo.
@@ -35,11 +35,11 @@ Podemos resumir:
 
 * Cualquier fragmento de código colocado entre `try` y `except` se ejecuta de una manera muy especial: cualquier error que ocurra en las instrucciones en el bloque `try` no terminará la ejecución del programa. En cambio, el control saltará inmediatamente a la primera línea situada después de la palabra clave reservada `except`, y no se ejecutará ninguna otra línea del bloque `try`.
 * El código en el bloque `except` se activa solo cuando se ha encontrado una excepción dentro del bloque `try`. No hay forma de llegar por ningún otro medio.
-* Cuando el bloque `try` o `except` se ejecutan con éxito, el control continúa en la siguiente línea del proograma de forma secuencial.
+* Cuando el bloque `try` o `except` se ejecutan con éxito, el control continúa en la siguiente línea del programa de forma secuencial.
 
 ## Trabajar con varias excepciones
 
-El programa anterior además de la excepción `ValueError` producida cuando introducimos un dato que no se puede convertir a entero, peuede producir otro error si introducimos el 0, e intentamos dividir por él. en este caso se introduce la excepción `ZeroDivisionError`.
+El programa anterior además de la excepción `ValueError` producida cuando introducimos un dato que no se puede convertir a entero, puede producir otro error si introducimos el 0, e intentamos dividir por él. en este caso se introduce la excepción `ZeroDivisionError`.
 
 Si tenemos posibilidad de varias excepciones, seguramente que remos tratar cada una de ellas de forma diferente, es decir ejecutar bloques `except` diferentes para cada una de ella.
 

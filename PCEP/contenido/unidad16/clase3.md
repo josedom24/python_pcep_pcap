@@ -55,7 +55,7 @@ Otra técnica para intentar evitar que un programa tenga errores es la **depurac
 
 Un **depurador** es un software especializado que puede controlar cómo se ejecuta tu programa. Con el depurador, puedes ejecutar tu código línea por línea, inspeccionar todos los estados de las variables y cambiar sus valores en cualquier momento sin modificar el código fuente, detener la ejecución del programa cuando se cumplen o no ciertas condiciones, y hacer muchas otras tareas útiles.
 
-Cualquier IDE que utilizamos tiene un depurador incorporado. IDELE también tiene un depurador que podemos activar con la opción *Debug*. En el siguiente aprtado veremos un ejemplo de depurtación con IDELE.
+Cualquier IDE que utilizamos tiene un depurador incorporado. IDELE también tiene un depurador que podemos activar con la opción *Debug*. En el siguiente apartado veremos un ejemplo de depuración con IDELE.
 
 ## Depuración por impresión
 
@@ -71,7 +71,7 @@ Veamos un ejemplo, donde queremos imprimir la suma de los números guardados en 
 lista = [3, 5, 7, 8]
 suma=0
 for num in lista:
-    print(num) # Quiero saber que valor va tomando la variable de control del bucle
+    print(num) # Quiero saber que valor va tomando la variable de control  bucle
     suma += num
     print(suma) # Quiero saber que valor se va acumulando en la variable suma
 print(suma)
