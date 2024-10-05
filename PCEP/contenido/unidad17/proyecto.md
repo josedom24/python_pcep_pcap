@@ -160,7 +160,7 @@ Implementa las siguientes características:
     ```
 ## Plantilla
 
-
+```
 def MostrarTablero(tablero):
 # La función acepta un parámetro el cual contiene el estado actual del tablero
 # y lo muestra en la consola.
@@ -179,5 +179,4 @@ def VictoriaPara(tablero, signo):
 
 def DibujaMovimiento(tablero):
 # La función dibuja el movimiento de la máquina y actualiza el tablero.
-
-    
+```
