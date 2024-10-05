@@ -36,7 +36,7 @@ print(largest)
 
 ## Ejemplo 2
 
-Vamos a realizar un programa que encuentre lam posición de un elemento dentro de una lista. 
+Vamos a realizar un programa que encuentre la posición de un elemento dentro de una lista. 
 
 ```
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

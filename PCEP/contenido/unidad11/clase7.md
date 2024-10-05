@@ -25,7 +25,7 @@ Con la ejecución de este bucle tendríamos bien colocado el elemento más grand
     * Al principio la inicializamos a `False` indicando que no hay intercambios.
     * Si se produce algún intercambio la ponemos a `True`.
     Si al final del bucle la variable sigue valiendo `False` significa que no ha habido ningún intercambio y significa que la lista está ordenada.
-    * El primer bucle, que nos permite repetir el proceso, se volverá a jecutar si la variable `swapped` es `True` ya que todavía no se ha ordenado de forma completa la lista.
+    * El primer bucle, que nos permite repetir el proceso, se volverá a ejecutar si la variable `swapped` es `True` ya que todavía no se ha ordenado de forma completa la lista.
     * Como veremos en este programa necesitamos ejecutar un bucle dentro de otro, a esta estructura la llamamos **anidamiento de bucles**.
 
 
