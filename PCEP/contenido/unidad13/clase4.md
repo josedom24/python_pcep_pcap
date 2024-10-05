@@ -70,7 +70,7 @@ sumar(1, 2, 3)
 
 Dará como salida: `1 + 2 + 3 = 6`.
 
-Hemos usado pel paso de argumentos por posicional, pero también podemos usar el paso de argumentos por palabra clave:
+Hemos usado el paso de argumentos por posicional, pero también podemos usar el paso de argumentos por palabra clave:
 
 ```
 sumar(c = 1, a = 2, b = 3)

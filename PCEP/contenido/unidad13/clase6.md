@@ -31,7 +31,7 @@ La llamada a la función podría ser:
 print(list_sum([5, 4, 3]))
 ```
 
-Internamente la función recorre la lista recibida, por lo tanto si no mnadmos una lista como argúmento:
+Internamente la función recorre la lista recibida, por lo tanto si no mandamos una lista como argumento:
 
 ```
 print(list_sum(5))

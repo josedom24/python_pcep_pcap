@@ -42,7 +42,7 @@ Se producirá un error del tipo: `TypeError: mensaje() missing 1 required positi
 
 ## Paso de parámetros en las funciones
 
-El valor del argumento utilizado durante la invocación (en nuestro ejemplo, `5`) ha sido pasado a la función, dándole un valor inicial al parámetro con el nombre de number.
+El valor del argumento utilizado durante la invocación (en nuestro ejemplo, `5`) ha sido pasado a la función, dándole un valor inicial al parámetro con el nombre de `number`.
 Es posible tener una variable con el mismo nombre del parámetro de la función.
 
 El siguiente código muestra un ejemplo de esto:
