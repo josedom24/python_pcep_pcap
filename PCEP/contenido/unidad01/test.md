@@ -34,7 +34,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en to
 
 6. ¿Qué es CPython?
 
-    * Es otro nombre para Cython, un superconjunto del lenguaje de programación Pythhon
+    * Es otro nombre para Cython, un superconjunto del lenguaje de programación Python
     * La implementación por defecto del lenguaje de programación Python
     * Un lenguaje compilado utilizado para realizar funciones de programación de alto nivel.
 

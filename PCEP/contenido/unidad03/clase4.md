@@ -26,15 +26,3 @@ Escribe una sola línea de código, utilizando la función `print()`, así como 
 ""aprendiendo""
 """Python"""
 ```
-
-## Solución
-
-```
-print("\"Estoy\"\n\"\"aprendiendo\"\"\n\"\"\"Python\"\"\"")
-```
-
-o
-
-```
-print('"Estoy"\n""aprendiendo""\n"""Python"""')
-```

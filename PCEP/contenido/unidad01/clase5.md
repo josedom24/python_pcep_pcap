@@ -42,8 +42,8 @@ IDLE es un acrónimo de: **Integrated Development and Learning Environment (Desa
     ```
     sudo apt install idle
     ```
-* Para usarios de macOS pueden seguir este [enlace](https://www.python.org/download/mac/tcltk/) para su instalación: 
+* Para usuarios de macOS pueden seguir este [enlace](https://www.python.org/download/mac/tcltk/) para su instalación: 
 
-Ejecuta ela aplicación IDLE en tu sistema operativo, y debería aparecer una pantalla parecida a esta:
+Ejecuta la aplicación IDLE en tu sistema operativo, y debería aparecer una pantalla parecida a esta:
 
 ![python3](img/python3.png)
