@@ -30,7 +30,7 @@ Para escribir un fichero con el código fuente de nuestro programa tenemos varia
 
 En este curso vamos usar un IDE llamado **IDLE** que tiene las siguientes características:
 
-* **Multiplataforma**: funciona en su mayoría igual en Windows, Unix y macOS.
+* **Multiplataforma**: funciona de manera similar en Windows, Linux y macOS.
 * **La ventana del interprete de Python** (interprete interactivo) con coloreado de código de entrada, salida y mensajes de error
 * **Editor de texto multiventana**: con identación automática, coloreado del código, ayuda, autocompletado, ...
 * **Depurador** capaz de ejecutar tu código paso a paso y te permite inspeccionarlo en cada momento de su ejecución.
