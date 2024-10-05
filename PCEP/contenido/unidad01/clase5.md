@@ -12,7 +12,7 @@ Al instalar python3 el ejecutable del interprete lo podemos ejecutar `python3`:
     >>> 
     ```
 
-    En este interprete podemos escribir instrucciones Python y veremos el resultado de se ejecución.
+En este interprete podemos escribir instrucciones Python y veremos el resultado de se ejecución.
 
 
 ## A partir de un fichero con el código fuente
