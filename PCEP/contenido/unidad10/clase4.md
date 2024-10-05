@@ -92,7 +92,7 @@ for i in range(5):
 print(my_list)
 ```
 
-Comprueba que el siguiente código noos devuelve el mismo resultado:
+Comprueba que el siguiente código nos devuelve el mismo resultado:
 
 
 ```
