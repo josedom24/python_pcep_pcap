@@ -166,7 +166,7 @@ Primero, considera el caso donde la instrucción colocada después del if es otr
 
 El ejemplo podría ser el siguiente: 
 
-Si hay buen clima, saldremos a caminar. Si encontramos un buen restaurante, almorzaremos allí. De lo contrario, vamos a comer un sandwich. Si hay mal clima, iremos al cine. Si no hay boletos, iremos de compras al centro comercial más cercano.
+Si hay buen clima, saldremos a caminar. Si encontramos un buen restaurante, almorzaremos allí. De lo contrario, vamos a comer un sándwich. Si hay mal clima, iremos al cine. Si no hay boletos, iremos de compras al centro comercial más cercano.
 
 Escribamos lo mismo en Python. Considera cuidadosamente el código siguiente:
 
