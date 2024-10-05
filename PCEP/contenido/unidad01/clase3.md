@@ -65,7 +65,7 @@ A pesar de la creciente popularidad de Python, todavía existen algunos nichos e
 * Python 3 no es solo una versión mejorada de Python 2, es un lenguaje completamente diferente, aunque es muy similar a su predecesor. 
 * Si estás modificando una solución de Python existente, entonces es muy probable que esté codificada en Python 2. Esta es la razón por la que Python 2 todavía está en uso. 
 * Si se va a comenzar un nuevo proyecto de Python, deberías usar Python 3, esta es la versión de Python que se usará durante este curso.
-* Es importante recordar que puede haber diferencias mayores o menores entre las siguientes versiones de Python 3 (p. Ej., Python 3.6 introdujo claves de diccionario ordenadas de forma predeterminada en la implementación de CPython). La buena noticia es que todas las versiones más nuevas de Python 3 son compatibles con las versiones anteriores de Python 3. 
+* Es importante recordar que puede haber diferencias mayores o menores entre las siguientes versiones de Python 3. La buena noticia es que todas las versiones más nuevas de Python 3 son compatibles con las versiones anteriores de Python 3. 
 * Todos los ejemplos de código que encontrarás durante el curso se han probado con Python 3.4, Python 3.6, Python 3.7, Python 3.8 y Python 3.9.
 * Actualmente (Septiembre de 2024) la última versión de Python es la 3.12.
 

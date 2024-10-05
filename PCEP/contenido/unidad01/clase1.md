@@ -15,7 +15,7 @@
 
 * Estos pasos forman el **algoritmo** para resolver el **problema**, el **algoritmo** lo tendremos que traducir a un lenguaje que entienda el ordenador y crear un **programa**, para ello utilizamos distintos lenguajes a los que llamamos **lenguajes de programación**.
 
-## Lenguajes naturales vs lenguajes de programación
+## Lenguajes naturales y lenguajes de programación
 
 ### Lenguaje natural
 
@@ -39,7 +39,7 @@ Podemos decir que cada lenguaje (máquina o natural, no importa) consta de los s
 * Una **sintaxis**: conjunto de reglas (formales o informales, escritas o interpretadas intuitivamente) utilizadas para precisar si una determinada cadena de palabras forma una oración válida.
 * Una **semántica**: Conjunto de reglas que determinan si una frase tiene sentido.
 
-## Lenguaje máquina vs. lenguaje de alto nivel
+## Lenguaje máquina y lenguaje de alto nivel
 
 * Podemos usar el **lenguaje máquina** para comunicarnos directamente con el ordenador.
 * Pero, el **lenguaje máquina** está muy lejos del **lenguaje natural**, y tanto su léxico, como su sintaxis y semántica es complicada para el ser humano.
