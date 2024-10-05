@@ -17,7 +17,7 @@ En este interprete podemos escribir instrucciones Python y veremos el resultado 
 
 ## A partir de un fichero con el código fuente
 
-Si tenemos nuestro programa en un fichero fuente (suele tener extensión `py`), por ejemplo `programa.py`,lo ejecutaríamos de la siguiente manera.
+Si tenemos nuestro programa en un fichero fuente (suele tener extensión `py`), por ejemplo `programa.py`, lo ejecutaríamos de la siguiente manera.
 	
 	$ python3 programa.py
 
