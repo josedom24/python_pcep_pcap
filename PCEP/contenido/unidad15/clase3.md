@@ -28,7 +28,7 @@ print(empty_dictionary)
 * La lista de todos los pares es encerrada con **llaves**, mientras que los pares son separados por **comas**, y las claves y valores por **dos puntos**.
 * Los diccionarios vacíos son construidos por un par vacío de llaves.
 * El diccionario entero se puede imprimir con una invocación a la función `print()`. 
-* Al imprimir el diccionario puede que el orden de los pares sa distinto al de su asignación. Hay que recordar que los diccionarios no son listas, no guardan el orden de sus datos, el orden no tiene significado.
+* Al imprimir el diccionario puede que el orden de los pares sea distinto al de su asignación. Hay que recordar que los diccionarios no son listas, no guardan el orden de sus datos, el orden no tiene significado.
 
 ## Conversión a diccionarios
 
