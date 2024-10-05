@@ -90,6 +90,7 @@
     * [Listas de dos dimensiones](contenido/unidad12/clase2.md)
     * [Ejemplo con listas de dos dimensiones](contenido/unidad12/clase3.md)
     * [Listas multidimensionales](contenido/unidad12/clase4.md)
+    * LABORATORIO - Ejercicios con listas
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad12/test.md)
     * [Prueba intermedia](contenido/unidad12/prueba.md)
 13. Introducción a las funciones
@@ -118,6 +119,7 @@
     * [Diccionarios](contenido/unidad15/clase3.md)
     * [Métodos de diccionarios](contenido/unidad15/clase4.md)
     * [Ejemplo con tuplas y diccionarios](contenido/unidad15/clase5.md)
+    * LABORATORIO - Ejercicios con diccionarios
 16. Excepciones
     * [Errores en la programación](contenido/unidad16/clase1.md)
     * [Excepciones en Python](contenido/unidad16/clase2.md)
