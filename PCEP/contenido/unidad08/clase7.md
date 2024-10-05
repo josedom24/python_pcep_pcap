@@ -74,7 +74,7 @@ for letra in palabra_usuario:
 
 ## Mejora
 
-Vamos a mejorar el *Devorados de voacles*. Modifica el programa anterior para que no vaya escribiendo cada letra, sino que las asigne a la variable `palabra_sin_vocales` e imprime la variable en la pantalla.
+Vamos a mejorar el *Devorador de vocales*. Modifica el programa anterior para que no vaya escribiendo cada letra, sino que las asigne a la variable `palabra_sin_vocales` e imprime la variable en la pantalla.
 
 Utiliza esta plantilla para empezar:
 
