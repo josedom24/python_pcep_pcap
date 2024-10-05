@@ -90,7 +90,7 @@
     * [Listas de dos dimensiones](contenido/unidad12/clase2.md)
     * [Ejemplo con listas de dos dimensiones](contenido/unidad12/clase3.md)
     * [Listas multidimensionales](contenido/unidad12/clase4.md)
-    * LABORATORIO - Ejercicios con listas
+    * [LABORATORIO - Ejercicios con listas](contenido/unidad12/clase5.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad12/test.md)
     * [Prueba intermedia](contenido/unidad12/prueba.md)
 13. Introducción a las funciones
