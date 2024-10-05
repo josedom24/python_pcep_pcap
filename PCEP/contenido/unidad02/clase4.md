@@ -20,7 +20,7 @@ Al ejecutar el código aparecerá el siguiente texto:
 La Araña Witsi Witsi subió a su telaraña.
 ```
 
-Es decir, las cadenas de caracterés que indicamos en cada argumentos se escriben en pantalla separadas por un espacio.
+Es decir, las cadenas de caracteres que indicamos en cada argumentos se escriben en pantalla separadas por un espacio.
 
 ## Argumentos posicionales
 

@@ -4,7 +4,7 @@
 
 Python entiende que un número es entero como un conjunto de dígitos sin ningún otro signo diferente a un número. Si queremos representar el número *once millones ciento once mil ciento once*, para Python la forma correcta sería `11111111`. Nosotros podríamos representarlos cómo: `11,111,111`, o así: `11.111.111`, incluso de esta manera: `11 111 111`, pero todas estas formas serían erróneas para Python.
 
-Es claro que la separación hace que sea más fácil de leer, especialmente cuando el número tiene demasiados dígitos. Python permite el uso de guion bajo en los literales numéricos.
+Es claro que la separación hace que sea más fácil de leer, especialmente cuando el número tiene demasiados dígitos. Python permite el uso de guión bajo en los literales numéricos.
 
 Por lo tanto, el número se puede escribir ya sea así: `11111111`, o como sigue: `11_111_111`. Está última forma se puede hacer desde la versión 2.6 de Python para mejorar la legibilidad.
 

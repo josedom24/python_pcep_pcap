@@ -39,7 +39,7 @@ print()
 print("Vino la lluvia\n y se la llevó.")
 ```
 
-Para Pythón `\n` es un sólo carácter. La barra invertida (`\`) tiene un significado muy especial cuando se usa dentro de cadenas, se llama **carácter de escape**, es decir, la serie de caracteres en la cadena se escapa por un momento para introducir una inclusión especial. Es una especie de anuncio de que el siguiente carácter después de la barra invertida también tiene un significado diferente.
+Para Python `\n` es un sólo carácter. La barra invertida (`\`) tiene un significado muy especial cuando se usa dentro de cadenas, se llama **carácter de escape**, es decir, la serie de caracteres en la cadena se escapa por un momento para introducir una inclusión especial. Es una especie de anuncio de que el siguiente carácter después de la barra invertida también tiene un significado diferente.
 
 La letra `n` colocada después de la barra invertida proviene de la palabra *newline*. Tanto la barra invertida como la `n` forman un símbolo especial llamado *un carácter de nueva línea*, que insta a la consola a iniciar una nueva línea de salida.
 
