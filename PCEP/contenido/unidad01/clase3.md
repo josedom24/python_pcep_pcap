@@ -46,9 +46,9 @@
 * Muchas **herramientas de desarrollo** se implementan en Python. Cada vez se escriben más aplicaciones de uso diario en Python.
 * Ciencia de datos y análisis.
 * Inteligencia artificial y machine learning.
-* Modelado 3D (FreeCAD,...)
-* Aplicaciones de Oficina (Calibre,...)
-* Aplcacione móviles
+* Modelado 3D.
+* Aplicaciones de Oficina.
+* Aplcaciones móviles.
 * [Y muchas más...](https://wiki.python.org/moin/Applications)
 
 ## Versiones de Python
@@ -72,8 +72,9 @@
 * **CPython**:
     *  Mantenido desde la **PSF ([Python Software Foundation](https://www.python.org/psf-landing/))**, una comunidad que tiene como objetivo desarrollar, mejorar, expandir y popularizar Python y su entorno. 
     * Se suele llamar Python canónico. 
-    * También se consideran Pythons de referencia, ya que cualquier otra implementación del lenguaje debe seguir todos los estándares establecidos por el PSF.
-    * Guido van Rossum utilizó el lenguaje de programación "C" para implementar la primera versión de su lenguaje y esta decisión aún está vigente. Todos los Pythons que provienen del PSF están escritos en el lenguaje "C". Existen muchas razones para este enfoque. Una de ellas (probablemente la más importante) es que gracias a ello, Python puede ser portado y migrado fácilmente a todas las plataformas con la capacidad de compilar y ejecutar programas en lenguaje "C" (virtualmente todas las plataformas tienen esta característica, lo que abre mucha expansión y oportunidades para Python).
+    * También se consideran el Python de referencia, ya que cualquier otra implementación del lenguaje debe seguir todos los estándares establecidos por el PSF.
+    * Guido van Rossum utilizó el lenguaje de programación "C" para implementar la primera versión de su lenguaje y esta decisión aún está vigente. 
+    * Por esta razón Python puede ser portado y migrado fácilmente a todas las plataformas con la capacidad de compilar y ejecutar programas en lenguaje "C" (virtualmente todas las plataformas tienen esta característica, lo que abre mucha expansión y oportunidades para Python).
 * **Cython**:
     * Cython es una implementación más eficiente que CPython.
     * Los cálculos matemáticos grandes y complejos pueden ser fácilmente codificados en Python (mucho más fácil que en "C" o en cualquier otro lenguaje tradicional), pero la ejecución del código resultante puede requerir mucho tiempo.
