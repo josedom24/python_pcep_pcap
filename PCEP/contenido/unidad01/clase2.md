@@ -1,4 +1,4 @@
-# Compilación y interpretación
+# Compilación e interpretación
 
 ## Escribir un programa
 
@@ -16,26 +16,21 @@
 * Hay dos formas diferentes de transformar un programa de un lenguaje de programación de alto nivel a un lenguaje de máquina (dos tipos de traductores):
     * **Compilación**: 
         * El programa fuente se traduce una vez (si se modifica hay que volver a traducirlo). 
+        * Sii se encuentran errores se informarán de los mismos y no se genera fichero ejecutable.
         * Se genera un fichero ejecutable con el código máquina que podemos ejecutar en distintos ordenadores del mismo tipo. 
         * El fichero generado depende del tipo de ordenador y sistema operativo (si compilamos para Windows sólo funciona en este sistema operativo).
         * El programa que realiza la compilación se denomina **compilador**.
     * **Interpretación**: 
+        * Lee el programa (código fuente) de una archivo de **texto plano**.
         * Se traduce el programa línea por línea.
         * Se debe traducir el código fuente cada vez que vamos a ejecutar el programa.
         * Por lo tanto, es necesario tener el archivo fuente.
         * El programa que realiza la interpretación se denomina **interprete**.
         * En el ordenador donde se ejecute el programa necesitamos tener un interprete.
+        * Si el traductor encuentra algún error, dependiendo del tipo, puede abortar la ejecución desde el principio, o informar del error cuando llega a la línea donde se ha producido.
+        * El interprete informará de donde ha encontrado el error. En ocasiones el lugar y la causa del error no se indican de forma correcta, ya que el error se ha causado en instrucciones anteriores.
 
-## ¿Qué hace el intérprete?
-
-1. Tenemos el programa (código fuente) escrito es un archivo fuente de **texto plano**.
-2. El interprete traducirá y ejecutará el programa línea por línea.
-3. Si el traductor encuentra algún error, dependiendo del tipo, puede abortar la ejecución desde el principio, o informar del error cuando llega a la línea donde se ha producido.
-4. El intérprete te informará dónde se encuentra el error y qué lo causó. En determinadas ocasiones, tenemos que tener en cuenta que el lugar y la causa del error no se determinan de forma correcta, ya que se pueden estar causadas en instrucciones posteriores.
-
-* ¿Cuál es mejor? ¿El modelo de "compilación" o el modelo de "interpretación"?
-
-## Compilación e Interpretación – Ventajas y Desventajas
+## Ventajas y Desventajas
 
 **Compilación**:
 
