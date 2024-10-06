@@ -1,6 +1,22 @@
 # Fundamentos de Python 2
 ## Curso de preparación para el examen PCAP – Certified Associate Python Programmer
 
+1. Introducción a los módulos en Python
+2. Módulos estándares en Python
+3. Módulos y paquetes
+4. Instalador de paquetes de python PIP
+5. Cadenas de caracteres 
+6. Operaciones con cadenas de caracteres
+7. Ejemplos de programas trabajando con cadenas de caracteres
+8. Excepciones: Gestionando errores de programación
+9. Introducción a la Programación Orientada a Objetos
+10. Propiedades y métodos
+11. Herencia de clases
+12. Las excepciones son clases
+13. Generadores, iteradores y cierres
+14. Trabajando con ficheros
+15. Módulos de sistema: os, datetime, calendar
+16. Prueba final
 
 
 1. Introducción al curso **Fundamentos de Python 2**
