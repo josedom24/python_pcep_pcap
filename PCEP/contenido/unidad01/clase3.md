@@ -46,14 +46,10 @@
 * Muchas **herramientas de desarrollo** se implementan en Python. Cada vez se escriben más aplicaciones de uso diario en Python.
 * Ciencia de datos y análisis.
 * Inteligencia artificial y machine learning.
- 
-
-## Cuando no usar Python
-
-A pesar de la creciente popularidad de Python, todavía existen algunos nichos en los que Python está ausente o rara vez se ve:
-
-* **Programación de bajo nivel** (a veces llamada programación "cercana al metal"): si deseas implementar un controlador o motor gráfico extremadamente efectivo, no se usaría Python.
-* **Aplicaciones para dispositivos móviles**: este territorio aún está a la espera de ser conquistado por Python, lo más probable es que suceda algún día.
+* Modelado 3D (FreeCAD,...)
+* Aplicaciones de Oficina (Calibre,...)
+* Aplcacione móviles
+* [Y muchas más...](https://wiki.python.org/moin/Applications)
 
 ## Versiones de Python
 
