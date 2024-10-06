@@ -16,7 +16,7 @@
 * Hay dos formas diferentes de transformar un programa de un lenguaje de programación de alto nivel a un lenguaje de máquina (dos tipos de traductores):
     * **Compilación**: 
         * El programa fuente se traduce una vez (si se modifica hay que volver a traducirlo). 
-        * Sii se encuentran errores se informarán de los mismos y no se genera fichero ejecutable.
+        * Si se encuentran errores se informarán de los mismos y no se genera fichero ejecutable.
         * Se genera un fichero ejecutable con el código máquina que podemos ejecutar en distintos ordenadores del mismo tipo. 
         * El fichero generado depende del tipo de ordenador y sistema operativo (si compilamos para Windows sólo funciona en este sistema operativo).
         * El programa que realiza la compilación se denomina **compilador**.
