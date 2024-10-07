@@ -4,7 +4,7 @@ Podemos ejecutar código python de varia maneras:
 
 ## Uso del interprete
 
-Al instalar python3 el ejecutable del interprete lo podemos ejecutar `python3`:
+Al instalar python3 el ejecutable del interprete lo podemos ejecutar de la siguiente manera:
 
     ```
 	$ python3

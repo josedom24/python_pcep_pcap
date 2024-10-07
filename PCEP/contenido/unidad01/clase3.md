@@ -51,6 +51,8 @@
 * Aplicaciones móviles.
 * [Y muchas más...](https://wiki.python.org/moin/Applications)
 
+No es conveniente su uso, en programación de bajo nivel (a veces llamada programación "cercana al metal"): si deseas implementar un controlador o motor gráfico extremadamente efectivo, no se usaría Python.
+
 ## Versiones de Python
 
 * Existen dos versiones principales de Python, llamados **Python 2 y Python 3**.
