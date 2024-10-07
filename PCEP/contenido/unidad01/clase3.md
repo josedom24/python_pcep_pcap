@@ -5,7 +5,7 @@
 * Python es un lenguaje de programación de alto nivel, interpretado, orientado a objetos y de uso generalizado con semántica dinámica, que se utiliza para la programación de propósito general.
 * El nombre no proviene de un tipo de serpiente, proviene de una vieja serie de comedia de la BBC llamada **Monty Python's Flying Circus**.
 * Python es el trabajo de una persona. Por lo general, los grandes lenguajes de programación son desarrollados y publicados por grandes compañías que emplean a muchos profesionales.
-* Python fue creado por [**Guido van Rossum**](https://en.wikipedia.org/wiki/Guido_van_Rossumhttps://en.wikipedia.org/wiki/Guido_van_Rossum), nacido en 1956 en Haarlem, Países Bajos. 
+* Python fue creado por [**Guido van Rossum**](https://en.wikipedia.org/wiki/Guido_van_Rossum), nacido en 1956 en Haarlem, Países Bajos. 
 * El éxito de Python se debe al trabajo de una gran comunidad de desarrolladores.
 
 ## Los objetivos de Python
@@ -48,7 +48,7 @@
 * Inteligencia artificial y machine learning.
 * Modelado 3D.
 * Aplicaciones de Oficina.
-* Aplcaciones móviles.
+* Aplicaciones móviles.
 * [Y muchas más...](https://wiki.python.org/moin/Applications)
 
 ## Versiones de Python

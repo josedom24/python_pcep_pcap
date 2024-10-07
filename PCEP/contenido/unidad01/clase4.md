@@ -4,7 +4,7 @@ Existen varias formas de obtener tu propia copia de Python 3, dependiendo del si
 
 ## Linux
 
-Es probable que los usuarios de Linux tengan Python ya instalado. Esto es debido, que muchas de la utilidades y comandos que utilizamos en Linux están escritas con Python.
+Es probable que los usuarios de Linux tengan Python ya instalado. Esto es debido a que muchas de la utilidades y comandos que utilizamos en Linux están escritos con Python.
 
 Para comprobar que tienes Python instalado, ejecuta desde la terminal el siguiente comando:
 
@@ -22,7 +22,7 @@ Todos los usuarios que no sean de Linux pueden descargar una copia en [https://w
 
 ## Cómo descargar, instalar y configurar Python
 
-* Debido a que el navegador le dice al sitio web al que se ingresó, el sistema operativo que se utiliza, el único paso que se debe seguir es hacer clic en la versión de Python que se desea.
+* La página de descarga detecta el sistema operativo que tenemos instalado, lo único que tenemos que hacer es descargar la versión que deseamos.
 * En este caso, selecciona Python 3. El sitio siempre te ofrece la última versión.
 * Si eres un usuario de Windows, utiliza el archivo .exe descargado y sigue todos los pasos.
 * Deja las configuraciones predeterminadas que el instalador sugiere por ahora, con una excepción: observa la casilla de verificación denominada **Agregar Python 3.x a PATH y selecciónala**.
