@@ -41,7 +41,7 @@ Python ofrece otro mecanismo para el paso de argumentos: **argumentos por palabr
 
 La función `print()` tiene dos argumentos por palabra clave que puedes usar para tus propósitos. 
 
-### Parámetro end
+### Argumento end
 
 El primero se llama `end`. Para ver cómo funciona escribe este código:
 
@@ -63,7 +63,7 @@ Mi nombre es Python. Monty Python.
 
 Como puedes ver, el argumento por palabra clave `end` determina los caracteres que la función `print()` envía a la salida una vez que llega al final de sus argumentos posicionales. El comportamiento predeterminado refleja la situación en la que el argumento por palabra clave `end` se usa implícitamente de la siguiente manera: `end="\n"`.
 
-### Parámetro sep
+### Argumento sep
 
 Dijimos anteriormente que la función `print()` separa sus argumentos de salida con espacios. Este comportamiento también se puede cambiar. El argumento por palabra clave que puede hacer esto se denomina `sep` (como en separador).
 
