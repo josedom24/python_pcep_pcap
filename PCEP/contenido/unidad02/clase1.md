@@ -2,7 +2,7 @@
 
 Vamos a escribir nuestro primer programa muy sencillo.
 
-Para ello puede usar el IDLE: crea un nuevo archivo fuente de Python, coloca este código, nombra el archivo y guárdalo. Ahora ejecútalo. Si todo sale bien, verás el texto contenido entre comillas en la ventana de la consola IDLE. 
+Para ello podemos usar el IDLE: crea un nuevo archivo fuente de Python, coloca este código, nombra el archivo y guárdalo. Ahora ejecútalo. Si todo sale bien, verás el texto contenido entre comillas en la ventana de la consola IDLE. 
 
 El código que tienes que escribir es:
 
@@ -23,7 +23,7 @@ Este programa esta compuesto por una instrucción con los siguientes elementos:
 
 La palabra `print` es un nombre de una **función**. 
 
-Las funciones de Python son similares a las funciones matemáticas, sin embargo, son más flexibles y pueden tener más características que las funciones matemática.
+Las funciones de Python son similares a las funciones matemáticas, sin embargo, son más flexibles y pueden tener más características que las funciones matemáticas.
 
 Una función en python es un código fuente independiente de nuestro programa, el cual es capaz de:
 
@@ -34,7 +34,7 @@ Además, muchas de las funciones de Python pueden hacer las dos cosas anteriores
 
 ¿Dónde pueden estar definidas las funciones?
 
-* **Pueden estar definidas en Python por defecto**. La función `print` es una de este tipo. Esta función está integrada con Python. Son conocidas también como funciones predefinidas, y la podemos usar cuando queramos. Python 3.7.1 viene con 69 funciones incorporadas. Puedes encontrar su lista completa en orden alfabético en [Python Standard Library](https://docs.python.org/3.7/library/functions.html).
+* **Pueden estar definidas en Python por defecto**. La función `print` es una de este tipo. Esta función está integrada con Python. Son conocidas también como **funciones predefinidas**, y la podemos usar cuando queramos. Python 3.7.1 viene con 69 funciones incorporadas. Puedes encontrar su lista completa en orden alfabético en [Python Standard Library](https://docs.python.org/3.7/library/functions.html).
 * **Pueden provenir de uno o varios de los módulos de Python** llamados complementos o librerías; algunos de los módulos vienen con Python, otros pueden requerir una instalación por separado. Para utilizar estas funciones hay que indicar la librería donde se encuentran.
 * **Puedes escribirlas tú mismo**, colocando tantas funciones como desees y necesites dentro de tu programa para hacerlo más simple, claro y elegante.
 
@@ -44,7 +44,7 @@ Si vas a utilizar alguna función ya existente, no podrás modificar su nombre, 
 
 ## Argumentos de funciones
 
-Al utilizar una función (a esto lo llamamos **llamar o invocar a una función**) podemos indicarle algún dato que llamamos **argumentos o parámetros**. Estos serán necesarios para causar algún efecto o devolver alguna información.
+Al utilizar una función (a esto lo llamamos **llamar o invocar a una función**) podemos indicarle algún dato que llamamos **argumentos**. Estos serán necesarios para causar algún efecto o devolver alguna información.
 
 Una función puede recibir varios argumentos, según los datos que necesite para realizar su tarea. En ocasiones, es posible, que la función no reciba ningún argumento.
 
@@ -68,8 +68,8 @@ print("¡Hola, Mundo!")
 
 ¿Qué sucede cuando Python encuentra una invocación de una función?
 
-1. Python comprueba si el nombre especificado es **legal** (explora sus datos internos para encontrar una función existente del nombre; si esta búsqueda falla, Python aborta el código).
-2. Python comprueba si los requisitos de la función para el número de argumentos **le permiten invocar** la función de esta manera (por ejemplo, si una función específica exige exactamente dos argumentos, cualquier invocación que entregue solo un argumento se considerará errónea y abortará la ejecución del código).
+1. Python comprueba si el nombre especificado es **legal** (explora sus datos internos para encontrar una función con ese nombre; si esta búsqueda falla, Python aborta el código).
+2. Python comprueba si el número de argumentos que hemos indicado, **permiten invocar** a la función(por ejemplo, si una función específica exige exactamente dos argumentos, cualquier invocación que entregue solo un argumento se considerará errónea y abortará la ejecución del código).
 3. **Python deja el código por un momento** y salta dentro de la función que se desea invocar; por lo tanto, también toma los argumentos y los pasa a la función.
 4. La función **ejecuta el código**, provoca el efecto deseado (si lo hubiera), evalúa el (los) resultado(s) deseado(s) y termina la tarea.
 5. Python regresa al código (al lugar inmediatamente después de la invocación) y reanuda su ejecución.
