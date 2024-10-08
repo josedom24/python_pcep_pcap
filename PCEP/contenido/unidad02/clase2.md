@@ -15,7 +15,7 @@ Muy fácil
 
 ## Escenario
 
-El comando `print()`, el cual es una de las directivas más sencillas de Python, simplemente imprime una línea de texto en la pantalla.
+El comando `print()`, el cual es una de las funciones más sencillas de Python, simplemente imprime una línea de texto en la pantalla.
 
 En tu primer laboratorio:
 
