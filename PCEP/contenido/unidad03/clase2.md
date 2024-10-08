@@ -53,7 +53,7 @@ En Python para dividir la parte entera y decimal se utiliza **el punto**. Ejempl
     * El valor `0.5` se puede escribir como `.5`.
     * El valor `5.0` puede ser escrito como: `5.`
 
-### Enteros frente a Flotantes
+### Enteros frente a flotantes
 
 El **punto** decimal es esencialmente importante para reconocer números punto-flotantes en Python.
 
@@ -79,7 +79,7 @@ Nota:
 * El exponente (el valor después de la `E`) debe ser un valor entero.
 * La base (el valor antes de la `E`) puede o no ser un valor entero.
 
-### Codificando Flotantes
+### Codificando números flotantes
 
 Veamos ahora como almacenar números que son muy pequeños (en el sentido de que están muy cerca del cero).
 
@@ -90,7 +90,6 @@ Si se quisiera utilizar en un programa, se debería escribir de la siguiente man
 El hecho de que se haya escogido una de las posibles formas de codificación de un valor flotante no significa que Python lo presentará de la misma manera.
 
 Python podría en ocasiones elegir una notación diferente.
-
 
 Por ejemplo, supongamos que se ha elegido utilizar la siguiente notación:
 
