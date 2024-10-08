@@ -48,7 +48,8 @@ Si ejecutas el código, la salida se debería mostrar así:
 ```
 La Araña Witsi Witsi
 subió a su telaraña.
- 
+
+
 Vino la lluvia
 y se la llevó. 
 ```
@@ -59,5 +60,5 @@ Esta convención tiene dos consecuencias importantes:
     ```
     print("\\")
     ```
-2. No todos los pares de escape (la barra invertida junto con otro carácter) significan algo.
+2. No todos los pares de escape (la barra invertida junto con otro carácter) significan algo. Por ejemplo, `\t` inserta una tabulación.
 
