@@ -65,7 +65,7 @@ Como puedes ver, el argumento por palabra clave `end` determina los caracteres q
 
 ### Argumento sep
 
-Dijimos anteriormente que la función `print()` separa sus argumentos de salida con espacios. Este comportamiento también se puede cambiar. El argumento por palabra clave que puede hacer esto se denomina `sep` (como en separador).
+Dijimos anteriormente que la función `print()` separa sus argumentos de salida con espacios. Este comportamiento también se puede cambiar. El argumento por palabra clave que puede hacer esto se denomina `sep`.
 
 Veamos el siguiente código:
 
