@@ -126,6 +126,9 @@ current_velocity_mph ≤ 85  # Menor o igual que
     ```
 
     La Variables `answer` es de **tipo lógica o booleana**, y contiene dos posible valores: o `True` o `False`.
+    ```
+    type(answer)
+    ```
 
 2. Es más conveniente y mucho más común utilizar la respuesta que obtengas para tomar una decisión sobre el futuro del programa. Para ello, necesitamos una instrucción especial que estudiaremos a continuación.
 
