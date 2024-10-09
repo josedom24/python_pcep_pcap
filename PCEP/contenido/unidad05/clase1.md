@@ -13,54 +13,37 @@ Python nos permite guardar los resultados, para ello podemos usar "cajas" (conte
 * Un nombre.
 * Un valor (el contenido del contenedor).
 
-Comencemos con lo relacionado al nombre de la variable:
-
-* Las variables no aparecen en un programa automáticamente. Como desarrollador, tu debes decidir cuantas variables deseas utilizar en tu programa.
-* También las debes de nombrarlas.
-* Si se desea nombrar una variable, se deben seguir las siguientes reglas:
-    * El nombre de la variable debe de estar compuesto por MAYÚSCULAS, minúsculas, dígitos, y el carácter `_` (guión bajo).
-    * El nombre de la variable debe comenzar con una letra.
-    * El carácter guión bajo es considerado una letra.
-    * Las mayúsculas y minúsculas se tratan de forma distinta `Alicia` y `ALICIA` son dos variables distintas).
-    * El nombre de las variables no pueden ser igual a alguna de las palabras reservadas de Python.
-
 ## Nombres correctos e incorrectos de variables
 
-Python no impone restricciones en la longitud de los nombres de las variables, pero eso no significa que un nombre de variable largo sea mejor que uno corto.
+Comencemos con lo relacionado al nombre de la variable:
 
-Aquí se muestran algunos nombres de variable que son correctos, pero que no siempre son convenientes:
+* El programa define las variables que necesita y su nombre.
+* Si se desea nombrar una variable, se deben seguir las siguientes reglas:
+    * El nombre de la variable debe de estar compuesto por MAYÚSCULAS, minúsculas, dígitos, y el carácter `_` (guión bajo).
+    * Python permite utilizar no solo las letras latinas, sino caracteres específicos de otros idiomas que utilizan otros alfabetos.
+    * El nombre de la variable debe comenzar con una letra.
+    * El carácter guión bajo es considerado una letra.
+    * Las mayúsculas y minúsculas se tratan de forma distinta `Alicia` y `ALICIA` son dos variables distintas.
+    * El nombre de las variables no pueden ser igual a alguna de las palabras reservadas de Python. 
+        * Las **palabras clave** o  **palabras reservadas** corresponde a las distintas instrucciones que podemos usar en Python. Algunas de ellas son:
+            ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+* Los nombres de las variables deben mejorar la claridad del código indicando que dato se guarda en dicha variable.
 
-```
-MiVariable, i, t34, Tasa_Cambio, contador, dias_para_navidad, ElNombreEsTanLargoQueSeCometeranErroresConEl, _.
-```
-
-Además, Python permite utilizar no solo las letras latinas, sino caracteres específicos de otros idiomas que utilizan otros alfabetos.
-
-Estos nombres de variables también son correctos:
-
-```
-Adiós_Señora, sûr_la_mer, Einbahnstraße, переменная.
-```
-
-Ahora veamos algunos nombres incorrectos:
-
-`10t` (no comienza con una letra), `Tasa Cambio` (contiene un espacio)
-
-Nota: PEP 8 -- Style Guide for Python Code recomienda la siguiente convención de nomenclatura para variables y funciones en Python:
-
+La guía de estilo para código python (**PEP 8, Style Guide for Python Code**) recomienda la siguiente convención de nomenclatura para variables y funciones en Python:
+ 
 * Los nombres de las variables deben estar en minúsculas, con palabras separadas por guiones bajos para mejorar la legibilidad (por ejemplo: `var`, `mi_variable`).
 * Los nombres de las funciones siguen la misma convención que los nombres de las variables (por ejemplo: `fun`, `mi_función`).
 * También es posible usar letras mixtas (por ejemplo: `miVariable`), pero solo en contextos donde ese ya es el estilo predominante, para mantener la compatibilidad retroactiva con la convención adoptada.
 
-## Palabras Clave
+## Tipo de datos de una variable
 
-Observa las palabras que juegan un papel muy importante en cada programa de Python.
+Una variables es un identificador que referencia a un valor. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
 
+```bash
+var = 5
+type(var)
+<class 'int'>
+var = "hola"
+type(var)
+<class 'str'>
 ```
-['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
-```
-
-Son llamadas **palabras clave** o (mejor dicho) **palabras reservadas**. Son reservadas porque no se deben utilizar como nombres: ni para variables, ni para funciones, ni para cualquier otra cosa que se desee crear.
-
-
-

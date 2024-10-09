@@ -28,15 +28,3 @@ Tu tarea es:
 * Imprime el valor almacenado en `total_manzanas` en la consola.
 * Experimenta con tu código: crea nuevas variables, asigna diferentes valores a ellas, y realiza varias operaciones aritméticas con ellas (por ejemplo, `+`, `-`, `*`, `/`, `//`, etc.). Intenta poner una cadena con un entero juntos en la misma línea, por ejemplo, `"Número Total de Manzanas:"` y `total_manzanas`.
 
-## Resultado Esperado
-
-```
-juan = 3
-maria = 5
-adan = 6
-
-print(juan, maria, adan, sep=',')
-
-total_manzanas = juan + maria + adan
-print(total_manzanas)
-```

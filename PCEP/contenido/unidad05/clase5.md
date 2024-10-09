@@ -15,7 +15,7 @@ Intermedio
 
 ## Escenario
 
-La tarea es completar el código para poder evaluar la siguiente expresión: 
+La tarea es completar el código para poder calcular la siguiente expresión: 
 
 ![operación](img/operacion.png)
 

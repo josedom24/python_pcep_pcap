@@ -17,7 +17,7 @@ Si se desea colocar un comentario que abarca varias líneas, se debe colocar est
 Justo como el siguiente código:
 
 ```
-# Esta programa calcula la hipotenusa (c)
+# Este programa calcula la hipotenusa (c)
 # a y b son las longitudes de los catetos
 a = 3.0
 b = 4.0
