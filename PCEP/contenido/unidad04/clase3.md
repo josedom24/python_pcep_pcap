@@ -2,19 +2,16 @@
 
 ## Operadores y sus prioridades
 
-Hasta ahora, se ha tratado cada operador como si no tuviera relación con los otros. Obviamente, dicha situación tan simple e ideal es muy rara en la programación real. Lo normal es encontrar en una expresión varios operadores, por ejemplo:
+Hasta ahora, se ha tratado cada operador como si no tuviera relación con los otros. Obviamente, dicha situación tan simple e ideal es muy rara en la programación real. Lo normal es encontrar en una **expresión** varios operadores, por ejemplo:
 
 ```
 2 + 3 * 5
 ```
 
-Probablemente recordarás de la escuela que las multiplicaciones preceden a las sumas, por lo tanto,  primero se debe multiplicar 3 por 5, mantener el 15 en tu memoria y después sumar el 2, dando como resultado el 17.
+Probablemente recordarás de la escuela que las multiplicaciones preceden a las sumas, por lo tanto,  primero se debe multiplicar 3 por 5, mantener el 15 en tu memoria y después sumar el 2, dando como resultado el 17. Esto es lo que llamamos **jerarquía de operadores u orden de prioridad de operadores**:
 
-El fenómeno que causa que algunos operadores actúen antes que otros es conocido como la **jerarquía de operadores o orden de prioridad de operadores**.
-
-Python define la jerarquía de todos los operadores, y asume que los operadores de mayor jerarquía deben realizar sus operaciones antes que los de menor jerarquía.
-
-Entonces, si se sabe que la `*` tiene una mayor prioridad que la `+`, el resultado final debe de ser obvio.
+* Python define la jerarquía de todos los operadores, y asume que los operadores de mayor jerarquía deben realizar sus operaciones antes que los de menor jerarquía.
+* Por ejemplo, si la `*` tiene una mayor prioridad que la `+`, se debe calcular primero la multiplicación y luego la suma.
 
 ## Asociatividad de operadores
 
@@ -51,14 +48,13 @@ Ejecuta el código, ¿Qué es lo que observas? El resultado muestra claramente q
 
 ## Lista de prioridades
 
-Como eres nuevo a los operadores de Python, no se presenta por ahora una lista completa de las prioridades de los operadores. En lugar de ello, se mostrarán solo algunos, y se irán expandiendo conforme se vayan introduciendo operadores nuevos. Tabla de prioridades:
+Como eres nuevo a los operadores de Python, no se presenta por ahora una lista completa de las prioridades de los operadores. En lugar de ello, se mostrarán solo algunos, y se irán expandiendo conforme se vayan introduciendo operadores nuevos. Tabla de prioridades **de la más alta (1) a la más baja (4) prioridad**:
 
 1. `+`,`-` (unarios)
 2. `**`
 3. `*`,`/`,`//`,`%`
 4. `+`,`-` (binarios)
 
-Nota: se han enumerado los operadores en orden **de la más alta (1) a la más baja (4) prioridad**.
 
 Intenta solucionar la siguiente expresión:
 
@@ -70,11 +66,11 @@ Ambos operadores (`*` y `%`) tienen la misma prioridad, el resultado solo se pue
 
 ## Operadores y paréntesis
 
-Por supuesto, se permite hacer uso de paréntesis, lo cual cambiará el orden natural del cálculo de la operación.
+Por supuesto, se permite hacer **uso de paréntesis**, lo cual cambiará el orden natural del cálculo de la operación.
 
-De acuerdo con las reglas aritméticas, las sub-expresiones dentro de los paréntesis siempre se calculan primero.
+De acuerdo con las reglas aritméticas, **las sub-expresiones dentro de los paréntesis siempre se calculan primero**.
 
-Se pueden emplear tantos paréntesis como se necesiten, y seguidos son utilizados para mejorar la legibilidad de una expresión, aun si no cambian el orden de las operaciones.
+Se pueden emplear tantos paréntesis como se necesiten, además aunque no cambien el orden de las operaciones se pueden usar para mejorar la legibilidad de una expresión.
 
 Un ejemplo de una expresión con múltiples paréntesis es la siguiente:
 

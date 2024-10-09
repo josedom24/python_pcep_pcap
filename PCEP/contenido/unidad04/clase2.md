@@ -13,27 +13,19 @@ print(-4. + 8)
 
 El símbolo del operador de **resta** es obviamente `-` (el signo de menos), sin embargo debes notar que este operador tiene otra función: **puede cambiar el signo de un número**.
 
-Esta es una gran oportunidad para mencionar una distinción muy importante entre **operadores unarios y binarios**.
+Por lo tanto, el operador `-`puede ser  un **operador unario o binario**.
 
-En aplicaciones de resta, el operador de resta espera dos argumentos: el izquierdo (un minuendo en términos aritméticos) y el derecho (un sustraendo).
+* Cuando **el operador se usa para restar**: el operador espera dos argumentos: el izquierdo (un minuendo en términos aritméticos) y el derecho (un sustraendo). Por esta razón, el operador de resta es considerado uno de los **operadores binarios**, así como los demás operadores de suma, multiplicación y división.
+* Pero cuando es **usado para indicar que el número es negativo**, el **operador es unario**. Por cierto: también hay un **operador `+` unario** para indicar que un número es positivo, aunque no la solemos utilizar.
 
-Por esta razón, el operador de resta es considerado uno de los operadores binarios, así como los demás operadores de suma, multiplicación y división.
-
-Pero el operador negativo puede ser utilizado de una forma diferente, observa la ultima línea de código del siguiente fragmento:
+Ejemplos:
 
 ```
 print(-4 - 4)
 print(4. - 8)
 print(-1.1)
-```
-
-Por cierto: también hay un **operador `+` unario**. Se puede utilizar de la siguiente manera:
-
-```
 print(+2)
 ```
-
-El operador conserva el signo de su único argumento, el de la derecha. Aunque dicha construcción es sintácticamente correcta, utilizarla no tiene mucho sentido, y sería difícil encontrar una buena razón para hacerlo.
 
 ## Multiplicación
 
@@ -50,10 +42,6 @@ print(2. * 3.)
 
 Un símbolo de `/` (diagonal) es un operador de **división**.
 
-El valor después de la diagonal es el dividendo, el valor antes de la diagonal es el divisor.
-
-
-
 ```
 print(6 / 3)
 print(6 / 3.)
@@ -61,18 +49,17 @@ print(6. / 3)
 print(6. / 3.)
 ```
 
-Deberías de poder observar que hay una excepción a la regla.
-
-El resultado producido por el operador de división **siempre es flotante**, sin importar si a primera vista el resultado es flotante: `1 / 2`, o si parece ser completamente entero: `2 / 1`.
-
-**La división entre cero no funciona**, produce un error. Esto es aplicable a este operador y a los dos próximos.
+* El valor después de la diagonal es el dividendo, el valor antes de la diagonal es el divisor.
+* El resultado producido por el operador de división **siempre es flotante**, sin importar si a primera vista el resultado es flotante: `1 / 2`, o si parece ser completamente entero: `2 / 1`.
+* **La división entre cero no funciona**, produce un error. Esto es aplicable a este operador y a los dos próximos.
 
 ## División entera
 
-Un símbolo de `//` (doble diagonal) es un operador de **división entera**. En este caso **el resultado carece de la parte fraccionaria**:
-* Está ausente cuando hago una división entera entre enteros. 
-* O siempre es igual a cero para divisiones enteras cuando uno de los operandos es flotante. 
-* Esto significa que los resultados siempre son redondeados.
+Un símbolo de `//` (doble diagonal) es un operador de **división entera**. 
+* En este caso **el resultado carece de la parte fraccionaria**.
+* El resultado es **entero** cuando hago una división entera entre enteros. 
+* O la **parte fraccionaria es cero** para divisiones enteras cuando uno de los operandos es flotante. 
+* Esto significa que los resultados siempre son **redondeados**.
 
 Ejemplos:
 
@@ -115,11 +102,9 @@ La división entera también se le suele llamar en inglés **floor division**.
 
 ## Residuo (Módulo)
 
-El siguiente operador es uno muy peculiar, porque no tiene un equivalente dentro de los operadores aritméticos tradicionales.
-
-Su representación gráfica en Python es el símbolo de `%` (porcentaje), lo cual puede ser un poco confuso.
-
-El resultado de la operación es el residuo (el resto) que queda de la división entera. En otras palabras, es el valor que sobra después de dividir un valor entre otro para producir un resultado entero.
+* El siguiente operador es uno muy peculiar, porque no tiene un equivalente dentro de los operadores aritméticos tradicionales.
+* Su representación gráfica en Python es el símbolo de `%` (porcentaje), lo cual puede ser un poco confuso.
+* El resultado de la operación es el **residuo (el resto)** que queda de la división entera. En otras palabras, es el valor que sobra después de dividir un valor entre otro para producir un resultado entero.
 
 
 Veamos un ejemplo:
@@ -158,6 +143,3 @@ print(2. ** 3.)
 
 * Cuando la base y el exponente son enteros, el resultado es entero también.
 * Cuando al menos, la base o el exponente es flotante, el resultado también es flotante.
-
-
-    

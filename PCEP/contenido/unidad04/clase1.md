@@ -2,9 +2,7 @@
 
 ## Python como una calculadora
 
-Ahora, se va a mostrar un nuevo lado de la función `print()`. Ya se sabe que la función es capaz de mostrar los valores de los literales que le son pasados por los argumentos.
-
-De hecho, puede hacer algo más. Observa el siguiente fragmento de código:
+En este aparatado vamos a estudiar otra funcionalidad de la función `print()`: además de mostrar literales, `printf()` es capaz de mostrar el resultado de expresiones:
 
 ```
 print(2 + 2)
