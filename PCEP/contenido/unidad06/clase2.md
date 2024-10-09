@@ -1,6 +1,5 @@
 # Conversión de datos (casting)
 
-
 Python ofrece dos funciones para convertir a un tipo de dato y resolver este problema, aquí están: `int()` y `float()`.
 
 Sus nombres indican cual es su función:
@@ -8,7 +7,7 @@ Sus nombres indican cual es su función:
 * La función `int()` toma un argumento (por ejemplo, una cadena: *int(string)*) e intenta convertirlo a un valor entero; si llegase a fallar, el programa entero fallará también (existe una manera de solucionar esto, se explicará mas adelante).
 * La función `float()` toma un argumento (por ejemplo, una cadena: *float(string)*) e intenta convertirlo a flotante.
 
-Esto es muy simple y muy efectivo. Sin embargo, estas funciones se pueden invocar directamente pasando el resultado de la función `input()` directamente. No hay necesidad de emplear variables como almacenamiento intermedio.
+Estas funciones se pueden utilizar directamente pasando el resultado de la función `input()` directamente. No hay necesidad de emplear variables como almacenamiento intermedio.
 
 Veamos un ejemplo:
 

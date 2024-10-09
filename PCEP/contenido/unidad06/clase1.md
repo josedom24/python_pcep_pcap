@@ -2,12 +2,7 @@
 
 ## La función input()
 
-Vamos a introducir una nueva función, que parece opuesta a la función `pint()`. ¿Por qué?
-
-* Como hemos estudiado, `print()` envía datos a la consola.
-* Nuestra nueva función obtiene datos de ella.
-
-La función se llama `input()`, y es capaz de leer datos que fueron introducidos por el usuario y pasar esos datos al programa en ejecución. Por lo tanto, esta función devuelve datos que vamos a utilizar en nuestro programa, consiguiendo que el programa pueda manipular los datos, haciendo que el código sea verdaderamente interactivo.
+La función `input()` nos permite leer datos que fueron introducidos por el usuario y pasar esos datos al programa en ejecución. Por lo tanto, esta función devuelve datos que vamos a utilizar en nuestro programa, consiguiendo que el programa pueda manipular los datos, haciendo que el código sea verdaderamente interactivo.
 
 La mayoría de los programas leen y procesan datos. Veamos un ejemplo:
 

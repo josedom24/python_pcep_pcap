@@ -58,8 +58,6 @@ print(("|" + " " * 10 + "|\n") * 5, end="")
 print("+" + 10 * "-" + "+")
 ```
 
-Nota como se ha utilizado el paréntesis en la segunda línea de código. ¡Intenta practicar para crear otras figuras o tus propias obras de arte!.
-
 ## Conversión de tipos de datos: str()
 
 A estas alturas ya sabes como emplear las funciones `int()` y `float()` para convertir una cadena a un número.
