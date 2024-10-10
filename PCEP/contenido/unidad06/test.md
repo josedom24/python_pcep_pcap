@@ -4,7 +4,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en to
 
 1. El carácter de escape le debe su nombre a que...
 
-    * Escapa el archivo fuente hacia la memoria de la computadora.
+    * Escapa el archivo fuente hacia la memoria del ordenador.
     * Cambia el significado del carácter junto a él.
     * No puede ser atrapado debido a su alta velocidad.
 
@@ -18,7 +18,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en to
 
     * Los enteros no pueden ser literales mientras los flotantes si.
     * No pueden ser utilizados simultáneamente.
-    * Se almacenan de manera diferente en la memoria de la computadora.
+    * Se almacenan de manera diferente en la memoria del ordenador.
 
 4. El prefijo 0x significa que el número que le precede es:
 
@@ -44,7 +44,7 @@ El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en to
     * Ninguna de las anteriores.
     * La multiplicación precede a la suma.
 
-8. LA asociatividad hacia la derecha significa que la siguiente expresión `1 ** 2 ** 3` será evaluada:
+8. La asociatividad hacia la derecha significa que la siguiente expresión `1 ** 2 ** 3` será evaluada:
 
     * En orden aleatorio.
     * De derecha a izquierda.

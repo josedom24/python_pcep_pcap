@@ -14,7 +14,7 @@ Familiarizar al estudiante con:
 
 * Utilizar el bucle `while`.
 * Encontrar la implementación adecuada de reglas definidas verbalmente.
-* Reflejar situaciones de la vida real en código de computadora.
+* Reflejar situaciones de la vida real en código de ordenador.
 
 ## Escenario
 
