@@ -10,8 +10,11 @@ Para tomar tales decisiones, Python ofrece una instrucción especial. Debido a s
 
 La primera forma de una instrucción condicional, que puede ver a continuación, está escrita de manera muy informal pero figurada:
 ```
-if true_or_not:
-    do_this_if_true
+if <expresión condicional>:
+    instrucción 1
+    instrucción 2
+    instrucción 3
+    ...
 ```
 
 Esta instrucción condicional consta de los siguientes elementos, estrictamente necesarios en este orden:
@@ -21,14 +24,14 @@ Esta instrucción condicional consta de los siguientes elementos, estrictamente 
 * Una expresión condicional (una pregunta o una respuesta) cuyo valor se interpretar únicamente en términos de `True`  y `False` .
 * Unos dos puntos seguido de una nueva línea.
 * Una instrucción con **sangría** o un conjunto de instrucciones (se requiere absolutamente al menos una instrucción); la sangría se puede lograr de dos maneras: 
-    * insertando un número particular de espacios (la recomendación es usar cuatro espacios de sangría), 
+    * insertando un número de espacios (la recomendación es usar cuatro espacios de sangría), 
     * o usando el tabulador; 
     * nota: si hay mas de una instrucción en la parte con sangría, la sangría debe ser la misma en todas las líneas; aunque puede parecer lo mismo si se mezclan tabuladores con espacios, es importante que todas las sangrías sean exactamente iguales Python 3 no permite mezclar espacios y tabuladores para la sangría.
 
 ¿Cómo funciona esta instrucción?
 
-* Si la expresión *true_or_not* representa la verdad (es decir, su valor es `True`), las instrucción con sangría se ejecutarán.
-* Si la expresión *true_or_not* no representa la verdad (es decir, su valor es `False`), las instrucciones con sangría se omitirán , y la siguiente instrucción ejecutada será la siguiente al nivel de la sangría original.
+* Si la expresión condicional representa la verdad (es decir, su valor es `True`), las instrucciones con sangría se ejecutarán.
+* Si la expresión condicional no representa la verdad (es decir, su valor es `False`), las instrucciones con sangría se omitirán, y la siguiente instrucción ejecutada será la siguiente al nivel de la sangría original.
 
 ### Ejemplo 1
 
@@ -100,10 +103,14 @@ Veamos un ejemplo:
 Python nos permite expresar dichos planes alternativos. Esto se hace con una segunda forma, ligeramente mas compleja, de la instrucción condicional, la instrucción `if-else`:
 
 ```
-if true_or_false_condition:
-    perform_if_condition_true
+if <expresión condicional>:
+    instrucción 1
+    instrucción 2
+    ...
 else:
-    perform_if_condition_false
+    instrucción 3
+    instrucción 4
+    ...
 ```
 
 Por lo tanto, hay una nueva palabra clave reservada: **else**.
@@ -112,8 +119,8 @@ La parte del código que comienza con `else` dice que hacer si no se cumple la c
 
 La ejecución de `if-else` es la siguiente:
 
-* Si la condición se evalúa como `True`, la instrucción `perform_if_condition_true` se ejecuta, y la instrucción condicional llega a su fin.
-* Si la condición se evalúa como `False`, la instrucción `perform_if_condition_false` se ejecuta, y la instrucción condicional llega a su fin.
+* Si la condición se evalúa como `True`, las instrucciones 1 y 2,... se ejecutan, y la instrucción condicional llega a su fin.
+* Si la condición se evalúa como `False`, las instrucciones 3 y 4,... se ejecutan, y la instrucción condicional llega a su fin.
 
 ### Ejemplo 2
 
@@ -182,12 +189,12 @@ else:
 
 Aquí hay dos puntos importantes:
 
-* Este uso de la instrucción if se conoce como **anidamiento**; recuerda que cada `else` se refiere al `if` que se encuentra en el mismo nivel de sangría; se necesita saber esto para determinar cómo se relacionan los `if` y los `else`.
+* Este uso de la instrucción `if` se conoce como **anidamiento**; recuerda que cada `else` se refiere al `if` que se encuentra en el mismo nivel de sangría; se necesita saber esto para determinar cómo se relacionan los `if` y los `else`.
 * Considera como la sangría mejora la legibilidad y hace que el código sea más fácil de entender y rastrear.
 
 ## La instrucción elif
 
-El segundo caso especial presenta otra nueva palabra clave de Python: **elif**. Como probablemente sospechas, es una forma más corta de `else-if`.
+El segundo caso especial presenta otra nueva palabra clave de Python: **elif**, que es una forma más corta de `else-if`.
 
 `elif` se usa para verificar más de una condición, y para detener cuando se encuentra la primera instrucción verdadera.
 
@@ -205,7 +212,7 @@ elif tickets_are_available:
 elif table_is_available:
     go_for_lunch()
 else:
-    play_chess_at_home(
+    play_chess_at_home()
 ```
 
 La forma de ensamblar las siguientes instrucciones `if-elif-else` a veces se denomina **cascada**.
