@@ -148,9 +148,9 @@ La siguiente tabla ilustra cómo funcionan los operadores de comparación, asumi
 
 |Operador |	Descripción |Ejemplo|
 |----------|----------|----------|
-|== 	|Devuelve True si los valores de los operandos son iguales, y False de lo contrario.| x == y  # False <br> x == z  # True|
-|!= 	|Devuelve True si los valores de los operandos no son iguales, y False de lo contrario.|x != y  # True <br> x != z  # False|
-|> 	    |Devuelve True si el valor del operando izquierdo es mayor que el valor del operando derecho, y False de lo contrario.|x > y  # False <br> y > z  # True|
-|< 	    | Devuelve True si el valor del operando izquierdo es menor que el valor del operando derecho, y False de lo contrario.| x < y  # True <br> y < z  # False |
-|≥ 	    | Devuelve True si el valor del operando izquierdo es mayor o igual al valor del operando derecho, y False de lo contrario.| x >= y  # False <br> x >= z  # True <br> y >= z  # True|
-|≤ 	    | Devuelve True si el valor del operando izquierdo es menor o igual al valor del operando derecho, y False de lo contrario. | x <= y  # True <br> x <= z  # True <br> y <= z  # False |
+|== 	|Devuelve True si los valores son iguales, y False de lo contrario.| x == y  # False <br> x == z  # True|
+|!= 	|Devuelve True si los valores no son iguales, y False de lo contrario.|x != y  # True <br> x != z  # False|
+|> 	    |Devuelve True si el primer valor es mayor que el valor del segundo, y False de lo contrario.|x > y  # False <br> y > z  # True|
+|< 	    | Devuelve True si el primer valor es menor que el valor del segundo, y False de lo contrario.| x < y  # True <br> y < z  # False |
+|≥ 	    | Devuelve True si el primer valor es mayor o igual al valor del segundo, y False de lo contrario.| x >= y  # False <br> x >= z  # True <br> y >= z  # True|
+|≤ 	    | Devuelve True si el primer valor es menor o igual al valor del segundo, y False de lo contrario. | x <= y  # True <br> x <= z  # True <br> y <= z  # False |
