@@ -216,9 +216,9 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 22 preguntas en to
     ```
 
     * [ ] Si sospechas que un fragmento de código puede generar una excepción, se debe colocar dentro del bloque `try`.
-    * [ ] Si existe un error de sintaxis en el código ubicado en el bloque `try`, la sentencia `except` no lo manejará, y una excepción `SyntaxError` será generada.
-    * [ ] El código que sigue a la sentencia `try` será ejecutado si el código dentro de la sentencia `except` se encuentra con un error.
-    * [ ] El código que sigue a la sentencia `except` será ejecutado si el código en el bloque `try` se encuentra con un error.
+    * [ ] Si existe un error de sintaxis en el código ubicado en el bloque `try`, la instrucción `except` no lo manejará, y una excepción `SyntaxError` será generada.
+    * [ ] El código que sigue a la instrucción `try` será ejecutado si el código dentro de la instrucción `except` se encuentra con un error.
+    * [ ] El código que sigue a la instrucción `except` será ejecutado si el código en el bloque `try` se encuentra con un error.
 
 16. ¿Cuál es la salida del siguiente fragmento de código?
 

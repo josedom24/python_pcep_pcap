@@ -4,7 +4,7 @@
 
 
 
-Las estructuras repetitivas o bucles nos permiten repetir un conjunto de instrucciones. En concreto el bucle `while` permite repetir un conjunto de instrucciones mientras se cumpla una condición. En lenguaje natural sería parecida a esta sentencia:
+Las estructuras repetitivas o bucles nos permiten repetir un conjunto de instrucciones. En concreto el bucle `while` permite repetir un conjunto de instrucciones mientras se cumpla una condición. En lenguaje natural sería parecida a esta instrucción:
 
 ```
 mientras ocurra algo
@@ -26,7 +26,7 @@ while <condición>:
 * Al ejecutarse esta instrucción, la condición es evaluada. Si la condición resulta verdadera, se ejecuta una vez la secuencia de instrucciones que forman el cuerpo del ciclo. Al finalizar la ejecución del cuerpo del ciclo se vuelve a evaluar la condición y, si es verdadera, la ejecución se repite. Estos pasos se repiten mientras la condición sea verdadera.
 * Se puede dar la circunstancia que las instrucciones del bucle **no se ejecuten nunca**, si al evaluar por primera vez la condición resulta ser falsa.
 * Si la condición siempre es verdadera, al ejecutar esta instrucción se produce un **ciclo infinito**. A fin de evitarlo, las instrucciones del cuerpo del ciclo deben contener alguna instrucción que **modifique la o las variables involucradas en la condición**, de modo que ésta sea falsificada en algún momento y así finalice la ejecución del ciclo.
-* Es es parecido  a la estructura alternativa con `if`: sólo cambia la palabra `if` por `while`, pero el comportamiento es totalmente diferente: cuando se cumple la condición, `if` realiza sus sentencias sólo una vez; `while` repite la ejecución siempre que la condición se evalúe como `True`.
+* Es es parecido  a la estructura alternativa con `if`: sólo cambia la palabra `if` por `while`, pero el comportamiento es totalmente diferente: cuando se cumple la condición, `if` realiza sus instrucciones sólo una vez; `while` repite la ejecución siempre que la condición se evalúe como `True`.
 * Las instrucciones del cuerpo del bucle hay que indicarlas con una **sangría**.
 
 ## Un bucle infinito

@@ -16,13 +16,13 @@ Por defecto estos tipos de errores producen que el programa termine mostrando un
 
 En Python, existe una distinción entre dos tipos de errores:
 
-* **Errores de sintaxis**, que ocurren cuando el analizador encuentra una sentencia de código que no es correcta. Por ejemplo:
+* **Errores de sintaxis**, que ocurren cuando el analizador encuentra una instrucción de código que no es correcta. Por ejemplo:
 
     ```
     print("Hola, ¡Mundo!)
     ```
     Provoca en error de tipo: `SyntaxError: EOL while scanning string literal`.
-* **Excepciones**, ocurren incluso cuando el código es correcto sintácticamente.una sentencia o expresión es sintácticamente correcta. Estos son los errores que se detectan durante la ejecución, cuando tu código da como resultado un error que no es incondicionalmente fatal.
+* **Excepciones**, ocurren incluso cuando el código es correcto sintácticamente.una instrucción o expresión es sintácticamente correcta. Estos son los errores que se detectan durante la ejecución, cuando tu código da como resultado un error que no es incondicionalmente fatal.
 
 ## Errores de datos
 

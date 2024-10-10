@@ -175,7 +175,7 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
     * 4
     * 3
 
-14. Observa el código, y selecciona las sentencias verdaderas: (Selecciona dos respuestas)
+14. Observa el código, y selecciona las instrucciones verdaderas: (Selecciona dos respuestas)
 
     ```
     nums = [1, 2, 3]

@@ -1,4 +1,4 @@
-# LABORATORIO - Fundamentos de la sentencia if-else
+# LABORATORIO - Fundamentos de la instrucción if-else
 
 ## Tiempo Estimado
 
@@ -12,7 +12,7 @@ Fácil/Medio
 
 Familiarizar al estudiante con:
 
-* Utilizar la sentencia if-else para ramificar la ruta de control.
+* Utilizar la instrucción if-else para ramificar la ruta de control.
 * Construir un programa completo que resuelva problemas simples de la vida real.
 
 ## Escenario

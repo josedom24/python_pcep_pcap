@@ -91,7 +91,7 @@ Ahora deberías poder escribir un programa que encuentre el mayor de cuatro, cin
 
 ¿Pero qué sucede si te pedimos que escribas un programa que encuentre el mayor de doscientos números? ¿Te imaginas el código? Necesitarás doscientas variables. Si doscientas variables no son lo suficientemente complicadas, intenta imaginar la búsqueda del número más grande de un millón.
 
-Imagina un código que contiene 199 sentencias condicionales y doscientas invocaciones de la función `input()`. Por suerte, no necesitas lidiar con eso. Hay un enfoque más simple.
+Imagina un código que contiene 199 instrucciones condicionales y doscientas invocaciones de la función `input()`. Por suerte, no necesitas lidiar con eso. Hay un enfoque más simple.
 
 Vamos a intentar diseñar un **algoritmo** sin usar la sintaxis de Python. Intentaremos analizar el problema y determinar los pasos tenemos que dar (algoritmo) usando una notación, que no es un lenguaje de programación real (no se puede compilar ni ejecutar), pero está formalizado, es conciso y se puede leer. Se llama **pseudocódigo**.
 

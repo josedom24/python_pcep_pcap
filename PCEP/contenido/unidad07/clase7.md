@@ -1,4 +1,4 @@
-# LABORATORIO - Fundamentos de la sentencia if-elif-else
+# LABORATORIO - Fundamentos de la instrucción if-elif-else
 
 ## Tiempo Estimado
 
@@ -12,7 +12,7 @@ Fácil/Medio
 
 Familiarizar al estudiante con:
 
-* Utilizar la sentencia `if-elif-else`.
+* Utilizar la instrucción `if-elif-else`.
 * Encontrar la implementación adecuada de las reglas definidas verbalmente.
 * Emplear el código de prueba empleando entradas y salidas de muestra.
 

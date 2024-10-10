@@ -39,7 +39,7 @@ import time
 # Escribe una función de impresión con el mensaje final.
 ```
 
-En el código anterior hay dos elementos que todavía no hemos explicado: la sentencia `import time` y el método `sleep()`. 
+En el código anterior hay dos elementos que todavía no hemos explicado: la instrucción `import time` y el método `sleep()`. 
 
 Hemos importado el módulo `time` y hemos utilizado el método `sleep()` para suspender la ejecución de cada función posterior de `print()` dentro del bucle `for` durante un segundo, de modo que el mensaje enviado a la consola se parezca a un conteo real. No te preocupes, pronto aprenderás más sobre módulos y métodos.
 

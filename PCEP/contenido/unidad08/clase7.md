@@ -17,13 +17,13 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-La sentencia `continue` se usa para omitir el bloque actual y avanzar a la siguiente iteración, sin ejecutar las sentencias dentro del bucle. Se puede usar tanto con `while` y `for`.
+La instrucción `continue` se usa para omitir el bloque actual y avanzar a la siguiente iteración, sin ejecutar las instrucciones dentro del bucle. Se puede usar tanto con `while` y `for`.
 
 Tu tarea aquí es muy especial: ¡Debes diseñar un devorador de vocales! Escribe un programa que use:
 
 * Un bucle `for`.
 * El concepto de ejecución condicional (`if-elif-else`).
-* La sentencia `continue`.
+* La instrucción `continue`.
 
 Tu programa debe:
 

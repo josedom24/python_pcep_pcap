@@ -50,8 +50,8 @@
     * [Estructuras alternativas](contenido/unidad07/clase3.md)
     * [Ejemplos de estructuras alternativas](contenido/unidad07/clase4.md)
     * [LABORATORIO - Operadores de comparación y ejecución condicional](contenido/unidad07/clase5.md)
-    * [LABORATORIO - Fundamentos de la sentencia if-else](contenido/unidad07/clase6.md)
-    * [LABORATORIO - Fundamentos de la sentencia if-elif-else](contenido/unidad07/clase7.md)
+    * [LABORATORIO - Fundamentos de la instrucción if-else](contenido/unidad07/clase6.md)
+    * [LABORATORIO - Fundamentos de la instrucción if-elif-else](contenido/unidad07/clase7.md)
     * [LABORATORIO - Ejercicios estructura alternativa](contenido/unidad07/clase8.md)
 8. Estructura repetitiva
     * [Bucle while](contenido/unidad08/clase1.md)
