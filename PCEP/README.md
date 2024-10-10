@@ -45,7 +45,7 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad06/test.md)
     * [Prueba intermedia](contenido/unidad06/prueba.md)
 7. Estructura alternativa
-    * [Operadores lógicos o de comparación](contenido/unidad07/clase1.md)
+    * [Operadores lógicos o de comparación (P)](contenido/unidad07/clase1.md)
     * [LABORATORIO ‒ Preguntas y Respuestas](contenido/unidad07/clase2.md)
     * [Estructuras alternativas](contenido/unidad07/clase3.md)
     * [Ejemplos de estructuras alternativas](contenido/unidad07/clase4.md)
