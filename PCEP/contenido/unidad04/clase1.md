@@ -8,7 +8,7 @@ En este aparatado vamos a estudiar otra funcionalidad de la función `print()`: 
 print(2 + 2)
 ```
 
-¿Puedes adivinar la salida?: Deberías de ver el número cuatro. Puedes probar otros operadores.
+En este caso mostrará un 4, y podrías probar más operaciones para obtener su resultado.
 
 Podemos decir que Python puede ser utilizado como una calculadora. Tomando esto más seriamente, nos estamos adentrado en el terreno de los **operadores y expresiones**.
 
