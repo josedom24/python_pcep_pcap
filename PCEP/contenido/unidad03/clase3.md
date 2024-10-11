@@ -77,8 +77,6 @@ print(True > False)
 print(True < False)
 ```
 
-Ejecuta el código , ¿puedes explicar el resultado?
-
 ## El valor None
 
 Existe un literal especial más utilizado en Python: el literal `None`. Este literal es llamado un objeto de `NoneType`, y puede ser utilizado para representar la ausencia de un valor. Pronto se hablará más acerca de ello.

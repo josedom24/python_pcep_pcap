@@ -119,7 +119,7 @@ print("Fuera del bucle.", counter)
 
 Este código está destinado a imprimir la cadena `"Dentro del bucle."` y el valor almacenado en la variable `counter` durante un bucle dado exactamente cinco veces. Una vez que la condición se haya cumplido (la variable `counter` ha alcanzado 0), se sale del bucle y aparece el mensaje `"Fuera del bucle".` así como también el valor almacenado en `counter` se imprime.
 
-De forma más compacta, podríamos escribir el mismo programa de la siguiente forma, modificando la condición del bucle. ¿Puedes ver la diferencia?:
+De forma más compacta, podríamos escribir el mismo programa de la siguiente forma, modificando la condición del bucle:
 
 ```
 counter = 5
