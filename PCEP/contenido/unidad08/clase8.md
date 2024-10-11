@@ -2,7 +2,7 @@
 
 ## El bucle while y la rama else
 
-Ambos bucles `while` y `for`, tienen una característica interesante (y rara vez se usa). Veamos el siguiente ejemplo:
+Ambos bucles `while` y `for`, tienen una característica interesante. Veamos el siguiente ejemplo:
 
 ```
 i = 1
@@ -16,8 +16,6 @@ else:
 * Los bucles también pueden tener la rama `else`, como los `if`.
 * La rama `else` del bucle siempre se ejecuta una vez, independientemente de si el bucle ha entrado o no en su cuerpo.
 
-¿Puedes adivinar la salida? Ejecuta el programa para comprobar si tenías razón.
-
 Vamos a modificar el código para que no se ejecute el bucle:
 
 ```
@@ -29,7 +27,7 @@ else:
     print("else:", i)
 ```
 
-La condición que se evalúa en el bucle `while` es `False` al principio. ¿Se ejecuta la rama `else`? Ejecuta y prueba el programa, y verifica si se ha ejecutado o no la rama `else`.
+La condición que se evalúa en el bucle `while` es `False` al principi, opero puedes verificar que la rama `else` también se ejecuta.
 
 ## El bucle for y la rama else
 

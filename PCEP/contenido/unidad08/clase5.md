@@ -12,7 +12,7 @@ Estas dos instrucciones son:
 * `break`: sale del bucle inmediatamente, e incondicionalmente termina la operación del bucle; el programa comienza a ejecutar la instrucción más cercana después del cuerpo del bucle.
 * `continue`: se comporta como si el programa hubiera llegado repentinamente al final del cuerpo; el siguiente turno se inicia y la expresión de condición se prueba de inmediato.
 
-Ambas palabras son palabras clave reservadas.
+Ambas palabras son palabras claves reservadas.
 
 ## Ejemplo 1
 
