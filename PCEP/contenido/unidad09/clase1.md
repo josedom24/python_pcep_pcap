@@ -1,7 +1,5 @@
 # Expresiones lógicas
 
-## Operadores lógicos
-
 ¿Te has dado cuenta de que las condiciones que hemos usado hasta ahora han sido muy simples, por no decir, bastante primitivas? Las condiciones que utilizamos en la vida real son mucho más complejas. Veamos este enunciado:
 
 *Si tenemos tiempo libre, y el clima es bueno, saldremos a caminar.*
@@ -12,7 +10,7 @@ Hemos utilizado la conjunción `and` (y), lo que significa que salir a caminar d
 
 La aparición de la palabra `or` (o) significa que la compra depende de al menos una de estas condiciones. En lógica, este compuesto se llama una **disyunción**.
 
-Está claro que Python debe tener operadores para construir conjunciones y disyunciones. Sin ellos, el poder expresivo del lenguaje se debilitaría sustancialmente. Se llaman **operadores lógicos**.
+Python nos permite construir conjunciones y disyunciones, para ello utilizamos los **operadores lógicos**.
 
 ## and
 
@@ -62,6 +60,8 @@ Este operador se escribe como la palabra `not`, y su prioridad es muy alta: igua
 Creemos una variable llamada `var` y le damos el valor 1. Las siguientes condiciones son equivalentes a pares:
 
 ```
+var = 1
+
 # Ejemplo 1:
 print(var > 0)
 print(not (var <= 0))
@@ -74,7 +74,7 @@ print(not (var == 0))
 
 Puedes estar familiarizado con las leyes de De Morgan. Dicen que:
 
-* La negación de una conjunción es la separación de las negaciones.
+* La negación de una conjunción es la disyunción de las negaciones.
 * La negación de una disyunción es la conjunción de las negaciones.
 
 Escribamos lo mismo usando Python:
@@ -86,7 +86,7 @@ not (p or q) == (not p) and (not q)
 
 Observa como se han utilizado los paréntesis para codificar las expresiones: las colocamos allí para mejorar la legibilidad.
 
-Deberíamos agregar que ninguno de estos operadores de dos argumentos se pueden usar en la forma abreviada conocida como `op=`. Vale la pena recordar esta excepción.
+Deberíamos agregar que ninguno de estos operadores de dos argumentos se pueden usar en la forma abreviada conocida como `op=`.
 
 ## Valores lógicos frente a bits individuales
 
