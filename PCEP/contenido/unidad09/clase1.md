@@ -99,3 +99,4 @@ i = 1
 j = not not i
 ```
 
+Existen otro tipo de operadores que trabajan con los bits individuales de la representación binaria del dato, son los **operadores a nivel de bits** que estudiaremos en la siguiente sección.
