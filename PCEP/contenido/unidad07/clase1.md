@@ -1,4 +1,4 @@
-# Operadores lógicos o de comparación
+# Operadores de comparación
 
 ## Preguntas y respuestas
 
@@ -11,7 +11,7 @@ Afortunadamente, los ordenadores solo conocen dos tipos de respuestas:
 
 Nunca obtendrás una respuesta como: *Déjame pensar...*,* no lo sé*, o *probablemente sí, pero no lo sé con seguridad*.
 
-Para hacer preguntas, Python utiliza un conjunto de operadores, que llamamos **operadores lógicos o de comparación**.
+Para hacer preguntas, Python utiliza un conjunto de operadores, que llamamos **operadores de comparación**.
 
 ## Comparación: operador de igualdad
 

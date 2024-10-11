@@ -45,7 +45,7 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/unidad06/test.md)
     * [Prueba intermedia](contenido/unidad06/prueba.md)
 7. Estructura alternativa
-    * [Operadores lógicos o de comparación (P)](contenido/unidad07/clase1.md)
+    * [Operadores de comparación (P)](contenido/unidad07/clase1.md)
     * [LABORATORIO ‒ Preguntas y Respuestas](contenido/unidad07/clase2.md)
     * [Estructuras alternativas](contenido/unidad07/clase3.md)
     * [Ejemplos de estructuras alternativas](contenido/unidad07/clase4.md)
@@ -66,7 +66,7 @@
     * [LABORATORIO - La hipótesis de Collatz](contenido/unidad08/clase10.md)
     * [LABORATORIO - Ejercicios estructura repetitiva](contenido/unidad08/clase11.md)
 9. Operaciones lógicas y de bits en Python
-    * [Expresiones lógicas](contenido/unidad09/clase1.md)
+    * [Expresiones lógicas (P)](contenido/unidad09/clase1.md)
     * [Operadores bit a bit](contenido/unidad09/clase2.md)
     * [Uso de los operadores bit a bit](contenido/unidad09/clase3.md)
 10. Introducción a las listas
