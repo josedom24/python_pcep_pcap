@@ -88,7 +88,7 @@ Observa como se han utilizado los paréntesis para codificar las expresiones: la
 
 Deberíamos agregar que ninguno de estos operadores de dos argumentos se pueden usar en la forma abreviada conocida como `op=`.
 
-## Valores lógicos frente a bits individuales
+## Operadores lógicos y operadores a nivel de bits
 
 Los operadores lógicos toman sus argumentos como un todo, independientemente de cuantos bits contengan. Los operadores solo conocen el valor: cero (cuando todos los bits se restablecen) significa `False`; no cero (cuando se establece al menos un bit) significa `True`.
 

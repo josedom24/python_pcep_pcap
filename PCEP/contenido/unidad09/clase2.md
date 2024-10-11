@@ -1,8 +1,6 @@
-# Operadores bit a bit
+# Operadores a nivel de bits
 
-## Operadores bit a bit
-
-Sin embargo, hay cuatro operadores que te permiten manipular bits de de forma individual. Se denominan **operadores bit a bit**.
+Sin embargo, hay cuatro operadores que te permiten manipular bits de de forma individual. Se denominan **operadores a nivel de bits**.
 
 Cubren todas las operaciones que mencionamos anteriormente en el contexto lógico, y un operador adicional. Este es el operador **xor** (significa o exclusivo), y se denota como `^` (signo de intercalación).
 
@@ -14,7 +12,7 @@ Aquí están todos ellos:
 * `^` (signo de intercalación): o exclusivo a nivel de bits (xor).
 
 
-Operaciones bit a bit (`&`, `|`, y `^`)
+Operaciones a nivel de bits (`&`, `|`, y `^`)
 
 
 |Argumento A |Argumento B |`A & B` |`A \| B` |`A ^ B` |
@@ -25,7 +23,7 @@ Operaciones bit a bit (`&`, `|`, y `^`)
 |1           |1           |	1      |1       | 0      |
 
 
-Operaciones bit a bit (`~`) 
+Operaciones a nivel de bits (`~`) 
 
 |Argumento |~ Argumento|
 -----------|-----------|
@@ -42,10 +40,10 @@ Agreguemos un comentario importante: los argumentos de estos operadores deben se
 
 La diferencia en el funcionamiento de los operadores lógicos y de bits es importante: los operadores lógicos no operan directamente con los bits de sus argumentos. Solo les interesa el valor entero final.
 
-Los operadores bit a bit son más estrictos: tratan con cada bit por separado. Si asumimos que la variable entera ocupa 64 bits (lo que es común en los sistemas informáticos modernos), puede imaginar la operación a nivel de bits como una evaluación de 64 veces del operador lógico para cada par de bits de los argumentos. Su analogía es obviamente imperfecta, ya que en el mundo real todas estas 64 operaciones se realizan al mismo tiempo (simultáneamente).
+Los operadores a nivel de bits son más estrictos: tratan con cada bit por separado. Si asumimos que la variable entera ocupa 64 bits (lo que es común en los sistemas informáticos modernos), puede imaginar la operación a nivel de bits como una evaluación de 64 veces del operador lógico para cada par de bits de los argumentos. Su analogía es obviamente imperfecta, ya que en el mundo real todas estas 64 operaciones se realizan al mismo tiempo (simultáneamente).
 
 
-## Operaciones lógicas frente a operaciones de bit: continuación
+## Diferencias entre operadores lógicos y operadores a nivel de bits
 
 Ahora te mostraremos un ejemplo de la diferencia entre las operaciones lógicas y de bit. Supongamos que se han realizado las siguientes asignaciones:
 

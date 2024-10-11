@@ -1,8 +1,8 @@
-# Uso de los operadores bit a bit
+# Uso de los operadores a nivel de bits
 
 ## ¿Cómo tratamos los bits individuales?
 
-Ahora te mostraremos para que puedes usar los operadores de bit a bit. Imagina que eres un desarrollador obligado a escribir una arte importante de un sistema operativo. Se te ha dicho que puedes usar una variable asignada de la siguiente forma:
+Ahora te mostraremos para que puedes usar los operadores a nivel de bits. Imagina que eres un desarrollador obligado a escribir una arte importante de un sistema operativo. Se te ha dicho que puedes usar una variable asignada de la siguiente forma:
 
 ```
 flag_register = 0x1234
