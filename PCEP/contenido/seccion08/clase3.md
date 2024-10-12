@@ -127,3 +127,18 @@ for expo in range(16):
 * La variable `expo` se utiliza como una variable de control para el bucle e indica el valor actual del exponente. 
 * La propia exponenciación se sustituye multiplicando por dos. 
 * Dado que 2<sup>0</sup> es igual a 1, después 2 × 1 es igual a 2<sup>1</sup>, 2 × 2<sup>1</sup> es igual a 2<sup>2</sup>, y así sucesivamente. 
+
+
+## Ejemplo: Recorrido de uan cadena de caracteres
+
+Como comentamos anteriormente el bucle for también nos permite recorrer tipos de datos que son iterables, es decir que podemos obtener el valor de cada elemento. Las **cadenas de caracteres son iterables** ya que podemos acceder a cada carácter que forma parte de la cadena. De esta forma usando un bucle `for` podemos imprimir los caracteres de una cadena:
+
+```
+cadena = "Python"
+for caracter in cadena:
+    print(caracter)
+```
+
+* El bucle recorre todos los caracteres de la cadena, por lo tanto en el ejemplo se dan 6 iteraciones.
+* En cada iteración la variable `caracter` va tomando el valor de cada uno de los caracteres de la cadena.
+* En este ejemplo lo imprimo en pantalla, pero podríamos hacer cualquier otra tarea.
