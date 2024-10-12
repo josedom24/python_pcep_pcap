@@ -27,21 +27,24 @@ Veamos un ejemplo de un problema en que se necesita procesar varios números:
 Escribe un programa que:
 
 * Lea cinco números.
-* Los imprima en orden desde el más pequeño hasta el más grande (Este tipo de procesamiento se denomina ordenamiento).
+* Los imprima en orden desde el más pequeño hasta el más grande (este tipo de procesamiento se denomina ordenamiento).
 
 ## Crear listas
 
-Vamos a crear una variable llamada `numeros`; se le asigna no solo un número, sino que se llena con una lista que consta de cinco valores (nota: la lista comienza con un corchete abierto y termina con un corchete cerrado; el espacio entre los corchetes es llenado con cinco números separados por comas).
+Vamos a crear una variable llamada `numeros`, de tipo lista, donde vamos a guardar los 5 números (nota: la lista comienza con un corchete abierto y termina con un corchete cerrado; el espacio entre los corchetes es llenado con cinco números separados por comas).
 
 ```
 numeros = [10, 5, 7, 2, 1]
+
+type(numeros)
+<class 'list'>
 ```
 
 Algunas consideraciones:
 
 * Podemos decir que `numeros` es una lista que consta de cinco valores, todos ellos `numeros`. 
 * La variable `numeros` es una lista de longitud igual a cinco (ya que contiene cinco elementos).
-* Los elementos dentro de una lista pueden tener diferentes tipos. Algunos de ellos pueden ser enteros, otros son flotantes y otros pueden ser listas.
+* Los elementos dentro de una lista pueden tener diferentes tipos (enteros, flotantes, booleanos, cadenas, listas, ...)
 * En Python el primer elemento ocupa la posición 0. En nuestro ejemplo el valor `10` ocupa la posición `0`, y el último elemento, el número `1` tendrá la posición `4`.
 * Nuestra lista es una colección de elementos, pero cada elemento es un escalar. 
 
@@ -49,30 +52,19 @@ Algunas consideraciones:
 
 La **indexación** nos permite obtener o cambiar el valor de un determinado elemento de una lista. Por ejemplo:
 
-* Vamos a asignar un nuevo valor de 111 al primer elemento en la lista. Lo hacemos de esta manera:
+```
+numeros = [10, 5, 7, 2, 1]
+print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
 
-    ```
-    numeros = [10, 5, 7, 2, 1]
-    print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
+numeros[0] = 111
+print("\nPrevio contenido de la lista:", numeros)  # Imprimiendo contenido de la lista anterior.
 
-    numeros[0] = 111
-    print("Nuevo contenido de la lista: ", numeros)  # Contenido de la lista actual.
-    ```
+numeros[1] = numeros[4]  # Copiando el valor del quinto elemento al segundo elemento.
+print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
+```
 
-* Y ahora queremos copiar el valor del quinto elemento al segundo elemento. 
-
-    ```
-    numeros = [10, 5, 7, 2, 1]
-    print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
-
-    numeros[0] = 111
-    print("\nPrevio contenido de la lista:", numeros)  # Imprimiendo contenido de la lista anterior.
-
-    numeros[1] = numeros[4]  # Copiando el valor del quinto elemento al segundo elemento.
-    print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
-    ```
-
-Para indexar un elemento de la lista indicamos la posición del elemento (**índice**) dentro de los corchetes.
-
-Nota: todos los índices utilizados hasta ahora son literales. Sus valores se fijan en el tiempo de ejecución, pero cualquier expresión también puede ser un índice. Esto abre muchas posibilidades.
-
+* Para indexar un elemento de la lista indicamos la posición del elemento (**índice**) dentro de los corchetes.
+* Hemos asignado un nuevo valor de 111 al primer elemento en la lista. 
+* Hemos copiado el valor del quinto elemento al segundo elemento. 
+* Para indicar el índice podemos indicar cualquier expresión (literales, variables, operaciones, ...)
+    
