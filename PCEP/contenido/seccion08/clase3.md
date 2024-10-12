@@ -129,7 +129,7 @@ for expo in range(16):
 * Dado que 2<sup>0</sup> es igual a 1, después 2 × 1 es igual a 2<sup>1</sup>, 2 × 2<sup>1</sup> es igual a 2<sup>2</sup>, y así sucesivamente. 
 
 
-## Ejemplo: Recorrido de uan cadena de caracteres
+## Ejemplo: Recorrido de una cadena de caracteres
 
 Como comentamos anteriormente el bucle for también nos permite recorrer tipos de datos que son iterables, es decir que podemos obtener el valor de cada elemento. Las **cadenas de caracteres son iterables** ya que podemos acceder a cada carácter que forma parte de la cadena. De esta forma usando un bucle `for` podemos imprimir los caracteres de una cadena:
 
