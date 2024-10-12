@@ -135,12 +135,11 @@ current_velocity_mph ≤ 85  # Menor o igual que
 
 Vamos actualizar la **tabla de prioridades** de operadores:
 
-1. `+`,`-` (unarios)
-2. `**`
+1. `**`
+2. `+`,`-` (unarios)
 3. `*`,`/`,`//`,`%`
 4. `+`,`-` (binarios)
-5. `<`, `<=`, `>`, `>=` 	
-6. `==`, `!=`
+5. `<`, `<=`, `>`, `>=`, `==`, `!=`
 
 ## Resumen
 

@@ -48,66 +48,74 @@ Los operadores a nivel de bits son más estrictos: tratan con cada bit por separ
 Ahora te mostraremos un ejemplo de la diferencia entre las operaciones lógicas y de bit. Supongamos que se han realizado las siguientes asignaciones:
 
 ```
-i = 15
-j = 22
+valor1 = 15
+valor2 = 22
 ```
 
 Si asumimos que los enteros se almacenan con 32 bits, los valores binarios de las dos variables será la siguiente:
 
 ```
-i: 00000000000000000000000000001111
-j: 00000000000000000000000000010110
+valor1: 00000000000000000000000000001111
+valor2: 00000000000000000000000000010110
 ```
 
-Se ejecuta la asignación:
+Vamos a usar un operador de lógico entre los dos valores:
 
 ```
-log = i and j
+valor1 and valor2
 ```
 
 * Estamos realizando una una conjunción lógica.  
-* Ambas variables `i` y `j` no son ceros, por lo que se considerará que representan a `True`. 
-* Al consultar la tabla de verdad para el operador `and`, podemos ver que el resultado será `True`. * * No se realizan otras operaciones.
-
-Por lo tanto el resultado será que la variable `log` es igual a `True`.
-
+* Ambas variables `valor1` y `valor2` no son ceros, por lo que se considerará que representan a `True`. 
+* Al consultar la tabla de verdad para el operador `and`, podemos ver que el resultado será `True`. 
 
 Ahora estudiemos la operación a nivel de bits:
 
 ```
-bit = i & j
+valor1 & valor2
 ```
 
 El operador `&` operará con cada par de bits correspondientes por separado, produciendo los valores de los bits relevantes del resultado. Por lo tanto, el resultado será el siguiente:
 
 ```
-i	00000000000000000000000000001111
-j	00000000000000000000000000010110
-bit = i & j	00000000000000000000000000000110
+valor1:          00000000000000000000000000001111
+valor2:	         00000000000000000000000000010110
+valor1 & valor2: 00000000000000000000000000000110
 ```
 
-Estos bits corresponden al valor entero de seis.
+En Python:
 
+```
+print(bin(valor1))
+print(bin(valor2))
+print(bin(valor1 & valor2))
+print(valor1 & valor2)
+```
+
+## Diferencias entre operadores lógicos y operadores a nivel de bits: Operador de negación
 
 Veamos ahora los operadores de negación. Primero el lógico:
 
 ```
-logneg = not i
+valor1 = 15
+not valor1
 ```
 
-La variable `logneg` se establecerá en `False`: no es necesario hacer nada más.
+* `valor1` es considerado `True` (número distintos de 0).
+* El operador `not` nos devuelve el valor opuesto, por lo tanto `not valor1` se considera `False`.
 
 La negación a nivel de bits es así:
 
 ```
-bitneg = ~i
+valor1 = 15
+~ valor1
 ```
 
-Puede ser un poco sorprendente: el valor de la variable `bitneg` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar el sistema de números binarios y las reglas que rigen los números de complemento de dos.
+Puede ser un poco sorprendente: el valor de `~valor1` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar el sistema de números binarios y las reglas que rigen los números de complemento de dos.
 
 ```
-i	00000000000000000000000000001111
-bitneg = ~i	11111111111111111111111111110000
+valor1:	  00000000000000000000000000001111
+~ valor1: 11111111111111111111111111110000
 ```
 
 Cada uno de estos operadores de dos argumentos se puede utilizar en forma abreviada. Estos son los ejemplos de sus notaciones equivalentes:

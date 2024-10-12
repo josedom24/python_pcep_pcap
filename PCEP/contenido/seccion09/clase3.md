@@ -2,13 +2,13 @@
 
 ## ¿Cómo tratamos los bits individuales?
 
-Ahora te mostraremos para que puedes usar los operadores a nivel de bits. Imagina que eres un desarrollador obligado a escribir una arte importante de un sistema operativo. Se te ha dicho que puedes usar una variable asignada de la siguiente forma:
+Ahora te mostraremos para que puedes usar los operadores a nivel de bits. Imagina que eres un desarrollador obligado a escribir una parte importante de un sistema operativo. Se te ha dicho que puedes usar una variable asignada de la siguiente forma:
 
 ```
 flag_register = 0x1234
 ```
 
-La variable almacena la información sobre varios aspectos de la configuración del sistema. Cada bit de la variable almacena un valor de **si/no**. También se te ha dicho que solo uno de estos bits es tuyo, el tercero (recuerda que los bits se numeran desde cero y el número de bits cero es el más bajo, mientras que el más alto es el número 31). Los bits restantes no pueden cambiar, porque están destinados a almacenar otros datos. Aquí está tu bit marcado con la letra x:
+La variable almacena la información sobre varios aspectos de la configuración del sistema. Cada bit de la variable almacena un valor de **si/no**. También se te ha dicho que solo uno de estos bits es tuyo, el tercero (recuerda que los bits se numeran desde cero y el número de bits 0 es el más bajo, mientras que el más alto es el número 31). Los bits restantes no pueden cambiar, porque están destinados a almacenar otros datos. Aquí está tu bit marcado con la letra x:
 
 ```
 flag_register = 0000000000000000000000000000x000
@@ -40,6 +40,11 @@ Es posible que tengas que hacer frente a las siguientes tareas:
 
     ```
     the_mask = 8
+    ```
+    Lo podríamos indicar también en binario:
+
+    ```
+    the_mask = 0b1000
     ```
 
     Podemos tener el siguiente código para comprobar si tu bit es un 1 o un 0:
@@ -95,7 +100,7 @@ Es posible que tengas que hacer frente a las siguientes tareas:
 
 ## Desplazamiento izquierdo binario y desplazamiento derecho binario
 
-Python ofrece otra operación relacionada con los bits individuales: **shifting (desplazamiento)**. Esto se aplica solo a los valores de número entero, y no debe usar flotantes como argumentos para ello.
+Python ofrece otra operación relacionada con los bits individuales: **shifting (desplazamiento)**. Esto se aplica solo a los número entero, y no se debe usar con números flotantes.
 
 Ya aplicas esta operación muy a menudo y muy inconscientemente. ¿Cómo multiplicas cualquier número por diez? Echa un vistazo:
 
@@ -105,7 +110,7 @@ Ya aplicas esta operación muy a menudo y muy inconscientemente. ¿Cómo multipl
 
 Como puede ver, multiplicar por diez es de hecho un desplazamiento de todos los dígitos a la izquierda y llenar el vacío resultante con cero.
 
-¿División entre diez? Echa un vistazo:
+La división entre 10 es otro ejemplo de desplazamiento:
 
 ```
 12340 ÷ 10 = 1234
@@ -118,23 +123,24 @@ El ordenador realiza el mismo tipo de operación, pero con una diferencia: como 
 * **desplazar un valor un bit a la izquierda** corresponde a **multiplicarlo por dos**. 
 * **desplazar un bit a la derecha** es como **dividir entre dos**.
 
-Los operadores de cambio en Python son un par de dígrafos: `<<` y `>>`, sugiriendo claramente en qué dirección actuará el cambio.
+Los operadores de desplazamiento en Python son un par de dígrafos: `<<` y `>>`, que nos permiten indicar el sentido del desplazamiento:
 
 ```
 value << bits
 value >> bits
 ```
 
-* El argumento izquierdo de estos operadores es un valor entero cuyos bits se desplazan. 
-* Esto demuestra que esta operación ciertamente no es conmutativa-
+* El operador izquierdo `value` es un valor entero cuyos bits se desplazan. 
+* El operador derecho `bits` indica la cantidad de bits desplazados.
+* Esto demuestra que esta operación ciertamente no es conmutativa.
 * La prioridad de estos operadores es muy alta. 
 
 Veamos un ejemplo:
 
 ```
 var = 17
-var_right = var >> 1
 var_left = var << 2
+var_right = var >> 1
 print(var, var_left, var_right)
 ```
 
@@ -146,16 +152,19 @@ La invocación final de `print()` produce el siguiente resultado: `17 68 8`.
 Veamos la tabla de prioridades actualizada , que contiene todos los operadores presentados hasta ahora:
 
 
-1. `+`,`-` (unarios)
-2. `**`
+1. `**`
+2. `+`,`-`, `~` (unarios)
 3. `*`,`/`,`//`,`%`
 4. `+`,`-` (binarios)
 5. `<<`, `>>`
-6. `<`, `<=`, `>`, `>=` 	
-7. `==`, `!=`
-8. `&` 	
+7. `&` 	
+8. `^`
 9. `|` 	
-10. `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `^=`, `|=`, `>>=`, `<<=`
+10. `not`
+11. `and`
+12. `or`
+13. `<`, `<=`, `>`, `>=`,`==`, `!=`
+14. `=`, `+=`, `-=`, `*=`, `/=`, `%=`, `&=`, `^=`, `|=`, `>>=`, `<<=`
 
 ## Cuestionario
 

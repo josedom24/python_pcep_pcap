@@ -67,8 +67,8 @@
     * [LABORATORIO - Ejercicios estructura repetitiva](contenido/seccion08/clase11.md)
 9. Operaciones lógicas y de bits en Python
     * [Expresiones lógicas (P)](contenido/seccion09/clase1.md)
-    * [Operadores a nivel de bits](contenido/seccion09/clase2.md)
-    * [Uso de los operadores a nivel de bits](contenido/seccion09/clase3.md)
+    * [Operadores a nivel de bits (P)](contenido/seccion09/clase2.md)
+    * [Uso de los operadores a nivel de bits (P)](contenido/seccion09/clase3.md)
 10. Introducción a las listas
     * [Introducción a las listas](contenido/seccion10/clase1.md)
     * [Operaciones básicas sobre las listas](contenido/seccion10/clase2.md)

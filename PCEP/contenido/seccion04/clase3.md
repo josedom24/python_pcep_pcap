@@ -50,8 +50,8 @@ Ejecuta el código, ¿Qué es lo que observas? El resultado muestra claramente q
 
 Como eres nuevo a los operadores de Python, no se presenta por ahora una lista completa de las prioridades de los operadores. En lugar de ello, se mostrarán solo algunos, y se irán expandiendo conforme se vayan introduciendo operadores nuevos. Tabla de prioridades **de la más alta (1) a la más baja (4) prioridad**:
 
-1. `+`,`-` (unarios)
-2. `**`
+1. `**`
+2. `+`,`-` (unarios)
 3. `*`,`/`,`//`,`%`
 4. `+`,`-` (binarios)
 
