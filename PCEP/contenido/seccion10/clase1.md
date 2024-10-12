@@ -68,3 +68,28 @@ print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la
 * Hemos copiado el valor del quinto elemento al segundo elemento. 
 * Para indicar el índice podemos indicar cualquier expresión (literales, variables, operaciones, ...)
     
+## Accediendo al contenido de la lista
+
+Como hemos visto anteriormente, la **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
+
+```
+print(numeros[0]) # Accediendo al primer elemento de la lista.
+```
+
+También podemos imprimir la lista completa utilizando la función `print()`:
+
+```
+print(numeros)  # Imprimiendo la lista completa.
+```
+
+Como probablemente hayas notado antes, Python decora la salida de una manera que sugiere que todos los valores presentados forman una lista. La salida del fragmento de ejemplo anterior se ve así:
+
+```
+[10, 5, 7, 2, 1]
+```
+
+Tenemos que tener en cuanta que los índices negativos son válidos, vemos distintos ejemplos:
+
+* Un elemento con un índice igual a -1 es el último en la lista: `print(numeros[-1])`
+* Del mismo modo, el elemento con un índice igual a -2 es el penúltimo en la lista: `print(numeros[-2])`.
+* Así sucesivamente.
