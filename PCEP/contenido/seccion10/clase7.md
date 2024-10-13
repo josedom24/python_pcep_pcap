@@ -23,7 +23,7 @@ La banda sufrió muchos cambios de formación, que culminaron en 1962 con la for
 
 Escribe un programa que refleje estos cambios y le permita practicar con el concepto de listas. Tu tarea es:
 
-* Paso 1: Crea una lista vacía llamada beatles.
+* Paso 1: Crea una lista vacía llamada `beatles`.
 * Paso 2: Emplea el método `append()` para agregar los siguientes miembros de la banda a la lista: John Lennon, Paul McCartney y George Harrison.
 * Paso 3: Emplea el bucle for y el `append()` para pedirle al usuario que agregue los siguientes miembros de la banda a la lista: Stu Sutcliffe, y Pete Best.
 * Paso 4: Usa la instrucción `del` para eliminar a Stu Sutcliffe y Pete Best de la lista.
@@ -49,6 +49,6 @@ print("Paso 5:", Beatles)
 
 
 # probando la longitud de la lista
-print("Los Fav", len(Beatles))
+print("Número de Beatles:", len(Beatles))
 ```
 
