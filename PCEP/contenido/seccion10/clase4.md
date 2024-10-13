@@ -52,7 +52,6 @@ print(numeros)
 ###
 
 numeros.append(4)
-
 print(len(numeros))
 print(numeros)
 
