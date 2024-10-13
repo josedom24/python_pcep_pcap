@@ -40,7 +40,7 @@ print(total)
 
 * La instrucción `for` especifica la variable utilizada para navegar por la lista (`i`) seguida de la palabra clave `in` y el nombre de la lista que queremos recorrer (`my_list`).
 * A la variable `i` se le asignan los valores de todos los elementos de la lista de forma consecutiva, uno detrás de otro.
-* En este caso no necesitamos usar ´índices, la variable `i` va tomando los valores de los elementos de la lista.
+* En este caso no necesitamos usar índices, la variable `i` va tomando los valores de los elementos de la lista.
 * La función len() tampoco es necesaria aquí.
 
 ## Cuestionario
