@@ -1,6 +1,6 @@
 # Ordenación de una lista por el algoritmo burbuja
 
-## Ordenamiento de una lista
+## Ordenamiento de listas
 
 Hemos aprendido a acceder y modificar los elementos de una lista. En este apartado vamos a aprender a ordenar las listas. Existen muchos algoritmos de ordenación, unos más simples y otros más complejos. En este apartado vamos a mostrar un algoritmo simple y fácil de entender para ordenar listas, sin embargo hay que indicar que no es muy eficiente para listas con muchos elementos.
 
@@ -11,7 +11,7 @@ Una lista se puede ordenar de dos maneras:
 
 En las siguientes secciones, ordenaremos la lista en orden ascendente, de modo que los números se ordenen de menor a mayor.
 
-## Ordenamiento de burbuja
+## Ordenamiento burbuja
 
 Aquí está la lista:
 
