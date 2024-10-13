@@ -13,13 +13,14 @@ for i in range(1, len(my_list)):
         largest = my_list[i]
 print(largest)
 ```
+
 * En esta primera versión usamos la indexación para recorrer los elementos de la lista.
 * Suponemos que el número más grande, que guardamos en la variable `largest` es el primero.
 * Recorremos desde el segundo elemento hasta el último.
 * Si un elemento es mayor que el que tenemos guardado en la variables `largest` actualizamos el valor de esta variable porque hemos encontrado uno más grande.
 * Al final del recorrido en la variable `largest` tendremos el mayor número.
 
-Vamos a realizar ahora la versión 2. Como hicimos en un ejemplo anterior, podríamos hacer el mismo programa usando el recorrido de listas con el bucle for:
+Vamos a realizar ahora la versión 2. Como hicimos en un ejemplo anterior, podríamos hacer el mismo programa usando el recorrido de listas con el bucle `for`:
 
 ```
 my_list = [17, 3, 11, 5, 1, 9, 7, 15, 13]
@@ -31,7 +32,7 @@ for i in my_list[1:]:
 print(largest)
 ```
 
-* La lógica del programa es similar a la de la versión anterior, pero ahora la variable `i`no es un índice, es el valor de los distintos elementos de la lista en cada iteración del bucle.
+* La lógica del programa es similar a la de la versión anterior, pero ahora la variable `i` no es un índice, es el valor de los distintos elementos de la lista en cada iteración del bucle.
 * Observa como usando la rebanada recorremos sólo desde el segundo elemento de la lista.
 
 ## Ejemplo 2
@@ -59,7 +60,7 @@ else:
 * La variable `found` es un indicador que a principio inicializamos a `False` indicando que no se ha encontrado. 
 * Si se encuentra se pone a `True` y se sale del bucle usando el `break`.
 
-Si usamos el recorrido de listas con el bucle for, tendremos el siguiente programa:
+Si usamos el recorrido de listas con el bucle `for`, tendremos el siguiente programa:
 
 ```
 my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]

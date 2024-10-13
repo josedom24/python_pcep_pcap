@@ -4,7 +4,7 @@
 
 Una **rebanada** es una operación que podemos realizar sobre una lista que nos permite **hacer una copia nueva de una lista, o partes de una lista**. En realidad, copia el contenido de la lista, no el nombre de la lista.
 
-Por lo la forma más fácil de copiar una lista en otra sería:
+Por lo que la forma más fácil de copiar una lista en otra sería:
 
 ```
 lista1 = [1,2,3]
@@ -26,8 +26,6 @@ my_list[start:end]
 
 Es decir, crearemos una nueva lista que contendrán los elementos de la lista original desde el elemento en la posición indicada por `start` hasta el elemento en la posición `end - 1`.
 
-Es posible utilizar valores negativos tanto para el inicio como para el fin(al igual que en la indexación).
-
 Veamos un ejemplo:
 
 ```
@@ -42,7 +40,7 @@ La salida del fragmento es: [8, 6]
 
 ## Rebanadas con índices negativos
 
-Como hemos indicado también podemos usar índices negativos:
+Es posible utilizar valores negativos tanto para el inicio como para el fin (al igual que en la indexación):
 
 ```
 my_list = [10, 8, 6, 4, 2]
@@ -73,7 +71,7 @@ new_list = my_list[:3]
 print(new_list)
 ```
 
-Es por esto que su salida es: [10, 8, 6].
+Es por esto que su salida es: `[10, 8, 6]`.
 
 Del mismo modo, si omites el índice `end` en tu rebanada, se supone que deseas que el segmento termine en el elemento con el índice `len(my_list)`, es decir hasta el último elemento:
 
@@ -83,7 +81,7 @@ new_list = my_list[3:]
 print(new_list)
 ```
 
-En este caso la salida es: [4, 2].
+En este caso la salida es: `[4, 2]`.
 
 ## Rebanadas junto a la instrucción del
 
@@ -94,7 +92,8 @@ my_list = [10, 8, 6, 4, 2]
 del my_list[1:3]
 print(my_list)
 ```
-En este caso, la rebanada ¡no produce ninguna lista nueva. El efecto es la eliminación de la lista de los elementos que había seleccionado la rebanada, es decir la salida del programa sería: `[10, 4, 2]`.
+
+En este caso, la rebanada no produce ninguna lista nueva. El efecto es la eliminación de la lista de los elementos que había seleccionado la rebanada, es decir la salida del programa sería: `[10, 4, 2]`.
 
 Vemos otros ejemplo. Podemos eliminar todos los elementos de la lista de la siguiente manera:
 

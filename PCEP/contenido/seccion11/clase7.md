@@ -21,11 +21,11 @@ for i in range(len(my_list) - 1):  # necesitamos (5 - 1) comparaciones
 Con la ejecución de este bucle tendríamos bien colocado el elemento más grande en el último elemento. Tendríamos que repetir este bucle repetidamente, como hemos visto en la clase anterior para asegurarnos que la lista termina ordenada. Para ello vamos a hacer las siguientes consideraciones:
 
 * Para simplificar el programa vamos a recorrer siempre todos los elementos adyacentes con el bucle anterior, aunque como vimos en la clase anterior no sea necesario, ya que la lista se va ordenando por los últimos elementos.
-* Vamos a introducir una variable que llamaremos `swapped` que nos permitirá **indicar** si se ha producido algún intercambio:
+* Vamos a introducir una variable que llamaremos `intercambio` que nos permitirá **indicar** si se ha producido algún intercambio:
     * Al principio la inicializamos a `False` indicando que no hay intercambios.
     * Si se produce algún intercambio la ponemos a `True`.
     Si al final del bucle la variable sigue valiendo `False` significa que no ha habido ningún intercambio y significa que la lista está ordenada.
-    * El primer bucle, que nos permite repetir el proceso, se volverá a ejecutar si la variable `swapped` es `True` ya que todavía no se ha ordenado de forma completa la lista.
+    * El primer bucle, que nos permite repetir el proceso, se volverá a ejecutar si la variable `intercambio` es `True` ya que todavía no se ha ordenado de forma completa la lista.
     * Como veremos en este programa necesitamos ejecutar un bucle dentro de otro, a esta estructura la llamamos **anidamiento de bucles**.
 
 
@@ -33,13 +33,13 @@ Veamos el programa completo:
 
 ```
 my_list = [8, 10, 6, 2, 4]  # lista a ordenar
-swapped = True  # Lo necesitamos verdadero (True) para ingresar al bucle while.
+intercambio = True  # Lo necesitamos verdadero (True) para ingresar al bucle while.
 
-while swapped:
-    swapped = False  # no hay intercambios hasta ahora
+while intercambio:
+    intercambio = False  # no hay intercambios hasta ahora
     for i in range(len(my_list) - 1):
         if my_list[i] > my_list[i + 1]:
-            swapped = True  # ¡ocurrió el intercambio!
+            intercambio = True  # ¡ocurrió el intercambio!
             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
 
 print(my_list)
@@ -51,18 +51,18 @@ Mostramos a continuación una versión completa del programa donde de forma inte
 
 ```
 my_list = []
-swapped = True
+intercambio = True
 num = int(input("¿Cuántos elementos deseas ordenar?: "))
 
 for i in range(num):
     val = float(input("Ingresa un elemento de la lista: "))
     my_list.append(val)
 
-while swapped:
-    swapped = False
+while intercambio:
+    intercambio = False
     for i in range(len(my_list) - 1):
         if my_list[i] > my_list[i + 1]:
-            swapped = True
+            intercambio = True
             my_list[i], my_list[i + 1] = my_list[i + 1], my_list[i]
 
 print("\nOrdenada:")
