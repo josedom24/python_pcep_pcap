@@ -16,14 +16,12 @@ del lista1[2]
 print(lista1) # [1, 2]
 ```
 
-Esto también ocurre cuando usamos los métodos, es decir, **los métodos de las listas modifican el contenido de la lista**, por ejemplo si usamos el método `append()` para añadir un elemento a la lista:
+Esto también ocurre cuando usamos los métodos, es decir, **los métodos de las listas modifican el contenido de la lista**, por ejemplo si usamos el método `append()` para añadir un elemento a la lista, podemos comprobar que la lista se ha modificado:
 
 ```
 lista1.append(3)
 print(lista1) # [1, 2, 3]
 ```
-
-Como vemos la lista `lista1` se ha modificado.
 
 ## ¿Cómo se copian las listas?
 
@@ -39,4 +37,3 @@ print(lista2) # [1, 10, 3]
 **El operador de asignación no crea una nueva lista**, sino que nombra con dos nombres distintos a la misma lista. No se guardan dos listas distintas en memoria, sino que la lista esta guardada en memoria pero se puede referenciar con dos nombres.
 
 En la siguiente clase veremos la solución a cómo poder copiar listas de manera adecuada.
-
