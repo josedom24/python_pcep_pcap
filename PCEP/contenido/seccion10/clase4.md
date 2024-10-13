@@ -49,26 +49,21 @@ numeros = [111, 7, 2, 1]
 print(len(numeros))
 print(numeros)
 
-###
-
 numeros.append(4)
 print(len(numeros))
 print(numeros)
 
-###
-
 numeros.insert(0, 222)
 print(len(numeros))
 print(numeros)
-```
 
-Agrega el siguiente fragmento después de la última línea de código en el editor:
-
-```
 numeros.insert(1, 333)
+print(numeros)
 ```
 
-Imprime el contenido de la lista final en la pantalla y ve que sucede. El fragmento de código sobre el fragmento de código inserta 333 en la lista, por lo que es el segundo elemento. El segundo elemento anterior se convierte en el tercero, el tercero en el cuarto, y así sucesivamente.
+* Se añade un elemento al final de la lista.
+* Se añade un elemento al principio de la lista.
+* Se añade un elemento en medio de la lista, por lo que los elementos posteriores se desplazan de posición.
 
 ## Agregando elementos a una lista vacía
 

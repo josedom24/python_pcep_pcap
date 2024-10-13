@@ -8,16 +8,19 @@ Como hemos visto anteriormente, la **indexación** nos permite acceder a los ele
 print(numeros[0]) # Accediendo al primer elemento de la lista.
 ```
 
+* Para indexar un elemento de la lista indicamos la posición del elemento (**índice**) dentro de los corchetes.
+* Para indicar el índice podemos indicar cualquier expresión (literales, variables, operaciones, ...)
+
 También podemos imprimir la lista completa utilizando la función `print()`:
 
 ```
 print(numeros)  # Imprimiendo la lista completa.
 ```
 
-Como probablemente hayas notado antes, Python decora la salida de una manera que sugiere que todos los valores presentados forman una lista. La salida del fragmento de ejemplo anterior se ve así:
+Python decora la salida de una manera que sugiere que todos los valores presentados forman una lista. La salida del fragmento de ejemplo anterior se ve así:
 
 ```
-[111, 1, 7, 2, 1]
+[10, 5, 7, 2, 1]
 ```
 
 Tenemos que tener en cuanta que los índices negativos son válidos, vemos distintos ejemplos:
@@ -25,6 +28,28 @@ Tenemos que tener en cuanta que los índices negativos son válidos, vemos disti
 * Un elemento con un índice igual a -1 es el último en la lista: `print(numeros[-1])`
 * Del mismo modo, el elemento con un índice igual a -2 es el penúltimo en la lista: `print(numeros[-2])`.
 * Así sucesivamente.
+
+## Modificando el valor de un elemento de la lista
+
+Por medio de la **indexación** también podemos modificar el valor de un determinado elemento de la lista. Veamos un ejemplo:
+
+```
+numeros = [10, 5, 7, 2, 1]
+print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
+
+numeros[0] = 111
+print("\nPrevio contenido de la lista:", numeros)  # Imprimiendo contenido de la lista anterior.
+
+numeros[1] = numeros[4]  # Copiando el valor del quinto elemento al segundo elemento.
+print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
+```
+
+
+* Hemos asignado un nuevo valor de 111 al primer elemento en la lista. 
+* Hemos copiado el valor del quinto elemento al segundo elemento. 
+
+    
+
 
 ## La función len()
 

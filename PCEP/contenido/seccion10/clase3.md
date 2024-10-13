@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Había una vez un sombrero. El sombrero no contenía conejo, sino una lista de cinco números: 1, 2, 3, 4 y 5.
+Queremos crea una lista de cinco números: 1, 2, 3, 4 y 5.
 
 Tu tarea es:
 
@@ -26,12 +26,10 @@ Tu tarea es:
 * Escribir una línea de código que elimine el último elemento de la lista (Paso 2).
 * Escribir una línea de código que imprima la longitud de la lista existente (Paso 3).
 
-¿Listo para este desafío?
-
 Puedes usar esta plantilla para realizar el programa:
 
 ```
-hat_list = [1, 2, 3, 4, 5]  # Esta es una lista existente de números ocultos en el sombrero.
+lista = [1, 2, 3, 4, 5]  # Esta es una lista existente de números ocultos en el sombrero.
 
 # Paso 1: escribe una línea de código que solicite al usuario
 # reemplazar el número de en medio con un número entero ingresado por el usuario.
@@ -40,5 +38,5 @@ hat_list = [1, 2, 3, 4, 5]  # Esta es una lista existente de números ocultos en
 
 # Paso 3: escribe aquí una línea de código que imprima la longitud de la lista existente.
 
-print(hat_list)
+print(lista)
 ```

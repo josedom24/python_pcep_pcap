@@ -2,7 +2,7 @@
 
 ## Recorriendo la lista con un bucle for
 
-El bucle for nos permite posicionarnos en todos los elementos de una lista de forma consecutiva, es lo que llamamos **recorrido de listas**.
+El bucle `for` nos permite posicionarnos en todos los elementos de una lista de forma consecutiva, es lo que llamamos **recorrido de listas**.
 
 Vemos un ejemplo: Supongamos que deseas calcular la suma de todos los valores almacenados en la lista `my_list`.
 
@@ -41,7 +41,7 @@ print(total)
 * La instrucción `for` especifica la variable utilizada para navegar por la lista (`i`) seguida de la palabra clave `in` y el nombre de la lista que queremos recorrer (`my_list`).
 * A la variable `i` se le asignan los valores de todos los elementos de la lista de forma consecutiva, uno detrás de otro.
 * En este caso no necesitamos usar índices, la variable `i` va tomando los valores de los elementos de la lista.
-* La función len() tampoco es necesaria aquí.
+* La función `len()` tampoco es necesaria aquí.
 
 ## Cuestionario
 
