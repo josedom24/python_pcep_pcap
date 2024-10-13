@@ -4,7 +4,7 @@
 
 * Un **método** es un tipo específico de **función**: funciona como una función pero actúa y se utiliza de forma distinta.
 * Las funciones son independiente de los datos. 
-* Los métodos están relacionados con determinados tipos de datos (que llamaremos **clases**) y cuando los usamos cambian el estado de dato con el que esta relacionado.
+* Los métodos están relacionados con determinados tipos de datos (que llamaremos **clases**) y cuando los usamos cambian el estado del dato con el que esta relacionado.
 * Podemos crear variables (que llamaremos **objetos**) a partir de algunos tipos de datos (que llamaremos **clases**) que además de guardar información, pueden ejecutar determinadas funciones (que llamaremos **métodos**) que actuarán sobre los datos guardados.
 * Profundizaremos en todos estos conceptos cuando estudiemos la **Programación Orientada a Objetos**.
 * De los tipos de datos que hemos estudiado hasta ahora, las cadenas (String) y las listas (List) son clases por lo que pueden ejecutar métodos.
