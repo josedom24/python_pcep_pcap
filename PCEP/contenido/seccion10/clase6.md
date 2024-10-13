@@ -20,9 +20,9 @@ Esto es incorrecto, porque perderemos el valor almacenado en `variable_2`. Neces
 variable_1 = 1
 variable_2 = 2
 
-auxiliary = variable_1
+auxiliar = variable_1
 variable_1 = variable_2
-variable_2 = auxiliary
+variable_2 = auxiliar
 ```
 
 Pero Python nos permite una solución que funciona también y es muy clara:
@@ -49,7 +49,7 @@ my_list[1], my_list[3] = my_list[3], my_list[1]
 print(my_list)
 ```
 
-Pero, y si tuviéramos una lista con muchos elementos?. ¿Sería esta solución válida?. Podríamos utilizar el bucle for para recorrer la lista e ir haciendo los intercambios, el código quedaría:
+Pero, y si tuviéramos una lista con muchos elementos?. ¿Sería esta solución válida?. Podríamos utilizar el bucle `for` para recorrer la lista e ir haciendo los intercambios, el código quedaría:
 
 ```
 my_list = [10, 1, 8, 3, 5]
