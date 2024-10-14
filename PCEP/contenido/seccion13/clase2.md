@@ -1,7 +1,5 @@
 # Tu primera función
 
-## Tu primera función
-
 Tenemos el siguiente código de un programa:
 
 ```
