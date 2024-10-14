@@ -29,7 +29,7 @@ La solución sería codificar el código repetido en una **función** que pudié
 Para crear una función es necesario **definirla** de la siguiente manera:
 
 ```
-def nombre_function():
+def nombre_función():
     instrucciones de la función
 ```
 
