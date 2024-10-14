@@ -9,7 +9,7 @@ Veamos un ejemplo de una lista tridimensional: imagina un hotel que consta de tr
 
 ## Declaración de listas tridimensionales
 
-Podríamos inicializar el arreglo durante su declaración, pero en este ejemplo habría que escribir mucha información,. Es más fácil usar compresión de listas:
+Podríamos inicializar el arreglo durante su declaración, pero en este ejemplo habría que escribir mucha información. Es más fácil usar compresión de listas:
 
 ```
 habitaciones = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
@@ -36,9 +36,6 @@ habitaciones[0][4][1] = False
 
 Otro ejemplo: verificar si hay disponibilidad en el piso 15 del tercer edificio:
 
-
-Verifica si hay disponibilidad en el piso 15 del tercer edificio:
-
 ```
 habitaciones = [[[False for r in range(20)] for f in range(15)] for t in range(3)]
 
@@ -57,7 +54,7 @@ print("Hay disponibles",disponibilidad,"habitaciones en el piso 15 del edificio 
 
 ```
 
-La variable `disponibilidad` contiene 0 si todas las habitaciones están ocupadas, o en dado caso el número de habitaciones disponibles.
+La variable `disponibilidad` contiene 0 si todas las habitaciones están ocupadas, o en otro caso el número de habitaciones disponibles.
 
 ## Recorrido de listas tridimensionales
 

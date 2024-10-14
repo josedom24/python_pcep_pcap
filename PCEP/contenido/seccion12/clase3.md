@@ -7,7 +7,7 @@ Imagina que desarrollas un programa para una estación meteorológica automátic
 1. Decidimos que para guardar la temperatura vamos a usar un número flotante.
 2. Vamos a usar una lista bidimensional para guardar la información.
 3. Decidimos que en cada fila guardaremos las temperaturas de cada hora, es decir tendrá 24 elementos.
-4. La lista tendrá 31 filas, ya que cada fila se asignará a un día del mes, es decir la lista tendrá una dimensión de 24 x 31.
+4. La lista tendrá 31 filas, ya que cada fila se asignará a un día del mes, es decir la lista tendrá una dimensión de 31 x 24.
 
 Si queremos crear la lista e inicializarla a 0, sería de la siguiente manera:
 

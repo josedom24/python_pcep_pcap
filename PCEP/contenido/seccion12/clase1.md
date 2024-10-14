@@ -46,11 +46,11 @@ La compresión de lista nos permite crear una lista y añadirle elementos. La li
 La sintaxis de una compresión de lista es la siguiente:
 
 ```
-[expression for element in list if conditional]
+[<expresión> for <elemento> in <lista> if <condicional>]
 ```
 
-* Esto crea una nueva lista cuyos elementos se calcularan a partir de la expresión `expression`.
-* La nueva lista tendrá, de principio, tantos elementos como la lista `list` y la variable `element` se podrá usar en la expresión `expression`.
+* Esto crea una nueva lista cuyos elementos se calcularan a partir de la expresión `expresión`.
+* La nueva lista tendrá, de principio, tantos elementos como la lista `lsita` y la variable `elemento` se podrá usar en la expresión `expresión`.
 * La parte de la estructura condicional es optativa, pero si aparece la condición se deberá cumplir para que se procese el elemento.
 
 Veamos algunos ejemplos:
