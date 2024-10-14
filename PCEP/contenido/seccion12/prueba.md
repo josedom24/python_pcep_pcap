@@ -38,7 +38,7 @@ La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en to
 4. ¿Cuántos (`*`) enviará el siguiente fragmento de código a la consola?
 
     ```
-     i = 0
+    i = 0
     while i <= 5 :
         i += 1
         if i % 2 == 0:
