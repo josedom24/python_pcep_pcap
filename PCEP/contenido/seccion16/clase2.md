@@ -61,7 +61,7 @@ except ZeroDivisionError:
 
 En el ejemplo anterior hemos localizado dos posibles excepciones: `ValueError` y `ZeroDivisionError`, pero no podemos estar totalmente seguros que se pueda producir otra excepción. 
 
-En este caso podemos indicar otro bloque `excpet` sin indicar ningún nombre de excepción, que habrá que colocar en último lugar, y que se ejecutará si la excepción provocada no es ninguna de las que estamos tratando. El código quedaría:
+En este caso podemos indicar otro bloque `except` sin indicar ningún nombre de excepción, que habrá que colocar en último lugar, y que se ejecutará si la excepción provocada no es ninguna de las que estamos tratando. El código quedaría:
 
 ```
 try:
