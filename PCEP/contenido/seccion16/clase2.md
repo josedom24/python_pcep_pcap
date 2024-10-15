@@ -11,7 +11,7 @@ except:
     ...
 ```
 
-* **try**: este es el lugar donde se coloca el código que se sospecha que puede causar un error o excepción. Se puede decidir que hay que irán las instrucciones que pueden potenciar generar una excepción.
+* **try**: este es el lugar donde se coloca el código que se sospecha que puede causar un error o excepción. Aqui irán las instrucciones que pueden potenciar generar una excepción.
 * **except**: esta parte fue diseñada para manejar la excepción. Estas instrucciones se ejecutan cuando se produce la excepción, podremos hacer varias cosas: mostrar un mensaje de error, cambiar el valor de una variable,...  Lo importante es que el programa no se detiene.
 
 Como puedes ver, este enfoque acepta errores (los trata como una parte normal de la vida del programa) en lugar de intensificar los esfuerzos para evitarlos por completo.
