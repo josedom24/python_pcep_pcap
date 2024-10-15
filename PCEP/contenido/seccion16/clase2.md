@@ -11,8 +11,6 @@ except:
     ...
 ```
 
-Tenemos dos bloques:
-
 * **try**: este es el lugar donde se coloca el código que se sospecha que puede causar un error o excepción. Se puede decidir que hay que irán las instrucciones que pueden potenciar generar una excepción.
 * **except**: esta parte fue diseñada para manejar la excepción. Estas instrucciones se ejecutan cuando se produce la excepción, podremos hacer varias cosas: mostrar un mensaje de error, cambiar el valor de una variable,...  Lo importante es que el programa no se detiene.
 
