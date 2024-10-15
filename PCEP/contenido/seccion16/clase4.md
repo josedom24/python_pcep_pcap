@@ -34,7 +34,7 @@ Ahora podemos pulsar F5 para ejecutar nuestro programa y en la ventana de depura
 
 En este punto, si queremos podemos indicar un punto de ruptura (**breakpoint**), que nos permite señalar una línea del código. La ejecución del código se realizará de formal normal hasta que llegue a la línea indicada donde se parará la ejecución para que podamos ejecutar el programa pasa a paso.
 
-Pongamos un punto de reputa, para ello nos vamos a la línea que queramos, botón derecho del ratón y la opción *Set Breakpoint*. La línea se resalta de amarillo:
+Pongamos un punto de ruptura, para ello nos vamos a la línea que queramos, botón derecho del ratón y la opción *Set Breakpoint*. La línea se resalta de amarillo:
 
 ![debug](img/debug02.png)
 
