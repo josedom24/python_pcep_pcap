@@ -55,7 +55,7 @@ Otra técnica para intentar evitar que un programa tenga errores es la **depurac
 
 Un **depurador** es un software especializado que puede controlar cómo se ejecuta tu programa. Con el depurador, puedes ejecutar tu código línea por línea, inspeccionar todos los estados de las variables y cambiar sus valores en cualquier momento sin modificar el código fuente, detener la ejecución del programa cuando se cumplen o no ciertas condiciones, y hacer muchas otras tareas útiles.
 
-Cualquier IDE que utilizamos tiene un depurador incorporado. IDELE también tiene un depurador que podemos activar con la opción *Debug*. En el siguiente apartado veremos un ejemplo de depuración con IDELE.
+Cualquier IDE que utilizamos tiene un depurador incorporado. IDLE también tiene un depurador que podemos activar con la opción *Debug*. En el siguiente apartado veremos un ejemplo de depuración con IDELE.
 
 ## Depuración por impresión
 
