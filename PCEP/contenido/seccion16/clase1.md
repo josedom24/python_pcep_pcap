@@ -8,7 +8,7 @@
 
 Tenemos dos fuente de errores principalmente:
 
-* **Los datos son incorrectos**: Los datos que introducimos a nuestro programa provocan que el programa no funcione bien. Por ejemplo, esperas que se ingrese al código un valor entero, pero tu usuario descuidado ingresa algunas letras al azar.
+* **Los datos son incorrectos**: Los datos que introducimos a nuestro programa provocan que el programa no funcione bien. Por ejemplo, esperas que el usuario introduzca un número entero, pero tu usuario descuidado ingresa algunas letras al azar.
 Por defecto estos tipos de errores producen que el programa termine mostrando un mensaje de error no muy claro para el usuario, aprenderemos a gestionar estos errores para que el usuario tenga una mejor experiencia.
 * **El código es incorrecto**: Los errores de programación se revela cuando ocurre un comportamiento no deseado del programa debido a errores que se cometieron cuando se estaba escribiendo el código. Este tipo de error se denomina comúnmente **"bug"** (bicho en inglés).
 
