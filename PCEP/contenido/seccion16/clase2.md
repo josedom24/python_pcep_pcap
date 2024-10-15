@@ -30,8 +30,7 @@ except:
 
 Podemos resumir:
 
-
-* Cualquier fragmento de código colocado entre `try` y `except` se ejecuta de una manera muy especial: cualquier error que ocurra en las instrucciones en el bloque `try` no terminará la ejecución del programa. En cambio, el control saltará inmediatamente a la primera línea situada después de la palabra clave reservada `except`, y no se ejecutará ninguna otra línea del bloque `try`.
+* Cualquier error que ocurra en las instrucciones en el bloque `try` no terminará la ejecución del programa. En cambio, el control saltará inmediatamente a la primera línea situada después de la palabra clave reservada `except`, y no se ejecutará ninguna otra línea del bloque `try`.
 * El código en el bloque `except` se activa solo cuando se ha encontrado una excepción dentro del bloque `try`. No hay forma de llegar por ningún otro medio.
 * Cuando el bloque `try` o `except` se ejecutan con éxito, el control continúa en la siguiente línea del programa de forma secuencial.
 
