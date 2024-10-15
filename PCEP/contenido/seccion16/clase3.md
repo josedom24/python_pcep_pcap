@@ -81,7 +81,7 @@ print(suma)
 
 Por último, una técnica cada vez más usada para probar nuestros programas e intentar encontrar los posibles errores son las **pruebas unitarias**.
 
-En este caso, cuando escribimos u programa, o una función, también programamos una prueba con un lote de datos significativo que nos permite probar el código de una forma más eficiente. Es decir, escribimos un programa que prueba una función o un programa.
+En este caso, cuando escribimos un programa, o una función, también programamos una prueba con un lote de datos significativo que nos permite probar el código de una forma más eficiente. Es decir, escribimos un programa que prueba una función o un programa.
 
 Además es posible que esos programas de prueba se ejecuten de forma automática cada vez que se cambia el código, es lo que llamamos **integración continúa**, asegurando que cualquier cambio del código sigue funcionando de manera adecuada o ha introducido algún error.
 
