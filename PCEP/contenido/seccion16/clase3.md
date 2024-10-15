@@ -61,7 +61,7 @@ Cualquier IDE que utilizamos tiene un depurador incorporado. IDLE también tiene
 
 Esta técnica de depuración es más sencilla y menos potente que el uso de un depurador, pero en ciertas circunstancias puede ser muy útil.
 
-La **depuración por impresión** consiste en ir insertando distintas instrucciones `print()` entre el código para visualizar el valor de va tomando cierta variable. Además de imprimir el valor de las variables, podemos insertar impresiones de mensajes significativos para asegurarnos que se está ejecutando esa parte del código.
+La **depuración por impresión** consiste en ir insertando distintas instrucciones `print()` entre el código para visualizar el valor que va tomando cierta variable. Además de imprimir el valor de las variables, podemos insertar impresiones de mensajes significativos para asegurarnos que se está ejecutando esa parte del código.
 
 Evidentemente, después de hacer esta depuración y arreglar el error estas instrucciones `print()` se suelen borrar.
 
