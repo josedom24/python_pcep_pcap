@@ -67,7 +67,7 @@ Estamos intentando operar con valores que son cadenas de caracteres no números 
 
 ![debug](img/debug07.png)
 
-Volvemos a iniciar la depuración y nos desplazamos a la instrucción con el Breakpoint. Y vemos que ella próxima instrucción es la ejecución de una función definida por nosotros:
+Volvemos a iniciar la depuración y nos desplazamos a la instrucción con el Breakpoint. Y vemos que la próxima instrucción es la ejecución de una función definida por nosotros:
 
 ![debug](img/debug08.png)
 
