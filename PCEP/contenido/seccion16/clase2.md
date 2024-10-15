@@ -36,7 +36,7 @@ Podemos resumir:
 
 ## Trabajar con varias excepciones
 
-El programa anterior además de la excepción `ValueError` producida cuando introducimos un dato que no se puede convertir a entero, puede producir otro error si introducimos el 0, e intentamos dividir por él. en este caso se introduce la excepción `ZeroDivisionError`.
+El programa anterior además de la excepción `ValueError` producida cuando introducimos un dato que no se puede convertir a entero, puede producir otro error si introducimos el 0, e intentamos dividir por él. En este caso se produce la excepción `ZeroDivisionError`.
 
 Si tenemos posibilidad de varias excepciones, seguramente que remos tratar cada una de ellas de forma diferente, es decir ejecutar bloques `except` diferentes para cada una de ella.
 
