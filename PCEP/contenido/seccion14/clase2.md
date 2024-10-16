@@ -51,7 +51,7 @@ print(es_un_triangulo(1, 1, 1))
 print(es_un_triangulo(1, 1, 3))
 ```
 
-Se ha negado la condición (se invirtieron los operadores relacionales y se reemplazaron los *ors* con *ands**, obteniendo una expresión simple para probar triángulos).
+Se ha negado la condición (se invirtieron los operadores relacionales y se reemplazaron los *ors* con *ands*, obteniendo una expresión simple para probar triángulos).
 
 ## Versión completa
 
@@ -137,5 +137,5 @@ Lo probaremos con un triángulo rectángulo la mitad de un cuadrado y con un lad
 
 Es extraño pero el código produce la siguiente salida: `0.49999999999999983`.
 
-Esto es debido a cálculo de valores de punto flotantes, que en ocasiones no nos permite representar todos los números y nos da un número muy cercano a la respuesta correcta.
+Esto es debido al cálculo de valores de punto flotantes, que en ocasiones no nos permite representar todos los números y nos da un número muy cercano a la respuesta correcta.
 

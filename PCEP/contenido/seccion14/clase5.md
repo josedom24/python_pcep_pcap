@@ -47,7 +47,7 @@ def factorial(n):
         return 1
     return n * factorial(n - 1)
 ```
-En este caso el caso base que se hace que se termine la recursión es cuando `n` es igual a 1 que se devuelve un 1.
+En este caso, el caso base que se hace que se termine la recursión es cuando `n` es igual a 1 que se devuelve un 1.
 
 ## Cuestionario
 

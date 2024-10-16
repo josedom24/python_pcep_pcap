@@ -42,11 +42,11 @@ def imc(weight, height):
 print(imc(352.5, 1.65))
 ```
 * Nos aseguramos que los datos que sean ingresados sean correctos, de lo contrario la salida será: `None`.
-* Hemos usado el símbolo de diagonal invertida (`\`) para separar en varias líneas una instrucción. Esto puede ser útil cuando se tienen largas líneas de código y se desea que sean más legibles.
+* Hemos usado el símbolo de diagonal invertida (`\`) para separar en varias líneas una instrucción. Esto puede ser útil cuando se tienen líneas largas de código y se desea que sean más legibles.
 
 ## Versión 3
 
-Veamos otra versión del programa para utiliza otras unidades de medida, por ejemplo: libras, pies y pulgadas.
+Veamos otra versión del programa que permita utilizar otras unidades de medida, por ejemplo: libras, pies y pulgadas.
 
 Para ello vamos a escribir dos funciones sencillas para convertir unidades del sistema inglés al sistema métrico. Por ejemplo sabemos que 1 libra = 0.45359237 kg. Esto lo emplearemos en nuestra nueva función:
 
@@ -58,7 +58,7 @@ print(libra_a_kg(1))
 
 El resultado de la prueba es el siguiente: `0.45359237`.
 
-Hacemos dos nuevas para convertir los pies y las pulgadas. Vemos la función que me permite convertir a metros, sabiendo que 1 pie = 0.3048 m, y 1 pulgada = 2.54 cm = 0.0254 m.
+Hacemos dos nuevas funciones para convertir los pies y las pulgadas. Vemos la función que me permite convertir a metros, sabiendo que 1 pie = 0.3048 m, y 1 pulgada = 2.54 cm = 0.0254 m.
 
 ```
 def pie_pulgada_a_metro(ft, inch):

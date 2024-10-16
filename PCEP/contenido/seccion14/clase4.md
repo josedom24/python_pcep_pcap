@@ -18,7 +18,7 @@ fib_6 = 3 + 5 = 8
 fib_7 = 5 + 8 = 13
 ```
 
-Vamos a crear una función para calcular la serie de Fibonacci hasta el número recibido como parámetro:
+Vamos a crear una función para calcular el número de la serie de Fibonacci correspondiente a la posición que se pasa como parámetro:
 
 ```
 def fib(n):
