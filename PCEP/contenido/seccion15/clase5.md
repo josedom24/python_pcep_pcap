@@ -1,10 +1,10 @@
 # Ejemplo con tuplas y diccionarios
 
-Veamos un ejemplo donde vemos como  las tuplas y los diccionarios pueden trabajar juntos.
+Veamos un ejemplo donde vemos como las tuplas y los diccionarios pueden trabajar juntos.
 
 Imaginemos el siguiente problema:
 
-* Necesitas un programa para calcular los promedios de tus alumnos.
+* Necesitas un programa para calcular la media de notas de tus alumnos.
 * El programa pide el nombre del alumno seguido de su calificación.
 * Los nombres son ingresados en cualquier orden.
 * El ingresar un nombre vacío finaliza el ingreso de los datos 
@@ -13,29 +13,28 @@ Imaginemos el siguiente problema:
 Veamos el programa:
 
 ```
-school_class = {}
+alumnos = {}
 
-while True:
-    name = input("Ingresa el nombre del estudiante: ")
-    if name == '':
-        break
-    
-    score = int(input("Ingresa la calificación del estudiante (0-10): "))
-    if score not in range(0, 11):
+nombre = input("Ingresa el nombre del estudiante: ")
+while nombre != "":
+
+    nota = int(input("Ingresa la calificación del estudiante (0-10): "))
+    if nota not in range(0, 11):
 	    break
     
-    if name in school_class:
-        school_class[name] += (score,)
+    if nombre in alumnos:
+        alumnos[nombre] += (nota,)
     else:
-        school_class[name] = (score,)
+        alumnos[nombre] = (nota,)
+    nombre = input("Ingresa el nombre del estudiante: ")
         
-for name in sorted(school_class.keys()):
-    adding = 0
-    counter = 0
-    for score in school_class[name]:
-        adding += score
-        counter += 1
-    print(name, ":", adding / counter)
+for nombre in sorted(alumnos.keys()):
+    total = 0
+    contador = 0
+    for nota in alumnos[nombre]:
+        total += nota
+        contador += 1
+    print(nombre, ":", total / contador)
 ```
 
 

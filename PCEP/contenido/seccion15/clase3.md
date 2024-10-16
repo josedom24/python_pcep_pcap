@@ -2,15 +2,13 @@
 
 El diccionario es otro tipo de estructura de datos de Python. No es una secuencia (pero puede adaptarse fácilmente a un procesamiento secuencial) y además es mutable.
 
-En un diccionario los datos (**valor**) guardados se referencias con una **clave**(key). La palabra que se obtiene del diccionario es denominada valor.
-
-Esto significa que un diccionario es un conjunto de **pares de claves y valores**. 
+En un diccionario los datos (**valor**) guardados se referencias con una **clave** (key). Esto significa que un diccionario es un conjunto de **pares de claves y valores**. 
 
 * **Cada clave debe de ser única**. No es posible tener una clave duplicada.
 * Una **clave puede ser un tipo de dato de cualquier tipo**: puede ser un número (entero o flotante), o incluso una cadena.
 * Un **diccionario no es una lista**. Una lista contiene un conjunto de valores numerados, mientras que un diccionario almacena pares de valores.
-* La función `len()` aplica también para los diccionarios, regresa la **cantidad de pares (clave-valor)** en el diccionario.
-* Los valores también pueden ser cualquier tipo de datos.
+* La función `len()` se aplica también para los diccionarios y devuelve la **cantidad de pares (clave-valor)** en el diccionario.
+* Los valores también pueden ser de cualquier tipo de datos.
 
 ## ¿Cómo crear un diccionario?
 
@@ -32,7 +30,7 @@ print(empty_dictionary)
 
 ## Conversión a diccionarios
 
-Si tenemos una lista o una tupla cuyos elementos son listas y tuplas de dos elementos, se pueden convertir a un diccionario con la función `dict()`, el primer elemento se considera clave y el segundo valor. Veamos un ejemplo:
+Si tenemos una lista o una tupla cuyos elementos son listas y tuplas de dos elementos, se pueden convertir a un diccionario con la función `dict()`, el primer elemento se considera clave y el segundo, valor. Veamos un ejemplo:
 
 ```
 tuple = (("uno", "1º"),("dos","2º"),("tres","3º"))
@@ -50,14 +48,14 @@ print(phone_numbers['Suzy'])
 
 * El obtener el valor de un diccionario es semejante a la indexación, gracias a los corchetes alrededor del valor de la clave.
 * Si una clave es una cadena, se tiene que especificar como una cadena.
-* Las claves son sensibles a las mayúsculas y minúsculas: 'Suzy' sería diferente a 'suzy'.
+* Las claves son sensibles a las mayúsculas y minúsculas: `'Suzy'` sería diferente a `'suzy'`.
 
 No se puede utilizar una clave que no exista. Hacer algo como lo siguiente provocará un error de ejecución.:
 ```
 print(phone_numbers['presidente'])
 ```
 
-Podemos usar el operador `in` o `not iin` para comprobar si existe una clave en el diccionario:
+Podemos usar el operador `in` o `not in` para comprobar si existe una clave en el diccionario:
 
 ```
 dictionary = {"gato" : "cat", "perro" : "dog", "caballo" : "horse"}
@@ -71,7 +69,7 @@ for word in words:
 ```
 
 
-Cuando escribes una expresión grande o larga, puede ser una buena idea mantenerla alineada verticalmente. Así es como puede hacer que el código sea más legible y más amigable para el programador, por ejemplo:
+Cuando escribes una expresión larga, puede ser una buena idea mantenerla alineada verticalmente. Así es como puede hacer que el código sea más legible y más amigable para el programador, por ejemplo:
 ```
 # Ejemplo 1:
 dictionary = {

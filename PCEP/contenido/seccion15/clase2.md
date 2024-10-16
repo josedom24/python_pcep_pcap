@@ -1,6 +1,6 @@
 # Tuplas
 
-Una tupla es una secuencia inmutable. Se puede comportar como una lista pero no puede ser modificada en el momento.
+Una tupla es una secuencia inmutable. Se puede comportar como una lista pero no puede ser modificada.
 Lo primero que distingue una lista de una tupla es la sintaxis empleada para crearlas. Las tuplas utilizan paréntesis, mientras que las listas usan corchetes, aunque también es posible crear una tupla tan solo separando los valores por comas.
 
 Observa el ejemplo:
@@ -34,12 +34,9 @@ one_element_tuple_1 = (1, )
 one_element_tuple_2 = 1.,
 ```
 
-También se puede crear una tupla utilizando la función integrada de Python `tuple()`. Esto es particularmente útil cuando se desea convertir una secuencia (por ejemplo, una lista, rango, cadena, etcétera) en una tupla:
+También se puede crear una tupla utilizando la función integrada de Python `tuple()`. Esto es particularmente útil cuando se desea convertir otro tipo de datos iterable (por ejemplo, una lista, rango, cadena, etcétera) en una tupla:
 
 ```
-my_tuple = tuple((1, 2, "cadena"))
-print(my_tuple)
-
 my_list = [2, 4, 6]
 print(my_list)    # salida: [2, 4, 6]
 print(type(my_list))    # salida: <class 'list'>
@@ -70,7 +67,7 @@ print(my_tuple[:-2])
 for elem in my_tuple:
     print(elem)
 ```
-Como vemos podemos indexar la lista, realizar rebanadas y recorrerla. Lo que no podemos hacer es modificaciones en la tupla.
+Como vemos podemos indexar la tupla, realizar rebanadas y recorrerla. Lo que no podemos hacer es modificaciones en la tupla.
 Las siguientes instrucciones nos darían errores:
 ```
 my_tuple = (1, 10, 100, 1000)
@@ -80,15 +77,13 @@ del my_tuple[0]
 my_tuple[1] = -10
 ```
 
-El error que obtendremos será: `AttributeError: 'tuple' object has no attribute 'append'`.
-
 ## Más operaciones de tuplas
 
 Además de la indexación, rebanadas y recorridos, podemos ejecutar las siguientes operaciones a las tuplas:
 
 * La función `len()` acepta tuplas, y devuelve el número de elementos contenidos dentro.
-* El operador `+` puede unir tuplas (ya se ha mostrado esto antes).
-* El operador `*` puede multiplicar las tuplas, así como las listas.
+* El operador `+` puede unir tuplas.
+* El operador `*` puede repetir los elementos de la tupla por el número indicado.
 * Los operadores `in` y `not in` funcionan de la misma manera que en las listas.
 
 Veamos un ejemplo:

@@ -2,8 +2,8 @@
 
 ## El método keys()
 
-Utilizando el método `keys()` de los diccionarios podemos recorrerlo utilizando un bucle `for`.
-El método `keys()` nos devuelve una lista de todas las claves dentro del diccionario. Al tener una lista de claves se puede acceder a todo el diccionario de una manera fácil y útil.
+Utilizando el método `keys()` de los diccionarios podemos recorrerlos utilizando un bucle `for`.
+El método `keys()` nos devuelve una lista de todas las claves del diccionario. Al tener una lista de claves se puede acceder a todo el diccionario de una manera fácil y útil.
 
 Veamos un ejemplo:
 
@@ -23,7 +23,7 @@ for key in sorted(dictionary.keys()):
 
 ## Los métodos item() y values()
 
-Otra manera de hacer el recorrido es utilizar el método `items()`. Este método devuelve una lista de tuplas, donde cada tupla es un par de cada clave con su valor.
+Otra manera de hacer el recorrido es utilizar el método `items()`. Este método devuelve una lista de tuplas, donde cada tupla es un par de clave y valor.
 
 Ejemplo:
 ```
@@ -42,7 +42,7 @@ dictionary = {"gato" : "cat", "perro" : "dog", "caballo" : "horse"}
 for english in dictionary.values():
     print(english)
 ```
-Hay que recordar que si tenemos el valor no podemos calcular la calve con la que es referenciada.
+Hay que recordar que si tenemos el valor no podemos calcular la clave con la que es referenciada.
 
 ## Modificar, agregar y eliminar valores
 
@@ -54,7 +54,7 @@ Observa:
 ```
 dictionary = {'gato': 'cat', 'perro': 'dog', 'caballo': 'horse'}
 
-dictionary['gato'] = 'supercar'
+dictionary['gato'] = 'supercat'
 print(dictionary)
 ```
 
@@ -76,7 +76,7 @@ También es posible insertar un elemento al diccionario utilizando el método `u
 ```
 dictionary = {"gato" : "cat", "perro" : "dog", "caballo" : "horse"}
 
-dictionary.update({"pato": "dauck"})
+dictionary.update({"pato": "duck"})
 print(dictionary)
 ```
 
