@@ -22,7 +22,7 @@ En Python, existe una distinción entre dos tipos de errores:
     print("Hola, ¡Mundo!)
     ```
     Provoca en error de tipo: `SyntaxError: EOL while scanning string literal`.
-* **Excepciones**, ocurren incluso cuando el código es correcto sintácticamente.una instrucción o expresión es sintácticamente correcta. Estos son los errores que se detectan durante la ejecución, cuando tu código da como resultado un error que no es incondicionalmente fatal.
+* **Excepciones**, ocurren incluso cuando el código es correcto sintácticamente. Estos son los errores que se detectan durante la ejecución, cuando tu código da como resultado un error que no es incondicionalmente fatal.
 
 ## Errores de datos
 
@@ -43,7 +43,7 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: ''
 ```
 
-La última línea nos explica qué ha pasado: en este caso nos indica `ValueErorror` que es el nombre de la **excepción** que se ha producido. En la misma línea nos muestra el detalle del error que se ha producido.
+La última línea nos explica qué ha pasado: en este caso nos indica `ValueError` que es el nombre de la **excepción** que se ha producido. En la misma línea nos muestra el detalle del error que se ha producido.
 
 Frente a este tipo de errores podemos hacer dos cosas:
 
