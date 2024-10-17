@@ -94,7 +94,7 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion12/test.md)
     * [Prueba intermedia](contenido/seccion12/prueba.md)
 13. Introducción a las funciones
-    * [Introducción a las funciones](contenido/seccion13/clase1.md)
+    * [Introducción a las funciones (P)](contenido/seccion13/clase1.md)
     * [Tu primera función](contenido/seccion13/clase2.md)
     * [Funciones parametrizadas](contenido/seccion13/clase3.md)
     * [Paso de parámetros](contenido/seccion13/clase4.md)
