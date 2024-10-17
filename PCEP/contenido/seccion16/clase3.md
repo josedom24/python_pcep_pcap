@@ -1,6 +1,6 @@
 # Pruebas de ejecución
 
-Aunque hemos visto la posibilidad de gestionar los posibles errores que se pueden provocar en un programa con el manejo de las excepciones, ese mecanismo no nos asegura que nuestro programa este libre de errores.
+Aunque hemos visto la posibilidad de gestionar los posibles errores que se pueden provocar en un programa con el manejo de las excepciones, ese mecanismo no nos asegura que nuestro programa esté libre de errores.
 
 Además en un lenguaje interpretado, determinados errores sólo se descubren cuando se ejecuta la instrucción que contiene el error. Por ello sería necesario probar todas las posibilidades de valores de entrada para asegurar la ejecución de todas las instrucciones bajo todas las posibilidades y determinar si alguna produce algún error.
 
@@ -61,7 +61,7 @@ Cualquier IDE que utilizamos tiene un depurador incorporado. IDLE también tiene
 
 Esta técnica de depuración es más sencilla y menos potente que el uso de un depurador, pero en ciertas circunstancias puede ser muy útil.
 
-La **depuración por impresión** consiste en ir insertando distintas instrucciones `print()` entre el código para visualizar el valor que va tomando cierta variable. Además de imprimir el valor de las variables, podemos insertar impresiones de mensajes significativos para asegurarnos que se está ejecutando esa parte del código.
+La **depuración por impresión** consiste en ir insertando distintas instrucciones `print()` entre el código para visualizar el valor que va tomando ciertas variables. Además de imprimir el valor de las variables, podemos insertar impresiones de mensajes significativos para asegurarnos que se está ejecutando esa parte del código.
 
 Evidentemente, después de hacer esta depuración y arreglar el error estas instrucciones `print()` se suelen borrar.
 

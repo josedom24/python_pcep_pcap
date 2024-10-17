@@ -121,9 +121,9 @@
     * [Ejemplo con tuplas y diccionarios](contenido/seccion15/clase5.md)
     * [LABORATORIO - Ejercicios con diccionarios](contenido/seccion15/clase6.md)
 16. Excepciones
-    * [Errores en la programación](contenido/seccion16/clase1.md)
+    * [Errores en la programación (P)](contenido/seccion16/clase1.md)
     * [Excepciones en Python](contenido/seccion16/clase2.md)
-    * [Pruebas de ejecución](contenido/seccion16/clase3.md)
+    * [Pruebas de ejecución (P)](contenido/seccion16/clase3.md)
     * [Ejemplo de depuración de código](contenido/seccion16/clase4.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion16/test.md)
     * [Prueba intermedia](contenido/seccion16/prueba.md)
