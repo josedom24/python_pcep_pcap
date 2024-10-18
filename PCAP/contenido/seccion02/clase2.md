@@ -43,7 +43,7 @@ print(asin(sin(ar)) == ar)  # Verifica si el arcoseno de sin(pi/2) devuelve pi/2
 ## Exponenciación
 
 * `e`: una constante con un valor que es una aproximación del número de Euler (e).
-* `exp(x)`: devuelve el valor de `e`<sub>`x`</sub>.
+* `exp(x)`: devuelve el valor de `e`<sup>`x`</sup>.
 * `log(x)`: el logaritmo natural o neperiano de `x`.
 * `log(x, b)`: el logaritmo de `x` con base `b`.
 * `log10(x)`: el logaritmo decimal de `x` (más preciso que `log(x, 10)`).
@@ -51,7 +51,7 @@ print(asin(sin(ar)) == ar)  # Verifica si el arcoseno de sin(pi/2) devuelve pi/2
 
 Además podemos usar la siguiente función, sin necesiada de importarla:
 
-* pow(x, y) → encuentra el valor de `x`<sub>`y`</sub>.
+* pow(x, y) → encuentra el valor de `x`<sup>`y`</sup>.
 
 Ejemplo:
 ```
