@@ -9,7 +9,8 @@
 2. Módulos estándares en Python
     * [La función dir()](contenido/seccion02/clase1.md)
     * [El módulo math](contenido/seccion02/clase2.md)
-
+    * [El módulo random](contenido/seccion02/clase3.md)
+    * [El módulo platform](contenido/seccion02/clase4.md)
 
 
 
