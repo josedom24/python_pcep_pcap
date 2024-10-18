@@ -4,6 +4,9 @@
 1. Introducción a los módulos en Python
     * [¿Qué es un módulo?](contenido/seccion01/clase2.md)
     * [Importación de módulos](contenido/seccion01/clase2.md)
+    * [Importación de entidades de un módulo](contenido/seccion01/clase3.md)
+    * [Importación de todas las entidades de un módulo](contenido/seccion01/clase3.md)
+
 
 2. Módulos estándares en Python
 3. Módulos y paquetes

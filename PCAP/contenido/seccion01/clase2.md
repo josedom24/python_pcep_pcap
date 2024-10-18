@@ -65,3 +65,27 @@ print(math.sin(math.pi/2))
 ```
 
 Si eliminas el uso del nombre del módulo (`math.`), el código fallará, ya que no sabrá de qué módulo provienen las entidades `pi` o `sin`.
+
+## Coexistencia de dos namespace
+
+En este ejemplo, se demuestra cómo pueden coexistir dos namespaces sin que se sobrescriban entre sí, incluso si ambos contienen entidades con el mismo nombre (como `pi` o `sin`).
+
+En el código se ha definido una función `sin` y una variable `pi` en tu propio namespace, mientras que el módulo `math` también tiene una función `sin` y una constante ++.
+
+
+```
+import math
+
+def sin(x):
+    if 2 * x == pi:
+        return 0.99999999
+    else:
+        return None
+
+pi = 3.14
+
+print(sin(pi/2))        # Usará tu propia definición de sin y pi.
+print(math.sin(math.pi/2))  # Usará la función sin y pi del módulo math.
+```
+
+Esto demuestra que aunque ambos namespaces contienen entidades con los mismos nombres (`sin` y `pi`), no interfieren entre sí. El uso del nombre del módulo (`math.`) garantiza que se utilicen las entidades correctas del módulo, incluso si tu propio código también tiene entidades con los mismos nombres.
