@@ -62,7 +62,7 @@ print(pow(2, 2) == exp(2 * log(2)))
 print(log(e, e) == exp(0))
 ```
 
-## funciones de propósito general
+## Funciones de propósito general
 
 El último grupo consta de algunas funciones de propósito general como:
 
@@ -71,7 +71,7 @@ El último grupo consta de algunas funciones de propósito general como:
 * `floor(x)`: el entero más grande menor o igual que `x`.
 * `trunc(x)`: el valor de `x` truncado a un entero (ten cuidado, no es equivalente a `ceil` o `floor`).
 * `factorial(x)`: devuelve `x!` (`x` tiene que ser un valor entero y no negativo).
-* `hypot(x, y)`: devuelve la longitud de la hipotenusa de un triángulo rectángulo con las longitudes de los catetos iguales a (`x`) y (`y`) (lo mismo que `sqrt(pow(x, 2) + pow(y, 2)`) pero más preciso.
+* `hypot(x, y)`: devuelve la longitud de la hipotenusa de un triángulo rectángulo con las longitudes de los catetos iguales a `x` y `y` (lo mismo que `sqrt(pow(x, 2) + pow(y, 2)`) pero más preciso.
 
 Ejemplo:
 ```
