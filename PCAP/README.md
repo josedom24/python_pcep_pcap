@@ -6,9 +6,13 @@
     * [Importación de módulos](contenido/seccion01/clase2.md)
     * [Importación de entidades de un módulo](contenido/seccion01/clase3.md)
     * [Importación de todas las entidades de un módulo](contenido/seccion01/clase4.md)
-
-
 2. Módulos estándares en Python
+    * [La función dir()](contenido/seccion02/clase1.md)
+    * [El módulo math](contenido/seccion02/clase2.md)
+
+
+
+
 3. Módulos y paquetes
 4. Instalador de paquetes de python PIP
 5. Cadenas de caracteres 
