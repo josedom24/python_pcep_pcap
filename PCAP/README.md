@@ -11,11 +11,18 @@
     * [El módulo math](contenido/seccion02/clase2.md)
     * [El módulo random](contenido/seccion02/clase3.md)
     * [El módulo platform](contenido/seccion02/clase4.md)
-
-
-
 3. Módulos y paquetes
-4. Instalador de paquetes de python PIP
+    * ¿Qué es un paquete en Python?
+    * Nuestro primer módulo
+    * Nuestro primer paquete
+4. Instalador de paquetes PIP
+
+
+
+
+
+
+
 5. Cadenas de caracteres 
 6. Operaciones con cadenas de caracteres
 7. Ejemplos de programas trabajando con cadenas de caracteres
