@@ -20,7 +20,7 @@ Es un código muy sencillo, pero observamos que es muy repetitivo:
 ¿Qué ocurriría si tuviéramos que cambiar el mensaje? Habría que cambiar el mensaje en tres sitios del código.
 Y, ¿si en vez de leer 3 variables, tuviéramos que leer 50?
 
-Parece evidente que necesitamos alguna forma de reutilizar el código que estamos repitiendo. De esta manera sólo escribiríamos el código una vez, y si tuviéramos que cambiarlo sería un sólo cambio. Posteriormente podríamos utilizar dicho código las veces que hicieran falta.
+Parece evidente que necesitamos alguna forma de reutilizar el código que estamos repitiendo. De esta manera sólo escribiríamos el código una vez, y si tuviéramos que cambiarlo sería un sólo cambio. Posteriormente podríamos utilizar dicho código las veces que hiciera falta.
 
 La solución sería codificar el código repetido en una **función** que pudiéramos utilizar tantas veces como necesitáramos.
 
