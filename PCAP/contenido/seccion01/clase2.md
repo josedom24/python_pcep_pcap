@@ -55,12 +55,13 @@ Para ilustrar cómo funciona un namespace, algunos ejemplos comunes serían:
 
 ## Ejemplo con el módulo math
 
-Cuando importas el módulo `math`, las entidades como `pi` o `sin()` se definen dentro de ese módulo y no afectan directamente al namespace de tu código. Si tienes una variable o función llamada `pi` en tu código, no se sobrescribirá con la constante `pi` del módulo `math`. Para acceder a las entidades del módulo, debes usar el nombre del módulo seguido de un punto, como en `math.pi`. Ejemplo:
+Cuando importas el módulo `math`, las entidades como `pi` o `sin()` se definen dentro de ese módulo y no afectan directamente al namespace de tu código. Si tienes una variable o función llamada `pi` en tu código, no se sobrescribirá con la constante `pi` del módulo `math`. Para acceder a las entidades del módulo, debes usar el nombre del módulo seguido de un punto, como en `math.pi`. Esto es obligatorio y garantiza que el código pueda distinguir entre el namespace del módulo y cualquier otra variable o función que puedas haber definido en tu código.
+
+Por ejemplo, si quieres imprimir el resultado de sin(½π), el código sería:
 
 ```
 import math
-
-# Aquí accedemos a la constante pi del módulo math
-print(math.pi)
+print(math.sin(math.pi/2))
 ```
-De esta manera, el módulo y sus nombres permanecen en su propio espacio, y tú puedes mantener nombres en tu código sin que se sobrescriban.
+
+Si eliminas el uso del nombre del módulo (`math.`), el código fallará, ya que no sabrá de qué módulo provienen las entidades `pi` o `sin`.
