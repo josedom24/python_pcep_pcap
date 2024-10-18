@@ -13,7 +13,7 @@ Un módulo en Python es un archivo que contiene definiciones y sentencias de Pyt
 * **Usuario del módulo**: Es el caso más común, donde un programador utiliza un módulo ya existente, ya sea escrito por otro o creado previamente por él mismo.
 * **Proveedor del módulo**: Aquí el programador crea un nuevo módulo para uso propio o para facilitar el trabajo de otros.
 
-Un módulo se identifica por su **nombre**, y Python proporciona una gran cantidad de módulos ys prediseñados con distintas funcionalidades que junto con las funciones integradas, forman la **Biblioteca Estándar de Python**, la cual incluye una amplia gama de módulos para diversas funcionalidades. La lista completa de módulos se puede consultar aquí: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html).
+Un módulo se identifica por su **nombre**, y Python proporciona una gran cantidad de módulos ya prediseñados con distintas funcionalidades que junto con las funciones integradas, forman la **Biblioteca Estándar de Python**, la cual incluye una amplia gama de módulos para diversas funcionalidades. La lista completa de módulos se puede consultar aquí: [https://docs.python.org/3/library/index.html](https://docs.python.org/3/library/index.html).
 
 Cada módulo puede contener varias entidades, tales como **funciones, variables, constantes, clases y objetos**. Para utilizar un módulo, simplemente se debe acceder a él mediante su nombre y utilizar las entidades que almacena.
 
