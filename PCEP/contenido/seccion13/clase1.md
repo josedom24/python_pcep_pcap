@@ -16,7 +16,7 @@
 * La **descomposición** nos permite descomponer el problema que estamos resolviendo, en subproblemas más pequeños. Estos, a su vez, se pueden dividir aún más. Cada problema más simple se codificará en distintas funciones.
 * Esta técnica favorece el trabajo del equipo de desarrollo. A cada desarrollador se le puede asignar hacer parte del programa: codificar una función.
 * Además de compartir el trabajo, se comparte la responsabilidad entre varios desarrolladores.
-* Cada uno debe escribir un conjunto bien definido y claro de funciones, las cuales al ser combinadas dentro de un módulo (esto se clarificara un poco más adelante) nos dará como resultado el producto final.
+* Cada uno debe escribir un conjunto bien definido y claro de funciones, las cuales al ser combinadas dentro de un módulo (conjunto de funciones, variables,...) nos dará como resultado el producto final.
 * La **programación modular** es un paradigma de programación que consiste en dividir un programa en módulos o subprogramas con el fin de hacerlo más legible y manejable.
 
 ## ¿De dónde provienen las funciones?
