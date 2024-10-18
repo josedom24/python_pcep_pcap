@@ -23,4 +23,4 @@
 
 * Pueden estar **definidas de forma predeterminada en Python**. Por ejemplo, la función `print()`. Estas funciones son **parte integral** de Python, se les suele llamar **funciones integradas** y siempre se pueden usar.
 * Pueden estar **definidas de uno o varios de los módulos de Python** llamados complementos o librerías; algunos de los módulos vienen con Python, otros pueden requerir una instalación por separado. Para usar estas funciones es necesario **importar el módulo**.
-* **Puedes escribirlas tú mismo**, colocando tantas funciones como desees y necesites dentro de su programa para hacerlo más simple, claro y elegante.
+* **Puedes escribirlas tú mismo**, colocando tantas funciones como desees y necesites dentro de tu programa para hacerlo más simple, claro y elegante.
