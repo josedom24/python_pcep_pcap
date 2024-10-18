@@ -38,7 +38,7 @@ print(platform(1))       # Usa nombres alternativos para las capas.
 print(platform(0, 1))    # Usa nombres alternativos y muestra una forma más breve.
 ```
 
-## La función machine
+## La función `machine()`
 
 La función `machine()` nos devuelve  el nombre genérico del procesador que ejecuta el sistema operativo. Ejemplo:
 
@@ -47,7 +47,7 @@ from platform import machine
 print(machine())
 ```
 
-## La función processor
+## La función `processor()`
 
 La función `processor()` devuelve una cadena con el nombre real del procesador (si lo fuese posible, en ocasiones devuelve una cadena vacía).
 
@@ -57,7 +57,7 @@ from platform import processor
 print(processor())
 ```
 
-## La función system
+## La función `system()`
 
 La función `system()` devuelve el nombre genérico del sistema operativo en una cadena.
 
@@ -68,7 +68,7 @@ from platform import system
 print(system())
 ```
 
-## La función version
+## La función `version()`
 
 La versión del sistema operativo se proporciona como una cadena por la función `version()`.
 
@@ -79,7 +79,7 @@ from platform import version
 print(version())
 ```
 
-## Las funciones python_implementation y python_version_tuple
+## Las funciones `python_implementation()` y `python_version_tuple()`
 
 Si necesitas saber que versión de Python está ejecutando tu código, puedes verificarlo utilizando una serie de funciones dedicadas, aquí hay dos de ellas:
 
