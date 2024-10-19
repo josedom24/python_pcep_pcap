@@ -28,7 +28,7 @@ Existen algunos elementos nuevos. Déjanos contarte sobre ellos:
 * Cualquier **variable** después de la palabra reservada `for` es la **variable de control del bucle**; cuenta los giros del bucle y lo hace automáticamente.
 * La palabra reservada `in` introduce un elemento de sintaxis que describe el **rango de valores posibles** que se asignan a la variable de control.
 * La función `range()` es responsable de generar todos los valores deseados de la variable de control; en nuestro ejemplo, la función creará  el conjunto : 0, 1, 2 .. 97, 98, 99; La función `range()` comienza su trabajo desde 0 y lo finaliza en un **numero anterior** al indicado como argumento.
-* Nota la palabra clave `pass` dentro del cuerpo del bucle, no hace nada en absoluto; es una instrucción vacía: la colocamos aquí porque la sintaxis del bucle `for` exige al menos una instrucción dentro del cuerpo.
+* La palabra clave `pass` dentro del cuerpo del bucle, no hace nada en absoluto; es una instrucción vacía: la colocamos aquí porque la sintaxis del bucle `for` exige al menos una instrucción dentro del cuerpo.
 
 Veamos otro ejemplo:
 
