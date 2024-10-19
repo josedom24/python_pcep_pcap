@@ -2,7 +2,7 @@
 
 Podemos pasar los parámetros a una función de dos maneras:
 
-## Paso de argumentos posicionales
+## Paso de parámetro posicionales
 
 La técnica que asigna cada argumento al parámetro correspondiente según su posición, es llamada **paso de parámetros posicionales**, los argumentos pasados de esta manera son llamados **argumentos posicionales**.
 
@@ -28,9 +28,9 @@ presentacion("Clark", "Kent")
 
 El primer argumento se copiará en el parámetro `nombre` y el segundo en el parámetro `apellidos`.
 
-## Paso de argumentos con palabra clave
+## Paso de parámetros con palabra clave
 
-Python ofrece otra manera de pasar argumentos, donde **el significado del argumento está definido por su nombre**, no su posición, a esto se le denomina paso de **argumentos con palabra clave**.
+Python ofrece otra manera de pasar argumentos, donde **el significado del argumento está definido por su nombre**, no su posición, a esto se le denomina paso de **parámetros con palabra clave**.
 
 Observa el siguiente código:
 
