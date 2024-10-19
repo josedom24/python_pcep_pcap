@@ -45,27 +45,27 @@ Esto es frecuentemente realizado cuando se esta probando un programa, con el fin
 
 1. ¿Cuál es el resultado del siguiente fragmento?
 
-```
-# print("Cadena #1")
-print("Cadena #2") 
-```
+    ```
+    # print("Cadena #1")
+    print("Cadena #2") 
+    ```
 
 2. ¿Qué pasará cuando se ejecute el siguiente código?
 
-```
- #Este es
-un comentario
-multilínea.#
- 
-print("¡Hola!") 
+    ```
+    #Este es
+    un comentario
+    multilínea.#
+    
+    print("¡Hola!") 
 ```
 
 ## Solución cuestionario
 
 1. Pregunta 1:
 
-`Cadena #2`
+    `Cadena #2`
 
 2. Pregunta 2:
 
-`SyntaxError: invalid syntax`
+    `SyntaxError: invalid syntax`
