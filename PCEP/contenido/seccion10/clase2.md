@@ -48,9 +48,6 @@ print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la
 * Hemos asignado un nuevo valor de 111 al primer elemento en la lista. 
 * Hemos copiado el valor del quinto elemento al segundo elemento. 
 
-    
-
-
 ## La función len()
 
 La longitud de una lista puede variar durante la ejecución. Se pueden agregar nuevos elementos a la lista, mientras que otros pueden eliminarse de ella. Esto significa que la lista es una **estructura dinámica**.
@@ -58,6 +55,13 @@ La longitud de una lista puede variar durante la ejecución. Se pueden agregar n
 La función `len()` (su nombre proviene de length - longitud) nos devuelve la longitud de la lista, la cantidad de elementos que almacena.
 
 La función toma el nombre de la lista como un argumento y devuelve el número de elementos almacenados actualmente dentro de la lista (en otras palabras, la longitud de la lista).
+
+Indicar también que la función `len()` se puede usar con las cadenas de caracteres, en este caso de vuelve el número de caracteres que posee la cadena:
+
+```
+cadena = Informática"
+print(len(cadena))
+```
 
 ## Eliminando elementos de una lista
 
