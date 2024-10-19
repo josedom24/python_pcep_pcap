@@ -51,7 +51,9 @@ Por supuesto que no se debe de utilizar el nombre de un parámetro que no existe
 
 El siguiente código provocará un error de ejecución:
 
+```
 presentacion(apellidos="Skywalker", nombre="Luke")
+```
 
 Esto es lo que Python arrojará: `TypeError: presentacion() got an unexpected keyword argument 'apellidos'`
 
