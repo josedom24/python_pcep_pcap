@@ -30,7 +30,7 @@ El primer argumento se copiará en el parámetro `nombre` y el segundo en el par
 
 ## Paso de parámetros con palabra clave
 
-Python ofrece otra manera de pasar argumentos, donde **el significado del argumento está definido por su nombre**, no su posición, a esto se le denomina paso de **parámetros con palabra clave**.
+Python ofrece otra manera de pasar argumentos, donde **el significado del argumento está definido por su nombre**, no su posición, a esto se le denomina paso de **parámetros con palabra clave**. Los argumentos pasados de esta manera son llamados **argumentos por palabra**.
 
 Observa el siguiente código:
 
