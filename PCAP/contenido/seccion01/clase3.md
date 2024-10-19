@@ -2,7 +2,7 @@
 
 En Python también podemos importar una entidad o varias de un módulo. Con este método se especifica exactamente qué entidades de un módulo se desean importar al namespace del código. Este método usa la sintaxis:
 ```
-from <moodulo> import <entidad>
+from <modulo> import <entidad>
 ```
 La instrucción consta de los siguientes elementos:
 
