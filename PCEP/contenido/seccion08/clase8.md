@@ -131,62 +131,62 @@ else:
 
 1. Pregunta 1:
 
-```
-for i in range(0, 11):
-    if i % 2 != 0:
-        print(i)
-```
+    ```
+    for i in range(0, 11):
+        if i % 2 != 0:
+            print(i)
+    ```
 
 2. Pregunta 2:
 
-```
-x = 1
-while x < 11:
-    if x % 2 != 0:
-        print(x)
-    x += 1
-```
+    ```
+    x = 1
+    while x < 11:
+        if x % 2 != 0:
+            print(x)
+        x += 1
+    ```
 
 3. Pregunta 3:
 
-```
-for ch in "john.smith@pythoninstitute.org":
-    if ch == "@":
-        break
-    print(ch, end="")
-```
+    ```
+    for ch in "john.smith@pythoninstitute.org":
+        if ch == "@":
+            break
+        print(ch, end="")
+    ```
 
 4. Pregunta 4:
 
-```
-for digit in "0165031806510":
-    if digit == "0":
-        print("x", end="")
-        continue
-    print(digit, end="")
-```
+    ```
+    for digit in "0165031806510":
+        if digit == "0":
+            print("x", end="")
+            continue
+        print(digit, end="")
+    ```
 
 5. Pregunta 5:
 
-```
-4
-3
-2
-0
-```
+    ```
+    4
+    3
+    2
+    0
+    ```
 6. Pregunta 6:
 
-```
--1
-0
-1
-2
-3
-```
+    ```
+    -1
+    0
+    1
+    2
+    3
+    ```
 
 7. Pregunta 7:
 
-```
-0
-3
-```
+    ```
+    0
+    3
+    ```

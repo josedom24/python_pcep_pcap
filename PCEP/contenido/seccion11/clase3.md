@@ -39,101 +39,101 @@ else:
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
+    ```
+    list_1 = ["A", "B", "C"]
+    list_2 = list_1
+    list_3 = list_2
 
-del list_1[0]
-del list_2[0]
+    del list_1[0]
+    del list_2[0]
 
-print(list_3)
-```
+    print(list_3)
+    ```
 
 2. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
+    ```
+    list_1 = ["A", "B", "C"]
+    list_2 = list_1
+    list_3 = list_2
 
-del list_1[0]
-del list_2
+    del list_1[0]
+    del list_2
 
-print(list_3)
-```
+    print(list_3)
+    ```
 
 3. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-list_1 = ["A", "B", "C"]
-list_2 = list_1
-list_3 = list_2
+    ```
+    list_1 = ["A", "B", "C"]
+    list_2 = list_1
+    list_3 = list_2
 
-del list_1[0]
-del list_2[:]
+    del list_1[0]
+    del list_2[:]
 
-print(list_3)
-```
+    print(list_3)
+    ```
 
 4. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-list_1 = ["A", "B", "C"]
-list_2 = list_1[:]
-list_3 = list_2[:]
+    ```
+    list_1 = ["A", "B", "C"]
+    list_2 = list_1[:]
+    list_3 = list_2[:]
 
-del list_1[0]
-del list_2[0]
+    del list_1[0]
+    del list_2[0]
 
-print(list_3)
-```
+    print(list_3)
+    ```
 
 5. Inserta `in` o `not in` en lugar de `???` para que el código genere el resultado esperado.
 
-```
-my_list = [1, 2, "in", True, "ABC"]
-
-print(1 ??? my_list)  # salida True
-print("A" ??? my_list)  # salida True
-print(3 ??? my_list)  # salida True
-print(False ??? my_list)  # salida False
-```
+    ```
+    my_list = [1, 2, "in", True, "ABC"]
+    
+    print(1 ??? my_list)  # salida True
+    print("A" ??? my_list)  # salida True
+    print(3 ??? my_list)  # salida True
+    print(False ??? my_list)  # salida False
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1:
 
-```
-['C']
-```
+    ```
+    ['C']
+    ```
 
 2. Pregunta 2:
 
-```
-['B', 'C']
-```
+    ```
+    ['B', 'C']
+    ```
 
 3. Pregunta 3:
 
-```
-[ ]
-```
+    ```
+    [ ]
+    ```
 
 4. Pregunta 4:
 
-```
-['A', 'B', 'C']
-```
+    ```
+    ['A', 'B', 'C']
+    ```
 
 
 5. Pregunta 5:
 
-```
-my_list = [1, 2, "in", True, "ABC"]
+    ```
+    my_list = [1, 2, "in", True, "ABC"]
 
-print(1 in my_list)  # salida True
-print("A" not in my_list)  # salida True
-print(3 not in my_list)  # salida True
-print(False in my_list)  # salida False
-```
+    print(1 in my_list)  # salida True
+    print("A" not in my_list)  # salida True
+    print(3 not in my_list)  # salida True
+    print(False in my_list)  # salida False
+    ```

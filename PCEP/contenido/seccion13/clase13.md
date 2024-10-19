@@ -129,69 +129,69 @@ Print #5: [3]
 ## Cuestionario
 
 1. ¿Qué ocurrirá cuando se intente ejecutar el siguiente código?
-```
-def message():
-    alt = 1
-    print("¡Hola, mundo!")
-print(alt)
-```
+    ```
+    def message():
+        alt = 1
+        print("¡Hola, mundo!")
+    print(alt)
+    ```
 2. ¿Cuál es la salida del siguiente fragmento de código?
-```
-a = 1
-def fun():
-    a = 2
+    ```
+    a = 1
+    def fun():
+        a = 2
+        print(a)
+    fun()
     print(a)
-fun()
-print(a)
-```
+    ```
 
 3. ¿Cuál es la salida del siguiente fragmento de código?
-```
-a = 1
-def fun():
-    global a
-    a = 2
+    ```
+    a = 1
+    def fun():
+        global a
+        a = 2
+        print(a)
+    fun()
+    a = 3
     print(a)
-fun()
-a = 3
-print(a)
-```
+    ```
 
 4. ¿Cuál es la salida del siguiente fragmento de código?
-```
-a = 1
-def fun():
-    global a
-    a = 2
+    ```
+    a = 1
+    def fun():
+        global a
+        a = 2
+        print(a)
+    a = 3
+    fun()
     print(a)
-a = 3
-fun()
-print(a)
-```
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1
 
-Se arrojará una excepción `NameError (NameError: name 'alt' is not defined)`.
+    Se arrojará una excepción `NameError (NameError: name 'alt' is not defined)`.
 
 2. Pregunta 2
 
-```
-2
-1
-```
+    ```
+    2
+    1
+    ```
 
 3. Pregunta 3
 
-```
-2
-3
-```
+    ```
+    2
+    3
+    ```
 
 4. Pregunta 4
 
-```
-2
-2
-```
+    ```
+    2
+    2
+    ```

@@ -62,71 +62,71 @@ La salida del programa será: `[4, 3, 2, 1, 0]`.
 ## Cuestionario
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
-```
-def hi():
-    return
-    print("¡Hola!")
-
-hi()
-```
+    ```
+    def hi():
+        return
+        print("¡Hola!")
+    
+    hi()
+    ```
 
 2. ¿Cuál es la salida del siguiente fragmento de código?
-```
-def is_int(data):
-    if type(data) == int:
-        return True
-    elif type(data) == float:
-        return False
+    ```
+    def is_int(data):
+        if type(data) == int:
+            return True
+        elif type(data) == float:
+            return False
 
-print(is_int(5))
-print(is_int(5.0))
-print(is_int("5"))
-```
+    print(is_int(5))
+    print(is_int(5.0))
+    print(is_int("5"))
+    ```
 
 3. ¿Cuál es la salida del siguiente fragmento de código?
-```
-def even_num_lst(ran):
-    lst = []
-    for num in range(ran):
-        if num % 2 == 0:
-            lst.append(num)
-    return lst
+    ```
+    def even_num_lst(ran):
+        lst = []
+        for num in range(ran):
+            if num % 2 == 0:
+                lst.append(num)
+        return lst
 
-print(even_num_lst(11))
-```
+    print(even_num_lst(11))
+    ```
 
 4. ¿Cuál es la salida del siguiente fragmento de código?
-```
-def list_updater(lst):
-    upd_list = []
-    for elem in lst:
-        elem **= 2
-        upd_list.append(elem)
-    return upd_list
+    ```
+    def list_updater(lst):
+        upd_list = []
+        for elem in lst:
+            elem **= 2
+            upd_list.append(elem)
+        return upd_list
 
-foo = [1, 2, 3, 4, 5]
-print(list_updater(foo))
-```
+    foo = [1, 2, 3, 4, 5]
+    print(list_updater(foo))
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1
 
-La función devolverá un valor `None` implícito 
+    La función devolverá un valor `None` implícito 
 
 2. Pregunta 2
 
-```
-True
-False
-None
-```
+    ```
+    True
+    False
+    None
+    ```
 
 3. Pregunta 3
 
-`[0, 2, 4, 6, 8, 10]`
+    `[0, 2, 4, 6, 8, 10]`
 
 4. Pregunta 4
 
-`[1, 4, 9, 16, 25]`
+    `[1, 4, 9, 16, 25]`
 

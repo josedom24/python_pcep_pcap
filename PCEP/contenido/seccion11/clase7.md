@@ -97,57 +97,57 @@ print(my_list)
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-lst = ["D", "F", "A", "Z"]
-lst.sort()
+    ```
+    lst = ["D", "F", "A", "Z"]
+    lst.sort()
 
-print(lst)
-```
+    print(lst)
+    ```
 
 2. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-a = 3
-b = 1
-c = 2
+    ```
+    a = 3
+    b = 1
+    c = 2
 
-lst = [a, c, b]
-lst.sort()
+    lst = [a, c, b]
+    lst.sort()
 
-print(lst)
-```
+    print(lst)
+    ```
 
 3. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-a = "A"
-b = "B"
-c = "C"
-d = " "
-
-lst = [a, b, c, d]
-lst.reverse()
-
-print(lst)
-```
+    ```
+    a = "A"
+    b = "B"
+    c = "C"
+    d = " "
+    
+    lst = [a, b, c, d]
+    lst.reverse()
+    
+    print(lst)
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1:
 
-```
-['A', 'D', 'F', 'Z']
-```
+    ```
+    ['A', 'D', 'F', 'Z']
+    ```
 
 2. Pregunta 2:
 
-```
-[1, 2, 3]
-```
+    ```
+    [1, 2, 3]
+    ```
 
 3. Pregunta 3:
 
-```
-[' ', 'C', 'B', 'A']
-```
+    ```
+    [' ', 'C', 'B', 'A']
+    ```
 

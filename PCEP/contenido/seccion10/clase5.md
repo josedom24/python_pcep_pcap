@@ -47,70 +47,70 @@ print(total)
 
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-lst = [1, 2, 3, 4, 5]
-lst.insert(1, 6)
-del lst[0]
-lst.append(1)
+    ```
+    lst = [1, 2, 3, 4, 5]
+    lst.insert(1, 6)
+    del lst[0]
+    lst.append(1)
 
-print(lst)
-```
+    print(lst)
+    ```
 
 2. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-lst = [1, 2, 3, 4, 5]
-lst_2 = []
-add = 0
+    ```
+    lst = [1, 2, 3, 4, 5]
+    lst_2 = []
+    add = 0
 
-for number in lst:
-    add += number
-    lst_2.append(add)
+    for number in lst:
+        add += number
+        lst_2.append(add)
 
-print(lst_2)
-```
+    print(lst_2)
+    ```
 
 3. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-lst = []
-del lst
-print(lst)
-```
+    ```
+    lst = []
+    del lst
+    print(lst)
+    ```
 
 4. ¿Cuál es la salida del siguiente fragmento de código?
 
-```
-lst = [1, [2, 3], 4]
-print(lst[1])
-print(len(lst))
-```
+    ```
+    lst = [1, [2, 3], 4]
+    print(lst[1])
+    print(len(lst))
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1:
 
-```
-[6, 2, 3, 4, 5, 1]
-```
+    ```
+    [6, 2, 3, 4, 5, 1]
+    ```
 
 2. Pregunta 2:
 
-```
-[1, 3, 6, 10, 15]
-```
+    ```
+    [1, 3, 6, 10, 15]
+    ```
 
 3. Pregunta 3:
 
-```
-NameError: name 'lst' is not defined
-```
+    ```
+    NameError: name 'lst' is not defined
+    ```
 
 4. Pregunta 4:
 
-```
-[2, 3]
-3
-```
+    ```
+    [2, 3]
+    3
+    ```
 
 

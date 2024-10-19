@@ -82,24 +82,24 @@ Se ha modificado un poco para mostrar cómo es que la función `str()` trabaja. 
 
 1. ¿Cuál es la salida del siguiente código?
 
-```
-x = int(input("Ingresa un número: ")) # El usuario ingresa un 2 
-print(x * "5")
-```
+    ```
+    x = int(input("Ingresa un número: ")) # El usuario ingresa un 2 
+    print(x * "5")
+    ```
 
 2. ¿Cuál es la salida esperada del siguiente código?
 
-```
-x = input("Ingresa un número: ") # El usuario ingresa un 2 
-print(type(x))
-```
+    ```
+    x = input("Ingresa un número: ") # El usuario ingresa un 2 
+    print(type(x))
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1:
 
-`55`
+    `55`
 
 2. Pregunta 2:
 
-`<class 'str'>`
+    `<class 'str'>`

@@ -53,34 +53,34 @@ En este caso, el caso base que se hace que se termine la recursión es cuando `n
 
 1. ¿Qué ocurrirá al intentar ejecutar el siguiente fragmento de código y por qué?
 
-```
-def factorial(n):
-    return n * factorial(n - 1)
-
-
-print(factorial(4))
-```
+    ```
+    def factorial(n):
+        return n * factorial(n - 1)
+    
+    
+    print(factorial(4))
+    ```
 
 2. ¿Cuál es la salida del siguiente fragmento de código?
-```
-def fun(a):
-    if a > 30:
-        return 3
-    else:
-        return a + fun(a + 3)
+    ```
+    def fun(a):
+        if a > 30:
+            return 3
+        else:
+            return a + fun(a + 3)
 
 
-print(fun(25))
-```
+    print(fun(25))
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1
 
-La función no tiene una condición de terminación, por lo tanto Python arrojara una excepción `RecursionError: maximum recursion depth exceeded`. 
+    La función no tiene una condición de terminación, por lo tanto Python arrojara una excepción `RecursionError: maximum recursion depth exceeded`. 
 
 2. Pregunta 2
 
-`56`
+    `56`
 
 

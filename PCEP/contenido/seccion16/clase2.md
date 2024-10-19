@@ -95,21 +95,21 @@ except:
 ## Cuestionario
 
 1. ¿Cuál es la salida del siguiente programa si el usuario ingresa un 0?
-```
-try:
-    value = int(input("Ingresa un número entero: "))
-    print(value/value)
-except ValueError:
-    print("Entrada incorrecta...")
-except ZeroDivisionError:
-    print("Entrada errónea...")
-except:
-    print("¡Buuuu!")
-```
+    ```
+    try:
+        value = int(input("Ingresa un número entero: "))
+        print(value/value)
+    except ValueError:
+        print("Entrada incorrecta...")
+    except ZeroDivisionError:
+        print("Entrada errónea...")
+    except:
+        print("¡Buuuu!")
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1
 
-El programa dará como salida: `Entrada errónea...`.
+    El programa dará como salida: `Entrada errónea...`.
 

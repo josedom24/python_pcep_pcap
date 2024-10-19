@@ -164,50 +164,50 @@ La salida es: `Hola, mi nombre es Juan Rodríguez`.
 
 1. ¿Cuál es la salida del siguiente código?
 
-```
-def intro(a="James Bond", b="Bond"):
-    print("Mi nombre es", b + ".", a + ".")
-
-intro()
-```
+    ```
+    def intro(a="James Bond", b="Bond"):
+        print("Mi nombre es", b + ".", a + ".")
+    
+    intro()
+    ```
 2. ¿Cuál es la salida del siguiente código?
-```
-def intro(a="James Bond", b="Bond"):
-    print("Mi nombre es", b + ".", a + ".")
+    ```
+    def intro(a="James Bond", b="Bond"):
+        print("Mi nombre es", b + ".", a + ".")
 
-intro(b="Sergio López")
-```
+    intro(b="Sergio López")
+    ```
 3. ¿Cuál es la salida del siguiente fragmento de código?
-```
-def intro(a, b="Bond"):
-    print("Mi nombre es", b + ".", a + ".")
+    ```
+    def intro(a, b="Bond"):
+        print("Mi nombre es", b + ".", a + ".")
 
-intro("Susan")
-```
+    intro("Susan")
+    ```
 4. ¿Cuál es la salida del siguiente código?
-```
-def add_numbers(a, b=2, c):
-    print(a + b + c)
+    ```
+    def add_numbers(a, b=2, c):
+        print(a + b + c)
 
-add_numbers(a=1, c=3)
-```
+    add_numbers(a=1, c=3)
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1
 
-`Mi nombre es Bond. James Bond.`
+    `Mi nombre es Bond. James Bond.`
 
 2. Pregunta 2
 
-`Mi nombre es Sergio López. James Bond`
+    `Mi nombre es Sergio López. James Bond`
 
 3. Pregunta 3
 
-`Mi nombre es Bond. Susan.`
+    `Mi nombre es Bond. Susan.`
 
 4. Pregunta 4
 
-`SyntaxError - a non-default argument (c) follows a default argument (b=2)`
+    `SyntaxError - a non-default argument (c) follows a default argument (b=2)`
 
 
