@@ -102,7 +102,7 @@ Este código importa las funciones del módulo y las utiliza para calcular la su
 
 En este paso, el escenario cambia y el archivo principal (`main.py`) se encuentra en una carpeta diferente a la del módulo. El ejemplo asume el siguiente entorno Linux:
 
-* `main.py` está en: `~/python/programa`
+* `main.py` está en: `~/python/programas`
 * El módulo está en: `~/python/modulos`
 
 Python busca los módulos en las carpetas especificadas en una lista llamada `sys.path`. Para verificar esta lista, se puede usar el siguiente código:

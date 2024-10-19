@@ -13,8 +13,10 @@
     * [El módulo platform](contenido/seccion02/clase4.md)
 3. Módulos y paquetes
     * [¿Qué es un paquete en Python?](contenido/seccion03/clase1.md)
-    * [Nuestro primer módulo](contenido/seccion03/clase2.md)
-    * Nuestro primer paquete
+    * [Nuestro primer módulo (1ª parte)](contenido/seccion03/clase2.md)
+    * [Nuestro primer módulo (2ª parte)](contenido/seccion03/clase3.md)
+    * [Nuestro primer paquete (1ª parte)](contenido/seccion03/clase4.md) 
+    * [Nuestro primer paquete (2ª parte)](contenido/seccion03/clase5.md) 
 4. Instalador de paquetes PIP
 
 
