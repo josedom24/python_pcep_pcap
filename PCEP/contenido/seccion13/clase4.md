@@ -128,7 +128,7 @@ presentacion(nombre="Enrique")
 
 Con ambas instrucciones la salida será `Hola, mi nombre es Enrique González`.
 
-Hay que indicar que **después de un parámetro con un valor predefinido, no podemos poner un parámetro sin valor predefinido, es decir la siguiente declaración daría un error:
+Hay que indicar que **después de un parámetro con un valor predefinido, no podemos poner un parámetro sin valor predefinido**, es decir la siguiente declaración daría un error:
 
 ```
 def presentacion(nombre="Jose", apellido):
@@ -154,7 +154,7 @@ Y esta es la salida esperada: `Hola, mi nombre es Juan González`.
 Si solo se especifica un argumento de palabra clave, el restante tomará el valor por defecto:
 
 ```
-presentacion(last_name="Rodríguez")
+presentacion(apellido="Rodríguez")
 ```
 
 La salida es: `Hola, mi nombre es Juan Rodríguez`.
