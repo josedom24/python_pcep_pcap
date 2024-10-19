@@ -7,9 +7,9 @@ Para lograr que las funciones devuelvan un valor (pero no solo para ese propósi
 
 ### return sin una expresión
 
-La primera consiste en la palabra reservada en sí, sin nada que la siga. Cuando se emplea dentro de una función, provoca la terminación inmediata de la ejecución de la función, y un retorno instantáneo (de ahí el nombre) al punto de invocación.
+Podemos usar sólo la palabra reservada `return`, sin ninguna expresión. Esto provoca la **terminación inmediata de la ejecución de la función, y un retorno instantáneo (de ahí el nombre) al punto de invocación**.
 
-hay que indicar que si una función no está destinada a producir un resultado, emplear la instrucción `return` no es obligatorio, se ejecutará implícitamente al final de la función.
+Hay que indicar que si una función no está destinada a producir un resultado, **emplear la instrucción `return` no es obligatorio**, se ejecutará implícitamente al final de la función.
 
 De cualquier manera, se puede emplear para terminar las actividades de una función, antes de que el control llegue a la última línea de la función.
 
@@ -33,7 +33,7 @@ Uno...
 ¡Feliz año nuevo!
 ```
 
-Sin embrago si mandamos el argumento de esta manera: `happy_new_year(False)`, se modificará el comportamiento de la función; la instrucción `return` provocará su terminación justo antes de ejecutar el ultimo `print()` y la salida será:
+Sin embrago si mandamos el argumento de esta manera: `happy_new_year(False)`, se modificará el comportamiento de la función: la instrucción `return` provocará su terminación justo antes de ejecutar el ultimo `print()` y la salida será:
 
 ```
 Tres...
@@ -43,19 +43,25 @@ Uno...
 
 ### return con una expresión
 
-La segunda variante de `return` nos permite devolver una valor que estará expresado en una expresión (recuerda que una expresión puede ser simplemente un literal o una variable):
+La segunda variante de `return` nos permite devolver una valor que será el resultado de evaluar una expresión (recuerda que una expresión puede ser simplemente un literal o una variable):
 
 Veamos un ejemplo sencillo:
 
 ```
 def numero():
-    return 15
+    return 5
 ```
 
 Al usar el `return` ocurren dos cosas:
 
 * Provoca la **terminación inmediata de la ejecución** de la función (nada nuevo en comparación con la primer variante).
 * Además, la función evaluará el valor de la expresión y lo devolverá como el resultado de la función.
+* Podemos decir que **el tipo de dato de la función es igual al tipo de datos del valor devuelto**.
+    * Ejemplo:
+    ```
+    type(numero())
+    <class 'int'>
+    ```
 
 Ahora podemos llamar a la función de la siguiente manera:
 
@@ -64,7 +70,7 @@ x = numero()
 print("La función numero ha devuelto su resultado. Es:", x)
 ```
 
-El fragmento de código escribe el siguiente texto en la consola: `La función numero ha devuelto su resultado. Es: 123`.
+El fragmento de código escribe el siguiente texto en la consola: `La función numero ha devuelto su resultado. Es: 5`.
 
 ![funcion2](img/funcion2.png)
 
@@ -108,7 +114,7 @@ Causará un error de tiempo de ejecución: `TypeError: unsupported operand type(
 
 Solo existen dos tipos de circunstancias en las que `None` se puede usar de manera segura:
 
-* Cuando se le asigna a una variable (o se devuelve como el resultado de una función).
+* Cuando se le asigna a una variable o se devuelve como el resultado de una función.
 * Cuando se compara con una variable para diagnosticar su estado interno.
 
 Ejemplo:
