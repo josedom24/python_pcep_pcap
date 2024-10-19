@@ -28,7 +28,7 @@ Recuerda que:
 
 ## Varios parámetros y argumentos
 
-Si en una función se definen un número de parámetros determinado, al llamarla se deberá indicar es mismo número de argumentos. sino lo hacemos se producirá un error.
+Si en una función se definen un número de parámetros determinado, al llamarla se deberá indicar es mismo número de argumentos. Sino lo hacemos se producirá un error.
 
 Si ejecutamos el siguiente código:
 
