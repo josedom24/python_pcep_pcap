@@ -18,6 +18,12 @@
     * [Nuestro primer paquete (1ª parte)](contenido/seccion03/clase4.md) 
     * [Nuestro primer paquete (2ª parte)](contenido/seccion03/clase5.md) 
 4. Instalador de paquetes PIP
+    * El ecosistema de paquetes de Python
+    * Instalar pip
+    * Cómo usar pip
+    * Test intermedio: comprueba lo que has aprendido
+    * Prueba intermedia
+5. Cadenas de caracteres
 
 
 
@@ -25,7 +31,7 @@
 
 #### otro
 
-5. Cadenas de caracteres 
+
 6. Operaciones con cadenas de caracteres
 7. Ejemplos de programas trabajando con cadenas de caracteres
 8. Excepciones: Gestionando errores de programación
