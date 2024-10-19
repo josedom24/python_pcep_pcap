@@ -85,7 +85,7 @@ No es conveniente su uso, en programación de bajo nivel (a veces llamada progra
     * "J" es de "Java". Esta implementación de Python está escrito en Java en lugar de C. 
     * Esto es útil, por ejemplo, si desarrollas sistemas grandes y complejos escritos completamente en Java y deseas agregarles cierta flexibilidad de Python.
     * Jython puede comunicarse con la infraestructura Java existente de manera más efectiva. Es por esto que algunos proyectos lo encuentran útil y necesario.
-    * Nota: la implementación actual de Jython sigue los estándares de Python 2. Hasta ahora, no hay Jython conforme a Python 3.
+    * La implementación actual de Jython sigue los estándares de Python 2. Hasta ahora, no hay Jython conforme a Python 3.
 * **PyPy y RPython**:
     *  Python dentro de un Python. Esta implementación es un entorno de Python escrito en un lenguaje similar a Python llamado RPython (Restricted Python). En realidad es un subconjunto de Python.
     * El código fuente de PyPy no se interpreta, sino que se traduce al lenguaje de programación C y luego se ejecuta por separado.

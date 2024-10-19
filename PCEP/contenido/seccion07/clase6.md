@@ -38,7 +38,7 @@ tax = round(tax, 0)
 print("El impuesto es:", tax, "euros")
 ```
 
-Nota: Este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto calculado es menor que cero, solo significa que no hay impuesto (el impuesto es igual a cero). Ten esto en cuenta durante tus cálculos.
+Este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto calculado es menor que cero, solo significa que no hay impuesto (el impuesto es igual a cero). Ten esto en cuenta durante tus cálculos.
 
 Prueba tu código con los datos que hemos proporcionado. 
 

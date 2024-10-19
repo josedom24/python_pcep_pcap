@@ -26,7 +26,7 @@ Esta instrucción condicional consta de los siguientes elementos, estrictamente 
 * Una instrucción con **sangría** o un conjunto de instrucciones (se requiere absolutamente al menos una instrucción); la sangría se puede lograr de dos maneras: 
     * insertando un número de espacios (la recomendación es usar cuatro espacios de sangría), 
     * o usando el tabulador; 
-    * nota: si hay mas de una instrucción en la parte con sangría, la sangría debe ser la misma en todas las líneas; aunque puede parecer lo mismo si se mezclan tabuladores con espacios, es importante que todas las sangrías sean exactamente iguales Python 3 no permite mezclar espacios y tabuladores para la sangría.
+    * si hay mas de una instrucción en la parte con sangría, la sangría debe ser la misma en todas las líneas; aunque puede parecer lo mismo si se mezclan tabuladores con espacios, es importante que todas las sangrías sean exactamente iguales Python 3 no permite mezclar espacios y tabuladores para la sangría.
 
 ¿Cómo funciona esta instrucción?
 

@@ -74,7 +74,7 @@ Para evitar escribir tantos ceros, los libros de texto emplean la forma abreviad
 
 En Python, el mismo número se puede representar con `3E8`. La letra `E` (también se puede utilizar la letra minúscula `e` - proviene de la palabra exponente) la cual significa por diez a la n potencia.
 
-Nota:
+Hay que tener en cuenta que:
 
 * El exponente (el valor después de la `E`) debe ser un valor entero.
 * La base (el valor antes de la `E`) puede o no ser un valor entero.

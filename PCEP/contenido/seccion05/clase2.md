@@ -41,7 +41,7 @@ var = 1
 print(Var)
 ```
 
-Se ha tratado de utilizar la variable llamada `Var`, la cual no tiene ningún valor (nota: `var` y `Var` son entidades diferentes, y no tienen nada en común dentro de Python).
+Se ha tratado de utilizar la variable llamada `Var`, la cual no tiene ningún valor (`var` y `Var` son entidades diferentes, y no tienen nada en común dentro de Python).
 
 ## Imprimiendo variables
 
@@ -106,7 +106,7 @@ c = (a ** 2 + b ** 2) ** 0.5
 print("c =", c)
 ```
 
-Nota: se necesita hacer uso del operador ** para calcular la raíz cuadrada:
+Hay que tener en cuenta que se necesita hacer uso del operador ** para calcular la raíz cuadrada:
 
 ![Calcular raíz cuadrada](img/pitagoras1.png)
 

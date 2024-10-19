@@ -54,7 +54,7 @@ En este caso:
 * El primer argumento determina el valor inicial (primero) de la variable de control.
 * El último argumento muestra el primer valor que no se asignará a la variable de control.
 
-Nota: la función `range()` solo acepta enteros como argumentos y genera secuencias de enteros.
+La función `range()` solo acepta enteros como argumentos y genera secuencias de enteros.
 
 En nuestro ejemplo:
 

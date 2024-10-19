@@ -74,6 +74,6 @@ Veamos alguna características del editor:
     El mensaje (en rojo) muestra (en las siguientes líneas):
 
     * El **rastreo o traceback** (que es la ruta que el código atraviesa a través de diferentes partes del programa, puedes ignorarlo por ahora, ya que está vacío en un código tan simple).
-    * La **ubicación del error** (el nombre del archivo que contiene el error, el número de línea y el nombre del módulo); nota: el número puede ser engañoso, ya que Python generalmente muestra el lugar donde se percata por primera vez de los efectos del error, no necesariamente del error en sí.
+    * La **ubicación del error** (el nombre del archivo que contiene el error, el número de línea y el nombre del módulo); Hay que tener en cuenta que el número puede ser engañoso, ya que Python generalmente muestra el lugar donde se percata por primera vez de los efectos del error, no necesariamente del error en sí.
     * El **contenido de la línea errónea**. Podemos configurar la ventana del editor para que muestre el número de línea y que sea más fácil posicionarnos en el error.
     * El **nombre del error y una breve explicación**.

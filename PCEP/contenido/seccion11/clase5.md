@@ -22,7 +22,7 @@ Tenemos una lista con números enteros. Algunos de estos números pueden estar r
 
 Tu tarea es escribir un programa que elimine todas las repeticiones de números de la lista. El objetivo es tener una lista en la que todos los números aparezcan no más de una vez.
 
-Nota: Asume que la lista original está ya dentro del código, no tienes que introducirla desde el teclado. Por supuesto, puedes mejorar el código y agregar una parte que pueda llevar a cabo una conversación con el usuario y obtener todos los datos.
+Asume que la lista original está ya dentro del código, no tienes que introducirla desde el teclado. Por supuesto, puedes mejorar el código y agregar una parte que pueda llevar a cabo una conversación con el usuario y obtener todos los datos.
 
 Sugerencia: Te recomendamos que crees una nueva lista como área de trabajo temporal, no necesitas actualizar la lista actual.
 

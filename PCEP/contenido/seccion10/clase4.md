@@ -39,7 +39,7 @@ list.insert(location, value)
 
 Toma dos argumentos:
 
-* El primero muestra la ubicación requerida del elemento a insertar. Nota: todos los elementos existentes que ocupan ubicaciones a la derecha del nuevo elemento (incluido el que está en la posición indicada) se desplazan a la derecha, para hacer espacio para el nuevo elemento.
+* El primero muestra la ubicación requerida del elemento a insertar. Todos los elementos existentes que ocupan ubicaciones a la derecha del nuevo elemento (incluido el que está en la posición indicada) se desplazan a la derecha, para hacer espacio para el nuevo elemento.
 * El segundo es el elemento a insertar.
 
 Veamos un ejemplo:

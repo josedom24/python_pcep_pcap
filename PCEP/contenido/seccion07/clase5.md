@@ -24,7 +24,7 @@ Escribe un programa que utilice el concepto de ejecución condicional, tome una 
 
 * Imprima el enunciado **"Si, ¡El ESPATIFILIO! es la mejor planta de todos los tiempos!"** en la pantalla si la cadena ingresada es "ESPATIFILIO".
 * Imprima **"No, ¡quiero un gran ESPATIFILIO!"** si la cadena ingresada es "espatifilo".
-* Imprima **"¡ESPATIFILIO!, ¡No [entrada]!"** de lo contrario. Nota: [entrada] es la cadena que se toma como entrada.
+* Imprima **"¡ESPATIFILIO!, ¡No [entrada]!"** de lo contrario. [entrada] es la cadena que se toma como entrada.
 
 
 Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un ESPATIFILIO también!

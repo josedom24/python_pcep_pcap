@@ -54,7 +54,7 @@ else:
     print("else:", i)
 ```
 
-* El cuerpo del bucle no se ejecutará aquí en absoluto. Nota: hemos asignado la variable `i` antes del bucle.
+* El cuerpo del bucle no se ejecutará aquí en absoluto, ya que hemos asignado la variable `i` antes del bucle.
 * Cuando el cuerpo del bucle no se ejecuta, la variable de control conserva el valor que tenía antes del bucle.
 * Si la variable de control no existe antes de que comience el bucle, no existirá cuando la ejecución llegue a la rama `else`.
 

@@ -31,7 +31,7 @@ Escribe un programa que:
 
 ## Crear listas
 
-Vamos a crear una variable llamada `numeros`, de tipo lista, donde vamos a guardar los 5 números (nota: la lista comienza con un corchete abierto y termina con un corchete cerrado; el espacio entre los corchetes es llenado con cinco números separados por comas).
+Vamos a crear una variable llamada `numeros`, de tipo lista, donde vamos a guardar los 5 números (la lista comienza con un corchete abierto y termina con un corchete cerrado; el espacio entre los corchetes es llenado con cinco números separados por comas).
 
 ```
 numeros = [10, 5, 7, 2, 1]

@@ -39,7 +39,7 @@ bloques = int(input("Ingresa el número de bloques: "))
 print("La altura de la pirámide:", altura)
 ```
 
-Nota: La altura se mide por el número de capas completas: si los constructores no tienen la cantidad suficiente de bloques y no pueden completar la siguiente capa, terminan su trabajo inmediatamente.
+La altura se mide por el número de capas completas: si los constructores no tienen la cantidad suficiente de bloques y no pueden completar la siguiente capa, terminan su trabajo inmediatamente.
 
 Prueba tu código con los datos que hemos proporcionado.
 

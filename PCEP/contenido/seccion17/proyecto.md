@@ -151,7 +151,7 @@ Implementa las siguientes características:
 * La apariencia de tablero debe de ser igual a la presentada en el ejemplo.
 * Implementa las funciones definidas para ti en la plantilla.
 * Para obtener un valor numérico aleatorio se puede emplear una función integrada de Python denominada `randrange()`. El siguiente ejemplo muestra como utilizarla (El programa imprime 10 números aleatorios del 1 al 8).
-* Nota: La instrucción `from-import` provee acceso a la función `randrange()` definida en un módulo externo de Python denominado `random`.
+* La instrucción `from-import` provee acceso a la función `randrange()` definida en un módulo externo de Python denominado `random`.
     ```
     from random import randrange
 

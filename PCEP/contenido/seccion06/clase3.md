@@ -28,7 +28,7 @@ print("Gracias.")
 print("\nTu nombre es " + fnam + " " + lnam + ".")
 ```
 
-Nota: El utilizar `+` para concatenar cadenas te permite construir la salida de una manera más precisa, en comparación de utilizar únicamente la función `print()`, aún cuando se enriquezca con los argumentos `end=` y `sep=`.
+El utilizar `+` para concatenar cadenas te permite construir la salida de una manera más precisa, en comparación de utilizar únicamente la función `print()`, aún cuando se enriquezca con los argumentos `end=` y `sep=`.
 
 ## Replicación
 

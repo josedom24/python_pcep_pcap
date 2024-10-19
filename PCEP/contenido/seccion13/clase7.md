@@ -47,6 +47,6 @@ for i in range(len(test_data)):
 		print("Fallido")
 ```
 
-Nota: también hemos preparado un breve código de prueba, que puedes utilizar para probar tu función.
+Hemos incluido un código de prueba, que puedes utilizar para probar tu función.
 
 El código utiliza dos listas: una con los datos de prueba y la otra con los resultados esperados. El código te dirá si alguno de tus resultados no es válido.

@@ -61,7 +61,7 @@ La función toma el nombre de la lista como un argumento y devuelve el número d
 
 ## Eliminando elementos de una lista
 
-Cualquier elemento de la lista puede ser eliminado en cualquier momento, esto se hace con una instrucción llamada `del` (eliminar). Nota: es una instrucción, no una función.
+Cualquier elemento de la lista puede ser eliminado en cualquier momento, esto se hace con una instrucción llamada `del` (eliminar). Hay que tener en cuenta  que es una instrucción, no una función.
 
 Para su utilización indexamos el elemento que queremos eliminar:
 
