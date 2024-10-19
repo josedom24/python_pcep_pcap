@@ -85,32 +85,32 @@ Existe un literal especial más utilizado en Python: el literal `None`. Este lit
 
 1. ¿Qué tipos de literales son los siguientes dos ejemplos?
 
-```
-"Hola ", "007"
-```
+    ```
+    "Hola ", "007"
+    ```
 
 2. ¿Qué tipos de literales son los siguientes cuatro ejemplos?
 
-```
-"1.5", 2.0, 528, False
-```
+    ```
+    "1.5", 2.0, 528, False
+    ```
 
 3. ¿Cuál es el valor decimal del siguiente número binario?
 
-```
-1011
-```
+    ```
+    1011
+    ```
 
 ## Solución cuestionario
 
 1. Pregunta 1:
 
-Ambos son literales de cadena.
+    Ambos son literales de cadena.
 
 2. Pregunta 2:
 
-El primero es una cadena, el segundo es un literal numérico (un flotante), el tercero es un literal numérico (un entero) y el cuarto es un literal booleano.
+    El primero es una cadena, el segundo es un literal numérico (un flotante), el tercero es un literal numérico (un entero) y el cuarto es un literal booleano.
 
 3. Pregunta 3:
 
-E 11, porque (2<sup>0</sup>) + (2<sup>1</sup>) + (2<sup>3</sup>) = 11
+    Es 11, porque (2<sup>0</sup>) + (2<sup>1</sup>) + (2<sup>3</sup>) = 11
