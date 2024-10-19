@@ -27,7 +27,7 @@ else:
     print("else:", i)
 ```
 
-La condición que se evalúa en el bucle `while` es `False` al principi, opero puedes verificar que la rama `else` también se ejecuta.
+La condición que se evalúa en el bucle `while` es `False` al principio, opero puedes verificar que la rama `else` también se ejecuta.
 
 ## El bucle for y la rama else
 

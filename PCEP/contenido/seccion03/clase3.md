@@ -2,7 +2,7 @@
 
 ## Cadenas de caracteres
 
-Las cadenas se emplean cuando se requiere represntar texto, no números.
+Las cadenas se emplean cuando se requiere representar texto, no números.
 
 Para representar una cadena de caracteres se utilizan las **comillas dobles o simples**. Este es un ejemplo de una cadena: `"Yo soy una cadena."`.
 

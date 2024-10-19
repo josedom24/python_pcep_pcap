@@ -2,7 +2,7 @@
 
 ## Creando variables
 
-* En Python no hace falta declarar el tipo de dato qde una variable. En una variable puedo guardar el resultado de cualquier expresión (recuerda que una expresión puede ser un literal, una variable u operaciones entre literales y variables).
+* En Python no hace falta declarar el tipo de dato que una variable. En una variable puedo guardar el resultado de cualquier expresión (recuerda que una expresión puede ser un literal, una variable u operaciones entre literales y variables).
 * El **valor de la variable** es el valor del dato que guardamos en ella. Puede variar tanto como se necesite o requiera. El valor puede ser entero, después flotante, y eventualmente ser una cadena.
 * **Una variable se crea cuando se le asigna un valor**. Si se le asigna cualquier valor a una variable que no existente, la variable será automáticamente creada. No se necesita hacer algo más. A diferencia de otros lenguajes de programación, no es necesario **declararla**. Python es un lenguaje **de tipo dinámico**, lo que significa que no se necesita declarar variables en él.
 * El **tipo de dato** de una variable coincidirá con el tipo del dato almacenado.

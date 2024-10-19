@@ -40,7 +40,7 @@ for i in range(10):
 * El bucle se ha ejecutado diez veces (es el argumento de la función `range()`).
 * El valor de la última variable de control es 9 (no 10, ya que comienza desde 0, no desde 1).
 
-## renge() con dos argumentos
+## range() con dos argumentos
 
 La invocación de la función `range()` puede estar equipada con dos argumentos, no solo uno:
 

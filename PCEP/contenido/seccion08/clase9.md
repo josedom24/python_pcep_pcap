@@ -24,7 +24,7 @@ Su pirámide es un poco rara, ya que en realidad es una pared en forma de pirám
 
 La figura ilustra la regla utilizada por los constructores:
 
-![piramide](img/piramide.png)
+![pirámide](img/piramide.png)
 
 Tu tarea es escribir un programa que lea la cantidad de bloques que tienen los constructores, y generar la altura de la pirámide que se puede construir utilizando estos bloques. Puedes usar esta plantilla:
 

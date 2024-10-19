@@ -95,7 +95,7 @@ print("Cuenta de números impares:", odd_numbers)
 print("Cuenta de números pares:", even_numbers)
 ```
 
-Ciertas expresiones se pueden simplificar sin cambiar el comportamiento del programa. Python interpreta la verdad de una condición de dos foormas con los literales `True` y `False` y *con números: si el número es 0 es falos y si es distinto de 0 es verdadero*. Por lo tanto, estas dos formas son equivalentes: 
+Ciertas expresiones se pueden simplificar sin cambiar el comportamiento del programa. Python interpreta la verdad de una condición de dos formas con los literales `True` y `False` y *con números: si el número es 0 es falos y si es distinto de 0 es verdadero*. Por lo tanto, estas dos formas son equivalentes: 
 
 * `while number != 0:` 
 * `while number:`.
