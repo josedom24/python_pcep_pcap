@@ -1,7 +1,5 @@
 # Test intermedio
 
-El siguiente test se basa en lo que acabas de aprender. Hay diez preguntas en total y debes obtener al menos un 70 % para aprobar.
-
 1. El carácter de escape le debe su nombre a que...
 
     * Escapa el archivo fuente hacia la memoria del ordenador.

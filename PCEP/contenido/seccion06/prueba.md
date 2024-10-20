@@ -1,9 +1,5 @@
 # Prueba intermedia
 
-## Cuestionario
-
-La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en total y debes obtener al menos un 70 % para aprobar.
-
 1. El dígrafo `\n` obliga a la función `print()` a:
 
     * Realizar un salto de página.

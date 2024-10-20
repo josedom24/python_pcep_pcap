@@ -1,7 +1,5 @@
 # Test intermedio
 
-El siguiente test se basa en lo que acabas de aprender. Hay doce preguntas en total y debes obtener al menos un 70 % para aprobar.
-
 1. La definición de una función comienza con la palabra reservada:
 
     * `def`

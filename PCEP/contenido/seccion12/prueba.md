@@ -1,7 +1,5 @@
 # Prueba intermedia
 
-La siguiente prueba se basa en lo que acabas de aprender. Hay 20 preguntas en total y debes obtener al menos un 70 % para aprobar.
-
 1. Un operador que puede verificar si dos valores son iguales se codifica como:
 
     * `=`

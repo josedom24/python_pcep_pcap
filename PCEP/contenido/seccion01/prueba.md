@@ -1,7 +1,5 @@
 # Prueba intermedia
 
-La siguiente prueba se basa en lo que acabas de aprender. Hay diez preguntas en total y debes obtener al menos un 70 % para aprobar.
-
 1. ¿Qué es el código máquina?
 
     * Un lenguaje de programación de alto nivel que consta de listas de instrucciones que los humanos pueden leer y comprender.

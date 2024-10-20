@@ -1,7 +1,5 @@
 # Prueba intermedia
 
-La siguiente prueba se basa en lo que acabas de aprender. Hay 22 preguntas en total y debes obtener al menos un 70 % para aprobar.
-
 1. ¿Cuál es la salida del siguiente fragmento de código?
 
     ```
