@@ -1,6 +1,5 @@
 # Prueba Final
 
-La Prueba Final se basa en lo que has aprendido en todo el curso. Hay 35 preguntas en total, y debes obtener al menos un 70% para aprobar. ¡Buena suerte!
 
 1. ¿Cuál es el resultado del siguiente fragmento de código?
 
@@ -241,7 +240,7 @@ La Prueba Final se basa en lo que has aprendido en todo el curso. Hay 35 pregunt
 
     * 0.2
     * 0
-    * 0.5
+    * 0.0
     * 0.4
 
 19. Suponiendo que `my_tuple` es una tupla creada correctamente, el hecho de que las tuplas sean inmutables significa que la siguiente instrucción:
@@ -365,7 +364,7 @@ La Prueba Final se basa en lo que has aprendido en todo el curso. Hay 35 pregunt
     ```
 
     * 0 1
-    * El código es erróneo (el objeto dict no contiene el método vals())
+    * El código es erróneo (el objeto dict no contiene el método `vals()`)
     * 0 0
     * 1 0
 
@@ -499,13 +498,12 @@ La Prueba Final se basa en lo que has aprendido en todo el curso. Hay 35 pregunt
         # Algo de código.
     ```
 
-    * A, C, y D
-    * A solamente
-    * F solamente
-    * A y F
-    * D y E
-    * A y B
-    * B y C
+    * A
+    * B
+    * C
+    * D
+    * E
+    * F
 
 35. ¿Qué pasará cuando intentes ejecutar el siguiente código?
 
