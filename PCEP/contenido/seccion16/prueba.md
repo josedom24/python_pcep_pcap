@@ -167,17 +167,18 @@
 12. El siguiente fragmento de código:
 
     ```
-    def func(a, b):
+    def func_1(a):
         return a ** a
     
+    def func_2(a):
+        return func_1(a) ** func_1(a)
     
-    print(func(2))
+    print(func_2(2))
     ```
-    
-    * Dará como salida 4
     * Es erróneo
+    * Dará como salida 4
     * Dará como salida 2
-    * Devolverá None
+    * Dará como salida 16
 
 13. ¿Cuál es la salida del siguiente fragmento de código?
 
@@ -240,10 +241,10 @@
         return x
     ```
 
-    * Debe invocarse sin ningún argumento.
-    * Puede ser invocada sin ningún argumento.
-    * Debe ser invocada con exactamente un argumento.
-    * Puede ser invocado con exactamente un argumento.
+    * [ ] Debe invocarse sin ningún argumento.
+    * [ ] Puede ser invocada sin ningún argumento.
+    * [ ] Debe ser invocada con exactamente un argumento.
+    * [ ] Puede ser invocado con exactamente un argumento.
 
 18. ¿Cuál es la salida del siguiente fragmento de código?
 
