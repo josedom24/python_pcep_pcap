@@ -14,9 +14,10 @@ Fácil
 
 ## Escenario
 
-El consumo de combustible de un automóvil se puede expresar de muchas maneras diferentes. Por ejemplo, en Europa, se muestra como la cantidad de combustible consumido por cada 100 kilómetros.
+El consumo de combustible de un automóvil se puede expresar de muchas maneras diferentes. Por ejemplo:
 
-En los EE. UU., se muestra como la cantidad de millas recorridas por un automóvil con un galón de combustible.
+* En Europa, se muestra como la cantidad de combustible consumido por cada 100 kilómetros.
+* En los EE. UU., se muestra como la cantidad de millas recorridas por un automóvil con un galón de combustible.
 
 Tu tarea es escribir un par de funciones que conviertan l/100km a mpg (millas por galón), y viceversa.
 

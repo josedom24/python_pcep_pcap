@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Tenemos una lista con números enteros. Algunos de estos números pueden estar repetidos, pero no queremos ninguna repetición Queremos que las repeticiones sean eliminados.
+Tenemos una lista con números enteros. Algunos de estos números pueden estar repetidos, pero no queremos ninguna repetición Queremos que las repeticiones sean eliminadas.
 
 Tu tarea es escribir un programa que elimine todas las repeticiones de números de la lista. El objetivo es tener una lista en la que todos los números aparezcan no más de una vez.
 

@@ -16,26 +16,22 @@ Fácil
 
 ## Escenario
 
-[Espatifilo](https://upload.wikimedia.org/wikipedia/commons/b/bd/Spathiphyllum_cochlearispathum_RTBG.jpg), más comúnmente conocida como la planta de cuna de Moisés o flor de la paz, es una de las plantas para interiores más populares que filtra las toxinas dañinas del aire. Algunas de las toxinas que neutraliza incluyen benceno, formaldehído y amoníaco.
-
-Imagina que tu programa de ordenador ama estas plantas. Cada vez que recibe una entrada en forma de la palabra Espatifilo, grita involuntariamente a la consola la siguiente cadena: **"¡Espatifilo es la mejor planta de todas!"**
-
 Escribe un programa que utilice el concepto de ejecución condicional, tome una cadena como entrada y que:
 
-* Imprima el enunciado **"Si, ¡El ESPATIFILIO! es la mejor planta de todos los tiempos!"** en la pantalla si la cadena ingresada es "ESPATIFILIO".
-* Imprima **"No, ¡quiero un gran ESPATIFILIO!"** si la cadena ingresada es "espatifilo".
-* Imprima **"¡ESPATIFILIO!, ¡No [entrada]!"** de lo contrario. [entrada] es la cadena que se toma como entrada.
+* Imprima el enunciado **"Si, PYTHON es el mejor lenguaje de programación"** en la pantalla si la cadena ingresada es "PYTHON".
+* Imprima **"No, me gusta más PYTHON"** si la cadena ingresada es "python".
+* Imprima **"¡PYTHON!, ¡No [entrada]!"** de lo contrario. [entrada] es la cadena que se toma como entrada.
 
 
-Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un ESPATIFILIO también!
+Prueba tu código con los datos que te proporcionamos. ¡Y hazte de un PYTHON también!
 
 ## Datos de Prueba
 
-* Entrada de muestra: `espatifilo`
-    * Resultado esperado: `No, ¡quiero un gran ESPATIFILIO!`
-* Entrada de ejemplo: `pelargonio`
-    * Resultado esperado: `!ESPATIFILIO!, ¡No pelargonio!`
-* Entrada de muestra: `ESPATIFILIO`
-    * Resultado esperado: `Si, ¡El ESPATIFILIO es la mejor planta de todos los tiempos! `
+* Entrada de muestra: `python`
+    * Resultado esperado: `No, me gusta más PYTHON`
+* Entrada de ejemplo: `Java`
+    * Resultado esperado: `¡PYTHON!, ¡No Java!`
+* Entrada de muestra: `PYTHON`
+    * Resultado esperado: `Si, PYTHON es el mejor lenguaje de programación`
 
 

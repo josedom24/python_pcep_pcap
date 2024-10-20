@@ -24,7 +24,7 @@ Tu tarea es escribir un programa que simule jugar al tres en raya con el usuario
 * El usuario ingresa su movimiento introduciendo el número de cuadro elegido. El número debe de ser valido, por ejemplo un valor entero mayor que 0 y menor que 10, y no puede ser un cuadro que ya esté ocupado.
 * El programa verifica si el juego ha terminado. Existen cuatro posibles veredictos: el juego continua, el juego termina en empate, tu ganas, o la maquina gana.
 * La maquina responde con su movimiento y se verifica el estado del juego.
-* No se debe implementar algún tipo de inteligencia artificial, la maquina elegirá un cuadro de manera aleatoria, eso es suficiente para este juego.
+* No se debe implementar ningún tipo de inteligencia artificial, la maquina elegirá un cuadro de manera aleatoria, eso es suficiente para este juego.
 
 El ejemplo del programa es el siguiente:
 ```

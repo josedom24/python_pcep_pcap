@@ -136,4 +136,4 @@ Escribe un programa que lea un número natural y ejecute los pasos anteriores si
 
 ## Mejora 
 
-Vamos a modificar el programa para que no pida el número por teclado. Sino que repita la operación con los 10 primeros números. Evidentemente necesitaremos un bucle `for`para repetir el cálculo 10 veces.
+Vamos a modificar el programa para que no pida el número por teclado. Sino que repita la operación con los 10 primeros números. Evidentemente necesitaremos un bucle `for` para repetir el cálculo 10 veces.

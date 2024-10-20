@@ -17,9 +17,7 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Los Beatles fueron uno de los grupos de música más populares de la década de 1960 y la banda más vendida en la historia. Algunas personas los consideran el acto más influyente de la era del rock. De hecho, se incluyeron en la compilación de la revista Time de las 100 personas más influyentes del siglo XX.
-
-La banda sufrió muchos cambios de formación, que culminaron en 1962 con la formación de John Lennon, Paul McCartney, George Harrison y Richard Starkey (mejor conocido como Ringo Starr).
+Los Beatles fueron uno de los grupos de música más populares de la década de 1960 y la banda más vendida en la historia.  La banda sufrió muchos cambios de formación, que culminaron en 1962 con la formación de John Lennon, Paul McCartney, George Harrison y Richard Starkey (mejor conocido como Ringo Starr).
 
 Escribe un programa que refleje estos cambios y le permita practicar con el concepto de listas. Tu tarea es:
 

@@ -14,11 +14,10 @@ Fácil
 
 ## Escenario
 
-Un número natural es primo si es mayor que 1 y no tiene divisores más que 1 y si mismo.
+Un número natural es primo si es mayor que 1 y no tiene divisores más que 1 y si mismo. Ejemplos:
 
-Por ejemplo, 8 no es un número primo, ya que puedes dividirlo entre 2 y 4.
-
-Por otra parte, 7 es un número primo, ya que no podemos encontrar ningún divisor para el, sólo el 1 y el mismo.
+* Por ejemplo, 8 no es un número primo, ya que puedes dividirlo entre 2 y 4.
+* Por otra parte, 7 es un número primo, ya que no podemos encontrar ningún divisor para el, sólo el 1 y el mismo.
 
 Tu tarea es escribir una función que verifique si un número es primo o no.
 

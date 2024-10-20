@@ -17,10 +17,10 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Erase una vez una tierra de leche y miel, habitada por gente feliz y próspera. La gente pagaba impuestos, por supuesto, su felicidad tenía límites. El impuesto más importante, denominado *Impuesto Personal de Ingresos* (IPI, para abreviar) tenía que pagarse una vez al año y se calculó utilizando la siguiente regla:
+Queremos crear un programa para que calcule el *Impuesto Personal de Ingresos* (IPI, para abreviar) que se calcula utilizando la siguiente regla:
 
-* Si el ingreso del ciudadano no era superior a 85.528 euros, el impuesto era igual al 18% del ingreso menos 556 euros y 2 céntimos (esta fue la llamada exención fiscal).
-* Si el ingreso era superior a esta cantidad, el impuesto era igual a 14.839 euros y 2 céntimos, más el 32% del excedente sobre 85.528 euros.
+* Si el ingreso del ciudadano no es superior a 85.528 euros, el impuesto es igual al 18% del ingreso menos 556 euros y 2 céntimos (exención fiscal).
+* Si el ingreso es superior a esta cantidad, el impuesto es igual a 14.839 euros y 2 céntimos, más el 32% del excedente sobre 85.528 euros.
 
 Tu tarea es escribir una calculadora de impuestos.
 
@@ -38,7 +38,7 @@ tax = round(tax, 0)
 print("El impuesto es:", tax, "euros")
 ```
 
-Este país feliz nunca devuelve dinero a sus ciudadanos. Si el impuesto calculado es menor que cero, solo significa que no hay impuesto (el impuesto es igual a cero). Ten esto en cuenta durante tus cálculos.
+Si el impuesto calculado es menor que cero, solo significa que no hay impuesto (el impuesto es igual a cero). Ten esto en cuenta durante tus cálculos.
 
 Prueba tu código con los datos que hemos proporcionado. 
 
