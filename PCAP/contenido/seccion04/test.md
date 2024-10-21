@@ -60,7 +60,7 @@
     * Tendrás que instalar todas las dependencias tu mismo después de instalar el paquete deseado
     * El paquete instalar\u00e1 todas las dependencias durante su primera ejecución
 
-10 .¿Cuál de los siguientes comandos se utiliza para determinar la versión de `pip`?,
+10. ¿Cuál de los siguientes comandos se utiliza para determinar la versión de `pip`?,
 
     * `pip --version`
     * `pip version`
