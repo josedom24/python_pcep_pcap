@@ -26,8 +26,8 @@
     * [Prueba intermedia](contenido/seccion04/prueba.md)
 5. Cadenas de caracteres
     * [Codificación de caracteres en Python](contenido/seccion05/clase1.md)
-    * Repaso de cadenas de caracteres
-    * Funciones que trabajan con cadenas de caracteres
+    * [Repaso de cadenas de caracteres](contenido/seccion05/clase2.md)
+    * [Funciones que trabajan con cadenas de caracteres](contenido/seccion05/clase3.md)
     * Las cadenas son inmutables
     * Métodos de las cadenas de caracteres
     * Comparación y ordenación de cadenas
