@@ -25,6 +25,11 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion04/test.md)
     * [Prueba intermedia](contenido/seccion04/prueba.md)
 5. Cadenas de caracteres
+    * [Codificación de caracteres en Python](contenido/seccion05/clase1.md)
+    * Repaso de cadenas de caracteres
+    * Funciones que trabajan con cadenas de caracteres
+    * Las cadenas son inmutables
+    * Métodos de las cadenas de caracteres
 6. Operaciones con cadenas de caracteres
 7. Ejemplos de programas trabajando con cadenas de caracteres
 8. Excepciones: Gestionando errores de programación
