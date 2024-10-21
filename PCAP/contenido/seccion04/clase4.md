@@ -97,3 +97,27 @@ pip uninstall --break-system-packages pygame
 
 No es necesario indicar la opción `--user` ya que el sistema intentará desinstalar el paquete en cualquiera de los modos que se ha instalado.
 
+## Cuestionario
+
+1. ¿De donde proviene el nombre The Cheese Shop?
+2. ¿Por qué deberías asegurarte de cuál pip o pip3 es el correcto para ti?
+3. ¿Cómo puedes determinar si tu pip funciona con Python 2 o Python 3?
+4. Desafortunadamente, no tienes privilegios de administrador. ¿Qué debes hacer para instalar un paquete en todo el sistema?
+
+## Solución cuestionario
+
+1. Pregunta 1
+
+    Es una referencia a un viejo sketch de Monty Python que lleva el mismo nombre.
+
+2. Pregunta 2
+
+    Cuando Python 2 y Python 3 coexisten en el sistema operativo, es probable que pip identifique la instancia de pip que trabaja solo con paquetes de Python 2.
+
+3. Pregunta 3
+
+    `pip --version` te lo dirá.
+
+4. Pregunta 4
+
+    Tienes que consultar a tu administrador del sistema â ¡no intentes hackear tu sistema operativo!

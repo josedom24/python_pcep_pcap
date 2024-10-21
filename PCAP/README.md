@@ -22,8 +22,8 @@
     * [Instalación de pip](contenido/seccion04/clase2.md)
     * [Cómo usar pip](contenido/seccion04/clase3.md)
     * [Ejemplo de uso de pip](contenido/seccion04/clase4.md)
-    * Test intermedio: comprueba lo que has aprendido
-    * Prueba intermedia
+    * [Test intermedio: comprueba lo que has aprendido](contenido/seccion04/test.md)
+    * [Prueba intermedia](contenido/seccion04/prueba.md)
 5. Cadenas de caracteres
 6. Operaciones con cadenas de caracteres
 7. Ejemplos de programas trabajando con cadenas de caracteres
