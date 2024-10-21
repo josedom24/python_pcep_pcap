@@ -33,7 +33,7 @@
     * [Métodos de las cadenas de caracteres (2ª parte)](contenido/seccion05/clase6.md)
     * [LABORATORIO: Tu propio split](contenido/seccion05/clase7.md)
     * [Comparación y ordenación de cadenas](contenido/seccion05/clase8.md)
-    * Conversión a tipo cadena
+    * [Conversión entre cadenas y números](contenido/seccion05/clase9.md)
     * LABORATORIO: Un Display LED
 6. Ejemplos de programas trabajando con cadenas de caracteres
 7. Excepciones: Gestionando errores de programación
