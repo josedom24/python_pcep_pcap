@@ -19,11 +19,76 @@ cadena.index         cadena.isupper       cadena.rpartition    cadena.zfill
 ## Métodos de formato
 
 ### `capitalize()`
-### `lower()`
-### `upper()`
+
+El método `capitalize()` devuelve una nueva cadena (ya que la original no se modifica a ser las cadenas inmutables) con las siguientes características:
+
+* Si el primer carácter dentro de la cadena es una letra, se convertirá a mayúsculas.
+* Todas las letras restantes de la cadena se convertirán a minúsculas.
+
+Los métodos no tienen que invocarse solo dentro de las variables (objetos). Se pueden invocar directamente desde dentro de literales de cadena. Veamos un ejemplo:
+
+```
+# Usamos el método con literales cadenas
+print("Alpha".capitalize())
+print('ALPHA'.capitalize())
+print(' Alpha'.capitalize())
+
+# Usamos el método con una variable cadena
+# La cadena no cambia, se devuelve una nueva cadena
+cadena = "python"
+print(cadena.cpitalize())
+print(cadena)
+
+# Si queremos cambiar la cadena
+cadena = cadena.cpitalize()
+print(cadena)
+```
+
+### `lower()` y `upper()`
+
+Estos métodos me permiten crear una nueva cadena en minúscula (lower) o en mayúscula (upper). Ejemplos:
+
+```
+# Demostración del método lower():
+print("PythoN3".lower())
+# Demostración del método upper():
+print("PythoN3".upper())
+```
+
 ### `swapcase()`
+
+El método `swapcase()` crea una nueva cadena intercambiando todas las letras por mayúsculas o minúsculas dentro de la cadena original: los caracteres en mayúscula se convierten en minúsculas y viceversa. Todos los demás caracteres permanecen intactos.
+
+```
+# Demostración del método swapcase():
+print("Yo sé que no sé nada.".swapcase())
+```
+
 ### `title()`
+
+El método `title()` realiza una función algo similar cambia la primera letra de cada palabra a mayúsculas, convirtiendo todas las demás a minúsculas.
+
+```
+# Demostración del método title():
+print("Yo sé que no sé nada. Part 1.".title())
+```
+
 ### `center()`
+
+Si usamos el método `center()` con un solo argumento, que indica la anchura de caracteres, se genera una copia de la cadena original, tratando de centrarla dentro de un campo de un ancho especificado. El centrado se realiza realmente al agregar algunos espacios antes y después de la cadena.
+
+```
+# Demostración del método center():
+print('[' + 'alpha'.center(10) + ']')
+```
+
+Si la longitud del campo de destino es demasiado pequeña para ajustarse a la cadena, se devuelve la cadena original.
+
+Si utilizamos el método con dos parámetros, en el segundo parámetro se indica el el carácter que se utilizado para el centrado  en lugar de un espacio. 
+
+```
+print('[' + 'beta'.center(20, '*') + ']')
+```
 
 ## Métodos de búsqueda
 
