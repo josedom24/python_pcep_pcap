@@ -47,6 +47,14 @@
     * [LABORATORIO: ¡Encuentra una palabra!](contenido/seccion06/clase9.md)
     * [LABORATORIO: Sudoku](contenido/seccion06/clase10.md)
 7. Excepciones: Gestionando errores de programación
+    * Repaso de excepciones
+    * Jerarquía de excepciones
+    * La instrucción riase
+    * La instrucción assert
+    * Excepciones integradas
+    * LABORATORIO: Leer enteros de forma segura
+    * Test intermedio: comprueba lo que has aprendido
+    * Prueba intermedia
 8. Introducción a la Programación Orientada a Objetos
 9. Propiedades y métodos
 10. Herencia de clases
