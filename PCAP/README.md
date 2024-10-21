@@ -28,9 +28,11 @@
     * [Codificación de caracteres en Python](contenido/seccion05/clase1.md)
     * [Repaso de cadenas de caracteres](contenido/seccion05/clase2.md)
     * [Funciones que trabajan con cadenas de caracteres](contenido/seccion05/clase3.md)
-    * Las cadenas son inmutables
+    * [Las cadenas son inmutables](contenido/seccion05/clase4.md)
     * Métodos de las cadenas de caracteres
+    * LABORATORIO: Tu propio split
     * Comparación y ordenación de cadenas
+    * LABORATORIO: Un Display LED
 6. Ejemplos de programas trabajando con cadenas de caracteres
 7. Excepciones: Gestionando errores de programación
 8. Introducción a la Programación Orientada a Objetos
