@@ -18,9 +18,9 @@
     * [Nuestro primer paquete (1ª parte)](contenido/seccion03/clase4.md) 
     * [Nuestro primer paquete (2ª parte)](contenido/seccion03/clase5.md) 
 4. Instalador de paquetes PIP
-    * El ecosistema de paquetes de Python
-    * Instalar pip
-    * Cómo usar pip
+    * [El ecosistema de paquetes de Python](contenido/seccion04/clase1.md)
+    * [Instalación de pip](contenido/seccion04/clase2.md)
+    * [Cómo usar pip](contenido/seccion04/clase3.md)
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
 5. Cadenas de caracteres
