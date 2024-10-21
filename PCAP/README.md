@@ -36,16 +36,16 @@
     * [Conversión entre cadenas y números](contenido/seccion05/clase9.md)
     * [LABORATORIO: Un Display LED](contenido/seccion05/clase10.md)
 6. Ejemplos de programas trabajando con cadenas de caracteres
-    * Ejemplo 1: El Cifrado César: encriptando un mensaje
-    * Ejemplo 2: El Cifrado César: descifrando un mensaje
-    * Ejemplo 3: El Procesador de Números
-    * Ejemplo 4: El validador IBAN
-    * LABORATORIO: Mejorando el Cifrado César
-    * LABORATORIO: Palíndromos
-    * LABORATORIO: Anagrams
-    * LABORATORIO: El Dígito de la Vida
-    * LABORATORIO: ¡Encuentra una palabra!
-    * LABORATORIO: Sudoku
+    * [Ejemplo 1: El Cifrado César: encriptando un mensaje](contenido/seccion06/clase1.md)
+    * [Ejemplo 2: El Cifrado César: descifrando un mensaje](contenido/seccion06/clase2.md)
+    * [Ejemplo 3: El Procesador de Números](contenido/seccion06/clase3.md)
+    * [Ejemplo 4: El validador IBAN](contenido/seccion06/clase4.md)
+    * [LABORATORIO: Mejorando el Cifrado César](contenido/seccion06/clase5.md)
+    * [LABORATORIO: Palíndromos](contenido/seccion06/clase6.md)
+    * [LABORATORIO: Anagrama](contenido/seccion06/clase7.md)
+    * [LABORATORIO: El Dígito de la Vida](contenido/seccion06/clase8.md)
+    * [LABORATORIO: ¡Encuentra una palabra!](contenido/seccion06/clase9.md)
+    * [LABORATORIO: Sudoku](contenido/seccion06/clase10.md)
 7. Excepciones: Gestionando errores de programación
 8. Introducción a la Programación Orientada a Objetos
 9. Propiedades y métodos
