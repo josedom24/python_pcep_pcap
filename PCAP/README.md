@@ -31,8 +31,9 @@
     * [Las cadenas son inmutables](contenido/seccion05/clase4.md)
     * [Métodos de las cadenas de caracteres (1ª parte)](contenido/seccion05/clase5.md)
     * [Métodos de las cadenas de caracteres (2ª parte)](contenido/seccion05/clase6.md)
-    * LABORATORIO: Tu propio split
-    * Comparación y ordenación de cadenas
+    * [LABORATORIO: Tu propio split](contenido/seccion05/clase7.md)
+    * [Comparación y ordenación de cadenas](contenido/seccion05/clase8.md)
+    * Conversión a tipo cadena
     * LABORATORIO: Un Display LED
 6. Ejemplos de programas trabajando con cadenas de caracteres
 7. Excepciones: Gestionando errores de programación
