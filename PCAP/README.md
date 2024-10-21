@@ -21,6 +21,7 @@
     * [El ecosistema de paquetes de Python](contenido/seccion04/clase1.md)
     * [Instalación de pip](contenido/seccion04/clase2.md)
     * [Cómo usar pip](contenido/seccion04/clase3.md)
+    * [Ejemplo de uso de pip](contenido/seccion04/clase4.md)
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
 5. Cadenas de caracteres
