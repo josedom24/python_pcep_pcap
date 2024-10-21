@@ -29,7 +29,8 @@
     * [Repaso de cadenas de caracteres](contenido/seccion05/clase2.md)
     * [Funciones que trabajan con cadenas de caracteres](contenido/seccion05/clase3.md)
     * [Las cadenas son inmutables](contenido/seccion05/clase4.md)
-    * [Métodos de las cadenas de caracteres](contenido/seccion05/clase5.md)
+    * [Métodos de las cadenas de caracteres (1ª parte)](contenido/seccion05/clase5.md)
+    * [Métodos de las cadenas de caracteres (2ª parte)](contenido/seccion05/clase6.md)
     * LABORATORIO: Tu propio split
     * Comparación y ordenación de cadenas
     * LABORATORIO: Un Display LED
