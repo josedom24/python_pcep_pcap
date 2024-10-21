@@ -1,4 +1,4 @@
-# LABORATORIO - Tu propio split
+# LABORATORIO: Tu propio split
 
 ## Tiempo Estimado
 
