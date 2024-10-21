@@ -6,19 +6,19 @@
     * Un nombre con un espacio
     * Un espacio con un nombre
 
-2. Si deseas importar `pi` de `math`, ¿qué línea se utiliza?,
+2. Si deseas importar `pi` de `math`, ¿qué línea se utiliza?:
 
     * `from math import pi`
     * `import pi from math`
     * `from pi import math`
       
-3. ¿Cuál de los siguientes frases es verdadera?,
+3. ¿Cuál de los siguientes frases es verdadera?:
 
     * Los paquetes pueden contener módulos
     * Los módulos pueden contener módulos
     * Los módulos pueden contener paquetes
 
-4. ¿Qué puedes hacer para indicar que una entidad de módulo debe tratarse como privada? (Selecciona dos opciones),
+4. ¿Qué puedes hacer para indicar que una entidad de módulo debe tratarse como privada? (Selecciona dos opciones):
 
     * Puedes marcar el nombre de la entidad con el prefijo `_` (un guión bajo)
     * Puedes marcar el nombre de la entidad con el prefijo `__` (doble guión bajo)
@@ -46,7 +46,7 @@
     * Paquetes internos de python
     * Paquete dentro del paquete
 
-8. ¿Qué es verdadero acerca de `pip`? (Selecciona dos posibles respuestas):,
+8. ¿Qué es verdadero acerca de `pip`? (Selecciona dos posibles respuestas):
 
     * Siempre está disponible, ya que se instala junto con Python
     * Existen dos implementaciones de pip diferentes, una para Python 2 y otra para Python 3
@@ -60,7 +60,7 @@
     * Tendrás que instalar todas las dependencias tu mismo después de instalar el paquete deseado
     * El paquete instalar\u00e1 todas las dependencias durante su primera ejecución
 
-10. ¿Cuál de los siguientes comandos se utiliza para determinar la versión de `pip`?,
+10. ¿Cuál de los siguientes comandos se utiliza para determinar la versión de `pip`?:
 
     * `pip --version`
     * `pip version`
