@@ -30,15 +30,15 @@
     * Funciones que trabajan con cadenas de caracteres
     * Las cadenas son inmutables
     * Métodos de las cadenas de caracteres
-6. Operaciones con cadenas de caracteres
-7. Ejemplos de programas trabajando con cadenas de caracteres
-8. Excepciones: Gestionando errores de programación
-9. Introducción a la Programación Orientada a Objetos
-10. Propiedades y métodos
-11. Herencia de clases
-12. Las excepciones son clases
-13. Generadores, iteradores y cierres
-14. Trabajando con ficheros
-15. Módulos de sistema: os, datetime, calendar
-16. Prueba final
+    * Comparación y ordenación de cadenas
+6. Ejemplos de programas trabajando con cadenas de caracteres
+7. Excepciones: Gestionando errores de programación
+8. Introducción a la Programación Orientada a Objetos
+9. Propiedades y métodos
+10. Herencia de clases
+11. Las excepciones son clases
+12. Generadores, iteradores y cierres
+13. Trabajando con ficheros
+14. Módulos de sistema: os, datetime, calendar
+15. Prueba final
 
