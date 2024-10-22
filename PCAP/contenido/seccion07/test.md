@@ -1,3 +1,5 @@
+# Test intermedio: comprueba lo que has aprendido
+
 1. La parte del código donde se cree que puede ocurrir una excepción debe colocarse dentro:
   
     * De un bloque `try:`
