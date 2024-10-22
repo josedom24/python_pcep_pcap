@@ -47,10 +47,11 @@
     * [LABORATORIO: ¡Encuentra una palabra!](contenido/seccion06/clase9.md)
     * [LABORATORIO: Sudoku](contenido/seccion06/clase10.md)
 7. Excepciones: Gestionando errores de programación
-    * Repaso de excepciones
-    * Jerarquía de excepciones
-    * La instrucción riase
-    * La instrucción assert
+    * [Repaso de excepciones](contenido/seccion07/clase1.md)
+    * [Manejo de excepciones](contenido/seccion07/clase2.md)
+    * [Jerarquía de excepciones](contenido/seccion07/clase3.md)
+    * [Propagación de excepciones](contenido/seccion07/clase4.md)
+    * [La instrucción assert](contenido/seccion07/clase5.md)
     * Excepciones integradas
     * LABORATORIO: Leer enteros de forma segura
     * Test intermedio: comprueba lo que has aprendido
