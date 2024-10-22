@@ -1,15 +1,17 @@
+# Pila: Enfoque procedimental 
 
-## 3.2.1 ¿Qué es una pila?
+## ¿Qué es una pila?
 
-Una pila es una estructura de datos que sigue el principio de *Último en Entrar, Primero en Salir* (UEPS o LIFO, por sus siglas en inglés: *Last In, First Out*). Imagina una pila de monedas: solo puedes agregar o sacar monedas desde la parte superior. La última moneda en entrar será la primera en salir. En informática, las pilas son esenciales en muchos algoritmos y estructuras.
+Una pila es una estructura de datos que sigue el principio de *Último en Entrar, Primero en Salir* (UEPS o LIFO, por sus siglas en inglés: *Last In, First Out*). Imagina una pila de monedas: solo puedes agregar o sacar monedas desde la parte superior. La última moneda en entrar será la primera en salir. En informática, las pilas son esenciales en muchos algoritmos y estructuras. Las **operaciones fundamentales** que podemos realizar sobre una pila son:
 
-### Operaciones fundamentales:
-- **push**: Añade un elemento a la parte superior de la pila.
-- **pop**: Extrae el elemento superior de la pila.
+* **push**: Añade un elemento a la parte superior de la pila.
+* **pop**: Extrae el elemento superior de la pila.
 
-### Ejemplo en Python:
+## El enfoque procedimental
 
-```python
+El enfoque procedimental utiliza funciones independientes que manejan una lista. El ejemplo muestra este enfoque, donde se usa una lista para almacenar los valores. En este ejemplo, `push` agrega un valor a la pila y `pop` lo elimina y devuelve.
+
+```
 stack = []
 
 def push(val):
@@ -19,85 +21,20 @@ def pop():
     val = stack[-1]
     del stack[-1]
     return val
+
+push(3)
+push(2)
+push(1)
+
+print(pop())
+print(pop())
+print(pop())
 ```
 
-En este ejemplo, `push` agrega un valor a la pila y `pop` lo elimina y devuelve.
 
----
+Que problemas nos encontramos:
 
-## 3.2.2 La pila: el enfoque procedimental
-
-El enfoque procedimental utiliza funciones independientes que manejan una lista. El ejemplo anterior muestra este enfoque, donde se usa una lista para almacenar los valores.
-
-### Problemas del enfoque procedimental:
 1. **Falta de encapsulamiento**: La lista de la pila (`stack`) está expuesta, permitiendo que cualquiera la modifique directamente, lo que puede causar problemas.
 2. **Dificultad para manejar múltiples pilas**: Si necesitas más de una pila, debes crear nuevas listas y funciones, lo que incrementa la complejidad.
 3. **Ampliación limitada**: Agregar nuevas funcionalidades a la pila puede ser complicado y poco eficiente.
 
----
-
-## 3.2.3 Enfoque orientado a objetos (OO)
-
-El enfoque orientado a objetos resuelve los problemas anteriores mediante:
-- **Encapsulamiento**: Los datos internos de la pila están protegidos y no pueden modificarse directamente.
-- **Herencia**: Puedes crear clases derivadas para ampliar las funcionalidades sin modificar la clase base.
-
-### Ejemplo de clase `Stack`:
-
-```python
-class Stack:
-    def __init__(self):
-        self.__stack_list = []
-
-    def push(self, val):
-        self.__stack_list.append(val)
-
-    def pop(self):
-        val = self.__stack_list[-1]
-        del self.__stack_list[-1]
-        return val
-```
-
-En este ejemplo:
-- **Encapsulamiento**: La lista de la pila (`__stack_list`) está oculta, y solo los métodos `push` y `pop` pueden modificarla.
-- **Múltiples instancias**: Puedes crear tantas pilas como quieras, cada una con su propia lista de almacenamiento.
-
----
-
-## 3.2.4 Ampliación con herencia: `AddingStack`
-
-La herencia permite crear una subclase que extienda la funcionalidad de la pila sin modificar la clase base.
-
-### Ejemplo: Pila que suma los elementos
-
-```python
-class AddingStack(Stack):
-    def __init__(self):
-        super().__init__()
-        self.__sum = 0
-
-    def push(self, val):
-        self.__sum += val
-        super().push(val)
-
-    def pop(self):
-        val = super().pop()
-        self.__sum -= val
-        return val
-
-    def get_sum(self):
-        return self.__sum
-```
-
-Aquí, `AddingStack`:
-- **Hereda** de `Stack` y reutiliza sus métodos.
-- **Agrega funcionalidad**: Mantiene la suma de todos los elementos y permite consultarla con `get_sum()`.
-
----
-
-## 3.2.5 Resumen del enfoque OO
-1. **Encapsulamiento**: Protege los datos de la pila.
-2. **Herencia**: Facilita la extensión de funcionalidades.
-3. **Múltiples pilas**: Cada instancia de la clase es independiente y permite trabajar con varias pilas a la vez.
-
-El enfoque orientado a objetos mejora la organización y el control sobre las pilas, permitiendo construir sistemas más robustos y flexibles.

@@ -58,7 +58,9 @@
     * [Prueba intermedia](contenido/seccion07/prueba.md)
 8. Introducción a la Programación Orientada a Objetos
     * Introducción a la Programación Orientada a Objetos en Python
-    * Enfoque procedimental us Programación orientada a objetos
+    * Pila: Enfoque procedimental 
+    * Pila: Programación orientada a objetos
+    * Pila: Herencia de clases
     * LABORATORIO: Pila Contadora
     * LABORATORIO: Colas alias FIFO
     * LABORATORIO: Colas alias FIFO: parte 2
