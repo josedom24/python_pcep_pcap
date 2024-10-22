@@ -57,6 +57,11 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion07/test.md)
     * [Prueba intermedia](contenido/seccion07/prueba.md)
 8. Introducción a la Programación Orientada a Objetos
+    * Introducción a la Programación Orientada a Objetos en Python
+    * Enfoque procedimental us Programación orientada a objetos
+    * LABORATORIO: Pila Contadora
+    * LABORATORIO: Colas alias FIFO
+    * LABORATORIO: Colas alias FIFO: parte 2
 9. Propiedades y métodos
 10. Herencia de clases
 11. Las excepciones son clases
