@@ -70,3 +70,31 @@ Veamos qué hace cada instrucción:
    * Primero, **`stack_object_1.pop()`** quita y retorna el valor `3` de la primera pila.
    * Luego, este valor es pasado como argumento al método **`stack_object_2.push(3)`**, que añade `3` a la segunda pila (`stack_object_2`).
 3. **`print(stack_object_2.pop())`**: Finalmente, se quita y muestra el valor `3` de la segunda pila.
+
+
+## Otro ejemplo
+
+```
+class Stack:
+    def __init__(self):
+        self.__stack_list = []
+
+    def push(self, val):
+        self.__stack_list.append(val)
+
+    def pop(self):
+        val = self.__stack_list[-1]
+        del self.__stack_list[-1]
+        return val
+
+
+little_stack = Stack()
+another_stack = Stack()
+funny_stack = Stack()
+
+little_stack.push(1)
+another_stack.push(little_stack.pop() + 1)
+funny_stack.push(another_stack.pop() - 2)
+
+print(funny_stack.pop())
+```

@@ -61,9 +61,9 @@
     * [Programación orientada a objetos en Python](contenido/seccion08/clase2.md)
     * [Pila: Enfoque procedimental](contenido/seccion08/clase3.md)
     * [Pila: Programación orientada a objetos](contenido/seccion08/clase4.md)
-    * Pila: Uno de nuestra clase 
-    * Pila: Herencia de clases
-    * LABORATORIO: Pila Contadora
+    * [Pila: Uno de nuestra clase](contenido/seccion08/clase5.md)
+    * [Pila: Herencia de clases](contenido/seccion08/clase6.md)
+    * [LABORATORIO: Pila Contadora](contenido/seccion08/clase7.md)
     * LABORATORIO: Colas alias FIFO
     * LABORATORIO: Colas alias FIFO: parte 2
 9. Propiedades y métodos

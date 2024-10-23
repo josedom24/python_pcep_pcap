@@ -1,66 +1,68 @@
-# LABORATORIO: Pila Contadora
+# Pila: Herencia de clases
 
-## Tiempo Estimado
+Ahora queremos crear una nueva clase para manejar pilas. La nueva clase debería poder evaluar la suma de todos los elementos almacenados actualmente en la pila.
 
-20 - 45 minutos
+Nos proponemos agregar capacidades adicionales sin modificar la clase original `Stack`, lo que nos lleva la utilización de **herencia** para crear una subclase llamada `AddingStack`.
 
-## Nivel de Dificultad
+## Creando la Subclase
 
-Fácil/Medio
-
-## Objetivos
-
-* Mejorar las habilidades del estudiante para definir clases.
-* Emplear clases existentes para crear nuevas clases equipadas con nuevas funcionalidades.
-
-## Escenario
-
-Recientemente te mostramos cómo extender las posibilidades de `Stack` definiendo una nueva clase (es decir, una subclase) que retiene todos los rasgos heredados y agrega algunos nuevos.
-
-Tu tarea es extender el comportamiento de la clase `Stack` de tal manera que la clase pueda contar todos los elementos que son agregados (push) y quitados (pop). Emplea la clase `Stack` que proporcionamos en el siguiente código:
+El primer paso para implementar la nueva funcionalidad es definir la subclase `AddingStack`, que hereda de la clase `Stack`. La sintaxis es sencilla:
 
 ```
-class Stack:
+class AddingStack(Stack):
+    pass
+```
+
+En este punto, la clase `AddingStack` no contiene componentes adicionales, pero hereda todos los atributos y métodos de su superclase `Stack`. Esto significa que puede utilizar las funcionalidades básicas de la pila original sin necesidad de duplicar código.
+
+Vamos a añadir nueva funcionalidades a la nueva clase: debe calcular la suma de todos los elementos almacenados en la pila. Para ello:
+
+* Necesitamos otra propiedad para `sum` para guardar la suma.
+* El método `push` no solo debe insertar un valor en la pila, sino que también lo debe sumar al nuevo atributo `sum`. 
+* El método `pop` debería restar el valor extraído de esta variable.
+
+## Añadiendo un nua nueva propiedad privada
+
+Para lograr esto, comenzaremos por añadir un atributo privado en la nueva clase. Este atributo, llamado `__sum`, almacenará el total de todos los valores de la pila. La implementación del constructor (`__init__`) de la subclase se verá así:
+
+```
+class AddingStack(Stack):
     def __init__(self):
-        self.__stk = []
+        Stack.__init__(self)  # Inicializa el constructor de la superclase
+        self.__sum = 0  # Atributo privado para almacenar la suma
+```
+
+## Importancia de invocar el constructor de la superclase
+
+La línea `Stack.__init__(self)` es crucial. En Python, a diferencia de otros lenguajes de programación, es necesario invocar explícitamente el constructor de la superclase para garantizar que el objeto tenga acceso a la lista de la pila (`__stack_list`). Si se omite esta línea, el objeto `AddingStack` no funcionará correctamente, ya que carecerá de la lista necesaria para almacenar los elementos.
+
+Es importante seguir una sintaxis clara al invocar el constructor:
+
+1. Especificar el nombre de la superclase.
+2. Añadir un punto (.) seguido del nombre del constructor.
+3. Pasar la instancia de la clase actual (`self`) al constructor de la superclase.
+
+Como regla general, se recomienda invocar el constructor de la superclase antes de cualquier otra inicialización en la subclase.
+
+## Implementación de los métodos `push` y `pop`
+
+Una vez que hemos establecido la estructura básica de `AddingStack`, el siguiente paso es redefinir los métodos `push` y `pop` para que actualicen el atributo `__sum` en consecuencia.
+
+Aquí hay un ejemplo de cómo se verían estos métodos:
+
+```
+class AddingStack(Stack):
+    def __init__(self):
+        Stack.__init__(self)
+        self.__sum = 0
 
     def push(self, val):
-        self.__stk.append(val)
+        super().push(val)  # Llama al método push de la superclase
+        self.__sum += val  # Suma el valor al atributo __sum
 
     def pop(self):
-        val = self.__stk[-1]
-        del self.__stk[-1]
+        val = super().pop()  # Llama al método pop de la superclase
+        self.__sum -= val  # Resta el valor del atributo __sum
         return val
-
-
-class CountingStack(Stack):
-    def __init__(self):
-    #
-    # Llena el constructor con acciones apropiadas.
-    #
-
-    def get_counter(self):
-    #
-    # Presenta el valor actual del contador al mundo.
-    #
-
-    def pop(self):
-    #
-    # Haz un pop y actualiza el contador.
-    #
-	
-
-stk = CountingStack()
-for i in range(100):
-    stk.push(i)
-    stk.pop()
-print(stk.get_counter())
 ```
 
-Sigue las sugerencias:
-
-* Introduce una propiedad diseñada para contar las operaciones pop y nombrarla de una manera que garantice que esté oculta.
-* Inicializala a cero dentro del constructor.
-* Proporciona un método que devuelva el valor asignado actualmente al contador (nómbralo get_counter()).
-
-Completa el código en el editor. Ejecútalo para comprobar si tu código da como salida 100.
