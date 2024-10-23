@@ -57,7 +57,8 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion07/test.md)
     * [Prueba intermedia](contenido/seccion07/prueba.md)
 8. Introducción a la Programación Orientada a Objetos
-    * Introducción a la Programación Orientada a Objetos en Python
+    * [Introducción a la Programación Orientada a Objetos](contenido/seccion08/clase1.md)
+    * [Programación orientada a objetos en Python](contenido/seccion08/clase2.md)
     * Pila: Enfoque procedimental 
     * Pila: Programación orientada a objetos
     * Pila: Herencia de clases
