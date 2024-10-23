@@ -13,7 +13,7 @@ class AddingStack(Stack):
     pass
 ```
 
-En este punto, la clase `AddingStack` no contiene componentes adicionales, pero hereda todos los atributos y métodos de su superclase `Stack`. Esto significa que puede utilizar las funcionalidades básicas de la pila original sin necesidad de duplicar código.
+En este punto, la clase `AddingStack` no contiene componentes adicionales, pero hereda todos los atributos y métodos de su superclase `Stack`. Esto significa que puede utilizar las funcionalidades básicas de la pila original sin necesidad de duplicar código. Podríamos crear una objeto a partir de esta clase y comprobar que funciona igual que la clase `Stack`.
 
 Vamos a añadir nueva funcionalidades a la nueva clase: debe calcular la suma de todos los elementos almacenados en la pila. Para ello:
 
@@ -46,7 +46,9 @@ Como regla general, se recomienda invocar el constructor de la superclase antes 
 
 ## Implementación de los métodos `push` y `pop`
 
-Una vez que hemos establecido la estructura básica de `AddingStack`, el siguiente paso es redefinir los métodos `push` y `pop` para que actualicen el atributo `__sum` en consecuencia.
+¿Realmente estamos agregando dos nuevos métodos? Realmente, ya tenemos estos métodos en la superclase. Lo que estamos haciendo es cambiar la funcionalidad de los métodos, no sus nombres. Podemos decir con mayor precisión que la interfaz (la forma en que se manejan los objetos) de la clase permanece igual al cambiar la implementación al mismo tiempo.
+
+Vamos a redefinir los métodos `push` y `pop` para que actualicen el atributo `__sum` en consecuencia.
 
 Aquí hay un ejemplo de cómo se verían estos métodos:
 
@@ -57,12 +59,72 @@ class AddingStack(Stack):
         self.__sum = 0
 
     def push(self, val):
-        super().push(val)  # Llama al método push de la superclase
+        Stack.push(val)  # Llama al método push de la superclase
         self.__sum += val  # Suma el valor al atributo __sum
 
     def pop(self):
-        val = super().pop()  # Llama al método pop de la superclase
+        val = Stack.pop()  # Llama al método pop de la superclase
         self.__sum -= val  # Resta el valor del atributo __sum
         return val
 ```
 
+Fíjate en cómo hemos invocado la implementación anterior del método `push` (el disponible en la superclase):
+
+* Tenemos que especificar el nombre de la superclase; esto es necesario para indicar claramente la clase que contiene el método, para evitar confundirlo con cualquier otra función del mismo nombre.
+* Tenemos que especificar el objeto de destino y pasarlo como primer argumento (no se agrega implícitamente a la invocación en este contexto).
+
+Se dice que el método `push` ha sido anulado, el mismo nombre que en la superclase ahora representa una funcionalidad diferente.
+
+## Métodos para obtener valores
+
+Hasta ahora, hemos definido la variable `__sum`, pero no hemos proporcionado un método para obtener su valor. Tenemos que definir un nuevo método. Lo nombraremos get_sum. Su única tarea será devolver el valor de `__sum`.
+
+Aquí está:
+```
+def get_sum(self):
+    return self.__sum
+```
+
+Veamos el ejemplo completo:
+
+```
+class Stack:
+    def __init__(self):
+        self.__stack_list = []
+
+    def push(self, val):
+        self.__stack_list.append(val)
+
+    def pop(self):
+        val = self.__stack_list[-1]
+        del self.__stack_list[-1]
+        return val
+
+
+class AddingStack(Stack):
+    def __init__(self):
+        Stack.__init__(self)
+        self.__sum = 0
+
+    def get_sum(self):
+        return self.__sum
+
+    def push(self, val):
+        self.__sum += val
+        Stack.push(self, val)
+
+    def pop(self):
+        val = Stack.pop(self)
+        self.__sum -= val
+        return val
+
+
+stack_object = AddingStack()
+
+for i in range(5):
+    stack_object.push(i)
+print(stack_object.get_sum())
+
+for i in range(5):
+    print(stack_object.pop())
+```
