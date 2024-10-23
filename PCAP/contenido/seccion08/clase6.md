@@ -128,3 +128,42 @@ print(stack_object.get_sum())
 for i in range(5):
     print(stack_object.pop())
 ```
+
+## Cuestionario
+
+1. Suponiendo que hay una clase llamada `Snakes`, escribe la primera línea de la declaración de una clase llamada `Python`, expresando el hecho de que la nueva clase es en realidad una subclase de `Snakes`.
+
+2. Algo falta en la siguiente declaración, ¿qué es?
+    ```
+    class Snakes
+        def __init__():
+            self.sound = 'Sssssss'
+    ```
+
+
+
+3. Modifica el código para garantizar que la propiedad `venomous` sea privada.
+    ```
+    class Snakes
+        def __init__(self):
+            self.venomous = True
+    ```
+
+## Solución cuestionario
+
+1. Ejercicio 1
+
+    `class Python(Snakes):`
+
+2. Ejercicio 2
+
+    El constructor `__init__()` carece del parámetro obligatorio (deberíamos llamarlo `self` para cumplir con los estándares).
+
+3. Ejercicio 3
+
+    El código debería verse como sigue:
+    ```
+    class Snakes
+        def __init__(self):
+            self.__venomous = True
+    ```

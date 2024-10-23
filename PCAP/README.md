@@ -64,8 +64,8 @@
     * [Pila: Uno de nuestra clase](contenido/seccion08/clase5.md)
     * [Pila: Herencia de clases](contenido/seccion08/clase6.md)
     * [LABORATORIO: Pila Contadora](contenido/seccion08/clase7.md)
-    * LABORATORIO: Colas alias FIFO
-    * LABORATORIO: Colas alias FIFO: parte 2
+    * [LABORATORIO: Colas alias FIFO](contenido/seccion08/clase8.md)
+    * [LABORATORIO: Colas alias FIFO: parte 2](contenido/seccion08/clase9.md)
 9. Propiedades y métodos
 10. Herencia de clases
 11. Las excepciones son clases
