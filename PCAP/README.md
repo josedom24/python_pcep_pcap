@@ -59,8 +59,9 @@
 8. Introducción a la Programación Orientada a Objetos
     * [Introducción a la Programación Orientada a Objetos](contenido/seccion08/clase1.md)
     * [Programación orientada a objetos en Python](contenido/seccion08/clase2.md)
-    * Pila: Enfoque procedimental 
-    * Pila: Programación orientada a objetos
+    * [Pila: Enfoque procedimental](contenido/seccion08/clase3.md)
+    * [Pila: Programación orientada a objetos](contenido/seccion08/clase4.md)
+    * Pila: Uno de nuestra clase 
     * Pila: Herencia de clases
     * LABORATORIO: Pila Contadora
     * LABORATORIO: Colas alias FIFO

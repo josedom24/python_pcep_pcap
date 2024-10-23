@@ -1,66 +1,72 @@
-# LABORATORIO: Pila Contadora
+# Pila: Uno de nuestra clase
 
-## Tiempo Estimado
+## Ejemplo de uso de la pila
 
-20 - 45 minutos
+Aquí creamos un objeto de la clase `Stack` y usamos los métodos `push` y `pop` para interactuar con la pila:
 
-## Nivel de Dificultad
+```
+stack_object = Stack()
 
-Fácil/Medio
+# Agregamos elementos a la pila
+stack_object.push(3)
+stack_object.push(2)
+stack_object.push(1)
 
-## Objetivos
+# Quitamos y mostramos los elementos de la pila
+print(stack_object.pop())  # Output: 1
+print(stack_object.pop())  # Output: 2
+print(stack_object.pop())  # Output: 3
+```
 
-* Mejorar las habilidades del estudiante para definir clases.
-* Emplear clases existentes para crear nuevas clases equipadas con nuevas funcionalidades.
+Cuando invocamos `stack_object.push(3)`, el proceso interno es el siguiente:
+1. Python envía implícitamente el objeto `stack_object` como el argumento `self` al método `push`.
+2. Dentro de `push`, `self.__stack_list.append(val)` añade el valor `3` a la lista privada `__stack_list`.
 
-## Escenario
+De manera similar, el método `pop` quita el último valor de la lista y lo retorna.
 
-Recientemente te mostramos cómo extender las posibilidades de `Stack` definiendo una nueva clase (es decir, una subclase) que retiene todos los rasgos heredados y agrega algunos nuevos.
 
-Tu tarea es extender el comportamiento de la clase `Stack` de tal manera que la clase pueda contar todos los elementos que son agregados (push) y quitados (pop). Emplea la clase `Stack` que proporcionamos en el siguiente código:
+## Creación de varios objetos pila
+
+Ahora puedes hacer que más de una pila se comporte de la misma manera. Cada pila tendrá su propia copia de datos privados, pero utilizará el mismo conjunto de métodos. 
+
+Analicemos el código de ejemplo que muestra cómo funcionan dos objetos de la clase `Stack` de manera independiente:
 
 ```
 class Stack:
     def __init__(self):
-        self.__stk = []
+        self.__stack_list = []  # Lista privada para cada pila
 
+    # Método para agregar un valor a la pila
     def push(self, val):
-        self.__stk.append(val)
+        self.__stack_list.append(val)
 
+    # Método para quitar y devolver el último valor de la pila
     def pop(self):
-        val = self.__stk[-1]
-        del self.__stk[-1]
+        val = self.__stack_list[-1]
+        del self.__stack_list[-1]
         return val
 
 
-class CountingStack(Stack):
-    def __init__(self):
-    #
-    # Llena el constructor con acciones apropiadas.
-    #
+# Creación de dos objetos de la clase Stack
+stack_object_1 = Stack()
+stack_object_2 = Stack()
 
-    def get_counter(self):
-    #
-    # Presenta el valor actual del contador al mundo.
-    #
+# Operaciones con ambas pilas
+stack_object_1.push(3)  # Añade el valor 3 a la primera pila
+stack_object_2.push(stack_object_1.pop())  # Pasa el valor de la primera pila a la segunda
 
-    def pop(self):
-    #
-    # Haz un pop y actualiza el contador.
-    #
-	
-
-stk = CountingStack()
-for i in range(100):
-    stk.push(i)
-    stk.pop()
-print(stk.get_counter())
+# Muestra el valor de la segunda pila
+print(stack_object_2.pop())  # Output: 3
 ```
 
-Sigue las sugerencias:
+* Se crean **dos pilas** diferentes: `stack_object_1` y `stack_object_2`. Ambas se basan en la misma clase `Stack`, pero son **objetos independientes**.
+* Cada uno tiene su propia lista privada (`__stack_list`), lo que significa que las operaciones realizadas en una pila no afectan a la otra.
 
-* Introduce una propiedad diseñada para contar las operaciones pop y nombrarla de una manera que garantice que esté oculta.
-* Inicializala a cero dentro del constructor.
-* Proporciona un método que devuelva el valor asignado actualmente al contador (nómbralo get_counter()).
+Veamos qué hace cada instrucción:
 
-Completa el código en el editor. Ejecútalo para comprobar si tu código da como salida 100.
+1. **`stack_object_1.push(3)`**: Añade el valor `3` a la primera pila (`stack_object_1`).
+   
+2. **`stack_object_2.push(stack_object_1.pop())`**:
+   * Primero, **`stack_object_1.pop()`** quita y retorna el valor `3` de la primera pila.
+   * Luego, este valor es pasado como argumento al método **`stack_object_2.push(3)`**, que añade `3` a la segunda pila (`stack_object_2`).
+3. **`print(stack_object_2.pop())`**: Finalmente, se quita y muestra el valor `3` de la segunda pila.
