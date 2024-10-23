@@ -67,7 +67,22 @@
     * [LABORATORIO: Colas alias FIFO](contenido/seccion08/clase8.md)
     * [LABORATORIO: Colas alias FIFO: parte 2](contenido/seccion08/clase9.md)
 9. Propiedades y métodos
+    * Atributos de instancia
+    * Atributos de clase
+    * Comprobando la existencia de una atributo
+    * Métodos estáticos
+    * Atributos comunes en clases y objetos
+    * Explorando las clases y objetos
+    * LABORATORIO: La clase Timer
+    * LABORATORIO: Días de la semana
+    * LABORATORIO: Puntos en un plano
+    * LABORATORIO: Triángulo
 10. Herencia de clases
+    * Representación de los objetos
+    * Herencia de clases en Python
+    * Cómo Python encuentra propiedades y métodos
+    * Cómo construir una jerarquía de clases
+    * Herencia simple frente a herencia múltiple
 11. Las excepciones son clases
 12. Generadores, iteradores y cierres
 13. Trabajando con ficheros
