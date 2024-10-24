@@ -80,12 +80,50 @@
     * [LABORATORIO: Triángulo](contenido/seccion09/clase11.md)
 10. Herencia de clases
     * Herencia de clases en Python
-    * Cómo Python encuentra propiedades y métodos
+    * Relación entre superclase y subclase
+    * Relación entre objetos y clases
+    * Trabajando con propiedades y métodos heredados
     * Cómo construir una jerarquía de clases
     * Herencia simple frente a herencia múltiple
-11. Las excepciones son clases
+11. Las excepciones en profundidad
+    * Las excepciones son clases
+    * La jerarquía de clases de las excepciones
+    * Creación de nuevas excepciones
+    * Test intermedio: comprueba lo que has aprendido
+    * Prueba intermedia
 12. Generadores, iteradores y cierres
+    * Introducción a lso generadores
+    * La instrucción yield
+    * Creando generadores
+    * Repaso de listas por compresión
+    * La función lambda
+    * Las funciones map(), filter()
+    * Introducción a los cierres
 13. Trabajando con ficheros
+    * Nombre de archivos
+    * Introducción al trabajo con ficheros
+    * Manejo de archivos
+    * Modos de trabajar con ficheros
+    * Abriendo y cerrando los ficheros
+    * Procesamiento de archivos de texto
+    * Lectura de ficheros de texto
+    * Escritura de ficheros de texto
+    * Trabajando con ficheros binarios
+    * Ejemplo: como copiar ficheros
+    * LABORATORIO: Histograma de frecuencia de caracteres
+    * LABORATORIO: Histograma de frecuencia de caracteres ordenado
+    * LABORATORIO: Evaluando los resultados de los estudiantes
 14. Módulos de sistema: os, datetime, calendar
+    * El módulo os
+    * LABORATORIO: El módulo os
+    * El módulo datetime
+    * El módulo time
+    * LABORATORIO: Los módulos datetime y time
+    * El módulo calendar
+    * LABORATORIO: El módulo calendar
+    * Test intermedio: comprueba lo que has aprendido
+    * Prueba intermedia
 15. Prueba final
+    * Prueba Final 1
+    * Prueba Final 2
 
