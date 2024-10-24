@@ -1,73 +1,46 @@
-# LABORATORIO: La clase Timer
+# Representación de los objetos
 
-## Tiempo Estimado
+Veamos ahora un mecanismo útil relacionado con la forma en que los objetos pueden presentarse a sí mismos. Esta funcionalidad permite que los objetos tengan una representación más significativa y legible cuando se imprimen.
 
-30 - 60 minutos
+## La Representación por defecto
 
-## Nivel de Dificultad
-
-Fácil/Medio
-
-## Objetivos
-
-* Mejorar las habilidades del estudiante para definir clases desde cero.
-* Definir y usar variables de instancia.
-* Definir y usar métodos.
-
-## Escenario
-
-Necesitamos una clase capaz de contar segundos. Tu clase se llamará `Timer` (temporizador en español). Su constructor acepta tres argumentos que representan horas (un valor del rango [0..23]; usaremos tiempo militar), minutos (del rango [0. .59]) y segundos (del rango [0..59]).
-
-Cero es el valor predeterminado para todos los parámetros anteriores. No es necesario realizar ninguna comprobación de validación.
-
-La clase en sí debería proporcionar las siguientes facilidades:
-
-* Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la siguiente forma: "hh:mm:ss", con ceros a la izquierda agregados cuando cualquiera de los valores es menor que 10. Para conseguir esta funcionalidad debemos crear un método llamado `__str__` (lo estudiaremos más adelante). 
-* La clase debe estar equipada con métodos sin parámetros llamados next_second() y previous_second (), incrementando el tiempo almacenado dentro de los objetos en +1/-1 segundos respectivamente.
-
-Emplea las siguientes sugerencias:
-
-* Todas las propiedades del objeto deben ser privadas.
-* Considera escribir una función separada (¡no un método!) para formatear la cadena con el tiempo.
-
-Puedes usar la siguiente plantilla:
+Cuando intentamos imprimir un objeto en Python, por defecto se muestra una cadena que incluye el nombre de la clase, seguido por la dirección de memoria del objeto. Por ejemplo, al ejecutar el siguiente código:
 
 ```
-class Timer:
-    def __init__( ??? ):
-        #
-        # Escribir código aquí.
-        #
+class Star:
+    def __init__(self, name, galaxy):
+        self.name = name
+        self.galaxy = galaxy
+
+sun = Star("Sol", "Vía Láctea")
+print(sun)
+```
+
+La salida será algo como:
+
+```
+<__main__.Star object at 0x7f1074cc7c50>
+```
+
+Aquí, `<__main__.Star>` indica que se trata de un objeto de la clase `Star`, y `0x7f1074cc7c50` es la dirección de memoria donde reside ese objeto. Aunque esta información es técnica y específica, no resulta útil para entender el significado o el estado del objeto.
+
+## Mejorando la Representación con `__str__`
+
+Para ofrecer una representación más clara y útil de los objetos, Python proporciona el método `__str__()` que nos permite obtener una representación "informal" o legible por el usuario del objeto. Se llama cuando usamos la función `print()`. Este método devuelve una cadena con la representación del objeto.
+
+Podemos implementar estos métodos en nuestra clase `Star` para que proporcione una salida más informativa:
+
+```python
+class Star:
+    def __init__(self, name, galaxy):
+        self.name = name
+        self.galaxy = galaxy
 
     def __str__(self):
-        #
-        # Escribir código aquí.
-        #
+        return self.name + ' en ' + self.galaxy
 
-    def next_second(self):
-        #
-        # Escribir código aquí.
-        #
-
-    def prev_second(self):
-        #
-        # Escribir código aquí.
-        #
-
-
-timer = Timer(23, 59, 59)
-print(timer)
-timer.next_second()
-print(timer)
-timer.prev_second()
-print(timer)
-```
-
-## Salida Esperada
-
-```
-23:59:59
-00:00:00
-23:59:59
+    
+sun = Star("Sol", "Vía Láctea")
+print(sun)          # Invoca __str__()
 ```
 

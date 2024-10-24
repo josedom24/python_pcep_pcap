@@ -73,12 +73,12 @@
     * [Métodos de instancia](contenido/seccion09/clase4.md)
     * [Propiedades comunes en clases y objetos](contenido/seccion09/clase5.md)
     * [Explorando y modificando las clases y objetos](contenido/seccion09/clase6.md)
-    * [LABORATORIO: La clase Timer](contenido/seccion09/clase7.md)
-    * [LABORATORIO: Días de la semana](contenido/seccion09/clase8.md)
-    * [LABORATORIO: Puntos en un plano](contenido/seccion09/clase9.md)
-    * [LABORATORIO: Triángulo](contenido/seccion09/clase10.md)
+    * [Representación de los objetos](contenido/seccion09/clase7.md)
+    * [LABORATORIO: La clase Timer](contenido/seccion09/clase8.md)
+    * [LABORATORIO: Días de la semana](contenido/seccion09/clase9.md)
+    * [LABORATORIO: Puntos en un plano](contenido/seccion09/clase10.md)
+    * [LABORATORIO: Triángulo](contenido/seccion09/clase11.md)
 10. Herencia de clases
-    * Representación de los objetos
     * Herencia de clases en Python
     * Cómo Python encuentra propiedades y métodos
     * Cómo construir una jerarquía de clases

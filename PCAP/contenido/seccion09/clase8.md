@@ -1,4 +1,4 @@
-# LABORATORIO: Días de la semana
+# LABORATORIO: La clase Timer
 
 ## Tiempo Estimado
 
@@ -16,31 +16,25 @@ Fácil/Medio
 
 ## Escenario
 
-Tu tarea es implementar una clase llamada `Weeker` que almacena y manipula los días de la semana.
+Necesitamos una clase capaz de contar segundos. Tu clase se llamará `Timer` (temporizador en español). Su constructor acepta tres argumentos que representan horas (un valor del rango [0..23]; usaremos tiempo militar), minutos (del rango [0. .59]) y segundos (del rango [0..59]).
 
-El constructor de la clase acepta un argumento: una cadena. La cadena representa el nombre del día de la semana y los únicos valores aceptables deben provenir del siguiente conjunto:
+Cero es el valor predeterminado para todos los parámetros anteriores. No es necesario realizar ninguna comprobación de validación.
 
-`Lun Mar Mie Jue Vie Sab Dom`
+La clase en sí debería proporcionar las siguientes facilidades:
 
-Invocar al constructor con un argumento desde fuera de este conjunto debería generar la excepción `WeekDayError` (defínela tu mismo). La clase debe proporcionar las siguientes facilidades:
+* Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la siguiente forma: "hh:mm:ss", con ceros a la izquierda agregados cuando cualquiera de los valores es menor que 10. 
+* La clase debe estar equipada con métodos sin parámetros llamados next_second() y previous_second (), incrementando el tiempo almacenado dentro de los objetos en +1/-1 segundos respectivamente.
 
-* Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la misma forma que los argumentos del constructor. Para ello utilizamos el método `__str__`.
-* La clase debe estar equipada con métodos de un parámetro llamados `add_days(n)` y `subtract_days(n)`, siendo `n` un número entero que actualiza el día de la semana almacenado dentro del objeto mediante el número de días indicado, hacia adelante o hacia atrás.
+Emplea las siguientes sugerencias:
+
 * Todas las propiedades del objeto deben ser privadas.
+* Considera escribir una función separada (¡no un método!) para formatear la cadena con el tiempo.
 
 Puedes usar la siguiente plantilla:
 
 ```
-class WeekDayError(Exception):
-    pass
-	
-
-class Weeker:
-    #
-    # Escribir código aquí.
-    #
-
-    def __init__(self, day):
+class Timer:
+    def __init__( ??? ):
         #
         # Escribir código aquí.
         #
@@ -50,34 +44,30 @@ class Weeker:
         # Escribir código aquí.
         #
 
-    def add_days(self, n):
+    def next_second(self):
         #
         # Escribir código aquí.
         #
 
-    def subtract_days(self, n):
+    def prev_second(self):
         #
         # Escribir código aquí.
         #
 
 
-try:
-    weekday = Weeker('Lun')
-    print(weekday)
-    weekday.add_days(15)
-    print(weekday)
-    weekday.subtract_days(23)
-    print(weekday)
-    weekday = Weeker('Lun')
-except WeekDayError:
-    print("Lo siento, no puedo atender tu solicitud.")
+timer = Timer(23, 59, 59)
+print(timer)
+timer.next_second()
+print(timer)
+timer.prev_second()
+print(timer)
 ```
 
 ## Salida Esperada
+
 ```
-Lun
-Mar
-Dom
-Lo siento, no puedo atender tu solicitud.
+23:59:59
+00:00:00
+23:59:59
 ```
 

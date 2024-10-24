@@ -1,4 +1,4 @@
-# LABORATORIO: Triángulo
+# LABORATORIO: Puntos en un plano
 
 ## Tiempo Estimado
 
@@ -11,19 +11,23 @@ Fácil/Medio
 ## Objetivos
 
 * Mejorar las habilidades del estudiante para definir clases desde cero.
-* Emplear composición.
+* Definir y usar variables de instancia.
+* Definir y usar métodos.
 
 ## Escenario
 
-Llamamos **composición** a la situación en la que una clase contiene (como atributos) una o más instancias de otra clase, a las que delegará parte de sus funcionalidades.
+En un plano con el sistema de coordenadas cartesianas, cada punto puede describirse como un par de coordenadas habitualmente llamadas `x` y `y`. Queremos que escribas una clase en Python que almacene ambas coordenadas como números flotantes. Además, queremos que los objetos de esta clase calculen las distancias entre cualquiera de los dos puntos situados en el plano.
 
-Vamos a definir una clase para representar un triangulo. Nuestro triangulo estará formado por tres puntos, estos puntos se guardarán en un objeto de clase `Point` que desarrollamos en el taller anterior,
+La tarea es bastante fácil si empleas la función denominada `hypot()` (disponible a través del módulo `math`) que evalúa la longitud de la hipotenusa de un triángulo rectángulo.
 
-La nueva clase se llamará `Triangle` y esto es lo que queremos:
+Así es como imaginamos la clase:
 
-* El constructor acepta tres argumentos, todos ellos son objetos de la clase `Point`.
-* Los puntos se almacenan dentro del objeto como una lista privada
-* La clase proporciona un método sin parámetros llamado `perimeter()`, que calcula el perímetro del triángulo descrito por los tres puntos; el perímetro es la suma de todas las longitudes de los lados.
+* Se llama `Point`.
+* Su constructor acepta dos argumentos (`x` y `y` respectivamente), ambos por defecto se igualan a cero.
+* Todas las propiedades deben ser privadas.
+* La clase contiene dos métodos sin parámetros llamados `getx()` y `gety()`, que devuelven cada una de las dos coordenadas (las coordenadas se almacenan de forma privada, por lo que no se puede acceder a ellas directamente desde el objeto).
+* La clase proporciona un método llamado `distance_from_xy(x,y)`, que calcula y devuelve la distancia entre el punto almacenado dentro del objeto y el otro punto dado en un par de números flotantes.
+* La clase proporciona un método llamado `distance_from_point(point)`, que calcula la distancia (como el método anterior), pero la ubicación del otro punto se da como otro objeto de clase `Point`.
 
 Puedes usar la siguiente plantilla:
 
@@ -32,27 +36,42 @@ import math
 
 
 class Point:
-    #
-    # El código copiado del laboratorio anterior.
-    #
-
-
-class Triangle:
-    def __init__(self, vertice1, vertice2, vertice3):
+    def __init__(self, x=0.0, y=0.0):
         #
         # Escribir el código aquí.
         #
 
-    def perimeter(self):
+    def getx(self):
+        #
+        # Escribir el código aquí.
+        #
+
+    def gety(self):
+        #
+        # Escribir el código aquí.
+        #
+
+    def distance_from_xy(self, x, y):
+        #
+        # Escribir el código aquí.
+        #
+
+    def distance_from_point(self, point):
         #
         # Escribir el código aquí.
         #
 
 
-triangle = Triangle(Point(0, 0), Point(1, 0), Point(0, 1))
-print(triangle.perimeter())
+point1 = Point(0, 0)
+point2 = Point(1, 1)
+print(point1.distance_from_point(point2))
+print(point2.distance_from_xy(2, 0))
 ```
 
 ## Salida esperada
 
-`3.414213562373095`
+```
+1.4142135623730951
+1.4142135623730951
+```
+

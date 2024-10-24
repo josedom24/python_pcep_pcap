@@ -1,4 +1,4 @@
-# LABORATORIO: Puntos en un plano
+# LABORATORIO: Días de la semana
 
 ## Tiempo Estimado
 
@@ -16,62 +16,68 @@ Fácil/Medio
 
 ## Escenario
 
-En un plano con el sistema de coordenadas cartesianas, cada punto puede describirse como un par de coordenadas habitualmente llamadas `x` y `y`. Queremos que escribas una clase en Python que almacene ambas coordenadas como números flotantes. Además, queremos que los objetos de esta clase calculen las distancias entre cualquiera de los dos puntos situados en el plano.
+Tu tarea es implementar una clase llamada `Weeker` que almacena y manipula los días de la semana.
 
-La tarea es bastante fácil si empleas la función denominada `hypot()` (disponible a través del módulo `math`) que evalúa la longitud de la hipotenusa de un triángulo rectángulo.
+El constructor de la clase acepta un argumento: una cadena. La cadena representa el nombre del día de la semana y los únicos valores aceptables deben provenir del siguiente conjunto:
 
-Así es como imaginamos la clase:
+`Lun Mar Mie Jue Vie Sab Dom`
 
-* Se llama `Point`.
-* Su constructor acepta dos argumentos (`x` y `y` respectivamente), ambos por defecto se igualan a cero.
-* Todas las propiedades deben ser privadas.
-* La clase contiene dos métodos sin parámetros llamados `getx()` y `gety()`, que devuelven cada una de las dos coordenadas (las coordenadas se almacenan de forma privada, por lo que no se puede acceder a ellas directamente desde el objeto).
-* La clase proporciona un método llamado `distance_from_xy(x,y)`, que calcula y devuelve la distancia entre el punto almacenado dentro del objeto y el otro punto dado en un par de números flotantes.
-* La clase proporciona un método llamado `distance_from_point(point)`, que calcula la distancia (como el método anterior), pero la ubicación del otro punto se da como otro objeto de clase `Point`.
+Invocar al constructor con un argumento desde fuera de este conjunto debería generar la excepción `WeekDayError` (defínela tu mismo). La clase debe proporcionar las siguientes facilidades:
+
+* Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la misma forma que los argumentos del constructor. 
+* La clase debe estar equipada con métodos de un parámetro llamados `add_days(n)` y `subtract_days(n)`, siendo `n` un número entero que actualiza el día de la semana almacenado dentro del objeto mediante el número de días indicado, hacia adelante o hacia atrás.
+* Todas las propiedades del objeto deben ser privadas.
 
 Puedes usar la siguiente plantilla:
 
 ```
-import math
+class WeekDayError(Exception):
+    pass
+	
 
+class Weeker:
+    #
+    # Escribir código aquí.
+    #
 
-class Point:
-    def __init__(self, x=0.0, y=0.0):
+    def __init__(self, day):
         #
-        # Escribir el código aquí.
-        #
-
-    def getx(self):
-        #
-        # Escribir el código aquí.
-        #
-
-    def gety(self):
-        #
-        # Escribir el código aquí.
+        # Escribir código aquí.
         #
 
-    def distance_from_xy(self, x, y):
+    def __str__(self):
         #
-        # Escribir el código aquí.
-        #
-
-    def distance_from_point(self, point):
-        #
-        # Escribir el código aquí.
+        # Escribir código aquí.
         #
 
+    def add_days(self, n):
+        #
+        # Escribir código aquí.
+        #
 
-point1 = Point(0, 0)
-point2 = Point(1, 1)
-print(point1.distance_from_point(point2))
-print(point2.distance_from_xy(2, 0))
+    def subtract_days(self, n):
+        #
+        # Escribir código aquí.
+        #
+
+
+try:
+    weekday = Weeker('Lun')
+    print(weekday)
+    weekday.add_days(15)
+    print(weekday)
+    weekday.subtract_days(23)
+    print(weekday)
+    weekday = Weeker('Lun')
+except WeekDayError:
+    print("Lo siento, no puedo atender tu solicitud.")
 ```
 
-## Salida esperada
-
+## Salida Esperada
 ```
-1.4142135623730951
-1.4142135623730951
+Lun
+Mar
+Dom
+Lo siento, no puedo atender tu solicitud.
 ```
 
