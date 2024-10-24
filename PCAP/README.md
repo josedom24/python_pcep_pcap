@@ -72,7 +72,7 @@
     * Comprobando la existencia de una propiedad
     * Métodos de instancia
     * Propiedades comunes en clases y objetos
-    * Explorando las clases y objetos
+    * Explorando y modificando las clases y objetos
     * LABORATORIO: La clase Timer
     * LABORATORIO: Días de la semana
     * LABORATORIO: Puntos en un plano
