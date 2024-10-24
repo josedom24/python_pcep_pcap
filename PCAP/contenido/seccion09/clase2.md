@@ -83,12 +83,7 @@ En Python, las **variables de clase** existen incluso cuando no se ha creado nin
 
 Veamos un ejemplo:
 
-
-
-
-
-
-```python
+```
 class ExampleClass:
     varia = 1  # Variable de clase
 
@@ -108,41 +103,27 @@ print(ExampleClass.__dict__)
 print(example_object.__dict__)
 ```
 
-### Explicación del Código
-
-#### 1. Definición de la Clase y Variable de Clase
-- La clase `ExampleClass` tiene una variable de clase `varia` inicializada con el valor `1`.
-- En el constructor (`__init__`), en lugar de asignar `self.varia = val` (lo que crearía una variable de instancia), se modifica la variable de clase utilizando `ExampleClass.varia = val`. Esto afecta a la variable de clase compartida por todas las instancias.
-
-#### 2. El Diccionario Interno de la Clase (`__dict__`)
-El atributo especial `__dict__` en Python contiene todos los atributos de una clase u objeto, incluidos métodos, variables y otros componentes internos. 
-
-- **Antes de crear una instancia**, cuando imprimimos `ExampleClass.__dict__`, veremos algo como:
-  ```python
-  {'varia': 1, '__module__': '__main__', '__init__': <function ExampleClass.__init__>, ...}
-  ```
+* La clase `ExampleClass` tiene una variable de clase `varia` inicializada con el valor `1`.
+* En el constructor (`__init__`), en lugar de asignar `self.varia = val` (lo que crearía una variable de instancia), se modifica la variable de clase utilizando `ExampleClass.varia = val`. Esto afecta a la variable de clase compartida por todas las instancias.
+* **Antes de crear una instancia**, cuando imprimimos `ExampleClass.__dict__`, veremos algo como:
+    ```
+    {'varia': 1, '__module__': '__main__', '__init__': <function ExampleClass.__init__>, ...}
+    ```
   Aquí `varia` tiene su valor inicial `1`.
 
-- **Después de crear una instancia**, se actualiza `ExampleClass.varia` al valor pasado al constructor, en este caso `2`. Si volvemos a imprimir `ExampleClass.__dict__`, veremos:
-  ```python
-  {'varia': 2, '__module__': '__main__', '__init__': <function ExampleClass.__init__>, ...}
+* **Después de crear una instancia**, se actualiza `ExampleClass.varia` al valor pasado al constructor, en este caso `2`. Si volvemos a imprimir `ExampleClass.__dict__`, veremos:
+    ```
+    {'varia': 2, '__module__': '__main__', '__init__': <function ExampleClass.__init__>, ...}
+    ```
+* El diccionario `__dict__` de un objeto contiene solo sus atributos específicos de instancia. En este caso, como no hemos definido ninguna variable de instancia en `example_object`, su `__dict__` estará vacío:
+
+  ```
+  {}
   ```
 
-#### 3. El Diccionario del Objeto (`__dict__`)
-El diccionario `__dict__` de un objeto contiene solo sus atributos específicos de instancia. En este caso, como no hemos definido ninguna variable de instancia en `example_object`, su `__dict__` estará vacío:
-
-```python
-{}
-```
-
-### Clave para Recordar
-
 Es importante notar la diferencia entre estos dos conceptos:
-- **Variables de clase**: Son compartidas por todas las instancias de la clase y se almacenan en el diccionario de la clase.
-- **Variables de instancia**: Son propias de cada objeto y se almacenan en el diccionario del objeto.
+* **Variables de clase**: Son compartidas por todas las instancias de la clase y se almacenan en el diccionario de la clase.
+* **Variables de instancia**: Son propias de cada objeto y se almacenan en el diccionario del objeto.
 
 El código asigna el valor de `varia` directamente a la clase, lo que afecta a todas las instancias. Si hubiéramos usado `self.varia`, habríamos creado una nueva variable específica para cada instancia.
 
-### Conclusión
-
-Este ejemplo demuestra cómo las variables de clase pueden existir y ser manipuladas incluso sin instanciar objetos, y cómo la estructura de los diccionarios `__dict__` refleja los cambios. Modificar las variables de clase a través de la clase afecta a todas las instancias, mientras que las variables de instancia son independientes para cada objeto.

@@ -67,11 +67,11 @@
     * [LABORATORIO: Colas alias FIFO](contenido/seccion08/clase8.md)
     * [LABORATORIO: Colas alias FIFO: parte 2](contenido/seccion08/clase9.md)
 9. Propiedades y métodos
-    * propiedades de instancia
-    * propiedades de clase
+    * Propiedades de instancia
+    * Propiedades de clase
     * Comprobando la existencia de una propiedad
-    * Métodos estáticos
-    * propiedades comunes en clases y objetos
+    * Métodos de instancia
+    * Propiedades comunes en clases y objetos
     * Explorando las clases y objetos
     * LABORATORIO: La clase Timer
     * LABORATORIO: Días de la semana
