@@ -67,16 +67,16 @@
     * [LABORATORIO: Colas alias FIFO](contenido/seccion08/clase8.md)
     * [LABORATORIO: Colas alias FIFO: parte 2](contenido/seccion08/clase9.md)
 9. Propiedades y métodos
-    * Propiedades de instancia
-    * Propiedades de clase
-    * Comprobando la existencia de una propiedad
-    * Métodos de instancia
-    * Propiedades comunes en clases y objetos
-    * Explorando y modificando las clases y objetos
-    * LABORATORIO: La clase Timer
-    * LABORATORIO: Días de la semana
-    * LABORATORIO: Puntos en un plano
-    * LABORATORIO: Triángulo
+    * [Propiedades de instancia](contenido/seccion09/clase1.md)
+    * [Propiedades de clase](contenido/seccion09/clase2.md)
+    * [Comprobando la existencia de una propiedad](contenido/seccion09/clase3.md)
+    * [Métodos de instancia](contenido/seccion09/clase4.md)
+    * [Propiedades comunes en clases y objetos](contenido/seccion09/clase5.md)
+    * [Explorando y modificando las clases y objetos](contenido/seccion09/clase6.md)
+    * [LABORATORIO: La clase Timer](contenido/seccion09/clase7.md)
+    * [LABORATORIO: Días de la semana](contenido/seccion09/clase8.md)
+    * [LABORATORIO: Puntos en un plano](contenido/seccion09/clase9.md)
+    * [LABORATORIO: Triángulo](contenido/seccion09/clase10.md)
 10. Herencia de clases
     * Representación de los objetos
     * Herencia de clases en Python

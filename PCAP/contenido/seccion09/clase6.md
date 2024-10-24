@@ -76,7 +76,54 @@ Las funciones `getattr()` y `setattr()` son fundamentales para manipular objetos
 * `getattr(obj, name)` permite acceder a un atributo de un objeto por su nombre, que puede ser una cadena.
 * `setattr(obj, name, value)` permite cambiar el valor de un atributo dado su nombre y el nuevo valor.
 
-### Conclusión
+## Cuestionario
 
-Este código muestra cómo las poderosas características de reflexión e introspección en Python permiten manipular objetos de manera dinámica. Aunque el ejemplo parece simple, estas técnicas son increíblemente útiles para construir sistemas más complejos, como frameworks, bibliotecas y herramientas de desarrollo que requieren gran flexibilidad. ¡Todo es posible cuando puedes explorar y modificar el mundo de las clases y objetos en Python!
+1. La declaración de la clase `Snake` se muestra a continuación. Enriquece la clase con un método llamado `increment()`, el cual incrementa en 1 la propiedad `victims`.
+    ```
+    class Snake:
+        def __init__(self):
+            self.victims = 0
+    ```
 
+2. Redefine el constructor de la clase `Snake` para que tenga un parámetro que inicialice el campo `victims` con un valor pasado al objeto durante la construcción.
+
+
+3. ¿Puedes predecir el resultado del siguiente código?
+    ```
+    class Snake:
+        pass
+
+
+    class Python(Snake):
+        pass
+
+
+    print(Python.__name__, 'es una', Snake.__name__)
+    print(Python.__bases__[0].__name__, 'puede ser una', Python.__name__)
+    ```
+
+## Solución cuestionario
+
+1. Pregunta 1
+    ```
+    class Snake:
+        def __init__(self):
+            self.victims = 0
+
+        def increment(self):
+            self.victims += 1
+    ```
+
+2. Pregunta 2
+    ```
+    class Snake:
+        def __init__(self, victims):
+            self.victims = victims	
+
+    ```
+3. Pregunta 3
+
+    ```
+    Python es una Snake
+    Snake puede ser una Python
+    ```
