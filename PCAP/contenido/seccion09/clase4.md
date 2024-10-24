@@ -100,3 +100,44 @@ print(obj_1.var)  # Imprime el valor de la variable de instancia
 * Cuando se crea un objeto con la sintaxis `obj_1 = Classy("objeto")`, Python automáticamente llama al método `__init__` para inicializar el objeto `obj_1`. En este caso, el valor `"objeto"` es pasado como argumento al constructor, que lo asigna a la variable de instancia `self.var`.
 * No es posible invocar directamente el método `__init__` desde un objeto. Este método se llama solo al momento de la creación del objeto. Sin embargo, puedes invocar el constructor de una superclase cuando estás trabajando con herencia (este tema será tratado en detalle más adelante).
 
+## Métodos con valores por defecto
+
+Como __init__ es un método, y un método es una función, puedes hacer los mismos trucos con constructores y métodos que con las funciones ordinarias. 
+Por ejemplo podemos tener parámetros con valores por defecto:
+
+```
+class Classy:
+    def __init__(self, value = None):
+        self.var = value
+
+
+obj_1 = Classy("objeto")
+obj_2 = Classy()
+
+print(obj_1.var)
+print(obj_2.var)
+```
+
+## Métodos ocultos
+
+Podemos tener métodos ocultos un método, para ello su nombre debe comenzar con `__`. El ejemplo muestra este efecto:
+
+```
+class Classy:
+    def visible(self):
+        print("visible")
+    
+    def __hidden(self):
+        print("oculto")
+
+
+obj = Classy()
+obj.visible()
+
+try:
+    obj.__hidden()
+except:
+    print("fallido")
+
+obj._Classy__hidden()
+```
