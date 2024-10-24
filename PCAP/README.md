@@ -92,7 +92,7 @@
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
 12. Generadores, iteradores y cierres
-    * Introducción a lso generadores
+    * Introducción a los generadores
     * La instrucción yield
     * Creando generadores
     * Repaso de listas por compresión
