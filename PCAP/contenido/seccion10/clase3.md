@@ -7,7 +7,7 @@ isinstance(objectName, ClassName)
 ```
 
 * `objectName`: El objeto que se está evaluando.
-*  `ClassName`: La clase que se considera como posible tipo del objeto.
+* `ClassName`: La clase que se considera como posible tipo del objeto.
 
 La función devuelve `True` si `objectName` es una instancia de `ClassName` o de una de sus subclases, y `False` en caso contrario.
 

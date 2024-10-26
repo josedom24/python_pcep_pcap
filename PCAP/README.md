@@ -79,12 +79,15 @@
     * [LABORATORIO: Puntos en un plano](contenido/seccion09/clase10.md)
     * [LABORATORIO: Triángulo](contenido/seccion09/clase11.md)
 10. Herencia de clases
-    * Herencia de clases en Python
-    * Relación entre superclase y subclase
-    * Relación entre objetos y clases
-    * Trabajando con propiedades y métodos heredados
-    * Cómo construir una jerarquía de clases
-    * Herencia simple frente a herencia múltiple
+    * [Herencia de clases en Python](contenido/seccion10/clase1.md)
+    * [Relación entre superclase y subclase](contenido/seccion10/clase2.md)
+    * [Relación entre objetos y clases](contenido/seccion10/clase3.md)
+    * [Trabajando con propiedades y métodos heredados](contenido/seccion10/clase4.md)
+    * [Herencia múltiple](contenido/seccion10/clase5.md)
+    * [Polimorfismo](contenido/seccion10/clase6.md)
+    * [Cómo construir una jerarquía de clases](contenido/seccion10/clase7.md)
+    * [Composición](contenido/seccion10/clase8.md)
+    * [Herencia simple frente a herencia múltiple](contenido/seccion10/clase9.md)
 11. Las excepciones en profundidad
     * Las excepciones son clases
     * La jerarquía de clases de las excepciones
