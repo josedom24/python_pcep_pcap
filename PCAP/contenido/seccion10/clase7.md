@@ -71,3 +71,4 @@ class WheeledVehicle(Vehicle):
 La ventaja más importante es que esta forma de código te permite implementar un nuevo algoritmo de giro simplemente modificando el método `turn()`, lo cual se puede hacer en un solo lugar, ya que todos los vehículos lo obedecerán.
 
 Así es como el el **poliformismo** ayuda al desarrollador a mantener el código limpio y consistente.
+
