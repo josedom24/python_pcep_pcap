@@ -89,9 +89,9 @@
     * [Composición](contenido/seccion10/clase8.md)
     * [Herencia simple frente a herencia múltiple](contenido/seccion10/clase9.md)
 11. Las excepciones en profundidad
-    * Las excepciones son clases
-    * La jerarquía de clases de las excepciones
-    * Creación de nuevas excepciones
+    * [El bloque else y finally en las excepciones](contenido/seccion11/clase1.md)
+    * [Las excepciones son clases](contenido/seccion11/clase2.md)
+    * [Creación de nuevas excepciones](contenido/seccion11/clase3.md)
     * Test intermedio: comprueba lo que has aprendido
     * Prueba intermedia
 12. Generadores, iteradores y cierres
