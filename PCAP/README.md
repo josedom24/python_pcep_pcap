@@ -92,8 +92,8 @@
     * [El bloque else y finally en las excepciones](contenido/seccion11/clase1.md)
     * [Las excepciones son clases](contenido/seccion11/clase2.md)
     * [Creación de nuevas excepciones](contenido/seccion11/clase3.md)
-    * Test intermedio: comprueba lo que has aprendido
-    * Prueba intermedia
+    * [Test intermedio: comprueba lo que has aprendido](contenido/seccion11/test.md)
+    * [Prueba intermedia](contenido/seccion11/prueba.md)
 12. Generadores, iteradores y cierres
     * Introducción a los generadores
     * La instrucción yield
