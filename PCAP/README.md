@@ -102,20 +102,17 @@
     * [La función lambda](contenido/seccion12/clase5.md)
     * [Usos de funciones lambdas](contenido/seccion12/clase6.md)
     * [Introducción a los cierres](contenido/seccion12/clase7.md)
-13. Trabajando con ficheros
-    * Nombre de archivos
-    * Introducción al trabajo con archivos
-    * Manejo de archivos
-    * Modos de trabajar con archivos
-    * Abriendo y cerrando los archivos
-    * Procesamiento de archivos de texto
-    * Lectura de archivos de texto
-    * Escritura de archivos de texto
-    * Trabajando con archivos binarios
-    * Ejemplo: como copiar archivos
-    * LABORATORIO: Histograma de frecuencia de caracteres
-    * LABORATORIO: Histograma de frecuencia de caracteres ordenado
-    * LABORATORIO: Evaluando los resultados de los estudiantes
+13. Trabajando con archivos
+    * [Trabajando con archivos](contenido/seccion13/clase1.md)
+    * [Manejo de archivos](contenido/seccion13/clase2.md)
+    * [Abriendo y cerrando los archivos](contenido/seccion13/clase3.md)
+    * [Lectura de archivos de texto](contenido/seccion13/clase4.md)
+    * [Escritura en archivos de texto](contenido/seccion13/clase5.md)
+    * [Trabajando con archivos binarios](contenido/seccion13/clase6.md)
+    * [Ejemplo: como copiar archivos](contenido/seccion13/clase7.md)
+    * [LABORATORIO: Histograma de frecuencia de caracteres](contenido/seccion13/clase8.md)
+    * [LABORATORIO: Histograma de frecuencia de caracteres ordenado](contenido/seccion13/clase9.md)
+    * [LABORATORIO: Evaluando los resultados de los estudiantes](contenido/seccion13/clase10.md)
 14. Módulos de sistema: os, datetime, calendar
     * El módulo os
     * LABORATORIO: El módulo os
