@@ -21,12 +21,10 @@ print(fun())
 * Definimos las funciones:
    * `outer(par)`: Esta es una función que toma un argumento `par` y define una variable local `loc` igual a `par`.
    * `inner()`: Esta es una función interna definida dentro de `outer()`, que puede acceder a la variable `loc`.
-
-2. La función externa devuelve la función interna:
+* La función externa devuelve la función interna:
    * `outer(var)` se invoca con `var = 1`. Esto significa que `loc` dentro de `outer()` se convierte en `1`.
    * `outer()` devuelve la función `inner()`, que se asigna a la variable `fun`.
-
-3. Usamos el cierre: cuando se llama a `fun()`, se ejecuta `inner()`, que devuelve el valor de `loc`. A pesar de que `outer()` ya ha finalizado su ejecución, `inner()` todavía tiene acceso a `loc` debido a que es un cierre.
+* Usamos el cierre: cuando se llama a `fun()`, se ejecuta `inner()`, que devuelve el valor de `loc`. A pesar de que `outer()` ya ha finalizado su ejecución, `inner()` todavía tiene acceso a `loc` debido a que es un cierre.
 
 Los cierres son una poderosa herramienta para crear funciones más flexibles y mantener un estado entre llamadas a funciones sin tener que recurrir a variables globales.
 
