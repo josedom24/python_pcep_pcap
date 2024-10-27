@@ -104,15 +104,15 @@
     * [Introducción a los cierres](contenido/seccion12/clase7.md)
 13. Trabajando con ficheros
     * Nombre de archivos
-    * Introducción al trabajo con ficheros
+    * Introducción al trabajo con archivos
     * Manejo de archivos
-    * Modos de trabajar con ficheros
-    * Abriendo y cerrando los ficheros
+    * Modos de trabajar con archivos
+    * Abriendo y cerrando los archivos
     * Procesamiento de archivos de texto
-    * Lectura de ficheros de texto
-    * Escritura de ficheros de texto
-    * Trabajando con ficheros binarios
-    * Ejemplo: como copiar ficheros
+    * Lectura de archivos de texto
+    * Escritura de archivos de texto
+    * Trabajando con archivos binarios
+    * Ejemplo: como copiar archivos
     * LABORATORIO: Histograma de frecuencia de caracteres
     * LABORATORIO: Histograma de frecuencia de caracteres ordenado
     * LABORATORIO: Evaluando los resultados de los estudiantes
