@@ -95,12 +95,12 @@
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion11/test.md)
     * [Prueba intermedia](contenido/seccion11/prueba.md)
 12. Generadores, iteradores y cierres
-    * Introducción a los generadores
+    * Generadores e iteradores
     * La instrucción yield
     * Creando generadores
     * Repaso de listas por compresión
     * La función lambda
-    * Las funciones map(), filter()
+    * Usos de funciones lambdas
     * Introducción a los cierres
 13. Trabajando con ficheros
     * Nombre de archivos
