@@ -60,3 +60,39 @@ destination_file.close()
 * Se cierran ambos archivos después de completar la operación.
 * Se mantiene un contador de los bytes escritos, que se imprime al final.
 
+## Cuestionario
+
+1. ¿Qué se espera del método `readlines()` cuando el stream está asociado con un archivo vacío?
+
+2. ¿Qué se pretende hacer con el siguiente código?
+    ```
+    for line in open("file", "rt"):
+        for char in line:
+            if char.lower() not in "aeiouy ":
+                print(char, end='')
+    ```
+3. Vas a procesar un mapa de bits almacenado en un archivo llamado `image.png` y quieres leer su contenido como un todo en una variable bytearray llamada image. Agrega una línea al siguiente código para lograr este objetivo.
+    ```
+    try:
+        stream = open("image.png", "rb")
+        # Inserta una línea aquí.
+        stream.close()
+    except IOError:
+        print("fallido")
+    else:
+        print("exitoso")
+    ```
+
+## Solución cuestionario
+
+1. Ejercicio 1
+
+    Una lista vacía (una lista de longitud cero).
+
+2. Ejercicio 2
+
+    Copia el contenido del archivo `file` hacia la consola, ignorando las vocales.
+
+3. Ejercicio 3
+
+    `image = bytearray(stream.read())`

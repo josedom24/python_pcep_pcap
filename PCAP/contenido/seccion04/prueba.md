@@ -93,7 +93,7 @@
 12. El conjunto de caracteres escrito como `#!` se emplea para:
 
     * Decirle a un sistema operativo MS Windows cómo ejecutar el contenido de un archivo Python
-    * Decirle a un sistema operativo Unix o similar a Unix cómo ejecutar el contenido de un archivo Python
+    * Decirle a un sistema operativo Unix (como Linux) cómo ejecutar el contenido de un archivo Python
     * Hacer que una entidad de módulo en particular sea privada
     * Crear un docstring (cadena de documentación)
 

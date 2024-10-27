@@ -118,6 +118,7 @@
     * LABORATORIO: El módulo os
     * El módulo datetime
     * El módulo time
+    * El módulo datetime en profundidad
     * LABORATORIO: Los módulos datetime y time
     * El módulo calendar
     * LABORATORIO: El módulo calendar

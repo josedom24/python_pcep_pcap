@@ -78,7 +78,7 @@ if __name__ == "__main__":
     print(prodl(my_list) == 120)
 ```
 
-* La línea `#!/usr/bin/env python3` indica al sistema operativo qué programa debe usar para ejecutar el archivo (importante en sistemas Unix).
+* La línea `#!/usr/bin/env python3` indica al sistema operativo qué programa debe usar para ejecutar el archivo (importante en sistemas Linux).
 * El doc-string (`""" module.py - Un ejemplo de un módulo en Python """`) proporciona una breve descripción del módulo.
 * Las funciones `suml()` y `prodl()` están disponibles para ser importadas y cuentan cuántas veces son llamadas mediante la variable `__counter`.
 * La variable `__name__` se usa para ejecutar pruebas si el archivo es ejecutado directamente.
