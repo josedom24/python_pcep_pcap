@@ -59,7 +59,7 @@ Python nos ofrece una solución más clara y eficiente mediante la función inco
 
 Veamos el mismo ejemplo con `hasattr()`:
 
-```python
+```
 class ExampleClass:
     def __init__(self, val):
         if val % 2 != 0:

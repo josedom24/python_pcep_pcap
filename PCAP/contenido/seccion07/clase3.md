@@ -109,7 +109,7 @@ Por lo tanto hay que tener en cuenta que:
 
 Cuando deseas manejar más de una excepción de la misma manera, puedes usar la siguiente sintaxis:
 
-```python
+```
 try:
     # Código que puede fallar
 except (exc1, exc2):

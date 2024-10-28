@@ -10,7 +10,7 @@ El módulo `random` de Python ofrece varias funciones para generar números pseu
 
 Esta función genera un número flotante en el rango (0.0, 1.0). Por ejemplo, el siguiente código produce cinco números pseudoaleatorios:
 
-```python
+```
 from random import random
 
 for i in range(5):
@@ -68,7 +68,7 @@ Estas funciones son útiles para obtener valores enteros aleatorios.
 
 El siguiente código genera una secuencia de tres ceros, seguida de un cero o uno en el cuarto lugar:
 
-```python
+```
 from random import randrange
 
 for i in range(3):

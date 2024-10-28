@@ -71,7 +71,7 @@ Analizando el código:
 
 La salida esperada es:
 
-```python
+```
 {'_ExampleClass__first': 1} 3
 {'_ExampleClass__first': 2} 3
 {'_ExampleClass__first': 4} 3

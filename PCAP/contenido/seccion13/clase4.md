@@ -107,7 +107,7 @@ En esta sección, aprenderemos a utilizar el método `readline()` para manejar a
 
 Aquí tienes el código que abrirá el archivo `text.txt`, leerá cada línea, imprimirá su contenido y contará tanto los caracteres como las líneas leídas:
 
-```python
+```
 from os import strerror
 
 try:

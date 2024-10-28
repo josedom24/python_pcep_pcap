@@ -86,7 +86,7 @@ Podemos observar que las variables `__first` y `__second` han sido transformadas
 
 Aunque se pueden considerar privadas, estas variables aún son accesibles desde fuera de la clase utilizando su nombre "mangled". Por ejemplo, puedes acceder a `__first` así:
 
-```python
+```
 print(example_object_1._ExampleClass__first)  # Salida: 1
 ```
 

@@ -30,7 +30,7 @@ Para ofrecer una representación más clara y útil de los objetos, Python propo
 
 Podemos implementar estos métodos en nuestra clase `Star` para que proporcione una salida más informativa:
 
-```python
+```
 class Star:
     def __init__(self, name, galaxy):
         self.name = name

@@ -114,16 +114,18 @@
     * [LABORATORIO: Histograma de frecuencia de caracteres ordenado](contenido/seccion13/clase9.md)
     * [LABORATORIO: Evaluando los resultados de los estudiantes](contenido/seccion13/clase10.md)
 14. Módulos de sistema: os, datetime, calendar
-    * El módulo os
-    * LABORATORIO: El módulo os
-    * El módulo datetime
-    * El módulo time
-    * El módulo datetime en profundidad
-    * LABORATORIO: Los módulos datetime y time
-    * El módulo calendar
-    * LABORATORIO: El módulo calendar
-    * Test intermedio: comprueba lo que has aprendido
-    * Prueba intermedia
+    * [El módulo os](contenido/seccion14/clase1.md)
+    * [LABORATORIO: El módulo os](contenido/seccion14/clase2.md)
+    * [El módulo datetime](contenido/seccion14/clase3.md)
+    * [El módulo time](contenido/seccion14/clase4.md)
+    * [El módulo datetime en profundidad](contenido/seccion14/clase5.md)
+    * [Operaciones con fechas y horas](contenido/seccion14/clase6.md)
+    * [LABORATORIO: Los módulos datetime y time](contenido/seccion14/clase7.md)
+    * [El módulo calendar](contenido/seccion14/clase8.md)
+    * [Clases para crear calendarios](contenido/seccion14/clase9.md)
+    * [LABORATORIO: El módulo calendar](contenido/seccion14/clase10.md)
+    * [Test intermedio: comprueba lo que has aprendido](contenido/seccion14/test.md)
+    * [Prueba intermedia](contenido/seccion14/prueba.md)
 15. Prueba final
     * Prueba Final 1
     * Prueba Final 2

@@ -64,7 +64,7 @@ El operador `is` compara dos variables y devuelve `True` si ambas se refieren al
 
 Veamos el siguiente ejemplo:
 
-```python
+```
 class SampleClass:
     def __init__(self, val):
         self.val = val

@@ -4,7 +4,7 @@ Las **listas por comprensión** son una característica poderosa y elegante en P
 
 En el primer ejemplo, usamos un bucle `for` tradicional para generar una lista de potencias de 10:
 
-```python
+```
 list_1 = []
 
 for ex in range(6):
@@ -15,7 +15,7 @@ print(list_1)
 
 La misma lista se puede generar con una **lista por comprensión** de manera mucho más compacta:
 
-```python
+```
 list_2 = [10 ** ex for ex in range(6)]
 print(list_2)
 ```
