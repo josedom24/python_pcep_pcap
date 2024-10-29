@@ -1,4 +1,6 @@
- 1. ¿Qué palabra clave reservada usarías para definir una función anónima?
+# Prueba intermedia
+
+1. ¿Qué palabra clave reservada usarías para definir una función anónima?
 
     * [ ] `lambda`
     * [ ] `afun`
@@ -12,7 +14,7 @@
     * [ ] La función lambda puede aceptar un máximo de dos argumentos
     * [ ] La función lambda puede aceptar cualquier número de argumentos
 
- 3. Observa el código a continuación:
+3. Observa el código a continuación:
 
     ```
     my_list = [1, 2, 3]
@@ -31,7 +33,7 @@
     * [ ] `foo = tuple(map(lambda x: x**x, my_list))`
     * [ ] `foo = list(map(lambda x: x**x, my_list))`
 
- 4. Observa el código a continuación:
+4. Observa el código a continuación:
 
     ```
     my_tuple = (0, 1, 2, 3, 4, 5, 6)
@@ -50,7 +52,7 @@
     * [ ] `foo = list(filter(lambda x==0 and x==1, my_tuple))`
     * [ ] `foo = list(filter(lambda x*0 and x*1, my_tuple))`
 
- 5. ¿Cuál es el resultado esperado de ejecutar el siguiente código?
+5. ¿Cuál es el resultado esperado de ejecutar el siguiente código?
 
     ```
     def I():
@@ -67,7 +69,7 @@
     * [ ] Imprimirá `abcdef`
     * [ ] Imprimirá una línea vacía.
 
- 6. ¿Cuál es el resultado esperado al ejecutar el siguiente código?
+6. ¿Cuál es el resultado esperado al ejecutar el siguiente código?
 
     ```
     def fun(n):
@@ -85,7 +87,7 @@
     * [ ] Imprimirá ++
     * [ ] Imprimirá +
 
- 7. ¿Cuál es el resultado esperado de ejecutar el siguiente código?
+7. ¿Cuál es el resultado esperado de ejecutar el siguiente código?
 
     ```
     def o(p):
@@ -103,21 +105,20 @@
     * [ ] Imprimirá ****
     * [ ] Imprimirá ***
 
- 8. ¿Cuáles de los siguientes modos de apertura te permiten realizar operaciones de lectura? (Selecciona dos respuestas)
+8. ¿Cuáles de los siguientes modos de apertura te permiten realizar operaciones de lectura? (Selecciona dos respuestas)
 
     * [ ] `w`
     * [ ] `a`
     * [ ] `r+`
     * [ ] `r`
-
- 9. ¿Cuál es el significado del valor representado por `errno.EEXIST`?
+9. ¿Cuál es el significado del valor representado por `errno.EEXIST`?
 
     * [ ] Número de archivo incorrecto
     * [ ] Archivo existente
     * [ ] Permiso denegado
     * [ ] Archivo inexistente
 
- 10. ¿Cuál es el resultado esperado del siguiente código?
+10. ¿Cuál es el resultado esperado del siguiente código?
 
     ```
     b = bytearray(3)
@@ -129,7 +130,7 @@
     * [ ] `bytearray(b'\x00\x00\x00')`
     * [ ] `bytearray(b'3')`
 
- 11. ¿Cuál es el resultado esperado del siguiente código?
+11. ¿Cuál es el resultado esperado del siguiente código?
 
     ```
     import os
@@ -149,7 +150,7 @@
     * [ ] Imprimirá la ruta al directorio `thumbnails`
     * [ ] Imprimirá la ruta al directorio `pictures`
 
- 12. ¿Cuál es el resultado esperado del siguiente código?
+12. ¿Cuál es el resultado esperado del siguiente código?
 
     ```
     import os
@@ -170,7 +171,7 @@
     * [ ] `['.', '..', 'large', 'small', 'medium']`
     * [ ] `['large', 'small', 'medium']`
 
- 13. ¿Cuál es el resultado esperado del siguiente código?
+13. ¿Cuál es el resultado esperado del siguiente código?
 
     ```
     from datetime import date
@@ -186,7 +187,7 @@
     * [ ] 345, 0:00:00
     * [ ] 345
 
- 14. ¿Cuál es el resultado esperado del siguiente código?
+14. ¿Cuál es el resultado esperado del siguiente código?
 
     ```
     from datetime import datetime
@@ -200,7 +201,7 @@
     * [ ] `2019/11/27 11:27:22`
     * [ ] `19/11/27 11:27:22`
 
- 15. ¿Qué programa producirá la siguiente salida?:
+15. ¿Qué programa producirá la siguiente salida?:
 
     ```text
     Mo Tu We Th Fr Sa Su
@@ -239,7 +240,7 @@
     * [ ] D
     * [ ] C
 
- 16. ¿Cuál es el resultado esperado del siguiente código?
+16. ¿Cuál es el resultado esperado del siguiente código?
 
     ```
     import calendar
