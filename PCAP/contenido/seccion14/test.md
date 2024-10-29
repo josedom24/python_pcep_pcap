@@ -14,7 +14,7 @@
       2
       ```
     * `SyntaxError`
-    * `generator object my_fun at` alg\u00fan número hexadecimal
+    * `generator object my_fun at` algún número hexadecimal
 
 2. ¿Cual es el resultado esperado del siguiente código?
     ```
