@@ -126,7 +126,7 @@
     * [LABORATORIO: El módulo calendar](contenido/seccion14/clase10.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion14/test.md)
     * [Prueba intermedia](contenido/seccion14/prueba.md)
-15. Prueba final
-    * Prueba Final 1
-    * Prueba Final 2
+15. Prueba Final
+    * [Prueba Final 1](contenido/seccion15/prueba1.md)
+    * [Prueba Final 2](contenido/seccion15/prueba2.md)
 
