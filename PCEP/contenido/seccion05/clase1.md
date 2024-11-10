@@ -26,9 +26,8 @@ Comencemos con lo relacionado al nombre de la variable:
     * Las mayúsculas y minúsculas se tratan de forma distinta `Alicia` y `ALICIA` son dos variables distintas.
     * El nombre de las variables no pueden ser igual a alguna de las palabras reservadas de Python. 
         * Las **palabras clave** o  **palabras reservadas** corresponde a las distintas instrucciones que podemos usar en Python. Algunas de ellas son:
-             ```
-            ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise',                   'return', 'try', 'while', 'with', 'yield']
-             ```
+            ['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+             
 * Los nombres de las variables deben mejorar la claridad del código indicando que dato se guarda en dicha variable.
 
 La guía de estilo para código python (**PEP 8, Style Guide for Python Code**) recomienda la siguiente convención de nomenclatura para variables y funciones en Python:
