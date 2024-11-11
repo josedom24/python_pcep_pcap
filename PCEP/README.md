@@ -48,7 +48,7 @@
     * [Operadores de comparación (P)](contenido/seccion07/clase1.md)
     * [LABORATORIO ‒ Preguntas y Respuestas](contenido/seccion07/clase2.md)
     * [Estructuras alternativas](contenido/seccion07/clase3.md)
-    * [Ejemplos de estructuras alternativas](contenido/seccion07/clase4.md)
+    * [Ejemplos de estructuras alternativas (P)](contenido/seccion07/clase4.md)
     * [LABORATORIO - Operadores de comparación y ejecución condicional](contenido/seccion07/clase5.md)
     * [LABORATORIO - Fundamentos de la instrucción if-else](contenido/seccion07/clase6.md)
     * [LABORATORIO - Fundamentos de la instrucción if-elif-else](contenido/seccion07/clase7.md)
