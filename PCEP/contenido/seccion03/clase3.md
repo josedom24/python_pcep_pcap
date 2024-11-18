@@ -101,6 +101,16 @@ Existe un literal especial más utilizado en Python: el literal `None`. Este lit
     1011
     ```
 
+4. ¿Cuál de las siguientes `print()` invocaciones de función generarán un SyntaxError?
+
+    ```
+    print('Greg\'s book.')
+    print("'Greg's book.'")
+    print('"Greg\'s book."')
+    print("Greg\'s book.")
+    print('"Greg's book."')
+    ```
+
 ## Solución cuestionario
 
 1. Pregunta 1:
@@ -114,3 +124,7 @@ Existe un literal especial más utilizado en Python: el literal `None`. Este lit
 3. Pregunta 3:
 
     Es 11, porque (2<sup>0</sup>) + (2<sup>1</sup>) + (2<sup>3</sup>) = 11
+
+4. Pregunta 4:
+
+    La línea 5 generará un `SyntaxError`, porque el símbolo `'` en la cadena `Greg's book.` requiere un carácter de escape.

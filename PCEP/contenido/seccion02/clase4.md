@@ -105,15 +105,6 @@ El ejemplo no tiene mucho sentido, pero presenta de forma visible las interaccio
     print(sep="&", "fish", "chips") 
     ```
 
-3. ¿Cuál de las siguientes `print()` invocaciones de función generarán un SyntaxError?
-
-    ```
-    print('Greg\'s book.')
-    print("'Greg's book.'")
-    print('"Greg\'s book."')
-    print("Greg\'s book.")
-    print('"Greg's book."')
-    ```
 
 
 ## Solución cuestionario
@@ -137,6 +128,3 @@ El ejemplo no tiene mucho sentido, pero presenta de forma visible las interaccio
 
     Recuerda: Los argumentos de palabras clave deben pasarse después de cualquier argumento posicional requerido.
 
-3. Pregunta 3:
-
-    La línea 5 generará un `SyntaxError`, porque el símbolo `'` en la cadena `Greg's book.` requiere un carácter de escape.
