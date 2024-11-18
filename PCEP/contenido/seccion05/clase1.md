@@ -38,7 +38,7 @@ La guía de estilo para código python (**PEP 8, Style Guide for Python Code**) 
 
 ## Tipo de datos de una variable
 
-Una variables es un identificador que referencia a un valor. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
+Una variable es un identificador que referencia a un valor. No hay que declarar la variable antes de usarla, el tipo de la variable será el mismo que el del valor al que hace referencia. Por lo tanto su tipo puede cambiar en cualquier momento:
 
 ```bash
 var = 5
