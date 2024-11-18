@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Como seguramente sabrás, debido a algunas razones astronómicas, una año puede ser bisiesto o común. Los primeros tienen una duración de 366 días, mientras que los últimos tienen una duración de 365 días.
+Como seguramente sabrás, debido a algunas razones astronómicas, un año puede ser bisiesto o común. Los primeros tienen una duración de 366 días, mientras que los últimos tienen una duración de 365 días.
 
 Desde la introducción del calendario Gregoriano (en 1582), se utiliza la siguiente regla para determinar el tipo de año:
 
