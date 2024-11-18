@@ -83,8 +83,8 @@
     * [Operadores de pertenencia](contenido/seccion11/clase3.md)
     * [Programas de ejemplo de uso de listas](contenido/seccion11/clase4.md)
     * [LABORATORIO - Operaciones con listas: conceptos básicos](contenido/seccion11/clase5.md)
-    * [Ordenación de una lista por el algoritmo burbuja](contenido/seccion11/clase6.md)
-    * [El ordenamiento burbuja en Python (P)](contenido/seccion11/clase7.md)
+    * [Ordenación de una lista por el algoritmo burbuja (P)](contenido/seccion11/clase6.md)
+    * [El ordenamiento burbuja en Python](contenido/seccion11/clase7.md)
 12. Listas multidimensionales
     * [Compresión de listas](contenido/seccion12/clase1.md)
     * [Listas de dos dimensiones](contenido/seccion12/clase2.md)
