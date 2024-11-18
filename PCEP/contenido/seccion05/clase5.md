@@ -19,31 +19,25 @@ La tarea es completar el código para poder calcular la siguiente expresión:
 
 ![operación](img/operacion.png)
 
-El resultado debe de ser asignado a `y`. Se cauteloso, observa los operadores y priorízalos. Utiliza cuantos paréntesis sean necesarios.
-
-Puedes utilizar variables adicionales para acortar la expresión (sin embargo, no es muy necesario). Prueba tu código cuidadosamente.
+El resultado debe de ser asignado a `y`.
 
 ```
-x = float(input("Ingresa el valor para x: "))
-
-# Escribe tu código aquí.
-
+x =  # codifica aquí tus datos de prueba
+x = float(x)
+# escribe tu código aquí
 print("y =", y)
 ```
 
 ## Datos de Prueba
 
+Entrada de muestra: `0`
+Salida esperada: `y = -1`
+
 Entrada de muestra: `1`
-Salida esperada: `y = 0.6000000000000001`
+Salida esperada: `y = 3.0`
 
-Entrada de muestra: `10`
-Salida esperada: `y = 0.09901951266867294`
-
-Entrada de muestra: `100`
-Salida esperada: `y = 0.009999000199950014`
-
-Entrada de muestra: `-5`
-Salida esperada: `y = -0.19258202567760344`
+Entrada de muestra: `-1`
+Salida esperada: `y = -9`
 
 
 
