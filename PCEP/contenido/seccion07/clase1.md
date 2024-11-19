@@ -9,7 +9,7 @@ Afortunadamente, los ordenadores solo conocen dos tipos de respuestas:
 * **Si, es cierto.**
 * **No, es falso.**
 
-Nunca obtendrás una respuesta como: *Déjame pensar..., no lo sé*, o probablemente sí, pero no lo sé con seguridad*.
+Nunca obtendrás una respuesta como: *Déjame pensar..., no lo sé, o probablemente sí, pero no lo sé con seguridad*.
 
 Para hacer preguntas, Python utiliza un conjunto de operadores, que llamamos **operadores de comparación**.
 
