@@ -40,7 +40,7 @@
     * [Operadores de cadena](contenido/seccion06/clase3.md)
     * [LABORATORIO - Entradas y salidas simples](contenido/seccion06/clase4.md)
     * [LABORATORIO - Operadores y expresiones](contenido/seccion06/clase5.md)
-    * [LABORATORIO - Operadores y expresiones (2ª parte)](contenido/seccion06/clase6.md)
+    * [LABORATORIO - Cálculo de hora](contenido/seccion06/clase6.md)
     * [LABORATORIO - Ejercicios estructura secuencial](contenido/seccion06/clase7.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion06/test.md)
     * [Prueba intermedia](contenido/seccion06/prueba.md)
