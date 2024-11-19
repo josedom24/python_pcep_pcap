@@ -47,7 +47,7 @@ for letra in palabra_usuario:
 ## Datos de Prueba
 
 * Entrada de muestra: `Gregory`
-    *Salida esperada:
+    * Salida esperada:
 
     ```
     G
