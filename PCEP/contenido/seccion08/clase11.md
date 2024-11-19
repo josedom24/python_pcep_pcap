@@ -17,7 +17,7 @@ Intermedio
 ### Ejercicio 1
 
 * Realizar una algoritmo que muestre la tabla de multiplicar de un número introducido por teclado.
-* Modifica el programa anterior para que no pida el número por teclado, sino que muestre las tablas de multiplicas de los 5 primeros números.
+* Modifica el programa anterior para que no pida el número por teclado, sino que muestre las tablas de multiplicar de los 5 primeros números.
 
 ### Ejercicio 2
 
