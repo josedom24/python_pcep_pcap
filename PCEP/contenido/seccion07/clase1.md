@@ -85,13 +85,13 @@ El operador `!=` (no es igual a) también compara los valores de dos operandos. 
 
 Ahora echa un vistazo a la comparación de desigualdad a continuación: ¿Puedes adivinar el resultado de esta operación?
 
-    ```
-    var = 0 # asignando 0 a var
-    print(var != 0)
+```
+var = 0 # asignando 0 a var
+print(var != 0)
 
-    var = 1 # asignando 1 a var
-    print(var != 0)
-    ```
+var = 1 # asignando 1 a var
+print(var != 0)
+```
 
 Ejecuta el código y comprueba si tenías razón.
 
