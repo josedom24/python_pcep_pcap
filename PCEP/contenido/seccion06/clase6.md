@@ -1,4 +1,4 @@
-# LABORATORIO - Cálculo de hora
+# LABORATORIO - Cálculo de horas
 
 ## Tiempo Estimado
 
