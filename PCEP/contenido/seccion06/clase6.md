@@ -1,4 +1,4 @@
-# LABORATORIO - Operadores y expresiones (2ª parte)
+# LABORATORIO - Cálculo de hora
 
 ## Tiempo Estimado
 
