@@ -21,7 +21,7 @@ En 1937, un matemático alemán llamado Lothar Collatz formuló una hipótesis i
 
 1. Toma cualquier número entero que no sea negativo y que no sea cero y asígnale el nombre `c0`.
 2. Si es par, evalúa un nuevo `c0` como `c0 / 2`.
-3. De lo contrario, si es impar, evalúe un nuevo  `c0` como ``.
+3. De lo contrario, si es impar, evalúe un nuevo  `c0` como `3 * c0 + 1`.
 4. Si `c0` es distinto a 1, salta al punto 2.
 
 La hipótesis dice que, independientemente del valor inicial de `c0`, el valor siempre tiende a 1.
