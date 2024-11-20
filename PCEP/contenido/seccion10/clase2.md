@@ -2,7 +2,7 @@
 
 ## Accediendo al contenido de la lista
 
-Como hemos visto anteriormente, la **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
+La **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
 
 ```
 print(numeros[0]) # Accediendo al primer elemento de la lista.
