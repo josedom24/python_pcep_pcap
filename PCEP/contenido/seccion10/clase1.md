@@ -48,37 +48,3 @@ Algunas consideraciones:
 * En Python el primer elemento ocupa la posición 0. En nuestro ejemplo el valor `10` ocupa la posición `0`, y el último elemento, el número `1` tendrá la posición `4`.
 * Nuestra lista es una colección de elementos, pero cada elemento es un escalar. 
 
-## Indexando Listas
-
-La **indexación** nos permite obtener o cambiar el valor de un determinado elemento de una lista. Por ejemplo:
-
-```
-numeros = [10, 5, 7, 2, 1]
-print("Contenido de la lista original:", numeros)  # Imprimiendo contenido de la lista original.
-
-numeros[0] = 111
-print("\nPrevio contenido de la lista:", numeros)  # Imprimiendo contenido de la lista anterior.
-
-numeros[1] = numeros[4]  # Copiando el valor del quinto elemento al segundo elemento.
-print("Nuevo contenido de la lista:", numeros)  # Imprimiendo el contenido de la lista actual.
-```
-
-* Para indexar un elemento de la lista indicamos la posición del elemento (**índice**) dentro de los corchetes.
-* Hemos asignado un nuevo valor de 111 al primer elemento en la lista. 
-* Hemos copiado el valor del quinto elemento al segundo elemento. 
-* Para indicar el índice podemos indicar cualquier expresión (literales, variables, operaciones, ...)
-    
-## Indexando los elementos de la lista
-
-Como hemos visto anteriormente, la **indexación** nos permite acceder a los elementos de una lista. Por ejemplo podemos imprimir el primer elemento de la lista:
-
-```
-print(numeros[0]) # Accediendo al primer elemento de la lista.
-```
-
-Y podemos cambiar su valor:
-
-```
-numeros[0] = 20
-print(numeros)
-```
