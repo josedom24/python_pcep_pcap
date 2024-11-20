@@ -18,7 +18,7 @@ Familiarizar al estudiante con:
 
 ## Escenario
 
-Queremos crea una lista de cinco números: 1, 2, 3, 4 y 5.
+Queremos crear una lista de cinco números: 1, 2, 3, 4 y 5.
 
 Tu tarea es:
 
