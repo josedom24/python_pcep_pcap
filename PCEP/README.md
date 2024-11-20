@@ -75,7 +75,7 @@
     * [LABORATORIO - Los fundamentos de las listas](contenido/seccion10/clase3.md)
     * [Introducción a los métodos. Añadir elementos a las listas](contenido/seccion10/clase4.md)
     * [Recorrido de listas](contenido/seccion10/clase5.md)
-    * [Ejemplo de recorrido de listas](contenido/seccion10/clase6.md)
+    * [Intercambiando elementos en las listas](contenido/seccion10/clase6.md)
     * [LABORATORIO - Los fundamentos de las listas: los Beatles](contenido/seccion10/clase7.md)
 11. Operaciones con listas
     * [La listas son mutables](contenido/seccion11/clase1.md)
