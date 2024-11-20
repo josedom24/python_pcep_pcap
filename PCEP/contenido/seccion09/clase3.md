@@ -36,7 +36,7 @@ Es posible que tengas que hacer frente a las siguientes tareas:
 
     Dicha secuencia de ceros y unos, cuya tarea es tomar el valor o cambiar los bits seleccionados, se denomina **máscara de bits**.
 
-    Construyamos una máscara de bits para detectar el estado de tus bits. Debería apuntar a el tercer bit. Ese bit tiene el peso de 2<pre>3</pre>=8. Se podría crear una máscara adecuada mediante la siguiente asignación:
+    Construyamos una máscara de bits para detectar el estado de tus bits. Debería apuntar a el tercer bit. Ese bit tiene el peso de 2<sup>3</sup>=8. Se podría crear una máscara adecuada mediante la siguiente asignación:
 
     ```
     the_mask = 8
