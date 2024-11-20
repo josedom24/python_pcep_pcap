@@ -1,84 +1,57 @@
-# Importación de todas las entidades de un módulo
+# Importación de entidades de un módulo
 
-El tercer método de importación en Python utiliza la siguiente sintaxis:
+En Python también podemos importar una entidad o varias de un módulo. Con este método se especifica exactamente qué entidades de un módulo se desean importar al namespace del código. Este método usa la sintaxis:
+```
+from <modulo> import <entidad>
+```
+La instrucción consta de los siguientes elementos:
+
+* La palabra clave `from`: indica que se va a importar de un módulo.
+* El nombre del módulo: el módulo del que se van a importar las entidades.
+* La palabra clave `import`: señala que se va a importar algo desde el módulo.
+* El nombre o lista de nombres de las entidades: las entidades específicas del módulo que serán importadas.
+
+Con este método conseguimos dos cosas:
+
+* **Importación selectiva**: solo se importan las entidades listadas, no todo el módulo.
+* **Acceso directo**: las entidades importadas se pueden usar directamente en el código sin necesidad de anteponer el nombre del módulo.
+
+## Ejemplo de importación selectiva
 
 ```
-from <modulo> import *
+from math import sin, pi
+
+print(sin(pi/2))
 ```
 
-En este caso, el nombre de una entidad o la lista de entidades es sustituido por un asterisco (*) lo que permite importar todas las entidades del módulo. 
+En este ejemplo, solo se importan `sin` y `pi` del módulo `math`. Esto produce el mismo resultado que el ejemplo anterior, donde se utilizó `math.sin` y `math.pi`. La principal diferencia es que ahora no es necesario usar el prefijo `math.`.
 
-* Se elimina la necesidad de enumerar cada entidad por separado, pero...
-* podemos generar conflictos con nombres ya existentes en el código. Por este motivo, se recomienda usar esta técnica solo de forma temporal y evitarla en código regular.
+Hay que tener en cuenta, que si intentamos entidades no importadas de esta manera (como `math.e`), Python generará un error, ya que solo las entidades específicamente listadas son accesibles.
 
-## Importando un módulo: la palabra clave reservada as
+Este método hace que el código sea más simple visualmente, pero tiene implicaciones más profundas en cómo se gestionan los nombres y el namespace.
 
-Si no se está conforme con el nombre del módulo, se puede utilizar la palabra clave reservada `as` para asignarle un **alias** o nombre alternativo. Este proceso, conocido como **aliasing o renombrado**, permite que el módulo se identifique con un nombre distinto, lo que puede facilitar su uso o evitar conflictos de nombres.
+## Gestión de nombres y namespace
 
-La sintaxis para renombrar un módulo es:
-
-```
-import <modulo> as <alias>
-```
-
-Aquí, <modulo> es el nombre original del módulo, mientras que <alias> es el nombre alternativo que se desea usar.
-
-Vemos un ejemplo: si necesitas cambiar la palabra `math`, puedes indicar un alias de la siguiente manera:
+Veamos cómo las importaciones selectivas de entidades desde un módulo pueden reemplazar definiciones previas dentro del mismo namespace. A continuación, se explica paso a paso el funcionamiento del código:
 
 ```
-import math as m
-print(m.sin(m.pi/2))
+pi = 3.14
+
+def sin(x):
+    if 2 * x == pi:
+        return 0.99999999
+    else:
+        return None
+
+print(sin(pi / 2))
+
+from math import sin, pi
+
+print(sin(pi / 2))
 ```
 
-Hay que tener en cuenta que si asignamos un alias, no podemos usar el nombre original del módulo.
+En resumen:
+* Las primeras líneas definen funciones y variables locales.
+* La importación desde el módulo `math` reemplaza las definiciones previas de `pi` y `sin`, y el resultado de `sin(pi / 2)` cambia a 1.0 en lugar de 0.99999999.
 
-## Alias de entidades de módulos
-
-También podemos asignarle un alias a una entidad del módulo que hemos importado, para ello:
-
-```
-from <modulo> import <entidad> as <alias>
-```
-
-Como anteriormente, el nombre original (sin alias) se vuelve inaccesible.
-
-Podemos importar varias entidades y asignarle un alias, para ello empleamos la coma para la separación, de esta manera:
-
-```
-from <modulo> import <entidad1> as <alias1>, <entidad2> as <alias2>, ...
-```
-
-El ejemplo:
-
-```
-from math import pi as PI, sin as sen
-print(sen(PI/2))
-```
-
-## Cuestionario
-
-1. Quieres invocar la función `make_money()` contenida en el módulo llamado `mint`. Tu código comienza con la siguiente línea: `import mint`. ¿Cuál es la forma adecuada de invocar a la función?
-
-2. Quieres invocar la función `make_money()` contenida en el módulo llamado `mint`. Tu código comienza con la siguiente línea: `from mint import make_money`. ¿Cuál es la forma adecuada de invocar a la función?
-
-3. Has escrito una función llamada `make_money` por tu cuenta. Necesitas importar una función con el mismo nombre del módulo `mint` y no deseas cambiar el nombre de ninguno de tus nombres previamente definidos. ¿Qué variante de la sentencia `import` puede ayudarte con el problema?
-
-4. ¿Qué forma de invocación de la función `make_money` es válida si tu código comienza con la siguiente línea? `from mint import *`
-
-## Solución cuestionario
-
-1. Pregunta 1:
-
-`mint.make_money()`
-
-2. Pregunta 2:
-
-`make_money()`
-
-3. Pregunta 3:
-
-`from mint import make_money as make_more_money`
-
-4. Pregunta 4:
-
-`make_money()`
+Esto muestra cómo las importaciones selectivas pueden reemplazar las definiciones locales en el namespace, afectando el comportamiento del código.

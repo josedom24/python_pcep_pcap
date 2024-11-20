@@ -6,6 +6,8 @@ Cuando se espera que el código sea grande y sea desarrollado por muchos program
 
 En proyectos grandes, se necesita dividir el código en partes que puedan ser trabajadas en paralelo, como la interfaz de usuario y la lógica de procesamiento de datos. La **modularidad** es la solución: el código se divide en **módulos**, que son partes separadas pero cooperantes, permitiendo que varios desarrolladores trabajen en el mismo proyecto sin conflictos y facilitando el mantenimiento y expansión del software.
 
+Un **módulo** en Python es un archivo que contiene código Python y cuyo nombre coincide con el nombre del archivo (sin la extensión .py). Los módulos son una forma de organizar y reutilizar código, ya que permiten agrupar funciones, clases y variables relacionadas en un único lugar. Esto hace que el código sea más modular, legible y fácil de mantener.
+
 ## ¿Cómo hacer uso de un módulo?
 
 Un módulo en Python es un archivo que contiene definiciones y sentencias de Python, el cual puede ser importado y utilizado cuando se necesite. Hay dos aspectos importantes en el manejo de módulos: usuario y proveedor.
