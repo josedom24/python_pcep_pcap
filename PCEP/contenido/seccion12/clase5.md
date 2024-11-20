@@ -29,7 +29,7 @@ Diseñar el algoritmo correspondiente a un programa, que:
 
 ### Ejercicio 3
 
-Queremos guardar la temperatura mínima y máxima de 5 días. # Realiza un programa que de la siguiente información:
+Queremos guardar la temperatura mínima y máxima de 5 días. Realiza un programa que de la siguiente información:
 
 * La temperatura media de cada día.
 * Los días con menos temperatura.
