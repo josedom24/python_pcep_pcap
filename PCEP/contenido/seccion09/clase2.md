@@ -111,7 +111,7 @@ valor1 = 15
 ~ valor1
 ```
 
-Puede ser un poco sorprendente: el valor de `~valor1` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar el sistema de números binarios y las reglas que rigen los números de complemento de dos.
+Puede ser un poco sorprendente: el valor de `~valor1` es -16. Esto puede parecer extraño, pero no lo es en absoluto. Si deseas obtener más información, debes consultar cómo se representan los números binarios negativos usando el modo de resprentación complemento de dos.
 
 ```
 valor1:	  00000000000000000000000000001111
