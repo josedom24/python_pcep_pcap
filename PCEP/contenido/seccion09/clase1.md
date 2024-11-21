@@ -35,7 +35,7 @@ Si consideramos la conjunción de `A and B`, el conjunto de valores posibles de 
 
 Un operador de disyunción es la palabra `or`. Es un operador binario con una prioridad más baja que `and`. Su tabla de verdad es la siguiente:
 
-|Argumento A |	Argumento B |	A and B |
+|Argumento A |	Argumento B |	A or B |
 -------------|--------------|-----------|
 | False      |False         |False      |
 | False      |True 	        |True       |
