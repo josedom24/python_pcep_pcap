@@ -34,7 +34,7 @@ new_list = my_list[1:3]
 print(new_list)
 ```
 
-La lista `new_list` contendrá `start - end` (3 - 1 = 2) elementos y son los que tienen índices iguales a 1 y 2 (pero no 3).
+La lista `new_list` contendrá `start - end` (3 - 1 = 2) elementos y son los que tienen índices iguales a 1 y 2 (pero no 3).
 
 La salida del fragmento es: [8, 6]
 
