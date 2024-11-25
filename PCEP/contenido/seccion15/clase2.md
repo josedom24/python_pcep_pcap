@@ -52,7 +52,7 @@ my_list = list(tup)
 print(type(my_list))    # salida: <class 'list'>
 ```
 
-## ¿Cómo utilizar un tupla?
+## ¿Cómo utilizar una tupla?
 
 Si deseas leer los elementos de una tupla, lo puedes hacer de la misma manera que se hace con las listas. Ejemplo:
 
