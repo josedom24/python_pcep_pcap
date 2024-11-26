@@ -2,7 +2,7 @@
 
 Veamos ahora un mecanismo útil relacionado con la forma en que los objetos pueden presentarse a sí mismos. Esta funcionalidad permite que los objetos tengan una representación más significativa y legible cuando se imprimen.
 
-## La Representación por defecto
+## La representación por defecto
 
 Cuando intentamos imprimir un objeto en Python, por defecto se muestra una cadena que incluye el nombre de la clase, seguido por la dirección de memoria del objeto. Por ejemplo, al ejecutar el siguiente código:
 
