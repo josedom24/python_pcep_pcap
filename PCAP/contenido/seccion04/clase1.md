@@ -37,7 +37,7 @@ La analogía de la "tienda" se utiliza para ilustrar que, al igual que en una ti
 
 En resumen, **PyPI** es el **"supermercado"** del código Python, con una vasta variedad de proyectos disponibles para su uso y colaboración, ¡todo sin necesidad de pagar!
 
-### PyPI y su Herramienta: **pip**
+### PyPI y su herramienta: **pip**
 
 PyPI, aunque es una **"tienda de software"** completamente gratuita, no basta con acceder al sitio web para descargar lo que necesites. Para utilizar el código disponible, se necesita una herramienta especial llamada **pip**. Esta herramienta es gratuita y te permite instalar paquetes de Python directamente desde PyPI.
 
