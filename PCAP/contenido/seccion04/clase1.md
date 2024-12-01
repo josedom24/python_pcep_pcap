@@ -1,4 +1,4 @@
-### Resumen: El Ecosistema de Paquetes de Python y Cómo Usarlo
+# El Ecosistema de paquetes de Python y cómo usarlo
 
 Python es una herramienta poderosa y versátil que se utiliza en una amplia variedad de disciplinas, como inteligencia artificial, minería de datos, matemáticas, psicología, genética, meteorología y lingüística. Esta amplitud de aplicaciones hace que Python se haya convertido en una herramienta interdisciplinaria clave.
 
@@ -12,7 +12,7 @@ El repositorio más importante para Python es **PyPI (Python Package Index)**, q
 
 El ecosistema de paquetes permite a los desarrolladores no solo utilizar código existente, sino también modificarlo y adaptarlo a sus necesidades, generando nuevos productos que otros pueden utilizar. Esto fomenta una comunidad activa y colaborativa, donde las herramientas de publicación, mantenimiento y acceso a paquetes son clave para el desarrollo continuo de proyectos en Python.
 
-### PyPI: El Repositorio Central de Python
+# PyPI: El repositorio central de Python
 
 El **Python Package Index (PyPI)** es el repositorio central de paquetes de Python, mantenido por el **Packaging Working Group** (PWG), que forma parte de la Python Software Foundation. Su misión principal es apoyar a los desarrolladores de Python en la distribución y el uso eficiente de código.
 
@@ -20,16 +20,16 @@ El **Python Package Index (PyPI)** es el repositorio central de paquetes de Pyth
 - **Packaging Working Group**: [https://wiki.python.org/psf/PackagingWG](https://wiki.python.org/psf/PackagingWG)
 - **PyPI**: [https://pypi.org/](https://pypi.org/)
 
-En **julio de 2021**, PyPI contenía:
-- **315,000 proyectos**
-- Más de **4,500,000 archivos**
-- **520,000 usuarios**
+En **noviembre de 2024**, PyPI contenía:
+* **589,471 proyectos**
+* Más de **12,731,786 archivos**
+* Alrededor de **879,555 usuarios** registrados
 
 Estos números demuestran el poder y la colaboración activa de la comunidad de Python, permitiendo un intercambio constante de código.
 
 Aunque **PyPI** es el repositorio más importante, no es el único. Existen otros repositorios de Python creados por diversas comunidades. Sin embargo, PyPI sigue siendo el centro neurálgico de la comunidad Python, y muchos consideran que "todos los caminos de Python conducen a PyPI".
 
-### El Repositorio de PyPI: La "Tienda de Quesos"
+## El repositorio de PyPI: La "Tienda de Quesos"
 
 El repositorio **PyPI** es a veces llamado "La Tienda de Quesos", una referencia irónica basada en un famoso sketch de **Monty Python** titulado *The Cheese Shop*. En este sketch, un cliente intenta comprar queso en una tienda que, irónicamente, no tiene queso en existencia. Esta es una referencia humorística, ya que, a diferencia de la tienda en el sketch, PyPI está lleno de software disponible las 24 horas del día, los 7 días de la semana.
 
@@ -37,7 +37,7 @@ La analogía de la "tienda" se utiliza para ilustrar que, al igual que en una ti
 
 En resumen, **PyPI** es el **"supermercado"** del código Python, con una vasta variedad de proyectos disponibles para su uso y colaboración, ¡todo sin necesidad de pagar!
 
-### PyPI y su herramienta: **pip**
+## PyPI y su herramienta pip
 
 PyPI, aunque es una **"tienda de software"** completamente gratuita, no basta con acceder al sitio web para descargar lo que necesites. Para utilizar el código disponible, se necesita una herramienta especial llamada **pip**. Esta herramienta es gratuita y te permite instalar paquetes de Python directamente desde PyPI.
 
