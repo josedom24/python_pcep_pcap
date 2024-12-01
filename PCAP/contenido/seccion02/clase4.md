@@ -101,8 +101,10 @@ Si necesitas saber que versión de Python está ejecutando tu código, puedes ve
     * El número del nivel de parche.
 
 Ejemplo:
+
 ```
 from platform import python_implementation, python_version_tuple
+
 print(python_implementation())
 for atr in python_version_tuple():
     print(atr)
