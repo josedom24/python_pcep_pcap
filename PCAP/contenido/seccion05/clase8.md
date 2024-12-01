@@ -1,8 +1,8 @@
-## Comparación y ordenación de cadenas
+# Comparación de cadenas
 
 En Python, las cadenas de texto pueden compararse utilizando los mismos operadores que se emplean con los números, tales como `==`, `!=`, `>`, `>=`, `<` y `<=`. Sin embargo, a pesar de que estos operadores son útiles, los resultados de las comparaciones de cadenas pueden ser inesperados si no se comprenden algunas características básicas del lenguaje.
 
-### Operadores para comparar cadenas
+## Operadores para comparar cadenas
 
 * **Igualdad (`==`)**: Dos cadenas son iguales si contienen exactamente los mismos caracteres en el mismo orden.
 * **Desigualdad (`!=`)**: Dos cadenas no son iguales si tienen diferentes caracteres o están en un orden distinto.
@@ -15,7 +15,7 @@ En Python, las cadenas de texto pueden compararse utilizando los mismos operador
 
     En este caso, las dos cadenas son diferentes porque Python distingue entre mayúsculas y minúsculas, lo que hace que `'alpha'` y `'Alpha'` no sean iguales.
 
-### Comparaciones basadas en puntos de código
+## Comparaciones basadas en puntos de código
 
 Python compara las cadenas carácter por carácter, basándose en el valor de sus puntos de código (ASCII o Unicode). Esto significa que no tiene en cuenta aspectos lingüísticos o contextuales, solo compara los números asociados a cada carácter.
 
@@ -37,7 +37,7 @@ Python compara las cadenas carácter por carácter, basándose en el valor de su
 
     Python determina que `'beta'` es mayor que `'Beta'` porque la letra minúscula `'b'` tiene un valor de punto de código mayor que `'B'`.
 
-### Comparación de cadenas que contienen dígitos
+## Comparación de cadenas que contienen dígitos
 
 En Python, incluso si una cadena contiene solo dígitos, **sigue siendo tratada como una cadena y no como un número**. Esto significa que las comparaciones entre cadenas de dígitos no toman en cuenta su valor numérico, sino su valor como texto. Así, los resultados pueden ser inesperados si no se entiende esta distinción.
 
@@ -73,44 +73,4 @@ Ejemplos:
 * Las comparaciones de **igualdad** (`==`) y **desigualdad** (`!=`) entre cadenas y números devuelven resultados previsibles (`False` y `True`, respectivamente): como son de tipos de datos diferentes (cadena vs. número), la comparación da como resultado `False`.
 * Cualquier otro operador de comparación, como `>` o `<`, genera una **excepción `TypeError`**, ya que Python no puede comparar directamente cadenas y números.
 
-
-## Ordenación de cadenas
-
-La **ordenación** en Python está estrechamente relacionado con la comparación, ya que ordenar es esencialmente un proceso que involucra comparaciones repetidas entre elementos. En el caso de listas que contienen cadenas, la ordenación es una operación común, como cuando se trabaja con listas de nombres, productos o ciudades.
-
-Python ofrece dos maneras principales de ordenar listas: usando la función `sorted()` o el método `sort()`.
-
-### Uso de la función `sorted()`
-
-La función `sorted()` toma una lista como argumento y devuelve una **nueva lista** con los elementos ordenados, mientras que la lista original permanece sin cambios. Esto es útil cuando deseas mantener la lista original intacta pero necesitas una versión ordenada de la misma.
-
-Ejemplo:
-
-```
-greek = ['omega', 'alpha', 'pi', 'gamma']
-greek_sorted = sorted(greek)
-
-print(greek)        # Lista original intacta
-print(greek_sorted) # Lista ordenada
-```
-
-En este caso, la lista `greek` no cambia, pero `greek_sorted` es una nueva lista con los elementos ordenados alfabéticamente.
-
-### Uso del método `sort()`
-
-El método `sort()` ordena la lista **en su lugar**, es decir, modifica directamente la lista original sin crear una nueva. Este método es útil cuando no necesitas mantener la versión original de la lista.
-
-Ejemplo:
-
-```
-greek = ['omega', 'alpha', 'pi', 'gamma']
-
-print(greek)  # Lista original
-greek.sort()
-print(greek)  # Lista ordenada en su lugar
-```
-
-En este caso, la lista original `greek` se ha modificado, y ahora está ordenada alfabéticamente.
-
-Si deseas un ordenamiento diferente al predeterminado (por ejemplo, en orden inverso o con criterios especiales), puedes modificar el comportamiento de ambas funciones utilizando parámetros adicionales, lo cual será tratado más adelante.
 

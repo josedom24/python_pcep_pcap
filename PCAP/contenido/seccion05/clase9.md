@@ -1,159 +1,40 @@
-# Conversión entre cadenas y números
+# Ordenación de cadenas
 
-En muchas ocasiones, es necesario convertir números en cadenas o viceversa, especialmente cuando se procesan datos de entrada o salida. Python proporciona formas sencillas de realizar estas conversiones.
+La **ordenación** en Python está estrechamente relacionado con la comparación, ya que ordenar es esencialmente un proceso que involucra comparaciones repetidas entre elementos. En el caso de listas que contienen cadenas, la ordenación es una operación común, como cuando se trabaja con listas de nombres, productos o ciudades.
 
-## De número a cadena: `str()`
+Python ofrece dos maneras principales de ordenar listas: usando la función `sorted()` o el método `sort()`.
 
-Convertir un número (entero o flotante) a una cadena es muy fácil y siempre es posible mediante la función `str()`. Esto es útil cuando deseas manipular números como si fueran texto o concatenarlos con otras cadenas.
+## Uso de la función `sorted()`
 
-Ejemplo:
-
-```
-itg = 13
-flt = 1.3
-si = str(itg)
-sf = str(flt)
-
-print(si + ' ' + sf)
-```
-
-En este ejemplo, tanto el entero `itg` como el flotante `flt` se convierten en cadenas usando `str()`, permitiendo concatenarlos con un espacio entre ellos.
-
-## De cadena a número: `int()` y `float()`
-
-La conversión inversa, es decir, de una cadena a un número, solo es posible si la cadena representa un número válido. Si la cadena contiene caracteres no numéricos o un formato incorrecto, Python lanzará una excepción `ValueError`.
-
-* **`int()`** se usa para convertir cadenas que representan números enteros.
-* **`float()`** se usa para convertir cadenas que representan números con punto flotante.
+La función `sorted()` toma una lista como argumento y devuelve una **nueva lista** con los elementos ordenados, mientras que la lista original permanece sin cambios. Esto es útil cuando deseas mantener la lista original intacta pero necesitas una versión ordenada de la misma.
 
 Ejemplo:
 
 ```
-si = '13'
-sf = '1.3'
-itg = int(si)
-flt = float(sf)
+greek = ['omega', 'alpha', 'pi', 'gamma']
+greek_sorted = sorted(greek)
 
-print(itg + flt)
+print(greek)        # Lista original intacta
+print(greek_sorted) # Lista ordenada
 ```
 
-En este caso, las cadenas `'13'` y `'1.3'` se convierten en los números `13` (entero) y `1.3` (flotante), respectivamente. Luego, estos números se suman y el resultado se muestra en la consola.
+En este caso, la lista `greek` no cambia, pero `greek_sorted` es una nueva lista con los elementos ordenados alfabéticamente.
 
-## Cuestionario
+## Uso del método `sort()`
 
-1. ¿Cuál es la longitud de la siguiente cadena asumiendo que no hay espacios en blanco entre las comillas?
-    ```
-    """
-    """
-    ```
+El método `sort()` ordena la lista **en su lugar**, es decir, modifica directamente la lista original sin crear una nueva. Este método es útil cuando no necesitas mantener la versión original de la lista.
 
-2. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    s = 'yesteryears'
-    the_list = list(s)
-    print(the_list[3:6])
-    ```
-3. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    for ch in "abc":
-        print(chr(ord(ch) + 1), end='')
-    ```
+Ejemplo:
 
-4. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    for ch in "abc123XYX":
-        if ch.isupper():
-            print(ch.lower(), end='')
-        elif ch.islower():
-            print(ch.upper(), end='')
-        else:
-            print(ch, end='')
-    ```
+```
+greek = ['omega', 'alpha', 'pi', 'gamma']
 
-5. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    s1 = '¿Dónde están las nevadas de antaño?'
-    s2 = s1.split()
-    print(s2[-2])
-    ```
+print(greek)  # Lista original
+greek.sort()
+print(greek)  # Lista ordenada en su lugar
+```
 
-6. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    the_list = ['¿Dónde', 'están', 'las', 'nevadas?']
-    s = '*'.join(the_list)
-    print(s)
-    ```
+En este caso, la lista original `greek` se ha modificado, y ahora está ordenada alfabéticamente.
 
-7. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    s = 'Es fácil o imposible'
-    s = s.replace('fácil', 'difícil').replace('im', '')
-    print(s)
-    ```
+Si deseas un ordenamiento diferente al predeterminado (por ejemplo, en orden inverso o con criterios especiales), puedes modificar el comportamiento de ambas funciones utilizando parámetros adicionales, lo cual será tratado más adelante.
 
-8. ¿Cuál de las siguientes líneas describe una condición verdadera?
-    ```
-    'smith' > 'Smith'
-    'Smiths' < 'Smith'
-    'Smith' > '1000'
-    '11' < '8'
-    ```
-
-9. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    s1 = '¿Dónde están las nevadas de antaño?'
-    s2 = s1.split()
-    s3 = sorted(s2)
-    print(s3[1])
-    ```
-
-10. ¿Cuál es el resultado esperado del siguiente código?
-    ```
-    s1 = '12.8'
-    i = int(s1)
-    s2 = str(i)
-    f = float(s2)
-    print(s1 == s2)
-    ```
-
-## Solución cuestionario
-
-1. Pregunta 1
-
-    `1`
-
-2. Pregunta 2
-
-    `['t', 'e', 'r']`
-
-3. Pregunta 3
-
-    `bcd`
-
-4. Pregunta 4
-
-    `ABC123xyz`
-
-5. Pregunta 5
-
-    `de`
-
-6. Pregunta 6
-
-    `¿Dónde*están*las*nevadas?`
-
-7. Pregunta 7
-
-    `Es difícil o posible`
-
-8. Pregunta 8
-
-    1, 3 y 4
-
-9. Pregunta 9
-
-    `de`
-
-10. Pregunta 10
-
-    El código genera una excepción `ValueError`
