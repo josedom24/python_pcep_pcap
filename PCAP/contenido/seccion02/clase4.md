@@ -9,21 +9,11 @@ El módulo `platform` en Python proporciona herramientas para obtener informaci�
 
 El módulo `platform` permite obtener información sobre el sistema operativo, como el nombre y características del hardware. Esto puede ser útil para tareas como verificar la compatibilidad de un programa con el entorno de ejecución.
 
-Veamos un ejemplo:
-
-```
-import platform
-
-print("Sistema operativo:", platform.system())
-print("Versión del sistema operativo:", platform.version())
-print("Nombre del nodo de la red:", platform.node())
-```
-
 El módulo `platform` es útil para obtener esta información sin necesidad de interactuar directamente con el sistema operativo, permitiendo que el programa se adapte mejor al entorno en el que se ejecuta.
 
 ## Función `platform()`
 
-La función `platform()` devuelve una cadena que describe el entorno de la plataforma actual. Existen dos parámetros que modifican la salida:
+La función `platform()` devuelve una cadena que describe el entorno de la plataforma actual (nombre del sistema operativo, versión del kernel, arquitectura del procesador, información de la biblioteca C estándar). Existen dos parámetros que modifican la salida:
 
 - `aliased`: Si se establece en `True` (o cualquier valor distinto de cero), se mostrarán nombres alternativos para las capas subyacentes.
 - `terse`: Si se establece en `True`, se presentará una versión más corta de la descripción.
@@ -34,8 +24,8 @@ Ejemplo:
 from platform import platform
 
 print(platform())        # Muestra la plataforma completa.
-print(platform(1))       # Usa nombres alternativos para las capas.
-print(platform(0, 1))    # Usa nombres alternativos y muestra una forma más breve.
+print(platform(True))       # Usa nombres alternativos para las capas.
+print(platform(False, True))    # Usa nombres alternativos y muestra una forma más breve.
 ```
 
 ## La función `machine()`
@@ -49,7 +39,7 @@ print(machine())
 
 ## La función `processor()`
 
-La función `processor()` devuelve una cadena con el nombre real del procesador (si lo fuese posible, en ocasiones devuelve una cadena vacía).
+La función `processor()` devuelve una cadena con el nombre real del procesador (si le fuese posible, en ocasiones devuelve una cadena vacía).
 
 Ejemplo:
 ```
@@ -78,6 +68,27 @@ Ejemplo:
 from platform import version
 print(version())
 ```
+
+## La función `node()`
+
+La función platform.node() en Python devuelve el **nombre del nodo** de la máquina en la que se está ejecutando el programa. Esto generalmente corresponde al **nombre del host (hostname)** del sistema.
+
+```
+from platform import node
+print(node())
+```
+
+## Ejemplo
+
+```
+import platform
+
+print("Nombre genérico del procesador:", platform.machine())
+print("Sistema operativo:", platform.system())
+print("Versión del sistema operativo:", platform.version())
+print("Nombre del nodo de la red:", platform.node())
+```
+
 
 ## Las funciones `python_implementation()` y `python_version_tuple()`
 
