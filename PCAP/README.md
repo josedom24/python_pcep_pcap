@@ -36,7 +36,7 @@
     * [Comparación de cadenas](contenido/seccion05/clase8.md)
     * [Ordenación de cadenas](contenido/seccion05/clase9.md)
     * [Conversión entre cadenas y números](contenido/seccion05/clase10.md)
-    * [LABORATORIO: Un Display LED](contenido/seccion05/clase11.md)
+    * [LABORATORIO: Un display LED](contenido/seccion05/clase11.md)
 6. Ejemplos de programas trabajando con cadenas de caracteres
     * [Ejemplo 1: El Cifrado César: encriptando un mensaje](contenido/seccion06/clase1.md)
     * [Ejemplo 2: El Cifrado César: descifrando un mensaje](contenido/seccion06/clase2.md)
