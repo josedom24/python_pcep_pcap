@@ -4,7 +4,7 @@
 
 Ya estás familiarizado con el cifrado César, y es por eso que queremos que mejores el código que te mostramos recientemente.
 
-El cifrado César original cambia cada carácter por otro `a` se convierte en `b`, `z` se convierte en `a`, y así sucesivamente. Hagámoslo un poco más difícil y permitamos que el valor desplazado provenga del rango 1..25.
+El cifrado César original cambia cada carácter por otro: `a` se convierte en `b`, `z` se convierte en `a`, y así sucesivamente. Hagámoslo un poco más difícil y permitamos que el valor desplazado provenga del rango 1..25.
 
 Además, dejemos que el código conserve las mayúsculas y minúsculas (las minúsculas permanecerán en minúsculas) y todos los caracteres no alfabéticos deben permanecer intactos.
 

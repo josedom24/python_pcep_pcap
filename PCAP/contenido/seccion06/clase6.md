@@ -1,6 +1,6 @@
-# LABORATORIO: Anagrama
+# LABORATORIO: Anagramas
 
-Un anagrama es una nueva palabra formada al reorganizar las letras de una palabra, usando todas las letras originales exactamente una vez. Por ejemplo, las frases "rail safety" y "fairy tales" son anagramas, mientras que "I am" y "You are" no lo son.
+Un anagrama es una nueva palabra formada al reorganizar las letras de una palabra, usando todas las letras originales exactamente una vez. Por ejemplo, las frases "Dame sal" y "Sal me da" son anagramas.
 
 Tu tarea es escribir un programa que:
 
@@ -20,8 +20,8 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 1
     * Entrada de muestra:
     ```
-    Listen
-    Silent 
+    Amor
+    Roma
     ```
     * Salida de muestra: 
     ```
@@ -30,8 +30,8 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 2
     * Entrada de muestra:
     ```
-    modern
-    norman 
+    manta
+    manga 
     ```
     * Salida de muestra: 
     ```

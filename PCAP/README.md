@@ -43,7 +43,7 @@
     * [Ejemplo 3: El validador IBAN](contenido/seccion06/clase3.md)
     * [LABORATORIO: Mejorando el cifrado César](contenido/seccion06/clase4.md)
     * [LABORATORIO: Palíndromos](contenido/seccion06/clase5.md)
-    * [LABORATORIO: Anagrama](contenido/seccion06/clase6.md)
+    * [LABORATORIO: Anagramas](contenido/seccion06/clase6.md)
     * [LABORATORIO: El dígito de la vida](contenido/seccion06/clase7.md)
     * [LABORATORIO: ¡Encuentra una palabra!](contenido/seccion06/clase8.md)
     * [LABORATORIO: Sudoku](contenido/seccion06/clase9.md)

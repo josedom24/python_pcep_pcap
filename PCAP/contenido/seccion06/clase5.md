@@ -23,7 +23,7 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 1
     * Entrada de muestra:
     ```
-    Ten animals I slam in a net
+    Amo la pacifica paloma
     ```
     * Salida de muestra: 
     ```
@@ -32,7 +32,7 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 2
     * Entrada de muestra:
     ```
-    Eleven animals I slam in a net
+    Amo la bonita paloma
     ```
     * Salida de muestra: 
     ```
