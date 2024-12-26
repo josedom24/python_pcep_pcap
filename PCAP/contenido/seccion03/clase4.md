@@ -2,21 +2,22 @@
 
 ## Paso 1
 
-Imagina que tu equipo ha escrito una gran cantidad de funciones en Python y decide agruparlas en módulos separados. Cada módulo contiene una función específica. Un ejemplo de uno de esos módulos es el siguiente:
+Imagina que tu equipo ha escrito una gran cantidad de funciones en Python y decide agruparlas en módulos separados. Cada módulo contiene una función específica. En nuestro ejemplo, estos módulos nos van a permitir trabajar con elementos de las ciencias naturales: animales, plantas, clima, ... Uno de esos módulos es el siguiente:
 
 ```
 #! /usr/bin/env python3
 
-""" module: alpha """
+""" módulo: perro """
 
-def FunA():
-    return "Alpha"
+def Ladrar():
+    return "¡Guau!"
 
 if __name__ == "__main__":
     print("Yo prefiero ser un módulo")
 ```
 
-Este es el contenido del archivo `alpha.py`, y se asume que el resto de los módulos tienen una estructura similar, donde la función principal del módulo lleva el nombre de la primera letra del módulo.
+Este es el contenido del archivo `perro.py`, y se asume que el resto de los módulos tienen una estructura similar, donde la función principal del módulo simplemente muestra un mensaje relacionado con el elemento con el que estamos trabajando.
+
 
 ![Funciones](img/01.png)
 
@@ -26,10 +27,10 @@ El equipo se da cuenta de que estos módulos forman una jerarquía natural, por 
 
 La estructura jerárquica propuesta es:
 
-* **Grupo `ugly`**: contiene los módulos `psi` y `omega`.
-* **Grupo `best`**: contiene los módulos `sigma` y `tau`.
-* **Grupo `good`**: contiene los módulos `alpha`, `beta` y el subgrupo `best`.
-* **Grupo `extra`**: contiene los subgrupos `good`, `bad` y el módulo `iota`.
+* **Grupo `animales`**: contiene el subgrupo `mamiferos` y el módulo `aves`.
+* **Grupo `mamifero`**: contiene los módulos `perro` y `gato`.
+* **Grupo `plantas`**: contiene los módulos `arboles` y `flores`.
+* **Grupo `ciencia`**: contiene los subgrupos `animales`, `plantas` y el módulo `clima`.
 
 ![Directorios](img/02.png)
 
@@ -40,26 +41,25 @@ Este esquema refleja la relación entre los módulos y su agrupación, similar a
 Actualmente, la estructura de módulos ha tomado la forma de un árbol, que sigue las relaciones entre los módulos. Aunque esta estructura está casi lista para ser un paquete en Python, todavía falta un detalle para que sea funcional.
 
 ```
-extra
-├── good
-│   ├── alpha.py
-│   ├── best
-│   │   ├── sigma.py
-│   │   └── tau.py
-│   └── beta.py
-├── iota.py
-└── ugly
-    ├── omega.py
-    └── psi.py
+ciencia
+├── animales
+│   ├── mamiferos
+│   │   ├── perro.py
+│   │   └── gato.py
+│   └── aves.py
+├── plantas
+│   ├── arboles.py
+│   └── flores.py
+└── clima.py
 ```
 
-Si asumimos que el directorio raíz del paquete se llama `extra`, puedes usar la siguiente convención de nomenclatura para acceder a las funciones dentro de los módulos del paquete:
+Si asumimos que el directorio raíz del paquete se llama `ciencia`, puedes usar la siguiente convención de nomenclatura para acceder a las funciones dentro de los módulos del paquete:
 
-* La función `FunT()` del módulo `tau` se accedería como:  
-  `extra.good.best.tau.FunT()`
+* La función `Ladrar` del módulo `perro` se accedería como:  
+  `ciencia.animales.mamiferos.perro.Ladrar()`
 
-* La función `FunP()` del módulo `psi` se accedería como:  
-  `extra.ugly.psi.FunP()`
+* La función `Crecer` del módulo `Arboles` se accedería como:  
+  `ciencia.plantas.arboles.Crecer()`
 
 Esto refleja cómo los módulos y submódulos se agrupan jerárquicamente dentro del paquete.
 

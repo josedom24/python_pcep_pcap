@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" version="25.0.3">
+  <diagram name="Página-1" id="LLrPHrz99JNfq2OTLc29">
+    <mxGraphModel dx="1434" dy="728" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-19" value="&lt;h1&gt;ciencias&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=40;strokeWidth=3.1496;" vertex="1" parent="1">
+          <mxGeometry x="700" y="500" width="380" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-20" value="&lt;h1&gt;animales&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=40;strokeWidth=3.1496;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-19">
+          <mxGeometry x="20" y="50" width="340" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-22" value="&lt;h1&gt;mamiferos&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=40;strokeWidth=3.1496;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-20">
+          <mxGeometry x="35" y="50" width="270" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-23" value="&lt;h1&gt;perro.py&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=default;shadow=0;startSize=40;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-22">
+          <mxGeometry x="15" y="50" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-24" value="&lt;h1&gt;gato.py&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=default;shadow=0;startSize=40;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-22">
+          <mxGeometry x="15" y="90" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-11" value="&lt;h1&gt;aves.py&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=default;shadow=0;startSize=40;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-20">
+          <mxGeometry x="50" y="210" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-25" value="&lt;h1&gt;plantas&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=40;strokeWidth=3.1496;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-19">
+          <mxGeometry x="20" y="327" width="340" height="163" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-13" value="&lt;h1&gt;arboles.py&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=default;shadow=0;startSize=40;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-25">
+          <mxGeometry x="50" y="63" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-15" value="&lt;h1&gt;flores.py&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=default;shadow=0;startSize=40;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-25">
+          <mxGeometry x="50" y="113" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Bw5syOpe2_yFHolYuS-17" value="&lt;h1&gt;clima.py&lt;/h1&gt;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;swimlaneFillColor=default;shadow=0;startSize=40;" vertex="1" parent="Y7Bw5syOpe2_yFHolYuS-19">
+          <mxGeometry x="70" y="510" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
