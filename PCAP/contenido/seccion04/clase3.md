@@ -47,7 +47,7 @@ pip help (operación o comando)
 pip puede trabajar en dos modos:
 
 * **Privilegiado**: Es el modo por defecto, los paquetes python que gestionamos están accesible para todos los usuarios del sistema. 
-* **A nivel de usuario**: Los paquetes que gestionamos sólo serán accesible desde el usuario con el que estamos trabajando. Para usar este modo tendremos que indicar la opción `--user`.
+* **A nivel de usuario**: Los paquetes que gestionamos sólo serán accesibles desde el usuario con el que estamos trabajando. Para usar este modo tendremos que indicar la opción `--user`.
 
 Algunos sistemas operativos más modernos muestran un mensaje de aviso, indicando que instalar paquetes Python con pip puede causar problemas en la integridad de los paquetes python que existen en el sistema, o los que podemos instalar directamente desde los paquetes de la distribución, ya que se pueden romper las dependencias.
 
@@ -55,7 +55,7 @@ Para solucionar este problema, lo más recomendable es el uso de entornos virtua
 
 ## Buscando paquetes en PyPi
 
-Aunque el comando `pip` nos ofrece una opción de búsqueda de paquetes (`seaarch`) en versiones más modernas de Python ha sido deshabilitada por problemas de rendimiento. Lo más fácil para buscar información sobre los paquetes que podemos instalar es buscarlos directamente desde la página web del repositorio oficial PyPi: [https://pypi.org/search](https://pypi.org/search).
+Aunque el comando `pip` nos ofrece una opción de búsqueda de paquetes (`search`) en versiones más modernas de Python ha sido deshabilitada por problemas de rendimiento. Lo más fácil para buscar información sobre los paquetes que podemos instalar es buscarlos directamente desde la página web del repositorio oficial PyPi: [https://pypi.org/search](https://pypi.org/search).
 
 ## Principales funcionalidades de pip
 
