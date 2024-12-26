@@ -11,7 +11,7 @@ else:
 ```
 
 * Si ejecutas `module.py` directamente, verás: `Yo prefiero ser un módulo.`
-* Si ejecutas `main.py`, verás: `Me gusta ser un módulo.`
+* Si ejecutas `programa1.py`, verás: `Me gusta ser un módulo.`
 
 Este enfoque es útil para realizar pruebas dentro del módulo, que solo se ejecutan cuando el archivo se ejecuta directamente y no cuando se importa.
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
 ## Paso 10: Usar el módulo
 
-Finalmente, el módulo puede usarse desde el archivo `main.py` de la siguiente manera:
+Finalmente, el módulo puede usarse desde el archivo `programa1.py` de la siguiente manera:
 
 ```
 from module import suma, producto
@@ -100,9 +100,9 @@ Este código importa las funciones del módulo y las utiliza para calcular la su
 
 ## Paso 11: Cómo Python busca los módulos
 
-En este paso, el escenario cambia y el archivo principal (`main.py`) se encuentra en una carpeta diferente a la del módulo. El ejemplo asume el siguiente entorno Linux:
+En este paso, el escenario cambia y el archivo principal (`programa1.py`) se encuentra en una carpeta diferente a la del módulo. El ejemplo asume el siguiente entorno Linux:
 
-* `main.py` está en: `~/python/programas`
+* `programa1.py` está en: `~/python/programas`
 * El módulo está en: `~/python/modulos`
 
 Python busca los módulos en las carpetas especificadas en una lista llamada `sys.path`. Para verificar esta lista, se puede usar el siguiente código:
@@ -120,7 +120,7 @@ Para que Python encuentre el módulo en un directorio diferente, puedes modifica
 
 ## Paso 12: Añadir una ruta a `sys.path`
 
-Para que Python pueda encontrar el módulo en una carpeta diferente, se puede agregar su ruta al archivo `main.py`:
+Para que Python pueda encontrar el módulo en una carpeta diferente, se puede agregar su ruta, lo vemos en el archivo `programa2.py`:
 
 ```
 from sys import path
@@ -135,7 +135,7 @@ print(module.suma(ceros))   # Salida: 0
 print(module.producto(unos))    # Salida: 1
 ```
 
-* **Rutas relativas**: En el ejemplo, se usa una ruta relativa (`../modulos`), lo que significa que Python buscará la carpeta `modulos` ubicada un nivel por encima del directorio actual. Esta solución funciona si `main.py` se ejecuta desde la carpeta adecuada.
+* **Rutas relativas**: En el ejemplo, se usa una ruta relativa (`../modulos`), lo que significa que Python buscará la carpeta `modulos` ubicada un nivel por encima del directorio actual. Esta solución funciona si `programa2.py` se ejecuta desde la carpeta adecuada.
 - **Rutas absolutas**: Si prefieres asegurarte de que Python siempre encuentra el módulo, puedes usar una ruta absoluta:  
   ```
   path.append('~/python/modulos')
