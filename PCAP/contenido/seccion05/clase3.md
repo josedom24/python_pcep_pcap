@@ -21,7 +21,7 @@ print(len(empty))
 
 # Ejemplo 3
 
-cadena = 'Monty Python's Flying Circus'
+cadena = "Monty Python's Flying Circus"
 print(len(cadena))
 
 # Ejemplo 4
