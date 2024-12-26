@@ -1,4 +1,4 @@
-#  LABORATORIO: Mejorando el Cifrado César
+#  LABORATORIO: Mejorando el cifrado César
 
 ## Escenario
 

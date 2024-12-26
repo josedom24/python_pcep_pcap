@@ -1,4 +1,4 @@
-# Ejemplo 3: El Procesador de Números
+# Ejemplo 3: El procesador de números
 
 El tercer programa muestra un método simple que permite ingresar una línea llena de números y sumarlos fácilmente. Nota: la función `input()`, combinada junto con las funciones `int()` o `float()`, no es lo adecuado para este propósito.
 

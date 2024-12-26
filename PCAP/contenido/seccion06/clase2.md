@@ -1,4 +1,4 @@
-# Ejemplo 2: El Cifrado César: descifrando un mensaje
+# Ejemplo 2: El cifrado César: descifrando un mensaje
 
 En esta ocasión realizamos un programa para hacer la operación contraria: descifrar un mensaje:
 

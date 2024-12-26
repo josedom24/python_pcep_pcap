@@ -1,4 +1,4 @@
-# Ejemplo 1: El Cifrado César: encriptando un mensaje
+# Ejemplo 1: El cifrado César: encriptando un mensaje
 
 El primer problema que queremos mostrarte se llama Cifrado César, más detalles [aquí](https://en.wikipedia.org/wiki/Caesar_cipher).
 
