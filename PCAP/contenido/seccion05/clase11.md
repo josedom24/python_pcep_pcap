@@ -19,7 +19,7 @@ Seguramente has visto un display de siete segmentos.
 
 Es un dispositivo (a veces electrónico, a veces mecánico) diseñado para presentar un dígito decimal utilizando un subconjunto de siete segmentos. Si aún no sabes lo qué es, consulta la siguiente [enlace](https://en.wikipedia.org/wiki/Seven-segment_display) en Wikipedia.
 
-Podemos representar cada dígito con un número de 7 bits. Cada bit indica si un segmento de un display digital de 7 segmentos debe encenderse (1) o no (0). La corresponencia entre los bits y los segmentos son:
+Podemos representar cada dígito con un número de 7 bits. Cada bit indica si un segmento de un display digital de 7 segmentos debe encenderse (1) o no (0). La correspondencia entre los bits y los segmentos son:
 
 ```
   0
