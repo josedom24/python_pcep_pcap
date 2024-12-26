@@ -36,11 +36,11 @@ print(' Alpha'.capitalize())
 # Usamos el método con una variable cadena
 # La cadena no cambia, se devuelve una nueva cadena
 cadena = "python"
-print(cadena.cpitalize())
+print(cadena.capitalize())
 print(cadena)
 
 # Si queremos cambiar la cadena
-cadena = cadena.cpitalize()
+cadena = cadena.capitalize()
 print(cadena)
 ```
 
@@ -121,7 +121,7 @@ print("aAbByYzZaA".find("a",1))
 print("aAbByYzZaA".find("y",5))
 ```
 
-Se puede emplear el método find() para buscar todas las ocurrencias de la subcadena, como aquí:
+Se puede emplear el método `find()` para buscar todas las ocurrencias de la subcadena, como aquí:
 
 ```
 texto = """Una variante del lorem ipsum ordinario
@@ -151,6 +151,7 @@ print('kappa'.find('a', 2, 4))
 Este método funciona igual que `find()` pero comienzan sus búsquedas desde el final de la cadena, no el principio (de ahí el prefijo `r`, de reversa).
 
 ```
+# Demonstrando el método rfind():
 txt = "Hello, welcome to my world."
 print(txt.rfind("e"))
 print(txt.rfind("e", 5, 10))
