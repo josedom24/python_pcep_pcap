@@ -1,20 +1,17 @@
-# LABORATORIO: Palíndromos
+# LABORATORIO: Anagrama
 
-¿Sabes qué es un palíndromo?
-
-Es una palabra que se ve igual cuando se lee hacia adelante y hacia atrás. Por ejemplo, "kayak" es un palíndromo, mientras que "leal" no lo es.
+Un anagrama es una nueva palabra formada al reorganizar las letras de una palabra, usando todas las letras originales exactamente una vez. Por ejemplo, las frases "rail safety" y "fairy tales" son anagramas, mientras que "I am" y "You are" no lo son.
 
 Tu tarea es escribir un programa que:
 
-* Le pida al usuario algún texto.
-* Compruebe si el texto introducido es un palíndromo e imprima el resultado.
+* Le pida al usuario dos textos por separado.
+* Compruebe si los textos ingresados son anagramas e imprima el resultado.
 
 A tener en cuenta:
 
-* Supón que una cadena vacía no es un palíndromo.
-* Trata a las letras mayúsculas y minúsculas como iguales.
+* Supongamos que dos cadenas vacías no son anagramas.
+* Tratar a las letras mayúsculas y minúsculas como iguales.
 * Los espacios no se toman en cuenta durante la verificación: trátalos como inexistentes.
-* Existe más de una solución correcta: intenta encontrar más de una.
 
 Prueba tu código utilizando los datos que te proporcionamos.
 
@@ -23,18 +20,20 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 1
     * Entrada de muestra:
     ```
-    Ten animals I slam in a net
+    Listen
+    Silent 
     ```
     * Salida de muestra: 
     ```
-    Es un palíndromo
+    Anagramas
     ```
 * Ejemplo 2
     * Entrada de muestra:
     ```
-    Eleven animals I slam in a net
+    modern
+    norman 
     ```
     * Salida de muestra: 
     ```
-    No es un palíndromo
+    No son anagramas
     ```

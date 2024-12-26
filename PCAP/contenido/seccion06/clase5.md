@@ -1,18 +1,20 @@
-#  LABORATORIO: Mejorando el cifrado César
+# LABORATORIO: Palíndromos
 
-## Escenario
+¿Sabes qué es un palíndromo?
 
-Ya estás familiarizado con el cifrado César, y es por eso que queremos que mejores el código que te mostramos recientemente.
+Es una palabra que se ve igual cuando se lee hacia adelante y hacia atrás. Por ejemplo, "kayak" es un palíndromo, mientras que "leal" no lo es.
 
-El cifrado César original cambia cada carácter por otro `a` se convierte en `b`, `z` se convierte en `a`, y así sucesivamente. Hagámoslo un poco más difícil y permitamos que el valor desplazado provenga del rango 1..25.
+Tu tarea es escribir un programa que:
 
-Además, dejemos que el código conserve las mayúsculas y minúsculas (las minúsculas permanecerán en minúsculas) y todos los caracteres no alfabéticos deben permanecer intactos.
+* Le pida al usuario algún texto.
+* Compruebe si el texto introducido es un palíndromo e imprima el resultado.
 
-Tu tarea es escribir un programa el cual:
+A tener en cuenta:
 
-* Le pida al usuario una línea de texto para encriptar.
-* Le pida al usuario un valor de cambio (un número entero del rango 1..25, nota: debes obligar al usuario a ingresar un valor de cambio válido (¡no te rindas y no dejes que los datos incorrectos te engañen!).
-* Imprime el texto codificado. 
+* Supón que una cadena vacía no es un palíndromo.
+* Trata a las letras mayúsculas y minúsculas como iguales.
+* Los espacios no se toman en cuenta durante la verificación: trátalos como inexistentes.
+* Existe más de una solución correcta: intenta encontrar más de una.
 
 Prueba tu código utilizando los datos que te proporcionamos.
 
@@ -21,20 +23,18 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 1
     * Entrada de muestra:
     ```
-    abcxyzABCxyz 123
-    2 
+    Ten animals I slam in a net
     ```
     * Salida de muestra: 
     ```
-    cdezabCDEzab 123
+    Es un palíndromo
     ```
 * Ejemplo 2
     * Entrada de muestra:
     ```
-    The die is cast
-    25 
+    Eleven animals I slam in a net
     ```
     * Salida de muestra: 
     ```
-    Sgd chd hr bzrs
+    No es un palíndromo
     ```

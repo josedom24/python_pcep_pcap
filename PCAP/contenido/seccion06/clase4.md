@@ -1,74 +1,40 @@
-# Ejemplo 4: El validador IBAN
+#  LABORATORIO: Mejorando el cifrado César
 
-El cuarto programa implementa (en una forma ligeramente simplificada) un algoritmo utilizado por los bancos Europeos para especificar los números de cuenta. El estándar llamado IBAN (Número de cuenta bancaria internacional) proporciona un método simple y bastante confiable para validar los números de cuenta contra errores tipográficos simples que pueden ocurrir durante la reescritura del número, por ejemplo, de documentos en papel, como facturas o facturas en las computadoras. Puedes encontrar más detalles [aquí](https://en.wikipedia.org/wiki/International_Bank_Account_Number).
+## Escenario
 
-Un número de cuenta compatible con IBAN consta de:
+Ya estás familiarizado con el cifrado César, y es por eso que queremos que mejores el código que te mostramos recientemente.
 
-* Un código de país de dos letras tomado del estándar ISO 3166-1 (por ejemplo, FR para Francia, GB para Gran Bretaña DE para Alemania, y así sucesivamente).
-* Dos dígitos de verificación utilizados para realizar las verificaciones de validez: pruebas rápidas y simples, pero no totalmente confiables, que muestran si un número es inválido (distorsionado por un error tipográfico) o válido.
-* El número de cuenta real (hasta 30 caracteres alfanuméricos; la longitud de esa parte depende del país).
+El cifrado César original cambia cada carácter por otro `a` se convierte en `b`, `z` se convierte en `a`, y así sucesivamente. Hagámoslo un poco más difícil y permitamos que el valor desplazado provenga del rango 1..25.
 
-El estándar dice que la validación requiere los siguientes pasos (según Wikipedia):
+Además, dejemos que el código conserve las mayúsculas y minúsculas (las minúsculas permanecerán en minúsculas) y todos los caracteres no alfabéticos deben permanecer intactos.
 
-1. Verificar que la longitud total del IBAN sea correcta según el país (este programa no lo hará, pero puedes modificar el código para cumplir con este requisito si lo deseas; nota: pero debes enseñar al código a conocer todas las longitudes utilizadas en Europa).
-2. Mueve los cuatro caracteres iniciales al final de la cadena (es decir, el código del país y los dígitos de verificación).
-3. Reemplaza cada letra en la cadena con dos dígitos, expandiendo así la cadena, donde A = 10, B = 11 ... Z = 35.
-4. Interpreta la cadena como un entero decimal y calcula el residuo de ese número dividiéndolo entre 97. Si el residuo es 1, pasa la prueba de verificación de dígitos y el IBAN puede ser válido.
+Tu tarea es escribir un programa el cual:
 
-```
-# Validador IBAN.
+* Le pida al usuario una línea de texto para encriptar.
+* Le pida al usuario un valor de cambio (un número entero del rango 1..25, nota: debes obligar al usuario a ingresar un valor de cambio válido (¡no te rindas y no dejes que los datos incorrectos te engañen!).
+* Imprime el texto codificado. 
 
-iban = input("Ingresa un IBAN, por favor: ")
-iban = iban.replace(' ','')
+Prueba tu código utilizando los datos que te proporcionamos.
 
-if not iban.isalnum():
-    print("Has introducido caracteres no válidos.")
-elif len(iban) < 15:
-    print("El IBAN ingresado es demasiado corto.")
-elif len(iban) > 31:
-    print("El IBAN ingresado es demasiado largo.")
-else:
-    iban = (iban[4:] + iban[0:4]).upper()
-    iban2 = ''
-    for ch in iban:
-        if ch.isdigit():
-            iban2 += ch
-        else:
-            iban2 += str(10 + ord(ch) - ord('A'))
-    iban = int(iban2)
-    if iban % 97 == 1:
-        print("El IBAN ingresado es válido.")
-    else:
-        print("El IBAN ingresado no es válido.")
-```
+## Datos de prueba
 
-
-* Pide al usuario que ingrese el IBAN (el número puede contener espacios, ya que mejoran significativamente la legibilidad del número...
-* ... pero remueve los espacios de inmediato).
-* El IBAN ingresado debe constar solo de dígitos y letras, de lo contrario...
-* ... muestra un mensaje.
-* El IBAN no debe tener menos de 15 caracteres (esta es la variante más corta, utilizada en Noruega).
-* Si es más corto, se informa al usuario.
-* Además, el IBAN no puede tener más de 31 caracteres (esta es la variante más larga, utilizada en Malta).
-* Si es más largo, se le informa al usuario.
-* Se comienza con el procesamiento.
-* Se mueven los cuatro caracteres iniciales al final del número y se convierten todas las letras a mayúsculas (paso 02 del algoritmo).
-* Esta es la variable utilizada para completar el número, creada al reemplazar las letras con dígitos (de acuerdo con el paso 03 del algoritmo).
-* Iterar a través del IBAN.
-* Si el carácter es un dígito...
-* ... se copia.
-* De lo contrario...
-* ... conviértelo en dos dígitos (observa cómo se hace aquí).
-* La forma convertida del IBAN está lista: ahora se convierte en un número entero.
-* ¿el residuo de la división de iban2 entre 97 es igual a 1?
-* Si es así, entonces el número es correcto.
-* De lo contrario...
-* ... el número no es válido.
-
-Agreguemos algunos datos de prueba (todos estos números son válidos; puedes invalidarlos cambiando cualquier carácter).
-
-* Inglés: GB72 HBZU 7006 7212 1253 00
-* Francés: FR76 30003 03620 00020216907 50
-* Alemán: DE02100100100152517108
-
-Si eres residente de la UE, puedes usar tu propio número de cuenta para hacer pruebas.
+* Ejemplo 1
+    * Entrada de muestra:
+    ```
+    abcxyzABCxyz 123
+    2 
+    ```
+    * Salida de muestra: 
+    ```
+    cdezabCDEzab 123
+    ```
+* Ejemplo 2
+    * Entrada de muestra:
+    ```
+    The die is cast
+    25 
+    ```
+    * Salida de muestra: 
+    ```
+    Sgd chd hr bzrs
+    ```

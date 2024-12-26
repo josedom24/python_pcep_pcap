@@ -11,18 +11,18 @@ Partimos de las siguientes condiciones:
 
 ```
 # Cifrado César.
-text = input("Ingresa tu mensaje: ")
-cipher = ''
-for char in text:
-    if not char.isalpha():
+texto = input("Ingresa tu mensaje: ")
+cifrado = ''
+for caracter in texto:
+    if not caracter.isalpha():
         continue
-    char = char.upper()
-    code = ord(char) + 1
+    caracter = caracter.upper()
+    code = ord(caracter) + 1
     if code > ord('Z'):
         code = ord('A')
-    cipher += chr(code)
+    cifrado += chr(code)
 
-print(cipher)
+print(cifrado)
 ```
 
 Veamos el código:
@@ -41,3 +41,23 @@ Veamos el código:
 
 El código, con este mensaje: `AVE CAESAR`
 Da como salida: `BWFDBFTBS`
+
+## Descifrando el mensaje
+
+Ahora realizamos un programa para hacer la operación contraria: descifrar un mensaje:
+
+```
+# Cifrado César - descifrar un mensaje.
+cifrado = input('Ingresa tu criptograma: ')
+texto = ''
+for caracter in cifrado:
+    if not caracter.isalpha():
+        continue
+    caracter = caracter.upper()
+    code = ord(caracter) - 1
+    if code < ord('A'):
+        code = ord('Z')
+    texto += chr(code)
+
+print(texto)
+```

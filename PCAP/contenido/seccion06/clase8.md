@@ -1,17 +1,18 @@
-# LABORATORIO: El dígito de la vida
+# LABORATORIO: ¡Encuentra una palabra!
 
-Algunos dicen que el Dígito de la Vida es un dígito calculado usando el cumpleaños de alguien. Es simple: solo necesitas sumar todos los dígitos de la fecha. Si el resultado contiene más de un dígito, se debe repetir la suma hasta obtener exactamente un dígito. Por ejemplo:
+Vamos a jugar un juego. Te daremos dos cadenas: una es una palabra (por ejemplo, "dog") y la segunda es una combinación de un grupo de caracteres.
 
-* 1 Enero 2017 = 2017 01 01
-* 2 + 0 + 1 + 7 + 0 + 1 + 0 + 1 = 12
-* 1 + 2 = 3
+Tu tarea es escribir un programa que responda la siguiente pregunta: ¿Los caracteres que comprenden la primera cadena están ocultos dentro de la segunda cadena?
 
-3 es el dígito que buscamos y encontramos.
+Por ejemplo:
 
-Tu tarea es escribir un programa que:
+* Si la segunda cadena es "vcxzxduybfdsobywuefgas", la respuesta es si;
+* Si la segunda cadena es "vcxzxdcybfdstbywuefsas", la respuesta es no (ya que no están las letras "d", "o", o "g" ni en ese orden)
 
-* Le pregunté al usuario su cumpleaños (en el formato AAAAMMDD o AAAADMM o MMDDAAAA; en realidad, el orden de los dígitos no importa).
-* Dé como salida El Dígito de la Vida para la fecha ingresada.
+Pistas:
+
+* Debes usar las variantes de dos argumentos del método `find()` dentro de tu código.
+* No te preocupes por mayúsculas y minúsculas.
 
 Prueba tu código utilizando los datos que te proporcionamos.
 
@@ -20,18 +21,20 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 1
     * Entrada de muestra:
     ```
-    19991229
+    donor
+    Nabucodonosor 
     ```
     * Salida de muestra: 
     ```
-    6
+    Sí
     ```
 * Ejemplo 2
     * Entrada de muestra:
     ```
-    20000101
+    donut
+    Nabucodonosor 
     ```
     * Salida de muestra: 
     ```
-    4
+    No
     ```

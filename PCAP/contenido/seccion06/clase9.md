@@ -1,18 +1,17 @@
-# LABORATORIO: ¡Encuentra una palabra!
+# LABORATORIO: Sudoku
 
-Vamos a jugar un juego. Te daremos dos cadenas: una es una palabra (por ejemplo, "dog") y la segunda es una combinación de un grupo de caracteres.
+Como probablemente sabes, Sudoku es un rompecabezas de colocación de números jugado en un tablero de 9x9. El jugador tiene que llenar el tablero de una manera muy específica:
 
-Tu tarea es escribir un programa que responda la siguiente pregunta: ¿Los caracteres que comprenden la primera cadena están ocultos dentro de la segunda cadena?
+* Cada fila del tablero debe contener todos los dígitos del 0 al 9 (el orden no importa).
+* Cada columna del tablero debe contener todos los dígitos del 0 al 9 (nuevamente, el orden no importa).
+* Cada uno de los 9 subcuadros de 3x3 de la tabla debe contener todos los dígitos del 0 al 9.
 
-Por ejemplo:
+Si necesitas más detalles, puedes encontrarlos [aquí](https://en.wikipedia.org/wiki/Sudoku).
 
-* Si la segunda cadena es "vcxzxduybfdsobywuefgas", la respuesta es si;
-* Si la segunda cadena es "vcxzxdcybfdstbywuefsas", la respuesta es no (ya que no están las letras "d", "o", o "g" ni en ese orden)
+Tu tarea es escribir un programa que:
 
-Pistas:
-
-* Debes usar las variantes de dos argumentos del método `find()` dentro de tu código.
-* No te preocupes por mayúsculas y minúsculas.
+* Lea las 9 filas del Sudoku, cada una con 9 dígitos (verifica cuidadosamente si los datos ingresados son válidos).
+* Da como salida `Si` si el Sudoku es válido y `No` de lo contrario.
 
 Prueba tu código utilizando los datos que te proporcionamos.
 
@@ -21,8 +20,15 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 1
     * Entrada de muestra:
     ```
-    donor
-    Nabucodonosor 
+    295743861
+    431865927
+    876192543
+    387459216
+    612387495
+    549216738
+    763524189
+    928671354
+    154938672 
     ```
     * Salida de muestra: 
     ```
@@ -31,8 +37,15 @@ Prueba tu código utilizando los datos que te proporcionamos.
 * Ejemplo 2
     * Entrada de muestra:
     ```
-    donut
-    Nabucodonosor 
+    195743862
+    431865927
+    876192543
+    387459216
+    612387495
+    549216738
+    763524189
+    928671354
+    254938671 
     ```
     * Salida de muestra: 
     ```
