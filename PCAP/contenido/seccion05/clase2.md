@@ -62,10 +62,10 @@ Algunas de las operaciones que puedo realizar con las cadenas de caracteres son:
     Podemos usar la indiexación para hacer un recorrido:
 
     ```
-    the_string = 'silly walks'
+    cadena = 'Python3 es bonito'
 
-    for ix in range(len(the_string)):
-        print(the_string[ix], end=' ')
+    for indice in range(len(cadena)):
+        print(cadena[indice], end=' ')
 
     print()
     ```
@@ -73,10 +73,10 @@ Algunas de las operaciones que puedo realizar con las cadenas de caracteres son:
     O utilizar la propiedad del bucle `for` para recorrer secuencias:
 
     ```
-    the_string = 'silly walks'
+    cadena = 'Python3 es bonito'
 
-    for character in the_string:
-        print(character, end=' ')
+    for caracter in cadena:
+        print(caracter, end=' ')
 
     print()
     ```
@@ -98,25 +98,25 @@ Algunas de las operaciones que puedo realizar con las cadenas de caracteres son:
 * Operadores de pertenencia: Al igual que las listas podemos usar los operadores de pertenencia. El operador `in` comprueba si el argumento izquierdo (una cadena) se puede encontrar en cualquier lugar dentro del argumento derecho (otra cadena).
 
     ```
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    alfabeto = "abcdefghijklmnopqrstuvwxyz"
 
-    print("f" in alphabet)
-    print("F" in alphabet)
-    print("1" in alphabet)
-    print("ghi" in alphabet)
-    print("Xyz" in alphabet)
+    print("f" in alfabeto)
+    print("F" in alfabeto)
+    print("1" in alfabeto)
+    print("ghi" in alfabeto)
+    print("Xyz" in alfabeto)
     ```
 
     Vamos un ejemplo con el operador `not in`:
 
     ```
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
+    alfabeto = "abcdefghijklmnopqrstuvwxyz"
     
-    print("f" not in alphabet)
-    print("F" not in alphabet)
-    print("1" not in alphabet)
-    print("ghi" not in alphabet)
-    print("Xyz" not in alphabet)
+    print("f" not in alfabeto)
+    print("F" not in alfabeto)
+    print("1" not in alfabeto)
+    print("ghi" not in alfabeto)
+    print("Xyz" not in alfabeto)
     ```
 
 
