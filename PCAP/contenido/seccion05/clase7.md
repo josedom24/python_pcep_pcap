@@ -27,17 +27,17 @@ Tu tarea es escribir tu propia función, que se comporte casi como el método or
 Puedes usar esta plantilla:
 
 ```
-def mysplit(strng):
-    #
-    # coloca tu código aquí
-    #
+    def mysplit(cadena):
+        #
+        # coloca tu código aquí
+        #
 
 
-print(mysplit("Ser o no ser, esa es la pregunta"))
-print(mysplit("Ser o no ser,esa es la pregunta"))
-print(mysplit("   "))
-print(mysplit(" abc "))
-print(mysplit(""))
+    print(mysplit("Ser o no ser, esa es la pregunta"))
+    print(mysplit("Ser o no ser,esa es la pregunta"))
+    print(mysplit("   "))
+    print(mysplit(" abc "))
+    print(mysplit(""))
 ```
 
 ## Salida esperada
