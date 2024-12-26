@@ -1,4 +1,4 @@
-# El Ecosistema de paquetes de Python y cómo usarlo
+# El ecosistema de paquetes de Python y cómo usarlo
 
 Python es una herramienta poderosa y versátil que se utiliza en una amplia variedad de disciplinas, como inteligencia artificial, minería de datos, matemáticas, psicología, genética, meteorología y lingüística. Esta amplitud de aplicaciones hace que Python se haya convertido en una herramienta interdisciplinaria clave.
 
@@ -8,13 +8,13 @@ Para que este modelo funcione, existen dos componentes esenciales:
 1. **Un repositorio centralizado** donde se almacenan todos los paquetes de software disponibles.
 2. **Herramientas que permiten acceder a este repositorio**, facilitando la instalación y el uso de los paquetes.
 
-El repositorio más importante para Python es **PyPI (Python Package Index)**, que aloja más de 315,000 proyectos y 4.5 millones de archivos. PyPI es administrado por la Python Software Foundation y facilita el intercambio de código entre desarrolladores. Aunque existen otros repositorios, PyPI es el más utilizado y accesible.
+El repositorio más importante para Python es **PyPI (Python Package Index)**, administrado por la **Python Software Foundation** y facilita el intercambio de código entre desarrolladores. Aunque existen otros repositorios, PyPI es el más utilizado y accesible.
 
 El ecosistema de paquetes permite a los desarrolladores no solo utilizar código existente, sino también modificarlo y adaptarlo a sus necesidades, generando nuevos productos que otros pueden utilizar. Esto fomenta una comunidad activa y colaborativa, donde las herramientas de publicación, mantenimiento y acceso a paquetes son clave para el desarrollo continuo de proyectos en Python.
 
 # PyPI: El repositorio central de Python
 
-El **Python Package Index (PyPI)** es el repositorio central de paquetes de Python, mantenido por el **Packaging Working Group** (PWG), que forma parte de la Python Software Foundation. Su misión principal es apoyar a los desarrolladores de Python en la distribución y el uso eficiente de código.
+El **Python Package Index (PyPI)** es el repositorio central de paquetes de Python, mantenido por el **Packaging Working Group** (PWG), que forma parte de la **Python Software Foundation**. Su misión principal es apoyar a los desarrolladores de Python en la distribución y el uso eficiente de código.
 
 **Sitios web relevantes:**
 - **Packaging Working Group**: [https://wiki.python.org/psf/PackagingWG](https://wiki.python.org/psf/PackagingWG)
@@ -26,8 +26,6 @@ En **noviembre de 2024**, PyPI contenía:
 * Alrededor de **879,555 usuarios** registrados
 
 Estos números demuestran el poder y la colaboración activa de la comunidad de Python, permitiendo un intercambio constante de código.
-
-Aunque **PyPI** es el repositorio más importante, no es el único. Existen otros repositorios de Python creados por diversas comunidades. Sin embargo, PyPI sigue siendo el centro neurálgico de la comunidad Python, y muchos consideran que "todos los caminos de Python conducen a PyPI".
 
 ## El repositorio de PyPI: La "Tienda de Quesos"
 
@@ -43,6 +41,3 @@ PyPI, aunque es una **"tienda de software"** completamente gratuita, no basta co
 
 Un detalle curioso es que **pip** es un acrónimo recursivo. Esto significa que el acrónimo se refiere a sí mismo, en este caso, **"pip instala paquetes"**. Es un ejemplo de cómo un acrónimo puede ser autorreferencial, lo que lleva a un ciclo infinito de explicación (pip instala paquetes... que instalan paquetes... y así sucesivamente).
 
-Este tipo de acrónimos no es exclusivo de pip; otro ejemplo famoso es **Linux**, que se interpreta como **"Linux no es Unix"**.
-
-En resumen, **pip** es la herramienta esencial para instalar y gestionar los paquetes de Python descargados desde PyPI, funcionando como el puente entre el repositorio y tu proyecto.

@@ -16,10 +16,10 @@
     * [¿Qué es un paquete en Python? (P)](contenido/seccion03/clase1.md)
     * [Nuestro primer módulo (1ª parte)](contenido/seccion03/clase2.md)
     * [Nuestro primer módulo (2ª parte)](contenido/seccion03/clase3.md)
-    * [Nuestro primer paquete (1ª parte)](contenido/seccion03/clase4.md) 
+    * [Nuestro primer paquete (1ª parte) (P)](contenido/seccion03/clase4.md) 
     * [Nuestro primer paquete (2ª parte)](contenido/seccion03/clase5.md) 
 4. Instalador de paquetes PIP
-    * [El ecosistema de paquetes de Python](contenido/seccion04/clase1.md)
+    * [El ecosistema de paquetes de Python (P)](contenido/seccion04/clase1.md)
     * [Instalación de pip](contenido/seccion04/clase2.md)
     * [Cómo usar pip](contenido/seccion04/clase3.md)
     * [Ejemplo de uso de pip](contenido/seccion04/clase4.md)
