@@ -11,8 +11,8 @@ La **inmutabilidad** significa que, una vez creada, una cadena no puede ser modi
 1. **No puedes eliminar elementos individuales de una cadena**. A diferencia de las listas, no es posible usar la instrucción `del` para eliminar un carácter específico de una cadena. Por ejemplo, el siguiente código generará un error:
 
     ```
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    del alphabet[0]  # Error: las cadenas son inmutables
+    alfabeto = "abcdefghijklmnopqrstuvwxyz"
+    del alfabeto[0]  # Error: las cadenas son inmutables
     ```
 
    Lo único que puedes hacer con `del` y una cadena es eliminar la cadena completa, no partes de ella.
@@ -20,28 +20,28 @@ La **inmutabilidad** significa que, una vez creada, una cadena no puede ser modi
 2. **No puedes modificar o agregar elementos a una cadena**. A diferencia de las listas, que tienen métodos como `append()` o `insert()`, las cadenas no cuentan con estos métodos porque no se pueden modificar. Cualquier intento de usarlos resultará en un error:
 
     ```
-    alphabet = "abcdefghijklmnopqrstuvwxyz"
-    alphabet.append("A")  # Error: las cadenas no tienen el método append()
+    alfabeto = "abcdefghijklmnopqrstuvwxyz"
+    alfabeto.append("A")  # Error: las cadenas no tienen el método append()
     
-    alphabet.insert(0, "A")  # Error: las cadenas no tienen el método insert()
+    alfabeto.insert(0, "A")  # Error: las cadenas no tienen el método insert()
     ```
 
 3. Cómo hemos comentado si **podemos crear nuevas cadenas a partir de otras**.
 
     ```
-    alphabet = "bcdefghijklmnopqrstuvwxy"
+    alfabeto = "bcdefghijklmnopqrstuvwxy"
 
-    alphabet = "a" + alphabet
-    alphabet = alphabet + "z"
+    alfabeto = "a" + alfabeto
+    alfabeto = alfabeto + "z"
 
-    print(alphabet)
+    print(alfabeto)
     ```
 
 4. Por lo tanto, los métodos que vamos a estudiar **no cambian la cadenas, devuelven nuevas cadenas modificadas**.
 
     ```
     cadena = "python"
-    cadena2 = cadena.upprt()
-    cadena = cadena.upprt()
+    cadena2 = cadena.upper()
+    cadena = cadena.upper()
     ```
     
