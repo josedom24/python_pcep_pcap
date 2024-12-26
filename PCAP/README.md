@@ -2,9 +2,9 @@
 ## Curso de preparación para el examen PCAP – Certified Associate Python Programmer
 
 1. Introducción a los módulos en Python
-    * [¿Qué es un módulo?](contenido/seccion01/clase1.md)
+    * [¿Qué es un módulo en Python? (P)](contenido/seccion01/clase1.md)
     * [Importación de módulos](contenido/seccion01/clase2.md)
-    * [Módulos y namespaces](contenido/seccion01/clase3.md)
+    * [Módulos y namespaces (P)](contenido/seccion01/clase3.md)
     * [Importación de entidades de un módulo](contenido/seccion01/clase4.md)
     * [Importación de todas las entidades de un módulo](contenido/seccion01/clase5.md)
 2. Módulos estándares en Python
@@ -13,7 +13,7 @@
     * [El módulo random](contenido/seccion02/clase3.md)
     * [El módulo platform](contenido/seccion02/clase4.md)
 3. Módulos y paquetes
-    * [¿Qué es un paquete en Python?](contenido/seccion03/clase1.md)
+    * [¿Qué es un paquete en Python? (P)](contenido/seccion03/clase1.md)
     * [Nuestro primer módulo (1ª parte)](contenido/seccion03/clase2.md)
     * [Nuestro primer módulo (2ª parte)](contenido/seccion03/clase3.md)
     * [Nuestro primer paquete (1ª parte)](contenido/seccion03/clase4.md) 

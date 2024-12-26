@@ -1,4 +1,4 @@
-# ¿Qué es un módulo?
+# ¿Qué es un módulo en Python?
 
 Los programas que realizamos suelen crecer debido a las demandas cambiantes de los usuarios. Un código que no evoluciona rápidamente se vuelve obsoleto y reemplazado por uno mejor y más flexible. A medida que el código crece, su mantenimiento se complica, y encontrar errores en un código más pequeño es más fácil que en uno grande.
 
