@@ -36,19 +36,19 @@ Se genera cuando intentas acceder a un índice que no existe en una secuencia, c
 
 
 ```
-the_list = [1, 2, 3, 4, 5]
-ix = 0
-do_it = True
+lista = [1, 2, 3, 4, 5]
+indice = 0
+continua = True
 
-while do_it:
+while continua:
     try:
-        print(the_list[ix])
-        ix += 1
+        print(lista[indice])
+        indice += 1
     except IndexError:
-        do_it = False
+        continua = False
 print('Listo')
 ```
-Aquí, cuando `ix` supera la longitud de la lista, se lanza un `IndexError`.
+Aquí, cuando `indice` supera la longitud de la lista, se lanza un `IndexError`.
 
 ## KeyboardInterrupt
 **Ubicación:** `BaseException ← KeyboardInterrupt`
@@ -59,11 +59,11 @@ Se lanza cuando el usuario interrumpe la ejecución de un programa mediante un a
 ```
 from time import sleep
 
-seconds = 0
+segundos = 0
 while True:
     try:
-        print(seconds)
-        seconds += 1
+        print(segundos)
+        segundos += 1
         sleep(1)
     except KeyboardInterrupt:
         print("¡No hagas eso!")
@@ -82,15 +82,15 @@ Se lanza cuando el sistema no tiene suficiente memoria para completar una operac
 
 
 ```
-string = 'x'
+cadena = 'x'
 try:
     while True:
-        string = string + string
-        print(len(string))
+        cadena = cadena + cadena
+        print(len(cadena))
 except MemoryError:
     print('¡Esto no es gracioso!')
 ```
-Este código puede generar un `MemoryError` si el string crece demasiado.
+Este código puede generar un `MemoryError` si la cadena crece demasiado.
 
 ## OverflowError
 **Ubicación:** `BaseException ← Exception ← ArithmeticError ← OverflowError`
@@ -133,15 +133,15 @@ Se genera cuando se intenta acceder a una clave inexistente en un diccionario.
 
 
 ```
-dictionary = {'a': 'b', 'b': 'c', 'c': 'd'}
-ch = 'a'
+diccionario = {'a': 'b', 'b': 'c', 'c': 'd'}
+clave = 'a'
 
 try:
     while True:
-        ch = dictionary[ch]
-        print(ch)
+        clave = diccionario[clave]
+        print(clave)
 except KeyError:
-    print('No existe tal clave:', ch)
+    print('No existe tal clave:', clave)
 ```
 
 Para más información sobre excepciones, puedes consultar la [documentación oficial de Python](https://docs.python.org/3.6/library/exceptions.html).
