@@ -19,10 +19,10 @@ Tu tarea es escribir una **función capaz de leer valores enteros y verificar si
 
 La función deberá:
 
-* Aceptar tres argumentos: una entrada, un límite inferior aceptable y un límite superior aceptable.
+* Aceptar tres argumentos: un mensaje, un límite inferior aceptable y un límite superior aceptable.
 * Si el usuario ingresa una cadena que no es un valor entero, la función debe emitir el mensaje `Error: entrada incorrecta`, y solicitará al usuario que ingrese el valor nuevamente.
 * Si el usuario ingresa un número que está fuera del rango especificado, la función debe emitir el mensaje `Error: el valor no está dentro del rango permitido (min..max)` y solicitará al usuario que ingrese el valor nuevamente.
-* Si el valor de entrada es válido, será regresado como resultado.
+* Si el valor de entrada es válido, será devuelto como resultado.
 
 Puedes esta plantilla para realizar tu programa:
 
@@ -33,7 +33,7 @@ def read_int(prompt, min, max):
     #
 
 
-v = read_int("Ingresa un numero entre -10 a 10: ", -10, 10)
+v = read_int("Ingresa un número entre -10 a 10: ", -10, 10)
 
 print("El número es:", v)
 ```

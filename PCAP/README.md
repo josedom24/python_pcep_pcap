@@ -53,8 +53,8 @@
     * [Jerarquía de excepciones (P)](contenido/seccion07/clase3.md)
     * [Propagación de excepciones](contenido/seccion07/clase4.md)
     * [La instrucción assert](contenido/seccion07/clase5.md)
-    * [Excepciones integradas](contenido/seccion07/clase6.md)
-    * [LABORATORIO: Leer enteros de forma segura](contenido/seccion07/clase7.md)
+    * [Excepciones integradas (P)](contenido/seccion07/clase6.md)
+    * [LABORATORIO: Leer enteros de forma segura (P)](contenido/seccion07/clase7.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion07/test.md)
     * [Prueba intermedia](contenido/seccion07/prueba.md)
 8. Introducción a la Programación Orientada a Objetos
