@@ -1,4 +1,4 @@
-# Introducción a la Programación Orientada a Objetos
+# Introducción a la programación orientada a objetos
 
 La programación orientada a objetos (POO) es un enfoque de desarrollo de software que difiere del tradicional estilo de programación procedimental. 
 
