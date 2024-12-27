@@ -14,9 +14,9 @@ assert expression
 
 ## ¿Para qué podemos usar `assert`?
 
-- **Verificación de condiciones**: Se utiliza en partes del código donde se necesita garantizar que los datos sean correctos, especialmente en funciones que podrían ser utilizadas por otras personas.
-- **Prevención de errores**: La generación de una excepción `AssertionError` ayuda a asegurar que el código no produzca resultados no válidos y proporciona claridad sobre la naturaleza de la falla.
-- **Suplemento a las excepciones**: Aunque las afirmaciones no reemplazan las excepciones ni validan los datos de forma completa, funcionan como un complemento. Se puede pensar en ellas como una "bolsa de aire" que protege el código en caso de que se presenten datos incorrectos.
+* **Verificación de condiciones**: Se utiliza en partes del código donde se necesita garantizar que los datos sean correctos, especialmente en funciones que podrían ser utilizadas por otras personas.
+* **Prevención de errores**: La generación de una excepción `AssertionError` ayuda a asegurar que el código no produzca resultados no válidos y proporciona claridad sobre la naturaleza de la falla.
+* **Suplemento a las excepciones**: Aunque las afirmaciones no reemplazan las excepciones ni validan los datos de forma completa, funcionan como un complemento. Se puede pensar en ellas como una "bolsa de aire" que protege el código en caso de que se presenten datos incorrectos.
 
 A continuación se muestra un ejemplo de cómo utilizar `assert`:
 

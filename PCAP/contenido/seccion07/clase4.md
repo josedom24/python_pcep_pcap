@@ -5,7 +5,7 @@ Las excepciones generadas dentro de una función pueden manejarse de dos maneras
 1. **Dentro de la función**: La propia función captura y maneja la excepción.
 2. **Fuera de la función**: La excepción se propaga fuera de la función para ser manejada por el invocador.
 
-Ejemplo de manejo dentro de la función:
+## Ejemplo de manejo dentro de la función
 
 ```
 def bad_fun(n):
@@ -21,7 +21,7 @@ print("FIN.")
 
 Aquí, la excepción **`ZeroDivisionError`** es capturada dentro de la función `bad_fun()`, y la función misma la maneja. 
 
-Ejemplo de manejo fuera de la función:
+## Ejemplo de manejo fuera de la función
 
 Si dejamos que la excepción se propague fuera de la función:
 

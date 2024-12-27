@@ -50,7 +50,7 @@
 7. Excepciones: Gestionando errores de programación
     * [Repaso de excepciones](contenido/seccion07/clase1.md)
     * [Manejo de excepciones](contenido/seccion07/clase2.md)
-    * [Jerarquía de excepciones](contenido/seccion07/clase3.md)
+    * [Jerarquía de excepciones (P)](contenido/seccion07/clase3.md)
     * [Propagación de excepciones](contenido/seccion07/clase4.md)
     * [La instrucción assert](contenido/seccion07/clase5.md)
     * [Excepciones integradas](contenido/seccion07/clase6.md)

@@ -29,7 +29,7 @@ ZeroDivisionError
 
 Este orden jerárquico permite manejar excepciones de forma flexible: podemos capturar excepciones específicas o más generales dependiendo de lo que necesitemos.
 
-## Ejemplo 
+## Ejemplo básico de jerarquía de excepciones
 
 Veamos cómo funciona la jerarquía de excepciones en Python con un ejemplo simple.
 
@@ -68,6 +68,8 @@ print("FIN.")
 * **No es necesario especificar exactamente la excepción**, es suficiente que la excepción manejada sea más general (abstracta) que la generada.
 
 Esto demuestra la flexibilidad del manejo de excepciones en Python, permitiendo capturar errores específicos o más amplios según las necesidades del programa.
+
+## Ejemplo con captura de varias excepciones
 
 Hagamos una modificación al código:
 ```

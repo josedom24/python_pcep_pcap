@@ -8,11 +8,11 @@ La clave para manejar excepciones en Python está en la palabra reservada `try`.
 Aunque puede parecer más lógico verificar primero las circunstancias antes de realizar cualquier acción, como se muestra en el siguiente ejemplo:
 
 ```
-first_number = int(input("Ingresa el primer número: "))
-second_number = int(input("Ingresa el segundo número: "))
+numero1 = int(input("Ingresa el primer número: "))
+numero2 = int(input("Ingresa el segundo número: "))
 
-if second_number != 0:
-    print(first_number / second_number)
+if numero2 != 0:
+    print(numero1 / numero2)
 else:
     print("Esta operación no puede ser realizada.")
 
@@ -67,6 +67,7 @@ Por ejemplo, considera el siguiente código:
 try:
     x = int(input("Ingresa un número: "))
     y = 1 / x
+    print (y)
 except:
     print("Oh cielos, algo salió mal...")
 ```
@@ -86,6 +87,7 @@ Hay dos formas de abordar este problema:
 try:
     x = int(input("Ingresa un número: "))
     y = 1 / x
+    print (y)
 except ValueError:
     print("Error: Datos no válidos, ingresa un número entero.")
 except ZeroDivisionError:
