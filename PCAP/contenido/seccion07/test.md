@@ -16,8 +16,8 @@
 
     * [ ] Se pueden emplear múltiples bloques `except:` para manejar múltiples excepciones provenientes del mismo bloque `try:`
     * [ ] No se pueden emplear múltiples bloques `except:` para manejar múltiples excepciones provenientes del mismo bloque `try:`
-    * [ ] Diferentes bloques `exception:` deben tener nombres de excepción únicos
-    * [ ] Diferentes bloques `exception:` pueden tener nombres de excepción únicos
+    * [ ] Diferentes bloques `except:` deben tener nombres de excepción únicos
+    * [ ] Diferentes bloques `except:` pueden tener nombres de excepción únicos
 
 4. Cuando ocurre una excepción, decimos que ha sido:
 
