@@ -21,7 +21,7 @@ Vamos a añadir nueva funcionalidades a la nueva clase: debe calcular la suma de
 * El método `push` no solo debe insertar un valor en la pila, sino que también lo debe sumar al nuevo atributo `sum`. 
 * El método `pop` debería restar el valor extraído de esta variable.
 
-## Añadiendo un nua nueva propiedad privada
+## Añadiendo una nueva propiedad privada
 
 Para lograr esto, comenzaremos por añadir un atributo privado en la nueva clase. Este atributo, llamado `__sum`, almacenará el total de todos los valores de la pila. La implementación del constructor (`__init__`) de la subclase se verá así:
 
