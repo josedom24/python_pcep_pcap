@@ -1,6 +1,6 @@
 # Programación orientada a objetos en Python
 
-Para crear una clase en PPython vamos a usar la palabra clave `class`. Veamos un ejemplo sencillo creando una clase que no hace nada:
+Para crear una clase en Python vamos a usar la palabra clave `class`. Veamos un ejemplo sencillo creando una clase que no hace nada:
 
 ```
 class MiClase():
@@ -14,7 +14,7 @@ objeto1 = MiClase()
 objeto2 = MiClase()
 ```
 
-Realmente podemos pensar que cuando definimos una clase estamos creando un nuevo tipo de datos, y cuando creamos un ovjeto estamos creandoo una variable de ese nuevo tipo de datos:
+Realmente podemos pensar que cuando definimos una clase estamos creando un nuevo tipo de datos, y cuando creamos un ovjeto estamos creando una variable de ese nuevo tipo de datos:
 
 ```
 type(objeto1)
@@ -31,7 +31,7 @@ Como hemos visto anteriormente los atributos de objetos no se crean hasta que no
 
 ## Definiendo métodos. El parámetro self
 
-El método construcutor, al igual que todos los métodos de cualquier clase, recibe como primer parámetro a la instancia sobre la que está trabajando. Por convención a ese primer parámetro se lo suele llamar `self` (que podríamos traducir como yo mismo), pero puede llamarse de cualquier forma.
+El método constructor, al igual que todos los métodos de cualquier clase, recibe como primer parámetro a la instancia sobre la que está trabajando. Por convención a ese primer parámetro se lo suele llamar `self` (que podríamos traducir como yo mismo), pero puede llamarse de cualquier forma.
 
 Para referirse a los atributos de objetos hay que hacerlo a partir del objeto `self`.
 
@@ -47,7 +47,7 @@ class Coche:
 
     def describir(self):
         # Método que imprime una descripción del coche
-        return f"Coche: {self.marca} {self.modelo}"
+        return "Coche: " + self.marca+ " " +self.modelo
 
 # Crear un objeto de la clase Coche
 mi_coche = Coche("Toyota", "Corolla")
@@ -67,25 +67,25 @@ print(mi_coche.describir())  # Salida: Coche: Toyota Corolla
 La herencia permite que una clase (subclase) herede atributos y métodos de otra clase (superclase). Aquí tienes un ejemplo de herencia:
 
 ```
-class ElectricCoche(Coche):  # ElectricCoche hereda de Coche
+class CocheElectrico(Coche):  # CocheElectrico hereda de Coche
     def __init__(self, marca, modelo, autonomia):
         super().__init__(marca, modelo)  # Llamar al constructor de la superclase
         self.autonomia = autonomia  # Atributo adicional
 
     def describir(self):
         # Método que incluye la autonomía en la descripción
-        return f"Coche eléctrico: {self.marca} {self.modelo}, Autonomía: {self.autonomia} km"
+        return "Coche eléctrico: "+ self.marca + " " + self.modelo +", Autonomía: " + self.autonomia + " km"
 
-# Crear un objeto de la clase ElectricCoche
-mi_coche_electrico = ElectricCoche("Tesla", "Model S", 500)
+# Crear un objeto de la clase CocheElectrico
+mi_coche_electrico = CocheElectrico("Tesla", "Model S", 500)
 
 # Usar el método del objeto
 print(mi_coche_electrico.describir())  # Salida: Coche eléctrico: Tesla Model S, Autonomía: 500 km
 ```
 
-* **Clase `ElectricCoche`**: Hereda de la clase `Coche`.
-* **Uso de `super()`**: Dentro del constructor de `ElectricCoche`, se llama al constructor de `Coche` para inicializar los atributos `marca` y `modelo`.
-* **Atributo `autonomia`**: Es un atributo adicional específico de la clase `ElectricCoche`.
+* **Clase `CocheElectrico`**: Hereda de la clase `Coche`.
+* **Uso de `super()`**: Dentro del constructor de `CocheElectrico`, se llama al constructor de `Coche` para inicializar los atributos `marca` y `modelo`.
+* **Atributo `autonomia`**: Es un atributo adicional específico de la clase `CocheElectrico`.
 * **Método `describir`**: Se sobrescribe para incluir información sobre la autonomía del coche eléctrico.
 
 Para terminar indicar que en  Python cualquier elemento del lenguaje pertenece a una clase y todas las clases tienen el mismo rango y se utilizan del mismo modo.

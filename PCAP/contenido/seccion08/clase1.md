@@ -62,25 +62,3 @@ Así, `miPerro` es un objeto que tiene las características definidas por la cla
 * La clase `Mamifero` puede heredar el método `hacerSonido()` de `Animal` y también puede tener su propio método, como `darLeche()`, específico de los mamíferos.
 * Cuando creas un objeto de la clase `Mamifero`, como `miGato`, este objeto tendrá todos los atributos y métodos de la clase `Animal`, pero también tendrá los métodos específicos de la clase `Mamifero`.
 
-
-
-
-
-
-### Ejemplo de Clase y Objeto
-
-Para entender cómo se crean y utilizan clases y objetos, veamos un ejemplo básico en Python:
-
-```
-class TheSimplestClass:
-    pass
-
-my_first_object = TheSimplestClass()
-```
-
-En este código, hemos definido una clase vacía llamada `TheSimplestClass`. Luego, hemos creado un objeto `my_first_object` a partir de esa clase. Este objeto es una instancia de la clase, aunque la clase no contiene ningún atributo ni método.
-
-
-
-
-

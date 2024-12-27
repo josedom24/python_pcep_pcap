@@ -20,7 +20,7 @@ Debemos tener en cuenta a la hora de crear el constructor:
 
 Este enfoque nos permite encapsular la estructura y comportamiento de la pila dentro de una clase, ocultando los detalles de implementación y manteniendo el control sobre las interacciones con la pila.
 
-Para implementar nuestra calse `Stack` vamos a añadir una propiedad llamada `stack_list` dentro del constructor, que se inicializa como una lista vacía. Esto permite que cada objeto de la clase `Stack` tenga su propia lista donde se almacenarán los elementos de la pila:
+Para implementar nuestra clase `Stack` vamos a añadir una propiedad llamada `stack_list` dentro del constructor, que se inicializa como una lista vacía. Esto permite que cada objeto de la clase `Stack` tenga su propia lista donde se almacenarán los elementos de la pila:
 
 ```
 class Stack:
