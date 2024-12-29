@@ -20,9 +20,7 @@ La Programación Orientado a Objetos (POO) se basa en la agrupación de objetos 
 
 ## Ejemplo de clase y objetos
 
-Claro, aquí tienes un ejemplo claro de clase y objeto en la Programación Orientada a Objetos (POO), junto con los conceptos de jerarquía de clases y herencia.
-
-### Ejemplo: Sistema de Animales
+Veamos un ejemplo donde queremos representar animales:
 
 **Clase**: Imagina que tienes una clase llamada `Animal`. Esta clase define las características y comportamientos generales que comparten todos los animales. En términos de POO, una clase es un **plantilla** que describe cómo debe ser un objeto.
 
