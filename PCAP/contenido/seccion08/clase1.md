@@ -40,7 +40,7 @@ Veamos un ejemplo donde queremos representar animales:
 
 Así, `miPerro` es un objeto que tiene las características definidas por la clase `Animal` y puede ejecutar el método `hacerSonido()`.
 
-## Jerarquía de Clases y Herencia
+## Jerarquía de clases y herencia
 
 **Jerarquía de clases**: En POO, las clases están organizadas en jerarquías, donde algunas clases son más específicas que otras. Por ejemplo:
 
