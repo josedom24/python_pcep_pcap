@@ -2,16 +2,13 @@
 
 La programación orientada a objetos (POO) es un enfoque de desarrollo de software que difiere del tradicional estilo de programación procedimental. 
 
-* **Programación procedimental**: Separa los datos y las funciones en mundos distintos.
-* **Programación orientada a objetos**: Combina los datos y las funciones en una sola entidad llamada **objeto**. Este enfoque es particularmente útil para proyectos grandes y complejos, ya que permite estructurar y organizar el código de manera más eficiente.
-
 La Programación Orientado a Objetos (POO) se basa en la agrupación de objetos de distintas clases que interactúan entre sí y que, en conjunto, consiguen que un programa cumpla su propósito.
 
 ## Enfoque Procedimental vs. Enfoque Orientado a Objetos
 
-En el enfoque procedimental, los datos y el código están separados: las variables representan datos y las funciones ejecutan acciones sobre esos datos. Sin embargo, las funciones pueden acceder a cualquier dato, lo que puede generar problemas si no se gestiona adecuadamente. Por ejemplo, una función diseñada para calcular el seno puede recibir como parámetro algo inapropiado, como el saldo de una cuenta bancaria.
+* **Programación procedimental**: Los datos y el código están separados: las variables representan datos y las funciones ejecutan acciones sobre esos datos. Sin embargo, las funciones pueden acceder a cualquier dato, lo que puede generar problemas si no se gestiona adecuadamente. Por ejemplo, una función diseñada para calcular el seno puede recibir como parámetro algo inapropiado, como el saldo de una cuenta bancaria.
 
-Por otro lado, la programación orientada a objetos une los datos y las funciones que los manipulan dentro de una misma entidad, el **objeto**. Estos objetos son instancias de **clases**, que funcionan como plantillas o recetas para crear los objetos. Los objetos tienen **atributos (propiedades)** y **métodos (funciones específicas que pueden ejecutar)**.
+* **Programación orientada a objetos**: Los datos y las funciones que los manipulan dentro de una misma entidad, el **objeto**. Estos objetos son instancias de **clases**, que funcionan como plantillas o recetas para crear los objetos. Los objetos tienen **atributos (propiedades)** y **métodos (funciones específicas que pueden ejecutar)**.
 
 ## Definición de clase, objeto, atributos y métodos
 
