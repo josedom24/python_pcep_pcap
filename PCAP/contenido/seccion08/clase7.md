@@ -59,8 +59,8 @@ print(stk.get_counter())
 
 Sigue las sugerencias:
 
-* Introduce una propiedad diseñada para contar las operaciones pop y nombrarla de una manera que garantice que esté oculta.
-* Inicializala a cero dentro del constructor.
-* Proporciona un método que devuelva el valor asignado actualmente al contador (nómbralo get_counter()).
+* Introduce una propiedad diseñada para contar las operaciones `pop` y nombrarla de una manera que garantice que esté oculta.
+* Inicialízala a cero dentro del constructor.
+* Proporciona un método que devuelva el valor asignado actualmente al contador (nómbralo `get_counter()`).
 
 Completa el código en el editor. Ejecútalo para comprobar si tu código da como salida 100.
