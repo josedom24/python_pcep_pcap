@@ -64,9 +64,9 @@
     * [Pila: Programación orientada a objetos](contenido/seccion08/clase4.md)
     * [Pila: Creación de varios objetos](contenido/seccion08/clase5.md)
     * [Pila: Herencia de clases](contenido/seccion08/clase6.md)
-    * [LABORATORIO: Pila Contadora](contenido/seccion08/clase7.md)
-    * [LABORATORIO: Colas alias FIFO](contenido/seccion08/clase8.md)
-    * [LABORATORIO: Colas alias FIFO: parte 2](contenido/seccion08/clase9.md)
+    * [LABORATORIO: Pila Contadora (P))](contenido/seccion08/clase7.md)
+    * [LABORATORIO: Colas alias FIFO (P)](contenido/seccion08/clase8.md)
+    * [LABORATORIO: Colas alias FIFO: parte 2 (P)](contenido/seccion08/clase9.md)
 9. Propiedades y métodos
     * [Propiedades de instancia](contenido/seccion09/clase1.md)
     * [Propiedades de clase](contenido/seccion09/clase2.md)

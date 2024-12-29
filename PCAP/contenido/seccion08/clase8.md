@@ -19,7 +19,7 @@ Como ya sabes, una pila es una estructura de datos que realiza el modelo LIFO (�
 
 Probemos algo nuevo ahora. Una **cola (queue)** es un modelo de datos caracterizado por el término **FIFO: primero en entrar, primero en salir**. Nota: una cola (fila) regular que conozcas de las tiendas u oficinas de correos funciona exactamente de la misma manera: un cliente que llegó primero también es el primero en ser atendido.
 
-Tu tarea es implementar la clase Queue con dos operaciones básicas:
+Tu tarea es implementar la clase `Queue` con dos operaciones básicas:
 
 * `put(elemento)`, que coloca un elemento al final de la cola.
 * `get()`, que toma un elemento del principio de la cola y lo devuelve como resultado (la cola no puede estar vacía para realizarlo correctamente). 
