@@ -35,7 +35,7 @@ print(len(stack_object.stack_list))  # Output: 0
 ```
 
 * Usamos **notación punteada** para acceder a las propiedades del objeto. En este caso, `stack_list` se accede con `stack_object.stack_list`, lo que imprime la longitud actual de la lista (0 en este caso, ya que la lista está vacía al crear la pila).
-* Normalmente que remos ocultar las propiedades. No queremos que los usuarios puedan acceder directamente a `stack_list`. En Python, podemos ocultar (o "privatizar") una propiedad añadiendo **dos guiones bajos** (`__`) antes del nombre de la propiedad. Esto le indica al intérprete de Python que la propiedad no debería ser accesible directamente desde fuera de la clase.
+* Normalmente queremos ocultar las propiedades. No queremos que los usuarios puedan acceder directamente a `stack_list`. En Python, podemos ocultar (o "privatizar") una propiedad añadiendo **dos guiones bajos** (`__`) antes del nombre de la propiedad. Esto le indica al intérprete de Python que la propiedad no debería ser accesible directamente desde fuera de la clase.
 
 Modifiquemos la clase para ocultar la propiedad:
 

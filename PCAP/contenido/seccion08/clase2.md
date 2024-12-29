@@ -74,7 +74,7 @@ class CocheElectrico(Coche):  # CocheElectrico hereda de Coche
 
     def describir(self):
         # Método que incluye la autonomía en la descripción
-        return "Coche eléctrico: "+ self.marca + " " + self.modelo +", Autonomía: " + self.autonomia + " km"
+        return "Coche eléctrico: "+ self.marca + " " + self.modelo +", Autonomía: " + str(self.autonomia) + " km"
 
 # Crear un objeto de la clase CocheElectrico
 mi_coche_electrico = CocheElectrico("Tesla", "Model S", 500)
