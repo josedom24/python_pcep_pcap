@@ -62,7 +62,7 @@
     * [Programación orientada a objetos en Python](contenido/seccion08/clase2.md)
     * [Pila: Enfoque procedimental](contenido/seccion08/clase3.md)
     * [Pila: Programación orientada a objetos](contenido/seccion08/clase4.md)
-    * [Pila: Uno de nuestra clase](contenido/seccion08/clase5.md)
+    * [Pila: Creación de varios objetos](contenido/seccion08/clase5.md)
     * [Pila: Herencia de clases](contenido/seccion08/clase6.md)
     * [LABORATORIO: Pila Contadora](contenido/seccion08/clase7.md)
     * [LABORATORIO: Colas alias FIFO](contenido/seccion08/clase8.md)

@@ -83,3 +83,27 @@ class Stack:
 * **pop(self)**: Este método obtiene y elimina el último valor de la lista, que corresponde al valor en la parte superior de la pila. Para acceder al último valor, usamos `self.__stack_list[-1]`, que es la sintaxis para obtener el último elemento de una lista. Luego, lo eliminamos con `del self.__stack_list[-1]` y retornamos el valor.
 * **`self` es esencial**: Como en el constructor, todos los métodos de la clase deben tener `self` como el primer parámetro. Este parámetro se utiliza para acceder a las propiedades y otros métodos del objeto.
   * Cuando invocas un método, Python pasa implícitamente el objeto actual como el primer argumento. Esto es lo que permite que el método acceda a `self.__stack_list` y otras propiedades del objeto.
+
+## Ejemplo de uso de la pila
+
+Aquí creamos un objeto de la clase `Stack` y usamos los métodos `push` y `pop` para interactuar con la pila:
+
+```
+mipila = Stack()
+
+# Agregamos elementos a la pila
+mipila.push(3)
+mipila.push(2)
+mipila.push(1)
+
+# Quitamos y mostramos los elementos de la pila
+print(mipila.pop())  # Output: 1
+print(mipila.pop())  # Output: 2
+print(mipila.pop())  # Output: 3
+```
+
+Cuando invocamos `mipila.push(3)`, el proceso interno es el siguiente:
+1. Python envía implícitamente el objeto `mipila` como el argumento `self` al método `push`.
+2. Dentro de `push`, `self.__stack_list.append(val)` añade el valor `3` a la lista privada `__stack_list`.
+
+De manera similar, el método `pop` quita el último valor de la lista y lo retorna.

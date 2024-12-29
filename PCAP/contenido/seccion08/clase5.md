@@ -1,31 +1,4 @@
-# Pila: Uno de nuestra clase
-
-## Ejemplo de uso de la pila
-
-Aquí creamos un objeto de la clase `Stack` y usamos los métodos `push` y `pop` para interactuar con la pila:
-
-```
-stack_object = Stack()
-
-# Agregamos elementos a la pila
-stack_object.push(3)
-stack_object.push(2)
-stack_object.push(1)
-
-# Quitamos y mostramos los elementos de la pila
-print(stack_object.pop())  # Output: 1
-print(stack_object.pop())  # Output: 2
-print(stack_object.pop())  # Output: 3
-```
-
-Cuando invocamos `stack_object.push(3)`, el proceso interno es el siguiente:
-1. Python envía implícitamente el objeto `stack_object` como el argumento `self` al método `push`.
-2. Dentro de `push`, `self.__stack_list.append(val)` añade el valor `3` a la lista privada `__stack_list`.
-
-De manera similar, el método `pop` quita el último valor de la lista y lo retorna.
-
-
-## Creación de varios objetos pila
+# Pila: Creación de varios objetos
 
 Ahora puedes hacer que más de una pila se comporte de la misma manera. Cada pila tendrá su propia copia de datos privados, pero utilizará el mismo conjunto de métodos. 
 
