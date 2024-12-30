@@ -8,12 +8,12 @@ En Python, un **método** es una función que está definida dentro de una clase
     Ejemplo:
 
     ```
-    class Classy:
-        def method(self):
+    class Clase:
+        def metodo(self):
             print("método")
 
-    obj = Classy()
-    obj.method()  # Se invoca el método sin pasar self
+    obj = Clase()
+    obj.metodo()  # Se invoca el método sin pasar self
     ```
 
 3. Si deseas que un método acepte otros parámetros además de `self`, estos se colocan después de `self` en la definición. Al invocar el método, se deben pasar estos argumentos, pero **sin** especificar `self` (Python se encarga de pasarlo por ti).
@@ -21,14 +21,14 @@ En Python, un **método** es una función que está definida dentro de una clase
     Ejemplo:
 
     ```
-    class Classy:
-        def method(self, par):
+    class Clase:
+        def metodo(self, par):
             print("método:", par)
 
-    obj = Classy()
-    obj.method(1)
-    obj.method(2)
-    obj.method(3)
+    obj = Clase()
+    obj.metodo(1)
+    obj.metodo(2)
+    obj.metodo(3)
     ```
 
 ## Más sobre el parámetro self
@@ -41,15 +41,15 @@ En Python, el parámetro `self` dentro de los métodos de una clase tiene un pap
 El parámetro `self` permite acceder a las variables de clase (que son compartidas por todas las instancias de la clase) y a las variables de instancia (que son únicas para cada objeto). A continuación, un ejemplo que muestra cómo se utiliza `self` para acceder a ambas:
 
 ```
-class Classy:
+class Clase:
     varia = 2  # Variable de clase
 
-    def method(self):
+    def metodo(self):
         print(self.varia, self.var)  # Acceso a variable de clase e instancia
 
-obj = Classy()
+obj = Clase()
 obj.var = 3  # Variable de instancia asignada a este objeto
-obj.method()  # Invocamos el método que accede a ambas variables
+obj.metodo()  # Invocamos el método que accede a ambas variables
 ```
 
 * `self.varia` accede a la **variable de clase** `varia`, que es igual a `2`.
@@ -62,19 +62,19 @@ El parámetro `self` también permite invocar otros métodos de la misma clase. 
 Ejemplo:
 
 ```
-class Classy:
-    def other(self):
+class Clase:
+    def otro_metodo(self):
         print("otro")  # Otro método dentro de la clase
 
-    def method(self):
+    def metodo(self):
         print("método")
-        self.other()  # Invoca el método 'other' usando self
+        self.otro_metodo()  # Invoca el método 'otro_metodo' usando self
 
-obj = Classy()
-obj.method()
+obj = Clase()
+obj.metodo()
 ```
 
-En este ejemplo, cuando se invoca `obj.method()`, este método a su vez llama al método `other()` usando `self.other()`. Esto demuestra cómo `self` permite que los métodos dentro de una clase se comuniquen entre sí.
+En este ejemplo, cuando se invoca `obj.metodo()`, este método a su vez llama al método `otro_metodo()` usando `self.otro_metodo()`. Esto demuestra cómo `self` permite que los métodos dentro de una clase se comuniquen entre sí.
 
 ## El método constructor
 
@@ -89,15 +89,15 @@ El constructor `__init__` tiene como objetivo **inicializar** el objeto cuando s
 Veamos un ejemplo, donde el constructor `__init__` toma un parámetro adicional llamado `value` y lo utiliza para inicializar una variable de instancia `var`:
 
 ```
-class Classy:
+class Clase:
     def __init__(self, value):
         self.var = value  # Inicializa la variable de instancia
 
-obj_1 = Classy("objeto")  # Crea un objeto con el valor "objeto"
-print(obj_1.var)  # Imprime el valor de la variable de instancia
+objeto_1 = Clase("objeto")  # Crea un objeto con el valor "objeto"
+print(objeto_1.var)  # Imprime el valor de la variable de instancia
 ```
 
-* Cuando se crea un objeto con la sintaxis `obj_1 = Classy("objeto")`, Python automáticamente llama al método `__init__` para inicializar el objeto `obj_1`. En este caso, el valor `"objeto"` es pasado como argumento al constructor, que lo asigna a la variable de instancia `self.var`.
+* Cuando se crea un objeto con la sintaxis `objeto_1 = Clase("objeto")`, Python automáticamente llama al método `__init__` para inicializar el objeto `objeto_1`. En este caso, el valor `"objeto"` es pasado como argumento al constructor, que lo asigna a la variable de instancia `self.var`.
 * No es posible invocar directamente el método `__init__` desde un objeto. Este método se llama solo al momento de la creación del objeto. Sin embargo, puedes invocar el constructor de una superclase cuando estás trabajando con herencia (este tema será tratado en detalle más adelante).
 
 ## Métodos con valores por defecto
@@ -106,16 +106,16 @@ Como __init__ es un método, y un método es una función, puedes hacer los mism
 Por ejemplo podemos tener parámetros con valores por defecto:
 
 ```
-class Classy:
+class Clase:
     def __init__(self, value = None):
         self.var = value
 
 
-obj_1 = Classy("objeto")
-obj_2 = Classy()
+objeto_1 = Clase("objeto")
+objeto_2 = Clase()
 
-print(obj_1.var)
-print(obj_2.var)
+print(objeto_1.var)
+print(objeto_2.var)
 ```
 
 ## Métodos ocultos
@@ -123,21 +123,21 @@ print(obj_2.var)
 Podemos tener métodos ocultos un método, para ello su nombre debe comenzar con `__`. El ejemplo muestra este efecto:
 
 ```
-class Classy:
+class Clase:
     def visible(self):
         print("visible")
     
-    def __hidden(self):
+    def __oculto(self):
         print("oculto")
 
 
-obj = Classy()
+obj = Clase()
 obj.visible()
 
 try:
-    obj.__hidden()
+    obj.__oculto()
 except:
     print("fallido")
 
-obj._Classy__hidden()
+obj._Clase__oculto()
 ```
