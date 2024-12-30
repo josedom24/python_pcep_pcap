@@ -7,22 +7,22 @@ Cada clase y objeto de Python tiene por defecto una serie de propiedades. Ya hem
 `__dict__` es un diccionario que contiene las propiedades y sus valores de las clases y los objetos. Ejemplo:
 
 ```
-class Classy:
+class Clase:
     varia = 1
     def __init__(self):
         self.var = 2
 
-    def method(self):
+    def metodo(self):
         pass
 
-    def __hidden(self):
+    def __oculto(self):
         pass
 
 
-obj = Classy()
+objeto = Clase()
 
-print(obj.__dict__)
-print(Classy.__dict__)
+print(objeto.__dict__)
+print(Clase.__dict__)
 ```
 
 ## `__name__`
@@ -34,13 +34,13 @@ Si deseas encontrar la clase de un objeto en particular, puedes usar una funció
 Ejemplo:
 
 ```
-class Classy:
+class Clase:
     pass
 
 
-print(Classy.__name__)
-obj = Classy()
-print(type(obj).__name__)
+print(Clase.__name__)
+objeto = Clase()
+print(type(objeto).__name__)
 ```
 
 ## `__module__`
@@ -48,13 +48,13 @@ print(type(obj).__name__)
 `__module__` es una cadena, **almacena el nombre del módulo que contiene la definición de la clase**. Ejemplo:
 
 ```
-class Classy:
+class Clase:
     pass
 
 
-print(Classy.__module__)
-obj = Classy()
-print(obj.__module__)
+print(Clase.__module__)
+objeto = Clase()
+print(objeto.__module__)
 ```
 
 Como sabes, cualquier módulo llamado `__main__` en realidad no es un módulo, sino es el archivo actualmente en ejecución.
@@ -66,28 +66,28 @@ Como sabes, cualquier módulo llamado `__main__` en realidad no es un módulo, s
 Hemos definido una función llamada printBases(), diseñada para presentar claramente el contenido de la tupla:
 
 ```
-class SuperOne:
+class SuperUno:
     pass
 
 
-class SuperTwo:
+class SuperDos:
     pass
 
 
-class Sub(SuperOne, SuperTwo):
+class Sub(SuperUno, SuperDos):
     pass
 
 
-def printBases(cls):
+def printBases(clase):
     print('( ', end='')
 
-    for x in cls.__bases__:
+    for x in clase.__bases__:
         print(x.__name__, end=' ')
     print(')')
 
 
-printBases(SuperOne)
-printBases(SuperTwo)
+printBases(SuperUno)
+printBases(SuperDos)
 printBases(Sub)
 ```
 
@@ -96,7 +96,7 @@ La salida será:
 ```
 ( object )
 ( object )
-( SuperOne SuperTwo )
+( SuperUno SuperDos )
 ```
 
 Una clase sin superclases explícitas apunta a `object` (una clase de Python predefinida) como su antecesor directo.
