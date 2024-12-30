@@ -86,7 +86,7 @@
     * [Trabajando con propiedades y métodos heredados](contenido/seccion10/clase4.md)
     * [Herencia múltiple](contenido/seccion10/clase5.md)
     * [Polimorfismo](contenido/seccion10/clase6.md)
-    * [Cómo construir una jerarquía de clases](contenido/seccion10/clase7.md)
+    * [Cómo construir una jerarquía de clases (P)](contenido/seccion10/clase7.md)
     * [Composición](contenido/seccion10/clase8.md)
     * [Herencia simple frente a herencia múltiple](contenido/seccion10/clase9.md)
 11. Las excepciones en profundidad
