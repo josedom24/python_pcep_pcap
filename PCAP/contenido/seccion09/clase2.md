@@ -7,74 +7,74 @@ Las **variables de clase** son un concepto fundamental en la programación orien
 Una variable de clase se define dentro de la clase pero fuera de cualquier método. Por ejemplo:
 
 ```
-class ExampleClass:
-    counter = 0  # Variable de clase
+class ClaseEjemplo:
+    contador = 0  # Variable de clase
 
     def __init__(self, val=1):
-        self.__first = val
-        ExampleClass.counter += 1  # Incrementa el contador en cada instancia creada
+        self.__propiedad1 = val
+        ClaseEjemplo.contador += 1  # Incrementa el contador en cada instancia creada
 ```
 
-En este caso, `counter` se inicializa en 0 y se incrementa cada vez que se crea una nueva instancia de `ExampleClass`.
+En este caso, `contador` se inicializa en 0 y se incrementa cada vez que se crea una nueva instancia de `ClaseEjemplo`.
 
 Veamos cómo se comportan las variables de clase con el siguiente código:
 
 ```
-example_object_1 = ExampleClass()
-example_object_2 = ExampleClass(2)
-example_object_3 = ExampleClass(4)
+objeto1 = ClaseEjemplo()
+objeto2 = ClaseEjemplo(2)
+objeto3 = ClaseEjemplo(4)
 
-print(example_object_1.__dict__, example_object_1.counter)
-print(example_object_2.__dict__, example_object_2.counter)
-print(example_object_3.__dict__, example_object_3.counter)
+print(objeto1.__dict__, objeto1.contador)
+print(objeto2.__dict__, objeto2.contador)
+print(objeto3.__dict__, objeto3.contador)
 ```
 
 Al ejecutar el código, la salida es la siguiente:
 
 ```
-{'_ExampleClass__first': 1} 3
-{'_ExampleClass__first': 2} 3
-{'_ExampleClass__first': 4} 3
+{'_ClaseEjemplo__propiedad1': 1} 3
+{'_ClaseEjemplo__propiedad1': 2} 3
+{'_ClaseEjemplo__propiedad1': 4} 3
 ```
 
-* **Visibilidad de variables**: Las variables de clase, como `counter`, no aparecen en el diccionario `__dict__` de los objetos. Esto es natural, ya que estas variables no son propiedades del objeto en sí, sino de la clase. Sin embargo, aún puedes acceder a ellas a través del nombre de la clase, como `ExampleClass.counter`.
-* **Valor compartido**:  La variable de clase `counter` presenta el mismo valor en todas las instancias de la clase. En este caso, cada vez que se crea un nuevo objeto, `counter` se incrementa, reflejando el total de instancias creadas hasta el momento.
+* **Visibilidad de variables**: Las variables de clase, como `contador`, no aparecen en el diccionario `__dict__` de los objetos. Esto es natural, ya que estas variables no son propiedades del objeto en sí, sino de la clase. Sin embargo, aún puedes acceder a ellas a través del nombre de la clase, como `ClaseEjemplo.contador`.
+* **Valor compartido**:  La variable de clase `contador` presenta el mismo valor en todas las instancias de la clase. En este caso, cada vez que se crea un nuevo objeto, `contador` se incrementa, reflejando el total de instancias creadas hasta el momento.
 
 
-## Variables de clases privadas
+## Variables privadas de clases
 
 ```
-class ExampleClass:
-    __counter = 0
+class ClaseEjemplo:
+    __contador = 0
     def __init__(self, val = 1):
-        self.__first = val
-        ExampleClass.__counter += 1
+        self.__propiedad1 = val
+        ClaseEjemplo.__contador += 1
 
 
-example_object_1 = ExampleClass()
-example_object_2 = ExampleClass(2)
-example_object_3 = ExampleClass(4)
+objeto1 = ClaseEjemplo()
+objeto2 = ClaseEjemplo(2)
+objeto3 = ClaseEjemplo(4)
 
-print(example_object_1.__dict__, example_object_1._ExampleClass__counter)
-print(example_object_2.__dict__, example_object_2._ExampleClass__counter)
-print(example_object_3.__dict__, example_object_3._ExampleClass__counter)
+print(objeto1.__dict__, objeto1._ClaseEjemplo__contador)
+print(objeto2.__dict__, objeto2._ClaseEjemplo__contador)
+print(objeto3.__dict__, objeto3._ClaseEjemplo__contador)
 ```
 
-En este ejemplo hemos nombrado la variable de clase con dos guiones bajos (`__`) indicando que es privada. Esto significa que la variable `__counter` de la clase es renombrada internamente como `_ExampleClass__counter`. Así, aunque no es accesible directamente como `__counter`, podemos acceder a ella a través de su nombre alterado: `_ExampleClass__counter`.
+En este ejemplo hemos nombrado la variable de clase con dos guiones bajos (`__`) indicando que es privada. Esto significa que la variable `__contador` de la clase es renombrada internamente como `_ClaseEjemplo__contador`. Así, aunque no es accesible directamente como `__contador`, podemos acceder a ella a través de su nombre alterado: `_ClaseEjemplo__contador`.
 
 Analizando el código:
 
-* La variable de clase `__counter` es incrementada cada vez que se crea una nueva instancia de la clase `ExampleClass`.
-* En el constructor, el atributo `__first` es asignado a cada instancia con el valor proporcionado.
-* Cada instancia (`example_object_1`, `example_object_2`, `example_object_3`) tendrá su propio valor de `__first` almacenado en el diccionario (`__dict__`).
-* El valor de `__counter` será incrementado con cada instancia creada, alcanzando un valor de `3` al final.
+* La variable de clase `__contador` es incrementada cada vez que se crea una nueva instancia de la clase `ClaseEjemplo`.
+* En el constructor, el atributo `__propiedad1` es asignado a cada instancia con el valor proporcionado.
+* Cada instancia (`objeto1`, `objeto2`, `objeto3`) tendrá su propio valor de `__propiedad1` almacenado en el diccionario (`__dict__`).
+* El valor de `__contador` será incrementado con cada instancia creada, alcanzando un valor de `3` al final.
 
 La salida esperada es:
 
 ```
-{'_ExampleClass__first': 1} 3
-{'_ExampleClass__first': 2} 3
-{'_ExampleClass__first': 4} 3
+{'_ClaseEjemplo__propiedad1': 1} 3
+{'_ClaseEjemplo__propiedad1': 2} 3
+{'_ClaseEjemplo__propiedad1': 4} 3
 ```
 
 ## Existencia de las variables de clase
@@ -84,38 +84,38 @@ En Python, las **variables de clase** existen incluso cuando no se ha creado nin
 Veamos un ejemplo:
 
 ```
-class ExampleClass:
+class ClaseEjemplo:
     varia = 1  # Variable de clase
 
     def __init__(self, val):
-        ExampleClass.varia = val  # Modificación de la variable de clase
+        ClaseEjemplo.varia = val  # Modificación de la variable de clase
 
 # Imprime el diccionario de atributos de la clase antes de crear una instancia
-print(ExampleClass.__dict__)
+print(ClaseEjemplo.__dict__)
 
 # Crea una instancia de la clase
-example_object = ExampleClass(2)
+objeto = ClaseEjemplo(2)
 
 # Imprime el diccionario de atributos de la clase después de crear una instancia
-print(ExampleClass.__dict__)
+print(ClaseEjemplo.__dict__)
 
 # Imprime el diccionario de atributos del objeto
-print(example_object.__dict__)
+print(objeto.__dict__)
 ```
 
-* La clase `ExampleClass` tiene una variable de clase `varia` inicializada con el valor `1`.
-* En el constructor (`__init__`), en lugar de asignar `self.varia = val` (lo que crearía una variable de instancia), se modifica la variable de clase utilizando `ExampleClass.varia = val`. Esto afecta a la variable de clase compartida por todas las instancias.
-* **Antes de crear una instancia**, cuando imprimimos `ExampleClass.__dict__`, veremos algo como:
+* La clase `ClaseEjemplo` tiene una variable de clase `varia` inicializada con el valor `1`.
+* En el constructor (`__init__`), en lugar de asignar `self.varia = val` (lo que crearía una variable de instancia), se modifica la variable de clase utilizando `ClaseEjemplo.varia = val`. Esto afecta a la variable de clase compartida por todas las instancias.
+* **Antes de crear una instancia**, cuando imprimimos `ClaseEjemplo.__dict__`, veremos algo como:
     ```
-    {'varia': 1, '__module__': '__main__', '__init__': <function ExampleClass.__init__>, ...}
+    {'varia': 1, '__module__': '__main__', '__init__': <function ClaseEjemplo.__init__>, ...}
     ```
   Aquí `varia` tiene su valor inicial `1`.
 
-* **Después de crear una instancia**, se actualiza `ExampleClass.varia` al valor pasado al constructor, en este caso `2`. Si volvemos a imprimir `ExampleClass.__dict__`, veremos:
+* **Después de crear una instancia**, se actualiza `ClaseEjemplo.varia` al valor pasado al constructor, en este caso `2`. Si volvemos a imprimir `ClaseEjemplo.__dict__`, veremos:
     ```
-    {'varia': 2, '__module__': '__main__', '__init__': <function ExampleClass.__init__>, ...}
+    {'varia': 2, '__module__': '__main__', '__init__': <function ClaseEjemplo.__init__>, ...}
     ```
-* El diccionario `__dict__` de un objeto contiene solo sus atributos específicos de instancia. En este caso, como no hemos definido ninguna variable de instancia en `example_object`, su `__dict__` estará vacío:
+* El diccionario `__dict__` de un objeto contiene solo sus atributos específicos de instancia. En este caso, como no hemos definido ninguna variable de instancia en `objeto`, su `__dict__` estará vacío:
 
   ```
   {}
