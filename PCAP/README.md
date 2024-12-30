@@ -80,7 +80,7 @@
     * [LABORATORIO: Puntos en un plano (P)](contenido/seccion09/clase10.md)
     * [LABORATORIO: Triángulo (P)](contenido/seccion09/clase11.md)
 10. Herencia de clases
-    * [Herencia de clases en Python](contenido/seccion10/clase1.md)
+    * [Herencia de clases en Python (P)](contenido/seccion10/clase1.md)
     * [Relación entre superclase y subclase](contenido/seccion10/clase2.md)
     * [Relación entre objetos y clases](contenido/seccion10/clase3.md)
     * [Trabajando con propiedades y métodos heredados](contenido/seccion10/clase4.md)

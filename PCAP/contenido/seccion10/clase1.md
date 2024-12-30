@@ -11,21 +11,21 @@ Un aspecto crucial de la herencia es la relación entre las superclases y sus su
 Consideremos un ejemplo simple de herencia en Python:
 
 ```
-class Vehicle:
+class Vehiculo:
     pass
 
-class LandVehicle(Vehicle):
+class VehiculoTerrestre(Vehiculo):
     pass
 
-class TrackedVehicle(LandVehicle):
+class VehiculoOruga(VehiculoTerrestre):
     pass
 ```
 
 En este caso, las clases están vacías, pero ilustran la relación jerárquica:
 
-* `Vehicle` es la superclase de `LandVehicle` y `TrackedVehicle`.
-* `LandVehicle` es una subclase de `Vehicle` y, a su vez, la superclase de `TrackedVehicle`.
-* `TrackedVehicle` es una subclase tanto de `Vehicle` como de `LandVehicle`.
+* `Vehiculo` es la superclase de `VehiculoTerrestre` y `VehiculoOruga`.
+* `VehiculoTerrestre` es una subclase de `Vehiculo` y, a su vez, la superclase de `VehiculoOruga`.
+* `VehiculoOruga` es una subclase tanto de `Vehiculo` como de `VehiculoTerrestre`.
 
 Un interrogante natural que surge es: ¿sabe Python cómo gestionar estas relaciones de herencia? La respuesta es sí. Python ofrece mecanismos que permiten a los programadores indagar sobre la estructura de clases y sus relaciones, facilitando la comprensión y el uso de la herencia en sus aplicaciones.
 
