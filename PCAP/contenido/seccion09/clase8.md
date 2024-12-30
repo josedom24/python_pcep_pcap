@@ -16,14 +16,14 @@ Fácil/Medio
 
 ## Escenario
 
-Necesitamos una clase capaz de contar segundos. Tu clase se llamará `Timer` (temporizador en español). Su constructor acepta tres argumentos que representan horas (un valor del rango [0..23]; usaremos tiempo militar), minutos (del rango [0. .59]) y segundos (del rango [0..59]).
+Necesitamos una clase capaz de contar segundos. Tu clase se llamará `Timer` (temporizador en español). Su constructor acepta tres argumentos que representan horas (un valor del rango [0..23]), minutos (del rango [0. .59]) y segundos (del rango [0..59]).
 
 Cero es el valor predeterminado para todos los parámetros anteriores. No es necesario realizar ninguna comprobación de validación.
 
 La clase en sí debería proporcionar las siguientes facilidades:
 
 * Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la siguiente forma: "hh:mm:ss", con ceros a la izquierda agregados cuando cualquiera de los valores es menor que 10. 
-* La clase debe estar equipada con métodos sin parámetros llamados next_second() y previous_second (), incrementando el tiempo almacenado dentro de los objetos en +1/-1 segundos respectivamente.
+* La clase debe estar equipada con métodos sin parámetros llamados `next_second()` y `previous_second()`, incrementando el tiempo almacenado dentro de los objetos en +1/-1 segundos respectivamente.
 
 Emplea las siguientes sugerencias:
 
