@@ -16,32 +16,32 @@ Esto introduce un diseño más flexible, donde el vehículo es capaz de interact
 ```
 import time
 
-class Tracks:
-    def change_direction(self, left, on):
-        print("pistas: ", left, on)
+class Orugas:
+    def cambiar_direccion(self, lado, on):
+        print("pistas: ", lado, on)
 
-class Wheels:
-    def change_direction(self, left, on):
-        print("ruedas: ", left, on)
+class Ruedas:
+    def cambiar_direccion(self, lado, on):
+        print("ruedas: ", lado, on)
 
-class Vehicle:
-    def __init__(self, controller):
-        self.controller = controller
+class Vehiculo:
+    def __init__(self, controlador):
+        self.controlador = controlador
 
-    def turn(self, left):
-        self.controller.change_direction(left, True)
+    def girar(self, lado):
+        self.controlador.cambiar_direccion(lado, True)
         time.sleep(0.25)
-        self.controller.change_direction(left, False)
+        self.controlador.cambiar_direccion(lado, False)
 
 # Creamos vehículos con diferentes controladores
-wheeled = Vehicle(Wheels())
-tracked = Vehicle(Tracks())
+vehiculooruga = Vehiculo(Ruedas())
+vehiculorueda = Vehiculo(Orugas())
 
-wheeled.turn(True)  # El vehículo con ruedas gira a la izquierda
-tracked.turn(False)  # El vehículo con orugas gira a la derecha
+vehiculooruga.girar("Izquierda")  # El vehículo con ruedas gira a la izquierda
+vehiculorueda.girar("Derecha")  # El vehículo con orugas gira a la derecha
 ```
 
-* **Tracks** y **Wheels**: Estas clases implementan el método `change_direction()`, que es responsable de controlar el giro del vehículo según sea con orugas o con ruedas.
-* **Vehicle**: Esta clase no implementa directamente el mecanismo de giro. En su lugar, tiene un controlador (`controller`) que es pasado en su inicialización. Este controlador es un objeto de la clase `Tracks` o `Wheels`, y el método `turn()` llama a los métodos del controlador correspondiente para realizar el giro.
+* **Orugas** y **Ruedas**: Estas clases implementan el método `cambiar_direccion()`, que es responsable de controlar el giro del vehículo según sea con orugas o con ruedas.
+* **Vehiculo**: Esta clase no implementa directamente el mecanismo de giro. En su lugar, tiene un controlador (`controlador`) que es pasado en su inicialización. Este controlador es un objeto de la clase `Orugas` o `Ruedas`, y el método `girar()` llama a los métodos del controlador correspondiente para realizar el giro.
 * **Resultado**: Al crear instancias del vehículo con diferentes controladores (ruedas u orugas), el mismo vehículo puede cambiar su comportamiento sin modificar su estructura interna. La salida muestra cómo cambian los mensajes dependiendo del tipo de controlador asignado al vehículo.
 
