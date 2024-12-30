@@ -5,30 +5,30 @@ En Python, a diferencia de algunos lenguajes de programación, no todos los obje
 Consideremos el siguiente ejemplo:
 
 ```
-class ExampleClass:
+class ClaseEjemplo:
     def __init__(self, val):
         if val % 2 != 0:
             self.a = 1
         else:
             self.b = 1
 
-example_object = ExampleClass(1)
+objeto = ClaseEjemplo(1)
 
-print(example_object.a)
-print(example_object.b)
+print(objeto.a)
+print(objeto.b)
 ```
 
-En este caso, la clase `ExampleClass` define dos atributos potenciales, `a` y `b`, que se asignan condicionalmente en función del valor pasado al constructor. Si el valor es impar, se asigna `a`, y si es par, se asigna `b`.
+En este caso, la clase `ClaseEjemplo` define dos atributos potenciales, `a` y `b`, que se asignan condicionalmente en función del valor pasado al constructor. Si el valor es impar, se asigna `a`, y si es par, se asigna `b`.
 
-1. Se instancia un objeto `example_object` con el valor `1`, lo que provoca que se asigne el atributo `a`.
-2. Al intentar imprimir `example_object.a`, Python devuelve el valor `1`, lo que indica que el atributo `a` existe.
-3. Sin embargo, cuando se intenta acceder a `example_object.b`, Python lanza un error: 
+1. Se instancia un objeto `objeto` con el valor `1`, lo que provoca que se asigne el atributo `a`.
+2. Al intentar imprimir `objeto.a`, Python devuelve el valor `1`, lo que indica que el atributo `a` existe.
+3. Sin embargo, cuando se intenta acceder a `objeto.b`, Python lanza un error: 
 
 ```
 Traceback (most recent call last):
   File "main.py", line 11, in <module>
-    print(example_object.b)
-AttributeError: 'ExampleClass' object has no attribute 'b'
+    print(objeto.b)
+AttributeError: 'ClaseEjemplo' object has no attribute 'b'
 ```
 
 Este error ocurre porque el atributo `b` nunca fue definido en el objeto cuando el valor `1` fue pasado al constructor.
@@ -38,20 +38,20 @@ Este error ocurre porque el atributo `b` nunca fue definido en el objeto cuando 
 Podemos evitar este error utilizando la instrucción `try-except`, veamos un ejemplo:
 
 ```
-class ExampleClass:
+class ClaseEjemplo:
     def __init__(self, val):
         if val % 2 != 0:
             self.a = 1
         else:
             self.b = 1
 
-example_object = ExampleClass(1)
+objeto = ClaseEjemplo(1)
 
 # Intento de acceso a atributo inexistente con manejo de excepciones
 try:
-    print(example_object.b)
+    print(objeto.b)
 except AttributeError:
-    pass
+    print("El atributo 'b' no existe.")
 ```
 ## La función `hasattr()`
 
@@ -60,20 +60,20 @@ Python nos ofrece una solución más clara y eficiente mediante la función inco
 Veamos el mismo ejemplo con `hasattr()`:
 
 ```
-class ExampleClass:
+class ClaseEjemplo:
     def __init__(self, val):
         if val % 2 != 0:
             self.a = 1
         else:
             self.b = 1
 
-example_object = ExampleClass(1)
+objeto = ClaseEjemplo(1)
 
 # Acceso seguro usando hasattr
-print(example_object.a)
+print(objeto.a)
 
-if hasattr(example_object, 'b'):
-    print(example_object.b)
+if hasattr(objeto, 'b'):
+    print(objeto.b)
 else:
     print("El atributo 'b' no existe.")
 ```
@@ -85,24 +85,24 @@ Además de comprobar si un atributo existe en una instancia de clase, la funció
 Veamos el siguiente ejemplo:
 
 ```
-class ExampleClass:
+class ClaseEjemplo:
     a = 1  # Atributo de clase
 
     def __init__(self):
         self.b = 2  # Atributo de instancia
 
-example_object = ExampleClass()
+objeto = ClaseEjemplo()
 
-print(hasattr(example_object, 'b'))  # Verifica si la instancia tiene el atributo 'b'
-print(hasattr(example_object, 'a'))  # Verifica si la instancia tiene acceso al atributo de clase 'a'
-print(hasattr(ExampleClass, 'b'))    # Verifica si la clase tiene el atributo 'b'
-print(hasattr(ExampleClass, 'a'))    # Verifica si la clase tiene el atributo de clase 'a'
+print(hasattr(objeto, 'b'))  # Verifica si la instancia tiene el atributo 'b'
+print(hasattr(objeto, 'a'))  # Verifica si la instancia tiene acceso al atributo de clase 'a'
+print(hasattr(ClaseEjemplo, 'b'))    # Verifica si la clase tiene el atributo 'b'
+print(hasattr(ClaseEjemplo, 'a'))    # Verifica si la clase tiene el atributo de clase 'a'
 ```
 
-* `print(hasattr(example_object, 'b'))`: Este atributo es definido dentro del constructor `__init__` como un atributo de instancia, por lo que el objeto `example_object` sí tiene el atributo `b`. La salida será `True`.
-* `print(hasattr(example_object, 'a'))`: Aunque `a` es un atributo de clase y no un atributo de instancia, las instancias pueden acceder a los atributos de clase. Por lo tanto, este comando también devolverá `True`.
-* `print(hasattr(ExampleClass, 'b'))`: Este atributo (`b`) solo existe en las instancias de la clase, no a nivel de clase. Por lo tanto, la clase `ExampleClass` no tiene el atributo `b`, y la salida será `False`.
-* `print(hasattr(ExampleClass, 'a'))`: Este es un atributo de clase (`a`), por lo que la clase `ExampleClass` tiene acceso directo a él, y la salida será `True`.
+* `print(hasattr(objeto, 'b'))`: Este atributo es definido dentro del constructor `__init__` como un atributo de instancia, por lo que el objeto `objeto` sí tiene el atributo `b`. La salida será `True`.
+* `print(hasattr(objeto, 'a'))`: Aunque `a` es un atributo de clase y no un atributo de instancia, las instancias pueden acceder a los atributos de clase. Por lo tanto, este comando también devolverá `True`.
+* `print(hasattr(ClaseEjemplo, 'b'))`: Este atributo (`b`) solo existe en las instancias de la clase, no a nivel de clase. Por lo tanto, la clase `ClaseEjemplo` no tiene el atributo `b`, y la salida será `False`.
+* `print(hasattr(ClaseEjemplo, 'a'))`: Este es un atributo de clase (`a`), por lo que la clase `ClaseEjemplo` tiene acceso directo a él, y la salida será `True`.
 
 ## Cuestionario
 
