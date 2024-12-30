@@ -9,7 +9,7 @@ import time
 
 class VehiculoOruga:
     def control_giro(self, lado, stop):
-        pass
+        print("Pista:", lado, stop)
 
     def girar(self, lado):
         self.control_giro(lado, True)
@@ -18,7 +18,7 @@ class VehiculoOruga:
 
 class VehiculoRueda:
     def girar_ruedas_frontales(self, lado, on):
-        pass
+        print("Rueda:", lado, on)
 
     def girar(self, lado):
         self.girar_ruedas_frontales(lado, True)
@@ -42,26 +42,26 @@ class Vehiculo:
     def cambia_direccion(lado, on):
         pass
 
-    def girar(lado):
-        cambia_direccion(lado, True)
+    def girar(self,lado):
+        self.cambia_direccion(lado, True)
         time.sleep(0.25)
-        cambia_direccion(lado, False)
+        self.cambia_direccion(lado, False)
 
 
 class VehiculoOruga(Vehiculo):
-    def control_giro(lado, stop):
-        pass
+    def control_giro(self, lado, stop):
+        print("Pista:", lado, stop)
 
-    def cambia_direccion(lado, on):
-        control_giro(lado, on)
+    def cambia_direccion(self, lado, on):
+        self.control_giro(lado, on)
 
 
 class VehiculoRueda(Vehiculo):
-    def girar_ruedas_frontales(lado, on):
-        pass
+    def girar_ruedas_frontales(self, lado, on):
+        print("Rueda:", lado, on)
 
-    def cambia_direccion(lado, on):
-        girar_ruedas_frontales(lado, on)
+    def cambia_direccion(self, lado, on):
+        self.girar_ruedas_frontales(lado, on)
 ```
 
 * Definimos una superclase llamada `Vehiculo`, la cual utiliza el método `girar()` para implementar un esquema para poder girar, mientras que el giro en si es realizado por `cambia_direccion()`; nota: dicho método está vacío, ya que vamos a poner todos los detalles en la subclase (dicho método a menudo se denomina **método abstracto**, ya que solo demuestra alguna posibilidad que será instanciada más tarde).
