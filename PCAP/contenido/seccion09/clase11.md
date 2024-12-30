@@ -17,7 +17,7 @@ Fácil/Medio
 
 Llamamos **composición** a la situación en la que una clase contiene (como atributos) una o más instancias de otra clase, a las que delegará parte de sus funcionalidades.
 
-Vamos a definir una clase para representar un triangulo. Nuestro triangulo estará formado por tres puntos, estos puntos se guardarán en un objeto de clase `Point` que desarrollamos en el taller anterior,
+Vamos a definir una clase para representar un triángulo. Nuestro triángulo estará formado por tres puntos, estos puntos se guardarán en un objeto de clase `Point` que desarrollamos en el taller anterior.
 
 La nueva clase se llamará `Triangle` y esto es lo que queremos:
 
