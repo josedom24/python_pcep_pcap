@@ -2,29 +2,29 @@
 
 Al construir una jerarquía de clases, no se trata solo de organizar clases sin propósito. Es esencial analizar el problema cuidadosamente para determinar qué clases deben estar en la parte superior y cuáles en la inferior. Un punto clave para recordar es cómo se gestionan los métodos cuando son redefinidos en las subclases, lo que afecta directamente al comportamiento de la jerarquía.
 
-En el siguiente ejemplo, tenemos dos clases: `One` y `Two`, donde `Two` hereda de `One`. Ambas clases definen el método `do_it()`. El método `doanything()` invoca `do_it()` dentro de la clase `One`, pero dependiendo de si se invoca en un objeto de `One` o de `Two`, el resultado cambia.
+En el siguiente ejemplo, tenemos dos clases: `Uno` y `Dos`, donde `Dos` hereda de `Uno`. Ambas clases definen el método `opera()`. El método `operacion()` invoca `opera()` dentro de la clase `Uno`, pero dependiendo de si se invoca en un objeto de `Uno` o de `Dos`, el resultado cambia.
 
 ```
-class One:
-    def do_it(self):
-        print("do_it de One")
+class Uno:
+    def opera(self):
+        print("Escribo 1")
 
-    def doanything(self):
-        self.do_it()
+    def operacion(self):
+        self.opera()
 
-class Two(One):
-    def do_it(self):
-        print("do_it de Two")
+class Dos(Uno):
+    def opera(self):
+        print("Escribo 2")
 
-one = One()
-two = Two()
+objeto1 = Uno()
+objeto2 = Dos()
 
-one.doanything()  # Salida: do_it de One
-two.doanything()  # Salida: do_it de Two
+objeto1.operacion()  # Salida: Escribo 1
+objeto2.operacion()  # Salida: Escribo 2
 ```
 
-* La primera invocación de `doanything()` en un objeto de la clase `One` llama al método `do_it()` definido en `One`.
-* La segunda invocación de `doanything()` en un objeto de la clase `Two` llama al método `do_it()` redefinido en `Two`. Esto sucede a pesar de que `do_it()` se invoca dentro de la clase `One`, lo que demuestra el funcionamiento del **polimorfismo**.
+* La primera invocación de `operacion()` en un objeto de la clase `Uno` llama al método `opera()` definido en `Uno`.
+* La segunda invocación de `operacion()` en un objeto de la clase `Dos` llama al método `opera()` redefinido en `Dos`. Esto sucede a pesar de que `opera()` se invoca dentro de la clase `Uno`, lo que demuestra el funcionamiento del **polimorfismo**.
 
 ## Polimorfismo y métodos virtuales
 
