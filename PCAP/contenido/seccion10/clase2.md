@@ -7,28 +7,28 @@ En Python, la herencia es una característica fundamental de la programación or
 La función `issubclass()` tiene la siguiente sintaxis:
 
 ```
-issubclass(ClassOne, ClassTwo)
+issubclass(CalseUna, ClaseDos)
 ```
-* `ClassOne`: La clase que se está evaluando.
-* `ClassTwo`: La clase que se considera como posible superclase.
+* `CalseUna`: La clase que se está evaluando.
+* `ClaseDos`: La clase que se considera como posible superclase.
 
-La función devuelve `True` si `ClassOne` es una subclase de `ClassTwo`, y `False` en caso contrario.
+La función devuelve `True` si `CalseUna` es una subclase de `ClaseDos`, y `False` en caso contrario.
 
 Para ilustrar cómo funciona `issubclass()`, consideremos un ejemplo sencillo que incluye tres clases:
 
 ```
-class Vehicle:
+class Vehiculo:
     pass
 
-class LandVehicle(Vehicle):
+class VehiculoTerrestre(Vehiculo):
     pass
 
-class TrackedVehicle(LandVehicle):
+class VehiculoOruga(VehiculoTerrestre):
     pass
 
-for cls1 in [Vehicle, LandVehicle, TrackedVehicle]:
-    for cls2 in [Vehicle, LandVehicle, TrackedVehicle]:
-        print(issubclass(cls1, cls2), end="\t")
+for clase1 in [Vehiculo, VehiculoTerrestre, VehiculoOruga]:
+    for clase2 in [Vehiculo, VehiculoTerrestre, VehiculoOruga]:
+        print(issubclass(clase1, clase2), end="\t")
     print()
 ```
 
@@ -42,10 +42,10 @@ True	True	True
 La salida se puede organizar en un formato más legible:
 
 ```
-↓ es una subclase de → 	Vehicle 	LandVehicle 	TrackedVehicle
-Vehicle          	    True      	False         	False
-LandVehicle      	    True       	True          	False
-TrackedVehicle   	    True       	True          	True
+↓ es una subclase de → 	Vehiculo 	VehiculoTerrestre 	VehiculoOruga
+Vehiculo          	    True      	False         	    False
+VehiculoTerrestre  	    True       	True          	    False
+VehiculoOruga   	    True       	True          	    True
 ```
 
 Un aspecto clave de la función `issubclass()` es que cada clase se considera una subclase de sí misma. Esto refuerza la idea de que la relación de herencia es transitiva y reflexiva.
