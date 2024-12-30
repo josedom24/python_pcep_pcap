@@ -17,33 +17,38 @@ Python proporciona varias funciones integradas que permiten la introspección:
 * **`getattr()`**: Permite obtener el valor de un atributo de un objeto.
 * **`isinstance()`**: Verifica si un objeto es instancia de una clase específica.
 
+Además para realizar la **reflexión** podemos usar la función:
+
+* `setattr(obj, name, value)` permite cambiar el valor de un atributo dado su nombre y el nuevo valor.
+
+## Ejemplo
 
 Veamos un ejemplo: la función `incIntsI()` realiza una operación introspectiva sobre un objeto de cualquier clase, analizando sus atributos y modificando aquellos que cumplen con ciertas condiciones. Este proceso es lo que permite que el programa sea tan flexible y dinámico.
 
 A continuación, se desglosan los pasos principales del código:
   
 ```
-class MyClass:
+class Clase:
     pass
-obj = MyClass()
-obj.a = 1
-obj.b = 2
-obj.i = 3
-obj.ireal = 3.5
-obj.integer = 4
-obj.z = 5
+objeto = Clase()
+objeto.a = 1
+objeto.b = 2
+objeto.i = 3
+objeto.num_real = 3.5
+objeto.num_entero = 4
+objeto.z = 5
 ```
 
-Aquí, se define una clase simple `MyClass` y se crea una instancia de esta clase, `obj`. Luego, se asignan varios atributos a esta instancia, algunos de ellos enteros y otros flotantes.
+Aquí, se define una clase simple `Clase` y se crea una instancia de esta clase, `objeto`. Luego, se asignan varios atributos a esta instancia, algunos de ellos enteros y otros flotantes.
 
 
 ```
-def incIntsI(obj):
-    for name in obj.__dict__.keys():
+def incIntsI(objeto):
+    for name in objeto.__dict__.keys():
         if name.startswith('i'):
-            val = getattr(obj, name)
+            val = getattr(objeto, name)
             if isinstance(val, int):
-                setattr(obj, name, val + 1)
+                setattr(objeto, name, val + 1)
 ```
 
 * Utiliza el atributo especial `__dict__` del objeto, que es un diccionario que almacena todos los atributos de instancia del objeto. 
@@ -55,26 +60,20 @@ def incIntsI(obj):
 Vamos a ejecutar el siguiente código:
 
 ```
-print(obj.__dict__)
-incIntsI(obj)
-print(obj.__dict__)
+print(objeto.__dict__)
+incIntsI(objeto)
+print(objeto.__dict__)
 ```
 
 Antes de ejecutar `incIntsI()`, el diccionario de atributos es:
 ```
-{'a': 1, 'integer': 4, 'b': 2, 'i': 3, 'z': 5, 'ireal': 3.5}
+{'a': 1, 'num_entero': 4, 'b': 2, 'i': 3, 'z': 5, 'num_real': 3.5}
 ```
 Después de ejecutar la función, los atributos enteros cuyo nombre comienza con "i" se han incrementado en uno:
 ```
-{'a': 1, 'integer': 5, 'b': 2, 'i': 4, 'z': 5, 'ireal': 3.5}
+{'a': 1, 'num_entero': 5, 'b': 2, 'i': 4, 'z': 5, 'num_real': 3.5}
 ```
 
-## Las funciones `getattr()` y `setattr()`
-
-Las funciones `getattr()` y `setattr()` son fundamentales para manipular objetos dinámicamente en Python:
-
-* `getattr(obj, name)` permite acceder a un atributo de un objeto por su nombre, que puede ser una cadena.
-* `setattr(obj, name, value)` permite cambiar el valor de un atributo dado su nombre y el nuevo valor.
 
 ## Cuestionario
 
