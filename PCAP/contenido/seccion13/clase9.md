@@ -1,4 +1,4 @@
-# LABORATORIO: Histograma de frecuencia de caracteres ordenado
+# LABORATORIO: Histograma de frecuencia de caracteres ordenados
 
 ## Tiempo Estimado
 
