@@ -58,13 +58,13 @@ print(objeto.var, objeto.fun())  # Salida: 200 201
 
 En este ejemplo, tanto `Nivel1` como `Nivel2` definen un atributo de clase llamado `var` y un método `fun()`. La clase `Nivel3` hereda de `Nivel2`, pero no redefine estos elementos. Sin embargo, debido a que Python sigue un orden jerárquico de herencia, los atributos y métodos de `Nivel2` **anulan** los definidos en `Nivel1`.
 
-Por lo tanto, cuando se crea una instancia de `Nivel3` y se accede a sus propiedades, Python busca en el **Method Resolution Order (MRO)** y encuentra que los valores de `var` y `fun()` definidos en `Nivel2` están más cerca en la jerarquía. Como resultado, el código produce:
+Por lo tanto, cuando se crea una instancia de `Nivel3` y se accede a sus propiedades, Python busca usando el **Method Resolution Order (MRO)** y encuentra que los valores de `var` y `fun()` definidos en `Nivel2` están más cerca en la jerarquía. Como resultado, el código produce:
 
 ```
 200 201
 ```
 
-Este comportamiento de anulación permite modificar o refinar el comportamiento heredado de clases superiores. Es útil cuando una clase derivada necesita cambiar el comportamiento de su clase padre sin alterar el código de la clase original. La **herencia múltiple** también puede complicar este escenario, especialmente cuando dos superclases definen la misma entidad. En ese caso, el MRO **MRO** (Method Resolution Order, que es el orden en el que Python busca atributos y métodos en las clases padres) sigue reglas estrictas para decidir cuál de las entidades se prioriza, basándose en el orden de herencia en la definición de la clase derivada.
+Este comportamiento de anulación permite modificar o refinar el comportamiento heredado de clases superiores. Es útil cuando una clase derivada necesita cambiar el comportamiento de su clase padre sin alterar el código de la clase original. La **herencia múltiple** también puede complicar este escenario, especialmente cuando dos superclases definen la misma entidad. En ese caso, el **MRO** (Method Resolution Order, que es el orden en el que Python busca atributos y métodos en las clases padres) sigue reglas estrictas para decidir cuál de las entidades se prioriza, basándose en el orden de herencia en la definición de la clase derivada.
 
 ## Cómo Python encuentra propiedades y métodos: continuando con la herencia múltiple
 

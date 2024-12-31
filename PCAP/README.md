@@ -84,7 +84,7 @@
     * [Relación entre superclase y subclase](contenido/seccion10/clase2.md)
     * [Relación entre objetos y clases](contenido/seccion10/clase3.md)
     * [Trabajando con propiedades y métodos heredados](contenido/seccion10/clase4.md)
-    * [Herencia múltiple](contenido/seccion10/clase5.md)
+    * [Herencia múltiple (P)](contenido/seccion10/clase5.md)
     * [Polimorfismo](contenido/seccion10/clase6.md)
     * [Cómo construir una jerarquía de clases (P)](contenido/seccion10/clase7.md)
     * [Composición](contenido/seccion10/clase8.md)
