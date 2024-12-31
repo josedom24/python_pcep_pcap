@@ -2,10 +2,10 @@
 
 La herencia múltiple en Python permite derivar una clase nueva de más de una clase existente. Sin embargo, aunque esta característica está disponible, su uso debe considerarse con precaución. Tienes que tener en cuanta algunos aspectos:
 
-* Una sola clase de herencia siempre es más simple, segura y fácil de entender y mantener.
+* Una clase construida con herencia simple siempre es más simple, segura y fácil de entender y mantener.
 * La herencia múltiple siempre es arriesgada, ya que tienes muchas más oportunidades de cometer un error al identificar estas partes de las superclases que influirán efectivamente en la nueva clase.
 * La herencia múltiple puede hacer que la anulación sea extremadamente difícil; además, el emplear la función `super()` se vuelve ambiguo.
-* La herencia múltiple viola el **principio de responsabilidad única** (mas detalles aquí: https://en.wikipedia.org/wiki/Single_responsibility_principle) ya que forma una nueva clase de dos (o más) clases que no saben nada una de la otra.
+* La herencia múltiple viola el **principio de responsabilidad única** (mas detalles aquí: https://en.wikipedia.org/wiki/Single_responsibility_principle), que dice: **"Una clase debe tener una única razón para cambiar, es decir, sólo debe tener una responsabilidad o propósito"**. La herencia múltiple puede causar problemas de ambigüedad y romper el principio de responsabilidad única ya que puede recibir el propósito o responsabilidad de cada una de las superclases.
 * Utiliza la herencia múltiple como la última de todas las posibles soluciones: si realmente necesitas las diferentes funcionalidades que ofrecen las diferentes clases, la composición puede ser una mejor alternativa.
 
 ## Orden de Resolución de Métodos (MRO) en Python

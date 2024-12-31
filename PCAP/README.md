@@ -88,7 +88,7 @@
     * [Polimorfismo](contenido/seccion10/clase6.md)
     * [Cómo construir una jerarquía de clases (P)](contenido/seccion10/clase7.md)
     * [Composición](contenido/seccion10/clase8.md)
-    * [Herencia simple frente a herencia múltiple](contenido/seccion10/clase9.md)
+    * [Herencia simple frente a herencia múltiple (P)](contenido/seccion10/clase9.md)
 11. Las excepciones en profundidad
     * [El bloque else y finally en las excepciones](contenido/seccion11/clase1.md)
     * [Las excepciones son clases](contenido/seccion11/clase2.md)
