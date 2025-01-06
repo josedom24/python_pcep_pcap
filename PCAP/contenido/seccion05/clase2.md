@@ -1,4 +1,4 @@
-# Repaso de cadenas de caracteres
+# Introducción a las cadenas de caracteres
 
 Las cadenas de caracteres (`str`): Me permiten guardar secuencias de caracteres. Las cadenas de caracteres son inmutables, lo que significa que una vez creadas no se pueden modificar.
 
