@@ -43,8 +43,8 @@ for mode in [False, True]:
 
 Cuando se diseña un sistema complejo, como una simulación de un restaurante de pizza, puede ser útil definir una jerarquía de excepciones que refleje los problemas específicos del contexto. A continuación, se explica cómo crear excepciones personalizadas que proporcionen información adicional sobre los errores relacionados con la pizza.
 
-* **Clase Base de Excepción: `PizzaError`**. Esta clase actuará como la excepción general para todos los problemas relacionados con la pizza.
-* **Clase Derivada de Excepción: `TooMuchCheeseError`**.  Esta clase representa un caso específico de error que ocurre cuando se agrega demasiado queso a una pizza.
+* **Clase base: `PizzaError`**. Esta clase actuará como la excepción general para todos los problemas relacionados con la pizza.
+* **Clase derivada: `TooMuchCheeseError`**.  Esta clase representa un caso específico de error que ocurre cuando se agrega demasiado queso a una pizza.
 
 ```
 class PizzaError(Exception):
@@ -65,7 +65,7 @@ try:
     if cheese_amount > 300:  # Suponiendo que 300g es el límite
         raise TooMuchCheeseError(pizza_name, cheese_amount, "Demasiado queso en la pizza.")
 except TooMuchCheeseError as e:
-    print(f"Error: {e} - Pizza: {e.pizza}, Queso: {e.cheese}g")
+    print("Error:", e," - Pizza:", e.pizza, "Queso: ", e.cheese, "g")
 ```
 
 

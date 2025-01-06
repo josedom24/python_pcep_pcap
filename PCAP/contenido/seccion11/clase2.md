@@ -10,14 +10,14 @@ A continuación, se muestra un ejemplo que ilustra cómo capturar y utilizar una
 try:
     i = int("¡Hola!")
 except Exception as e:
-    print(e)  # Imprime el mensaje de error
+    print(e)            # Imprime el mensaje de error
     print(e.__str__())  # Imprime la representación de la excepción
 ```
 
 La cláusula `except Exception as e:` captura la excepción generada y la asigna al identificador `e`.
 Se imprime el mensaje de error que describe la razón por la cual la conversión falló. Este mensaje es el resultado del método `__str__()` del objeto de excepción, que proporciona una descripción legible del error.
 
-## La jerarquia de clases de las excepciones
+## La jerarquía de clases de las excepciones
 
 En Python, todas las excepciones forman parte de una jerarquía de clases, donde cada excepción es una subclase de otra. La clase raíz de todas las excepciones en Python es `BaseException`, que se encuentra en la parte superior de esta jerarquía.
 
@@ -48,9 +48,9 @@ print_exception_tree(BaseException)
 
 ## Propiedades especificas de las excepciones
 
-En Python, las excepciones son objetos que no solo informan sobre un error, sino que también pueden transportar información adicional. Esto se logra a través de propiedades y métodos específicos. Una de las propiedades más útiles de las excepciones es `args`, que forma parte de la clase base `BaseException`.
+En Python, las excepciones son objetos que no solo informan sobre un error, sino que también pueden incluir información adicional. Esto se logra a través de propiedades y métodos específicos. Una de las propiedades más útiles de las excepciones es `args`, que forma parte de la clase base `BaseException`.
 
-La propiedad `args` es una tupla que contiene todos los argumentos que se pasan al constructor de la clase de excepción. Su contenido puede estar vacío si la construcción se ha invocado sin ningún argumento, o solo contiene un elemento cuando el constructor recibe un argumento (no se considera el argumento `self`), y así sucesivamente.varía según cómo se haya creado la excepción:
+La propiedad `args` es una tupla que contiene todos los argumentos que se pasan al constructor de la clase de excepción. Su contenido puede estar vacío si la construcción se ha invocado sin ningún argumento, o solo contiene un elemento cuando el constructor recibe un argumento (no se considera el argumento `self`), y así sucesivamente. Varía según cómo se haya creado la excepción:
 
 Veamos un ejemplo:
 
