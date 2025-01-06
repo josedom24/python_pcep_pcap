@@ -26,6 +26,26 @@ Para que un objeto sea un iterador en Python, debe implementar dos métodos esen
 1. **`__iter__()`**: Este método debe devolver el objeto en sí, permitiendo a Python iniciar la iteración. Se invoca una vez cuando comienza el bucle.
 2. **`__next__()`**: Este método devuelve el siguiente valor de la secuencia cada vez que es invocado. Si ya no hay más valores disponibles, debe lanzar la excepción `StopIteration` para detener la iteración.
 
+## Ejemplo: Serie de Fibonacci
+
+La serie de Fibonacci es una secuencia de números enteros los cuales siguen una regla sencilla:
+
+* El primer elemento de la secuencia es igual a uno (Fib_1 = 1).
+* El segundo elemento también es igual a uno (Fib_2 = 1).
+* Cada número después de ellos son la suman de los dos números anteriores (Fib_n = Fib_n-1 + Fib_n-2).
+
+Aquí están algunos de los primeros números en la serie Fibonacci:
+
+```
+fib_1 = 1
+fib_2 = 1
+fib_3 = 1 + 1 = 2
+fib_4 = 1 + 2 = 3
+fib_5 = 2 + 3 = 5
+fib_6 = 3 + 5 = 8
+fib_7 = 5 + 8 = 13
+```
+
 El siguiente código implementa un iterador que genera los primeros `n` números de Fibonacci:
 
 ```
