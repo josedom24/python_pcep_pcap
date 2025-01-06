@@ -1,4 +1,4 @@
-# Repaso de excepciones
+# Introducción a las excepciones
 
 Cualquier cosa que pueda salir mal, saldrá mal. Esta es la Ley de Murphy, y se aplica perfectamente al mundo de la programación. Si el código puede fallar, lo hará.
 

@@ -48,7 +48,7 @@
     * [LABORATORIO: ¡Encuentra una palabra! (P)](contenido/seccion06/clase8.md)
     * [LABORATORIO: Sudoku (P)](contenido/seccion06/clase9.md)
 7. Excepciones: Gestionando errores de programación
-    * [Repaso de excepciones](contenido/seccion07/clase1.md)
+    * [Introducción a las excepciones](contenido/seccion07/clase1.md)
     * [Manejo de excepciones](contenido/seccion07/clase2.md)
     * [Jerarquía de excepciones (P)](contenido/seccion07/clase3.md)
     * [Propagación de excepciones](contenido/seccion07/clase4.md)
