@@ -1,4 +1,4 @@
-# Repaso de listas por compresión
+# Introducción a las listas por compresión
 
 Las **listas por comprensión** son una característica poderosa y elegante en Python que te permite crear listas de manera concisa en una sola línea, eliminando la necesidad de usar bucles explícitos o funciones adicionales como `append()`. A continuación te muestro un ejemplo y las reglas que rigen su creación y uso.
 
