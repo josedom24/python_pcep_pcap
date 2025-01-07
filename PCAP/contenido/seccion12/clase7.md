@@ -5,56 +5,55 @@ Un **cierre** es una función que recuerda el entorno en el que se creó, inclus
 Vamos a analizar el siguiente ejemplo:
 
 ```
-def outer(par):
+def externa(par):
     loc = par
 
-    def inner():
+    def interna():
         return loc
     
-    return inner
+    return interna
 
 var = 1
-fun = outer(var)
+fun = externa(var)
 print(fun())
 ```
 
 * Definimos las funciones:
-   * `outer(par)`: Esta es una función que toma un argumento `par` y define una variable local `loc` igual a `par`.
-   * `inner()`: Esta es una función interna definida dentro de `outer()`, que puede acceder a la variable `loc`.
+   * `externa(par)`: Esta es una función que toma un argumento `par` y define una variable local `loc` igual a `par`.
+   * `interna()`: Esta es una función interna definida dentro de `externa()`, que puede acceder a la variable `loc`.
 * La función externa devuelve la función interna:
-   * `outer(var)` se invoca con `var = 1`. Esto significa que `loc` dentro de `outer()` se convierte en `1`.
-   * `outer()` devuelve la función `inner()`, que se asigna a la variable `fun`.
-* Usamos el cierre: cuando se llama a `fun()`, se ejecuta `inner()`, que devuelve el valor de `loc`. A pesar de que `outer()` ya ha finalizado su ejecución, `inner()` todavía tiene acceso a `loc` debido a que es un cierre.
+   * `externa(var)` se invoca con `var = 1`. Esto significa que `loc` dentro de `externa()` se convierte en `1`.
+   * `externa()` devuelve la función `interna()`, que se asigna a la variable `fun`.
+* Usamos el cierre: cuando se llama a `fun()`, se ejecuta `interna()`, que devuelve el valor de `loc`. A pesar de que `externa()` ya ha finalizado su ejecución, `interna()` todavía tiene acceso a `loc` debido a que es un cierre.
 
 Los cierres son una poderosa herramienta para crear funciones más flexibles y mantener un estado entre llamadas a funciones sin tener que recurrir a variables globales.
 
 ## Cierres con parámetros
 
-Los **cierres** permiten crear funciones internas que recuerdan el contexto de su función externa. Como mencionaste, se pueden diseñar cierres que tomen parámetros adicionales, lo que amplía su funcionalidad. Vamos a revisar el código que has proporcionado y su funcionamiento:
+Los **cierres** permiten crear funciones internas que recuerdan el contexto de su función externa. Como mencionaste, se pueden diseñar cierres que tomen parámetros adicionales, lo que amplía su funcionalidad. Veamos un ejemplo:
 
-Veamos un ejemplo:
 
 ```
-def make_closure(par):
+def cierre(par):
     loc = par
 
-    def power(p):
+    def potencia(p):
         return p ** loc
-    return power
+    return potencia
 
-fsqr = make_closure(2)  # Cierre que eleva al cuadrado
-fcub = make_closure(3)  # Cierre que eleva al cubo
+fsqr = cierre(2)  # Cierre que eleva al cuadrado
+fcub = cierre(3)  # Cierre que eleva al cubo
 
 for i in range(5):
     print(i, fsqr(i), fcub(i))
 ```
 
-* Definimos la función `make_closure(par)`, que recibe un parámetro `par` y define una variable local `loc` que almacena ese valor.
-   - Dentro de `make_closure`, se define una función interna llamada `power(p)`, que toma un argumento `p` y eleva `p` a la potencia de `loc`.
+* Definimos la función `cierre(par)`, que recibe un parámetro `par` y define una variable local `loc` que almacena ese valor.
+   - Dentro de `cierre`, se define una función interna llamada `potencia(p)`, que toma un argumento `p` y eleva `p` a la potencia de `loc`.
 * Creamos los cierres
 * Creamos los cierres:
-   * `fsqr = make_closure(2)`: Esto crea un cierre que elevará cualquier número dado al cuadrado (2).
-   * `fcub = make_closure(3)`: Esto crea otro cierre que elevará cualquier número dado al cubo (3).
+   * `fsqr = cierre(2)`: Esto crea un cierre que elevará cualquier número dado al cuadrado (2).
+   * `fcub = cierre(3)`: Esto crea otro cierre que elevará cualquier número dado al cubo (3).
 * Usamos los cierres: en el bucle `for`, se itera desde 0 hasta 4. Para cada número `i`, se imprime el valor de `i`, el resultado de `fsqr(i)`, y el resultado de `fcub(i)`.
 
 ## Cuestionario
