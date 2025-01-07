@@ -109,8 +109,6 @@ Este esquema de manejo de streams pre-abiertos es parte fundamental de la entrad
 
 ## Comprobando errores al abrir un archivo
 
-### Diagnosticando problemas con los streams
-
 Cuando se trabaja con streams en Python, es crucial manejar los errores que puedan surgir durante la apertura o el procesamiento de archivos. Si deseas un manejo más específico para distintos tipos de errores, puedes usar el módulo `errno`, que proporciona constantes que representan códigos de error comunes. Aquí tienes un ejemplo:
 
 ```
