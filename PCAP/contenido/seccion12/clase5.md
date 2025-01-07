@@ -1,4 +1,4 @@
-# La función lambda
+# Funciones lambda
 
 Las **funciones lambda** en Python ofrecen una forma rápida y concisa de definir funciones que pueden ser útiles en ciertos contextos específicos. A diferencia de las funciones normales, las funciones lambdas **no tienen nombre** y son más simples y se utilizan cuando se necesita una función corta y **anónima** que se pueda definir en una sola línea. Si bien pueden parecer reemplazables por funciones normales, tienen algunos beneficios clave en términos de simplicidad y claridad en ciertos casos.
 
@@ -20,18 +20,18 @@ lambda parámetros: expresión
 En el ejemplo siguiente, usamos lambdas con nombres para ilustrar cómo funcionan:
 
 ```
-two = lambda: 2
-sqr = lambda x: x * x
-pwr = lambda x, y: x ** y
+dos = lambda: 2
+raiz_cuadrada = lambda x: x * x
+potencia = lambda x, y: x ** y
 
 for a in range(-2, 3):
-    print(sqr(a), end=" ")
-    print(pwr(a, two()))
+    print(raiz_cuadrada(a), end=" ")
+    print(potencia(a, dos()))
 ```
 
-* **`two = lambda: 2`**: Esta función lambda no toma parámetros y siempre devuelve el valor `2`. Aunque normalmente sería anónima, la hemos asignado a la variable `two`, por lo que podemos llamarla con `two()`.
-* **`sqr = lambda x: x * x`**: Esta función lambda toma un parámetro (`x`) y devuelve su cuadrado. Igual que con la anterior, la asignamos a `sqr`, que se puede invocar como una función normal.
-* **`pwr = lambda x, y: x ** y`**: Esta lambda toma dos parámetros (`x` y `y`) y devuelve el resultado de elevar `x` a la potencia de `y`.
+* **`dos = lambda: 2`**: Esta función lambda no toma parámetros y siempre devuelve el valor `2`. Aunque normalmente sería anónima, la hemos asignado a la variable `dos`, por lo que podemos llamarla con `dos()`.
+* **`raiz_cuadrada = lambda x: x * x`**: Esta función lambda toma un parámetro (`x`) y devuelve su cuadrado. Igual que con la anterior, la asignamos a `raiz_cuadrada`, que se puede invocar como una función normal.
+* **`potencia = lambda x, y: x ** y`**: Esta lambda toma dos parámetros (`x` y `y`) y devuelve el resultado de elevar `x` a la potencia de `y`.
 
 ## Uso de las funciones lambda
 
@@ -60,7 +60,7 @@ Finalmente, llamamos a `print_function()` pasando una lista de valores (de `-2` 
 print_function([x for x in range(-2, 3)], poly)
 ```
 
-Este ejmplo lo podemos simplificar usando una función lambda:
+Este ejemplo lo podemos simplificar usando una función lambda:
 
 En lugar de definir la función `poly()` por separado, puedes usar una **lambda** directamente al pasar la función a `print_function()`. Esto hace que el código sea más compacto y claro:
 

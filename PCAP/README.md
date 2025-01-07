@@ -91,16 +91,16 @@
     * [Herencia simple frente a herencia múltiple (P)](contenido/seccion10/clase9.md)
 11. Las excepciones en profundidad
     * [El bloque else y finally en las excepciones](contenido/seccion11/clase1.md)
-    * [Las excepciones son clases](contenido/seccion11/clase2.md)
+    * [Las excepciones son clases (P)](contenido/seccion11/clase2.md)
     * [Creación de nuevas excepciones](contenido/seccion11/clase3.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion11/test.md)
     * [Prueba intermedia](contenido/seccion11/prueba.md)
 12. Generadores, iteradores y cierres
-    * [Generadores e iteradores](contenido/seccion12/clase1.md)
+    * [Generadores e iteradores (P)](contenido/seccion12/clase1.md)
     * [La instrucción yield](contenido/seccion12/clase2.md)
     * [Ejemplos de generadores](contenido/seccion12/clase3.md)
     * [Introducción a las listas por compresión](contenido/seccion12/clase4.md)
-    * [La función lambda](contenido/seccion12/clase5.md)
+    * [Funciones lambda (P)](contenido/seccion12/clase5.md)
     * [Usos de funciones lambdas](contenido/seccion12/clase6.md)
     * [Introducción a los cierres](contenido/seccion12/clase7.md)
 13. Trabajando con archivos
