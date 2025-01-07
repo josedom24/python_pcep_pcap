@@ -104,7 +104,7 @@
     * [Usos de funciones lambdas](contenido/seccion12/clase6.md)
     * [Introducción a los cierres](contenido/seccion12/clase7.md)
 13. Trabajando con archivos
-    * [Trabajando con archivos](contenido/seccion13/clase1.md)
+    * [Trabajando con archivos (P)](contenido/seccion13/clase1.md)
     * [Manejo de archivos](contenido/seccion13/clase2.md)
     * [Abriendo y cerrando los archivos](contenido/seccion13/clase3.md)
     * [Lectura de archivos de texto](contenido/seccion13/clase4.md)

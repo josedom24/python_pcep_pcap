@@ -10,7 +10,7 @@ En Python, la gestión de nombres de archivos y rutas difiere según el sistema 
 
 * En los sistemas Linux, las rutas de archivos comienzan en el directorio raíz (`/`), mientras que en Windows inician con una letra de unidad (por ejemplo, `C:\`). 
     * En windows: `c:\directorio\archivo`
-    * En Linux: `directorio/archivo`
+    * En Linux: `/directorio/archivo`
 * Los nombres de archivo en Unix/Linux distinguen entre mayúsculas y minúsculas, mientras que en Windows no se hace distinción.
 * Una complicación para los desarrolladores es el uso del carácter `\` en Windows como separador de directorios, que en Python tiene un papel especial en las cadenas, ya que se usa para introducir caracteres de escape como `\n` o `\t`. Esto puede causar errores si no se maneja adecuadamente.
 * Para escribir código Python multiplataforma, se recomienda el uso del módulo `os.path` o `pathlib`, que proporcionan funciones para construir y manejar rutas de archivos independientemente del sistema operativo. Estos módulos permiten crear código más flexible y portable que se adapta automáticamente a las convenciones de rutas del sistema donde se ejecuta el programa.
