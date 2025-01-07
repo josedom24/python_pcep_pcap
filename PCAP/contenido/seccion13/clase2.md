@@ -7,15 +7,17 @@ El concepto de **streams** en Python se refiere a la forma en que los programas 
 3. **Modo Actualizar** (`'r+'`, `'w+'`): Permite tanto leer como escribir en el archivo.
 
 ## Movimiento del "cabezal" en los streams
+
 Al igual que una grabadora, los streams tienen un "cabezal" virtual que se mueve a medida que lees o escribes en el archivo. Cada vez que lees datos, el cabezal se desplaza en función de la cantidad de bytes leídos, y cuando escribes, se mueve de manera similar.
 
 Este concepto de **posición actual del archivo** es clave para entender cómo manipular datos en un stream, ya que la ubicación del cabezal determina desde dónde leerás o dónde escribirás a continuación.
 
 ## Objetos para trabajar con streams
 
-En Python, los archivos se manejan a través de objetos que representan diferentes tipos de streams. Estos objetos pertenecen a clases específicas, que determinan cómo se procesará el archivo. El tipo de objeto creado depende del contenido del archivo y de las operaciones que deseas realizar. El archivo se abre con la función `open()`, que devuelve el objeto adecuado según el tipo de archivo y el modo de apertura especificado.
+En Python, los archivos se manejan a través de objetos que representan diferentes tipos de streams. Estos objetos pertenecen a clases específicas, que determinan cómo se procesa el archivo. El tipo de objeto creado depende del contenido del archivo y de las operaciones que deseas realizar. El archivo se abre con la función `open()`, que devuelve el objeto adecuado según el tipo de archivo y el modo de apertura especificado.
 
-### Clases principales para el manejo de archivos:
+### Clases principales para el manejo de archivos
+
 1. **IOBase**: Clase base para todo tipo de objetos de I/O.
 2. **RawIOBase**: Utilizada para el manejo de archivos en modo binario sin buffers.
 3. **BufferedIOBase**: Utilizada para archivos en modo binario con buffers.
@@ -27,9 +29,7 @@ Para la mayoría de los casos prácticos, trabajarás con objetos de las clases 
 
 Cuando abres un archivo con `open()`, se crea automáticamente un objeto de una de estas clases. Puedes realizar operaciones de lectura o escritura según el modo de apertura que hayas especificado. Una vez que terminas de trabajar con el archivo, es importante cerrarlo usando el método `close()` para liberar los recursos.
 
-Estos objetos son fundamentales para gestionar correctamente la lectura y escritura en archivos de manera segura y eficiente.
-
-## Tipos de stremas
+## Tipos de streams
 
 Al manejar archivos en Python, es importante entender la diferencia entre **streams de texto** y **streams binarios**:
 
@@ -52,6 +52,6 @@ Si trabajamos con archivos de texto:
 * En Windows, al leer un archivo, cada par `\r\n` se convierte automáticamente en `\n`. Al escribir, `\n` se traduce a `\r\n`. Esto asegura que el mismo código funcione en ambos sistemas operativos sin problemas de portabilidad.
 * Es un proceso **transparente** para el programador.
 
-Con archivos binarios noo ocurre ninguna conversión de caracteres. Los bytes se toman y se escriben tal cual, sin modificaciones.
+Con archivos binarios no ocurre ninguna conversión de caracteres. Los bytes se toman y se escriben tal cual, sin modificaciones.
   
 
