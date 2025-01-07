@@ -98,7 +98,7 @@
 12. Generadores, iteradores y cierres
     * [Generadores e iteradores](contenido/seccion12/clase1.md)
     * [La instrucción yield](contenido/seccion12/clase2.md)
-    * [Creando generadores](contenido/seccion12/clase3.md)
+    * [Ejemplos de generadores](contenido/seccion12/clase3.md)
     * [Introducción a las listas por compresión](contenido/seccion12/clase4.md)
     * [La función lambda](contenido/seccion12/clase5.md)
     * [Usos de funciones lambdas](contenido/seccion12/clase6.md)
