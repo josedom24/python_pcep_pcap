@@ -15,9 +15,9 @@ Medio/Difícil
 
 ## Escenario
 
-El profesor Jekyll dirige clases con estudiantes y regularmente toma notas en un archivo de texto. Cada línea del archivo contiene 3 elementos: el nombre del alumno, el apellido del alumno y el número de puntos que el alumno recibió durante ciertas clases.
+Un profesor toma regularmente notas de sus estudiantes en un archivo de texto. Cada línea del archivo contiene 3 elementos: el nombre del alumno, el apellido del alumno y el número de puntos que el alumno recibió durante ciertas clases.
 
-Los elementos están separados con espacios en blanco. Cada estudiante puede aparecer más de una vez dentro del archivo del profesor Jekyll.
+Los elementos están separados con espacios en blanco. Cada estudiante puede aparecer más de una vez dentro del archivo del profesor.
 
 El archivo puede tener el siguiente aspecto:
 
@@ -31,7 +31,7 @@ Andrew	Cox	1.5
 
 Tu tarea es escribir un programa que:
 
-* Pida al usuario el nombre del archivo del profesor Jekyll.
+* Pida al usuario el nombre del archivo del profesor.
 * Lea el contenido del archivo y cuenta la suma de los puntos recibidos por cada estudiante.
 * Imprima un informe simple (pero ordenado), como este:
 
@@ -42,14 +42,14 @@ John Smith 	 7.0
 ```
 
 * Tu programa debe estar completamente protegido contra todas las fallas posibles: la inexistencia del archivo, el vacío del archivo o cualquier falla en los datos de entrada; encontrar cualquier error de datos debería causar la terminación inmediata del programa, y lo erróneo deberá presentarse al usuario.
-* Implementa y usa tu propia jerarquía de excepciones: la presentamos en el editor; la segunda excepción se debe generar cuando se detecta una línea incorrecta y la tercera cuando el archivo fuente existe pero está vacío.
+* Implementa y usa tu propia jerarquía de excepciones, la tienes en la plantilla posterior.La segunda excepción se debe generar cuando se detecta una línea incorrecta y la tercera cuando el archivo fuente existe pero está vacío.
 * Emplea un diccionario para almacenar los datos de los estudiantes.
 
 Puedes usar esta plantilla para realizar el programa:
 
 ```
 class StudentsDataException(Exception):
-pass
+    pass
 
 
 class WrongLine(StudentsDataException):
