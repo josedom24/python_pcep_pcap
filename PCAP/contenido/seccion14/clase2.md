@@ -15,8 +15,7 @@ Fácil
 
 ## Escenario
 
-No hace falta decir que los sistemas operativos te permiten buscar archivos y directorios. Mientras estudiabas esta parte del curso, se aprendió sobre las funciones del módulo `os`, que tiene todo lo que se necesita para escribir un programa que buscará directorios en una ubicación determinada.
-
+Queremos escribir un programa que permita buscar archivos y directorios. Como hemos aprendido el módulo `os` tiene todas las funciones necesarias para realizar dicho programa.
 Para facilitar tu tarea, hemos preparado una estructura de directorio de prueba para ti:
 
 ![directorios](img/directorios.png)
