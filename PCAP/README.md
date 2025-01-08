@@ -109,7 +109,7 @@
     * [Abriendo y cerrando los archivos (P)](contenido/seccion13/clase3.md)
     * [Lectura de archivos de texto](contenido/seccion13/clase4.md)
     * [Escritura en archivos de texto](contenido/seccion13/clase5.md)
-    * [Trabajando con archivos binarios](contenido/seccion13/clase6.md)
+    * [Trabajando con archivos binarios (P)](contenido/seccion13/clase6.md)
     * [Ejemplo: como copiar archivos](contenido/seccion13/clase7.md)
     * [LABORATORIO: Histograma de frecuencia de caracteres](contenido/seccion13/clase8.md)
     * [LABORATORIO: Histograma de frecuencia de caracteres ordenados](contenido/seccion13/clase9.md)

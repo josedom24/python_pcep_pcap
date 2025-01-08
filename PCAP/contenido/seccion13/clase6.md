@@ -8,7 +8,12 @@ Sus características son:
 
 1. **Mutable**: Puedes modificar un `bytearray` después de haberlo creado. Esto incluye cambiar, agregar o eliminar bytes.
 2. **Almacenamiento de datos amorfos**: Un `bytearray` puede contener datos que no tienen una estructura predefinida, lo que es ideal para datos binarios.
-3. **Inicialización**: Puedes crear un `bytearray` de varias maneras. Por ejemplo:
+3. **Indexación**: Puedes acceder a los elementos de un `bytearray` utilizando la indexación convencional, como lo harías con una lista.
+4. **Función `len()`**: Puedes utilizar la función `len()` para obtener el número de bytes en un `bytearray`.
+5. **Valores enteros**: Los elementos del `bytearray` deben ser enteros. Intentar establecer un elemento con un valor que no sea un entero provocará una excepción `TypeError`.
+6. **Rango de valores**: Cada elemento del `bytearray` debe ser un valor entero dentro del rango de 0 a 255. Si intentas asignar un valor fuera de este rango, se generará una excepción `ValueError`.
+7. **Impresión de elementos**: Puedes imprimir los elementos de un `bytearray` utilizando la función `hex()`, lo que permite visualizar los valores en formato hexadecimal.
+8. **Inicialización**: Puedes crear un `bytearray` de varias maneras. Por ejemplo:
    - **Con un tamaño fijo**: `data = bytearray(10)` crea un `bytearray` con capacidad para 10 bytes, inicializados a cero.
    - **Con una cadena de bytes**: `data = bytearray(b"hello")` crea un `bytearray` a partir de una cadena de bytes.
    - **Con una lista de enteros**: `data = bytearray([65, 66, 67])` crea un `bytearray` que contiene los bytes correspondientes a los valores enteros (en este caso, A, B y C).
@@ -33,23 +38,11 @@ bytes_data = bytes(data)
 print(bytes_data)  # Salida: b'A\x00\x00\x00\x00\x00\x00\x00\x00\x00B'
 ```
 
-Los `bytearray` tienen muchas similitudes con las listas en Python, pero también presentan ciertas restricciones que es importante tener en cuenta al manipularlos. Aquí hay un resumen de las características y limitaciones clave:
-
-Características:
-
-1. **Mutabilidad**: Al igual que las listas, los `bytearray` son mutables, lo que significa que puedes cambiar sus elementos después de haber sido creados.
-2. **Indexación**: Puedes acceder a los elementos de un `bytearray` utilizando la indexación convencional, como lo harías con una lista.
-3. **Función `len()`**: Puedes utilizar la función `len()` para obtener el número de bytes en un `bytearray`.
-
-Limitaciones:
-
-1. **Valores Enteros**: Los elementos del `bytearray` deben ser enteros. Intentar establecer un elemento con un valor que no sea un entero provocará una excepción `TypeError`.
-2. **Rango de Valores**: Cada elemento del `bytearray` debe ser un valor entero dentro del rango de 0 a 255. Si intentas asignar un valor fuera de este rango, se generará una excepción `ValueError`.
-3. **Impresión de Elementos**: Puedes imprimir los elementos de un `bytearray` utilizando la función `hex()`, lo que permite visualizar los valores en formato hexadecimal.
 
 Veamos otro ejemplo:
 
-```data = bytearray(10)
+```
+data = bytearray(10)
 
 for i in range(len(data)):
     data[i] = 10 - i
@@ -58,7 +51,7 @@ for b in data:
     print(hex(b))
 ```
 
-## Escritura en un archivo binarios
+## Escritura en un archivo binario
 
 Veamos cómo escribir un `bytearray` en un archivo binario y cómo leer ese contenido de nuevo en Python. Para escribir un `bytearray` en un archivo binario, debes seguir algunos pasos importantes:
 
@@ -119,9 +112,6 @@ except IOError as e:
 ## Lectura de ficheros binarios con `read()`
 
 Tenemos una forma alternativa para leer archivos binarios: El método `read()` ofrece una forma sencilla de leer el contenido completo de un archivo binario en Python. A diferencia de `readinto()`, que requiere un `bytearray` existente para llenar, `read()` crea un nuevo objeto de tipo `bytes`, que es inmutable.
-
-* **Inmutabilidad**: Los objetos de la clase `bytes` son inmutables, lo que significa que una vez creados, no puedes cambiar sus elementos.
-* **Memoria**: Asegúrate de que el contenido del archivo se ajuste a la memoria disponible antes de usar `read()`, ya que intenta cargar todo el archivo a la vez.
 
 A continuación, se presenta el código que escribe un `bytearray` en un archivo binario y luego lo lee usando `read()`:
 
