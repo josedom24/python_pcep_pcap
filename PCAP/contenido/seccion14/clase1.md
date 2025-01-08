@@ -92,9 +92,9 @@ Para eliminar un solo directorio, se utiliza la función `rmdir`, que requiere l
 import os
 
 os.mkdir("my_first_directory")
-print(os.listdir())  # Muestra el contenido del directorio actual
-os.rmdir("my_first_directory")  # Elimina el directorio
-print(os.listdir())  # Muestra el contenido después de la eliminación
+print(os.listdir())  
+os.rmdir("my_first_directory")  
+print(os.listdir())  
 ```
 
 En este caso, el primer `print` muestra el directorio creado, y el segundo `print` debería devolver una lista vacía, confirmando que el directorio ha sido eliminado.
@@ -104,9 +104,9 @@ Para eliminar un directorio que contiene subdirectorios, se utiliza la función 
 ```
 import os
 
-os.makedirs("my_first_directory/my_second_directory")  # Crea un directorio y un subdirectorio
-os.removedirs("my_first_directory/my_second_directory")  # Elimina el subdirectorio
-print(os.listdir())  # Muestra el contenido del directorio actual
+os.makedirs("my_first_directory/my_second_directory")  
+os.removedirs("my_first_directory/my_second_directory") 
+print(os.listdir())  
 ```
 
 Al utilizar `rmdir` o `removedirs`, el directorio debe existir y estar vacío, de lo contrario, se generará una excepción.
