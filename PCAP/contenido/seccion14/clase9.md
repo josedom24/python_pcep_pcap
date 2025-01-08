@@ -62,24 +62,6 @@ Al ejecutar este código, obtendrás una salida similar a la siguiente:
 2019-10-28 2019-10-29 2019-10-30 2019-10-31 2019-11-01 2019-11-02 2019-11-03 2019-11-04 2019-11-05 2019-11-06 2019-11-07 2019-11-08 2019-11-09 2019-11-10 2019-11-11 2019-11-12 2019-11-13 2019-11-14 2019-11-15 2019-11-16 2019-11-17 2019-11-18 2019-11-19 2019-11-20 2019-11-21 2019-11-22 2019-11-23 2019-11-24 2019-11-25 2019-11-26 2019-11-27 2019-11-28 2019-11-29 2019-11-30 2019-12-01 2019-12-02
 ```
 
-## Otros métodos que devuelven iteradores
-
-
-La clase `Calendar` en el módulo `calendar` de Python ofrece varios métodos útiles que devuelven iteradores, permitiendo manipular y acceder a datos relacionados con fechas de forma eficiente. Uno de estos métodos es `itermonthdates`, que recibe como parámetros el año y el mes, y devuelve un iterador que representa todos los días de la semana en forma de números. A continuación, exploramos este método y otros similares que permiten obtener información en diferentes formatos.
-
-El método `itermonthdates(year, month)` es una herramienta poderosa para obtener todos los días del mes especificado, incluyendo los días de las semanas adyacentes necesarios para completar la visualización de una semana. Por ejemplo, al consultar noviembre de 2019, se observan varios ceros en la salida. Estos ceros representan días que no pertenecen a noviembre, pero que se incluyen para completar las semanas. En este caso, los primeros cuatro ceros corresponden a los días del 28 al 31 de octubre, mientras que el último cero representa el día 1 de diciembre.
-
-Aquí hay un fragmento de código que ilustra el uso de `itermonthdates`:
-
-```
-import calendar
-
-c = calendar.Calendar()
-
-for date in c.itermonthdates(2019, 11):
-    print(date, end=" ")
-```
-
 ## Métodos adicionales en la clase `Calendar`
 
 Además de `itermonthdates`, existen otros métodos en la clase `Calendar` que devuelven iteradores con diferentes formatos de datos:

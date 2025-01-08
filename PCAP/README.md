@@ -121,10 +121,10 @@
     * [El módulo time](contenido/seccion14/clase4.md)
     * [El módulo datetime en profundidad](contenido/seccion14/clase5.md)
     * [Operaciones con fechas y horas](contenido/seccion14/clase6.md)
-    * [LABORATORIO: Los módulos datetime y time](contenido/seccion14/clase7.md)
+    * [LABORATORIO: Los módulos datetime y time (P)](contenido/seccion14/clase7.md)
     * [El módulo calendar](contenido/seccion14/clase8.md)
     * [Clases para crear calendarios](contenido/seccion14/clase9.md)
-    * [LABORATORIO: El módulo calendar](contenido/seccion14/clase10.md)
+    * [LABORATORIO: El módulo calendar (P)](contenido/seccion14/clase10.md)
     * [Test intermedio: comprueba lo que has aprendido](contenido/seccion14/test.md)
     * [Prueba intermedia](contenido/seccion14/prueba.md)
 15. Prueba Final
