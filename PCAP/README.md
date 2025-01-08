@@ -116,7 +116,7 @@
     * [LABORATORIO: Evaluando los resultados de los estudiantes (P)](contenido/seccion13/clase10.md)
 14. Módulos de sistema: os, datetime, calendar
     * [El módulo os](contenido/seccion14/clase1.md)
-    * [LABORATORIO: El módulo os](contenido/seccion14/clase2.md)
+    * [LABORATORIO: El módulo os (P)](contenido/seccion14/clase2.md)
     * [El módulo datetime](contenido/seccion14/clase3.md)
     * [El módulo time](contenido/seccion14/clase4.md)
     * [El módulo datetime en profundidad](contenido/seccion14/clase5.md)
