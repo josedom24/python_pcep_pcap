@@ -45,17 +45,17 @@ A continuación, se muestra un ejemplo de cómo se puede utilizar la función `s
 ```
 import time
 
-class Student:
-    def take_nap(self, seconds):
+class Estudiante:
+    def tomar_descanso(self, seconds):
         print("Estoy muy cansado. Tengo que echarme una siesta. Hasta luego.")
         time.sleep(seconds)  # Suspende la ejecución durante el número de segundos especificado
         print("¡Dormí bien! ¡Me siento genial!")
 
-# Creando una instancia de la clase Student y llamando al método take_nap
-student = Student()
-student.take_nap(5)  # La siesta dura 5 segundos
+# Creando una instancia de la clase Estudiante y llamando al método tomar_descanso
+estudiante = Estudiante()
+estudiante.tomar_descanso(5)  # La siesta dura 5 segundos
 ```
-* Puedes modificar la duración de la siesta cambiando el valor pasado a la función `take_nap`. Por ejemplo, si deseas que la siesta dure 10 segundos, simplemente reemplaza `5` por `10`.
+* Puedes modificar la duración de la siesta cambiando el valor pasado a la función `tomar_descanso`. Por ejemplo, si deseas que la siesta dure 10 segundos, simplemente reemplaza `5` por `10`.
 * La función `sleep` es útil no solo para simular tiempos de espera, sino también para controlar la ejecución de programas que requieren intervalos específicos entre operaciones.
 
 ## La función `ctime()`
