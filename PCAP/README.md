@@ -111,9 +111,9 @@
     * [Escritura en archivos de texto](contenido/seccion13/clase5.md)
     * [Trabajando con archivos binarios (P)](contenido/seccion13/clase6.md)
     * [Ejemplo: como copiar archivos](contenido/seccion13/clase7.md)
-    * [LABORATORIO: Histograma de frecuencia de caracteres](contenido/seccion13/clase8.md)
-    * [LABORATORIO: Histograma de frecuencia de caracteres ordenados](contenido/seccion13/clase9.md)
-    * [LABORATORIO: Evaluando los resultados de los estudiantes](contenido/seccion13/clase10.md)
+    * [LABORATORIO: Histograma de frecuencia de caracteres (P)](contenido/seccion13/clase8.md)
+    * [LABORATORIO: Histograma de frecuencia de caracteres ordenados (P)](contenido/seccion13/clase9.md)
+    * [LABORATORIO: Evaluando los resultados de los estudiantes (P)](contenido/seccion13/clase10.md)
 14. Módulos de sistema: os, datetime, calendar
     * [El módulo os](contenido/seccion14/clase1.md)
     * [LABORATORIO: El módulo os](contenido/seccion14/clase2.md)
