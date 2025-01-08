@@ -106,7 +106,7 @@
 13. Trabajando con archivos
     * [Trabajando con archivos (P)](contenido/seccion13/clase1.md)
     * [Manejo de archivos (P)](contenido/seccion13/clase2.md)
-    * [Abriendo y cerrando los archivos](contenido/seccion13/clase3.md)
+    * [Abriendo y cerrando los archivos (P)](contenido/seccion13/clase3.md)
     * [Lectura de archivos de texto](contenido/seccion13/clase4.md)
     * [Escritura en archivos de texto](contenido/seccion13/clase5.md)
     * [Trabajando con archivos binarios](contenido/seccion13/clase6.md)

@@ -2,18 +2,20 @@
 
 Vamos a aprender a leer el contenido de un archivo de texto simple, imprimirlo en la consola y contar el número de caracteres que se han leído. A continuación, se detalla el proceso:
 
-En primer lugar creamos el fichero de texto. Utiliza un editor de texto básico (como Bloc de notas en Windows, vim o gedit en Linux) para crear un archivo llamado `tzop.txt` con un contenido breve, como:
+Asegúrate de tener un archivo llamado `text.txt` con el siguiente contenido:
 
 ```
-Hola, este es un archivo de texto simple.
-Contar caracteres es divertido.
+Lo hermoso es mejor que lo feo.
+Explícito es mejor que implícito.
+Simple es mejor que complejo.
+Complejo es mejor que complicado.
 ```
 
 Aquí tienes un fragmento de código para abrir el archivo, leer su contenido y contar los caracteres:
 
 ```
-# Abre el archivo tzop.txt en modo lectura con codificación UTF-8
-stream = open("tzop.txt", "rt", encoding="utf-8")
+# Abre el archivo text.txt en modo lectura con codificación UTF-8
+stream = open("text.txt", "rt", encoding="utf-8")
 
 # Lee el contenido del archivo
 content = stream.read()
@@ -29,7 +31,7 @@ print("Número total de caracteres leídos:", character_count)
 stream.close()
 ```
 
-* Se utiliza `open("tzop.txt", "rt", encoding="utf-8")` para abrir el archivo en modo lectura. El argumento `encoding="utf-8"` asegura que se lean correctamente los caracteres especiales si los hay.
+* Se utiliza `open("text.txt", "rt", encoding="utf-8")` para abrir el archivo en modo lectura. El argumento `encoding="utf-8"` asegura que se lean correctamente los caracteres especiales si los hay.
 * `stream.read()` lee todo el contenido del archivo y lo almacena en la variable `content`.
 * `print(content)` muestra el contenido del archivo en la consola.
 * `len(content)` cuenta el número total de caracteres en el contenido leído.
@@ -38,15 +40,6 @@ stream.close()
 ## Leer archivos de texto carácter a carácter
 
 Ahora vamos a leer un archivo de texto carácter por carácter utilizando Python. El método `read()` es versátil y puede adaptarse a diferentes necesidades. A continuación, se presenta un ejemplo de cómo usar este método para contar y mostrar cada carácter de un archivo.
-
-Asegúrate de tener un archivo llamado `text.txt` con el siguiente contenido:
-
-```
-Lo hermoso es mejor que lo feo.
-Explícito es mejor que implícito.
-Simple es mejor que complejo.
-Complejo es mejor que complicado.
-```
 
 Aquí tienes el código que abrirá el archivo, leerá cada carácter, lo imprimirá en la consola y contará el número total de caracteres leídos:
 
