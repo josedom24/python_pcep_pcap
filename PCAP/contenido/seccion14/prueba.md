@@ -47,10 +47,10 @@
     [2, 3, 4, 5, 6]
     ```
 
+    * [ ] `foo = list(filter(lambda x: x-0 and x-1, my_tuple)) `
     * [ ] `foo = tuple(filter(lambda x: x>1, my_tuple))`
-    * [ ] `foo = tuple(filter(lambda x*0 and x*1, my_tuple))`
-    * [ ] `foo = list(filter(lambda x==0 and x==1, my_tuple))`
-    * [ ] `foo = list(filter(lambda x*0 and x*1, my_tuple))`
+    * [ ] `foo = list(filter(lambda x: x==0 and x==1, my_tuple))`
+    * [ ] `foo = tuple(filter(lambda x: x-0 and x-1, my_tuple))`
 
 5. ¿Cuál es el resultado esperado de ejecutar el siguiente código?
 
