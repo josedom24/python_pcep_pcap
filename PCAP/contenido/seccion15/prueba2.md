@@ -482,7 +482,7 @@
 37. ¿Cuál es el comportamiento esperado del siguiente código?
 
     ```
-    x = "\\"
+    x = "\"
     print(len(x))
     ```
 
