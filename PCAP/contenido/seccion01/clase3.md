@@ -2,8 +2,7 @@
 
 ## Concepto de namespace
 
-Un **namespace** (espacio de nombres) es un espacio en el que existen nombres únicos y no entran en conflicto entre sí. En términos sencillos, es como un sistema que asegura que los nombres dentro de un grupo o contexto no se repitan. Puedes pensar en un grupo social como un namespace donde cada miembro tiene un nombre único. Así, no se da el caso de que dos personas dentro de un grupo tengan el mismo nombre.
-
+Un **namespace** (espacio de nombres) es un espacio en el que existen nombres únicos y no entran en conflicto entre sí. En términos sencillos, es como un sistema que asegura que los nombres dentro de un grupo o contexto no se repitan. 
 Para ilustrar cómo funciona un namespace, algunos ejemplos comunes serían:
 
 * Apodos dentro de un grupo pequeño (por ejemplo, en una clase).
