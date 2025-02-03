@@ -51,7 +51,7 @@ print(asin(sin(ar)) == ar)  # Verifica si el arcoseno de sin(pi/2) devuelve pi/2
 
 Además podemos usar la siguiente función, sin necesiada de importarla:
 
-* pow(x, y) → encuentra el valor de `x`<sup>y</sup>.
+* `pow(x, y)`: encuentra el valor de `x`<sup>y</sup>.
 
 Ejemplo:
 ```
