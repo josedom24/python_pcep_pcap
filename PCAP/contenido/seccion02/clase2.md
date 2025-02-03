@@ -49,9 +49,9 @@ print(asin(sin(ar)) == ar)  # Verifica si el arcoseno de sin(pi/2) devuelve pi/2
 * `log10(x)`: el logaritmo decimal de `x` (más preciso que `log(x, 10)`).
 * `log2(x)`: el logaritmo binario de `x` (más preciso que `log(x, 2)`).
 
-Además podemos usar la siguiente función, sin necesiada de importarla:
+Además podemos usar la siguiente función, sin necesidad de importarla:
 
-* `pow(x, y)`: encuentra el valor de `x`<sup>y</sup>.
+* `pow(x, y)`: calcula el valor de `x`<sup>y</sup> (potencia).
 
 Ejemplo:
 ```
