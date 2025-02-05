@@ -46,7 +46,7 @@ Required-by:
 
 ## Uso del paquete pygame
 
-Una vez que tenemos instalado el paquete `pygame`, podemos hacer uso del el, y por ejemplo, podemos escribir el siguiente programa:
+Una vez que tenemos instalado el paquete `pygame`, podemos hacer uso del él, y por ejemplo, podemos escribir el siguiente programa:
 
 ```
 import pygame
