@@ -106,7 +106,7 @@ print(flores.Florecer())
 
 ## Paso 9
 
-En este paso, imaginamos que todo el subdirectorio desde la carpeta `ciencia` ha sido comprimido en un archivo llamado `cienciapack.zip`, el cual se coloca en la carpeta `paquetes`. Ahora puedes usar este archivo zip como un paquete en tu código, lo vemos en el `programa6.py`:
+En este paso, imaginamos que todo el subdirectorio desde la carpeta `ciencia` ha sido comprimido en un archivo comprimido llamado `cienciapack.zip`, el cual se coloca en la carpeta `paquetes`. Ahora puedes usar este archivo zip como un paquete en tu código, lo vemos en el `programa6.py`:
 
 ```
 from sys import path
