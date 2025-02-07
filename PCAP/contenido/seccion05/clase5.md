@@ -1,6 +1,6 @@
 # Métodos de las cadenas de caracteres (1ª parte)
 
-Cuando creamos una cadena de caracteres estamos creando un objeto de la clase str, que tiene definido un conjunto de métodos:
+Cuando creamos una cadena de caracteres estamos creando un objeto de la clase `str`, que tiene definido un conjunto de métodos:
 
 ```
 cadena.capitalize    cadena.isalnum       cadena.join          cadena.rsplit
