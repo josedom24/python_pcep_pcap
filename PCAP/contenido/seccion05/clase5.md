@@ -148,7 +148,7 @@ print('kappa'.find('a', 2, 4))
 
 ### `rfind()`
 
-Este método funciona igual que `find()` pero comienzan sus búsquedas desde el final de la cadena, no el principio (de ahí el prefijo `r`, de reversa).
+Este método funciona igual que `find()` pero comienzan sus búsquedas desde el final de la cadena, no desde el principio (de ahí el prefijo `r`, de reversa).
 
 ```
 # Demonstrando el método rfind():
