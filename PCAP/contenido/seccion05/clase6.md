@@ -108,7 +108,7 @@ print("[" + " upsilon ".rstrip() + "]")
 print("cisco.com".rstrip(".com"))
 ```
 
-Por último, el método `strip()` combina los efectos causados por `rstrip()` y `lstrip(): crea una nueva cadena que carece de todos los espacios en blanco (o la subacadena indicada como argumento) iniciales y finales.
+Por último, el método `strip()` combina los efectos causados por `rstrip()` y `lstrip()`: crea una nueva cadena que carece de todos los espacios en blanco (o la subacadena indicada como argumento) iniciales y finales.
 
 ```
 # Demostración del método strip():
