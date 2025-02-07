@@ -94,13 +94,13 @@ El método sin parámetros `lstrip()` devuelve una cadena recién creada formada
 print("[" + " tau ".lstrip() + "]")
 ```
 
-El método con un parámetro `lstrip()` hace lo mismo que su versión sin parámetros, pero elimina todos los caracteres incluidos en el argumento (una cadena), no solo espacios en blanco:
+Si le pasamos un parámetro, hace lo mismo que su versión sin parámetros, pero elimina todos los caracteres incluidos en el argumento (una cadena), no solo espacios en blanco:
 
 ```
 print("www.cisco.com".lstrip("w."))
 ```
 
-`rstrip()` hacen lo mismo que el método `lstrip`, pero afecta el lado opuesto de la cadena.
+`rstrip()` hace lo mismo que el método `lstrip()`, pero afecta el lado opuesto de la cadena.
 
 ```
 # Demostración del método rstrip():
