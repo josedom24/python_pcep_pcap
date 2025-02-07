@@ -1,8 +1,8 @@
 # Codificación de caracteres en Python
 
-Cuando estamos aprendiendo Python, desarrollamos muchos programas que procesan datos numéricos. Sin embargo, muchos de los datos que los ordenadores gestionan diariamente no son números, sino texto: nombres, apellidos, direcciones, ... Estos datos también necesitan ser almacenados, procesados y transformados por los ordenadores. Pero ¿cómo lo hacen?
+Cuando estamos aprendiendo Python, desarrollamos muchos programas que procesan datos numéricos. Sin embargo, muchos de los datos que los ordenadores gestionan diariamente no son números, sino texto: nombres, apellidos, direcciones, ... Estos datos también necesitan ser almacenados, procesados y transformados por los ordenadores. Pero, ¿cómo lo hacen?...
 
-los ordenadores no entienden directamente los caracteres como los humanos. En su lugar, **cada carácter que vemos en una pantalla es almacenado como un número**. Esta conversión es esencial, ya que **los números son lo único que los ordenadores pueden procesar eficientemente**. De esta forma, **cada carácter tiene un valor numérico único**, y algunos de estos valores representan caracteres invisibles para los humanos pero fundamentales para el sistema, como los espacios en blanco o los saltos de línea, que ayudan a controlar dispositivos de entrada y salida.
+Los ordenadores no entienden directamente los caracteres como los humanos. En su lugar, **cada carácter que vemos en una pantalla es almacenado como un número**. Esta conversión es esencial, ya que **los números son lo único que los ordenadores pueden procesar eficientemente**. De esta forma, **cada carácter tiene un valor numérico único**, y algunos de estos valores representan caracteres invisibles para los humanos pero fundamentales para el sistema, como los espacios en blanco o los saltos de línea, que ayudan a controlar dispositivos de entrada y salida.
 
 ## El estándar universal: ASCII
 
