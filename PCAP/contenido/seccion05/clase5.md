@@ -66,7 +66,7 @@ print("Yo sé que no sé nada.".swapcase())
 
 ### `title()`
 
-El método `title()` realiza una función algo similar cambia la primera letra de cada palabra a mayúsculas, convirtiendo todas las demás a minúsculas.
+El método `title()` realiza una función algo similar: cambia la primera letra de cada palabra a mayúsculas, convirtiendo todas las demás a minúsculas.
 
 ```
 # Demostración del método title():
