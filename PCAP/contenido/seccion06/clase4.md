@@ -11,7 +11,7 @@ Además, dejemos que el código conserve las mayúsculas y minúsculas (las min�
 Tu tarea es escribir un programa el cual:
 
 * Le pida al usuario una línea de texto para encriptar.
-* Le pida al usuario un valor de cambio (un número entero del rango 1..25, nota: debes obligar al usuario a ingresar un valor de cambio válido (¡no te rindas y no dejes que los datos incorrectos te engañen!).
+* Le pida al usuario un valor de cambio (un número entero del rango 1..25, nota: debes validar la entrada para asegurarnos que l número está dentro del rango).
 * Imprime el texto codificado. 
 
 Prueba tu código utilizando los datos que te proporcionamos.
