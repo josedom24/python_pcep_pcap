@@ -32,7 +32,7 @@ Veamos el código:
 * Inicia la iteración a través del mensaje.
 * Si el carácter actual no es alfabético...
 * ...ignoralo.
-* Convierta la letra a mayúsculas (es preferible hacerlo a ciegas, en lugar de verificar si es necesario o no).
+* Convierte la letra a mayúsculas.
 * Obtén el código de la letra e increméntalo en uno.
 * Si el código resultante ha "dejado" el alfabeto latino (si es mayor que el código de la Z)...
 * ... cámbialo al código de la A.
