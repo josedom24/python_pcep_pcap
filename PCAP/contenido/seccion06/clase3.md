@@ -1,6 +1,6 @@
 # Ejemplo 3: El validador IBAN
 
-El cuarto programa implementa (en una forma ligeramente simplificada) un algoritmo utilizado por los bancos Europeos para especificar los números de cuenta. El estándar llamado IBAN (Número de cuenta bancaria internacional) proporciona un método simple y bastante confiable para validar los números de cuenta contra errores tipográficos simples que pueden ocurrir durante la reescritura del número, por ejemplo, de documentos en papel, como facturas o facturas en las computadoras. Puedes encontrar más detalles [aquí](https://en.wikipedia.org/wiki/International_Bank_Account_Number).
+Este programa implementa (en una forma ligeramente simplificada) un algoritmo utilizado por los bancos Europeos para especificar los números de cuenta. El estándar llamado IBAN (Número de cuenta bancaria internacional) proporciona un método simple y bastante confiable para validar los números de cuenta contra errores tipográficos simples que pueden ocurrir durante la reescritura del número, por ejemplo, de documentos en papel, como facturas o facturas en las computadoras. Puedes encontrar más detalles [aquí](https://en.wikipedia.org/wiki/International_Bank_Account_Number).
 
 Un número de cuenta compatible con IBAN consta de:
 
