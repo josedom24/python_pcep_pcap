@@ -18,9 +18,7 @@ except:
     print(car_num, "no es un numero.")
 ```
 
-Emplear listas puede hacer que el código sea más pequeño. Puedes hacerlo si quieres.
-
-Presentemos nuestra versión:
+Veamos la explicación del código:
 
 * Pide al usuario que ingrese una línea llena de cualquier cantidad de números (los números pueden ser flotantes).
 * Divide la línea en una lista con subcadenas.
