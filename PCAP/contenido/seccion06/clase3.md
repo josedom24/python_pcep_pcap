@@ -13,7 +13,7 @@ El estándar dice que la validación requiere los siguientes pasos (según Wikip
 1. Verificar que la longitud total del IBAN sea correcta según el país (este programa no lo hará, pero puedes modificar el código para cumplir con este requisito si lo deseas; nota: pero debes enseñar al código a conocer todas las longitudes utilizadas en Europa).
 2. Mueve los cuatro caracteres iniciales al final de la cadena (es decir, el código del país y los dígitos de verificación).
 3. Reemplaza cada letra en la cadena con dos dígitos, expandiendo así la cadena, donde A = 10, B = 11 ... Z = 35.
-4. Interpreta la cadena como un entero decimal y calcula el residuo de ese número dividiéndolo entre 97. Si el residuo es 1, pasa la prueba de verificación de dígitos y el IBAN puede ser válido.
+4. Interpreta la cadena como un entero decimal y calcula el resto de la división del número entre 97. Si el resto es 1, pasa la prueba de verificación de dígitos y el IBAN puede ser válido.
 
 ```
 # Validador IBAN.
