@@ -44,7 +44,7 @@ else:
 
 
 * Pide al usuario que ingrese el IBAN (el número puede contener espacios, ya que mejoran significativamente la legibilidad del número...
-* ... pero remueve los espacios de inmediato).
+* ... pero elimina los espacios de inmediato).
 * El IBAN ingresado debe constar solo de dígitos y letras, de lo contrario...
 * ... muestra un mensaje.
 * El IBAN no debe tener menos de 15 caracteres (esta es la variante más corta, utilizada en Noruega).
