@@ -78,7 +78,7 @@ else:
     print("El atributo 'b' no existe.")
 ```
 
-## Uso de `hasattr() con clases
+## Uso de hasattr() con clases
 
 Además de comprobar si un atributo existe en una instancia de clase, la función `hasattr()` también puede verificar si una clase en sí contiene un atributo de clase. Esta funcionalidad es útil para determinar la disponibilidad de variables o atributos a nivel de clase, sin instanciarla.
 
