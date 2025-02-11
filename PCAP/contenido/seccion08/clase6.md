@@ -77,7 +77,7 @@ Se dice que el método `push` ha sido anulado, el mismo nombre que en la supercl
 
 ## Métodos para obtener valores
 
-Hasta ahora, hemos definido la variable `__sum`, pero no hemos proporcionado un método para obtener su valor. Tenemos que definir un nuevo método. Lo nombraremos get_sum. Su única tarea será devolver el valor de `__sum`.
+Hasta ahora, hemos definido la variable `__sum`, pero no hemos proporcionado un método para obtener su valor. Tenemos que definir un nuevo método. Lo nombraremos `get_sum`. Su única tarea será devolver el valor de `__sum`.
 
 Aquí está:
 ```
