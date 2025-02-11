@@ -63,4 +63,4 @@ Sigue las sugerencias:
 * Inicialízala a cero dentro del constructor.
 * Proporciona un método que devuelva el valor asignado actualmente al contador (nómbralo `get_counter()`).
 
-Completa el código en el editor. Ejecútalo para comprobar si tu código da como salida 100.
+Utiliza la plantilla que te ofrecemos y ejecuta el programa para comprobar si tu código da como salida 100.
