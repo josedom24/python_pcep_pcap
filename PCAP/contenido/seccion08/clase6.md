@@ -17,7 +17,7 @@ En este punto, la clase `AddingStack` no contiene componentes adicionales, pero 
 
 Vamos a añadir nueva funcionalidades a la nueva clase: debe calcular la suma de todos los elementos almacenados en la pila. Para ello:
 
-* Necesitamos otra propiedad para `sum` para guardar la suma.
+* Necesitamos otra propiedad `sum` para guardar la suma.
 * El método `push` no solo debe insertar un valor en la pila, sino que también lo debe sumar al nuevo atributo `sum`. 
 * El método `pop` debería restar el valor extraído de esta variable.
 
