@@ -102,7 +102,7 @@ print(hasattr(ClaseEjemplo, 'a'))    # Verifica si la clase tiene el atributo de
 * `print(hasattr(objeto, 'b'))`: Este atributo es definido dentro del constructor `__init__` como un atributo de instancia, por lo que el objeto `objeto` sí tiene el atributo `b`. La salida será `True`.
 * `print(hasattr(objeto, 'a'))`: Aunque `a` es un atributo de clase y no un atributo de instancia, las instancias pueden acceder a los atributos de clase. Por lo tanto, este comando también devolverá `True`.
 * `print(hasattr(ClaseEjemplo, 'b'))`: Este atributo (`b`) solo existe en las instancias de la clase, no a nivel de clase. Por lo tanto, la clase `ClaseEjemplo` no tiene el atributo `b`, y la salida será `False`.
-* `print(hasattr(ClaseEjemplo, 'a'))`: Este es un atributo de clase (`a`), por lo que la clase `ClaseEjemplo` tiene acceso directo a él, y la salida será `True`.
+* `print(hasattr(ClaseEjemplo, 'a'))`: `a` es un atributo de clase, por lo que la clase `ClaseEjemplo` tiene acceso directo a él, y la salida será `True`.
 
 ## Cuestionario
 
