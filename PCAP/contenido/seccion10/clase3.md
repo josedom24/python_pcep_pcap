@@ -1,6 +1,6 @@
 # Relación entre objetos y clases
 
-En Python, un objeto es la encarnación de una clase, pero en ocasiones necesitamos comprobar de que clase es un objeto. La función `isinstance()` se utiliza para verificar si un objeto es una instancia de una clase determinada o de una de sus subclases. Su sintaxis es la siguiente:
+En Python, un objeto es una instancia de una clase, pero en ocasiones necesitamos comprobar de que clase es un objeto. La función `isinstance()` se utiliza para verificar si un objeto es una instancia de una clase determinada o de una de sus subclases. Su sintaxis es la siguiente:
 
 ```
 isinstance(NombreObjeto, NombreClase)
