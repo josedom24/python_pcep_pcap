@@ -9,7 +9,7 @@ La función `issubclass()` tiene la siguiente sintaxis:
 ```
 issubclass(ClaseUna, ClaseDos)
 ```
-* `CalseUna`: La clase que se está evaluando.
+* `ClaseUna`: La clase que se está evaluando.
 * `ClaseDos`: La clase que se considera como posible superclase.
 
 La función devuelve `True` si `CalseUna` es una subclase de `ClaseDos`, y `False` en caso contrario.
