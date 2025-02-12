@@ -12,7 +12,7 @@ issubclass(ClaseUna, ClaseDos)
 * `ClaseUna`: La clase que se está evaluando.
 * `ClaseDos`: La clase que se considera como posible superclase.
 
-La función devuelve `True` si `CalseUna` es una subclase de `ClaseDos`, y `False` en caso contrario.
+La función devuelve `True` si `ClaseUna` es una subclase de `ClaseDos`, y `False` en caso contrario.
 
 Para ilustrar cómo funciona `issubclass()`, consideremos un ejemplo sencillo que incluye tres clases:
 
