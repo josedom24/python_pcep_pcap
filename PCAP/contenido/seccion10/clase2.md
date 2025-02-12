@@ -7,7 +7,7 @@ En Python, la herencia es una característica fundamental de la programación or
 La función `issubclass()` tiene la siguiente sintaxis:
 
 ```
-issubclass(CalseUna, ClaseDos)
+issubclass(ClaseUna, ClaseDos)
 ```
 * `CalseUna`: La clase que se está evaluando.
 * `ClaseDos`: La clase que se considera como posible superclase.
