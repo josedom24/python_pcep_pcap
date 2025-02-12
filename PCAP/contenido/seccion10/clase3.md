@@ -45,7 +45,7 @@ Podemos organizar la salida en una tabla más legible:
 
 ```
 ↓ es una instancia de → 	Vehiculo 	VehiculoTerrestre 	VehiculoOruga
-mivehiculo          	    True       	False            	False
+mivehiculo              	   True       	False            	False
 mivehiculoterrestre     	True       	True            	False
 mivehiculooruga  	        True       	True               	True
 ```
