@@ -22,7 +22,7 @@ El constructor de la clase acepta un argumento: una cadena. La cadena representa
 
 `Lun Mar Mie Jue Vie Sab Dom`
 
-Invocar al constructor con un argumento desde fuera de este conjunto debería generar la excepción `WeekDayError` (defínela tu mismo). La clase debe proporcionar las siguientes facilidades:
+Invocar al constructor con un argumento desde fuera de este conjunto debería generar la excepción `WeekDayError` (defínela tu mismo). La clase debe proporcionar las siguientes funcionalidades:
 
 * Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la misma forma que los argumentos del constructor. 
 * La clase debe estar equipada con métodos de un parámetro llamados `add_days(n)` y `subtract_days(n)`, siendo `n` un número entero que actualiza el día de la semana almacenado dentro del objeto mediante el número de días indicado, hacia adelante o hacia atrás.
