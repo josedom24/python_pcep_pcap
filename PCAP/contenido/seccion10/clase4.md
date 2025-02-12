@@ -59,7 +59,7 @@ La función `super()` crea un contexto en el que no tiene que (además, no debe)
 
 ## Las propiedades también se heredan
 
-Las propiedades oo atributos también se heredan, tanso sin son de clases o si son de instancias.
+Las propiedades o atributos también se heredan, tanso sin son de clases o si son de instancias.
 
 ### Variables de clases
 
