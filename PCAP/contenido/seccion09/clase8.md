@@ -20,7 +20,7 @@ Necesitamos una clase capaz de contar segundos. Tu clase se llamará `Timer` (te
 
 Cero es el valor predeterminado para todos los parámetros anteriores. No es necesario realizar ninguna comprobación de validación.
 
-La clase en sí debería proporcionar las siguientes facilidades:
+La clase en sí debería proporcionar las siguientes funcionalidades:
 
 * Los objetos de la clase deben ser "imprimibles", es decir, deben poder convertirse implícitamente en cadenas de la siguiente forma: "hh:mm:ss", con ceros a la izquierda agregados cuando cualquiera de los valores es menor que 10. 
 * La clase debe estar equipada con métodos sin parámetros llamados `next_second()` y `previous_second()`, incrementando el tiempo almacenado dentro de los objetos en +1/-1 segundos respectivamente.
