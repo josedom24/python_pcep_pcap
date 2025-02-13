@@ -69,8 +69,8 @@ except TooMuchCheeseError as e:
 ```
 
 
-* Hemos definido la clase `PizzaError`** a partir de `Exception`. El constructor recibe dos parámetros: `pizza` (nombre de la pizza) y `message` (descripción del error). Se llama al constructor de la superclase (`Exception`) con el mensaje de error y se almacena la información sobre la pizza en el atributo `self.pizza`.
-* Hemos definido la clase `TooMuchCheeseError`** a partir de `PizzaError`. El constructor recibe tres parámetros: `pizza`, `cheese` (cantidad de queso en gramos), y `message`. Se llama al constructor de `PizzaError` y se almacena la cantidad de queso en el atributo `self.cheese`.
+* Hemos definido la clase `PizzaError` a partir de `Exception`. El constructor recibe dos parámetros: `pizza` (nombre de la pizza) y `message` (descripción del error). Se llama al constructor de la superclase (`Exception`) con el mensaje de error y se almacena la información sobre la pizza en el atributo `self.pizza`.
+* Hemos definido la clase `TooMuchCheeseError` a partir de `PizzaError`. El constructor recibe tres parámetros: `pizza`, `cheese` (cantidad de queso en gramos), y `message`. Se llama al constructor de `PizzaError` y se almacena la cantidad de queso en el atributo `self.cheese`.
 * Se simula una verificación de la cantidad de queso. Si la cantidad excede el límite permitido (300 gramos), se lanza la excepción `TooMuchCheeseError`.
 * En el bloque `except`, se captura la excepción y se imprime un mensaje que incluye detalles sobre la pizza y la cantidad de queso.
 
