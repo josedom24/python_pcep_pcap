@@ -1,12 +1,5 @@
 # El módulo platform
 
-El módulo `platform` en Python proporciona herramientas para obtener información sobre el entorno en el que se está ejecutando el programa, específicamente sobre el sistema operativo y el hardware. Esto es útil cuando se desea conocer la ubicación del programa dentro del entorno del ordenador, que consta de varias capas:
-
-1. **Código (en ejecución)**: Es la capa más alta, donde el código de Python se ejecuta.
-2. **Entorno de ejecución de Python**: Directamente debajo del código, el entorno de Python permite interactuar con el sistema operativo.
-3. **Sistema operativo (SO)**: Ofrece servicios a Python para manejar archivos, procesos, y otros recursos.
-4. **Hardware**: En la base de la pirámide, el hardware se encarga de los dispositivos físicos como el procesador, discos, interfaces de red y dispositivos de entrada (teclado, ratón).
-
 El módulo `platform` permite obtener información sobre el sistema operativo, como el nombre y características del hardware. Esto puede ser útil para tareas como verificar la compatibilidad de un programa con el entorno de ejecución.
 
 El módulo `platform` es útil para obtener esta información sin necesidad de interactuar directamente con el sistema operativo, permitiendo que el programa se adapte mejor al entorno en el que se ejecuta.
