@@ -1,6 +1,6 @@
 # Trabajando con archivos
 
-El acceso a archivos desde código en Python es una técnica esencial cuando se trata de procesar grandes volúmenes de datos. Mientras que en tareas simples, como la clasificación de 20 números, los datos pueden ingresarse manualmente, esto se vuelve impráctico cuando el volumen crece, como en el caso de 20,000 números. La solución eficiente es almacenar estos datos en archivos, los cuales el programa puede leer, procesar y luego guardar los resultados en otro archivo.
+El acceso a archivos desde código en Python es una técnica esencial cuando se trata de procesar grandes volúmenes de datos. Mientras que en tareas simples, como la clasificación de 20 números, los datos pueden ingresarse manualmente, esto se vuelve más complicado cuando el volumen crece, como en el caso de 20,000 números. La solución eficiente es almacenar estos datos en archivos, los cuales el programa puede leer, procesar y luego guardar los resultados en otro archivo.
 
 El uso de archivos es crucial para almacenar información entre ejecuciones de un programa, como en el caso de una base de datos simple. Además, muchos problemas complejos de programación requieren el uso de archivos para manejar datos persistentes, como imágenes, cálculos matemáticos o información financiera.
 
