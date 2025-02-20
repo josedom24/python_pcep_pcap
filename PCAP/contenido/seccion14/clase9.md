@@ -37,7 +37,7 @@ El programa generará el siguiente resultado:
 
 Esto demuestra cómo el método `iterweekdays()` devuelve un iterador que comienza con el día especificado por `firstweekday`, seguido de los días restantes en el orden correspondiente.
 
-## El método `itermonthdates()
+## El método itermonthdates()
 
 El método `itermonthdates()` de la clase `Calendar` es una herramienta muy útil para obtener todos los días de un mes específico, incluyendo los días de las semanas que no pertenecen a ese mes pero que son necesarios para completar la visualización de una semana completa. 
 
