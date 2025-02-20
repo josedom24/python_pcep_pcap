@@ -9,7 +9,7 @@ isinstance(NombreObjeto, NombreClase)
 * `NombreObjeto`: El objeto que se está evaluando.
 * `NombreClase`: La clase que se considera como posible tipo del objeto.
 
-La función devuelve `True` si `NombreObjeto` es una instancia de `NombreClase` o de una de sus subclases, y `False` en caso contrario.
+La función devuelve `True` si `NombreObjeto` es una instancia de `NombreClase` o de una de sus superclases, y `False` en caso contrario.
 
 Consideremos un ejemplo con una jerarquía de clases que incluye `Vehicle`, `LandVehicle` y `TrackedVehicle`:
 
