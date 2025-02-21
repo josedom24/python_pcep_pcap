@@ -32,11 +32,10 @@ print("Microsegundo:", t.microsecond)     # Salida: Microsegundo: 1
 * Puedes acceder a los componentes individuales de la hora (hora, minuto, segundo, microsegundo) utilizando los atributos correspondientes de la instancia del objeto `time`.
 * El parámetro `tzinfo` y el parámetro `fold` están relacionados con la gestión de zonas horarias y el manejo de la ambigüedad en los cambios de hora, aunque no se cubrirán en este curso.
 
-## El módulo `time`
+## Funciones del módulo `time`
 
-### Resumen sobre el Módulo `time` en Python
-
-El módulo `time` de Python proporciona diversas funciones para trabajar con el tiempo y las pausas en la ejecución de programas. Uno de los usos más comunes de este módulo es la función `sleep`, que permite suspender la ejecución de un programa durante un número específico de segundos.
+### La función `sleep()`
+Uno de los usos más comunes de este módulo es la función `sleep`, que permite suspender la ejecución de un programa durante un número específico de segundos.
 
 La función `sleep` se utiliza para pausar la ejecución del programa por un período determinado. Acepta un argumento que puede ser un número entero o de punto flotante, representando los segundos de pausa.
 
@@ -58,7 +57,7 @@ estudiante.tomar_descanso(5)  # La siesta dura 5 segundos
 * Puedes modificar la duración de la siesta cambiando el valor pasado a la función `tomar_descanso`. Por ejemplo, si deseas que la siesta dure 10 segundos, simplemente reemplaza `5` por `10`.
 * La función `sleep` es útil no solo para simular tiempos de espera, sino también para controlar la ejecución de programas que requieren intervalos específicos entre operaciones.
 
-## La función `ctime()`
+### La función `ctime()`
 
 La función `ctime()` del módulo `time` en Python se utiliza para convertir un valor de tiempo en segundos desde el 1 de enero de 1970 (época Unix) en una representación de cadena legible que muestra la fecha y hora correspondientes.
 
@@ -85,7 +84,7 @@ import time
 print(time.ctime())  # Muestra la fecha y hora actuales
 ```
 
-## Las funciones `gmtime()` y `localtime()`
+### Las funciones `gmtime()` y `localtime()`
 
 En el módulo `time` de Python, las funciones `gmtime()` y `localtime()` son útiles para convertir un valor de tiempo en segundos desde la época Unix a un objeto `struct_time`, que descompone el tiempo en componentes legibles como año, mes, día, etc.
 
@@ -126,7 +125,7 @@ local_time = time.localtime(timestamp)
 print(local_time)
 ```
 
-## Las funciones `asctime()` y `mktime()`
+### Las funciones `asctime()` y `mktime()`
 
 El módulo `time` de Python incluye funciones que permiten trabajar con objetos `struct_time` y tuplas, facilitando la conversión entre formatos de tiempo legibles y timestamps en segundos desde la época Unix.
 
